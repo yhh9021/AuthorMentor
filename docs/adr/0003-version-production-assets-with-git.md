@@ -1,12 +1,12 @@
-# Version Production Assets with Git
+# 使用 Git 管理生产资产版本
 
-All production assets for the Novel Production System will live in a Git repository, including Global Material Libraries, Project Material Libraries, Project Story Bibles, Creative Blueprints, chapters, review reports, and capability outputs. Each Direct Capability Update should be committed as a Git commit so changes are traceable, diffable, and reversible without building a separate rollback system.
+网文生产系统的所有生产资产都放在 Git 仓库中，包括全局素材库、单书专属素材库、单书故事圣经、创作蓝图、章节、评审报告和能力产物。每次能力直接更新都应该形成一次 Git 提交，让改动天然可追溯、可比较、可回滚，而不需要额外构建一套回滚系统。
 
-**Considered Options**
+**考虑过的方案**
 
-- Maintain custom run directories and rollback files
-- Use Git as the version history for all production assets
+- 自行维护运行目录和回滚文件
+- 使用 Git 作为所有生产资产的版本历史
 
-**Consequences**
+**结果**
 
-Capability implementations should make small, coherent commits with clear messages that identify the capability invocation and affected assets. Human edits can also be committed, but agent-made commits should remain easy to distinguish from manual changes.
+能力实现应产生小而内聚的提交，提交信息需要标识能力调用和受影响资产。人工编辑也可以提交，但智能体产生的提交应当容易和人工修改区分开。

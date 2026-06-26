@@ -1,12 +1,12 @@
-# Use Local Files for the First Production Workflow
+# 第一版使用本地文件工作流
 
-The first version of the Novel Production System will use local files, command-line tasks, and agent workflows instead of a database-backed web application. This keeps Creative Briefs, Deconstruction Reports, Material Libraries, Project Story Bibles, chapters, and review reports easy to inspect and edit while the domain structure is still changing.
+第一版网文生产系统使用本地文件、命令行任务和智能体工作流，而不是数据库驱动的网页应用。这样在领域结构仍在变化时，创作需求简报、拆书报告、素材库、单书故事圣经、章节和评审报告都更容易检查和编辑。
 
-**Considered Options**
+**考虑过的方案**
 
-- Local Markdown/YAML/JSON files
-- Database-backed web application
+- 本地 Markdown/YAML/JSON 文件
+- 数据库驱动的网页应用
 
-**Consequences**
+**结果**
 
-Markdown with YAML front matter is the default for human-reviewed artifacts, while JSON is reserved for machine-readable indexes, entity tables, relationship graphs, and timelines.
+Markdown 加 YAML front matter 作为人工审阅产物的默认格式；JSON 只用于机器稳定读取的索引、实体表、关系图和时间线。

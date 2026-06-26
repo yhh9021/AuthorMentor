@@ -1,12 +1,12 @@
-# Allow Production Capabilities to Update Files Directly
+# 允许生产能力直接更新文件
 
-Production Capabilities may directly update Material Libraries, Project Story Bibles, Creative Blueprints, and other production files instead of always stopping at candidate artifacts for manual ingestion. This keeps the Local Agent Workflow useful as an active production system, while requiring every direct update to leave a Capability Change Record for auditability and later correction.
+生产能力可以直接更新素材库、单书故事圣经、创作蓝图和其他生产文件，不必总是停在候选产物等待人工入库。这样本地智能体工作流才能成为真正可用的生产系统；同时，每次直接更新都必须留下能力改动记录，便于审计和后续修正。
 
-**Considered Options**
+**考虑过的方案**
 
-- Require human approval before every library or story-bible update
-- Allow direct capability updates with change records
+- 每次素材库或故事圣经更新前都要求人工确认
+- 允许能力直接更新文件，但必须留下改动记录
 
-**Consequences**
+**结果**
 
-The system must prioritize clear change logs and reversible file edits, because correctness is enforced through traceability and later correction rather than mandatory pre-approval for every update.
+系统必须优先保证清晰的改动日志和可回退的文件编辑。正确性通过可追溯性和后续修正来保障，而不是通过每次更新前的强制人工审批来保障。

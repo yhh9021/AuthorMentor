@@ -1,291 +1,295 @@
-# Long-Form Web Novel Production
+# 长篇网文生产
 
-This context defines the domain language for a system that helps produce serialized long-form web novels with AI assistance and human editorial control.
+本文档定义一个用 AI 辅助、由人类编辑控制的长篇连载网文生产系统的领域语言。
 
-## Language
+## 语言
 
-**Novel Production System**:
-The overall system that supports semi-automated long-form web novel production through research, material management, book analysis, blueprint generation, chapter drafting, review, and human acceptance.
-_Avoid_: Single novel project, one-off writing prompt
+**网文生产系统**:
+支持半自动长篇网文生产的整体系统，覆盖调研、素材管理、拆书、创作蓝图生成、章节生产、评审和人工验收。
+_避免_: 单本小说项目、一次性写作提示词
 
-**Local Agent Workflow**:
-The first-version system shape where novel production runs through local files, command-line tasks, and agent workflows rather than a full web application.
-_Avoid_: First-version web app, UI-first workflow
+**本地智能体工作流**:
+第一版系统形态，通过本地文件、命令行任务和智能体工作流运行，而不是先做完整网页应用。
+_避免_: 第一版网页应用、界面优先工作流
 
-**Production Capability**:
-A reusable task capability in the Novel Production System, such as research, Book Deconstruction, Story Setting generation, Full-Novel Outline generation, or Chapter Treatment generation.
-_Avoid_: One-off prompt, permanent workflow state
+**生产能力**:
+网文生产系统中的可复用任务能力。第一版生产能力包括调研能力、拆书能力、创作需求补全能力、设定生成能力、全书大纲生成能力、章节细纲生成能力。
+_避免_: 一次性提示词、永久流程状态
 
-**Capability Invocation**:
-A single run of a Production Capability, started either by a human request or by an agent when the current novel production task needs that capability.
-_Avoid_: Hidden side effect, unmanaged background work
+**能力调用**:
+一次生产能力运行，可以由人主动发起，也可以由智能体在当前生产任务需要时自动发起。
+_避免_: 隐藏副作用、无人管理的后台任务
 
-**Capability Artifact**:
-The durable output produced by a Capability Invocation, such as a Deconstruction Report, research report, generated setting draft, outline draft, treatment draft, or direct update to a target library or story bible.
-_Avoid_: Invisible context update, unrecorded mutation
+**能力产物**:
+能力调用产生的持久结果，例如拆书报告、调研报告、设定草稿、大纲草稿、细纲草稿，或对目标素材库、故事圣经的直接更新。
+_避免_: 不可见的上下文更新、无记录修改
 
-**Direct Capability Update**:
-A Capability Invocation that directly modifies a Material Library, Project Story Bible, Creative Blueprint, or other production file as part of completing its task.
-_Avoid_: Manual-only update, hidden edit
+**能力直接更新**:
+能力调用在完成任务时直接修改素材库、单书故事圣经、创作蓝图或其他生产文件。
+_避免_: 只能人工更新、隐藏编辑
 
-**Capability Change Record**:
-The audit record left by a Direct Capability Update, describing what changed, which capability made the change, what inputs or sources were used, and why the change was made.
-_Avoid_: Unlogged change, silent mutation
+**能力改动记录**:
+能力直接更新留下的审计记录，说明改了什么、由哪个能力修改、使用了什么输入或来源、为什么修改。
+_避免_: 无日志改动、静默修改
 
-**Semi-Automated Serial Production**:
-A production mode where the system drafts one or more publishable chapter candidates on a recurring cadence, while a human editor retains control over direction, acceptance, and final release.
-_Avoid_: Fully automated novel generation, one-click million-word generation, author assistant
+**半自动连载生产**:
+系统按需产出一个或多个可发布章节候选稿，但人类编辑保留方向控制、验收和最终发布决策。
+_避免_: 全自动小说生成、一键百万字生成、单纯作者助手
 
-**Creative Blueprint**:
-The approved pre-production package required before chapter drafting begins. It contains the Story Setting, Full-Novel Outline, and Chapter Treatment.
-_Avoid_: Prompt, idea dump, rough notes
+**创作蓝图**:
+章节生产前必须具备并通过确认的前置创作包，包含故事设定、全书大纲和章节细纲。
+_避免_: 提示词、想法堆、粗略笔记
 
-**Creative Brief**:
-The structured starting input for Creative Blueprint generation, describing genre, target reader, platform direction, length target, core hook, constraints, reference direction, and expected serialization cadence.
-_Avoid_: Vague idea, free-form prompt only
+**创作需求简报**:
+创作蓝图生成的结构化起点，描述题材、目标读者、平台方向、篇幅目标、核心卖点、约束、参考方向和预期连载节奏。
+_避免_: 模糊想法、只有自由文本提示词
 
-**Brief Completion Flow**:
-The system-guided clarification process that turns a vague story idea into a Creative Brief by proposing defaults and asking for missing production decisions.
-_Avoid_: Direct blueprint generation from a vague idea
+**创作需求补全流程**:
+系统引导的澄清流程，用默认建议和追问把模糊故事想法补全为创作需求简报。
+_避免_: 从模糊想法直接生成创作蓝图
 
-**Project Story Bible**:
-The per-novel production record that contains the approved Creative Blueprint and evolving canon such as settings, outline, characters, relationships, factions, map, timeline, unresolved hooks, and accepted chapter facts.
-_Avoid_: Global Material Library, raw research folder
+**单书故事圣经**:
+单本小说的生产记录，包含已确认的创作蓝图，以及持续演进的正史内容，例如设定、大纲、角色、关系、势力、地图、时间线、未回收钩子和已验收章节事实。
+_避免_: 全局素材库、原始调研文件夹
 
-**Reference-Canon Boundary**:
-The separation between a Project Material Library as reference material and a Project Story Bible as decided or accepted novel truth.
-_Avoid_: Treating references as canon
+**参考正史边界**:
+单书专属素材库与单书故事圣经之间的边界。素材库是参考材料，故事圣经是已经决定或已经验收的小说事实。
+_避免_: 把参考材料当成本书正史
 
-**Planned Story Change**:
-A change to future-facing or not-yet-canonized parts of the Project Story Bible, such as later outline, unrevealed setting, or characters that have not entered accepted chapters.
-_Avoid_: Canon rewrite, accepted chapter fact change
+**计划修改**:
+对单书故事圣经中面向未来或尚未正史化部分的修改，例如后续大纲、未揭露设定、尚未进入定稿章节的角色。
+_避免_: 正史改写、已验收章节事实变更
 
-**Canon Change**:
-A change to facts already established by Final Chapter Acceptance, requiring explicit change tracking and impact analysis across continuity.
-_Avoid_: Silent retcon, plan adjustment
+**正史修改**:
+对已由最终章节验收建立的事实进行修改，必须有显式变更记录和连续性影响分析。
+_避免_: 静默追溯修改、普通计划调整
 
-**Story Setting**:
-The stable facts and rules of a novel, including characters, world, factions, power system, tone, genre promises, and constraints.
-_Avoid_: Background material, random lore
+**故事设定**:
+一部小说的稳定事实和规则，包括角色、世界、势力、能力体系、调性、类型承诺和约束。
+_避免_: 背景材料、随机设定
 
-**Male-Frequency Genre Lane**:
-The target market lane for the system's first novels, centered on plot momentum, protagonist progression, conflict escalation, and serial reader retention.
-_Avoid_: All fiction genres, generic novel writing
+**男频赛道**:
+第一版系统面向的目标市场赛道，核心关注剧情推进、主角成长、冲突升级和连载读者留存。
+_避免_: 全部小说类型、通用小说写作
 
-**Supported Genre Family**:
-A genre family that the system may produce with its own expectations for setting, progression, review criteria, and reader promises. The initial candidates are xuanhuan, xianxia, urban rebirth, and science fiction.
-_Avoid_: Universal genre support, arbitrary style tag
+**支持题材族**:
+系统可生产的题材族，每个题材族都有自己的设定期待、成长方式、评审标准和读者承诺。第一版候选为玄幻、仙侠、都市重生、科幻。
+_避免_: 万能题材支持、任意风格标签
 
-**Shared Serial Grammar**:
-The common male-frequency serial fiction pattern shared across Supported Genre Families, including protagonist progression, escalating conflict, payoff rhythm, chapter hooks, and reader-retention pacing.
-_Avoid_: Universal storytelling theory, genre-neutral writing rule
+**共享连载语法**:
+多个支持题材族共享的男频连载模式，包括主角成长、冲突升级、爽点兑现节奏、章节钩子和读者留存节奏。
+_避免_: 通用叙事理论、无题材差异的写作规则
 
-**Genre Constraint**:
-The genre-specific promise or rule that modifies the Shared Serial Grammar for a Supported Genre Family, such as cultivation realms in xianxia or technology plausibility in science fiction.
-_Avoid_: Optional flavor, decoration
+**题材约束**:
+支持题材族对共享连载语法的具体修正，例如仙侠的境界体系、科幻的技术可信度。
+_避免_: 可有可无的风味、装饰性设定
 
-**Research Capability**:
-The system capability for gathering and organizing market trends, male-frequency tropes, genre reference material, and writing-method knowledge before or during novel production.
-_Avoid_: Casual web search, prompt stuffing
+**调研能力**:
+收集和整理市场趋势、男频套路、题材资料和写作方法知识的系统能力。
+_避免_: 随便搜索、把搜索结果直接塞进提示词
 
-**Material Library**:
-The curated source of reusable references, examples, tropes, settings, character patterns, plot devices, and style samples used by the Novel Production System.
-_Avoid_: Random notes, model memory
+**素材库**:
+网文生产系统使用的可复用参考、样例、套路、设定、角色模式、桥段和文风样本集合。
+_避免_: 随机笔记、模型记忆
 
-**Global Material Library**:
-The cross-project Material Library that accumulates broad male-frequency patterns, research findings, genre references, and deconstruction outputs for reuse across novels.
-_Avoid_: Single-novel context, project-specific canon
+**全局素材库**:
+跨项目复用的素材库，积累男频通用模式、调研结论、题材资料和拆书产物。
+_避免_: 单书上下文、项目正史
 
-**Project Material Library**:
-The per-novel Material Library selected and adapted from the Global Material Library and project-specific research to guide one novel's production.
-_Avoid_: Global dump, Canon Record
+**单书专属素材库**:
+为某本小说服务的素材库，由全局素材库和项目专项调研筛选、改造而来，用于指导该小说生产。
+_避免_: 全局素材倾倒、正史记录
 
-**Source Material Layer**:
-The traceable layer of the Material Library that keeps original references, links, excerpts, deconstruction outputs, research notes, and source metadata.
-_Avoid_: Unattributed memory, reusable pattern
+**原始材料层**:
+素材库中保留来源可追溯性的层，保存原始参考、链接、摘录、拆书产物、调研笔记和来源元数据。
+_避免_: 无来源记忆、可复用模式
 
-**Reusable Pattern Layer**:
-The abstracted layer of the Material Library that stores reusable creative patterns such as opening moves, cheat systems, antagonist pressure, progression rhythm, chapter hooks, and payoff designs.
-_Avoid_: Raw source dump, copied plot
+**可复用模式层**:
+素材库中抽象后的层，保存可复用创作模式，例如开局方式、金手指模式、反派压迫、升级节奏、章节钩子和爽点兑现设计。
+_避免_: 原始材料堆、照搬剧情
 
-**Pattern Reuse Boundary**:
-The rule that reusable patterns may transfer structure, rhythm, and function, but not distinctive wording, proprietary names, unique event chains, or recognizable combinations from a source work.
-_Avoid_: Plot copying, surface-level paraphrase
+**模式复用边界**:
+可复用模式只能迁移结构、节奏和功能，不能迁移来源作品中的独特表达、专有名称、独特事件链或可识别组合。
+_避免_: 剧情复制、表层改写
 
-**Book Deconstruction**:
-The system capability for analyzing existing novels into reusable structural observations, such as premise, pacing, arc shape, conflict pattern, hooks, payoffs, character roles, and genre promises.
-_Avoid_: Plagiarism, copying chapters
+**拆书能力**:
+分析既有小说并提取可复用结构观察的系统能力，例如前提、节奏、弧线、冲突模式、钩子、爽点、角色功能和类型承诺。
+_避免_: 抄袭、复制章节
 
-**Deconstruction Report**:
-The structured output of Book Deconstruction, containing observations, reusable patterns, source notes, and any resulting Direct Capability Updates to a Material Library.
-_Avoid_: Copied source notes, unlogged material update
+**拆书报告**:
+拆书能力的结构化输出，包含观察、可复用模式、来源笔记，以及对素材库产生的能力直接更新。
+_避免_: 复制来源笔记、无记录素材更新
 
-**Production-Oriented Deconstruction**:
-The Book Deconstruction approach that extracts reusable production knowledge such as opening design, core hook, protagonist progression, cheat system, conflict escalation, map or faction expansion, chapter hooks, payoff rhythm, reader expectation management, reusable patterns, and reuse risks.
-_Avoid_: Literary criticism, plot recap only
+**生产型拆书**:
+服务网文生产的拆书方式，提取开局设计、核心卖点、主角成长、金手指、冲突升级、地图或势力展开、章节钩子、爽点节奏、读者期待管理、可复用模式和复用风险。
+_避免_: 文学评论、只复述剧情
 
-**Primary Novel Text**:
-A novel text supplied by the user in a file or similar direct input for Book Deconstruction.
-_Avoid_: Automatically scraped novel text, reader commentary
+**原始小说文本**:
+用户以文件或类似直接输入方式提供给拆书能力的小说文本。
+_避免_: 自动抓取小说文本、普通读者评论
 
-**Secondary Deconstruction Source**:
-A public book review summary or book-deconstruction video used as indirect input for Book Deconstruction when Primary Novel Text is unavailable or insufficient.
-_Avoid_: Raw novel chapter scraping, ordinary reader comment as content source
+**二手拆书来源**:
+当没有原始小说文本或原始小说文本不足时，用于间接拆书的公开书评总结或拆书视频。
+_避免_: 抓取原始章节、把普通读者评论当内容来源
 
-**Engagement Credibility Signal**:
-The popularity and reception evidence used to estimate the reliability of a Secondary Deconstruction Source, especially likes on the source itself and likes on related comments.
-_Avoid_: Treating all secondary sources as equally reliable
+**互动可信度信号**:
+用于估算二手拆书来源可靠性的热度和反馈证据，尤其是来源本身点赞数和相关评论点赞数。
+_避免_: 把所有二手来源视为同等可靠
 
-**Secondary Source Credibility Score**:
-A simple combined reliability estimate for a Secondary Deconstruction Source, based on engagement, creator quality, and corroboration by other sources.
-_Avoid_: Like count only, unscored secondary source
+**二手来源可信度评分**:
+对二手拆书来源的简单综合可靠性估计，基于互动、创作者质量和多个来源互证。
+_避免_: 只看点赞数、不评分的二手来源
 
-**Pre-Production Pipeline**:
-The first-priority system workflow that turns Research Capability, Material Library inputs, and Book Deconstruction findings into an approvable Creative Blueprint before any Chapter Draft is produced.
-_Avoid_: Chapter drafting workflow, direct generation
+**前置创作链路**:
+第一优先级系统工作流，把调研能力、素材库输入和拆书发现转化为可确认的创作蓝图，然后才进入章节生产。
+_避免_: 章节生产工作流、直接生成正文
 
-**Full-Novel Outline**:
-The high-level structure of the whole novel, including the main premise, major arcs, turning points, ending direction, and volume-level progression.
-_Avoid_: Chapter plan, synopsis
+**全书大纲**:
+整本小说的高层结构，包括核心前提、主要篇章、关键转折、结局方向和卷级推进。
+_避免_: 章节计划、简介
 
-**Chapter Treatment**:
-The detailed chapter-by-chapter plan created before drafting prose. Each Chapter Treatment item describes what a chapter must accomplish before the Chapter Draft is written.
-_Avoid_: Full-Novel Outline, scene draft
+**章节细纲**:
+正文写作前创建的逐章详细计划。每个章节细纲项说明该章在章节草稿写作前必须完成什么。
+_避免_: 全书大纲、场景草稿
 
-**Chapter Draft**:
-A complete prose candidate for one serial chapter, produced from the approved Creative Blueprint and still subject to human editorial acceptance.
-_Avoid_: Scene, fragment, final published chapter
+**章节草稿**:
+从已确认创作蓝图生成的完整单章正文候选稿，仍需人工编辑验收。
+_避免_: 场景、片段、最终发布章节
 
-**Next-Chapter Production**:
-An on-demand production mode where the system drafts the next chapter only when requested, using the approved Creative Blueprint and the accepted prior chapters as context.
-_Avoid_: Daily batch production, scheduled auto-publication
+**下一章生产**:
+按需生产模式。系统只在被请求时生成下一章，并使用已确认创作蓝图和已验收前文作为上下文。
+_避免_: 每日批量生产、定时自动发布
 
-**Automated Chapter Review**:
-The system-led quality gate applied after a Chapter Draft is produced. It checks continuity with prior chapters, consistency with Story Setting, prose naturalness, and alignment with the Full-Novel Outline.
-_Avoid_: Human acceptance, proofreading only
+**自动章节评审**:
+章节草稿生成后的系统质量门禁，检查与前文衔接、与故事设定一致、文字自然度、与全书大纲一致。
+_避免_: 人工验收、只做校对
 
-**Chapter Review Report**:
-The traceable record of Automated Chapter Review outcomes for a chapter, including findings, revision summaries, and final review status.
-_Avoid_: Pass/fail flag, hidden model reasoning
+**章节评审报告**:
+章节自动评审结果的可追溯记录，包含发现的问题、修订摘要和最终评审状态。
+_避免_: 只有通过/失败标记、隐藏模型推理
 
-**Review Revision Loop**:
-The repeated cycle where the system revises a Chapter Draft based on failed Automated Chapter Review findings, then reviews the revised draft again until it passes or reaches the agreed stopping limit.
-_Avoid_: Single-pass generation, endless rewriting
+**评审修订循环**:
+系统根据自动章节评审失败项修改章节草稿，然后再次评审，直到通过或达到约定停止上限。
+_避免_: 单轮生成、无限重写
 
-**Human Intervention Chapter**:
-A Chapter Draft that did not pass Automated Chapter Review within the agreed revision limit and requires human editorial work before it can receive Final Chapter Acceptance.
-_Avoid_: Failed chapter, auto-accepted exception
+**人工介入章节**:
+在约定修订上限内没有通过自动章节评审、需要人工编辑处理后才能最终验收的章节草稿。
+_避免_: 失败章节、自动例外通过
 
-**Final Chapter Acceptance**:
-The human editorial decision that a reviewed Chapter Draft is accepted as the final version of that chapter.
-_Avoid_: Automated review pass, generated draft
+**最终章节验收**:
+人类编辑决定一个已评审章节草稿成为该章最终版本。
+_避免_: 自动评审通过、生成草稿
 
-**Canon Record**:
-The accepted continuity record of the novel, formed only from the approved Creative Blueprint and chapters that have received Final Chapter Acceptance.
-_Avoid_: Draft memory, review notes, temporary context
+**正史记录**:
+小说已接受的连续性记录，只能由已确认创作蓝图和通过最终章节验收的章节形成。
+_避免_: 草稿记忆、评审笔记、临时上下文
 
-**Blueprint Approval**:
-The human editorial decision that a Creative Blueprint is ready to guide Chapter Draft production.
-_Avoid_: Auto-approval, model self-review
+**创作蓝图审批**:
+人类编辑确认创作蓝图已经可以指导章节草稿生产的决策。
+_避免_: 自动审批、模型自审
 
-## Example Dialogue
+## 示例对话
 
-Developer: "Should the system publish chapters automatically after generation?"
+开发者：“系统应该自动发布章节吗？”
 
-Domain Expert: "No. In Semi-Automated Serial Production, the system drafts chapters, but a human editor decides what becomes canon and what gets released."
+领域专家：“不应该。在半自动连载生产中，系统负责起草章节，但人类编辑决定什么成为正史、什么可以发布。”
 
-Developer: "Should the first version start with a web application?"
+开发者：“第一版应该先做网页应用吗？”
 
-Domain Expert: "No. The first version is a Local Agent Workflow focused on stable production files and review gates."
+领域专家：“不应该。第一版是本地智能体工作流，重点是稳定的生产文件和评审关卡。”
 
-Developer: "Are Book Deconstruction and research just fixed states in a workflow?"
+开发者：“拆书和调研只是固定流程状态吗？”
 
-Domain Expert: "No. They are Production Capabilities that can be invoked manually or by an agent, producing Capability Artifacts and direct updates with Capability Change Records."
+领域专家：“不是。它们是生产能力，可以由人或智能体调用，并产出能力产物、直接更新文件，同时留下能力改动记录。”
 
-Developer: "Can we start drafting chapter one from just a premise?"
+开发者：“第一版先做哪些生产能力？”
 
-Domain Expert: "No. A Chapter Draft starts only after the Creative Blueprint is approved: Story Setting, Full-Novel Outline, and Chapter Treatment."
+领域专家：“先做调研能力、拆书能力、创作需求补全能力、设定生成能力、全书大纲生成能力、章节细纲生成能力。”
 
-Developer: "Can the system generate a Creative Blueprint from an unstructured idea alone?"
+开发者：“只有一句想法就能开始写第一章吗？”
 
-Domain Expert: "No. Creative Blueprint generation starts from a Creative Brief."
+领域专家：“不能。章节草稿只能在创作蓝图确认后开始，而创作蓝图包含故事设定、全书大纲和章节细纲。”
 
-Developer: "What happens when the user only provides a vague premise?"
+开发者：“系统能从未结构化想法直接生成创作蓝图吗？”
 
-Domain Expert: "The system runs a Brief Completion Flow before generating a Creative Blueprint."
+领域专家：“不能。创作蓝图生成从创作需求简报开始。”
 
-Developer: "Are we building a generic fiction writer?"
+开发者：“用户只提供模糊前提时怎么办？”
 
-Domain Expert: "No. The first system targets the Male-Frequency Genre Lane, with specific Supported Genre Families."
+领域专家：“系统先运行创作需求补全流程，再生成创作蓝图。”
 
-Developer: "Do the Supported Genre Families need completely separate systems?"
+开发者：“我们是在做通用小说写作器吗？”
 
-Domain Expert: "No. They share a Shared Serial Grammar, but each Supported Genre Family still has Genre Constraints."
+领域专家：“不是。第一版系统面向男频赛道，并支持特定题材族。”
 
-Developer: "Are we choosing the protagonist path before building the system?"
+开发者：“这些支持题材族需要完全独立的系统吗？”
 
-Domain Expert: "No. The first priority is the Novel Production System and its capabilities, not a specific novel's protagonist path."
+领域专家：“不需要。它们共享连载语法，但每个支持题材族仍有题材约束。”
 
-Developer: "Should the Material Library keep raw references or only distilled patterns?"
+开发者：“在搭系统前需要先选定具体主角路径吗？”
 
-Domain Expert: "Both. The Source Material Layer preserves traceability, while the Reusable Pattern Layer supports generation."
+领域专家：“不需要。第一优先级是网文生产系统及其能力，不是某本小说的主角路径。”
 
-Developer: "Can one global library directly serve as the context for every novel?"
+开发者：“素材库只保留原始参考，还是只保留抽象模式？”
 
-Domain Expert: "No. The Global Material Library is reusable across novels, while each novel has a Project Material Library and a Project Story Bible."
+领域专家：“两者都保留。原始材料层保证可追溯，可复用模式层支持生成。”
 
-Developer: "Can project reference material be treated as facts in the novel?"
+开发者：“一个全局库可以直接作为每本小说的上下文吗？”
 
-Domain Expert: "No. The Reference-Canon Boundary keeps the Project Material Library separate from the Project Story Bible."
+领域专家：“不能。全局素材库跨小说复用，而每本小说都有自己的单书专属素材库和单书故事圣经。”
 
-Developer: "Can the Project Story Bible change during production?"
+开发者：“项目参考材料可以被当作小说事实吗？”
 
-Domain Expert: "Yes, but Planned Story Changes and Canon Changes are different. Canon Changes require explicit tracking and continuity impact analysis."
+领域专家：“不能。参考正史边界把单书专属素材库和单书故事圣经分开。”
 
-Developer: "Can a Reusable Pattern be copied directly into a new novel?"
+开发者：“单书故事圣经在生产过程中可以变吗？”
 
-Domain Expert: "No. The Pattern Reuse Boundary allows structure and function to transfer, not distinctive expression or recognizable source-specific combinations."
+领域专家：“可以，但计划修改和正史修改不同。正史修改需要明确记录并分析连续性影响。”
 
-Developer: "Should we build chapter drafting before research and blueprint generation?"
+开发者：“可复用模式可以直接复制到新小说里吗？”
 
-Domain Expert: "No. The Pre-Production Pipeline comes first, because Chapter Drafts depend on an approved Creative Blueprint."
+领域专家：“不能。模式复用边界只允许迁移结构和功能，不允许迁移独特表达或来源作品特有组合。”
 
-Developer: "Can the system fetch raw novel chapters from the web for Book Deconstruction?"
+开发者：“应该先做章节生产，再做调研和蓝图生成吗？”
 
-Domain Expert: "No. Book Deconstruction uses Primary Novel Text supplied by the user, or Secondary Deconstruction Sources such as book review summaries and deconstruction videos."
+领域专家：“不应该。前置创作链路优先，因为章节草稿依赖已确认创作蓝图。”
 
-Developer: "Can ordinary reader comments become deconstruction content?"
+开发者：“系统可以从网上抓取原始小说章节来拆书吗？”
 
-Domain Expert: "No. Reader comments are not deconstruction content, but their engagement can contribute to the Engagement Credibility Signal for a Secondary Deconstruction Source."
+领域专家：“不可以。拆书使用用户提供的原始小说文本，或书评总结、拆书视频等二手拆书来源。”
 
-Developer: "Is a secondary source reliable just because it has many likes?"
+开发者：“普通读者评论可以成为拆书内容吗？”
 
-Domain Expert: "No. It receives a Secondary Source Credibility Score that combines engagement, creator quality, and corroboration."
+领域专家：“不可以。读者评论不是拆书内容，但它的互动情况可以作为二手来源的互动可信度信号。”
 
-Developer: "Do Book Deconstruction findings go directly into the Material Library?"
+开发者：“二手来源点赞多就一定可靠吗？”
 
-Domain Expert: "Yes. Book Deconstruction may directly update a Material Library, but it must leave a Capability Change Record."
+领域专家：“不一定。它需要二手来源可信度评分，综合互动、创作者质量和多个来源互证。”
 
-Developer: "Is Book Deconstruction a literary review?"
+开发者：“拆书发现可以直接进入素材库吗？”
 
-Domain Expert: "No. It is Production-Oriented Deconstruction for reusable web-novel production knowledge."
+领域专家：“可以。拆书能力可以直接更新素材库，但必须留下能力改动记录。”
 
-Developer: "Can the system mark its own Creative Blueprint as ready?"
+开发者：“拆书是文学评论吗？”
 
-Domain Expert: "No. Blueprint Approval is a human editorial decision."
+领域专家：“不是。它是生产型拆书，服务可复用网文生产知识。”
 
-Developer: "If the Automated Chapter Review passes, is the chapter final?"
+开发者：“系统可以自己标记创作蓝图已准备好吗？”
 
-Domain Expert: "No. A chapter becomes final only after Final Chapter Acceptance by a human editor."
+领域专家：“不可以。创作蓝图审批是人类编辑决策。”
 
-Developer: "Do we only need to know whether review passed?"
+开发者：“自动章节评审通过后，章节就是最终版吗？”
 
-Domain Expert: "No. Each chapter needs a Chapter Review Report so findings and revisions remain traceable."
+领域专家：“不是。章节只有经过人类编辑的最终章节验收才成为最终版本。”
 
-Developer: "Should the system keep rewriting forever if review keeps failing?"
+开发者：“章节评审只需要知道是否通过吗？”
 
-Domain Expert: "No. A chapter that reaches the revision limit becomes a Human Intervention Chapter."
+领域专家：“不够。每章都需要章节评审报告，让问题和修订过程可追溯。”
 
-Developer: "Should facts introduced in a rejected draft be remembered for future chapters?"
+开发者：“评审一直失败时，系统应该无限重写吗？”
 
-Domain Expert: "No. The Canon Record is updated only from the approved Creative Blueprint and chapters with Final Chapter Acceptance."
+领域专家：“不应该。达到修订上限的章节成为人工介入章节。”
+
+开发者：“被拒绝草稿里的事实应该被后续章节记住吗？”
+
+领域专家：“不应该。正史记录只能由已确认创作蓝图和通过最终章节验收的章节更新。”
