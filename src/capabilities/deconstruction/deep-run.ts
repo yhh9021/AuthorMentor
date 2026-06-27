@@ -125,6 +125,27 @@ const STOP_ENTITY_PARTS = [
   "于是",
   "说着",
   "微笑",
+  "而是",
+  "接着",
+  "眼睁睁",
+  "好奇地",
+  "静静地",
+  "直接",
+  "再次",
+  "大声",
+  "低声",
+  "奇怪地",
+  "含笑",
+  "短暂的",
+  "温和",
+  "随口",
+  "仔细",
+  "赶紧",
+  "专注地",
+  "严肃地",
+  "礼貌地",
+  "目光",
+  "一直",
   "看着",
   "听到",
   "心中",
@@ -143,9 +164,8 @@ const STOP_ENTITY_PARTS = [
 ];
 
 const PERSON_PATTERNS = [
-  /([\p{Script=Han}A-Za-z·]{2,8})(?:说道|说着|问道|笑道|冷笑道|沉声道|低声道|喊道|叫道|答道|叹道|皱眉道|开口道|喃喃道)/gu,
-  /(?:名叫|名为|叫做|唤作|自称|称为)([\p{Script=Han}A-Za-z·]{2,10})/gu,
-  /([\p{Script=Han}A-Za-z·]{2,8})(?:看着|望着|盯着|皱眉|沉默|出手|赶来|离去|走来|转身|抬头)/gu
+  /(?:^|[\n，。！？；：“”])([\p{Script=Han}A-Za-z·]{2,8})(?:说道|说着|问道|笑道|冷笑道|沉声道|低声道|喊道|叫道|答道|叹道|皱眉道|开口道|喃喃道)/gu,
+  /(?:名叫|名为|叫做|唤作|自称|称为)([\p{Script=Han}A-Za-z·]{2,10})/gu
 ];
 
 const ORGANIZATION_PATTERN =
@@ -198,6 +218,7 @@ const TRAILING_ENTITY_NOISE = [
   "笑着",
   "笑了",
   "微笑",
+  "微",
   "疑惑地",
   "好笑地",
   "认真地",
@@ -473,7 +494,7 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
     (chunk) => chunk.characters.length + chunk.organizations.length + chunk.locations.length + chunk.systems.length > 0
   ).length;
   const coverage = book.chunkCount === 0 ? 0 : coveredChunks / book.chunkCount;
-  const noisyCharacters = book.characters.filter((item) => TRAILING_ENTITY_NOISE.some((noise) => item.name.includes(noise))).length;
+  const noisyCharacters = book.characters.filter((item) => looksNoisyCharacterName(item.name)).length;
   const noiseRate = book.characters.length === 0 ? 0 : noisyCharacters / book.characters.length;
 
   return [
@@ -754,7 +775,20 @@ function isUsefulEntityName(name: string): boolean {
   if (/^\d+$/.test(name) || /[章节年月日点分秒]/.test(name.slice(0, 2))) {
     return false;
   }
-  return !STOP_ENTITY_PARTS.some((part) => name.includes(part));
+  return !looksNoisyCharacterName(name);
+}
+
+function looksNoisyCharacterName(name: string): boolean {
+  if (STOP_ENTITY_PARTS.some((part) => name === part || name.includes(part))) {
+    return true;
+  }
+  if (/[地的声]$/.test(name)) {
+    return true;
+  }
+  if (/^(他|她|它|这|那|只|很|更|最|又|也|再|才|就)/.test(name)) {
+    return true;
+  }
+  return false;
 }
 
 function splitParagraphs(text: string): string[] {
