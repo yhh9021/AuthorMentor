@@ -1,0 +1,14 @@
+{
+  "runId": "20260627-132843-deconstruction-诡秘之主",
+  "capability": "拆书能力",
+  "bookSlug": "诡秘之主",
+  "bookDir": "/Users/bytedance/Desktop/agent_projects/写小说/global/deconstructions/诡秘之主",
+  "sourcePath": "/Users/bytedance/Documents/小说原本/诡秘之主.txt",
+  "sourceKind": "原始小说文本",
+  "targetLibrary": "全局素材库",
+  "mode": "长程分段拆书",
+  "segmentSize": 20,
+  "title": "诡秘之主",
+  "inputFile": "/Users/bytedance/Desktop/agent_projects/写小说/runs/20260627-132843-deconstruction-诡秘之主/input/诡秘之主.txt",
+  "bookSourceFile": "/Users/bytedance/Desktop/agent_projects/写小说/global/deconstructions/诡秘之主/source/诡秘之主.txt"
+}
