@@ -53,15 +53,25 @@ type RelationSummary = {
   markers: string[];
 };
 
+type EventSummary = {
+  name: string;
+  chunk: number;
+  range: string;
+  evidence: string;
+  impact?: string;
+};
+
 type DeepBook = {
   title: string;
   chapterCount: number;
   chunkCount: number;
+  agentChunkCount: number;
   characters: EntitySummary[];
   relations: RelationSummary[];
   organizations: EntitySummary[];
   locations: EntitySummary[];
   systems: EntitySummary[];
+  events: EventSummary[];
   chunkSummaries: Array<{
     chunk: number;
     range: string;
@@ -69,6 +79,7 @@ type DeepBook = {
     organizations: string[];
     locations: string[];
     systems: string[];
+    events: string[];
   }>;
 };
 
@@ -492,6 +503,7 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
   const locations = new Map<string, EntityRecord>();
   const systems = new Map<string, EntityRecord>();
   const relations = new Map<string, RelationRecord>();
+  const events: EventSummary[] = [];
   const chunkSummaries: DeepBook["chunkSummaries"] = [];
   const agentChunkMap = new Map(agentChunks.map((chunk) => [chunk.chunk, chunk]));
 
@@ -500,6 +512,7 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
     const chunkOrganizations = new Set<string>();
     const chunkLocations = new Set<string>();
     const chunkSystems = new Set<string>();
+    const chunkEvents = new Set<string>();
 
     for (const chapter of chunk.chapters) {
       const chapterText = normalizeText(`${chapter.title}\n${chapter.text}`);
@@ -538,6 +551,19 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
       for (const item of agentChunk.systems) {
         chunkSystems.add(item.name);
       }
+      for (const item of agentChunk.events) {
+        if (!item.name || !item.evidence) {
+          continue;
+        }
+        chunkEvents.add(item.name);
+        events.push({
+          name: item.name,
+          chunk: chunk.index,
+          range: agentChunk.range ?? `第 ${chunk.start}-${chunk.end} 章`,
+          evidence: item.evidence,
+          impact: item.impact
+        });
+      }
     }
 
     chunkSummaries.push({
@@ -546,7 +572,8 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
       characters: [...chunkCharacters].slice(0, 30),
       organizations: [...chunkOrganizations].slice(0, 20),
       locations: [...chunkLocations].slice(0, 20),
-      systems: [...chunkSystems].slice(0, 20)
+      systems: [...chunkSystems].slice(0, 20),
+      events: [...chunkEvents].slice(0, 20)
     });
   }
 
@@ -557,11 +584,13 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
     title,
     chapterCount: chapters.length,
     chunkCount: chunks.length,
+    agentChunkCount: agentChunks.length,
     characters: topCharacters,
     relations: summarizeRelations(relations, 220),
     organizations: summarizeEntities(organizations, 120),
     locations: summarizeEntities(locations, 120),
     systems: summarizeEntities(systems, 140),
+    events: events.slice(0, 500),
     chunkSummaries
   };
 }
@@ -886,10 +915,16 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
     (chunk) => chunk.characters.length + chunk.organizations.length + chunk.locations.length + chunk.systems.length > 0
   ).length;
   const coverage = book.chunkCount === 0 ? 0 : coveredChunks / book.chunkCount;
+  const agentCoverage = book.chunkCount === 0 ? 0 : book.agentChunkCount / book.chunkCount;
   const noisyCharacters = book.characters.filter((item) => looksNoisyCharacterName(item.name)).length;
   const noiseRate = book.characters.length === 0 ? 0 : noisyCharacters / book.characters.length;
 
   return [
+    {
+      name: "子 Agent 精读覆盖率",
+      status: agentCoverage >= 0.85 ? "通过" : "需返工",
+      detail: `收到 ${book.agentChunkCount}/${book.chunkCount} 个 chunk JSON，覆盖率 ${(agentCoverage * 100).toFixed(1)}%。`
+    },
     auditCount("人物数量", book.characters.length, minCharacters),
     auditCount("关系边数量", book.relations.length, Math.max(20, minCharacters)),
     auditCount("势力组织数量", book.organizations.length, minOrganizations),
@@ -924,6 +959,7 @@ async function cleanDeepOutputs(bookDir: string): Promise<void> {
       "势力与组织图谱.md",
       "地图与世界结构.md",
       "修炼能力与资源体系.md",
+      "关键事件链.md",
       "深拆质量审计.md",
       "深拆中间数据.json"
     ].map((file) => rm(path.join(bookDir, file), { force: true }))
@@ -937,6 +973,7 @@ async function writeDeepBookOutputs(bookDir: string, book: DeepBook, audit: Audi
     writeText(path.join(bookDir, "势力与组织图谱.md"), renderEntityFile(book.title, "势力与组织图谱", book.organizations, "势力/组织")),
     writeText(path.join(bookDir, "地图与世界结构.md"), renderEntityFile(book.title, "地图与世界结构", book.locations, "地点/地图层级")),
     writeText(path.join(bookDir, "修炼能力与资源体系.md"), renderEntityFile(book.title, "修炼能力与资源体系", book.systems, "能力/资源/规则")),
+    writeText(path.join(bookDir, "关键事件链.md"), renderEventFile(book.title, book.events)),
     writeText(path.join(bookDir, "深拆质量审计.md"), renderAudit(book, audit)),
     writeText(path.join(bookDir, "深拆中间数据.json"), JSON.stringify(toJsonBook(book, audit), null, 2))
   ]);
@@ -949,15 +986,17 @@ function renderDeepReport(book: DeepBook, audit: AuditItem[]): string {
 
 - 章节数：${book.chapterCount}
 - 分块数：${book.chunkCount}
+- 子 Agent 精读 JSON：${book.agentChunkCount}/${book.chunkCount}
 - 人物候选：${book.characters.length}
 - 关系边候选：${book.relations.length}
 - 势力组织候选：${book.organizations.length}
 - 地图地点候选：${book.locations.length}
 - 能力/资源/规则候选：${book.systems.length}
+- 关键事件候选：${book.events.length}
 
 ## 方法说明
 
-本次深拆不再只读取章节标题或章节开头，而是扫描全本正文，按 chunk 沉淀结构化中间数据，再合并生成全书级报告。当前版本是脚本强约束的第一版，负责保证全本覆盖、证据章节和数量审计；后续可以把每个 chunk 的 JSON 抽取替换为子 Agent 精读。
+本次深拆不再只读取章节标题或章节开头，而是先把全本正文切成 chunk 精读任务包，再合并子 Agent JSON 与脚本兜底抽取结果。若子 Agent JSON 覆盖率不足，报告会保留兜底结果，但质量审计会标记需补齐精读。
 
 ## 审计结果
 
@@ -969,6 +1008,7 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 - \`势力与组织图谱.md\`
 - \`地图与世界结构.md\`
 - \`修炼能力与资源体系.md\`
+- \`关键事件链.md\`
 - \`深拆中间数据.json\`
 `;
 }
@@ -1012,6 +1052,26 @@ ${graphRelations.map((item) => `  ${safeMermaidId(item.source)}["${item.source}"
 `;
 }
 
+function renderEventFile(title: string, events: EventSummary[]): string {
+  return `# 关键事件链：《${title}》
+
+## 事件候选
+
+${events.length === 0
+  ? "- 当前没有收到子 Agent 事件 JSON；需要补跑 chunk 精读后更新。"
+  : events
+      .map(
+        (item, index) => `### ${index + 1}. ${item.name}
+
+- 位置：${item.range}
+- 证据摘要：${item.evidence}
+- 后续影响：${item.impact ?? "需二次精读补充"}
+`
+      )
+      .join("\n")}
+`;
+}
+
 function renderEntityFile(title: string, fileTitle: string, entities: EntitySummary[], label: string): string {
   return `# ${fileTitle}：《${title}》
 
@@ -1044,6 +1104,7 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 ## 仍需返工的方向
 
 - 当前脚本已全本扫描，但人物识别仍是启发式，下一步应接入 chunk 子 Agent 精读，按章节证据补全别名、身份和关系类型。
+- 子 Agent 精读覆盖率低于 85% 时，当前产物只能作为兜底索引，不能视为最终精读结论。
 - 如果某本书人物表缺少明显主角或核心配角，应在 \`深拆中间数据.json\` 中检查对应章节 chunk，再做人工或 Agent 返工。
 - 最终报告禁止只保留模板句，必须能追溯到首次出现章节、活跃章节范围和关系证据。
 `;
@@ -1066,11 +1127,13 @@ async function writeDeepRunOutputs(
 - 持久拆书目录：${bookDir}
 - 章节数：${book.chapterCount}
 - 分块数：${book.chunkCount}
+- 子 Agent 精读 JSON：${book.agentChunkCount}/${book.chunkCount}
 - 人物候选：${book.characters.length}
 - 关系边候选：${book.relations.length}
 - 势力组织候选：${book.organizations.length}
 - 地图地点候选：${book.locations.length}
 - 能力/资源/规则候选：${book.systems.length}
+- 关键事件候选：${book.events.length}
 
 ## 审计结果
 
@@ -1128,12 +1191,14 @@ function toJsonBook(book: DeepBook, audit: AuditItem[]): Record<string, unknown>
     title: book.title,
     chapterCount: book.chapterCount,
     chunkCount: book.chunkCount,
+    agentChunkCount: book.agentChunkCount,
     audit,
     characters: book.characters,
     relations: book.relations,
     organizations: book.organizations,
     locations: book.locations,
     systems: book.systems,
+    events: book.events,
     chunkSummaries: book.chunkSummaries
   };
 }
