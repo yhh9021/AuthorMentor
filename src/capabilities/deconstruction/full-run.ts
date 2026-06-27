@@ -624,6 +624,7 @@ ${segments.map((segment) => `- 第 ${segment.start}-${segment.end} 章：${segme
 }
 
 async function writeStrengthArchive(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
+  const mechanisms = buildMechanisms(profile);
   await writeText(
     path.join(bookDir, "synthesis", "优点与可复用机制.md"),
     `# 优点与可复用机制：《${title}》
@@ -634,11 +635,11 @@ ${profile.strengths.map((item) => `- ${item}`).join("\n")}
 
 ## 可复用机制
 
-${profile.reusableMechanisms.map((item) => `- ${item}`).join("\n")}
+${mechanisms.map((item) => `- ${item}`).join("\n")}
 
 ## 机制落点
 
-${profile.reusableMechanisms
+${mechanisms
   .map((mechanism) => {
     const matched = segments.find((segment) => segment.focus.includes(mechanism.slice(0, 2)) || segment.category.includes("设定"));
     return `- ${mechanism}：可从第 ${matched?.start ?? segments[0]?.start}-${matched?.end ?? segments[0]?.end} 章附近开始二次精拆。`;
@@ -671,7 +672,7 @@ ${highlights
 
 - 章节标题信号：${segment.chapters.slice(0, 8).map((chapter) => chapter.title).join("、")}
 - 亮点判断：本段命中“${segment.focus}”，适合二次精拆其冲突铺垫、爽点兑现、设定增量和结尾钩子。
-- 可复用方向：${profile.reusableMechanisms.slice(0, 3).join("、")}。
+- 可复用方向：${buildMechanisms(profile).slice(0, 3).join("、")}。
 `
   )
   .join("\n")}
@@ -767,7 +768,7 @@ ${profile.coreStructure}
 
 ## 机制拆解
 
-${profile.reusableMechanisms.map((mechanism, index) => renderDeepMechanismEntry(mechanism, index, chapters, segments, profile)).join("\n")}
+${buildMechanisms(profile).map((mechanism, index) => renderDeepMechanismEntry(mechanism, index, chapters, segments, profile)).join("\n")}
 `
   );
 }
@@ -889,6 +890,7 @@ function renderDeepHighlightEntry(segment: Segment, index: number, segments: Seg
   const previous = segments.find((item) => item.index === segment.index - 1);
   const next = segments.find((item) => item.index === segment.index + 1);
   const matchedSignals = profile.onlineSignals.filter((signal) => includesAny(textOfSegment(segment), signal.keywords));
+  const mechanisms = buildMechanisms(profile);
   const firstTitles = segment.chapters.slice(0, 5).map((chapter) => chapter.title).join("、");
   const middleTitles = segment.chapters
     .slice(Math.max(0, Math.floor(segment.chapters.length / 2) - 2), Math.floor(segment.chapters.length / 2) + 2)
@@ -913,7 +915,7 @@ function renderDeepHighlightEntry(segment: Segment, index: number, segments: Seg
 
 **后续影响**：${next ? `下一段“第 ${next.start}-${next.end} 章：${next.focus}”说明本段结果继续外溢，没有停在单次事件。` : "作为尾段或接近尾段内容，它承担收束、回收或抬升世界观的功能。"}高光片段要能改变后续局面，否则只能算一次短促刺激，不能支撑长篇。
 
-**为什么好**：它同时做了三件事：推进剧情、更新设定、制造读者期待。读者获得的不只是“发生了什么”，而是“主角因此能做什么、会被谁注意、下一层规则是什么”。尤其是当“${segment.focus}”和本书的核心机制“${profile.reusableMechanisms[index % profile.reusableMechanisms.length]}”结合时，桥段就会从普通事件变成可复用的长篇结构。
+**为什么好**：它同时做了三件事：推进剧情、更新设定、制造读者期待。读者获得的不只是“发生了什么”，而是“主角因此能做什么、会被谁注意、下一层规则是什么”。尤其是当“${segment.focus}”和本书的核心机制“${mechanisms[index % mechanisms.length]}”结合时，桥段就会从普通事件变成可复用的长篇结构。
 
 **可复用写法**：可以复用这一段的功能链：前置压力 -> 规则限制 -> 主角利用信息差或能力组合 -> 当场兑现 -> 留下新问题。迁移到新书时，把资源形态、组织关系、能力体系和场景换掉，保留因果顺序。新作品中还要明确“读者等的是什么”：等主角赢、等真相揭开、等身份升级，还是等关系反转。
 
@@ -921,6 +923,15 @@ function renderDeepHighlightEntry(segment: Segment, index: number, segments: Seg
 
 **网上讨论信号**：${matchedSignals.length > 0 ? matchedSignals.map((signal) => `${signal.label}（${signal.note} 来源：${signal.source}）`).join("；") : "未命中特定外部讨论关键词，本段由章节密度和阶段功能选出。"}
 `;
+}
+
+function buildMechanisms(profile: BookProfile): string[] {
+  const mechanisms = unique([...profile.reusableMechanisms, ...profile.strengths]);
+  return mechanisms.length >= 5 ? mechanisms : unique([...mechanisms, ...profile.highlightDimensions]).slice(0, 5);
+}
+
+function unique(items: string[]): string[] {
+  return [...new Set(items.filter((item) => item.trim().length > 0))];
 }
 
 function renderOnlineSignals(profile: BookProfile): string {
