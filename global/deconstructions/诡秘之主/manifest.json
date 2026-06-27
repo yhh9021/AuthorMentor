@@ -6,9 +6,11 @@
   "segmentSize": 20,
   "sourceCopy": "/Users/bytedance/Desktop/agent_projects/写小说/global/deconstructions/诡秘之主/source/诡秘之主.txt",
   "stages": [
-    "全书地图",
+    "章节索引",
+    "剧情阶段",
     "分段精拆",
-    "素材卡提取",
+    "设定集",
+    "素材卡",
     "全书汇总",
     "素材库更新"
   ]
