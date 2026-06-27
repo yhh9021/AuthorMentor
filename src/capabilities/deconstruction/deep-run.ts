@@ -114,6 +114,17 @@ const STOP_ENTITY_PARTS = [
   "说道",
   "问道",
   "笑道",
+  "微微",
+  "呵呵",
+  "嘿嘿",
+  "摇了",
+  "点了",
+  "轻轻",
+  "继续",
+  "一边",
+  "于是",
+  "说着",
+  "微笑",
   "看着",
   "听到",
   "心中",
@@ -134,7 +145,7 @@ const STOP_ENTITY_PARTS = [
 const PERSON_PATTERNS = [
   /([\p{Script=Han}A-Za-z·]{2,8})(?:说道|说着|问道|笑道|冷笑道|沉声道|低声道|喊道|叫道|答道|叹道|皱眉道|开口道|喃喃道)/gu,
   /(?:名叫|名为|叫做|唤作|自称|称为)([\p{Script=Han}A-Za-z·]{2,10})/gu,
-  /([\p{Script=Han}A-Za-z·]{2,8})(?:看着|望着|盯着|点头|摇头|皱眉|沉默|笑了|叹了|出手|赶来|离去|走来|转身|抬头)/gu
+  /([\p{Script=Han}A-Za-z·]{2,8})(?:看着|望着|盯着|皱眉|沉默|出手|赶来|离去|走来|转身|抬头)/gu
 ];
 
 const ORGANIZATION_PATTERN =
@@ -177,8 +188,29 @@ const RELATION_MARKERS = [
   "命令"
 ];
 
+const TRAILING_ENTITY_NOISE = [
+  "微微",
+  "轻轻",
+  "呵呵",
+  "嘿嘿",
+  "点了",
+  "摇了",
+  "笑着",
+  "笑了",
+  "微笑",
+  "疑惑地",
+  "好笑地",
+  "认真地",
+  "平静地",
+  "沉默地",
+  "继续",
+  "一边",
+  "于是",
+  "说着"
+];
+
 export async function runDeepDeconstruction(rawOptions: PrepareOptions): Promise<string> {
-  const chunkSize = rawOptions.segmentSize ?? 20;
+  const chunkSize = Number.parseInt(String(rawOptions.segmentSize ?? 20), 10);
   const runDir = await prepareDeconstructionRun({
     ...rawOptions,
     mode: "长程分段拆书",
@@ -441,6 +473,8 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
     (chunk) => chunk.characters.length + chunk.organizations.length + chunk.locations.length + chunk.systems.length > 0
   ).length;
   const coverage = book.chunkCount === 0 ? 0 : coveredChunks / book.chunkCount;
+  const noisyCharacters = book.characters.filter((item) => TRAILING_ENTITY_NOISE.some((noise) => item.name.includes(noise))).length;
+  const noiseRate = book.characters.length === 0 ? 0 : noisyCharacters / book.characters.length;
 
   return [
     auditCount("人物数量", book.characters.length, minCharacters),
@@ -452,6 +486,11 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
       name: "全书 chunk 覆盖率",
       status: coverage >= 0.85 ? "通过" : "需返工",
       detail: `覆盖 ${coveredChunks}/${book.chunkCount} 个 chunk，覆盖率 ${(coverage * 100).toFixed(1)}%。`
+    },
+    {
+      name: "人物噪声率",
+      status: noiseRate <= 0.12 ? "通过" : "需返工",
+      detail: `疑似动作/语气噪声 ${noisyCharacters}/${book.characters.length}，噪声率 ${(noiseRate * 100).toFixed(1)}%。`
     }
   ];
 }
@@ -691,10 +730,21 @@ function normalizeText(text: string): string {
 }
 
 function normalizeEntityName(input: string | undefined): string {
-  return (input ?? "")
+  let name = (input ?? "")
     .replace(/[“”"'『』《》（）()，。！？、；：\s]/g, "")
     .replace(/^第[一二三四五六七八九十百千万零〇两0-9]+章/, "")
     .trim();
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const noise of TRAILING_ENTITY_NOISE) {
+      if (name.endsWith(noise)) {
+        name = name.slice(0, -noise.length);
+        changed = true;
+      }
+    }
+  }
+  return name;
 }
 
 function isUsefulEntityName(name: string): boolean {
