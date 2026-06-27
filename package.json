@@ -1,0 +1,27 @@
+{
+  "name": "author-mentor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "author-mentor": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "dev": "tsx src/cli/index.ts"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "gray-matter": "^4.0.3",
+    "simple-git": "^3.28.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
