@@ -1,7 +1,7 @@
 {
   "title": "奥术神座",
   "chapterCount": 919,
-  "chunkCount": 2,
+  "chunkCount": 46,
   "audit": [
     {
       "name": "人物数量",
@@ -31,268 +31,103 @@
     {
       "name": "全书 chunk 覆盖率",
       "status": "通过",
-      "detail": "覆盖 2/2 个 chunk，覆盖率 100.0%。"
+      "detail": "覆盖 46/46 个 chunk，覆盖率 100.0%。"
+    },
+    {
+      "name": "人物噪声率",
+      "status": "通过",
+      "detail": "疑似动作/语气噪声 0/180，噪声率 0.0%。"
     }
   ],
   "characters": [
     {
       "name": "路西恩",
-      "mentions": 222,
-      "firstChapter": 10,
+      "mentions": 280,
+      "firstChapter": 5,
       "lastChapter": 826,
-      "chapterCount": 183,
+      "chapterCount": 228,
       "markers": [
-        "人物行为/发言(222)"
+        "人物行为/发言(280)"
       ]
     },
     {
-      "name": "路西恩点了",
+      "name": "娜塔莎",
       "mentions": 62,
-      "firstChapter": 7,
-      "lastChapter": 826,
-      "chapterCount": 57,
+      "firstChapter": 64,
+      "lastChapter": 816,
+      "chapterCount": 50,
       "markers": [
         "人物行为/发言(62)"
       ]
     },
     {
-      "name": "路西恩摇了",
-      "mentions": 54,
-      "firstChapter": 16,
-      "lastChapter": 806,
-      "chapterCount": 51,
-      "markers": [
-        "人物行为/发言(54)"
-      ]
-    },
-    {
       "name": "路西恩微",
-      "mentions": 50,
-      "firstChapter": 37,
+      "mentions": 49,
+      "firstChapter": 139,
       "lastChapter": 825,
-      "chapterCount": 49,
+      "chapterCount": 48,
       "markers": [
-        "人物行为/发言(50)"
+        "人物行为/发言(49)"
       ]
     },
     {
-      "name": "微微",
-      "mentions": 51,
-      "firstChapter": 20,
-      "lastChapter": 914,
-      "chapterCount": 40,
+      "name": "道格拉斯",
+      "mentions": 53,
+      "firstChapter": 419,
+      "lastChapter": 917,
+      "chapterCount": 41,
       "markers": [
-        "人物行为/发言(51)"
+        "人物行为/发言(53)"
       ]
     },
     {
-      "name": "呵呵",
-      "mentions": 45,
-      "firstChapter": 14,
-      "lastChapter": 873,
-      "chapterCount": 40,
-      "markers": [
-        "人物行为/发言(45)"
-      ]
-    },
-    {
-      "name": "摇了",
+      "name": "费尔南多",
       "mentions": 37,
-      "firstChapter": 18,
-      "lastChapter": 904,
-      "chapterCount": 36,
+      "firstChapter": 327,
+      "lastChapter": 897,
+      "chapterCount": 33,
       "markers": [
         "人物行为/发言(37)"
       ]
     },
     {
-      "name": "娜塔莎",
-      "mentions": 40,
-      "firstChapter": 65,
-      "lastChapter": 816,
-      "chapterCount": 35,
+      "name": "奥利弗",
+      "mentions": 19,
+      "firstChapter": 437,
+      "lastChapter": 904,
+      "chapterCount": 15,
       "markers": [
-        "人物行为/发言(40)"
+        "人物行为/发言(19)"
       ]
     },
     {
-      "name": "路西恩微微",
-      "mentions": 36,
-      "firstChapter": 109,
-      "lastChapter": 698,
-      "chapterCount": 34,
+      "name": "而是",
+      "mentions": 15,
+      "firstChapter": 17,
+      "lastChapter": 777,
+      "chapterCount": 15,
       "markers": [
-        "人物行为/发言(36)"
+        "人物行为/发言(15)"
       ]
     },
     {
-      "name": "路西恩轻轻",
-      "mentions": 29,
-      "firstChapter": 137,
-      "lastChapter": 765,
-      "chapterCount": 28,
-      "markers": [
-        "人物行为/发言(29)"
-      ]
-    },
-    {
-      "name": "路西恩呵呵",
-      "mentions": 28,
-      "firstChapter": 174,
-      "lastChapter": 812,
-      "chapterCount": 28,
-      "markers": [
-        "人物行为/发言(28)"
-      ]
-    },
-    {
-      "name": "路西恩笑着摇了",
-      "mentions": 26,
-      "firstChapter": 45,
-      "lastChapter": 786,
-      "chapterCount": 26,
-      "markers": [
-        "人物行为/发言(26)"
-      ]
-    },
-    {
-      "name": "一边",
-      "mentions": 26,
-      "firstChapter": 61,
-      "lastChapter": 909,
-      "chapterCount": 25,
-      "markers": [
-        "人物行为/发言(26)"
-      ]
-    },
-    {
-      "name": "轻轻",
-      "mentions": 26,
-      "firstChapter": 112,
-      "lastChapter": 886,
-      "chapterCount": 25,
-      "markers": [
-        "人物行为/发言(26)"
-      ]
-    },
-    {
-      "name": "继续",
-      "mentions": 25,
-      "firstChapter": 4,
-      "lastChapter": 885,
-      "chapterCount": 25,
-      "markers": [
-        "人物行为/发言(25)"
-      ]
-    },
-    {
-      "name": "道格拉斯",
-      "mentions": 30,
-      "firstChapter": 419,
-      "lastChapter": 917,
-      "chapterCount": 24,
-      "markers": [
-        "人物行为/发言(30)"
-      ]
-    },
-    {
-      "name": "于是",
-      "mentions": 24,
-      "firstChapter": 41,
-      "lastChapter": 914,
-      "chapterCount": 24,
-      "markers": [
-        "人物行为/发言(24)"
-      ]
-    },
-    {
-      "name": "费尔南多",
-      "mentions": 26,
-      "firstChapter": 339,
-      "lastChapter": 897,
-      "chapterCount": 23,
-      "markers": [
-        "人物行为/发言(26)"
-      ]
-    },
-    {
-      "name": "路西恩疑惑地",
-      "mentions": 23,
-      "firstChapter": 101,
-      "lastChapter": 784,
-      "chapterCount": 23,
-      "markers": [
-        "人物行为/发言(23)"
-      ]
-    },
-    {
-      "name": "嘿嘿",
-      "mentions": 23,
-      "firstChapter": 108,
-      "lastChapter": 908,
-      "chapterCount": 23,
-      "markers": [
-        "人物行为/发言(23)"
-      ]
-    },
-    {
-      "name": "路西恩微笑",
-      "mentions": 20,
-      "firstChapter": 109,
-      "lastChapter": 825,
-      "chapterCount": 20,
-      "markers": [
-        "人物行为/发言(20)"
-      ]
-    },
-    {
-      "name": "微笑",
+      "name": "莱茵",
       "mentions": 18,
-      "firstChapter": 106,
-      "lastChapter": 882,
-      "chapterCount": 18,
+      "firstChapter": 50,
+      "lastChapter": 784,
+      "chapterCount": 13,
       "markers": [
         "人物行为/发言(18)"
       ]
     },
     {
-      "name": "娜塔莎点了",
-      "mentions": 14,
-      "firstChapter": 82,
-      "lastChapter": 764,
-      "chapterCount": 14,
-      "markers": [
-        "人物行为/发言(14)"
-      ]
-    },
-    {
-      "name": "说着",
-      "mentions": 13,
-      "firstChapter": 8,
-      "lastChapter": 846,
+      "name": "接着",
+      "mentions": 16,
+      "firstChapter": 116,
+      "lastChapter": 770,
       "chapterCount": 13,
       "markers": [
-        "人物行为/发言(13)"
-      ]
-    },
-    {
-      "name": "路西恩好笑地",
-      "mentions": 13,
-      "firstChapter": 9,
-      "lastChapter": 806,
-      "chapterCount": 13,
-      "markers": [
-        "人物行为/发言(13)"
-      ]
-    },
-    {
-      "name": "道格拉斯呵呵",
-      "mentions": 13,
-      "firstChapter": 432,
-      "lastChapter": 873,
-      "chapterCount": 13,
-      "markers": [
-        "人物行为/发言(13)"
+        "人物行为/发言(16)"
       ]
     },
     {
@@ -303,96 +138,6 @@
       "chapterCount": 12,
       "markers": [
         "人物行为/发言(13)"
-      ]
-    },
-    {
-      "name": "娜塔莎嘿嘿",
-      "mentions": 13,
-      "firstChapter": 99,
-      "lastChapter": 719,
-      "chapterCount": 12,
-      "markers": [
-        "人物行为/发言(13)"
-      ]
-    },
-    {
-      "name": "疑惑地",
-      "mentions": 12,
-      "firstChapter": 11,
-      "lastChapter": 728,
-      "chapterCount": 12,
-      "markers": [
-        "人物行为/发言(12)"
-      ]
-    },
-    {
-      "name": "而是",
-      "mentions": 12,
-      "firstChapter": 17,
-      "lastChapter": 777,
-      "chapterCount": 11,
-      "markers": [
-        "人物行为/发言(12)"
-      ]
-    },
-    {
-      "name": "接着",
-      "mentions": 12,
-      "firstChapter": 116,
-      "lastChapter": 819,
-      "chapterCount": 11,
-      "markers": [
-        "人物行为/发言(12)"
-      ]
-    },
-    {
-      "name": "路西恩继续",
-      "mentions": 11,
-      "firstChapter": 180,
-      "lastChapter": 800,
-      "chapterCount": 11,
-      "markers": [
-        "人物行为/发言(11)"
-      ]
-    },
-    {
-      "name": "道格拉斯轻轻",
-      "mentions": 11,
-      "firstChapter": 220,
-      "lastChapter": 868,
-      "chapterCount": 11,
-      "markers": [
-        "人物行为/发言(11)"
-      ]
-    },
-    {
-      "name": "轻轻点了",
-      "mentions": 11,
-      "firstChapter": 290,
-      "lastChapter": 899,
-      "chapterCount": 11,
-      "markers": [
-        "人物行为/发言(11)"
-      ]
-    },
-    {
-      "name": "莱茵",
-      "mentions": 12,
-      "firstChapter": 92,
-      "lastChapter": 784,
-      "chapterCount": 10,
-      "markers": [
-        "人物行为/发言(12)"
-      ]
-    },
-    {
-      "name": "奥利弗",
-      "mentions": 10,
-      "firstChapter": 460,
-      "lastChapter": 904,
-      "chapterCount": 10,
-      "markers": [
-        "人物行为/发言(10)"
       ]
     },
     {
@@ -416,53 +161,13 @@
       ]
     },
     {
-      "name": "于是微",
+      "name": "拉扎尔",
       "mentions": 9,
-      "firstChapter": 194,
-      "lastChapter": 754,
-      "chapterCount": 9,
-      "markers": [
-        "人物行为/发言(9)"
-      ]
-    },
-    {
-      "name": "路西恩轻轻点了",
-      "mentions": 9,
-      "firstChapter": 316,
-      "lastChapter": 770,
-      "chapterCount": 9,
-      "markers": [
-        "人物行为/发言(9)"
-      ]
-    },
-    {
-      "name": "道格拉斯点了",
-      "mentions": 9,
-      "firstChapter": 600,
-      "lastChapter": 902,
-      "chapterCount": 9,
-      "markers": [
-        "人物行为/发言(9)"
-      ]
-    },
-    {
-      "name": "费尔南多点了",
-      "mentions": 9,
-      "firstChapter": 554,
-      "lastChapter": 915,
+      "firstChapter": 184,
+      "lastChapter": 579,
       "chapterCount": 8,
       "markers": [
         "人物行为/发言(9)"
-      ]
-    },
-    {
-      "name": "路西恩一边",
-      "mentions": 8,
-      "firstChapter": 5,
-      "lastChapter": 773,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
       ]
     },
     {
@@ -470,36 +175,6 @@
       "mentions": 8,
       "firstChapter": 16,
       "lastChapter": 879,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
-      "name": "于是点了",
-      "mentions": 8,
-      "firstChapter": 22,
-      "lastChapter": 916,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
-      "name": "满意地点了",
-      "mentions": 8,
-      "firstChapter": 60,
-      "lastChapter": 778,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
-      "name": "娜塔莎疑惑地",
-      "mentions": 8,
-      "firstChapter": 64,
-      "lastChapter": 816,
       "chapterCount": 8,
       "markers": [
         "人物行为/发言(8)"
@@ -536,103 +211,23 @@
       ]
     },
     {
-      "name": "娜塔莎摇了",
-      "mentions": 8,
-      "firstChapter": 303,
-      "lastChapter": 758,
-      "chapterCount": 8,
+      "name": "海蒂",
+      "mentions": 9,
+      "firstChapter": 519,
+      "lastChapter": 694,
+      "chapterCount": 7,
       "markers": [
-        "人物行为/发言(8)"
+        "人物行为/发言(9)"
       ]
     },
     {
-      "name": "赶紧",
+      "name": "克托尼亚",
       "mentions": 8,
-      "firstChapter": 353,
-      "lastChapter": 775,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
-      "name": "道格拉斯摇了",
-      "mentions": 8,
-      "firstChapter": 548,
-      "lastChapter": 901,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
-      "name": "道格拉斯微微",
-      "mentions": 8,
-      "firstChapter": 566,
-      "lastChapter": 915,
+      "firstChapter": 515,
+      "lastChapter": 873,
       "chapterCount": 7,
       "markers": [
         "人物行为/发言(8)"
-      ]
-    },
-    {
-      "name": "自嘲地",
-      "mentions": 7,
-      "firstChapter": 15,
-      "lastChapter": 864,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "他摇了",
-      "mentions": 7,
-      "firstChapter": 50,
-      "lastChapter": 910,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "含笑",
-      "mentions": 7,
-      "firstChapter": 83,
-      "lastChapter": 871,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "娜塔莎干",
-      "mentions": 7,
-      "firstChapter": 116,
-      "lastChapter": 756,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "路西恩嘿嘿",
-      "mentions": 7,
-      "firstChapter": 158,
-      "lastChapter": 826,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "路西恩笑着点了",
-      "mentions": 7,
-      "firstChapter": 161,
-      "lastChapter": 673,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
       ]
     },
     {
@@ -646,73 +241,23 @@
       ]
     },
     {
-      "name": "温和",
-      "mentions": 7,
-      "firstChapter": 240,
-      "lastChapter": 471,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "费尔南多摇了",
-      "mentions": 7,
-      "firstChapter": 425,
-      "lastChapter": 624,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "克托尼亚",
-      "mentions": 7,
-      "firstChapter": 515,
-      "lastChapter": 873,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "海瑟薇",
-      "mentions": 8,
-      "firstChapter": 498,
-      "lastChapter": 900,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
       "name": "拉文第",
       "mentions": 7,
       "firstChapter": 211,
       "lastChapter": 602,
-      "chapterCount": 6,
+      "chapterCount": 7,
       "markers": [
         "人物行为/发言(7)"
       ]
     },
     {
-      "name": "费尔南多微微",
-      "mentions": 7,
-      "firstChapter": 330,
-      "lastChapter": 913,
+      "name": "埃里克",
+      "mentions": 8,
+      "firstChapter": 192,
+      "lastChapter": 424,
       "chapterCount": 6,
       "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "他呵呵",
-      "mentions": 7,
-      "firstChapter": 472,
-      "lastChapter": 798,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(7)"
+        "人物行为/发言(8)"
       ]
     },
     {
@@ -720,26 +265,6 @@
       "mentions": 6,
       "firstChapter": 18,
       "lastChapter": 804,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "路西恩满意地点了",
-      "mentions": 6,
-      "firstChapter": 45,
-      "lastChapter": 757,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "忽然",
-      "mentions": 6,
-      "firstChapter": 47,
-      "lastChapter": 875,
       "chapterCount": 6,
       "markers": [
         "人物行为/发言(6)"
@@ -756,40 +281,10 @@
       ]
     },
     {
-      "name": "娜塔莎忽然",
+      "name": "含笑",
       "mentions": 6,
-      "firstChapter": 77,
-      "lastChapter": 507,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "莱茵摇了",
-      "mentions": 6,
-      "firstChapter": 90,
-      "lastChapter": 640,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "娜塔莎微微",
-      "mentions": 6,
-      "firstChapter": 101,
-      "lastChapter": 759,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "路西恩认真地",
-      "mentions": 6,
-      "firstChapter": 106,
-      "lastChapter": 584,
+      "firstChapter": 83,
+      "lastChapter": 871,
       "chapterCount": 6,
       "markers": [
         "人物行为/发言(6)"
@@ -806,10 +301,10 @@
       ]
     },
     {
-      "name": "于是轻轻",
+      "name": "温和",
       "mentions": 6,
-      "firstChapter": 129,
-      "lastChapter": 879,
+      "firstChapter": 240,
+      "lastChapter": 471,
       "chapterCount": 6,
       "markers": [
         "人物行为/发言(6)"
@@ -826,10 +321,10 @@
       ]
     },
     {
-      "name": "费尔南多嘿嘿",
+      "name": "汤谱",
       "mentions": 6,
-      "firstChapter": 334,
-      "lastChapter": 891,
+      "firstChapter": 327,
+      "lastChapter": 614,
       "chapterCount": 6,
       "markers": [
         "人物行为/发言(6)"
@@ -846,10 +341,10 @@
       ]
     },
     {
-      "name": "卡特里娜",
+      "name": "目光",
       "mentions": 6,
-      "firstChapter": 343,
-      "lastChapter": 753,
+      "firstChapter": 344,
+      "lastChapter": 839,
       "chapterCount": 6,
       "markers": [
         "人物行为/发言(6)"
@@ -866,6 +361,16 @@
       ]
     },
     {
+      "name": "赶紧",
+      "mentions": 6,
+      "firstChapter": 353,
+      "lastChapter": 775,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
       "name": "专注地",
       "mentions": 6,
       "firstChapter": 358,
@@ -876,30 +381,20 @@
       ]
     },
     {
-      "name": "路西恩低声",
-      "mentions": 6,
-      "firstChapter": 490,
-      "lastChapter": 822,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "本笃三世",
-      "mentions": 6,
-      "firstChapter": 569,
-      "lastChapter": 736,
-      "chapterCount": 6,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "埃里克",
+      "name": "海瑟薇",
       "mentions": 7,
-      "firstChapter": 214,
-      "lastChapter": 424,
+      "firstChapter": 498,
+      "lastChapter": 870,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "尤里斯安",
+      "mentions": 7,
+      "firstChapter": 552,
+      "lastChapter": 752,
       "chapterCount": 5,
       "markers": [
         "人物行为/发言(7)"
@@ -936,60 +431,10 @@
       ]
     },
     {
-      "name": "认真地",
-      "mentions": 5,
-      "firstChapter": 23,
-      "lastChapter": 874,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "路西恩感",
-      "mentions": 5,
-      "firstChapter": 34,
-      "lastChapter": 645,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "又摇了",
-      "mentions": 5,
-      "firstChapter": 37,
-      "lastChapter": 842,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
       "name": "路西恩礼貌地",
       "mentions": 5,
       "firstChapter": 46,
       "lastChapter": 484,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "郑重地",
-      "mentions": 5,
-      "firstChapter": 50,
-      "lastChapter": 694,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "路西恩郑重地点了",
-      "mentions": 5,
-      "firstChapter": 78,
-      "lastChapter": 765,
       "chapterCount": 5,
       "markers": [
         "人物行为/发言(5)"
@@ -1016,36 +461,6 @@
       ]
     },
     {
-      "name": "路西恩摇头",
-      "mentions": 5,
-      "firstChapter": 94,
-      "lastChapter": 647,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "路西恩好笑地摇了",
-      "mentions": 5,
-      "firstChapter": 107,
-      "lastChapter": 779,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "莱茵呵呵",
-      "mentions": 5,
-      "firstChapter": 117,
-      "lastChapter": 631,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
       "name": "路西恩好奇地",
       "mentions": 5,
       "firstChapter": 161,
@@ -1066,16 +481,6 @@
       ]
     },
     {
-      "name": "路西恩忽然",
-      "mentions": 5,
-      "firstChapter": 222,
-      "lastChapter": 818,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
       "name": "下意识",
       "mentions": 5,
       "firstChapter": 234,
@@ -1086,70 +491,50 @@
       ]
     },
     {
-      "name": "笑着摇了",
+      "name": "涅西卡",
       "mentions": 5,
-      "firstChapter": 288,
-      "lastChapter": 875,
+      "firstChapter": 424,
+      "lastChapter": 651,
       "chapterCount": 5,
       "markers": [
         "人物行为/发言(5)"
       ]
     },
     {
-      "name": "费尔南多轻轻",
+      "name": "路西恩低声",
       "mentions": 5,
-      "firstChapter": 335,
-      "lastChapter": 889,
+      "firstChapter": 490,
+      "lastChapter": 822,
       "chapterCount": 5,
       "markers": [
         "人物行为/发言(5)"
       ]
     },
     {
-      "name": "费尔南多忽然",
+      "name": "维肯",
       "mentions": 5,
-      "firstChapter": 359,
-      "lastChapter": 666,
+      "firstChapter": 648,
+      "lastChapter": 823,
       "chapterCount": 5,
       "markers": [
         "人物行为/发言(5)"
       ]
     },
     {
-      "name": "低声感",
+      "name": "阿里",
       "mentions": 5,
-      "firstChapter": 451,
-      "lastChapter": 722,
+      "firstChapter": 723,
+      "lastChapter": 802,
       "chapterCount": 5,
       "markers": [
         "人物行为/发言(5)"
       ]
     },
     {
-      "name": "布鲁克",
+      "name": "约翰",
       "mentions": 5,
-      "firstChapter": 453,
-      "lastChapter": 816,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "弗朗西斯",
-      "mentions": 5,
-      "firstChapter": 472,
-      "lastChapter": 503,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "于是微微",
-      "mentions": 5,
-      "firstChapter": 44,
-      "lastChapter": 530,
+      "firstChapter": 15,
+      "lastChapter": 856,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(5)"
@@ -1166,43 +551,13 @@
       ]
     },
     {
-      "name": "阿里",
+      "name": "弗洛伦莎",
       "mentions": 5,
-      "firstChapter": 725,
-      "lastChapter": 802,
+      "firstChapter": 217,
+      "lastChapter": 602,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "安诺德",
-      "mentions": 5,
-      "firstChapter": 874,
-      "lastChapter": 898,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "路西恩自嘲地",
-      "mentions": 4,
-      "firstChapter": 8,
-      "lastChapter": 812,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "路西恩郑重地",
-      "mentions": 4,
-      "firstChapter": 18,
-      "lastChapter": 732,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
       ]
     },
     {
@@ -1220,16 +575,6 @@
       "mentions": 4,
       "firstChapter": 47,
       "lastChapter": 342,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "平静地",
-      "mentions": 4,
-      "firstChapter": 62,
-      "lastChapter": 218,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1266,30 +611,10 @@
       ]
     },
     {
-      "name": "路西恩尴尬地",
-      "mentions": 4,
-      "firstChapter": 99,
-      "lastChapter": 574,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
       "name": "路西恩温和",
       "mentions": 4,
       "firstChapter": 106,
       "lastChapter": 311,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "莱茵点了",
-      "mentions": 4,
-      "firstChapter": 117,
-      "lastChapter": 645,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1326,10 +651,10 @@
       ]
     },
     {
-      "name": "安尼克",
+      "name": "费利佩",
       "mentions": 4,
-      "firstChapter": 179,
-      "lastChapter": 667,
+      "firstChapter": 155,
+      "lastChapter": 543,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1340,16 +665,6 @@
       "mentions": 4,
       "firstChapter": 180,
       "lastChapter": 367,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "拉扎尔",
-      "mentions": 4,
-      "firstChapter": 184,
-      "lastChapter": 579,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1396,20 +711,20 @@
       ]
     },
     {
-      "name": "坚定地摇了",
+      "name": "他才",
       "mentions": 4,
-      "firstChapter": 215,
-      "lastChapter": 497,
+      "firstChapter": 263,
+      "lastChapter": 801,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
       ]
     },
     {
-      "name": "他一边",
+      "name": "自嘲地",
       "mentions": 4,
-      "firstChapter": 261,
-      "lastChapter": 836,
+      "firstChapter": 284,
+      "lastChapter": 864,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1420,26 +735,6 @@
       "mentions": 4,
       "firstChapter": 298,
       "lastChapter": 849,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "于是疑惑地",
-      "mentions": 4,
-      "firstChapter": 312,
-      "lastChapter": 749,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "目光",
-      "mentions": 4,
-      "firstChapter": 352,
-      "lastChapter": 839,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1466,30 +761,10 @@
       ]
     },
     {
-      "name": "詹姆斯公爵",
+      "name": "布鲁克",
       "mentions": 4,
-      "firstChapter": 421,
-      "lastChapter": 561,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "费尔南多嗤",
-      "mentions": 4,
-      "firstChapter": 424,
-      "lastChapter": 871,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "涅西卡",
-      "mentions": 4,
-      "firstChapter": 426,
-      "lastChapter": 651,
+      "firstChapter": 453,
+      "lastChapter": 739,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1506,20 +781,10 @@
       ]
     },
     {
-      "name": "路西恩笑着",
+      "name": "本笃三世",
       "mentions": 4,
-      "firstChapter": 541,
-      "lastChapter": 806,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "道格拉斯笑着摇了",
-      "mentions": 4,
-      "firstChapter": 570,
-      "lastChapter": 790,
+      "firstChapter": 569,
+      "lastChapter": 735,
       "chapterCount": 4,
       "markers": [
         "人物行为/发言(4)"
@@ -1536,26 +801,6 @@
       ]
     },
     {
-      "name": "道格拉斯继续",
-      "mentions": 4,
-      "firstChapter": 583,
-      "lastChapter": 916,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "海蒂",
-      "mentions": 4,
-      "firstChapter": 662,
-      "lastChapter": 694,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
       "name": "路西恩失",
       "mentions": 4,
       "firstChapter": 773,
@@ -1566,23 +811,53 @@
       ]
     },
     {
-      "name": "接着微微",
+      "name": "唐尼",
+      "mentions": 4,
+      "firstChapter": 830,
+      "lastChapter": 843,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "卡尔",
+      "mentions": 4,
+      "firstChapter": 835,
+      "lastChapter": 854,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "萨尔德",
+      "mentions": 6,
+      "firstChapter": 135,
+      "lastChapter": 556,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "阿斯塔尔",
       "mentions": 5,
-      "firstChapter": 664,
-      "lastChapter": 770,
+      "firstChapter": 169,
+      "lastChapter": 173,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(5)"
       ]
     },
     {
-      "name": "汤姆",
-      "mentions": 4,
-      "firstChapter": 169,
-      "lastChapter": 181,
+      "name": "老者",
+      "mentions": 5,
+      "firstChapter": 391,
+      "lastChapter": 807,
       "chapterCount": 3,
       "markers": [
-        "人物行为/发言(4)"
+        "人物行为/发言(5)"
       ]
     },
     {
@@ -1596,43 +871,23 @@
       ]
     },
     {
-      "name": "海蒂微微",
+      "name": "埃尔",
       "mentions": 4,
-      "firstChapter": 661,
-      "lastChapter": 663,
+      "firstChapter": 468,
+      "lastChapter": 503,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(4)"
       ]
     },
     {
-      "name": "尤里斯安",
+      "name": "安诺德",
       "mentions": 4,
-      "firstChapter": 675,
-      "lastChapter": 752,
+      "firstChapter": 873,
+      "lastChapter": 882,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "维肯",
-      "mentions": 4,
-      "firstChapter": 744,
-      "lastChapter": 823,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "于是点",
-      "mentions": 3,
-      "firstChapter": 7,
-      "lastChapter": 185,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
       ]
     },
     {
@@ -1640,26 +895,6 @@
       "mentions": 3,
       "firstChapter": 15,
       "lastChapter": 586,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "哈哈",
-      "mentions": 3,
-      "firstChapter": 15,
-      "lastChapter": 901,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "路西恩下意识地",
-      "mentions": 3,
-      "firstChapter": 17,
-      "lastChapter": 522,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(3)"
@@ -1686,20 +921,10 @@
       ]
     },
     {
-      "name": "路西恩表情严肃地",
+      "name": "他就",
       "mentions": 3,
-      "firstChapter": 26,
-      "lastChapter": 804,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "约翰点了",
-      "mentions": 3,
-      "firstChapter": 37,
-      "lastChapter": 856,
+      "firstChapter": 50,
+      "lastChapter": 596,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(3)"
@@ -1716,20 +941,30 @@
       ]
     },
     {
-      "name": "满意地",
+      "name": "娜塔莎忽然",
       "mentions": 3,
-      "firstChapter": 96,
-      "lastChapter": 731,
+      "firstChapter": 77,
+      "lastChapter": 133,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(3)"
       ]
     },
     {
-      "name": "娜塔莎哈哈",
+      "name": "路西恩摇头",
       "mentions": 3,
-      "firstChapter": 99,
-      "lastChapter": 650,
+      "firstChapter": 94,
+      "lastChapter": 451,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩转头",
+      "mentions": 3,
+      "firstChapter": 103,
+      "lastChapter": 235,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(3)"
@@ -1746,70 +981,10 @@
       ]
     },
     {
-      "name": "路西恩轻",
+      "name": "安尼克",
       "mentions": 3,
-      "firstChapter": 153,
-      "lastChapter": 758,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "费利佩",
-      "mentions": 3,
-      "firstChapter": 159,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "深深地",
-      "mentions": 3,
-      "firstChapter": 168,
-      "lastChapter": 804,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "轻声",
-      "mentions": 3,
-      "firstChapter": 173,
-      "lastChapter": 829,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "安尼克摇了",
-      "mentions": 3,
-      "firstChapter": 174,
-      "lastChapter": 802,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "拉扎尔摇了",
-      "mentions": 3,
-      "firstChapter": 183,
-      "lastChapter": 359,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "拉扎尔呵呵",
-      "mentions": 3,
-      "firstChapter": 185,
-      "lastChapter": 345,
+      "firstChapter": 179,
+      "lastChapter": 667,
       "chapterCount": 3,
       "markers": [
         "人物行为/发言(3)"
@@ -1834,6 +1009,836 @@
       "markers": [
         "人物行为/发言(3)"
       ]
+    },
+    {
+      "name": "路西恩下意识",
+      "mentions": 3,
+      "firstChapter": 325,
+      "lastChapter": 639,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "卡特里娜",
+      "mentions": 3,
+      "firstChapter": 343,
+      "lastChapter": 730,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "费尔南多忽然",
+      "mentions": 3,
+      "firstChapter": 359,
+      "lastChapter": 666,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩无奈地",
+      "mentions": 3,
+      "firstChapter": 362,
+      "lastChapter": 507,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩由衷地",
+      "mentions": 3,
+      "firstChapter": 370,
+      "lastChapter": 786,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "哈罗德",
+      "mentions": 3,
+      "firstChapter": 382,
+      "lastChapter": 692,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "蕾切尔",
+      "mentions": 3,
+      "firstChapter": 429,
+      "lastChapter": 768,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "莫里斯",
+      "mentions": 3,
+      "firstChapter": 450,
+      "lastChapter": 602,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "萨曼莎",
+      "mentions": 3,
+      "firstChapter": 461,
+      "lastChapter": 768,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "弗朗西斯",
+      "mentions": 3,
+      "firstChapter": 474,
+      "lastChapter": 480,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "娜塔莎关心地",
+      "mentions": 3,
+      "firstChapter": 490,
+      "lastChapter": 826,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "娜塔莎半开玩笑地",
+      "mentions": 3,
+      "firstChapter": 491,
+      "lastChapter": 757,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "忽然",
+      "mentions": 3,
+      "firstChapter": 507,
+      "lastChapter": 875,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "奥菲莉亚",
+      "mentions": 3,
+      "firstChapter": 534,
+      "lastChapter": 577,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "詹姆斯公爵",
+      "mentions": 3,
+      "firstChapter": 535,
+      "lastChapter": 561,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "维森特",
+      "mentions": 3,
+      "firstChapter": 598,
+      "lastChapter": 917,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "戒备地",
+      "mentions": 3,
+      "firstChapter": 628,
+      "lastChapter": 773,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "侧头",
+      "mentions": 3,
+      "firstChapter": 638,
+      "lastChapter": 876,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩若有所思地",
+      "mentions": 3,
+      "firstChapter": 645,
+      "lastChapter": 784,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "眼睛",
+      "mentions": 3,
+      "firstChapter": 651,
+      "lastChapter": 912,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "目光专注地",
+      "mentions": 3,
+      "firstChapter": 665,
+      "lastChapter": 801,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "阿格莱亚",
+      "mentions": 3,
+      "firstChapter": 673,
+      "lastChapter": 690,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "教皇本笃三世",
+      "mentions": 3,
+      "firstChapter": 722,
+      "lastChapter": 791,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "仰头",
+      "mentions": 3,
+      "firstChapter": 740,
+      "lastChapter": 818,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "海蒂得意地",
+      "mentions": 3,
+      "firstChapter": 750,
+      "lastChapter": 786,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "唐尼目瞪口呆地",
+      "mentions": 3,
+      "firstChapter": 834,
+      "lastChapter": 855,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "安泰克",
+      "mentions": 3,
+      "firstChapter": 889,
+      "lastChapter": 896,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "玛法里奥",
+      "mentions": 5,
+      "firstChapter": 677,
+      "lastChapter": 689,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "伍兹",
+      "mentions": 4,
+      "firstChapter": 227,
+      "lastChapter": 228,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "杰克森",
+      "mentions": 3,
+      "firstChapter": 14,
+      "lastChapter": 30,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "维克托",
+      "mentions": 3,
+      "firstChapter": 21,
+      "lastChapter": 94,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "奥赛罗",
+      "mentions": 3,
+      "firstChapter": 61,
+      "lastChapter": 297,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "幽默地",
+      "mentions": 3,
+      "firstChapter": 96,
+      "lastChapter": 585,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "蕾依丽雅",
+      "mentions": 3,
+      "firstChapter": 171,
+      "lastChapter": 753,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "尔南多似笑非笑地",
+      "mentions": 3,
+      "firstChapter": 428,
+      "lastChapter": 517,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "目瞪口呆地",
+      "mentions": 3,
+      "firstChapter": 686,
+      "lastChapter": 916,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "雅可夫",
+      "mentions": 3,
+      "firstChapter": 713,
+      "lastChapter": 716,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "唐尼下意识",
+      "mentions": 3,
+      "firstChapter": 839,
+      "lastChapter": 851,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "佩福斯伯爵",
+      "mentions": 3,
+      "firstChapter": 860,
+      "lastChapter": 886,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "夏普",
+      "mentions": 3,
+      "firstChapter": 871,
+      "lastChapter": 885,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "安静",
+      "mentions": 2,
+      "firstChapter": 1,
+      "lastChapter": 235,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "惊疑不定地",
+      "mentions": 2,
+      "firstChapter": 7,
+      "lastChapter": 92,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "只能眼睁睁地",
+      "mentions": 2,
+      "firstChapter": 8,
+      "lastChapter": 910,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "惊讶地",
+      "mentions": 2,
+      "firstChapter": 9,
+      "lastChapter": 750,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "约翰微",
+      "mentions": 2,
+      "firstChapter": 17,
+      "lastChapter": 856,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩下意识地",
+      "mentions": 2,
+      "firstChapter": 17,
+      "lastChapter": 522,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "抬头",
+      "mentions": 2,
+      "firstChapter": 17,
+      "lastChapter": 910,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "洛特",
+      "mentions": 2,
+      "firstChapter": 19,
+      "lastChapter": 50,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "音乐家",
+      "mentions": 2,
+      "firstChapter": 20,
+      "lastChapter": 69,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "冷静地",
+      "mentions": 2,
+      "firstChapter": 32,
+      "lastChapter": 71,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩感",
+      "mentions": 2,
+      "firstChapter": 34,
+      "lastChapter": 335,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "绿如同湖水的眼睛",
+      "mentions": 2,
+      "firstChapter": 36,
+      "lastChapter": 710,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "约翰凝重地",
+      "mentions": 2,
+      "firstChapter": 37,
+      "lastChapter": 93,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "同时",
+      "mentions": 2,
+      "firstChapter": 44,
+      "lastChapter": 730,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "贤者",
+      "mentions": 2,
+      "firstChapter": 53,
+      "lastChapter": 300,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "亚伦",
+      "mentions": 2,
+      "firstChapter": 55,
+      "lastChapter": 130,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "维克托幽默地",
+      "mentions": 2,
+      "firstChapter": 59,
+      "lastChapter": 98,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "双眼",
+      "mentions": 2,
+      "firstChapter": 61,
+      "lastChapter": 305,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "略带好奇地",
+      "mentions": 2,
+      "firstChapter": 63,
+      "lastChapter": 169,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "汉克",
+      "mentions": 2,
+      "firstChapter": 71,
+      "lastChapter": 76,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩面无表情地",
+      "mentions": 2,
+      "firstChapter": 72,
+      "lastChapter": 499,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "但他",
+      "mentions": 2,
+      "firstChapter": 76,
+      "lastChapter": 594,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "还是",
+      "mentions": 2,
+      "firstChapter": 92,
+      "lastChapter": 875,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "就要",
+      "mentions": 2,
+      "firstChapter": 93,
+      "lastChapter": 506,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "小声地",
+      "mentions": 2,
+      "firstChapter": 97,
+      "lastChapter": 716,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩平和地",
+      "mentions": 2,
+      "firstChapter": 105,
+      "lastChapter": 554,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "格瑞丝",
+      "mentions": 2,
+      "firstChapter": 113,
+      "lastChapter": 168,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "虽然",
+      "mentions": 2,
+      "firstChapter": 115,
+      "lastChapter": 196,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩略微惊讶地",
+      "mentions": 2,
+      "firstChapter": 117,
+      "lastChapter": 143,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "她冷",
+      "mentions": 2,
+      "firstChapter": 133,
+      "lastChapter": 425,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "怀斯",
+      "mentions": 2,
+      "firstChapter": 137,
+      "lastChapter": 138,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩冷静地",
+      "mentions": 2,
+      "firstChapter": 143,
+      "lastChapter": 306,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩静静地",
+      "mentions": 2,
+      "firstChapter": 145,
+      "lastChapter": 719,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "转头",
+      "mentions": 2,
+      "firstChapter": 147,
+      "lastChapter": 189,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "路西恩轻",
+      "mentions": 2,
+      "firstChapter": 153,
+      "lastChapter": 188,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "眯着眼睛",
+      "mentions": 2,
+      "firstChapter": 154,
+      "lastChapter": 537,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "歉意地",
+      "mentions": 2,
+      "firstChapter": 167,
+      "lastChapter": 613,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "深深地",
+      "mentions": 2,
+      "firstChapter": 168,
+      "lastChapter": 804,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "汤姆",
+      "mentions": 2,
+      "firstChapter": 169,
+      "lastChapter": 170,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "专心致志地",
+      "mentions": 2,
+      "firstChapter": 169,
+      "lastChapter": 233,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "引力",
+      "mentions": 2,
+      "firstChapter": 170,
+      "lastChapter": 494,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "高塔几何",
+      "mentions": 2,
+      "firstChapter": 172,
+      "lastChapter": 422,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "轻声",
+      "mentions": 2,
+      "firstChapter": 173,
+      "lastChapter": 305,
+      "chapterCount": 2,
+      "markers": [
+        "人物行为/发言(2)"
+      ]
     }
   ],
   "relations": [
@@ -1857,34 +1862,17 @@
     {
       "source": "直接",
       "target": "路西恩",
-      "mentions": 597,
+      "mentions": 598,
       "firstChapter": 2,
       "lastChapter": 825,
       "markers": [
-        "同章共现(532)",
+        "同章共现(533)",
         "老师(29)",
         "朋友(9)",
         "学生(5)",
         "追杀(4)",
         "敌人(4)",
         "保护(4)",
-        "合作(2)"
-      ]
-    },
-    {
-      "source": "微笑",
-      "target": "路西恩",
-      "mentions": 537,
-      "firstChapter": 9,
-      "lastChapter": 856,
-      "markers": [
-        "同章共现(472)",
-        "老师(29)",
-        "学生(12)",
-        "朋友(9)",
-        "保护(4)",
-        "敌人(4)",
-        "追杀(2)",
         "合作(2)"
       ]
     },
@@ -1903,23 +1891,6 @@
         "保护(2)",
         "合作(2)",
         "妻子(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "路西恩",
-      "mentions": 482,
-      "firstChapter": 2,
-      "lastChapter": 826,
-      "markers": [
-        "同章共现(444)",
-        "老师(17)",
-        "朋友(6)",
-        "学生(6)",
-        "合作(2)",
-        "命令(2)",
-        "丈夫(2)",
-        "母亲(1)"
       ]
     },
     {
@@ -1959,7 +1930,7 @@
     {
       "source": "忽然",
       "target": "路西恩",
-      "mentions": 369,
+      "mentions": 368,
       "firstChapter": 7,
       "lastChapter": 856,
       "markers": [
@@ -1976,11 +1947,11 @@
     {
       "source": "再次",
       "target": "路西恩",
-      "mentions": 363,
+      "mentions": 364,
       "firstChapter": 2,
       "lastChapter": 856,
       "markers": [
-        "同章共现(343)",
+        "同章共现(344)",
         "学生(5)",
         "老师(4)",
         "朋友(4)",
@@ -2008,20 +1979,20 @@
       ]
     },
     {
-      "source": "继续",
+      "source": "目光",
       "target": "路西恩",
-      "mentions": 354,
+      "mentions": 355,
       "firstChapter": 2,
-      "lastChapter": 825,
+      "lastChapter": 841,
       "markers": [
-        "同章共现(328)",
-        "老师(6)",
-        "学生(5)",
-        "朋友(5)",
-        "敌人(3)",
+        "同章共现(330)",
+        "老师(9)",
+        "学生(3)",
+        "朋友(3)",
+        "追杀(2)",
+        "命令(2)",
         "父亲(1)",
-        "女儿(1)",
-        "队长(1)"
+        "同伴(1)"
       ]
     },
     {
@@ -2059,40 +2030,6 @@
       ]
     },
     {
-      "source": "一边",
-      "target": "路西恩",
-      "mentions": 333,
-      "firstChapter": 2,
-      "lastChapter": 825,
-      "markers": [
-        "同章共现(313)",
-        "保护(5)",
-        "老师(5)",
-        "朋友(4)",
-        "学生(2)",
-        "同伴(1)",
-        "母亲(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "轻轻",
-      "mentions": 330,
-      "firstChapter": 4,
-      "lastChapter": 826,
-      "markers": [
-        "同章共现(306)",
-        "老师(8)",
-        "朋友(6)",
-        "学生(3)",
-        "弟子(2)",
-        "父亲(2)",
-        "保护(2)",
-        "合作(1)"
-      ]
-    },
-    {
       "source": "而是",
       "target": "路西恩",
       "mentions": 328,
@@ -2110,20 +2047,51 @@
       ]
     },
     {
-      "source": "微微",
+      "source": "眼睛",
       "target": "路西恩",
-      "mentions": 304,
-      "firstChapter": 4,
-      "lastChapter": 825,
+      "mentions": 279,
+      "firstChapter": 1,
+      "lastChapter": 830,
       "markers": [
-        "同章共现(286)",
-        "老师(7)",
-        "朋友(2)",
-        "敌人(2)",
-        "合作(2)",
-        "同伴(1)",
-        "妻子(1)",
-        "弟子(1)"
+        "同章共现(256)",
+        "老师(8)",
+        "学生(5)",
+        "朋友(3)",
+        "保护(2)",
+        "敌人(1)",
+        "母亲(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "拉扎尔",
+      "target": "路西恩",
+      "mentions": 256,
+      "firstChapter": 182,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(225)",
+        "朋友(19)",
+        "老师(11)",
+        "学生(3)",
+        "同伴(2)"
+      ]
+    },
+    {
+      "source": "约翰",
+      "target": "路西恩",
+      "mentions": 249,
+      "firstChapter": 12,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(210)",
+        "朋友(23)",
+        "保护(5)",
+        "父亲(4)",
+        "学生(3)",
+        "老师(3)",
+        "同伴(2)",
+        "儿子(1)"
       ]
     },
     {
@@ -2144,37 +2112,20 @@
       ]
     },
     {
-      "source": "摇了",
+      "source": "费利佩",
       "target": "路西恩",
-      "mentions": 205,
-      "firstChapter": 12,
-      "lastChapter": 826,
+      "mentions": 233,
+      "firstChapter": 147,
+      "lastChapter": 678,
       "markers": [
-        "同章共现(183)",
+        "同章共现(211)",
         "老师(6)",
-        "朋友(4)",
-        "父亲(3)",
-        "学生(2)",
-        "保护(2)",
-        "敌人(2)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "呵呵",
-      "target": "路西恩",
-      "mentions": 203,
-      "firstChapter": 10,
-      "lastChapter": 856,
-      "markers": [
-        "同章共现(173)",
-        "老师(8)",
-        "朋友(5)",
-        "学生(5)",
-        "敌人(3)",
-        "保护(2)",
-        "合作(2)",
-        "女儿(1)"
+        "敌人(4)",
+        "合作(3)",
+        "学生(3)",
+        "追杀(2)",
+        "对手(2)",
+        "保护(1)"
       ]
     },
     {
@@ -2197,11 +2148,11 @@
     {
       "source": "海瑟薇",
       "target": "费尔南多",
-      "mentions": 179,
+      "mentions": 181,
       "firstChapter": 220,
       "lastChapter": 916,
       "markers": [
-        "同章共现(164)",
+        "同章共现(166)",
         "学生(5)",
         "老师(5)",
         "合作(3)",
@@ -2214,11 +2165,11 @@
     {
       "source": "海瑟薇",
       "target": "路西恩",
-      "mentions": 176,
+      "mentions": 177,
       "firstChapter": 171,
-      "lastChapter": 818,
+      "lastChapter": 825,
       "markers": [
-        "同章共现(137)",
+        "同章共现(138)",
         "老师(22)",
         "学生(5)",
         "弟子(2)",
@@ -2229,29 +2180,26 @@
       ]
     },
     {
-      "source": "微笑",
-      "target": "路西恩微",
-      "mentions": 166,
-      "firstChapter": 9,
-      "lastChapter": 825,
+      "source": "猛地",
+      "target": "路西恩",
+      "mentions": 158,
+      "firstChapter": 3,
+      "lastChapter": 830,
       "markers": [
-        "同章共现(149)",
-        "老师(8)",
-        "朋友(4)",
-        "学生(4)",
-        "保护(1)",
-        "背叛(1)",
+        "同章共现(154)",
+        "老师(2)",
+        "追杀(1)",
         "敌人(1)"
       ]
     },
     {
       "source": "奥利弗",
       "target": "路西恩",
-      "mentions": 155,
+      "mentions": 156,
       "firstChapter": 43,
       "lastChapter": 824,
       "markers": [
-        "同章共现(136)",
+        "同章共现(137)",
         "老师(10)",
         "合作(3)",
         "妻子(2)",
@@ -2262,79 +2210,48 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩微笑",
-      "mentions": 152,
-      "firstChapter": 9,
-      "lastChapter": 825,
-      "markers": [
-        "同章共现(137)",
-        "老师(6)",
-        "朋友(4)",
-        "学生(4)",
-        "保护(1)",
-        "背叛(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "路西恩微",
-      "target": "路西恩微笑",
-      "mentions": 152,
-      "firstChapter": 9,
-      "lastChapter": 825,
-      "markers": [
-        "同章共现(137)",
-        "老师(6)",
-        "朋友(4)",
-        "学生(4)",
-        "保护(1)",
-        "背叛(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "微笑",
-      "target": "路西恩微笑",
-      "mentions": 151,
-      "firstChapter": 9,
-      "lastChapter": 825,
-      "markers": [
-        "同章共现(136)",
-        "老师(6)",
-        "朋友(4)",
-        "学生(4)",
-        "保护(1)",
-        "背叛(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "疑惑地",
+      "source": "埃尔",
       "target": "路西恩",
-      "mentions": 145,
-      "firstChapter": 2,
-      "lastChapter": 789,
+      "mentions": 152,
+      "firstChapter": 103,
+      "lastChapter": 613,
       "markers": [
-        "同章共现(132)",
-        "老师(5)",
-        "朋友(2)",
-        "合作(2)",
-        "学生(1)",
+        "同章共现(143)",
+        "背叛(3)",
+        "命令(3)",
+        "敌人(2)",
+        "追杀(1)",
         "保护(1)",
-        "下属(1)",
-        "交易(1)"
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "维肯",
+      "target": "路西恩",
+      "mentions": 148,
+      "firstChapter": 255,
+      "lastChapter": 827,
+      "markers": [
+        "同章共现(138)",
+        "合作(3)",
+        "朋友(1)",
+        "背叛(1)",
+        "对手(1)",
+        "交易(1)",
+        "敌人(1)",
+        "盟友(1)"
       ]
     },
     {
       "source": "下意识",
       "target": "路西恩",
-      "mentions": 136,
+      "mentions": 137,
       "firstChapter": 3,
       "lastChapter": 830,
       "markers": [
         "同章共现(130)",
-        "老师(3)",
+        "老师(4)",
         "保护(1)",
         "师父(1)",
         "朋友(1)"
@@ -2343,16 +2260,64 @@
     {
       "source": "海瑟薇",
       "target": "道格拉斯",
-      "mentions": 131,
+      "mentions": 133,
       "firstChapter": 220,
       "lastChapter": 916,
       "markers": [
-        "同章共现(124)",
+        "同章共现(126)",
         "老师(2)",
         "合作(2)",
         "对手(1)",
         "妻子(1)",
         "追杀(1)"
+      ]
+    },
+    {
+      "source": "安尼克",
+      "target": "海蒂",
+      "mentions": 130,
+      "firstChapter": 170,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(93)",
+        "老师(22)",
+        "学生(9)",
+        "朋友(5)",
+        "弟子(1)",
+        "保护(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "卡尔",
+      "target": "唐尼",
+      "mentions": 130,
+      "firstChapter": 834,
+      "lastChapter": 854,
+      "markers": [
+        "同章共现(114)",
+        "导师(6)",
+        "朋友(3)",
+        "老师(2)",
+        "保护(2)",
+        "学生(2)",
+        "母亲(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "安尼克",
+      "target": "路西恩",
+      "mentions": 122,
+      "firstChapter": 171,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(92)",
+        "老师(15)",
+        "学生(15)",
+        "朋友(2)",
+        "下属(1)",
+        "敌人(1)"
       ]
     },
     {
@@ -2372,39 +2337,13 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩一边",
-      "mentions": 116,
-      "firstChapter": 2,
-      "lastChapter": 809,
-      "markers": [
-        "同章共现(112)",
-        "老师(2)",
-        "保护(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "一边",
-      "target": "路西恩一边",
-      "mentions": 116,
-      "firstChapter": 2,
-      "lastChapter": 809,
-      "markers": [
-        "同章共现(112)",
-        "老师(2)",
-        "保护(1)",
-        "朋友(1)"
-      ]
-    },
-    {
       "source": "弗朗西斯",
       "target": "路西恩",
-      "mentions": 111,
+      "mentions": 112,
       "firstChapter": 411,
       "lastChapter": 720,
       "markers": [
-        "同章共现(103)",
+        "同章共现(104)",
         "追杀(3)",
         "同伴(1)",
         "兄弟(1)",
@@ -2412,6 +2351,23 @@
         "敌人(1)",
         "命令(1)",
         "背叛(1)"
+      ]
+    },
+    {
+      "source": "萨尔德",
+      "target": "路西恩",
+      "mentions": 110,
+      "firstChapter": 64,
+      "lastChapter": 747,
+      "markers": [
+        "同章共现(88)",
+        "老师(7)",
+        "合作(6)",
+        "朋友(4)",
+        "敌人(2)",
+        "保护(2)",
+        "学生(1)",
+        "对手(1)"
       ]
     },
     {
@@ -2423,6 +2379,21 @@
       "markers": [
         "同章共现(109)",
         "老师(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "海蒂",
+      "target": "路西恩",
+      "mentions": 109,
+      "firstChapter": 171,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(75)",
+        "老师(24)",
+        "学生(10)",
+        "母亲(1)",
+        "盟友(1)",
         "朋友(1)"
       ]
     },
@@ -2472,35 +2443,19 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩忽然",
-      "mentions": 103,
-      "firstChapter": 7,
+      "source": "布鲁克",
+      "target": "路西恩",
+      "mentions": 104,
+      "firstChapter": 169,
       "lastChapter": 818,
       "markers": [
-        "同章共现(94)",
-        "老师(4)",
-        "学生(3)",
-        "朋友(3)",
-        "命令(1)",
-        "背叛(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "忽然",
-      "target": "路西恩忽然",
-      "mentions": 103,
-      "firstChapter": 7,
-      "lastChapter": 818,
-      "markers": [
-        "同章共现(94)",
-        "老师(4)",
-        "学生(3)",
-        "朋友(3)",
-        "命令(1)",
-        "背叛(1)",
-        "敌人(1)"
+        "同章共现(87)",
+        "老师(10)",
+        "学生(4)",
+        "朋友(2)",
+        "敌人(2)",
+        "对手(1)",
+        "合作(1)"
       ]
     },
     {
@@ -2521,44 +2476,36 @@
     },
     {
       "source": "布鲁克",
-      "target": "路西恩",
+      "target": "道格拉斯",
       "mentions": 102,
-      "firstChapter": 169,
-      "lastChapter": 818,
+      "firstChapter": 220,
+      "lastChapter": 815,
       "markers": [
-        "同章共现(85)",
-        "老师(10)",
-        "学生(4)",
-        "朋友(2)",
-        "敌人(2)",
+        "同章共现(90)",
+        "学生(6)",
+        "老师(3)",
+        "背叛(1)",
+        "敌人(1)",
         "对手(1)",
+        "妻子(1)",
         "合作(1)"
       ]
     },
     {
       "source": "路西恩",
-      "target": "路西恩轻轻",
+      "target": "远远",
       "mentions": 101,
-      "firstChapter": 9,
-      "lastChapter": 810,
+      "firstChapter": 3,
+      "lastChapter": 761,
       "markers": [
-        "同章共现(97)",
-        "父亲(2)",
-        "朋友(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "路西恩轻轻",
-      "target": "轻轻",
-      "mentions": 101,
-      "firstChapter": 9,
-      "lastChapter": 810,
-      "markers": [
-        "同章共现(97)",
-        "父亲(2)",
-        "朋友(1)",
-        "老师(1)"
+        "同章共现(94)",
+        "朋友(2)",
+        "老师(2)",
+        "敌人(1)",
+        "弟子(1)",
+        "保护(1)",
+        "队长(1)",
+        "妻子(1)"
       ]
     },
     {
@@ -2577,91 +2524,35 @@
       ]
     },
     {
-      "source": "布鲁克",
-      "target": "道格拉斯",
-      "mentions": 100,
-      "firstChapter": 220,
-      "lastChapter": 815,
+      "source": "埃尔",
+      "target": "弗朗西斯",
+      "mentions": 87,
+      "firstChapter": 468,
+      "lastChapter": 547,
       "markers": [
-        "同章共现(88)",
-        "学生(6)",
-        "老师(3)",
-        "背叛(1)",
+        "同章共现(82)",
+        "背叛(2)",
+        "合作(2)",
         "敌人(1)",
-        "对手(1)",
-        "妻子(1)",
-        "合作(1)"
+        "追杀(1)",
+        "同伴(1)"
       ]
     },
     {
-      "source": "认真地",
+      "source": "弗洛伦莎",
       "target": "路西恩",
-      "mentions": 94,
-      "firstChapter": 2,
-      "lastChapter": 806,
+      "mentions": 86,
+      "firstChapter": 217,
+      "lastChapter": 602,
       "markers": [
-        "同章共现(87)",
-        "敌人(2)",
-        "老师(2)",
-        "学生(1)",
-        "朋友(1)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "路西恩微微",
-      "mentions": 88,
-      "firstChapter": 4,
-      "lastChapter": 754,
-      "markers": [
-        "同章共现(81)",
-        "老师(4)",
-        "同伴(1)",
-        "妻子(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "微微",
-      "target": "路西恩微",
-      "mentions": 88,
-      "firstChapter": 4,
-      "lastChapter": 754,
-      "markers": [
-        "同章共现(81)",
-        "老师(4)",
-        "同伴(1)",
-        "妻子(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "路西恩微",
-      "target": "路西恩微微",
-      "mentions": 88,
-      "firstChapter": 4,
-      "lastChapter": 754,
-      "markers": [
-        "同章共现(81)",
-        "老师(4)",
-        "同伴(1)",
-        "妻子(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "微微",
-      "target": "路西恩微微",
-      "mentions": 88,
-      "firstChapter": 4,
-      "lastChapter": 754,
-      "markers": [
-        "同章共现(81)",
-        "老师(4)",
-        "同伴(1)",
-        "妻子(1)",
-        "学生(1)"
+        "同章共现(72)",
+        "老师(5)",
+        "妻子(4)",
+        "丈夫(3)",
+        "学生(2)",
+        "弟子(1)",
+        "合作(1)",
+        "背叛(1)"
       ]
     },
     {
@@ -2696,14 +2587,16 @@
       ]
     },
     {
-      "source": "说着",
+      "source": "他就",
       "target": "路西恩",
-      "mentions": 81,
+      "mentions": 78,
       "firstChapter": 4,
-      "lastChapter": 826,
+      "lastChapter": 809,
       "markers": [
-        "同章共现(74)",
-        "老师(5)",
+        "同章共现(72)",
+        "老师(2)",
+        "下属(1)",
+        "队长(1)",
         "学生(1)",
         "敌人(1)"
       ]
@@ -2723,11 +2616,11 @@
     {
       "source": "直接",
       "target": "费尔南多",
-      "mentions": 76,
+      "mentions": 77,
       "firstChapter": 201,
       "lastChapter": 911,
       "markers": [
-        "同章共现(62)",
+        "同章共现(63)",
         "老师(9)",
         "追杀(2)",
         "敌人(1)",
@@ -2737,13 +2630,59 @@
       ]
     },
     {
+      "source": "卡特里娜",
+      "target": "海蒂",
+      "mentions": 76,
+      "firstChapter": 170,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(46)",
+        "老师(17)",
+        "学生(6)",
+        "朋友(5)",
+        "同伴(2)",
+        "弟子(1)",
+        "保护(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "加斯东",
+      "target": "路西恩",
+      "mentions": 76,
+      "firstChapter": 204,
+      "lastChapter": 606,
+      "markers": [
+        "同章共现(71)",
+        "老师(2)",
+        "追杀(1)",
+        "弟子(1)",
+        "学生(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "莫里斯",
+      "target": "路西恩",
+      "mentions": 75,
+      "firstChapter": 215,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(66)",
+        "学生(5)",
+        "老师(2)",
+        "合作(2)",
+        "父亲(1)"
+      ]
+    },
+    {
       "source": "直接",
       "target": "而是",
-      "mentions": 73,
+      "mentions": 74,
       "firstChapter": 38,
       "lastChapter": 911,
       "markers": [
-        "同章共现(64)",
+        "同章共现(65)",
         "老师(2)",
         "敌人(1)",
         "父亲(1)",
@@ -2754,15 +2693,32 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩感",
-      "mentions": 69,
-      "firstChapter": 7,
-      "lastChapter": 785,
+      "source": "汤谱",
+      "target": "路西恩",
+      "mentions": 72,
+      "firstChapter": 255,
+      "lastChapter": 721,
       "markers": [
-        "同章共现(64)",
-        "老师(4)",
-        "保护(2)"
+        "同章共现(58)",
+        "老师(11)",
+        "学生(5)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "开玩",
+      "target": "路西恩",
+      "mentions": 68,
+      "firstChapter": 15,
+      "lastChapter": 787,
+      "markers": [
+        "同章共现(56)",
+        "老师(6)",
+        "朋友(2)",
+        "学生(1)",
+        "背叛(1)",
+        "丈夫(1)",
+        "对手(1)"
       ]
     },
     {
@@ -2778,6 +2734,22 @@
         "老师(1)",
         "命令(1)",
         "父亲(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "道格拉斯",
+      "mentions": 68,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(62)",
+        "老师(1)",
+        "丈夫(1)",
+        "妻子(1)",
+        "学生(1)",
+        "敌人(1)",
+        "合作(1)"
       ]
     },
     {
@@ -2797,63 +2769,30 @@
       ]
     },
     {
-      "source": "奥利弗",
-      "target": "道格拉斯",
-      "mentions": 67,
-      "firstChapter": 220,
-      "lastChapter": 915,
-      "markers": [
-        "同章共现(61)",
-        "老师(1)",
-        "丈夫(1)",
-        "妻子(1)",
-        "学生(1)",
-        "敌人(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "路西恩点了",
-      "mentions": 66,
-      "firstChapter": 7,
-      "lastChapter": 826,
-      "markers": [
-        "同章共现(60)",
-        "老师(3)",
-        "学生(1)",
-        "保护(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "娜塔莎",
-      "mentions": 66,
-      "firstChapter": 18,
-      "lastChapter": 826,
-      "markers": [
-        "同章共现(59)",
-        "老师(3)",
-        "朋友(1)",
-        "队长(1)",
-        "盟友(1)",
-        "命令(1)"
-      ]
-    },
-    {
       "source": "娜塔莎",
-      "target": "微笑",
+      "target": "萨尔德",
       "mentions": 66,
-      "firstChapter": 58,
-      "lastChapter": 785,
+      "firstChapter": 64,
+      "lastChapter": 567,
       "markers": [
-        "同章共现(58)",
-        "朋友(2)",
-        "女儿(2)",
-        "老师(2)",
-        "父亲(1)",
-        "妻子(1)"
+        "同章共现(57)",
+        "老师(6)",
+        "合作(2)",
+        "敌人(1)",
+        "对手(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "眼睛",
+      "target": "费尔南多",
+      "mentions": 66,
+      "firstChapter": 338,
+      "lastChapter": 900,
+      "markers": [
+        "同章共现(63)",
+        "学生(2)",
+        "合作(1)"
       ]
     },
     {
@@ -2870,6 +2809,33 @@
       ]
     },
     {
+      "source": "布鲁克",
+      "target": "费尔南多",
+      "mentions": 65,
+      "firstChapter": 220,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(61)",
+        "老师(1)",
+        "妻子(1)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "布鲁克",
+      "target": "海瑟薇",
+      "mentions": 64,
+      "firstChapter": 220,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(60)",
+        "老师(2)",
+        "对手(1)",
+        "妻子(1)"
+      ]
+    },
+    {
       "source": "路西恩",
       "target": "随口",
       "mentions": 63,
@@ -2883,27 +2849,13 @@
       ]
     },
     {
-      "source": "布鲁克",
+      "source": "奥利弗",
       "target": "费尔南多",
       "mentions": 63,
       "firstChapter": 220,
-      "lastChapter": 818,
-      "markers": [
-        "同章共现(59)",
-        "老师(1)",
-        "妻子(1)",
-        "学生(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "奥利弗",
-      "target": "费尔南多",
-      "mentions": 62,
-      "firstChapter": 220,
       "lastChapter": 915,
       "markers": [
-        "同章共现(54)",
+        "同章共现(55)",
         "老师(3)",
         "学生(2)",
         "合作(2)",
@@ -2911,32 +2863,31 @@
       ]
     },
     {
-      "source": "布鲁克",
-      "target": "海瑟薇",
+      "source": "娜塔莎",
+      "target": "眼睛",
       "mentions": 62,
-      "firstChapter": 220,
-      "lastChapter": 818,
+      "firstChapter": 65,
+      "lastChapter": 804,
       "markers": [
         "同章共现(58)",
-        "老师(2)",
-        "对手(1)",
-        "妻子(1)"
+        "追杀(1)",
+        "朋友(1)",
+        "保护(1)",
+        "女儿(1)"
       ]
     },
     {
-      "source": "摇了",
-      "target": "笑着摇了",
+      "source": "含笑",
+      "target": "路西恩",
       "mentions": 61,
-      "firstChapter": 28,
-      "lastChapter": 875,
+      "firstChapter": 47,
+      "lastChapter": 826,
       "markers": [
-        "同章共现(55)",
-        "学生(1)",
-        "父亲(1)",
+        "同章共现(54)",
+        "老师(4)",
         "合作(1)",
-        "敌人(1)",
         "朋友(1)",
-        "老师(1)"
+        "保护(1)"
       ]
     },
     {
@@ -2952,48 +2903,17 @@
       ]
     },
     {
-      "source": "嘿嘿",
-      "target": "娜塔莎",
-      "mentions": 61,
-      "firstChapter": 65,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(55)",
-        "老师(2)",
-        "学生(1)",
-        "朋友(1)",
-        "父亲(1)",
-        "敌人(1)",
-        "丈夫(1)"
-      ]
-    },
-    {
-      "source": "含笑",
-      "target": "路西恩",
+      "source": "娜塔莎",
+      "target": "目光",
       "mentions": 60,
-      "firstChapter": 47,
-      "lastChapter": 826,
+      "firstChapter": 96,
+      "lastChapter": 767,
       "markers": [
-        "同章共现(53)",
-        "老师(4)",
-        "合作(1)",
-        "朋友(1)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "嘿嘿",
-      "target": "路西恩",
-      "mentions": 60,
-      "firstChapter": 52,
-      "lastChapter": 826,
-      "markers": [
-        "同章共现(51)",
-        "老师(4)",
-        "朋友(3)",
-        "学生(1)",
-        "同伴(1)",
-        "背叛(1)",
+        "同章共现(54)",
+        "保护(2)",
+        "母亲(1)",
+        "命令(1)",
+        "妻子(1)",
         "敌人(1)"
       ]
     },
@@ -3014,53 +2934,6 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩摇了",
-      "mentions": 59,
-      "firstChapter": 16,
-      "lastChapter": 806,
-      "markers": [
-        "同章共现(52)",
-        "保护(2)",
-        "朋友(1)",
-        "对手(1)",
-        "敌人(1)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "摇了",
-      "target": "路西恩摇了",
-      "mentions": 59,
-      "firstChapter": 16,
-      "lastChapter": 806,
-      "markers": [
-        "同章共现(52)",
-        "保护(2)",
-        "朋友(1)",
-        "对手(1)",
-        "敌人(1)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "微微",
-      "mentions": 59,
-      "firstChapter": 64,
-      "lastChapter": 816,
-      "markers": [
-        "同章共现(54)",
-        "敌人(1)",
-        "朋友(1)",
-        "女儿(1)",
-        "保护(1)",
-        "父亲(1)"
-      ]
-    },
-    {
       "source": "一直",
       "target": "娜塔莎",
       "mentions": 58,
@@ -3078,103 +2951,16 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩疑惑地",
-      "mentions": 57,
-      "firstChapter": 12,
-      "lastChapter": 789,
-      "markers": [
-        "同章共现(54)",
-        "下属(1)",
-        "老师(1)",
-        "母亲(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "疑惑地",
-      "target": "路西恩疑惑地",
-      "mentions": 57,
-      "firstChapter": 12,
-      "lastChapter": 789,
-      "markers": [
-        "同章共现(54)",
-        "下属(1)",
-        "老师(1)",
-        "母亲(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "继续",
-      "mentions": 57,
-      "firstChapter": 57,
-      "lastChapter": 804,
-      "markers": [
-        "同章共现(52)",
-        "朋友(2)",
-        "父亲(1)",
-        "队长(1)",
-        "背叛(1)",
-        "老师(1)"
-      ]
-    },
-    {
       "source": "奥利弗",
       "target": "布鲁克",
-      "mentions": 57,
+      "mentions": 58,
       "firstChapter": 220,
       "lastChapter": 821,
       "markers": [
-        "同章共现(53)",
+        "同章共现(54)",
         "老师(2)",
         "妻子(1)",
         "保护(1)"
-      ]
-    },
-    {
-      "source": "费尔南多",
-      "target": "轻轻",
-      "mentions": 57,
-      "firstChapter": 330,
-      "lastChapter": 917,
-      "markers": [
-        "同章共现(48)",
-        "学生(5)",
-        "老师(4)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "轻轻",
-      "mentions": 56,
-      "firstChapter": 65,
-      "lastChapter": 764,
-      "markers": [
-        "同章共现(50)",
-        "朋友(3)",
-        "老师(1)",
-        "合作(1)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "微微",
-      "target": "微笑",
-      "mentions": 55,
-      "firstChapter": 46,
-      "lastChapter": 838,
-      "markers": [
-        "同章共现(45)",
-        "老师(5)",
-        "儿子(1)",
-        "合作(1)",
-        "朋友(1)",
-        "父亲(1)",
-        "女儿(1)",
-        "学生(1)"
       ]
     },
     {
@@ -3190,6 +2976,20 @@
         "同伴(2)",
         "朋友(1)",
         "弟子(1)"
+      ]
+    },
+    {
+      "source": "加斯东",
+      "target": "拉文第",
+      "mentions": 54,
+      "firstChapter": 187,
+      "lastChapter": 660,
+      "markers": [
+        "同章共现(49)",
+        "学生(2)",
+        "合作(1)",
+        "朋友(1)",
+        "丈夫(1)"
       ]
     },
     {
@@ -3224,13 +3024,29 @@
       ]
     },
     {
+      "source": "卡特里娜",
+      "target": "安尼克",
+      "mentions": 52,
+      "firstChapter": 171,
+      "lastChapter": 800,
+      "markers": [
+        "同章共现(34)",
+        "老师(9)",
+        "学生(6)",
+        "朋友(3)",
+        "弟子(1)",
+        "合作(1)",
+        "保护(1)"
+      ]
+    },
+    {
       "source": "直接",
       "target": "道格拉斯",
-      "mentions": 51,
+      "mentions": 52,
       "firstChapter": 351,
       "lastChapter": 916,
       "markers": [
-        "同章共现(45)",
+        "同章共现(46)",
         "老师(2)",
         "敌人(2)",
         "朋友(1)",
@@ -3238,44 +3054,15 @@
       ]
     },
     {
-      "source": "微笑",
+      "source": "维肯",
       "target": "道格拉斯",
-      "mentions": 49,
-      "firstChapter": 170,
-      "lastChapter": 901,
+      "mentions": 51,
+      "firstChapter": 616,
+      "lastChapter": 826,
       "markers": [
-        "同章共现(43)",
-        "老师(4)",
-        "学生(1)",
+        "同章共现(49)",
+        "合作(1)",
         "敌人(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "路西恩继续",
-      "mentions": 48,
-      "firstChapter": 7,
-      "lastChapter": 823,
-      "markers": [
-        "同章共现(44)",
-        "朋友(1)",
-        "敌人(1)",
-        "命令(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "继续",
-      "target": "路西恩继续",
-      "mentions": 48,
-      "firstChapter": 7,
-      "lastChapter": 823,
-      "markers": [
-        "同章共现(44)",
-        "朋友(1)",
-        "敌人(1)",
-        "命令(1)",
-        "老师(1)"
       ]
     },
     {
@@ -3310,6 +3097,19 @@
       ]
     },
     {
+      "source": "拉文第",
+      "target": "莫里斯",
+      "mentions": 46,
+      "firstChapter": 214,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(40)",
+        "老师(3)",
+        "学生(2)",
+        "盟友(1)"
+      ]
+    },
+    {
       "source": "安诺德",
       "target": "费尔南多",
       "mentions": 46,
@@ -3325,19 +3125,17 @@
       ]
     },
     {
-      "source": "笑着摇了",
-      "target": "路西恩",
+      "source": "维森特",
+      "target": "费尔南多",
       "mentions": 44,
-      "firstChapter": 28,
-      "lastChapter": 786,
+      "firstChapter": 220,
+      "lastChapter": 916,
       "markers": [
-        "同章共现(38)",
-        "学生(1)",
-        "父亲(1)",
-        "合作(1)",
+        "同章共现(40)",
+        "妻子(1)",
         "敌人(1)",
-        "朋友(1)",
-        "老师(1)"
+        "学生(1)",
+        "合作(1)"
       ]
     },
     {
@@ -3371,59 +3169,6 @@
       ]
     },
     {
-      "source": "轻轻",
-      "target": "道格拉斯",
-      "mentions": 44,
-      "firstChapter": 220,
-      "lastChapter": 917,
-      "markers": [
-        "同章共现(39)",
-        "老师(1)",
-        "学生(1)",
-        "合作(1)",
-        "追杀(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "继续",
-      "target": "费尔南多",
-      "mentions": 44,
-      "firstChapter": 330,
-      "lastChapter": 893,
-      "markers": [
-        "同章共现(39)",
-        "学生(4)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "微微",
-      "target": "道格拉斯",
-      "mentions": 44,
-      "firstChapter": 342,
-      "lastChapter": 915,
-      "markers": [
-        "同章共现(42)",
-        "同伴(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "平静地",
-      "target": "路西恩",
-      "mentions": 43,
-      "firstChapter": 12,
-      "lastChapter": 673,
-      "markers": [
-        "同章共现(39)",
-        "朋友(1)",
-        "追杀(1)",
-        "儿子(1)",
-        "命令(1)"
-      ]
-    },
-    {
       "source": "奇怪地",
       "target": "路西恩",
       "mentions": 43,
@@ -3449,31 +3194,15 @@
       ]
     },
     {
-      "source": "于是",
-      "target": "直接",
+      "source": "老者",
+      "target": "路西恩",
       "mentions": 42,
-      "firstChapter": 5,
-      "lastChapter": 893,
+      "firstChapter": 48,
+      "lastChapter": 807,
       "markers": [
-        "同章共现(37)",
-        "老师(2)",
-        "兄弟(1)",
-        "姐妹(1)",
-        "丈夫(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "轻轻",
-      "target": "轻轻点了",
-      "mentions": 42,
-      "firstChapter": 42,
-      "lastChapter": 899,
-      "markers": [
-        "同章共现(38)",
-        "学生(2)",
-        "保护(1)",
-        "老师(1)"
+        "同章共现(40)",
+        "朋友(1)",
+        "学生(1)"
       ]
     },
     {
@@ -3489,30 +3218,34 @@
       ]
     },
     {
-      "source": "呵呵",
-      "target": "道格拉斯",
-      "mentions": 40,
-      "firstChapter": 117,
-      "lastChapter": 901,
+      "source": "路西恩",
+      "target": "路西恩正",
+      "mentions": 41,
+      "firstChapter": 6,
+      "lastChapter": 810,
       "markers": [
         "同章共现(35)",
+        "老师(2)",
         "学生(2)",
-        "弟子(1)",
-        "丈夫(1)",
-        "合作(1)"
+        "合作(1)",
+        "朋友(1)"
       ]
     },
     {
-      "source": "于是",
-      "target": "费尔南多",
-      "mentions": 40,
-      "firstChapter": 328,
-      "lastChapter": 914,
+      "source": "娜塔莎",
+      "target": "约翰",
+      "mentions": 41,
+      "firstChapter": 47,
+      "lastChapter": 856,
       "markers": [
-        "同章共现(35)",
-        "学生(3)",
+        "同章共现(30)",
+        "朋友(4)",
+        "保护(2)",
         "老师(2)",
-        "朋友(1)"
+        "父亲(2)",
+        "母亲(1)",
+        "兄弟(1)",
+        "学生(1)"
       ]
     },
     {
@@ -3541,42 +3274,25 @@
       ]
     },
     {
-      "source": "一边",
-      "target": "娜塔莎",
-      "mentions": 39,
-      "firstChapter": 57,
-      "lastChapter": 760,
-      "markers": [
-        "同章共现(35)",
-        "女儿(1)",
-        "朋友(1)",
-        "敌人(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "忽然",
-      "mentions": 38,
-      "firstChapter": 15,
-      "lastChapter": 735,
-      "markers": [
-        "同章共现(34)",
-        "老师(2)",
-        "朋友(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "微笑",
-      "target": "莱茵",
+      "source": "安静地",
+      "target": "路西恩",
       "mentions": 37,
       "firstChapter": 9,
-      "lastChapter": 797,
+      "lastChapter": 809,
+      "markers": [
+        "同章共现(37)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "目光",
+      "mentions": 37,
+      "firstChapter": 20,
+      "lastChapter": 900,
       "markers": [
         "同章共现(35)",
-        "学生(1)",
-        "老师(1)"
+        "老师(1)",
+        "朋友(1)"
       ]
     },
     {
@@ -3591,29 +3307,14 @@
       ]
     },
     {
-      "source": "娜塔莎",
-      "target": "摇了",
-      "mentions": 37,
-      "firstChapter": 28,
-      "lastChapter": 758,
-      "markers": [
-        "同章共现(33)",
-        "父亲(2)",
-        "学生(1)",
-        "对手(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "微微",
-      "target": "费尔南多",
+      "source": "詹姆斯公爵",
+      "target": "路西恩",
       "mentions": 36,
-      "firstChapter": 330,
-      "lastChapter": 913,
+      "firstChapter": 332,
+      "lastChapter": 729,
       "markers": [
-        "同章共现(33)",
-        "弟子(1)",
-        "合作(1)",
+        "同章共现(34)",
+        "朋友(1)",
         "老师(1)"
       ]
     },
@@ -3630,6 +3331,48 @@
       ]
     },
     {
+      "source": "萨曼莎",
+      "target": "路西恩",
+      "mentions": 36,
+      "firstChapter": 428,
+      "lastChapter": 802,
+      "markers": [
+        "同章共现(30)",
+        "老师(4)",
+        "对手(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "凝重地",
+      "target": "路西恩",
+      "mentions": 35,
+      "firstChapter": 35,
+      "lastChapter": 766,
+      "markers": [
+        "同章共现(30)",
+        "朋友(2)",
+        "保护(1)",
+        "背叛(1)",
+        "敌人(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "目光",
+      "target": "道格拉斯",
+      "mentions": 35,
+      "firstChapter": 148,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(31)",
+        "敌人(2)",
+        "老师(1)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
       "source": "而是",
       "target": "道格拉斯",
       "mentions": 35,
@@ -3642,56 +3385,72 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩好笑地",
-      "mentions": 34,
-      "firstChapter": 9,
-      "lastChapter": 806,
-      "markers": [
-        "同章共现(32)",
-        "学生(1)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "呵呵",
+      "source": "埃尔",
       "target": "娜塔莎",
       "mentions": 34,
-      "firstChapter": 78,
-      "lastChapter": 797,
+      "firstChapter": 125,
+      "lastChapter": 503,
       "markers": [
-        "同章共现(27)",
-        "老师(2)",
-        "保护(2)",
+        "同章共现(31)",
         "敌人(1)",
-        "朋友(1)",
-        "母亲(1)"
+        "背叛(1)",
+        "追杀(1)",
+        "同伴(1)",
+        "合作(1)",
+        "命令(1)"
       ]
     },
     {
-      "source": "微笑",
-      "target": "直接",
+      "source": "道格拉斯",
+      "target": "道格拉斯微",
       "mentions": 34,
-      "firstChapter": 108,
-      "lastChapter": 879,
+      "firstChapter": 342,
+      "lastChapter": 915,
       "markers": [
-        "同章共现(28)",
-        "老师(2)",
-        "敌人(1)",
-        "朋友(1)",
-        "丈夫(1)",
-        "交易(1)"
+        "同章共现(33)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩下意识",
+      "mentions": 33,
+      "firstChapter": 3,
+      "lastChapter": 790,
+      "markers": [
+        "同章共现(32)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "下意识",
+      "target": "路西恩下意识",
+      "mentions": 33,
+      "firstChapter": 3,
+      "lastChapter": 790,
+      "markers": [
+        "同章共现(32)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "猛地",
+      "mentions": 33,
+      "firstChapter": 90,
+      "lastChapter": 764,
+      "markers": [
+        "同章共现(33)"
       ]
     },
     {
       "source": "忽然",
       "target": "道格拉斯",
-      "mentions": 34,
+      "mentions": 33,
       "firstChapter": 199,
       "lastChapter": 879,
       "markers": [
         "同章共现(31)",
-        "对手(1)",
         "学生(1)",
         "老师(1)"
       ]
@@ -3710,54 +3469,28 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "郑重地",
-      "mentions": 32,
-      "firstChapter": 12,
-      "lastChapter": 765,
-      "markers": [
-        "同章共现(30)",
-        "命令(1)",
-        "老师(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "再次",
-      "mentions": 32,
-      "firstChapter": 30,
-      "lastChapter": 847,
-      "markers": [
-        "同章共现(30)",
-        "老师(1)",
-        "学生(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "疑惑地",
-      "mentions": 32,
-      "firstChapter": 64,
-      "lastChapter": 816,
-      "markers": [
-        "同章共现(28)",
-        "朋友(2)",
-        "母亲(1)",
-        "合作(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "道格拉斯",
-      "target": "道格拉斯微",
-      "mentions": 32,
-      "firstChapter": 342,
-      "lastChapter": 915,
+      "source": "教皇本笃三世",
+      "target": "本笃三世",
+      "mentions": 33,
+      "firstChapter": 570,
+      "lastChapter": 813,
       "markers": [
         "同章共现(31)",
-        "老师(1)"
+        "老师(1)",
+        "敌人(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "眼睛",
+      "mentions": 32,
+      "firstChapter": 58,
+      "lastChapter": 907,
+      "markers": [
+        "同章共现(30)",
+        "朋友(1)",
+        "保护(1)"
       ]
     },
     {
@@ -3772,27 +3505,95 @@
       ]
     },
     {
+      "source": "接着",
+      "target": "猛地",
+      "mentions": 31,
+      "firstChapter": 32,
+      "lastChapter": 837,
+      "markers": [
+        "同章共现(30)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "莱茵",
+      "target": "萨尔德",
+      "mentions": 31,
+      "firstChapter": 64,
+      "lastChapter": 690,
+      "markers": [
+        "同章共现(27)",
+        "老师(2)",
+        "敌人(1)",
+        "合作(1)",
+        "保护(1)",
+        "朋友(1)"
+      ]
+    },
+    {
       "source": "再次",
       "target": "接着",
-      "mentions": 30,
+      "mentions": 31,
       "firstChapter": 101,
       "lastChapter": 871,
       "markers": [
-        "同章共现(29)",
+        "同章共现(30)",
         "保护(1)"
       ]
     },
     {
-      "source": "一边",
-      "target": "费尔南多",
+      "source": "诚恳地",
+      "target": "路西恩",
       "mentions": 30,
-      "firstChapter": 246,
-      "lastChapter": 893,
+      "firstChapter": 22,
+      "lastChapter": 799,
       "markers": [
         "同章共现(27)",
         "老师(2)",
-        "保护(1)",
-        "合作(1)"
+        "学生(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "费利佩",
+      "mentions": 30,
+      "firstChapter": 153,
+      "lastChapter": 849,
+      "markers": [
+        "同章共现(26)",
+        "老师(1)",
+        "敌人(1)",
+        "追杀(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "阿斯塔尔",
+      "mentions": 30,
+      "firstChapter": 169,
+      "lastChapter": 184,
+      "markers": [
+        "同章共现(28)",
+        "导师(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "弗洛伦莎",
+      "mentions": 30,
+      "firstChapter": 220,
+      "lastChapter": 543,
+      "markers": [
+        "同章共现(18)",
+        "丈夫(5)",
+        "学生(2)",
+        "合作(2)",
+        "妻子(2)",
+        "老师(1)",
+        "背叛(1)"
       ]
     },
     {
@@ -3810,145 +3611,106 @@
       ]
     },
     {
-      "source": "摇了",
-      "target": "费尔南多",
-      "mentions": 30,
-      "firstChapter": 338,
-      "lastChapter": 894,
+      "source": "接着",
+      "target": "直接",
+      "mentions": 29,
+      "firstChapter": 19,
+      "lastChapter": 899,
       "markers": [
-        "同章共现(26)",
-        "学生(2)",
-        "合作(1)",
+        "同章共现(27)",
+        "保护(1)",
         "老师(1)"
       ]
     },
     {
-      "source": "呵呵",
-      "target": "莱茵",
+      "source": "埃里克",
+      "target": "拉扎尔",
       "mentions": 29,
-      "firstChapter": 21,
-      "lastChapter": 783,
+      "firstChapter": 186,
+      "lastChapter": 357,
       "markers": [
-        "同章共现(24)",
-        "保护(1)",
-        "追杀(1)",
-        "敌人(1)",
-        "朋友(1)",
-        "命令(1)"
+        "同章共现(28)",
+        "同伴(1)"
       ]
     },
     {
-      "source": "继续",
-      "target": "而是",
+      "source": "眼睛",
+      "target": "道格拉斯",
       "mentions": 29,
-      "firstChapter": 22,
-      "lastChapter": 870,
+      "firstChapter": 203,
+      "lastChapter": 878,
       "markers": [
-        "同章共现(26)",
-        "朋友(1)",
-        "学生(1)",
+        "同章共现(29)"
+      ]
+    },
+    {
+      "source": "涅西卡",
+      "target": "路西恩",
+      "mentions": 29,
+      "firstChapter": 424,
+      "lastChapter": 666,
+      "markers": [
+        "同章共现(25)",
+        "老师(4)"
+      ]
+    },
+    {
+      "source": "猛地",
+      "target": "眼睛",
+      "mentions": 28,
+      "firstChapter": 31,
+      "lastChapter": 881,
+      "markers": [
+        "同章共现(28)"
+      ]
+    },
+    {
+      "source": "目光",
+      "target": "费利佩",
+      "mentions": 28,
+      "firstChapter": 154,
+      "lastChapter": 848,
+      "markers": [
+        "同章共现(25)",
+        "追杀(1)",
+        "合作(1)",
         "导师(1)"
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩笑着摇了",
-      "mentions": 29,
-      "firstChapter": 45,
+      "source": "拉扎尔",
+      "target": "海蒂",
+      "mentions": 28,
+      "firstChapter": 184,
       "lastChapter": 786,
       "markers": [
-        "同章共现(26)",
-        "父亲(1)",
+        "同章共现(22)",
+        "老师(4)",
         "朋友(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "摇了",
-      "target": "路西恩笑着摇了",
-      "mentions": 29,
-      "firstChapter": 45,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(26)",
-        "父亲(1)",
-        "朋友(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "笑着摇了",
-      "target": "路西恩笑着摇了",
-      "mentions": 29,
-      "firstChapter": 45,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(26)",
-        "父亲(1)",
-        "朋友(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "继续",
-      "target": "道格拉斯",
-      "mentions": 29,
-      "firstChapter": 153,
-      "lastChapter": 916,
-      "markers": [
-        "同章共现(25)",
-        "敌人(1)",
-        "下属(1)",
-        "同伴(1)",
         "学生(1)"
       ]
     },
     {
-      "source": "路西恩",
-      "target": "路西恩呵呵",
-      "mentions": 29,
-      "firstChapter": 174,
-      "lastChapter": 812,
-      "markers": [
-        "同章共现(27)",
-        "追杀(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "呵呵",
-      "target": "路西恩呵呵",
-      "mentions": 29,
-      "firstChapter": 174,
-      "lastChapter": 812,
-      "markers": [
-        "同章共现(27)",
-        "追杀(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "接着",
+      "source": "海瑟薇",
       "target": "直接",
       "mentions": 28,
-      "firstChapter": 19,
-      "lastChapter": 849,
-      "markers": [
-        "同章共现(26)",
-        "保护(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "道格拉斯",
-      "mentions": 28,
-      "firstChapter": 197,
+      "firstChapter": 231,
       "lastChapter": 916,
       "markers": [
         "同章共现(25)",
         "老师(2)",
-        "学生(1)"
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "目光",
+      "target": "费尔南多",
+      "mentions": 28,
+      "firstChapter": 246,
+      "lastChapter": 900,
+      "markers": [
+        "同章共现(26)",
+        "老师(2)"
       ]
     },
     {
@@ -3965,41 +3727,54 @@
       ]
     },
     {
-      "source": "微微",
-      "target": "接着",
+      "source": "小声",
+      "target": "路西恩",
       "mentions": 27,
-      "firstChapter": 65,
-      "lastChapter": 871,
-      "markers": [
-        "同章共现(27)"
-      ]
-    },
-    {
-      "source": "海瑟薇",
-      "target": "直接",
-      "mentions": 27,
-      "firstChapter": 231,
-      "lastChapter": 916,
+      "firstChapter": 18,
+      "lastChapter": 778,
       "markers": [
         "同章共现(24)",
-        "老师(2)",
-        "敌人(1)"
+        "同伴(1)",
+        "朋友(1)",
+        "老师(1)"
       ]
     },
     {
-      "source": "一直",
-      "target": "呵呵",
-      "mentions": 26,
-      "firstChapter": 14,
-      "lastChapter": 855,
+      "source": "维森特",
+      "target": "道格拉斯",
+      "mentions": 27,
+      "firstChapter": 220,
+      "lastChapter": 916,
       "markers": [
-        "同章共现(19)",
-        "朋友(3)",
-        "弟子(1)",
-        "学生(1)",
+        "同章共现(23)",
+        "妻子(1)",
         "敌人(1)",
-        "父亲(1)",
+        "学生(1)",
         "合作(1)"
+      ]
+    },
+    {
+      "source": "汤谱",
+      "target": "费尔南多",
+      "mentions": 27,
+      "firstChapter": 327,
+      "lastChapter": 593,
+      "markers": [
+        "同章共现(15)",
+        "学生(9)",
+        "老师(4)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "死死",
+      "target": "路西恩",
+      "mentions": 26,
+      "firstChapter": 6,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(25)",
+        "学生(1)"
       ]
     },
     {
@@ -4016,24 +3791,33 @@
       ]
     },
     {
-      "source": "于是",
-      "target": "微笑",
-      "mentions": 26,
-      "firstChapter": 97,
-      "lastChapter": 813,
-      "markers": [
-        "同章共现(22)",
-        "老师(2)",
-        "合作(1)",
-        "丈夫(1)"
-      ]
-    },
-    {
       "source": "再次",
       "target": "忽然",
       "mentions": 26,
       "firstChapter": 104,
       "lastChapter": 845,
+      "markers": [
+        "同章共现(26)"
+      ]
+    },
+    {
+      "source": "安尼克",
+      "target": "拉扎尔",
+      "mentions": 26,
+      "firstChapter": 185,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(23)",
+        "学生(2)",
+        "朋友(2)"
+      ]
+    },
+    {
+      "source": "维森特",
+      "target": "路西恩",
+      "mentions": 26,
+      "firstChapter": 220,
+      "lastChapter": 806,
       "markers": [
         "同章共现(26)"
       ]
@@ -4078,6 +3862,20 @@
       ]
     },
     {
+      "source": "娜塔莎",
+      "target": "詹姆斯公爵",
+      "mentions": 26,
+      "firstChapter": 510,
+      "lastChapter": 564,
+      "markers": [
+        "同章共现(21)",
+        "老师(2)",
+        "保护(1)",
+        "敌人(1)",
+        "合作(1)"
+      ]
+    },
+    {
       "source": "大声",
       "target": "路西恩",
       "mentions": 25,
@@ -4112,6 +3910,17 @@
       ]
     },
     {
+      "source": "接着",
+      "target": "眼睛",
+      "mentions": 25,
+      "firstChapter": 53,
+      "lastChapter": 871,
+      "markers": [
+        "同章共现(24)",
+        "对手(1)"
+      ]
+    },
+    {
       "source": "拉文第",
       "target": "直接",
       "mentions": 25,
@@ -4123,72 +3932,74 @@
       ]
     },
     {
-      "source": "一边",
-      "target": "继续",
+      "source": "他才",
+      "target": "路西恩",
       "mentions": 24,
-      "firstChapter": 7,
-      "lastChapter": 893,
+      "firstChapter": 13,
+      "lastChapter": 783,
       "markers": [
         "同章共现(23)",
         "朋友(1)"
       ]
     },
     {
-      "source": "于是",
-      "target": "继续",
+      "source": "似笑非笑地",
+      "target": "路西恩",
       "mentions": 24,
-      "firstChapter": 20,
-      "lastChapter": 914,
+      "firstChapter": 22,
+      "lastChapter": 786,
       "markers": [
-        "同章共现(22)",
-        "老师(1)",
-        "学生(1)"
+        "同章共现(24)"
       ]
     },
     {
-      "source": "一直",
-      "target": "微笑",
+      "source": "萨曼莎",
+      "target": "蕾切尔",
       "mentions": 24,
-      "firstChapter": 59,
-      "lastChapter": 901,
+      "firstChapter": 245,
+      "lastChapter": 768,
       "markers": [
-        "同章共现(23)",
+        "同章共现(20)",
+        "老师(2)",
+        "对手(1)",
         "朋友(1)"
+      ]
+    },
+    {
+      "source": "萨尔德",
+      "target": "费尔南多",
+      "mentions": 24,
+      "firstChapter": 350,
+      "lastChapter": 613,
+      "markers": [
+        "同章共现(16)",
+        "合作(4)",
+        "学生(3)",
+        "命令(1)"
       ]
     },
     {
       "source": "路西恩",
-      "target": "路西恩认真地",
+      "target": "路西恩静静",
       "mentions": 23,
-      "firstChapter": 9,
-      "lastChapter": 599,
+      "firstChapter": 30,
+      "lastChapter": 810,
       "markers": [
-        "同章共现(20)",
-        "敌人(2)",
-        "老师(1)"
+        "同章共现(21)",
+        "保护(1)",
+        "合作(1)"
       ]
     },
     {
-      "source": "认真地",
-      "target": "路西恩认真地",
+      "source": "路西恩静静",
+      "target": "静静",
       "mentions": 23,
-      "firstChapter": 9,
-      "lastChapter": 599,
+      "firstChapter": 30,
+      "lastChapter": 810,
       "markers": [
-        "同章共现(20)",
-        "敌人(2)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "仔细",
-      "mentions": 23,
-      "firstChapter": 22,
-      "lastChapter": 910,
-      "markers": [
-        "同章共现(22)",
-        "敌人(1)"
+        "同章共现(21)",
+        "保护(1)",
+        "合作(1)"
       ]
     },
     {
@@ -4203,39 +4014,25 @@
       ]
     },
     {
-      "source": "轻轻",
-      "target": "道格拉斯轻轻",
+      "source": "直接",
+      "target": "眼睛",
       "mentions": 23,
-      "firstChapter": 220,
-      "lastChapter": 915,
+      "firstChapter": 81,
+      "lastChapter": 893,
       "markers": [
-        "同章共现(21)",
-        "合作(1)",
-        "敌人(1)"
+        "同章共现(22)",
+        "保护(1)"
       ]
     },
     {
-      "source": "海瑟薇",
-      "target": "轻轻",
+      "source": "加斯东",
+      "target": "莫里斯",
       "mentions": 23,
-      "firstChapter": 220,
-      "lastChapter": 902,
+      "firstChapter": 215,
+      "lastChapter": 660,
       "markers": [
         "同章共现(21)",
-        "学生(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "道格拉斯",
-      "target": "道格拉斯轻轻",
-      "mentions": 23,
-      "firstChapter": 220,
-      "lastChapter": 915,
-      "markers": [
-        "同章共现(21)",
-        "合作(1)",
-        "敌人(1)"
+        "学生(2)"
       ]
     },
     {
@@ -4250,16 +4047,17 @@
       ]
     },
     {
-      "source": "呵呵",
-      "target": "直接",
-      "mentions": 22,
-      "firstChapter": 17,
-      "lastChapter": 830,
+      "source": "直接",
+      "target": "维肯",
+      "mentions": 23,
+      "firstChapter": 643,
+      "lastChapter": 825,
       "markers": [
         "同章共现(19)",
-        "学生(1)",
+        "交易(1)",
+        "敌人(1)",
         "保护(1)",
-        "朋友(1)"
+        "老师(1)"
       ]
     },
     {
@@ -4276,16 +4074,15 @@
       ]
     },
     {
-      "source": "一边",
-      "target": "于是",
+      "source": "含笑",
+      "target": "娜塔莎",
       "mentions": 22,
-      "firstChapter": 29,
-      "lastChapter": 904,
+      "firstChapter": 103,
+      "lastChapter": 766,
       "markers": [
         "同章共现(19)",
         "老师(2)",
-        "同伴(1)",
-        "母亲(1)"
+        "保护(1)"
       ]
     },
     {
@@ -4304,27 +4101,43 @@
       ]
     },
     {
-      "source": "直接",
-      "target": "继续",
+      "source": "目光",
+      "target": "而是",
       "mentions": 22,
-      "firstChapter": 127,
-      "lastChapter": 885,
+      "firstChapter": 136,
+      "lastChapter": 899,
       "markers": [
-        "同章共现(20)",
-        "老师(1)",
-        "保护(1)"
+        "同章共现(16)",
+        "老师(2)",
+        "敌人(1)",
+        "朋友(1)",
+        "同伴(1)",
+        "合作(1)",
+        "命令(1)"
       ]
     },
     {
-      "source": "一边",
-      "target": "道格拉斯",
+      "source": "目光",
+      "target": "直接",
       "mentions": 22,
-      "firstChapter": 432,
-      "lastChapter": 878,
+      "firstChapter": 159,
+      "lastChapter": 856,
       "markers": [
-        "同章共现(20)",
-        "敌人(1)",
-        "老师(1)"
+        "同章共现(21)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "蕾切尔",
+      "target": "路西恩",
+      "mentions": 22,
+      "firstChapter": 243,
+      "lastChapter": 696,
+      "markers": [
+        "同章共现(15)",
+        "老师(5)",
+        "学生(1)",
+        "对手(1)"
       ]
     },
     {
@@ -4338,13 +4151,14 @@
       ]
     },
     {
-      "source": "一边",
-      "target": "直接",
+      "source": "一直",
+      "target": "眼睛",
       "mentions": 21,
-      "firstChapter": 2,
-      "lastChapter": 869,
+      "firstChapter": 1,
+      "lastChapter": 876,
       "markers": [
-        "同章共现(21)"
+        "同章共现(20)",
+        "老师(1)"
       ]
     },
     {
@@ -4362,89 +4176,48 @@
       ]
     },
     {
-      "source": "路西恩",
-      "target": "轻轻点了",
+      "source": "尤里斯安",
+      "target": "费利佩",
       "mentions": 21,
-      "firstChapter": 42,
-      "lastChapter": 797,
+      "firstChapter": 245,
+      "lastChapter": 689,
       "markers": [
-        "同章共现(18)",
-        "保护(1)",
+        "同章共现(20)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "唐尼",
+      "target": "忽然",
+      "mentions": 21,
+      "firstChapter": 829,
+      "lastChapter": 854,
+      "markers": [
+        "同章共现(19)",
         "学生(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩无奈地",
+      "mentions": 20,
+      "firstChapter": 11,
+      "lastChapter": 760,
+      "markers": [
+        "同章共现(19)",
         "老师(1)"
       ]
     },
     {
-      "source": "直接",
-      "target": "轻轻",
-      "mentions": 21,
-      "firstChapter": 73,
-      "lastChapter": 865,
-      "markers": [
-        "同章共现(18)",
-        "父亲(1)",
-        "老师(1)",
-        "敌人(1)"
-      ]
-    },
-    {
       "source": "忽然",
-      "target": "轻轻",
-      "mentions": 21,
-      "firstChapter": 73,
-      "lastChapter": 847,
+      "target": "猛地",
+      "mentions": 20,
+      "firstChapter": 43,
+      "lastChapter": 747,
       "markers": [
         "同章共现(19)",
-        "父亲(1)",
         "朋友(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "轻轻",
-      "mentions": 21,
-      "firstChapter": 77,
-      "lastChapter": 899,
-      "markers": [
-        "同章共现(18)",
-        "朋友(1)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "含笑",
-      "target": "娜塔莎",
-      "mentions": 21,
-      "firstChapter": 103,
-      "lastChapter": 766,
-      "markers": [
-        "同章共现(18)",
-        "老师(2)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "接着",
-      "target": "轻轻",
-      "mentions": 21,
-      "firstChapter": 116,
-      "lastChapter": 899,
-      "markers": [
-        "同章共现(21)"
-      ]
-    },
-    {
-      "source": "摇了",
-      "target": "道格拉斯",
-      "mentions": 21,
-      "firstChapter": 457,
-      "lastChapter": 901,
-      "markers": [
-        "同章共现(18)",
-        "老师(1)",
-        "合作(1)",
-        "同伴(1)"
       ]
     },
     {
@@ -4459,6 +4232,17 @@
       ]
     },
     {
+      "source": "再次",
+      "target": "眼睛",
+      "mentions": 20,
+      "firstChapter": 78,
+      "lastChapter": 871,
+      "markers": [
+        "同章共现(19)",
+        "敌人(1)"
+      ]
+    },
+    {
       "source": "好奇地",
       "target": "娜塔莎",
       "mentions": 20,
@@ -4470,130 +4254,27 @@
       ]
     },
     {
-      "source": "再次",
-      "target": "继续",
+      "source": "海瑟薇",
+      "target": "维森特",
       "mentions": 20,
-      "firstChapter": 92,
-      "lastChapter": 870,
+      "firstChapter": 220,
+      "lastChapter": 916,
       "markers": [
-        "同章共现(19)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "而是",
-      "target": "轻轻",
-      "mentions": 20,
-      "firstChapter": 129,
-      "lastChapter": 875,
-      "markers": [
-        "同章共现(15)",
-        "老师(2)",
-        "朋友(1)",
+        "同章共现(17)",
+        "妻子(1)",
         "学生(1)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "微笑",
-      "target": "费尔南多",
-      "mentions": 20,
-      "firstChapter": 330,
-      "lastChapter": 889,
-      "markers": [
-        "同章共现(17)",
-        "老师(3)"
-      ]
-    },
-    {
-      "source": "费尔南多轻轻",
-      "target": "轻轻",
-      "mentions": 20,
-      "firstChapter": 335,
-      "lastChapter": 914,
-      "markers": [
-        "同章共现(19)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "费尔南多",
-      "target": "费尔南多轻轻",
-      "mentions": 20,
-      "firstChapter": 335,
-      "lastChapter": 914,
-      "markers": [
-        "同章共现(19)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "一直",
-      "target": "继续",
-      "mentions": 19,
-      "firstChapter": 18,
-      "lastChapter": 873,
-      "markers": [
-        "同章共现(17)",
-        "父亲(1)",
         "合作(1)"
       ]
     },
     {
-      "source": "于是",
-      "target": "赶紧",
-      "mentions": 19,
-      "firstChapter": 23,
-      "lastChapter": 844,
-      "markers": [
-        "同章共现(18)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "接着",
-      "target": "继续",
-      "mentions": 19,
-      "firstChapter": 29,
-      "lastChapter": 871,
-      "markers": [
-        "同章共现(18)",
-        "导师(1)"
-      ]
-    },
-    {
-      "source": "呵呵",
-      "target": "微笑",
-      "mentions": 19,
-      "firstChapter": 58,
-      "lastChapter": 856,
-      "markers": [
-        "同章共现(14)",
-        "朋友(2)",
-        "保护(1)",
-        "学生(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "他微",
-      "target": "微笑",
-      "mentions": 19,
-      "firstChapter": 58,
-      "lastChapter": 889,
-      "markers": [
-        "同章共现(18)",
-        "父亲(1)"
-      ]
-    },
-    {
       "source": "再次",
-      "target": "微微",
-      "mentions": 19,
-      "firstChapter": 62,
-      "lastChapter": 871,
+      "target": "唐尼",
+      "mentions": 20,
+      "firstChapter": 828,
+      "lastChapter": 851,
       "markers": [
-        "同章共现(19)"
+        "同章共现(19)",
+        "朋友(1)"
       ]
     },
     {
@@ -4610,6 +4291,18 @@
       ]
     },
     {
+      "source": "海蒂",
+      "target": "直接",
+      "mentions": 19,
+      "firstChapter": 177,
+      "lastChapter": 819,
+      "markers": [
+        "同章共现(13)",
+        "老师(5)",
+        "学生(3)"
+      ]
+    },
+    {
       "source": "拉文第",
       "target": "海瑟薇",
       "mentions": 19,
@@ -4623,65 +4316,64 @@
       ]
     },
     {
-      "source": "疑惑地",
-      "target": "费尔南多",
+      "source": "布鲁克",
+      "target": "直接",
       "mentions": 19,
-      "firstChapter": 341,
-      "lastChapter": 890,
-      "markers": [
-        "同章共现(18)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "于是",
-      "target": "微微",
-      "mentions": 18,
-      "firstChapter": 44,
-      "lastChapter": 766,
+      "firstChapter": 423,
+      "lastChapter": 817,
       "markers": [
         "同章共现(17)",
-        "合作(1)"
+        "老师(1)",
+        "命令(1)"
       ]
     },
     {
-      "source": "一边",
-      "target": "微笑",
+      "source": "卡尔",
+      "target": "卡特里娜",
+      "mentions": 19,
+      "firstChapter": 709,
+      "lastChapter": 716,
+      "markers": [
+        "同章共现(14)",
+        "朋友(2)",
+        "合作(2)",
+        "同伴(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "就像在",
+      "target": "路西恩",
       "mentions": 18,
-      "firstChapter": 49,
+      "firstChapter": 3,
       "lastChapter": 823,
       "markers": [
-        "同章共现(15)",
-        "学生(1)",
-        "朋友(1)",
+        "同章共现(16)",
+        "同伴(1)",
+        "合作(1)",
         "老师(1)"
       ]
     },
     {
-      "source": "摇了",
-      "target": "直接",
+      "source": "再次",
+      "target": "莱茵",
       "mentions": 18,
-      "firstChapter": 55,
-      "lastChapter": 901,
+      "firstChapter": 21,
+      "lastChapter": 646,
       "markers": [
-        "同章共现(15)",
-        "对手(1)",
-        "父亲(1)",
-        "母亲(1)",
-        "同伴(1)"
+        "同章共现(17)",
+        "保护(1)"
       ]
     },
     {
-      "source": "娜塔莎",
-      "target": "认真地",
+      "source": "路西恩",
+      "target": "面无表情地",
       "mentions": 18,
-      "firstChapter": 66,
-      "lastChapter": 719,
+      "firstChapter": 69,
+      "lastChapter": 636,
       "markers": [
-        "同章共现(16)",
-        "母亲(2)",
-        "朋友(1)",
-        "父亲(1)"
+        "同章共现(17)",
+        "老师(1)"
       ]
     },
     {
@@ -4707,51 +4399,37 @@
       ]
     },
     {
-      "source": "微微",
-      "target": "直接",
+      "source": "侧头",
+      "target": "路西恩",
       "mentions": 18,
-      "firstChapter": 83,
-      "lastChapter": 822,
+      "firstChapter": 119,
+      "lastChapter": 645,
       "markers": [
-        "同章共现(16)",
-        "朋友(1)",
-        "老师(1)"
+        "同章共现(18)"
       ]
     },
     {
-      "source": "嘿嘿",
-      "target": "费尔南多",
+      "source": "接着",
+      "target": "目光",
       "mentions": 18,
-      "firstChapter": 311,
+      "firstChapter": 140,
       "lastChapter": 897,
       "markers": [
         "同章共现(16)",
-        "父亲(1)",
-        "老师(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "微笑",
-      "target": "道格拉斯微",
-      "mentions": 18,
-      "firstChapter": 353,
-      "lastChapter": 901,
-      "markers": [
-        "同章共现(17)",
+        "保护(1)",
         "老师(1)"
       ]
     },
     {
-      "source": "布鲁克",
-      "target": "直接",
+      "source": "奥利弗",
+      "target": "维森特",
       "mentions": 18,
-      "firstChapter": 423,
-      "lastChapter": 817,
+      "firstChapter": 220,
+      "lastChapter": 915,
       "markers": [
         "同章共现(16)",
-        "老师(1)",
-        "命令(1)"
+        "妻子(1)",
+        "合作(1)"
       ]
     },
     {
@@ -4765,6 +4443,28 @@
         "保护(1)",
         "合作(1)",
         "命令(1)"
+      ]
+    },
+    {
+      "source": "维肯",
+      "target": "费尔南多",
+      "mentions": 18,
+      "firstChapter": 614,
+      "lastChapter": 883,
+      "markers": [
+        "同章共现(15)",
+        "合作(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "下意识",
+      "target": "唐尼",
+      "mentions": 18,
+      "firstChapter": 828,
+      "lastChapter": 855,
+      "markers": [
+        "同章共现(18)"
       ]
     },
     {
@@ -4790,64 +4490,289 @@
       ]
     },
     {
-      "source": "于是",
-      "target": "而是",
+      "source": "低声",
+      "target": "娜塔莎",
       "mentions": 17,
-      "firstChapter": 8,
-      "lastChapter": 812,
+      "firstChapter": 99,
+      "lastChapter": 825,
       "markers": [
-        "同章共现(13)",
-        "朋友(2)",
-        "学生(1)",
-        "命令(1)"
+        "同章共现(16)",
+        "朋友(1)"
       ]
     },
     {
-      "source": "微笑",
+      "source": "娜塔莎",
+      "target": "赶紧",
+      "mentions": 17,
+      "firstChapter": 129,
+      "lastChapter": 804,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "海蒂",
+      "target": "费利佩",
+      "mentions": 17,
+      "firstChapter": 184,
+      "lastChapter": 817,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "下意识",
       "target": "接着",
       "mentions": 17,
-      "firstChapter": 17,
-      "lastChapter": 862,
+      "firstChapter": 235,
+      "lastChapter": 790,
       "markers": [
-        "同章共现(14)",
+        "同章共现(15)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "维肯",
+      "target": "而是",
+      "mentions": 17,
+      "firstChapter": 281,
+      "lastChapter": 909,
+      "markers": [
+        "同章共现(15)",
+        "命令(1)",
+        "朋友(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "海瑟薇",
+      "target": "目光",
+      "mentions": 17,
+      "firstChapter": 327,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(16)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "目光",
+      "target": "眼睛",
+      "mentions": 17,
+      "firstChapter": 327,
+      "lastChapter": 908,
+      "markers": [
+        "同章共现(15)",
         "保护(1)",
-        "敌人(1)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "再次",
-      "target": "莱茵",
-      "mentions": 17,
-      "firstChapter": 21,
-      "lastChapter": 645,
-      "markers": [
-        "同章共现(16)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "一直",
-      "target": "于是",
-      "mentions": 17,
-      "firstChapter": 40,
-      "lastChapter": 863,
-      "markers": [
-        "同章共现(16)",
+        "老师(1)",
         "学生(1)"
       ]
     },
     {
-      "source": "于是",
-      "target": "于是微",
+      "source": "奥菲莉亚",
+      "target": "海蒂",
       "mentions": 17,
-      "firstChapter": 44,
-      "lastChapter": 754,
+      "firstChapter": 548,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(12)",
+        "老师(5)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "阿格莱亚",
+      "mentions": 17,
+      "firstChapter": 673,
+      "lastChapter": 765,
+      "markers": [
+        "同章共现(15)",
+        "盟友(2)"
+      ]
+    },
+    {
+      "source": "唐尼",
+      "target": "直接",
+      "mentions": 17,
+      "firstChapter": 829,
+      "lastChapter": 855,
+      "markers": [
+        "同章共现(14)",
+        "导师(2)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "而是",
+      "mentions": 16,
+      "firstChapter": 8,
+      "lastChapter": 848,
       "markers": [
         "同章共现(13)",
-        "合作(2)",
+        "朋友(1)",
+        "父亲(1)",
+        "儿子(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "而是",
+      "mentions": 16,
+      "firstChapter": 51,
+      "lastChapter": 784,
+      "markers": [
+        "同章共现(13)",
+        "保护(1)",
+        "父亲(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "下意识",
+      "target": "娜塔莎",
+      "mentions": 16,
+      "firstChapter": 91,
+      "lastChapter": 770,
+      "markers": [
+        "同章共现(15)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "低声",
+      "target": "接着",
+      "mentions": 16,
+      "firstChapter": 99,
+      "lastChapter": 861,
+      "markers": [
+        "同章共现(15)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "开玩",
+      "mentions": 16,
+      "firstChapter": 102,
+      "lastChapter": 757,
+      "markers": [
+        "同章共现(15)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "目光",
+      "mentions": 16,
+      "firstChapter": 103,
+      "lastChapter": 841,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩低声",
+      "mentions": 16,
+      "firstChapter": 306,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(15)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "低声",
+      "target": "路西恩低声",
+      "mentions": 16,
+      "firstChapter": 306,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(15)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "严肃地",
+      "target": "费尔南多",
+      "mentions": 16,
+      "firstChapter": 352,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(14)",
         "老师(1)",
-        "丈夫(1)"
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "奥利弗",
+      "mentions": 16,
+      "firstChapter": 356,
+      "lastChapter": 904,
+      "markers": [
+        "同章共现(14)",
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "他就",
+      "target": "费尔南多",
+      "mentions": 16,
+      "firstChapter": 418,
+      "lastChapter": 902,
+      "markers": [
+        "同章共现(14)",
+        "朋友(2)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "眼睛",
+      "target": "维肯",
+      "mentions": 16,
+      "firstChapter": 643,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "尤里斯安",
+      "target": "海蒂",
+      "mentions": 16,
+      "firstChapter": 672,
+      "lastChapter": 689,
+      "markers": [
+        "同章共现(15)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "唐尼",
+      "target": "目光",
+      "mentions": 16,
+      "firstChapter": 828,
+      "lastChapter": 855,
+      "markers": [
+        "同章共现(15)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "唐尼",
+      "target": "赶紧",
+      "mentions": 16,
+      "firstChapter": 829,
+      "lastChapter": 853,
+      "markers": [
+        "同章共现(13)",
+        "老师(2)",
+        "导师(1)"
       ]
     }
   ],
@@ -8664,12 +8589,8 @@
       "characters": [
         "我将在火焰中",
         "本杰明",
-        "路西恩点了",
-        "杰克森",
-        "约翰温和地",
-        "呵呵",
         "路西恩",
-        "继续"
+        "杰克森"
       ],
       "organizations": [
         "阿得让教堂",
@@ -8695,38 +8616,14 @@
     },
     {
       "chunk": 2,
-      "range": "第 21-919 章",
+      "range": "第 21-40 章",
       "characters": [
         "路西恩",
-        "路西恩点了",
-        "继续",
-        "呵呵",
+        "维克托",
+        "而是",
         "本杰明",
         "杰克森",
-        "路西恩摇了",
-        "诚恳地",
-        "斯迈尔",
-        "于是",
-        "一直",
-        "静静地",
-        "洛特",
-        "而是",
-        "摇了",
-        "艾斯摇了",
-        "奇怪地",
-        "希罗多德在",
-        "一边",
-        "维克托",
-        "奥赛罗点了",
-        "于是点了",
-        "约翰摇了",
-        "音乐家",
-        "直接",
-        "冷静地",
-        "低声",
-        "路西恩礼貌地",
-        "娜塔莎忽然",
-        "路西恩一边"
+        "诚恳地"
       ],
       "organizations": [
         "音乐家协会",
@@ -8754,23 +8651,7 @@
         "黑暗山",
         "物质世界",
         "阿尔托是圣咏之城",
-        "在古代魔法帝国",
-        "关于第五次寻找星球",
-        "路西恩脑海",
-        "维克托在音乐界",
-        "瓦欧里特公国",
-        "魔法遗迹",
-        "教会在瓦欧里特公国",
-        "出了城",
-        "梅尔泽黑森林",
-        "地下遗迹",
-        "叙拉古王国",
-        "在整个大陆",
-        "暴风海",
-        "是全大陆",
-        "其他国",
-        "整个大陆",
-        "霍尔姆王国"
+        "在古代魔法帝国"
       ],
       "systems": [
         "学习魔法",
@@ -8786,13 +8667,4314 @@
         "魔法实验",
         "恐怖的魔法",
         "施展魔法",
-        "或者魔法",
+        "或者魔法"
+      ]
+    },
+    {
+      "chunk": 3,
+      "range": "第 41-60 章",
+      "characters": [
+        "路西恩",
+        "斯迈尔",
+        "而是",
+        "维克托",
+        "诚恳地",
+        "一直",
+        "静静地",
+        "洛特",
+        "奇怪地",
+        "希罗多德在"
+      ],
+      "organizations": [
+        "大陆魔法议会",
+        "音乐家协会",
+        "肯定会",
+        "静寂门",
+        "过了一会",
+        "甚至会",
+        "沉思了一会",
+        "在教会",
+        "在协会",
+        "怎么会",
+        "一定会",
+        "琴房的门",
+        "也不会",
+        "会不会",
+        "亚伦黑帮",
+        "乱舞会",
+        "向着音乐家协会",
+        "应该会",
+        "我还会",
+        "也许会"
+      ],
+      "locations": [
+        "关于第五次寻找星球",
+        "路西恩脑海",
+        "黑暗山"
+      ],
+      "systems": [
+        "学习魔法",
+        "大陆魔法",
+        "魔法实验",
         "强大的魔法",
         "传奇魔法",
+        "施展魔法",
         "这本期",
         "元素魔法",
+        "非正式魔法",
+        "在古代魔法",
         "水银等魔法",
-        "邪恶魔法"
+        "邪恶魔法",
+        "以古代魔法",
+        "整个魔法",
+        "我很期",
+        "侦测魔法",
+        "几位魔法",
+        "这究竟是几环的魔法",
+        "一环魔法",
+        "恐怖的魔法"
+      ]
+    },
+    {
+      "chunk": 4,
+      "range": "第 61-80 章",
+      "characters": [
+        "路西恩",
+        "而是",
+        "一直",
+        "洛特",
+        "维克托",
+        "奥赛罗",
+        "奇怪地",
+        "诚恳地",
+        "音乐家",
+        "直接",
+        "冷静地",
+        "本杰明",
+        "低声",
+        "静静地",
+        "路西恩礼貌地",
+        "汉克"
+      ],
+      "organizations": [
+        "肯定会",
+        "过了一会",
+        "在协会",
+        "也不会",
+        "他也会",
+        "是教会",
+        "我不会",
+        "音乐会",
+        "音乐家协会",
+        "怎么会",
+        "当然不会",
+        "否则怎么会",
+        "的机会",
+        "圣咏大厅音乐会",
+        "一定会",
+        "我一定会",
+        "可能会",
+        "亲爱的堂",
+        "这次音乐会",
+        "虽然不会"
+      ],
+      "locations": [
+        "黑暗山",
+        "维克托在音乐界",
+        "瓦欧里特公国",
+        "路西恩脑海"
+      ],
+      "systems": [
+        "成为正式魔法",
+        "以及魔法",
+        "按照魔法",
+        "强大的魔法",
+        "古代魔法",
+        "我很期",
+        "魔法实验",
+        "学徒级魔法",
+        "召唤低阶",
+        "还是魔法",
+        "整个魔法",
+        "但初级"
+      ]
+    },
+    {
+      "chunk": 5,
+      "range": "第 81-100 章",
+      "characters": [
+        "路西恩",
+        "静静地",
+        "一直",
+        "直接",
+        "音乐家",
+        "斯迈尔",
+        "而是",
+        "洛特",
+        "维克托",
+        "诚恳地",
+        "冷静地",
+        "娜塔莎",
+        "低声",
+        "路西恩伸",
+        "路西恩礼貌地",
+        "奇怪地",
+        "惊疑不定地",
+        "约翰凝重地",
+        "小声",
+        "奥赛罗",
+        "维克托幽默地"
+      ],
+      "organizations": [
+        "音乐家协会",
+        "在协会",
+        "被教会",
+        "的机会",
+        "邪教会",
+        "拉塔夏宫",
+        "音乐会",
+        "可能会",
+        "绝对不会",
+        "很可能会",
+        "我不会",
+        "出了城门",
+        "肯定会",
+        "魔法之门",
+        "是教会",
+        "很快就会",
+        "这是教会",
+        "大祭司阁",
+        "会不会",
+        "地下宫"
+      ],
+      "locations": [
+        "魔法遗迹",
+        "瓦欧里特公国",
+        "教会在瓦欧里特公国",
+        "出了城",
+        "梅尔泽黑森林",
+        "地下遗迹",
+        "黑暗山",
+        "叙拉古王国",
+        "在整个大陆",
+        "暴风海"
+      ],
+      "systems": [
+        "魔法实验",
+        "学习魔法",
+        "成为正式魔法",
+        "这是七级",
+        "学徒级魔法",
+        "以及魔法",
+        "净化序列",
+        "邪恶魔法",
+        "反正魔法",
+        "传奇魔法",
+        "一位五级",
+        "我很期",
+        "娜塔莎是五级",
+        "一环魔法",
+        "强大的魔法",
+        "古代魔法",
+        "由于古代魔法"
+      ]
+    },
+    {
+      "chunk": 6,
+      "range": "第 101-120 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "直接",
+        "维克托",
+        "一直",
+        "音乐家",
+        "路西恩含笑",
+        "低声",
+        "静静地",
+        "而是",
+        "诚恳地",
+        "路西恩礼貌地",
+        "奥赛罗",
+        "洛特",
+        "含笑",
+        "瓦欧里特大公",
+        "莱茵",
+        "奇怪地"
+      ],
+      "organizations": [
+        "过了一会",
+        "怎么会",
+        "音乐会",
+        "拉塔夏宫",
+        "我才会",
+        "我不会",
+        "克里斯多夫会",
+        "音乐家协会",
+        "被教会",
+        "当太阳进入塔诺斯的宫",
+        "魔法议会",
+        "肯定会",
+        "圣咏大厅的音乐会",
+        "的机会",
+        "路西恩打开房门",
+        "在协会",
+        "会不会",
+        "也不会",
+        "是教会",
+        "大祭司"
+      ],
+      "locations": [
+        "在古代魔法帝国",
+        "暴风海",
+        "是全大陆",
+        "黑暗山",
+        "魔法遗迹",
+        "叙拉古王国",
+        "其他国",
+        "整个大陆",
+        "在整个大陆",
+        "霍尔姆王国",
+        "梅尔泽黑森林",
+        "路西恩脑海",
+        "物质世界",
+        "波恩小镇"
+      ],
+      "systems": [
+        "学徒级魔法",
+        "在古代魔法",
+        "一环魔法",
+        "学习魔法",
+        "成为正式魔法",
+        "古代魔法",
+        "传奇魔法",
+        "比如魔法",
+        "由于魔法",
+        "强大的魔法",
+        "我很期",
+        "邪恶魔法",
+        "魔法实验",
+        "大陆魔法",
+        "知道魔法",
+        "在成为高阶魔法",
+        "早就被魔法",
+        "以及魔法",
+        "这种位阶"
+      ]
+    },
+    {
+      "chunk": 7,
+      "range": "第 121-140 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "直接",
+        "一直",
+        "而是",
+        "冷静地",
+        "维克托",
+        "奇怪地",
+        "音乐家",
+        "低声",
+        "大声",
+        "亚伦",
+        "莱茵",
+        "娜塔莎忽然",
+        "短暂的",
+        "怀斯",
+        "含笑",
+        "接着"
+      ],
+      "organizations": [
+        "的机会",
+        "魔法之门",
+        "怎么会",
+        "路西恩怎么会",
+        "音乐会",
+        "亲爱的堂",
+        "银袍大祭司",
+        "大祭司",
+        "紫罗兰骑士团",
+        "魔法议会",
+        "希尔家族",
+        "拉塔夏宫",
+        "我亲爱的堂",
+        "情报部门",
+        "海恩家族",
+        "威尔第堂",
+        "肯定会",
+        "是教会",
+        "绝对不会",
+        "紫罗兰家族"
+      ],
+      "locations": [
+        "波恩小镇",
+        "整个大陆",
+        "物质世界",
+        "与死灵界",
+        "路西恩脑海",
+        "瓦欧里特公国",
+        "黑暗山",
+        "魔法遗迹",
+        "其他国",
+        "梅尔泽黑森林",
+        "马萨瓦镇",
+        "向着梅尔泽黑森林",
+        "阿尔托城",
+        "黑白灰的寂静世界",
+        "雅洛蓝海",
+        "在黑森林",
+        "死灵界",
+        "路西恩你在遗迹",
+        "地下遗迹",
+        "霍尔姆王国"
+      ],
+      "systems": [
+        "古代魔法",
+        "传奇魔法",
+        "成为正式魔法",
+        "以及魔法",
+        "学徒级魔法",
+        "一环魔法",
+        "在成为正式魔法",
+        "学习魔法",
+        "一位四级",
+        "一位五级",
+        "强大的魔法",
+        "常见与魔法",
+        "净化序列",
+        "二环魔法",
+        "大陆魔法",
+        "元素魔法",
+        "魔法实验",
+        "邪恶魔法",
+        "霍尔姆王国扶持魔法"
+      ]
+    },
+    {
+      "chunk": 8,
+      "range": "第 141-160 章",
+      "characters": [
+        "路西恩",
+        "直接",
+        "一直",
+        "小声",
+        "音乐家",
+        "路西恩含笑",
+        "含笑",
+        "怀斯",
+        "娜塔莎",
+        "而是",
+        "亚伦",
+        "接着",
+        "大声",
+        "冷静地",
+        "短暂的",
+        "路西恩略微惊讶地",
+        "路西恩伸",
+        "静静地",
+        "低声",
+        "维克托",
+        "奥赛罗",
+        "奇怪地",
+        "费利佩",
+        "莱茵"
+      ],
+      "organizations": [
+        "音乐会",
+        "也不会",
+        "我永远不会",
+        "肯定会",
+        "可能会",
+        "很可能会",
+        "很快就会",
+        "的机会",
+        "怎么会",
+        "路西恩怎么会",
+        "总是会",
+        "抓住机会",
+        "根本不会",
+        "魔法议会",
+        "大陆魔法议会",
+        "被教会",
+        "是教会",
+        "是大陆魔法议会",
+        "音乐家协会",
+        "这是教会"
+      ],
+      "locations": [
+        "灰雾镇",
+        "向着城",
+        "波恩小镇",
+        "瓦欧里特公国",
+        "死灵界",
+        "科瑟城",
+        "其他国",
+        "霍尔姆王国",
+        "路西恩脑海",
+        "整个大陆",
+        "从古代魔法帝国"
+      ],
+      "systems": [
+        "成为正式魔法",
+        "一环魔法",
+        "施展魔法",
+        "魔法实验",
+        "中阶魔法",
+        "二环魔法",
+        "大陆魔法",
+        "传奇魔法",
+        "按照魔法",
+        "强大的魔法",
+        "古代魔法",
+        "或者魔法",
+        "净化序列",
+        "恐怖的魔法",
+        "是大陆魔法",
+        "一件神术",
+        "这一期",
+        "几位魔法",
+        "还是魔法",
+        "议会总部的魔法"
+      ]
+    },
+    {
+      "chunk": 9,
+      "range": "第 161-180 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "静静地",
+        "直接",
+        "维克托",
+        "娜塔莎忽然",
+        "一直",
+        "音乐家",
+        "费利佩",
+        "低声",
+        "路西恩温和",
+        "接着",
+        "路西恩微",
+        "小声",
+        "冷静地",
+        "大声",
+        "而是",
+        "诚恳地",
+        "奇怪地",
+        "格瑞丝",
+        "莱茵",
+        "略带好奇地",
+        "阿斯塔尔",
+        "汤姆",
+        "路西恩含笑",
+        "含笑",
+        "路西恩略微惊讶地",
+        "亚伦",
+        "短暂的"
+      ],
+      "organizations": [
+        "肯定会",
+        "魔法议会",
+        "可能会",
+        "被教会",
+        "但肯定不会",
+        "怎么会",
+        "的机会",
+        "总是会",
+        "很快就会",
+        "是教会",
+        "绝对不会",
+        "让教会",
+        "在教会",
+        "路西恩不会",
+        "也不会",
+        "抓住机会",
+        "也依然会",
+        "应该会",
+        "路西恩也不会",
+        "应该不会"
+      ],
+      "locations": [
+        "霍尔姆王国",
+        "暴风海",
+        "整座城",
+        "路西恩脑海",
+        "在古代魔法帝国",
+        "瓦欧里特公国",
+        "叙拉古王国",
+        "雅洛蓝海",
+        "蕾依丽雅和海",
+        "古斯塔帝国",
+        "古代魔法帝国",
+        "蓝黑色的海"
+      ],
+      "systems": [
+        "其他魔法",
+        "二环魔法",
+        "净化序列",
+        "一环魔法",
+        "一位魔法",
+        "作为一名正式魔法",
+        "施展魔法",
+        "成为正式魔法",
+        "对于魔法",
+        "中阶魔法",
+        "死灵魔法",
+        "高阶魔法",
+        "在古代魔法",
+        "从古代魔法",
+        "古代魔法",
+        "这是最新一期",
+        "正式魔法",
+        "在成为正式魔法",
+        "几位魔法",
+        "一位正式魔法"
+      ]
+    },
+    {
+      "chunk": 10,
+      "range": "第 181-200 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "静静地",
+        "而是",
+        "路西恩含笑",
+        "一直",
+        "音乐家",
+        "含笑",
+        "瓦欧里特大公",
+        "格瑞丝",
+        "接着",
+        "汤姆",
+        "死死",
+        "阿斯塔尔",
+        "路西恩微",
+        "直接",
+        "小声",
+        "低声",
+        "费利佩",
+        "拉扎尔",
+        "路西恩轻",
+        "诚恳地",
+        "转头",
+        "冷静地",
+        "奇怪地",
+        "路西恩转头",
+        "路西恩略微惊讶地",
+        "路西恩好奇地",
+        "虽然",
+        "路西恩礼貌地"
+      ],
+      "organizations": [
+        "魔法议会",
+        "我也会",
+        "找个机会",
+        "肯定会",
+        "也是魔法议会",
+        "奥术审核委员会",
+        "应该会",
+        "能够帮",
+        "在魔法议会",
+        "大奥术师阁",
+        "我不会",
+        "肯定不会",
+        "审核委员会",
+        "的机会",
+        "难怪会",
+        "抓住机会",
+        "竟然会",
+        "你不会",
+        "这是议会",
+        "不仅会"
+      ],
+      "locations": [
+        "霍尔姆王国",
+        "暴风海",
+        "污染海",
+        "在古代魔法帝国",
+        "帕德雷港",
+        "古代魔法帝国",
+        "叙拉古王国",
+        "死灵界",
+        "整座城",
+        "其他国",
+        "物质世界",
+        "蕾依丽雅和海",
+        "安尼克和海",
+        "就让海",
+        "雅洛蓝海",
+        "魔法遗迹",
+        "路西恩脑海"
+      ],
+      "systems": [
+        "施展魔法",
+        "学习魔法",
+        "在古代魔法",
+        "传奇魔法",
+        "二环魔法",
+        "高阶魔法",
+        "正式魔法",
+        "成为正式魔法",
+        "中阶魔法",
+        "元素魔法",
+        "而元素魔法",
+        "古代魔法",
+        "一位魔法",
+        "在元素魔法",
+        "目前魔法",
+        "其他魔法",
+        "每位魔法",
+        "一环魔法",
+        "净化序列",
+        "还是魔法"
+      ]
+    },
+    {
+      "chunk": 11,
+      "range": "第 201-220 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "而是",
+        "路西恩微",
+        "直接",
+        "音乐家",
+        "冷静地",
+        "虽然",
+        "费利佩",
+        "含笑",
+        "接着",
+        "拉扎尔",
+        "诚恳地",
+        "一直",
+        "奇怪地",
+        "路西恩轻",
+        "路西恩略微惊讶地",
+        "路西恩静静",
+        "罗杰里奥",
+        "路西恩关心地",
+        "转头",
+        "小声",
+        "大声",
+        "惊疑不定地",
+        "眼睁睁",
+        "他微",
+        "路西恩含笑",
+        "短暂的",
+        "埃里克",
+        "拉文第"
+      ],
+      "organizations": [
+        "魔法议会",
+        "恐怕会",
+        "大奥术师阁",
+        "难怪会",
+        "就不会",
+        "同样会",
+        "在魔法议会",
+        "审核委员会",
+        "布鲁克阁",
+        "怎么会",
+        "奥术审核委员会",
+        "事务委员会",
+        "会不会",
+        "很快就会",
+        "风暴主宰阁",
+        "也不会",
+        "可能会",
+        "能够帮",
+        "他也不会",
+        "按照魔法议会"
+      ],
+      "locations": [
+        "死灵界",
+        "霍尔姆王国",
+        "古代魔法帝国",
+        "探寻世界",
+        "音乐界"
+      ],
+      "systems": [
+        "一环魔法",
+        "普通奥术",
+        "魔法实验",
+        "元素魔法",
+        "强大的魔法",
+        "三环魔法",
+        "电磁系魔法",
+        "师等级",
+        "元素周期",
+        "净化序列",
+        "奥术和魔法",
+        "中阶魔法",
+        "冥想环境",
+        "一位魔法",
+        "教会净化序列",
+        "古代魔法",
+        "正式魔法",
+        "道格拉斯魔法",
+        "这篇论文",
+        "最新一期"
+      ]
+    },
+    {
+      "chunk": 12,
+      "range": "第 221-240 章",
+      "characters": [
+        "路西恩",
+        "一直",
+        "直接",
+        "音乐家",
+        "虽然",
+        "接着",
+        "费利佩",
+        "小声",
+        "拉文第",
+        "而是",
+        "路西恩微",
+        "死死",
+        "低声",
+        "冷静地",
+        "罗杰里奥",
+        "静静地",
+        "路西恩静静",
+        "转头",
+        "路西恩轻",
+        "拉扎尔",
+        "路西恩含笑",
+        "含笑",
+        "伍兹",
+        "加斯东",
+        "娜塔莎",
+        "大声",
+        "奇怪地",
+        "专心致志地",
+        "路西恩转头",
+        "安静"
+      ],
+      "organizations": [
+        "魔法议会",
+        "我不会",
+        "事务委员会",
+        "甚至会",
+        "终究会",
+        "过了一会",
+        "也不会",
+        "或许会",
+        "自然憎恨派",
+        "我也会",
+        "按照魔法议会",
+        "路西恩当然不会",
+        "当然不会",
+        "就不会",
+        "的机会",
+        "肯定不会",
+        "拉开房门",
+        "恐怕会",
+        "亡魂主宰阁",
+        "奥术审核委员会"
+      ],
+      "locations": [
+        "在古代魔法帝国",
+        "古代魔法帝国",
+        "霍尔姆王国",
+        "黑暗山",
+        "整个大陆",
+        "路西恩脑海",
+        "死灵界",
+        "在魔法的世界",
+        "天堂山",
+        "暴风海",
+        "升入天堂山",
+        "圣咏之城",
+        "其他国"
+      ],
+      "systems": [
+        "元素周期",
+        "传奇魔法",
+        "元素魔法",
+        "四级奥术",
+        "五环魔法",
+        "两位魔法",
+        "奥术等级",
+        "是三级奥术",
+        "魔法等级",
+        "魔法实验",
+        "学徒级魔法",
+        "在古代魔法",
+        "古代魔法",
+        "高阶魔法",
+        "激发神术",
+        "学徒级",
+        "由于神术",
+        "在魔法实验",
+        "按照魔法",
+        "净化序列"
+      ]
+    },
+    {
+      "chunk": 13,
+      "range": "第 241-260 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "而是",
+        "直接",
+        "诚恳地",
+        "费利佩",
+        "音乐家",
+        "虽然",
+        "罗杰里奥",
+        "娜塔莎",
+        "拉文第",
+        "一直",
+        "路西恩诚恳地",
+        "接着",
+        "小声",
+        "短暂的",
+        "安静",
+        "路西恩轻",
+        "弗洛伦莎",
+        "下意识",
+        "拉扎尔",
+        "维克托",
+        "冷静地",
+        "莱茵",
+        "转头",
+        "专心致志地",
+        "死死",
+        "埃里克",
+        "低声",
+        "洛特"
+      ],
+      "organizations": [
+        "魔法议会",
+        "肯定会",
+        "奥术审核委员会",
+        "过了一会",
+        "也不会",
+        "事务委员会",
+        "路西恩也不会",
+        "有机会",
+        "审核委员会",
+        "魔法研究委员会",
+        "或许会",
+        "可能会",
+        "的机会",
+        "我会帮",
+        "到了魔法议会",
+        "莫里斯阁",
+        "音乐家协会",
+        "音乐会",
+        "是教会",
+        "在魔法议会"
+      ],
+      "locations": [
+        "黑暗山",
+        "暴风海",
+        "阿尔托城",
+        "是全大陆",
+        "蕾依丽雅和海",
+        "霍尔姆王国",
+        "在古代魔法帝国",
+        "古代魔法帝国",
+        "费雷泽小镇",
+        "路西恩脑海",
+        "防死结界",
+        "上面用古代魔法帝国",
+        "天堂山",
+        "瓦欧里特公国",
+        "死灵界",
+        "穿过沙赫兰帝国",
+        "挂在城",
+        "天空之城",
+        "抵达黑暗山",
+        "在沙赫兰帝国"
+      ],
+      "systems": [
+        "魔法实验",
+        "霍尔姆皇家魔法",
+        "传奇魔法",
+        "高阶魔法",
+        "奥术和魔法",
+        "七环魔法",
+        "还是魔法",
+        "高阶奥术",
+        "阿林厄魔法",
+        "元素意志和霍尔姆皇家魔法",
+        "二环魔法",
+        "元素周期",
+        "四级奥术",
+        "整个魔法",
+        "奥术等级",
+        "魔法等级",
+        "由于魔法",
+        "我的魔法",
+        "到了魔法",
+        "进行魔法实验"
+      ]
+    },
+    {
+      "chunk": 14,
+      "range": "第 261-280 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "而是",
+        "直接",
+        "安静",
+        "低声",
+        "亚伦",
+        "虽然",
+        "接着",
+        "大声",
+        "一直",
+        "死死",
+        "路西恩轻",
+        "沃伦",
+        "下意识",
+        "娜塔莎",
+        "路西恩礼貌地",
+        "路西恩伸",
+        "含笑",
+        "洛特",
+        "奇怪地",
+        "好奇地",
+        "转头",
+        "静静地",
+        "眼睁睁",
+        "冷静地",
+        "小声",
+        "列娜",
+        "短暂的",
+        "就像在"
+      ],
+      "organizations": [
+        "魔法议会",
+        "肯定会",
+        "也不会",
+        "绝对不会",
+        "怎么会",
+        "就不会",
+        "的机会",
+        "过了好一会",
+        "咚咚咚的敲门",
+        "拉开房门",
+        "他怎么会",
+        "好一会",
+        "肯定不会",
+        "最先说话的守门",
+        "而且还会",
+        "有机会",
+        "那样会",
+        "领主会",
+        "过了一会",
+        "一定会"
+      ],
+      "locations": [
+        "古代魔法帝国",
+        "在沙赫兰帝国",
+        "瑟谷城",
+        "九位城",
+        "霍尔姆王国",
+        "瓦欧里特公国",
+        "穿过沙赫兰帝国",
+        "沙赫兰帝国",
+        "暴风海",
+        "其他国",
+        "防死结界",
+        "乌拉尔城",
+        "死灵界",
+        "向着城",
+        "出了城",
+        "与死灵界",
+        "物质世界"
+      ],
+      "systems": [
+        "中阶魔法",
+        "古代魔法",
+        "正式魔法",
+        "施展魔法",
+        "这种环境",
+        "一位正式魔法",
+        "除了魔法",
+        "一环魔法",
+        "魔法实验",
+        "高阶魔法",
+        "三环魔法",
+        "知道魔法",
+        "恐怖的魔法",
+        "一位魔法",
+        "并用魔法",
+        "独有魔法",
+        "二环魔法",
+        "由于魔法",
+        "星相系魔法",
+        "我的魔法"
+      ]
+    },
+    {
+      "chunk": 15,
+      "range": "第 281-300 章",
+      "characters": [
+        "路西恩",
+        "而是",
+        "直接",
+        "安静",
+        "莱茵",
+        "静静",
+        "虽然",
+        "在灵魂图书馆内翻",
+        "雷欧",
+        "娜塔莎",
+        "路西恩静静",
+        "维克托",
+        "音乐家",
+        "接着",
+        "一直",
+        "低声",
+        "洛特",
+        "格瑞丝",
+        "转头",
+        "路西恩轻",
+        "下意识",
+        "路西恩微",
+        "奇怪地",
+        "路西恩温和",
+        "汉克",
+        "奥赛罗",
+        "好奇地",
+        "含笑",
+        "略带好奇地",
+        "大声"
+      ],
+      "organizations": [
+        "魔法议会",
+        "肯定会",
+        "过了一会",
+        "肯定不会",
+        "虽然魔法议会",
+        "他肯定会",
+        "随时会",
+        "北方教会",
+        "和魔法议会",
+        "与魔法议会",
+        "也不会",
+        "在魔法议会",
+        "音乐会",
+        "在教会",
+        "圣咏大厅的音乐会",
+        "音乐家协会",
+        "竟然会",
+        "咚咚咚的敲门",
+        "拉塔夏宫",
+        "海恩家族"
+      ],
+      "locations": [
+        "死灵界",
+        "瓦欧里特公国",
+        "路西恩脑海",
+        "乌拉尔城",
+        "沙赫兰帝国",
+        "物质世界",
+        "黑暗山",
+        "叙拉古王国",
+        "知道死灵界",
+        "阿尔托城",
+        "霍尔姆王国",
+        "是全大陆",
+        "在霍尔姆王国",
+        "抵达黑暗山",
+        "音乐界",
+        "自新大陆",
+        "暴风海",
+        "古斯塔帝国",
+        "梅尔泽黑森林",
+        "自新国"
+      ],
+      "systems": [
+        "传奇魔法",
+        "邪恶魔法",
+        "恐怖的魔法",
+        "高阶魔法",
+        "中阶魔法",
+        "四环魔法",
+        "三环魔法",
+        "九环魔法",
+        "他对魔法",
+        "一环魔法",
+        "二环魔法",
+        "其他魔法",
+        "道格拉斯的法术",
+        "净化序列",
+        "学习魔法",
+        "奥术和魔法",
+        "死灵魔法",
+        "一位魔法",
+        "一位五级",
+        "成为高阶"
+      ]
+    },
+    {
+      "chunk": 16,
+      "range": "第 301-320 章",
+      "characters": [
+        "路西恩",
+        "一直",
+        "接着",
+        "死死",
+        "安静",
+        "贤者",
+        "虽然",
+        "阿林厄",
+        "娜塔莎",
+        "直接",
+        "下意识",
+        "路西恩微",
+        "而是",
+        "娜塔莎忽然",
+        "短暂的",
+        "音乐家",
+        "冷静地",
+        "费利佩",
+        "瓦欧里特大公",
+        "转头",
+        "路西恩轻",
+        "眼睁睁",
+        "只能眼睁睁",
+        "双眼",
+        "轻声",
+        "低声",
+        "维克托",
+        "莱茵",
+        "静静",
+        "路西恩冷静地"
+      ],
+      "organizations": [
+        "魔法议会",
+        "我不会",
+        "在教会",
+        "被教会",
+        "的机会",
+        "抓住机会",
+        "我才会",
+        "有教会",
+        "知道魔法议会",
+        "有机会",
+        "光辉大教堂",
+        "希望以后能有机会",
+        "音乐会",
+        "很快就会",
+        "拉塔夏宫",
+        "想不到会",
+        "居然会",
+        "也不会",
+        "根本不会",
+        "肯定不会"
+      ],
+      "locations": [
+        "霍尔姆王国",
+        "黑暗山",
+        "瓦欧里特公国",
+        "梅尔泽黑森林",
+        "古代魔法帝国",
+        "暴风海",
+        "天空之城",
+        "物质世界",
+        "是全大陆",
+        "阿尔托城",
+        "天堂山",
+        "他脑海",
+        "死灵界",
+        "在瓦欧里特公国",
+        "音乐界",
+        "圣咏之城",
+        "升入天堂山",
+        "伊文斯全大陆",
+        "整座城",
+        "在黑暗山"
+      ],
+      "systems": [
+        "中阶魔法",
+        "净化序列",
+        "其他魔法",
+        "古代魔法",
+        "奥术和魔法",
+        "正式魔法",
+        "以古代魔法",
+        "以及魔法",
+        "成为正式魔法",
+        "恐怖的魔法",
+        "知道魔法",
+        "虽然魔法",
+        "四环魔法",
+        "我是正式魔法",
+        "死灵魔法",
+        "一位魔法",
+        "治疗神术",
+        "星相系魔法",
+        "魔法等级",
+        "这一期"
+      ]
+    },
+    {
+      "chunk": 17,
+      "range": "第 321-340 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "直接",
+        "奇怪地",
+        "再次",
+        "虽然",
+        "路西恩轻",
+        "而是",
+        "接着",
+        "低声",
+        "转头",
+        "下意识",
+        "一直",
+        "莱茵",
+        "埃尔维斯",
+        "双眼",
+        "娜塔莎",
+        "路西恩静静",
+        "拉文第",
+        "含笑",
+        "约翰",
+        "冷静地",
+        "好奇地",
+        "静静",
+        "他微",
+        "阿林厄",
+        "加斯东",
+        "弗洛伦莎",
+        "雷欧",
+        "安静"
+      ],
+      "organizations": [
+        "魔法议会",
+        "也不会",
+        "的机会",
+        "根本不会",
+        "抓住机会",
+        "可能会",
+        "有机会",
+        "否则就会",
+        "肯定会",
+        "黑色大门",
+        "会不会",
+        "随时会",
+        "我就会",
+        "它们会",
+        "沉默了一会",
+        "梦魇之王阁",
+        "难怪会",
+        "有教会",
+        "对魔法议会",
+        "在教会"
+      ],
+      "locations": [
+        "路西恩脑海",
+        "黑暗山",
+        "地下遗迹",
+        "霍尔姆王国",
+        "瓦欧里特公国",
+        "阿尔托城",
+        "暴风海",
+        "天空之城",
+        "在瓦欧里特公国",
+        "古代魔法帝国",
+        "整座城",
+        "奥术世界",
+        "在霍尔姆王国",
+        "古斯塔帝国",
+        "布里亚纳王国",
+        "在黑暗山",
+        "天堂山",
+        "魔法帝国",
+        "蕾依丽雅和海",
+        "雅洛蓝海"
+      ],
+      "systems": [
+        "二环魔法",
+        "四环魔法",
+        "古代魔法",
+        "施展魔法",
+        "死灵魔法",
+        "作为五级",
+        "许多魔法",
+        "电磁系魔法",
+        "即使魔法",
+        "元素魔法",
+        "整个魔法",
+        "六环魔法",
+        "由于魔法",
+        "学习魔法",
+        "不知道魔法",
+        "知道魔法",
+        "每一位魔法",
+        "一位魔法",
+        "独有魔法",
+        "古代传承魔法"
+      ]
+    },
+    {
+      "chunk": 18,
+      "range": "第 341-360 章",
+      "characters": [
+        "路西恩",
+        "而是",
+        "费尔南多",
+        "直接",
+        "双眼",
+        "再次",
+        "虽然",
+        "随口",
+        "阿林厄",
+        "汤谱",
+        "接着",
+        "大声",
+        "路西恩关心地",
+        "安静",
+        "冷静地",
+        "静静",
+        "下意识",
+        "温和",
+        "路西恩微",
+        "拉扎尔",
+        "一直",
+        "奇怪地",
+        "转头",
+        "雷欧",
+        "娜塔莎",
+        "略带好奇地",
+        "好奇地",
+        "埃里克",
+        "低声",
+        "费利佩"
+      ],
+      "organizations": [
+        "魔法议会",
+        "肯定会",
+        "在魔法议会",
+        "根据魔法议会",
+        "审核委员会",
+        "布鲁克阁",
+        "也肯定会",
+        "竟然会",
+        "终究会",
+        "是魔法议会",
+        "这是魔法议会",
+        "怎么会",
+        "魔法研究委员会",
+        "风暴主宰阁",
+        "应该会",
+        "大奥术师阁",
+        "事务委员会",
+        "的机会",
+        "没想到会",
+        "这是议会"
+      ],
+      "locations": [
+        "在古代魔法帝国",
+        "古代魔法帝国",
+        "奥术世界",
+        "魔法帝国",
+        "魔法世界",
+        "整个奥术世界",
+        "认知世界",
+        "整个世界",
+        "瓦欧里特公国",
+        "叙拉古王国",
+        "沙赫兰帝国",
+        "霍尔姆王国",
+        "死灵界",
+        "布里亚纳王国",
+        "宛如冰雪精灵般绝美的海",
+        "圣咏之城",
+        "对世界",
+        "我与海",
+        "我和海",
+        "探寻世界"
+      ],
+      "systems": [
+        "中阶魔法",
+        "元素周期",
+        "在古代魔法",
+        "古代魔法",
+        "奥术和魔法",
+        "每一位魔法",
+        "根据魔法",
+        "七级奥术",
+        "整个奥术",
+        "一位魔法",
+        "讨论奥术",
+        "下一期",
+        "奖励奥术",
+        "你在奥术",
+        "伊莎贝拉的论文",
+        "普通奥术",
+        "其他魔法",
+        "这是魔法",
+        "高阶奥术",
+        "二环魔法"
+      ]
+    },
+    {
+      "chunk": 19,
+      "range": "第 361-380 章",
+      "characters": [
+        "路西恩",
+        "费尔南多",
+        "虽然",
+        "路西恩微",
+        "一直",
+        "随口",
+        "双眼",
+        "再次",
+        "路西恩轻",
+        "阿林厄",
+        "金坷垃",
+        "路西恩礼貌地",
+        "拉文第",
+        "直接",
+        "低声",
+        "加斯东",
+        "温和",
+        "安静",
+        "转头",
+        "弗洛伦莎",
+        "目光",
+        "接着",
+        "下意识",
+        "眼睁睁",
+        "只能眼睁睁",
+        "而是",
+        "汤谱",
+        "死死",
+        "小声",
+        "拉扎尔"
+      ],
+      "organizations": [
+        "事务委员会",
+        "的机会",
+        "海瑟薇阁",
+        "魔法议会",
+        "奥术审核委员会",
+        "审核委员会",
+        "北方教会",
+        "莫里斯阁",
+        "南方教会",
+        "以后有机会",
+        "有机会",
+        "一定会",
+        "风暴主宰阁",
+        "拉文第阁",
+        "是魔法议会",
+        "唐纳德阁",
+        "打开大门",
+        "黑色大门",
+        "肯定会",
+        "也不会"
+      ],
+      "locations": [
+        "认知世界",
+        "魔法世界",
+        "霍尔姆王国",
+        "微观世界",
+        "路西恩脑海",
+        "在古代魔法帝国",
+        "古代魔法帝国",
+        "天堂山",
+        "魔法帝国",
+        "接近世界",
+        "天空之城",
+        "在霍尔姆王国",
+        "圣咏之城",
+        "打开了微观世界",
+        "初步实质化的认知世界",
+        "对世界",
+        "死灵界",
+        "古斯塔帝国",
+        "在死灵界",
+        "海德勒城"
+      ],
+      "systems": [
+        "传奇魔法",
+        "高阶魔法",
+        "魔法实验",
+        "七环魔法",
+        "其他魔法",
+        "三环魔法",
+        "魔法等级",
+        "这就是魔法",
+        "独有魔法",
+        "同等级",
+        "霍尔姆皇家魔法",
+        "中阶魔法",
+        "元素和炼金魔法",
+        "高阶奥术",
+        "正式魔法",
+        "几位魔法",
+        "成为高阶",
+        "提升魔法等级",
+        "净化序列",
+        "在古代魔法"
+      ]
+    },
+    {
+      "chunk": 20,
+      "range": "第 381-400 章",
+      "characters": [
+        "路西恩",
+        "接着",
+        "莱茵",
+        "双眼",
+        "再次",
+        "虽然",
+        "转头",
+        "下意识",
+        "毫不犹豫地",
+        "目光",
+        "而是",
+        "直接",
+        "一直",
+        "音乐家",
+        "大声",
+        "奇怪地",
+        "路西恩轻",
+        "路西恩微",
+        "路西恩静静",
+        "静静",
+        "安静",
+        "他就",
+        "路西恩转头",
+        "短暂的",
+        "费尔南多",
+        "温和",
+        "低声",
+        "好奇地",
+        "路西恩感",
+        "冷静地"
+      ],
+      "organizations": [
+        "魔法议会",
+        "因此才会",
+        "的大门",
+        "肯定会",
+        "也不会",
+        "过了好一会",
+        "地下宫",
+        "路西恩也不会",
+        "南方教会",
+        "好一会",
+        "异界之门",
+        "会不会",
+        "竟然会",
+        "他都会",
+        "过了一会",
+        "就不会",
+        "怎么会",
+        "否则会",
+        "城堡大门",
+        "观察者阁"
+      ],
+      "locations": [
+        "掌控着生与死的界",
+        "到了城",
+        "您的国",
+        "认知世界",
+        "黑暗山",
+        "叙拉古王国",
+        "整座城",
+        "物质世界",
+        "这座城",
+        "他脑海",
+        "死灵界",
+        "路西恩脑海",
+        "古斯塔帝国",
+        "与死灵界",
+        "知道死灵界",
+        "对死灵界",
+        "仿佛世界",
+        "神圣海尔兹帝国",
+        "巡游大陆",
+        "魔法帝国"
+      ],
+      "systems": [
+        "传奇魔法",
+        "四环魔法",
+        "施展魔法",
+        "恐怖的魔法",
+        "他是魔法",
+        "一位传奇魔法",
+        "这就是神灵",
+        "这是魔法",
+        "知道魔法",
+        "高阶魔法",
+        "六环魔法",
+        "虽然魔法",
+        "古代传承魔法",
+        "中阶魔法",
+        "奥术和魔法",
+        "高等奥术和魔法",
+        "八环魔法",
+        "九级中阶魔法",
+        "与高阶魔法",
+        "骑士等级"
+      ]
+    },
+    {
+      "chunk": 21,
+      "range": "第 401-420 章",
+      "characters": [
+        "路西恩",
+        "接着",
+        "而是",
+        "大声",
+        "直接",
+        "死死",
+        "一直",
+        "温和",
+        "安静",
+        "他就",
+        "虽然",
+        "转头",
+        "就像在",
+        "目光",
+        "博拉克",
+        "娜塔莎",
+        "莱茵",
+        "双眼",
+        "再次",
+        "下意识",
+        "低声",
+        "短暂的",
+        "费尔南多",
+        "眼睁睁",
+        "诚恳地",
+        "路西恩感",
+        "路西恩轻",
+        "索菲娅",
+        "路西恩微",
+        "他微"
+      ],
+      "organizations": [
+        "肯定会",
+        "金雀花家族",
+        "地下宫",
+        "的机会",
+        "随时会",
+        "有机会",
+        "他都会",
+        "公爵阁",
+        "抓住机会",
+        "打开大门",
+        "路西恩才不会",
+        "怎么会",
+        "一定会",
+        "我一定会",
+        "一不小心就会",
+        "的大门",
+        "米达伦阁",
+        "很可能会",
+        "可能会",
+        "会不会"
+      ],
+      "locations": [
+        "路西恩脑海",
+        "神圣海尔兹帝国",
+        "这是神圣海尔兹帝国",
+        "尔兹帝国",
+        "海尔兹帝国",
+        "死灵界",
+        "在死灵界",
+        "与死灵界",
+        "认知世界",
+        "黑暗山",
+        "污染海",
+        "暴风海",
+        "加莱公国",
+        "对着海",
+        "瓦欧里特公国",
+        "古斯塔帝国",
+        "阿尔托城",
+        "在黑暗山",
+        "我在黑暗山",
+        "整座城"
+      ],
+      "systems": [
+        "传奇魔法",
+        "这是传奇魔法",
+        "在古代魔法",
+        "古代魔法",
+        "学习魔法",
+        "你是魔法",
+        "强大的魔法",
+        "在这样的环境",
+        "这样的魔法",
+        "高阶魔法",
+        "高阶奥术",
+        "开启魔法",
+        "一位传奇魔法",
+        "这是奥术",
+        "古代传承魔法",
+        "六环魔法",
+        "施展魔法",
+        "六级奥术",
+        "魔法等级",
+        "成为高阶"
+      ]
+    },
+    {
+      "chunk": 22,
+      "range": "第 421-440 章",
+      "characters": [
+        "路西恩",
+        "埃里克",
+        "接着",
+        "而是",
+        "直接",
+        "低声",
+        "随口",
+        "温和",
+        "双眼",
+        "再次",
+        "虽然",
+        "阿林厄",
+        "目光",
+        "拉扎尔",
+        "一直",
+        "路西恩好奇地",
+        "好奇地",
+        "高塔几何",
+        "仔细",
+        "费尔南多",
+        "安静",
+        "道格拉斯微",
+        "路西恩微",
+        "眼睁睁",
+        "他就",
+        "静静",
+        "就像在",
+        "严肃地",
+        "路西恩感",
+        "她冷"
+      ],
+      "organizations": [
+        "让教会",
+        "公爵阁",
+        "魔法议会",
+        "海瑟薇阁",
+        "审核委员会",
+        "议长阁",
+        "奥术审核委员会",
+        "怎么会",
+        "风暴主宰阁",
+        "有机会",
+        "小型会",
+        "过了一会",
+        "就不会",
+        "的机会",
+        "竟然会",
+        "同样会",
+        "的大门",
+        "也许会",
+        "永远不会",
+        "应该会"
+      ],
+      "locations": [
+        "霍尔姆王国",
+        "认知世界",
+        "古代魔法帝国",
+        "奥术世界",
+        "魔法帝国",
+        "魔法世界",
+        "对世界",
+        "天堂山",
+        "探索世界",
+        "忘记外面的世界",
+        "接近世界",
+        "自然界",
+        "在古代魔法帝国",
+        "微观世界",
+        "与主物质世界",
+        "物质世界",
+        "人造星球",
+        "创造世界",
+        "黑暗山",
+        "布里亚纳王国"
+      ],
+      "systems": [
+        "高阶魔法",
+        "魔法实验",
+        "元素魔法",
+        "哪怕是高阶魔法",
+        "我的魔法",
+        "随着魔法",
+        "传奇魔法",
+        "古代魔法",
+        "其他奥术",
+        "由于魔法",
+        "正式魔法",
+        "奥术等级",
+        "我的论文",
+        "尤其魔法",
+        "很多奥术",
+        "七环魔法",
+        "这篇论文",
+        "奥术和魔法",
+        "你的论文",
+        "八级奥术"
+      ]
+    },
+    {
+      "chunk": 23,
+      "range": "第 441-460 章",
+      "characters": [
+        "路西恩",
+        "费尔南多",
+        "埃里克",
+        "接着",
+        "直接",
+        "一直",
+        "诚恳地",
+        "仔细",
+        "道格拉斯",
+        "虽然",
+        "阿林厄",
+        "列夫斯基",
+        "拉扎尔",
+        "涅西卡",
+        "低声",
+        "他就",
+        "双眼",
+        "好奇地",
+        "再次",
+        "只能",
+        "温和",
+        "静静",
+        "汤谱",
+        "下意识",
+        "汤谱无奈地",
+        "随口",
+        "安静",
+        "音乐家",
+        "贤者",
+        "转头"
+      ],
+      "organizations": [
+        "肯定会",
+        "奥术审核委员会",
+        "议长阁",
+        "审核委员会",
+        "也不会",
+        "布鲁克阁",
+        "的机会",
+        "恐怕会",
+        "他都会",
+        "魔法议会",
+        "怎么会",
+        "事务委员会",
+        "根本不会",
+        "而且还会",
+        "都不会",
+        "没谁会",
+        "属于魔法议会",
+        "音乐家协会",
+        "阿尔托音乐家协会",
+        "总是会"
+      ],
+      "locations": [
+        "认知世界",
+        "人造星球",
+        "天空之城",
+        "霍尔姆王国",
+        "瓦欧里特公国",
+        "古代魔法帝国",
+        "帕德雷港",
+        "魔法世界",
+        "海德勒城",
+        "魔法帝国",
+        "在黑森林",
+        "与瓦欧里特公国",
+        "死灵界",
+        "梅尔泽黑森林",
+        "叙拉古王国",
+        "在霍尔姆王国",
+        "圣咏之城",
+        "在死灵界",
+        "黑暗山",
+        "与死灵界"
+      ],
+      "systems": [
+        "这篇论文",
+        "四环魔法",
+        "其他魔法",
+        "你的论文",
+        "我的论文",
+        "绝大部分奥术",
+        "一级奥术",
+        "还有其他魔法",
+        "电磁系魔法",
+        "审核奥术",
+        "元素周期",
+        "六环魔法",
+        "八环魔法",
+        "奖励奥术",
+        "建议奖励奥术",
+        "七级奥术",
+        "下一期",
+        "对于这篇论文",
+        "完全不符",
+        "路西恩的论文"
+      ]
+    },
+    {
+      "chunk": 24,
+      "range": "第 461-480 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "路西恩微",
+        "费尔南多",
+        "拉扎尔",
+        "而是",
+        "随口",
+        "拉文第",
+        "一直",
+        "含笑",
+        "加斯东",
+        "道格拉斯",
+        "安静",
+        "约翰",
+        "音乐家",
+        "虽然",
+        "阿林厄",
+        "只能",
+        "毫不犹豫地",
+        "奥利弗",
+        "接着",
+        "大声",
+        "短暂的",
+        "双眼",
+        "再次",
+        "回头",
+        "目光",
+        "哈罗德",
+        "直接",
+        "严肃地"
+      ],
+      "organizations": [
+        "魔法议会",
+        "在魔法议会",
+        "在教会",
+        "北方教会",
+        "南方教会",
+        "你真会",
+        "都不会",
+        "你就会",
+        "而教会",
+        "还是北方教会",
+        "地下宫",
+        "迟早会",
+        "的大门",
+        "矮人反抗军",
+        "机械骑士团",
+        "肯定会",
+        "被教会",
+        "我肯定会",
+        "布鲁克阁",
+        "我一定会"
+      ],
+      "locations": [
+        "人造星球",
+        "我和海",
+        "创造世界",
+        "掌控着生与死的界",
+        "出了城",
+        "认知世界",
+        "微观世界",
+        "瓦欧里特公国",
+        "布里亚纳王国",
+        "物质世界",
+        "向着城",
+        "这座城",
+        "安克诺玛帝国",
+        "伯利坦城",
+        "黑暗山",
+        "毁灭世界",
+        "天堂山",
+        "大世界",
+        "胡苏姆城",
+        "整个世界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "高阶魔法",
+        "二环魔法",
+        "奥术和魔法",
+        "三环魔法",
+        "还是魔法",
+        "许多魔法",
+        "你的魔法",
+        "只要实验",
+        "大部分魔法",
+        "这座魔法",
+        "而高阶",
+        "九级奥术",
+        "七环魔法",
+        "中阶魔法",
+        "五环魔法",
+        "奥术等级",
+        "七级完美阶",
+        "不少魔法",
+        "成为高阶"
+      ]
+    },
+    {
+      "chunk": 25,
+      "range": "第 481-500 章",
+      "characters": [
+        "路西恩",
+        "接着",
+        "直接",
+        "路西恩好奇地",
+        "仔细",
+        "埃尔",
+        "弗朗西斯",
+        "安静",
+        "他就",
+        "双眼",
+        "好奇地",
+        "再次",
+        "回头",
+        "路西恩也",
+        "而是",
+        "短暂的",
+        "费利佩",
+        "虽然",
+        "只能",
+        "下意识",
+        "一直",
+        "低声",
+        "弗朗西斯微",
+        "路西恩微",
+        "温和",
+        "路西恩礼貌地",
+        "目光",
+        "索菲娅",
+        "娜塔莎",
+        "费尔南多"
+      ],
+      "organizations": [
+        "过了一会",
+        "会不会",
+        "的机会",
+        "有机会",
+        "找机会",
+        "肯定会",
+        "抓住机会",
+        "他肯定会",
+        "找个机会",
+        "黑色大门",
+        "必然会",
+        "也不会",
+        "说不定会",
+        "的祭司",
+        "可能会",
+        "一不小心就会",
+        "很可能会",
+        "又不会",
+        "让议会",
+        "魔法议会"
+      ],
+      "locations": [
+        "认知世界",
+        "伯利坦城",
+        "主宰的神域",
+        "死灵界",
+        "整个世界",
+        "胡苏姆城",
+        "古代魔法帝国",
+        "神圣海尔兹帝国",
+        "魔法帝国",
+        "物质世界",
+        "尔兹帝国",
+        "主物质世界",
+        "海尔兹帝国",
+        "路西恩脑海",
+        "地下遗迹",
+        "在死灵界",
+        "莱茵先生被困在死灵界",
+        "瓦欧里特公国",
+        "天堂山",
+        "浓郁的死灵界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "其他神灵",
+        "他是魔法",
+        "高阶魔法",
+        "六环魔法",
+        "冥想环境",
+        "施展魔法",
+        "很多神术",
+        "无形的魔法",
+        "用预言类法术",
+        "古代魔法",
+        "死灵魔法",
+        "有高阶",
+        "在死灵魔法",
+        "死灵系魔法",
+        "骑士等级",
+        "预言类魔法",
+        "很多魔法",
+        "前往魔法",
+        "九环魔法"
+      ]
+    },
+    {
+      "chunk": 26,
+      "range": "第 501-520 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "路西恩微",
+        "接着",
+        "一直",
+        "直接",
+        "死死",
+        "低声",
+        "含笑",
+        "仔细",
+        "埃尔",
+        "弗朗西斯",
+        "双眼",
+        "再次",
+        "虽然",
+        "路西恩轻",
+        "专心致志地",
+        "只能",
+        "目光",
+        "专注地",
+        "而是",
+        "温和",
+        "灵连线里对路西恩",
+        "魔法师",
+        "回头",
+        "就像在",
+        "他就",
+        "他才",
+        "费尔南多",
+        "莱茵"
+      ],
+      "organizations": [
+        "肯定会",
+        "的机会",
+        "可能会",
+        "很可能会",
+        "等教会",
+        "奇诡迷宫",
+        "在教会",
+        "就不会",
+        "风暴主宰阁",
+        "难怪会",
+        "有机会",
+        "那就会",
+        "你说会",
+        "会不会",
+        "异界之门",
+        "北方教会",
+        "应该会",
+        "他不会",
+        "也就不会",
+        "他就不会"
+      ],
+      "locations": [
+        "认知世界",
+        "死灵界",
+        "黑暗山",
+        "天堂山",
+        "死亡山",
+        "物质世界",
+        "主物质世界",
+        "路西恩脑海",
+        "如同行走在您的国",
+        "在死灵界",
+        "与死灵界",
+        "您的国",
+        "海德勒城",
+        "你和海",
+        "知道死灵界",
+        "等到海",
+        "整个世界",
+        "杀掉冥界",
+        "青铜城",
+        "而费尔南多和海"
+      ],
+      "systems": [
+        "传奇魔法",
+        "净化序列",
+        "解除魔法",
+        "高等解除魔法",
+        "防备魔法",
+        "九环魔法",
+        "同等级",
+        "施展出魔法",
+        "晋升高阶",
+        "议会总部魔法",
+        "撰写论文",
+        "聚变魔法",
+        "高阶魔法",
+        "其他魔法",
+        "施展魔法",
+        "一位传奇魔法",
+        "这种魔法",
+        "两位大奥术",
+        "这是一位传奇魔法",
+        "七环魔法"
+      ]
+    },
+    {
+      "chunk": 27,
+      "range": "第 521-540 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "而是",
+        "接着",
+        "直接",
+        "死死",
+        "严肃地",
+        "路西恩感",
+        "贤者",
+        "双眼",
+        "再次",
+        "就要",
+        "虽然",
+        "只能",
+        "下意识",
+        "目光",
+        "路西恩也",
+        "路西恩微",
+        "费尔南多",
+        "一直",
+        "似笑非笑地",
+        "汤谱",
+        "仔细",
+        "奥利弗",
+        "海瑟薇",
+        "路西恩下意识地",
+        "路西恩轻",
+        "阿林厄",
+        "赶紧",
+        "魔法师"
+      ],
+      "organizations": [
+        "怎么会",
+        "会不会",
+        "也不会",
+        "我不会",
+        "光辉大教堂",
+        "梦魇之王阁",
+        "以后有机会",
+        "内克瑟宫",
+        "有机会",
+        "路西恩才不会",
+        "总有一天会",
+        "圣萨尔德阁",
+        "娜塔莎怎么会",
+        "魔法议会",
+        "肯定会",
+        "议长阁",
+        "海瑟薇阁",
+        "我肯定会",
+        "北方教会",
+        "肯定不会"
+      ],
+      "locations": [
+        "霍尔姆王国",
+        "暴风海",
+        "认知世界",
+        "死灵界",
+        "天堂山",
+        "魔法帝国",
+        "升入天堂山",
+        "黑暗山",
+        "人造星球",
+        "在霍尔姆王国",
+        "物质世界",
+        "主物质世界",
+        "在认知世界",
+        "探索世界",
+        "对世界",
+        "整个世界",
+        "他的认知世界",
+        "接着海",
+        "古斯塔帝国",
+        "索拉尔群岛"
+      ],
+      "systems": [
+        "霍尔姆皇家魔法",
+        "八环魔法",
+        "魔法等级",
+        "炼制魔法",
+        "奥术和魔法",
+        "阿林厄魔法",
+        "你的论文",
+        "讨论奥术",
+        "这些魔法",
+        "不管是奥术",
+        "光暗等派系的魔法",
+        "传奇魔法",
+        "其他奥术",
+        "基础魔法",
+        "一切以实验",
+        "六环魔法",
+        "很多魔法",
+        "一位准大奥术",
+        "其他魔法",
+        "古代魔法"
+      ]
+    },
+    {
+      "chunk": 28,
+      "range": "第 541-560 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "费尔南多",
+        "接着",
+        "一直",
+        "直接",
+        "莱茵",
+        "含笑",
+        "萨尔德",
+        "路西恩伸",
+        "娜塔莎忽然",
+        "赶紧",
+        "海瑟薇",
+        "安静",
+        "双眼",
+        "再次",
+        "虽然",
+        "阿林厄",
+        "目光",
+        "专注地",
+        "心灵连线对娜塔莎",
+        "詹姆斯公爵",
+        "雷克斯",
+        "道格拉斯",
+        "诚恳地",
+        "约翰",
+        "他就",
+        "就要",
+        "只能",
+        "下意识"
+      ],
+      "organizations": [
+        "过了一会",
+        "也不会",
+        "我不会",
+        "海瑟薇阁",
+        "风暴主宰阁",
+        "应该不会",
+        "都不会",
+        "克托尼亚阁",
+        "推开房门",
+        "我来帮",
+        "魔法议会",
+        "怎么会",
+        "内克瑟宫",
+        "肯定不会",
+        "让教会",
+        "圣萨尔德阁",
+        "他怎么会",
+        "说不定还会",
+        "事务委员会",
+        "我也会"
+      ],
+      "locations": [
+        "死灵界",
+        "在死灵界",
+        "反正海",
+        "认知世界",
+        "霍尔姆王国",
+        "古代魔法帝国",
+        "暴风海",
+        "魔法世界",
+        "探索世界",
+        "魔法帝国",
+        "我和海",
+        "峡对面的霍尔姆王国",
+        "是魔法世界",
+        "神圣海尔兹帝国",
+        "索拉尔群岛",
+        "尔兹帝国",
+        "海尔兹帝国",
+        "天堂山",
+        "在黑森林",
+        "人造星球"
+      ],
+      "systems": [
+        "一位大奥术",
+        "七环魔法",
+        "中阶魔法",
+        "阿林厄魔法",
+        "魔法等级",
+        "奥术等级",
+        "七位大奥术",
+        "传奇魔法",
+        "古代魔法",
+        "由于魔法",
+        "死灵魔法",
+        "一位魔法",
+        "提升魔法等级",
+        "虽然不像巫妖的护符",
+        "生命护符",
+        "奥术和魔法",
+        "其他奥术",
+        "两位魔法",
+        "正式魔法",
+        "恐怖的魔法"
+      ]
+    },
+    {
+      "chunk": 29,
+      "range": "第 561-580 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "费尔南多",
+        "而是",
+        "道格拉斯",
+        "奥利弗",
+        "萨尔德",
+        "温和",
+        "雷克斯",
+        "一直",
+        "直接",
+        "莱茵",
+        "低声",
+        "赶紧",
+        "海瑟薇",
+        "詹姆斯公爵",
+        "他就",
+        "双眼",
+        "虽然",
+        "目光",
+        "詹姆斯",
+        "魔法师",
+        "接着",
+        "回头",
+        "安静",
+        "再次",
+        "阿林厄",
+        "只能",
+        "莫里斯",
+        "路西恩也"
+      ],
+      "organizations": [
+        "魔法议会",
+        "肯定会",
+        "内克瑟宫",
+        "黑暗议会",
+        "保守派",
+        "也肯定会",
+        "和教会",
+        "在家里和在教堂",
+        "教皇和教会",
+        "光辉大教堂",
+        "莫里斯阁",
+        "异界之门",
+        "抓住机会",
+        "克托尼亚阁",
+        "路西恩才不会",
+        "与魔法议会",
+        "被魔法议会",
+        "道格拉斯抓住机会",
+        "开明派",
+        "激进派"
+      ],
+      "locations": [
+        "地上天国",
+        "布里亚纳王国",
+        "人造星球",
+        "伦塔特城",
+        "北地沿海",
+        "暴风海",
+        "加莱公国",
+        "柯莱特王国",
+        "霍尔姆王国",
+        "神术结界",
+        "天堂山",
+        "风暴结界",
+        "冰地女巫海",
+        "的圣光海",
+        "向着城",
+        "圣光海",
+        "在北地沿海",
+        "我以及将来的国",
+        "魔法帝国",
+        "沙赫兰帝国"
+      ],
+      "systems": [
+        "传奇魔法",
+        "七环魔法",
+        "施展魔法",
+        "得到神术",
+        "就像魔法",
+        "感应到的神灵",
+        "不管能否获得神术",
+        "却妄图垄断心灵靠近神灵",
+        "高阶魔法",
+        "九环魔法",
+        "帮助魔法",
+        "其他高阶魔法",
+        "教会与魔法",
+        "法术序列",
+        "恐怖的魔法",
+        "施展神术",
+        "海瑟薇等大奥术",
+        "并由魔法",
+        "几位大奥术",
+        "霍尔姆皇家魔法"
+      ]
+    },
+    {
+      "chunk": 30,
+      "range": "第 581-600 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "费尔南多",
+        "道格拉斯",
+        "接着",
+        "奥利弗",
+        "仔细",
+        "直接",
+        "静静",
+        "路西恩静静",
+        "他微",
+        "严肃地",
+        "安静",
+        "双眼",
+        "虽然",
+        "路西恩轻",
+        "引力",
+        "只能",
+        "路西恩也",
+        "魔法师",
+        "本笃三世",
+        "娜塔莎",
+        "一直",
+        "随口",
+        "拉文第",
+        "目光",
+        "短暂的",
+        "海瑟薇",
+        "安静地",
+        "低头"
+      ],
+      "organizations": [
+        "议长阁",
+        "也不会",
+        "最高评议团会",
+        "我还会",
+        "南方教会",
+        "在议会",
+        "也许会",
+        "的大门",
+        "魔法议会",
+        "肯定会",
+        "事务委员会",
+        "北方教会",
+        "或许会",
+        "黑暗议会",
+        "否则会",
+        "对教会",
+        "路西恩会",
+        "让议会",
+        "是议会",
+        "德鲁伊长老会"
+      ],
+      "locations": [
+        "认知世界",
+        "人造星球",
+        "微观世界",
+        "真实世界",
+        "古代魔法帝国",
+        "路西恩认知世界",
+        "魔法帝国",
+        "物质世界",
+        "与认知世界",
+        "对认知世界",
+        "霍尔姆王国",
+        "布里亚纳王国",
+        "天堂山",
+        "北地沿海",
+        "加莱公国",
+        "天空之城",
+        "留着山",
+        "海峡四国和北地沿海",
+        "暴风海",
+        "风暴结界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "古代魔法",
+        "这是传奇魔法",
+        "而且魔法",
+        "基础魔法",
+        "通过魔法",
+        "的大奥术",
+        "基础传奇魔法",
+        "传奇进阶",
+        "阿林厄魔法",
+        "元素周期",
+        "奥术和魔法",
+        "独有魔法",
+        "通过实验",
+        "成为传奇魔法",
+        "其他奥术",
+        "几位大奥术",
+        "一位大奥术",
+        "这不符",
+        "九环魔法"
+      ]
+    },
+    {
+      "chunk": 31,
+      "range": "第 601-620 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "费尔南多",
+        "而是",
+        "好奇地",
+        "路西恩好奇地",
+        "仔细",
+        "直接",
+        "加斯东",
+        "目光",
+        "严肃地",
+        "就要",
+        "路西恩轻",
+        "只能",
+        "魔法师",
+        "道格拉斯",
+        "奥利弗",
+        "接着",
+        "拉文第",
+        "弗洛伦莎",
+        "海瑟薇",
+        "奇怪地",
+        "开玩",
+        "小声",
+        "莫里斯",
+        "虽然",
+        "见路西恩",
+        "路西恩正",
+        "他才",
+        "一直"
+      ],
+      "organizations": [
+        "事务委员会",
+        "南方教会",
+        "北方教会",
+        "沉默了一会",
+        "随时会",
+        "这样会",
+        "与教会",
+        "伊文斯阁",
+        "过了好一会",
+        "好一会",
+        "按照议会",
+        "认知世界会",
+        "或许会",
+        "绝对不会",
+        "路西恩不会",
+        "别人或许会",
+        "永远不会",
+        "的大门",
+        "奥术审核委员会",
+        "审核委员会"
+      ],
+      "locations": [
+        "死灵界",
+        "霍尔姆王国",
+        "微观世界",
+        "海德勒城",
+        "整个世界",
+        "与死灵界",
+        "探索世界",
+        "与现实世界",
+        "认知世界",
+        "比如海",
+        "天堂山",
+        "真实世界",
+        "路西恩认知世界",
+        "对死灵界",
+        "路西恩的认知世界",
+        "两个世界",
+        "魔法世界",
+        "真实秘境",
+        "路西恩脑海",
+        "电磁王国"
+      ],
+      "systems": [
+        "传奇魔法",
+        "一位传奇魔法",
+        "就像魔法",
+        "最好是大奥术",
+        "高阶奥术",
+        "道格拉斯魔法",
+        "很多奥术",
+        "下一期",
+        "中阶奥术",
+        "迪耶普的论文",
+        "的大奥术",
+        "完美符",
+        "当前奥术",
+        "这篇论文",
+        "阿林厄魔法",
+        "奥术和魔法",
+        "其他奥术",
+        "很多魔法",
+        "在奥术和魔法",
+        "高等魔法"
+      ]
+    },
+    {
+      "chunk": 32,
+      "range": "第 621-640 章",
+      "characters": [
+        "路西恩",
+        "而是",
+        "接着",
+        "一直",
+        "直接",
+        "短暂的",
+        "低声",
+        "他就",
+        "再次",
+        "虽然",
+        "远远",
+        "回头",
+        "死死",
+        "目光",
+        "赶紧",
+        "双眼",
+        "就要",
+        "引力",
+        "温和",
+        "就像在",
+        "下意识",
+        "安静",
+        "只能",
+        "毫不犹豫地",
+        "路西恩也",
+        "魔法师",
+        "道格拉斯",
+        "费尔南多",
+        "仔细",
+        "路西恩下意识"
+      ],
+      "organizations": [
+        "肯定会",
+        "会不会",
+        "就不会",
+        "的机会",
+        "同样会",
+        "路西恩肯定会",
+        "也不会",
+        "趁此机会",
+        "议长阁",
+        "北方教会",
+        "未必会",
+        "也同样会",
+        "怎么会",
+        "抓住机会",
+        "魔法议会",
+        "过了一会",
+        "恐怕会",
+        "黑色大门",
+        "有魔法议会",
+        "被魔法议会"
+      ],
+      "locations": [
+        "路西恩脑海",
+        "真实世界",
+        "原子宇宙",
+        "天堂山",
+        "毁灭世界",
+        "地上天国",
+        "对世界",
+        "两个世界",
+        "死灵界",
+        "沙赫兰帝国",
+        "是死灵界",
+        "霍尔姆王国",
+        "物质世界",
+        "而外界",
+        "门之世界",
+        "认知世界",
+        "在死灵界",
+        "古代魔法帝国",
+        "魔法帝国",
+        "古斯塔帝国"
+      ],
+      "systems": [
+        "传奇魔法",
+        "六环魔法",
+        "施展魔法",
+        "传奇三阶",
+        "星相系魔法",
+        "的大奥术",
+        "大部分魔法",
+        "的等级",
+        "传奇等级",
+        "法术序列",
+        "这些魔法",
+        "的传奇魔法",
+        "邪恶魔法",
+        "一位奥术",
+        "施展神术",
+        "古代魔法",
+        "这是奥术",
+        "这种环境",
+        "只有魔法",
+        "而大奥术"
+      ]
+    },
+    {
+      "chunk": 33,
+      "range": "第 641-660 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "莱茵",
+        "一直",
+        "随口",
+        "埃尔",
+        "双眼",
+        "再次",
+        "虽然",
+        "只能",
+        "魔法师",
+        "娜塔莎",
+        "而是",
+        "接着",
+        "萨尔德",
+        "奇怪地",
+        "直接",
+        "低声",
+        "目光",
+        "引力",
+        "路西恩也",
+        "道格拉斯",
+        "费尔南多",
+        "好奇地",
+        "严肃地",
+        "路西恩轻",
+        "他才",
+        "路西恩惊讶地",
+        "怪物",
+        "猛地"
+      ],
+      "organizations": [
+        "也不会",
+        "会不会",
+        "地下宫",
+        "随时会",
+        "居然会",
+        "太阳王地下宫",
+        "的大门",
+        "塔诺斯阁",
+        "我也会",
+        "可能会",
+        "都不会",
+        "问我会不会",
+        "我都不会",
+        "肯定会",
+        "的机会",
+        "黑色大门",
+        "否则就会",
+        "他才会",
+        "在天堂",
+        "他的实力会"
+      ],
+      "locations": [
+        "死灵界",
+        "路西恩脑海",
+        "天堂山",
+        "主物质世界",
+        "物质世界",
+        "在主物质世界",
+        "门之世界",
+        "原子宇宙",
+        "而路西恩脑海",
+        "在死灵界",
+        "对世界",
+        "在天堂山",
+        "认知世界",
+        "与认知世界",
+        "霍尔姆王国",
+        "布里亚纳王国",
+        "是死灵界",
+        "的世界",
+        "整个世界",
+        "他的认知世界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "真实梦境",
+        "塔诺斯实验",
+        "周围的魔法",
+        "六位传奇魔法",
+        "施展神术",
+        "到了魔法",
+        "他的实力会提升半阶",
+        "随着魔法",
+        "传奇一阶",
+        "启动了魔法",
+        "的大奥术",
+        "施展魔法",
+        "邪恶魔法",
+        "马斯基林等传奇魔法",
+        "传奇三阶",
+        "这种魔法",
+        "霍尔特魔法",
+        "其他实验",
+        "中阶奥术"
+      ]
+    },
+    {
+      "chunk": 34,
+      "range": "第 661-680 章",
+      "characters": [
+        "而是",
+        "拉扎尔",
+        "仔细",
+        "一直",
+        "随口",
+        "费利佩",
+        "目光",
+        "海蒂",
+        "赶紧",
+        "安尼克",
+        "阿林厄",
+        "拉里",
+        "只能",
+        "魔法师",
+        "怪物",
+        "有些",
+        "道格拉斯",
+        "接着",
+        "好奇地",
+        "小声",
+        "再次",
+        "猛地",
+        "安静",
+        "双眼",
+        "但他",
+        "虽然",
+        "礼貌地",
+        "接着她",
+        "海蒂微",
+        "直接"
+      ],
+      "organizations": [
+        "魔法议会",
+        "霍尔特魔法学院",
+        "找机会",
+        "打开大门",
+        "寻找机会",
+        "被魔法议会",
+        "怎么会",
+        "内克瑟宫",
+        "随时会",
+        "有机会",
+        "但魔法议会",
+        "可是会",
+        "难得有机会",
+        "过了一会",
+        "也不会",
+        "南方教会",
+        "好一会",
+        "稍不注意就会",
+        "议长阁",
+        "就不会"
+      ],
+      "locations": [
+        "天空之城",
+        "等到海",
+        "原子宇宙",
+        "骸骨荒原",
+        "出了城",
+        "但与海",
+        "我是王国",
+        "虽然海",
+        "巴克带着海",
+        "认知世界",
+        "地上天国",
+        "可脑海",
+        "霍尔姆王国",
+        "风暴结界",
+        "费尔南多和海",
+        "路西恩的认知世界",
+        "微观世界",
+        "的世界",
+        "圣咏之城",
+        "对世界"
+      ],
+      "systems": [
+        "高阶魔法",
+        "奥术和魔法",
+        "由于魔法",
+        "绝大部分奥术",
+        "很多魔法",
+        "霍尔特魔法",
+        "低阶魔法",
+        "一位魔法",
+        "死灵系魔法",
+        "大部分奥术",
+        "元素周期",
+        "五环魔法",
+        "道格拉斯的法术",
+        "正式魔法",
+        "邪恶魔法",
+        "有高阶",
+        "基础魔法",
+        "施展魔法",
+        "学习魔法",
+        "绝大部分魔法"
+      ]
+    },
+    {
+      "chunk": 35,
+      "range": "第 681-700 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "海蒂",
+        "尤里斯安",
+        "费利佩",
+        "目光",
+        "安尼克",
+        "猛地",
+        "玛法里奥",
+        "安静",
+        "双眼",
+        "就要",
+        "只能",
+        "魔法师",
+        "侧头",
+        "梅森",
+        "接着",
+        "大声",
+        "直接",
+        "赶紧",
+        "开玩",
+        "再次",
+        "惊疑不定地",
+        "虽然",
+        "远远",
+        "怪物",
+        "而是",
+        "一直",
+        "低声",
+        "下意识"
+      ],
+      "organizations": [
+        "肯定会",
+        "怎么会",
+        "根本不会",
+        "好一会",
+        "随时会",
+        "自然憎恨派",
+        "又不会",
+        "而不会",
+        "魔法议会",
+        "的机会",
+        "是魔法议会",
+        "但不会",
+        "他是自然憎恨派",
+        "南方教会",
+        "费拉冈德阁",
+        "沉默了一会",
+        "你不会",
+        "从来不会",
+        "自然平衡派",
+        "从魔法议会"
+      ],
+      "locations": [
+        "无名者小镇",
+        "让小镇",
+        "死灵界",
+        "地上天国",
+        "对死灵界",
+        "主物质世界",
+        "物质世界",
+        "在主物质世界",
+        "在无名者小镇",
+        "霍尔姆王国",
+        "布里亚纳王国",
+        "整个世界",
+        "人面山",
+        "斯特鲁普森林",
+        "只有海",
+        "门之世界",
+        "血腥君王的人面山",
+        "风暴结界",
+        "骸骨荒原",
+        "的世界"
+      ],
+      "systems": [
+        "高阶魔法",
+        "七环魔法",
+        "施展魔法",
+        "死灵魔法",
+        "安尼克等魔法",
+        "我是魔法",
+        "传奇魔法",
+        "海蒂等魔法",
+        "的传奇魔法",
+        "自然环境",
+        "传奇等级",
+        "人类魔法",
+        "完美地符",
+        "传奇三阶",
+        "周围的魔法",
+        "精灵树的污染",
+        "自然神术",
+        "传奇一阶",
+        "绝大部分魔法",
+        "大部分魔法"
+      ]
+    },
+    {
+      "chunk": 36,
+      "range": "第 701-720 章",
+      "characters": [
+        "路西恩",
+        "接着",
+        "温和",
+        "仔细",
+        "再次",
+        "猛地",
+        "虽然",
+        "远远",
+        "毕竟",
+        "魔法师",
+        "怪物",
+        "娜塔莎",
+        "道格拉斯",
+        "费尔南多",
+        "而是",
+        "一直",
+        "短暂的",
+        "回头",
+        "海瑟薇",
+        "安静",
+        "内心冷",
+        "只能",
+        "他才",
+        "海蒂",
+        "直接",
+        "路西恩也",
+        "全力",
+        "双眼",
+        "阿林厄",
+        "眼睁睁"
+      ],
+      "organizations": [
+        "随时会",
+        "魔法议会",
+        "肯定会",
+        "克莱门",
+        "就不会",
+        "必然会",
+        "终究会",
+        "从魔法议会",
+        "议长阁",
+        "也不会",
+        "的机会",
+        "有机会",
+        "时间会",
+        "在魔法议会",
+        "北方教会",
+        "她不会",
+        "自然会",
+        "虽然这不会",
+        "他才不会",
+        "抓住机会"
+      ],
+      "locations": [
+        "戈恩海",
+        "沸腾海",
+        "风暴结界",
+        "整个世界",
+        "沸腾的海",
+        "星之天国",
+        "原子宇宙",
+        "沙赫兰帝国",
+        "与主物质世界",
+        "主物质世界",
+        "物质世界",
+        "天堂山",
+        "神圣海尔兹帝国",
+        "七层天堂山",
+        "尔兹帝国",
+        "海尔兹帝国",
+        "的世界",
+        "真实世界",
+        "地上天国",
+        "他脑海"
+      ],
+      "systems": [
+        "传奇三阶",
+        "路西恩的魔法",
+        "传奇二阶",
+        "传奇魔法",
+        "传奇一阶",
+        "的传奇魔法",
+        "几位传奇魔法",
+        "施展魔法",
+        "也只有传奇魔法",
+        "有传奇魔法",
+        "与传奇三阶",
+        "施展神术",
+        "这就是传奇三阶",
+        "九环魔法",
+        "毕竟魔法",
+        "他的奥术",
+        "神之符",
+        "其他魔法",
+        "其余奥术",
+        "这样的魔法"
+      ]
+    },
+    {
+      "chunk": 37,
+      "range": "第 721-740 章",
+      "characters": [
+        "路西恩",
+        "道格拉斯",
+        "接着",
+        "大声",
+        "汤谱",
+        "一直",
+        "低声",
+        "赶紧",
+        "猛地",
+        "虽然",
+        "阿林厄",
+        "只能",
+        "卡特里娜",
+        "魔法师",
+        "决定论",
+        "有些",
+        "费尔南多",
+        "而是",
+        "海瑟薇",
+        "直接",
+        "诚恳地",
+        "他就",
+        "安尼克",
+        "布鲁克",
+        "双眼",
+        "路西恩也",
+        "本笃三世",
+        "低声感",
+        "温和",
+        "刚要"
+      ],
+      "organizations": [
+        "魔法议会",
+        "伊文斯阁",
+        "也不会",
+        "事务委员会",
+        "肯定不会",
+        "而且还会",
+        "而魔法议会",
+        "与魔法议会",
+        "偶尔会",
+        "都不会",
+        "能够帮",
+        "的大门",
+        "议长阁",
+        "肯定会",
+        "但不会",
+        "还是会",
+        "它就会",
+        "有魔法议会",
+        "有议会",
+        "基本不会"
+      ],
+      "locations": [
+        "真实世界",
+        "古代魔法帝国",
+        "北地沿海",
+        "负能态真空大海",
+        "对世界",
+        "魔法帝国",
+        "海峡四国和北地沿海",
+        "认知世界",
+        "他的认知世界",
+        "现实世界",
+        "他认知世界",
+        "霍尔姆王国",
+        "人造星球",
+        "佩福斯郡",
+        "的世界",
+        "暴风海",
+        "伦塔特王国",
+        "在暴风海",
+        "布里亚纳王国",
+        "这座城"
+      ],
+      "systems": [
+        "普通奥术",
+        "这篇论文",
+        "高阶魔法",
+        "阿林厄魔法",
+        "古代魔法",
+        "施展魔法",
+        "高阶奥术",
+        "其他奥术",
+        "这一期",
+        "这些魔法",
+        "路西恩论文",
+        "大奥术师的论文",
+        "自我意识和魔法",
+        "奥术和魔法",
+        "让更多的奥术",
+        "一位大奥术",
+        "关于魔法",
+        "中阶魔法",
+        "真的是魔法",
+        "可惜魔法"
+      ]
+    },
+    {
+      "chunk": 38,
+      "range": "第 741-760 章",
+      "characters": [
+        "路西恩",
+        "路西恩微",
+        "道格拉斯",
+        "费尔南多",
+        "眼睁睁",
+        "海瑟薇",
+        "直接",
+        "再次",
+        "布鲁克",
+        "同时",
+        "虽然",
+        "路西恩轻",
+        "只能",
+        "路西恩忽然",
+        "路西恩也",
+        "全力",
+        "魔法师",
+        "而是",
+        "目光",
+        "本笃三世",
+        "他就",
+        "安静",
+        "双眼",
+        "梅尔莫斯",
+        "娜塔莎",
+        "他微",
+        "奇怪地",
+        "赶紧",
+        "开玩",
+        "约翰"
+      ],
+      "organizations": [
+        "魔法议会",
+        "议长阁",
+        "我不会",
+        "北方教会",
+        "或许会",
+        "南方教会",
+        "一定会",
+        "对教会",
+        "让教会",
+        "对魔法议会",
+        "在南方教会",
+        "不管教会",
+        "除非教会",
+        "时间会",
+        "和教会",
+        "认知世界会",
+        "将教会",
+        "局势会",
+        "也不会",
+        "反而会"
+      ],
+      "locations": [
+        "认知世界",
+        "天堂山",
+        "人造星球",
+        "天空之城",
+        "北地沿海",
+        "费尔南多和海",
+        "暴风海",
+        "海峡四国和北地沿海",
+        "魔法帝国",
+        "霍尔姆王国",
+        "黑暗山",
+        "伦塔特城",
+        "对世界",
+        "门之世界",
+        "真实秘境",
+        "主物质世界",
+        "在主物质世界",
+        "物质世界",
+        "接近世界",
+        "最接近世界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "奥术和魔法",
+        "研究奥术",
+        "邪恶魔法",
+        "的传奇魔法",
+        "就像魔法",
+        "而传奇魔法",
+        "古代魔法",
+        "你是魔法",
+        "目前魔法",
+        "真实秘境",
+        "传奇三阶",
+        "一位奥术",
+        "一位大奥术",
+        "当前奥术",
+        "每一位奥术",
+        "而且魔法",
+        "骑士等级",
+        "的大奥术",
+        "毕竟魔法"
+      ]
+    },
+    {
+      "chunk": 39,
+      "range": "第 761-780 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "接着",
+        "而是",
+        "一直",
+        "远远",
+        "路西恩感",
+        "同时",
+        "双眼",
+        "虽然",
+        "转头",
+        "只能",
+        "多丽丝",
+        "直接",
+        "就要",
+        "毕竟",
+        "毫不犹豫地",
+        "刚要",
+        "路西恩也",
+        "魔法师",
+        "维肯",
+        "道格拉斯",
+        "费尔南多",
+        "莱茵",
+        "赶紧",
+        "海瑟薇",
+        "再次",
+        "目光",
+        "猛地",
+        "阿格莱亚"
+      ],
+      "organizations": [
+        "魔法议会",
+        "怎么会",
+        "蔚蓝之门",
+        "也不会",
+        "的机会",
+        "而且不会",
+        "路西恩会",
+        "但也不会",
+        "一时半会",
+        "立刻就会",
+        "议长阁",
+        "抓住机会",
+        "恐怕会",
+        "有机会",
+        "等待机会",
+        "光靠议会",
+        "找机会",
+        "寻找机会",
+        "南方教会",
+        "黑暗议会"
+      ],
+      "locations": [
+        "认知世界",
+        "风暴结界",
+        "星之天国",
+        "这是海",
+        "就让海",
+        "而且海",
+        "主物质世界",
+        "与外界",
+        "物质世界",
+        "就像大海",
+        "费尔南多和海",
+        "整个世界",
+        "粘稠海",
+        "的世界",
+        "正是海",
+        "蔚蓝海",
+        "门之世界",
+        "死灵界",
+        "原子宇宙",
+        "与死灵界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "传奇三阶",
+        "同等级",
+        "其他魔法",
+        "法术序列",
+        "传奇一阶",
+        "的大奥术",
+        "周围的魔法",
+        "等传奇法术",
+        "这就是传奇魔法",
+        "阿林厄魔法",
+        "的传奇魔法",
+        "有传奇魔法",
+        "普通奥术",
+        "基础奥术",
+        "道格拉斯等大奥术",
+        "这篇论文",
+        "中阶魔法",
+        "只有魔法",
+        "启动魔法"
+      ]
+    },
+    {
+      "chunk": 40,
+      "range": "第 781-800 章",
+      "characters": [
+        "路西恩",
+        "温和",
+        "直接",
+        "远远",
+        "下意识",
+        "同时",
+        "但他",
+        "虽然",
+        "毕竟",
+        "只能",
+        "斯坦尼斯",
+        "魔法师",
+        "道格拉斯",
+        "莱茵",
+        "而是",
+        "一直",
+        "含笑",
+        "路西恩正",
+        "猛地",
+        "双眼",
+        "毫不犹豫地",
+        "路西恩也",
+        "全力",
+        "维肯",
+        "有些",
+        "回头",
+        "严肃地",
+        "再次",
+        "目光",
+        "专注地"
+      ],
+      "organizations": [
+        "的机会",
+        "怎么会",
+        "音乐会",
+        "可能会",
+        "又不会",
+        "我怎么会",
+        "魔法议会",
+        "肯定会",
+        "会不会",
+        "黑暗议会",
+        "一定会",
+        "与黑暗议会",
+        "连魔法议会",
+        "当前的局",
+        "蔚蓝之门",
+        "同样会",
+        "祂肯定会",
+        "才不会",
+        "祂不会",
+        "也不会"
+      ],
+      "locations": [
+        "认知世界",
+        "戈恩海",
+        "主物质世界",
+        "物质世界",
+        "古代魔法帝国",
+        "魔法帝国",
+        "他的认知世界",
+        "他的脑海",
+        "黑暗山",
+        "对世界",
+        "焰石山",
+        "死灵界",
+        "魔法世界",
+        "在主物质世界",
+        "原子宇宙",
+        "天空之城",
+        "人造星球",
+        "费尔南多和海",
+        "北地沿海",
+        "古斯塔帝国"
+      ],
+      "systems": [
+        "传奇魔法",
+        "的传奇魔法",
+        "绝望的处境",
+        "传奇二阶",
+        "奈特拉沃斯的魔法",
+        "要么魔法",
+        "净化序列",
+        "古代魔法",
+        "传奇三阶",
+        "人类魔法",
+        "帝国时期",
+        "整个魔法",
+        "不少魔法",
+        "你懂奥术",
+        "高阶魔法",
+        "学徒级",
+        "成为高阶",
+        "传奇等级",
+        "成为高阶魔法",
+        "大部分魔法"
+      ]
+    },
+    {
+      "chunk": 41,
+      "range": "第 801-820 章",
+      "characters": [
+        "路西恩",
+        "道格拉斯",
+        "费尔南多",
+        "接着",
+        "而是",
+        "海蒂",
+        "仔细",
+        "低声",
+        "严肃地",
+        "直接",
+        "他才",
+        "目光",
+        "专注地",
+        "维肯",
+        "阿里",
+        "安尼克",
+        "下意识",
+        "自嘲地",
+        "卡特里娜",
+        "萨曼莎",
+        "目光专注地",
+        "安静",
+        "虽然",
+        "阿林厄",
+        "毕竟",
+        "经典",
+        "魔法师",
+        "奥利弗",
+        "静静地",
+        "海瑟薇"
+      ],
+      "organizations": [
+        "魔法议会",
+        "有机会",
+        "不知道会",
+        "有魔法议会",
+        "哪有机会",
+        "议长阁",
+        "就不会",
+        "可能会",
+        "结果会",
+        "这样就不会",
+        "安提弗勒的白枫叶宫",
+        "伊文斯阁",
+        "肯定会",
+        "各位阁",
+        "异界之门",
+        "肯定不会",
+        "依然会",
+        "将大门",
+        "当前的局",
+        "它能帮"
+      ],
+      "locations": [
+        "认知世界",
+        "对世界",
+        "天堂山",
+        "古代魔法帝国",
+        "整个世界",
+        "魔法帝国",
+        "那整个世界",
+        "阿林厄城",
+        "那世界",
+        "天空之城",
+        "的世界",
+        "斯普林特和海",
+        "门之世界",
+        "原子宇宙",
+        "死灵界",
+        "叙拉古王国",
+        "主物质世界",
+        "物质世界",
+        "在主物质世界",
+        "这是古代魔法帝国"
+      ],
+      "systems": [
+        "阿林厄魔法",
+        "绝大部分魔法",
+        "很多奥术",
+        "大部分魔法",
+        "这不奥术",
+        "这次的实验",
+        "等待着实验",
+        "传奇魔法",
+        "古代魔法",
+        "一位奥术",
+        "完全不符",
+        "这比任何魔法",
+        "任何魔法",
+        "道格拉斯启动了实验",
+        "高阶魔法",
+        "其他奥术",
+        "绝大部分奥术",
+        "毕竟魔法",
+        "基本奥术",
+        "学习奥术"
+      ]
+    },
+    {
+      "chunk": 42,
+      "range": "第 821-840 章",
+      "characters": [
+        "路西恩",
+        "娜塔莎",
+        "费尔南多",
+        "奥利弗",
+        "而是",
+        "海蒂",
+        "他微",
+        "仔细",
+        "再次",
+        "海瑟薇",
+        "阿里",
+        "直接",
+        "布鲁克",
+        "维肯",
+        "安尼克",
+        "莫里斯",
+        "阿格莱亚",
+        "仰头",
+        "同时",
+        "双眼",
+        "瓦欧里特大公",
+        "虽然",
+        "阿林厄",
+        "只能",
+        "全力",
+        "魔法师",
+        "忽然",
+        "梅尔莫斯",
+        "贝格纳",
+        "奥利弗微"
+      ],
+      "organizations": [
+        "议长阁",
+        "内克瑟宫",
+        "或许会",
+        "就不会",
+        "同样会",
+        "我就不会",
+        "的大门",
+        "伊文斯阁",
+        "布鲁克阁",
+        "抓住机会",
+        "虽然这不会",
+        "魔法议会",
+        "北方教会",
+        "应该不会",
+        "的机会",
+        "必然会",
+        "因此才会",
+        "让魔法议会",
+        "依然会",
+        "它就会"
+      ],
+      "locations": [
+        "原子宇宙",
+        "认知世界",
+        "天堂山",
+        "霍尔姆王国",
+        "真实世界",
+        "天空之城",
+        "伦塔特城",
+        "电磁王国",
+        "整个世界",
+        "阿林厄城",
+        "对认知世界",
+        "这是认知世界",
+        "仿佛整个世界",
+        "门之世界",
+        "绝望世界",
+        "的世界",
+        "主物质世界",
+        "物质世界",
+        "蔚蓝星球",
+        "死灵界"
+      ],
+      "systems": [
+        "传奇魔法",
+        "阿林厄魔法",
+        "海瑟薇等大奥术",
+        "三位传奇魔法",
+        "奥利弗等传奇魔法",
+        "一位魔法",
+        "每一位魔法",
+        "冥想环境",
+        "以及魔法",
+        "很多实验",
+        "安尼克等魔法",
+        "一位位魔法",
+        "普通奥术",
+        "这是奥术",
+        "知道魔法",
+        "周围的环境",
+        "的大奥术",
+        "研究魔法",
+        "到了魔法",
+        "周围环境"
+      ]
+    },
+    {
+      "chunk": 43,
+      "range": "第 841-860 章",
+      "characters": [
+        "路西恩",
+        "接着",
+        "而是",
+        "好奇地",
+        "低声",
+        "仔细",
+        "目光",
+        "赶紧",
+        "直接",
+        "再次",
+        "回头",
+        "费利佩",
+        "艾勒丝汀",
+        "小声",
+        "目不转睛地",
+        "下意识",
+        "唐尼",
+        "小声地",
+        "平和地",
+        "转头",
+        "毕竟",
+        "魔法师",
+        "忽然",
+        "怪物",
+        "眼睁睁",
+        "一直",
+        "只能眼睁睁",
+        "猛地",
+        "凝重地",
+        "安静"
+      ],
+      "organizations": [
+        "会不会",
+        "甚至会",
+        "海德勒魔法学院",
+        "能够帮",
+        "不仅会",
+        "她会不会",
+        "魔法学院",
+        "肯定会",
+        "也不会",
+        "随时会",
+        "的大门",
+        "究竟会",
+        "永远不会",
+        "怎么会",
+        "的机会",
+        "否则会",
+        "偶尔会",
+        "海德勒学院",
+        "都是议会",
+        "我会不会"
+      ],
+      "locations": [
+        "微观世界",
+        "死灵界",
+        "瓦欧里特公国",
+        "他脑海",
+        "珍珠群岛",
+        "是死灵界",
+        "天空之城",
+        "仿佛世界",
+        "的世界",
+        "唐尼脑海",
+        "与外界",
+        "这是海",
+        "整个世界",
+        "古代魔法帝国",
+        "魔法帝国",
+        "遗传实验室海",
+        "与死灵界",
+        "海德勒城",
+        "探索世界",
+        "向着城"
+      ],
+      "systems": [
+        "高阶魔法",
+        "海德勒魔法",
+        "魔法实验",
+        "你在奥术",
+        "正式魔法",
+        "成为正式魔法",
+        "五环的魔法",
+        "进行魔法实验",
+        "在魔法实验",
+        "她与大奥术",
+        "初级魔法",
+        "阿林厄魔法",
+        "在高阶",
+        "有高阶",
+        "完全不符",
+        "至于魔法",
+        "其他奥术",
+        "遗传实验",
+        "奥术和魔法",
+        "古代魔法"
+      ]
+    },
+    {
+      "chunk": 44,
+      "range": "第 861-880 章",
+      "characters": [
+        "道格拉斯",
+        "费尔南多",
+        "接着",
+        "好奇地",
+        "直接",
+        "低声",
+        "再次",
+        "目光",
+        "下意识",
+        "开玩",
+        "冷静地",
+        "虽然",
+        "转头",
+        "只能",
+        "魔法师",
+        "眼睛",
+        "高声",
+        "佩福斯伯爵",
+        "温和",
+        "仔细",
+        "一直",
+        "同时",
+        "双眼",
+        "但他",
+        "平和地",
+        "毕竟",
+        "接着微",
+        "眼睁睁",
+        "静静地",
+        "短暂的"
+      ],
+      "organizations": [
+        "肯定会",
+        "好一会",
+        "说不定会",
+        "反而会",
+        "我反而会",
+        "房间的门",
+        "反正不会",
+        "传奇阁",
+        "魔法师联合工会",
+        "怎么会",
+        "过了一会",
+        "也不会",
+        "被教会",
+        "不被教会",
+        "会不会",
+        "总是会",
+        "是教会",
+        "可能会",
+        "但教会",
+        "有机会"
+      ],
+      "locations": [
+        "黑暗山",
+        "古代魔法帝国",
+        "北地沿海",
+        "帕德雷港",
+        "魔法帝国",
+        "霍尔姆王国",
+        "暴风海",
+        "佩福斯郡",
+        "布里亚纳王国",
+        "加莱公国",
+        "在霍尔姆王国",
+        "探索世界",
+        "柯莱特王国",
+        "是霍尔姆王国",
+        "这片森林",
+        "希尔凡纳斯帝国",
+        "整座城",
+        "整个世界",
+        "天空之城",
+        "在暴风海"
+      ],
+      "systems": [
+        "传奇魔法",
+        "高阶魔法",
+        "净化序列",
+        "古代魔法",
+        "其他魔法",
+        "过去的魔法",
+        "施展法术",
+        "是高阶",
+        "大部分魔法",
+        "你的魔法",
+        "成为传奇魔法",
+        "邪恶的魔法",
+        "三位魔法",
+        "各种魔法",
+        "用各种魔法",
+        "越来越多的魔法",
+        "五环魔法",
+        "两位魔法",
+        "成为高阶",
+        "传奇等级"
+      ]
+    },
+    {
+      "chunk": 45,
+      "range": "第 881-900 章",
+      "characters": [
+        "道格拉斯",
+        "费尔南多",
+        "接着",
+        "眼睁睁",
+        "直接",
+        "克托尼亚",
+        "再次",
+        "老者",
+        "猛地",
+        "远远",
+        "忽然",
+        "安诺德",
+        "惊讶地",
+        "同时",
+        "双眼",
+        "但他",
+        "还是",
+        "准备",
+        "魔法师",
+        "眼睛",
+        "就像",
+        "目光",
+        "一直",
+        "回头",
+        "安静地",
+        "下意识",
+        "他就",
+        "安静",
+        "虽然",
+        "眯着眼睛"
+      ],
+      "organizations": [
+        "怎么会",
+        "魔法师联合工会",
+        "有机会",
+        "也不会",
+        "的机会",
+        "应该会",
+        "与教会",
+        "传奇阁",
+        "又怎么会",
+        "夏普会",
+        "肯定会",
+        "光辉大教堂",
+        "当前的局",
+        "太阳教会",
+        "大教堂",
+        "教会肯定会",
+        "马斯基林阁",
+        "维肯阁",
+        "坦纳诺斯阁",
+        "会不会"
+      ],
+      "locations": [
+        "整个世界",
+        "亚瑟帝国",
+        "魔法帝国",
+        "黑暗山",
+        "古斯塔帝国",
+        "的世界",
+        "其他城",
+        "天空之城",
+        "伦塔特城",
+        "湖底遗迹",
+        "霍尔姆王国",
+        "神圣海尔兹帝国",
+        "沙赫兰帝国",
+        "加莱公国",
+        "浮空城",
+        "尔兹帝国",
+        "海尔兹帝国",
+        "天堂山",
+        "如同行走在您的国",
+        "您的国"
+      ],
+      "systems": [
+        "除了魔法",
+        "九环法术",
+        "施展法术",
+        "传奇魔法",
+        "其他魔法",
+        "传奇三阶",
+        "这些魔法",
+        "成为传奇魔法",
+        "传奇等级",
+        "阁下的实力恢复到三阶",
+        "的传奇魔法",
+        "一位传奇魔法",
+        "传奇一阶",
+        "每一位传奇魔法",
+        "传奇二阶",
+        "高阶魔法",
+        "其他高阶魔法",
+        "只有魔法",
+        "邪恶的魔法",
+        "一位魔法"
+      ]
+    },
+    {
+      "chunk": 46,
+      "range": "第 901-919 章",
+      "characters": [
+        "道格拉斯",
+        "费尔南多",
+        "而是",
+        "直接",
+        "再次",
+        "随口",
+        "海瑟薇",
+        "目光",
+        "道格拉斯微",
+        "一直",
+        "回头",
+        "凝重地",
+        "自嘲地",
+        "平和地",
+        "远远",
+        "夏普",
+        "同时",
+        "还是",
+        "虽然",
+        "引力",
+        "准备",
+        "魔法师",
+        "艾丽卡",
+        "就像",
+        "故意",
+        "奥利弗",
+        "眼睁睁",
+        "大声",
+        "短暂的",
+        "怔怔地"
+      ],
+      "organizations": [
+        "异界之门",
+        "魔法师联合工会",
+        "被教会",
+        "当前的局",
+        "与教会",
+        "的大门",
+        "霍芬伯格家族",
+        "是霍芬伯格家族",
+        "将教会",
+        "会不会",
+        "我不会",
+        "就不会",
+        "在教会",
+        "他就会",
+        "偶尔会",
+        "让教会",
+        "还是会",
+        "教会不会",
+        "费尔南多是个行动派",
+        "绝对会"
+      ],
+      "locations": [
+        "黑暗山",
+        "费尔南多和海",
+        "魔法帝国",
+        "伦塔特城",
+        "这座城",
+        "布里亚纳王国",
+        "他的脑海",
+        "古代魔法帝国",
+        "像是海",
+        "出了城",
+        "霍尔姆王国",
+        "是霍尔姆王国",
+        "亚瑟帝国",
+        "认知世界",
+        "天空之城",
+        "整个世界",
+        "对世界",
+        "他脑海",
+        "若非海",
+        "只觉整个世界"
+      ],
+      "systems": [
+        "其他魔法",
+        "大陆魔法",
+        "这就是魔法",
+        "你是魔法",
+        "交流魔法",
+        "三位魔法",
+        "周围环境",
+        "这绝对是魔法",
+        "高阶魔法",
+        "学习魔法",
+        "成为魔法",
+        "关于魔法",
+        "九环法术",
+        "周围的环境",
+        "他是魔法",
+        "古代魔法",
+        "邪恶魔法",
+        "邪恶的魔法",
+        "冥想环境",
+        "学徒级"
       ]
     }
   ]
