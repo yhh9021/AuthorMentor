@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { Command } from "commander";
 import { applyDeconstructionRun } from "../capabilities/deconstruction/apply.js";
+import { runFullDeconstruction } from "../capabilities/deconstruction/full-run.js";
 import { prepareDeconstructionRun } from "../capabilities/deconstruction/prepare.js";
 
 const program = new Command();
@@ -42,6 +43,28 @@ deconstruct
   .action(async (runDir) => {
     await applyDeconstructionRun(runDir);
     console.log("拆书产物已应用并提交 Git。");
+  });
+
+deconstruct
+  .command("full-run")
+  .description("完整运行长程分段拆书，并应用产物")
+  .argument("<source>", "原始小说文本或二手拆书来源文件")
+  .option("--source-kind <kind>", "来源类型：原始小说文本 / 二手拆书来源", "原始小说文本")
+  .option("--target-library <library>", "目标素材库：全局素材库 / 单书专属素材库", "全局素材库")
+  .option("--segment-size <number>", "长程分段拆书的默认章节数", "20")
+  .option("--project <name>", "单书项目名")
+  .option("--title <title>", "本次拆书标题")
+  .action(async (source, options) => {
+    const runDir = await runFullDeconstruction({
+      sourcePath: source,
+      sourceKind: options.sourceKind,
+      targetLibrary: options.targetLibrary,
+      mode: "长程分段拆书",
+      segmentSize: options.segmentSize,
+      project: options.project,
+      title: options.title
+    });
+    console.log(`全量长程拆书已完成并提交 Git：${runDir}`);
   });
 
 program.parseAsync().catch((error: unknown) => {

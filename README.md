@@ -13,7 +13,7 @@ pnpm install
 生成拆书任务包：
 
 ```bash
-pnpm dev -- deconstruct prepare <小说或二手拆书来源文件>
+pnpm dev deconstruct prepare <小说或二手拆书来源文件>
 ```
 
 生成后会得到：
@@ -44,7 +44,15 @@ global/deconstructions/<书名>/
 把 `runs/<run-id>/TASK.md` 交给 Codex、Claude Code 或其他智能体执行。智能体填完 `output/` 后，应用拆书结果：
 
 ```bash
-pnpm dev -- deconstruct apply runs/<run-id>
+pnpm dev deconstruct apply runs/<run-id>
 ```
 
 `apply` 会校验输出、更新素材库，并提交 Git。
+
+完整运行长程分段拆书：
+
+```bash
+pnpm dev deconstruct full-run <小说文本> --title <书名>
+```
+
+这个命令会解析全书章节，生成分段拆书报告、素材卡、全书汇总，更新全局素材库，并提交 Git。

@@ -14,7 +14,7 @@ export async function prepareDeconstructionRun(rawOptions: PrepareOptions): Prom
   const bookSourceDir = path.join(bookDir, "source");
   const bookSourceFile = path.join(bookSourceDir, path.basename(options.sourcePath));
   await ensureBookDeconstructionDir(bookDir, options, bookSourceFile);
-  await copyFile(options.sourcePath, bookSourceFile);
+  await copySourceFile(options.sourcePath, bookSourceFile);
 
   const runId = createRunId(title);
   const runDir = path.join(workspace.runsDir, runId);
@@ -39,6 +39,13 @@ export async function prepareDeconstructionRun(rawOptions: PrepareOptions): Prom
   await writeText(path.join(outputDir, "change-record.md"), renderChangeRecordTemplate(runId));
 
   return runDir;
+}
+
+async function copySourceFile(sourcePath: string, targetPath: string): Promise<void> {
+  if (path.resolve(sourcePath) === path.resolve(targetPath)) {
+    return;
+  }
+  await copyFile(sourcePath, targetPath);
 }
 
 function createRunId(title: string): string {
