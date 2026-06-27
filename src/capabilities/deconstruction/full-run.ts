@@ -24,7 +24,7 @@ type Segment = {
 };
 
 const CHAPTER_TITLE_PATTERN =
-  /^第[一二三四五六七八九十百千万零〇两0-9]+章[^\n\r]*/gm;
+  /^(?:\d+[.、]\s*)?第[一二三四五六七八九十百千万零〇两0-9]+章[^\n\r]*/gm;
 
 const FOCUS_RULES: Array<{ focus: string; category: string; keywords: string[] }> = [
   { focus: "现代仙门校园与资源压力", category: "设定模式", keywords: ["仙门", "高中", "高考", "道院", "灵根", "善功", "修炼室"] },
