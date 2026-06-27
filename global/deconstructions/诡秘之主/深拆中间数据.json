@@ -3,7 +3,7 @@
   "chapterCount": 1396,
   "chunkCount": 70,
   "agentChunkCount": 0,
-  "protagonist": "转而",
+  "protagonist": "克莱恩",
   "audit": [
     {
       "name": "子 Agent 精读覆盖率",
@@ -23,7 +23,7 @@
     {
       "name": "语义关系数量",
       "status": "通过",
-      "detail": "实际 111，最低要求 34。"
+      "detail": "实际 110，最低要求 34。"
     },
     {
       "name": "势力组织数量",
@@ -53,13 +53,13 @@
   ],
   "characters": [
     {
-      "name": "转而",
-      "mentions": 242,
-      "firstChapter": 17,
-      "lastChapter": 1396,
-      "chapterCount": 220,
+      "name": "克莱恩",
+      "mentions": 131,
+      "firstChapter": 16,
+      "lastChapter": 1391,
+      "chapterCount": 113,
       "markers": [
-        "人物行为/发言(242)"
+        "人物行为/发言(131)"
       ]
     },
     {
@@ -74,43 +74,13 @@
     },
     {
       "name": "罗塞尔",
-      "mentions": 150,
+      "mentions": 151,
       "firstChapter": 7,
       "lastChapter": 1374,
       "chapterCount": 104,
       "markers": [
         "姓名候选(149)",
-        "人物行为/发言(1)"
-      ]
-    },
-    {
-      "name": "开口",
-      "mentions": 96,
-      "firstChapter": 76,
-      "lastChapter": 1396,
-      "chapterCount": 90,
-      "markers": [
-        "人物行为/发言(96)"
-      ]
-    },
-    {
-      "name": "克莱恩",
-      "mentions": 90,
-      "firstChapter": 16,
-      "lastChapter": 1391,
-      "chapterCount": 80,
-      "markers": [
-        "人物行为/发言(90)"
-      ]
-    },
-    {
-      "name": "斟酌着",
-      "mentions": 74,
-      "firstChapter": 6,
-      "lastChapter": 1320,
-      "chapterCount": 70,
-      "markers": [
-        "人物行为/发言(74)"
+        "人物行为/发言(2)"
       ]
     },
     {
@@ -136,13 +106,13 @@
     },
     {
       "name": "安德森",
-      "mentions": 101,
+      "mentions": 103,
       "firstChapter": 651,
       "lastChapter": 1342,
       "chapterCount": 48,
       "markers": [
         "姓名候选(90)",
-        "人物行为/发言(11)"
+        "人物行为/发言(13)"
       ]
     },
     {
@@ -178,6 +148,17 @@
       ]
     },
     {
+      "name": "邓恩",
+      "mentions": 61,
+      "firstChapter": 12,
+      "lastChapter": 777,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(43)",
+        "人物行为/发言(18)"
+      ]
+    },
+    {
       "name": "顾一圈",
       "mentions": 39,
       "firstChapter": 161,
@@ -198,17 +179,6 @@
       ]
     },
     {
-      "name": "邓恩",
-      "mentions": 49,
-      "firstChapter": 12,
-      "lastChapter": 777,
-      "chapterCount": 35,
-      "markers": [
-        "姓名候选(37)",
-        "人物行为/发言(12)"
-      ]
-    },
-    {
       "name": "查拉图",
       "mentions": 44,
       "firstChapter": 93,
@@ -226,26 +196,6 @@
       "chapterCount": 34,
       "markers": [
         "姓名候选(38)"
-      ]
-    },
-    {
-      "name": "主动",
-      "mentions": 33,
-      "firstChapter": 28,
-      "lastChapter": 1396,
-      "chapterCount": 33,
-      "markers": [
-        "人物行为/发言(33)"
-      ]
-    },
-    {
-      "name": "克莱恩笑",
-      "mentions": 32,
-      "firstChapter": 62,
-      "lastChapter": 1056,
-      "chapterCount": 31,
-      "markers": [
-        "人物行为/发言(32)"
       ]
     },
     {
@@ -310,13 +260,13 @@
     },
     {
       "name": "艾辛格",
-      "mentions": 51,
+      "mentions": 54,
       "firstChapter": 273,
       "lastChapter": 770,
       "chapterCount": 23,
       "markers": [
         "姓名候选(46)",
-        "人物行为/发言(5)"
+        "人物行为/发言(8)"
       ]
     },
     {
@@ -391,13 +341,13 @@
     },
     {
       "name": "艾尔兰",
-      "mentions": 47,
+      "mentions": 48,
       "firstChapter": 495,
       "lastChapter": 738,
       "chapterCount": 20,
       "markers": [
         "姓名候选(37)",
-        "人物行为/发言(10)"
+        "人物行为/发言(11)"
       ]
     },
     {
@@ -432,12 +382,22 @@
     },
     {
       "name": "利用",
-      "mentions": 19,
+      "mentions": 20,
       "firstChapter": 475,
       "lastChapter": 1367,
       "chapterCount": 19,
       "markers": [
-        "姓名候选(19)"
+        "姓名候选(20)"
+      ]
+    },
+    {
+      "name": "伦纳德",
+      "mentions": 21,
+      "firstChapter": 43,
+      "lastChapter": 1279,
+      "chapterCount": 18,
+      "markers": [
+        "人物行为/发言(21)"
       ]
     },
     {
@@ -468,6 +428,17 @@
       "chapterCount": 17,
       "markers": [
         "姓名候选(32)"
+      ]
+    },
+    {
+      "name": "班森",
+      "mentions": 26,
+      "firstChapter": 4,
+      "lastChapter": 1144,
+      "chapterCount": 17,
+      "markers": [
+        "姓名候选(15)",
+        "人物行为/发言(11)"
       ]
     },
     {
@@ -511,6 +482,16 @@
       ]
     },
     {
+      "name": "当即",
+      "mentions": 16,
+      "firstChapter": 21,
+      "lastChapter": 1351,
+      "chapterCount": 16,
+      "markers": [
+        "人物行为/发言(16)"
+      ]
+    },
+    {
       "name": "艾弥留",
       "mentions": 37,
       "firstChapter": 622,
@@ -531,17 +512,6 @@
       ]
     },
     {
-      "name": "班森",
-      "mentions": 18,
-      "firstChapter": 4,
-      "lastChapter": 1144,
-      "chapterCount": 15,
-      "markers": [
-        "姓名候选(11)",
-        "人物行为/发言(7)"
-      ]
-    },
-    {
       "name": "严肃",
       "mentions": 16,
       "firstChapter": 70,
@@ -550,6 +520,16 @@
       "markers": [
         "人物行为/发言(9)",
         "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "佛尔思",
+      "mentions": 15,
+      "firstChapter": 107,
+      "lastChapter": 1103,
+      "chapterCount": 15,
+      "markers": [
+        "人物行为/发言(15)"
       ]
     },
     {
@@ -574,6 +554,37 @@
       ]
     },
     {
+      "name": "戴莉",
+      "mentions": 16,
+      "firstChapter": 14,
+      "lastChapter": 945,
+      "chapterCount": 14,
+      "markers": [
+        "姓名候选(14)",
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "左轮",
+      "mentions": 16,
+      "firstChapter": 21,
+      "lastChapter": 1388,
+      "chapterCount": 14,
+      "markers": [
+        "姓名候选(16)"
+      ]
+    },
+    {
+      "name": "旋即",
+      "mentions": 15,
+      "firstChapter": 15,
+      "lastChapter": 1232,
+      "chapterCount": 14,
+      "markers": [
+        "人物行为/发言(15)"
+      ]
+    },
+    {
       "name": "费内波",
       "mentions": 15,
       "firstChapter": 44,
@@ -594,16 +605,6 @@
       ]
     },
     {
-      "name": "当即",
-      "mentions": 14,
-      "firstChapter": 21,
-      "lastChapter": 1351,
-      "chapterCount": 14,
-      "markers": [
-        "人物行为/发言(14)"
-      ]
-    },
-    {
       "name": "常地说",
       "mentions": 14,
       "firstChapter": 31,
@@ -621,16 +622,6 @@
       "chapterCount": 14,
       "markers": [
         "姓名候选(14)"
-      ]
-    },
-    {
-      "name": "伦纳德",
-      "mentions": 14,
-      "firstChapter": 43,
-      "lastChapter": 1279,
-      "chapterCount": 14,
-      "markers": [
-        "人物行为/发言(14)"
       ]
     },
     {
@@ -716,31 +707,10 @@
       ]
     },
     {
-      "name": "戴莉",
-      "mentions": 15,
-      "firstChapter": 14,
-      "lastChapter": 945,
-      "chapterCount": 13,
-      "markers": [
-        "姓名候选(13)",
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "左轮",
-      "mentions": 15,
-      "firstChapter": 21,
-      "lastChapter": 1388,
-      "chapterCount": 13,
-      "markers": [
-        "姓名候选(15)"
-      ]
-    },
-    {
-      "name": "旋即",
+      "name": "阿尔杰",
       "mentions": 14,
-      "firstChapter": 15,
-      "lastChapter": 1232,
+      "firstChapter": 35,
+      "lastChapter": 1395,
       "chapterCount": 13,
       "markers": [
         "人物行为/发言(14)"
@@ -754,17 +724,6 @@
       "chapterCount": 13,
       "markers": [
         "姓名候选(14)"
-      ]
-    },
-    {
-      "name": "连忙",
-      "mentions": 14,
-      "firstChapter": 101,
-      "lastChapter": 1394,
-      "chapterCount": 13,
-      "markers": [
-        "人物行为/发言(12)",
-        "姓名候选(2)"
       ]
     },
     {
@@ -858,26 +817,6 @@
       ]
     },
     {
-      "name": "克莱恩斟酌着",
-      "mentions": 12,
-      "firstChapter": 120,
-      "lastChapter": 1230,
-      "chapterCount": 12,
-      "markers": [
-        "人物行为/发言(12)"
-      ]
-    },
-    {
-      "name": "方开口",
-      "mentions": 12,
-      "firstChapter": 279,
-      "lastChapter": 1212,
-      "chapterCount": 12,
-      "markers": [
-        "姓名候选(12)"
-      ]
-    },
-    {
       "name": "低哑",
       "mentions": 12,
       "firstChapter": 458,
@@ -915,17 +854,6 @@
       "chapterCount": 11,
       "markers": [
         "姓名候选(20)"
-      ]
-    },
-    {
-      "name": "边开口",
-      "mentions": 18,
-      "firstChapter": 13,
-      "lastChapter": 1350,
-      "chapterCount": 11,
-      "markers": [
-        "姓名候选(11)",
-        "人物行为/发言(7)"
       ]
     },
     {
@@ -989,16 +917,6 @@
       ]
     },
     {
-      "name": "佛尔思",
-      "mentions": 11,
-      "firstChapter": 107,
-      "lastChapter": 1103,
-      "chapterCount": 11,
-      "markers": [
-        "人物行为/发言(11)"
-      ]
-    },
-    {
       "name": "克莱恩坦然回",
       "mentions": 11,
       "firstChapter": 226,
@@ -1037,6 +955,17 @@
       "chapterCount": 10,
       "markers": [
         "姓名候选(13)"
+      ]
+    },
+    {
+      "name": "车夫",
+      "mentions": 12,
+      "firstChapter": 45,
+      "lastChapter": 1344,
+      "chapterCount": 10,
+      "markers": [
+        "姓名候选(11)",
+        "人物行为/发言(1)"
       ]
     },
     {
@@ -1100,20 +1029,20 @@
       ]
     },
     {
-      "name": "浅笑",
-      "mentions": 10,
-      "firstChapter": 113,
-      "lastChapter": 1251,
-      "chapterCount": 10,
-      "markers": [
-        "人物行为/发言(10)"
-      ]
-    },
-    {
       "name": "鲁恩语",
       "mentions": 10,
       "firstChapter": 114,
       "lastChapter": 1312,
+      "chapterCount": 10,
+      "markers": [
+        "姓名候选(10)"
+      ]
+    },
+    {
+      "name": "王室",
+      "mentions": 10,
+      "firstChapter": 276,
+      "lastChapter": 1242,
       "chapterCount": 10,
       "markers": [
         "姓名候选(10)"
@@ -1170,16 +1099,6 @@
       ]
     },
     {
-      "name": "车夫",
-      "mentions": 10,
-      "firstChapter": 122,
-      "lastChapter": 1344,
-      "chapterCount": 9,
-      "markers": [
-        "姓名候选(10)"
-      ]
-    },
-    {
       "name": "不答",
       "mentions": 9,
       "firstChapter": 18,
@@ -1230,16 +1149,6 @@
       ]
     },
     {
-      "name": "阿尔杰",
-      "mentions": 9,
-      "firstChapter": 192,
-      "lastChapter": 1395,
-      "chapterCount": 9,
-      "markers": [
-        "人物行为/发言(9)"
-      ]
-    },
-    {
       "name": "简洁",
       "mentions": 9,
       "firstChapter": 268,
@@ -1255,16 +1164,6 @@
       "mentions": 9,
       "firstChapter": 268,
       "lastChapter": 1009,
-      "chapterCount": 9,
-      "markers": [
-        "姓名候选(9)"
-      ]
-    },
-    {
-      "name": "王室",
-      "mentions": 9,
-      "firstChapter": 276,
-      "lastChapter": 1242,
       "chapterCount": 9,
       "markers": [
         "姓名候选(9)"
@@ -1468,16 +1367,6 @@
       ]
     },
     {
-      "name": "克莱恩主动",
-      "mentions": 8,
-      "firstChapter": 168,
-      "lastChapter": 1368,
-      "chapterCount": 8,
-      "markers": [
-        "人物行为/发言(8)"
-      ]
-    },
-    {
       "name": "方可能",
       "mentions": 8,
       "firstChapter": 363,
@@ -1492,6 +1381,16 @@
       "mentions": 8,
       "firstChapter": 423,
       "lastChapter": 1202,
+      "chapterCount": 8,
+      "markers": [
+        "姓名候选(8)"
+      ]
+    },
+    {
+      "name": "冷酷",
+      "mentions": 8,
+      "firstChapter": 557,
+      "lastChapter": 1306,
       "chapterCount": 8,
       "markers": [
         "姓名候选(8)"
@@ -1519,6 +1418,16 @@
       ]
     },
     {
+      "name": "老尼尔",
+      "mentions": 14,
+      "firstChapter": 32,
+      "lastChapter": 81,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(14)"
+      ]
+    },
+    {
       "name": "夏塔丝",
       "mentions": 14,
       "firstChapter": 697,
@@ -1527,6 +1436,17 @@
       "markers": [
         "姓名候选(13)",
         "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "劳伦斯",
+      "mentions": 11,
+      "firstChapter": 374,
+      "lastChapter": 647,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(9)",
+        "人物行为/发言(2)"
       ]
     },
     {
@@ -1551,10 +1471,10 @@
       ]
     },
     {
-      "name": "劳伦斯",
+      "name": "胡德",
       "mentions": 10,
-      "firstChapter": 374,
-      "lastChapter": 647,
+      "firstChapter": 117,
+      "lastChapter": 653,
       "chapterCount": 7,
       "markers": [
         "姓名候选(9)",
@@ -1562,24 +1482,13 @@
       ]
     },
     {
-      "name": "连忙追",
-      "mentions": 9,
-      "firstChapter": 13,
-      "lastChapter": 1049,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)",
-        "人物行为/发言(2)"
-      ]
-    },
-    {
       "name": "霍尔伯爵",
-      "mentions": 9,
+      "mentions": 10,
       "firstChapter": 192,
       "lastChapter": 1335,
       "chapterCount": 7,
       "markers": [
-        "人物行为/发言(9)"
+        "人物行为/发言(10)"
       ]
     },
     {
@@ -1590,6 +1499,16 @@
       "chapterCount": 7,
       "markers": [
         "姓名候选(9)"
+      ]
+    },
+    {
+      "name": "东区",
+      "mentions": 8,
+      "firstChapter": 283,
+      "lastChapter": 434,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(8)"
       ]
     },
     {
@@ -1643,16 +1562,6 @@
       ]
     },
     {
-      "name": "相对而",
-      "mentions": 7,
-      "firstChapter": 6,
-      "lastChapter": 1061,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)"
-      ]
-    },
-    {
       "name": "松地回",
       "mentions": 7,
       "firstChapter": 7,
@@ -1697,16 +1606,6 @@
       "mentions": 7,
       "firstChapter": 42,
       "lastChapter": 1285,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)"
-      ]
-    },
-    {
-      "name": "方主动",
-      "mentions": 7,
-      "firstChapter": 49,
-      "lastChapter": 954,
       "chapterCount": 7,
       "markers": [
         "姓名候选(7)"
@@ -1767,6 +1666,16 @@
       "mentions": 7,
       "firstChapter": 129,
       "lastChapter": 1235,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "高层",
+      "mentions": 7,
+      "firstChapter": 144,
+      "lastChapter": 1355,
       "chapterCount": 7,
       "markers": [
         "姓名候选(7)"
@@ -1863,16 +1772,6 @@
       ]
     },
     {
-      "name": "明显",
-      "mentions": 7,
-      "firstChapter": 513,
-      "lastChapter": 1317,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)"
-      ]
-    },
-    {
       "name": "克莱恩平静",
       "mentions": 7,
       "firstChapter": 524,
@@ -1881,15 +1780,119 @@
       "markers": [
         "人物行为/发言(7)"
       ]
+    },
+    {
+      "name": "梅林",
+      "mentions": 18,
+      "firstChapter": 1298,
+      "lastChapter": 1321,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(9)",
+        "姓名候选(9)"
+      ]
+    },
+    {
+      "name": "艾尔",
+      "mentions": 9,
+      "firstChapter": 71,
+      "lastChapter": 545,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(9)"
+      ]
+    },
+    {
+      "name": "艾因霍",
+      "mentions": 9,
+      "firstChapter": 458,
+      "lastChapter": 1391,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(9)"
+      ]
+    },
+    {
+      "name": "卢克",
+      "mentions": 8,
+      "firstChapter": 232,
+      "lastChapter": 799,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(4)",
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "贝克朗",
+      "mentions": 8,
+      "firstChapter": 247,
+      "lastChapter": 267,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(7)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "相近途",
+      "mentions": 8,
+      "firstChapter": 481,
+      "lastChapter": 1379,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(8)"
+      ]
+    },
+    {
+      "name": "边疑惑",
+      "mentions": 7,
+      "firstChapter": 36,
+      "lastChapter": 1349,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(5)",
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "梅纳德",
+      "mentions": 7,
+      "firstChapter": 173,
+      "lastChapter": 205,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "符号",
+      "mentions": 7,
+      "firstChapter": 389,
+      "lastChapter": 1304,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "嘉德丽雅",
+      "mentions": 7,
+      "firstChapter": 672,
+      "lastChapter": 1090,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
     }
   ],
   "characterRoles": [
     {
-      "name": "转而",
+      "name": "克莱恩",
       "role": "主角候选",
-      "reason": "全书出现和覆盖最高，覆盖第 17-1396 章。",
-      "firstChapter": 17,
-      "lastChapter": 1396,
+      "reason": "全书出现和覆盖最高，覆盖第 16-1391 章。",
+      "firstChapter": 16,
+      "lastChapter": 1391,
       "confidence": "中"
     },
     {
@@ -1909,33 +1912,9 @@
       "confidence": "中"
     },
     {
-      "name": "开口",
-      "role": "主要对手/反派候选",
-      "reason": "克莱恩：矛盾，覆盖第 10-1387 章，证据：同章共现(359)、队长(5)、朋友(3)、救(3)、矛盾(2)、交易(2)、敌人(2)、威胁(2)",
-      "firstChapter": 76,
-      "lastChapter": 1396,
-      "confidence": "中"
-    },
-    {
-      "name": "克莱恩",
-      "role": "核心同伴/盟友候选",
-      "reason": "转而：帮助，覆盖第 16-1391 章，证据：同章共现(162)、委托(2)、帮助(2)、朋友(2)、喜欢(2)、导师(1)、队长(1)、救(1)",
-      "firstChapter": 16,
-      "lastChapter": 1391,
-      "confidence": "中"
-    },
-    {
-      "name": "斟酌着",
-      "role": "交易/利用关系候选",
-      "reason": "克莱恩：利用，覆盖第 19-1273 章，证据：同章共现(62)、利用(2)、委托(1)、冲突(1)、保护(1)、仇(1)、帮助(1)、父亲(1)",
-      "firstChapter": 6,
-      "lastChapter": 1320,
-      "confidence": "中"
-    },
-    {
       "name": "梅丽莎",
       "role": "亲属/情感关系候选",
-      "reason": "班森：妹妹，覆盖第 3-1364 章，证据：同章共现(111)、妹妹(16)、队长(3)、雇佣(2)、威胁(2)、帮助(2)、父亲(2)、喜欢(2)",
+      "reason": "克莱恩：妹妹，覆盖第 3-1275 章，证据：同章共现(97)、妹妹(17)、雇佣(3)、威胁(2)、帮助(2)、父亲(2)、喜欢(2)、导师(1)",
       "firstChapter": 3,
       "lastChapter": 1396,
       "confidence": "中"
@@ -1981,6 +1960,14 @@
       "confidence": "中"
     },
     {
+      "name": "邓恩",
+      "role": "导师/上位者/下属候选",
+      "reason": "克莱恩：队长，覆盖第 12-947 章，证据：同章共现(180)、队长(44)、帮助(3)、朋友(1)、交易(1)、妹妹(1)、敌人(1)、试探(1)",
+      "firstChapter": 12,
+      "lastChapter": 777,
+      "confidence": "中"
+    },
+    {
       "name": "顾一圈",
       "role": "重要配角候选",
       "reason": "克莱恩：同伴，覆盖第 71-1390 章，证据：同章共现(54)、同伴(1)、交易(1)",
@@ -1991,17 +1978,9 @@
     {
       "name": "鲁恩王",
       "role": "交易/利用关系候选",
-      "reason": "贝克兰：交易，覆盖第 3-1356 章，证据：同章共现(36)、父亲(2)、交易(2)、导师(1)、母亲(1)、交换(1)、帮助(1)、委托(1)",
+      "reason": "克莱恩：交易，覆盖第 1-1391 章，证据：同章共现(36)、学生(1)、儿子(1)、保护(1)、交易(1)、交换(1)、委托(1)、争夺(1)",
       "firstChapter": 2,
       "lastChapter": 1320,
-      "confidence": "中"
-    },
-    {
-      "name": "邓恩",
-      "role": "导师/上位者/下属候选",
-      "reason": "克莱恩：队长，覆盖第 12-947 章，证据：同章共现(180)、队长(44)、帮助(3)、朋友(1)、交易(1)、妹妹(1)、敌人(1)、试探(1)",
-      "firstChapter": 12,
-      "lastChapter": 777,
       "confidence": "中"
     },
     {
@@ -2018,22 +1997,6 @@
       "reason": "克莱恩：帮助，覆盖第 22-1372 章，证据：同章共现(74)、帮助(6)、父亲(2)、救(2)、利用(2)、委托(1)、长老(1)、保护(1)",
       "firstChapter": 93,
       "lastChapter": 1190,
-      "confidence": "中"
-    },
-    {
-      "name": "主动",
-      "role": "主要对手/反派候选",
-      "reason": "克莱恩：仇，覆盖第 28-1385 章，证据：同章共现(136)、仇(2)、委托(2)、敌人(2)、交易(2)、老师(1)、妹妹(1)、合作(1)",
-      "firstChapter": 28,
-      "lastChapter": 1396,
-      "confidence": "中"
-    },
-    {
-      "name": "克莱恩笑",
-      "role": "亲属/情感关系候选",
-      "reason": "克莱恩：妹妹，覆盖第 11-1389 章，证据：同章共现(150)、妹妹(3)、喜欢(3)、委托(2)、朋友(2)、保护(1)、队长(1)、试探(1)",
-      "firstChapter": 62,
-      "lastChapter": 1056,
       "confidence": "中"
     },
     {
@@ -2079,7 +2042,7 @@
     {
       "name": "自顾自",
       "role": "重要配角候选",
-      "reason": "顾自说：队长，覆盖第 11-1225 章，证据：同章共现(30)、队长(1)、委托(1)",
+      "reason": "克莱恩：队长，覆盖第 11-1375 章，证据：同章共现(25)、队长(1)、委托(1)",
       "firstChapter": 78,
       "lastChapter": 1263,
       "confidence": "低"
@@ -2189,6 +2152,14 @@
       "confidence": "中"
     },
     {
+      "name": "伦纳德",
+      "role": "核心同伴/盟友候选",
+      "reason": "克莱恩：帮助，覆盖第 38-1392 章，证据：同章共现(327)、队长(12)、利用(7)、帮助(6)、仇(5)、救(4)、保护(3)、交易(2)",
+      "firstChapter": 43,
+      "lastChapter": 1279,
+      "confidence": "中"
+    },
+    {
       "name": "自嘲",
       "role": "核心同伴/盟友候选",
       "reason": "克莱恩：救，覆盖第 7-1361 章，证据：同章共现(93)、救(4)、委托(2)、学生(1)、喜欢(1)、队长(1)、帮助(1)、仇(1)",
@@ -2210,6 +2181,14 @@
       "reason": "克莱恩：喜欢，覆盖第 536-1390 章，证据：同章共现(58)、利用(2)、保护(1)、喜欢(1)、父亲(1)、帮助(1)、女儿(1)、敌人(1)",
       "firstChapter": 265,
       "lastChapter": 1374,
+      "confidence": "中"
+    },
+    {
+      "name": "班森",
+      "role": "亲属/情感关系候选",
+      "reason": "克莱恩：妹妹，覆盖第 2-1275 章，证据：同章共现(91)、妹妹(10)、雇佣(3)、兄长(2)、威胁(2)、帮助(2)、朋友(1)、队长(1)",
+      "firstChapter": 4,
+      "lastChapter": 1144,
       "confidence": "中"
     },
     {
@@ -2245,6 +2224,14 @@
       "confidence": "中"
     },
     {
+      "name": "当即",
+      "role": "核心同伴/盟友候选",
+      "reason": "克莱恩：合作，覆盖第 21-1382 章，证据：同章共现(177)、队长(3)、合作(2)、帮助(1)、委托(1)、试探(1)、救(1)、敌人(1)",
+      "firstChapter": 21,
+      "lastChapter": 1351,
+      "confidence": "中"
+    },
+    {
       "name": "艾弥留",
       "role": "亲属/情感关系候选",
       "reason": "克莱恩：喜欢，覆盖第 622-998 章，证据：同章共现(61)、喜欢(2)、交易(1)、委托(1)、帮助(1)、亲人(1)、保护(1)、冲突(1)",
@@ -2261,19 +2248,19 @@
       "confidence": "中"
     },
     {
-      "name": "班森",
-      "role": "亲属/情感关系候选",
-      "reason": "梅丽莎：妹妹，覆盖第 3-1364 章，证据：同章共现(111)、妹妹(16)、队长(3)、雇佣(2)、威胁(2)、帮助(2)、父亲(2)、喜欢(2)",
-      "firstChapter": 4,
-      "lastChapter": 1144,
-      "confidence": "中"
-    },
-    {
       "name": "严肃",
       "role": "重要配角候选",
       "reason": "克莱恩：仇，覆盖第 9-1372 章，证据：同章共现(60)、妹妹(1)、老师(1)、队长(1)、仇(1)、帮助(1)、敌人(1)、盟友(1)",
       "firstChapter": 70,
       "lastChapter": 1232,
+      "confidence": "低"
+    },
+    {
+      "name": "佛尔思",
+      "role": "重要配角候选",
+      "reason": "克莱恩：朋友，覆盖第 108-1391 章，证据：同章共现(20)、长老(1)、朋友(1)、帮助(1)",
+      "firstChapter": 107,
+      "lastChapter": 1103,
       "confidence": "低"
     },
     {
@@ -2293,6 +2280,30 @@
       "confidence": "低"
     },
     {
+      "name": "戴莉",
+      "role": "导师/上位者/下属候选",
+      "reason": "克莱恩：队长，覆盖第 14-980 章，证据：同章共现(51)、队长(9)、导师(2)、矛盾(1)、仇(1)",
+      "firstChapter": 14,
+      "lastChapter": 945,
+      "confidence": "中"
+    },
+    {
+      "name": "左轮",
+      "role": "主要对手/反派候选",
+      "reason": "克莱恩：敌人，覆盖第 2-1185 章，证据：同章共现(138)、敌人(5)、队长(3)、交换(2)、冲突(1)、喜欢(1)、围攻(1)",
+      "firstChapter": 21,
+      "lastChapter": 1388,
+      "confidence": "中"
+    },
+    {
+      "name": "旋即",
+      "role": "导师/上位者/下属候选",
+      "reason": "克莱恩：队长，覆盖第 16-1390 章，证据：同章共现(168)、队长(3)、利用(2)、喜欢(2)、导师(1)、同伴(1)、朋友(1)、雇佣(1)",
+      "firstChapter": 15,
+      "lastChapter": 1232,
+      "confidence": "中"
+    },
+    {
       "name": "费内波",
       "role": "重要配角候选",
       "reason": "克莱恩：仇，覆盖第 4-1250 章，证据：同章共现(14)、保护(1)、喜欢(1)、仇(1)",
@@ -2307,14 +2318,6 @@
       "firstChapter": 208,
       "lastChapter": 1299,
       "confidence": "低"
-    },
-    {
-      "name": "当即",
-      "role": "核心同伴/盟友候选",
-      "reason": "克莱恩：合作，覆盖第 21-1382 章，证据：同章共现(177)、队长(3)、合作(2)、帮助(1)、委托(1)、试探(1)、救(1)、敌人(1)",
-      "firstChapter": 21,
-      "lastChapter": 1351,
-      "confidence": "中"
     },
     {
       "name": "常地说",
@@ -2333,17 +2336,9 @@
       "confidence": "中"
     },
     {
-      "name": "伦纳德",
-      "role": "重要配角候选",
-      "reason": "转而：队长，覆盖第 47-1363 章，证据：同章共现(17)、队长(1)、委托(1)、喜欢(1)",
-      "firstChapter": 43,
-      "lastChapter": 1279,
-      "confidence": "低"
-    },
-    {
       "name": "坦然",
       "role": "导师/上位者/下属候选",
-      "reason": "坦然回：队长，覆盖第 10-1344 章，证据：同章共现(64)、队长(2)、救(1)、导师(1)、喜欢(1)、对手(1)、追杀(1)、老师(1)",
+      "reason": "克莱恩：队长，覆盖第 10-1371 章，证据：同章共现(58)、队长(2)、帮助(2)、导师(1)、同伴(1)、对手(1)、委托(1)、老师(1)",
       "firstChapter": 121,
       "lastChapter": 1319,
       "confidence": "中"
@@ -2405,27 +2400,11 @@
       "confidence": "低"
     },
     {
-      "name": "戴莉",
-      "role": "导师/上位者/下属候选",
-      "reason": "克莱恩：队长，覆盖第 14-980 章，证据：同章共现(51)、队长(9)、导师(2)、矛盾(1)、仇(1)",
-      "firstChapter": 14,
-      "lastChapter": 945,
-      "confidence": "中"
-    },
-    {
-      "name": "左轮",
-      "role": "主要对手/反派候选",
-      "reason": "克莱恩：敌人，覆盖第 2-1185 章，证据：同章共现(138)、敌人(5)、队长(3)、交换(2)、冲突(1)、喜欢(1)、围攻(1)",
-      "firstChapter": 21,
-      "lastChapter": 1388,
-      "confidence": "中"
-    },
-    {
-      "name": "旋即",
-      "role": "导师/上位者/下属候选",
-      "reason": "克莱恩：队长，覆盖第 16-1390 章，证据：同章共现(168)、队长(3)、利用(2)、喜欢(2)、导师(1)、同伴(1)、朋友(1)、雇佣(1)",
-      "firstChapter": 15,
-      "lastChapter": 1232,
+      "name": "阿尔杰",
+      "role": "核心同伴/盟友候选",
+      "reason": "克莱恩：帮助，覆盖第 34-1392 章，证据：同章共现(45)、帮助(4)、交易(1)、同伴(1)",
+      "firstChapter": 35,
+      "lastChapter": 1395,
       "confidence": "中"
     },
     {
@@ -2434,14 +2413,6 @@
       "reason": "高频出场人物，覆盖第 64-1345 章，需子 Agent 精读确认人物功能。",
       "firstChapter": 64,
       "lastChapter": 1345,
-      "confidence": "低"
-    },
-    {
-      "name": "连忙",
-      "role": "重要配角候选",
-      "reason": "克莱恩：利用，覆盖第 13-1153 章，证据：同章共现(21)、利用(1)",
-      "firstChapter": 101,
-      "lastChapter": 1394,
       "confidence": "低"
     },
     {
@@ -2455,7 +2426,7 @@
     {
       "name": "坦然回",
       "role": "导师/上位者/下属候选",
-      "reason": "坦然：队长，覆盖第 10-1344 章，证据：同章共现(64)、队长(2)、救(1)、导师(1)、喜欢(1)、对手(1)、追杀(1)、老师(1)",
+      "reason": "克莱恩：队长，覆盖第 10-1310 章，证据：同章共现(26)、队长(2)、对手(1)、老师(1)",
       "firstChapter": 113,
       "lastChapter": 1344,
       "confidence": "中"
@@ -2517,32 +2488,47 @@
       "confidence": "中"
     },
     {
-      "name": "克莱恩斟酌着",
+      "name": "低哑",
+      "role": "重要配角候选",
+      "reason": "克莱恩：合作，覆盖第 202-1205 章，证据：同章共现(14)、合作(1)",
+      "firstChapter": 458,
+      "lastChapter": 1174,
+      "confidence": "低"
+    },
+    {
+      "name": "啧啧",
+      "role": "重要配角候选",
+      "reason": "高频出场人物，覆盖第 506-1338 章，需子 Agent 精读确认人物功能。",
+      "firstChapter": 506,
+      "lastChapter": 1338,
+      "confidence": "低"
+    },
+    {
+      "name": "文德尔",
+      "role": "重要配角候选",
+      "reason": "乌托邦：救，覆盖第 1332-1368 章，证据：同章共现(26)、救(1)",
+      "firstChapter": 1332,
+      "lastChapter": 1356,
+      "confidence": "低"
+    },
+    {
+      "name": "乌黯魔",
       "role": "交易/利用关系候选",
-      "reason": "克莱恩：利用，覆盖第 33-1273 章，证据：同章共现(24)、利用(2)、委托(1)、仇(1)",
-      "firstChapter": 120,
-      "lastChapter": 1230,
+      "reason": "克莱恩：利用，覆盖第 1182-1354 章，证据：同章共现(62)、利用(3)、兄弟(1)、交易(1)、矛盾(1)、救(1)、敌人(1)、保护(1)",
+      "firstChapter": 1184,
+      "lastChapter": 1248,
+      "confidence": "中"
+    },
+    {
+      "name": "艾伦医",
+      "role": "交易/利用关系候选",
+      "reason": "克莱恩：利用，覆盖第 371-980 章，证据：同章共现(34)、利用(3)、妻子(2)、亲人(1)、委托(1)、帮助(1)",
+      "firstChapter": 327,
+      "lastChapter": 1147,
       "confidence": "中"
     }
   ],
   "relations": [
-    {
-      "source": "克莱恩",
-      "target": "开口",
-      "mentions": 385,
-      "firstChapter": 10,
-      "lastChapter": 1387,
-      "markers": [
-        "同章共现(359)",
-        "队长(5)",
-        "朋友(3)",
-        "救(3)",
-        "矛盾(2)",
-        "交易(2)",
-        "敌人(2)",
-        "威胁(2)"
-      ]
-    },
     {
       "source": "伦纳德",
       "target": "克莱恩",
@@ -2626,6 +2612,23 @@
         "妹妹(1)",
         "敌人(1)",
         "试探(1)"
+      ]
+    },
+    {
+      "source": "克莱恩",
+      "target": "达尼兹",
+      "mentions": 223,
+      "firstChapter": 500,
+      "lastChapter": 1325,
+      "markers": [
+        "同章共现(213)",
+        "同伴(3)",
+        "朋友(2)",
+        "帮助(1)",
+        "交易(1)",
+        "敌人(1)",
+        "利用(1)",
+        "导师(1)"
       ]
     },
     {
@@ -2761,23 +2764,6 @@
     },
     {
       "source": "克莱恩",
-      "target": "转而",
-      "mentions": 178,
-      "firstChapter": 16,
-      "lastChapter": 1391,
-      "markers": [
-        "同章共现(162)",
-        "委托(2)",
-        "帮助(2)",
-        "朋友(2)",
-        "喜欢(2)",
-        "导师(1)",
-        "队长(1)",
-        "救(1)"
-      ]
-    },
-    {
-      "source": "克莱恩",
       "target": "认真",
       "mentions": 167,
       "firstChapter": 26,
@@ -2795,23 +2781,6 @@
     },
     {
       "source": "克莱恩",
-      "target": "克莱恩笑",
-      "mentions": 163,
-      "firstChapter": 11,
-      "lastChapter": 1389,
-      "markers": [
-        "同章共现(150)",
-        "妹妹(3)",
-        "喜欢(3)",
-        "委托(2)",
-        "朋友(2)",
-        "保护(1)",
-        "队长(1)",
-        "试探(1)"
-      ]
-    },
-    {
-      "source": "克莱恩",
       "target": "左轮",
       "mentions": 150,
       "firstChapter": 2,
@@ -2824,23 +2793,6 @@
         "冲突(1)",
         "喜欢(1)",
         "围攻(1)"
-      ]
-    },
-    {
-      "source": "主动",
-      "target": "克莱恩",
-      "mentions": 148,
-      "firstChapter": 28,
-      "lastChapter": 1385,
-      "markers": [
-        "同章共现(136)",
-        "仇(2)",
-        "委托(2)",
-        "敌人(2)",
-        "交易(2)",
-        "老师(1)",
-        "妹妹(1)",
-        "合作(1)"
       ]
     },
     {
@@ -3048,6 +3000,19 @@
       ]
     },
     {
+      "source": "安德森",
+      "target": "达尼兹",
+      "mentions": 109,
+      "firstChapter": 657,
+      "lastChapter": 1268,
+      "markers": [
+        "同章共现(106)",
+        "合作(1)",
+        "雇佣(1)",
+        "队长(1)"
+      ]
+    },
+    {
       "source": "克莱恩",
       "target": "自嘲",
       "mentions": 103,
@@ -3096,20 +3061,6 @@
         "围攻(1)",
         "喜欢(1)",
         "矛盾(1)"
-      ]
-    },
-    {
-      "source": "奥黛丽",
-      "target": "开口",
-      "mentions": 86,
-      "firstChapter": 5,
-      "lastChapter": 1368,
-      "markers": [
-        "同章共现(81)",
-        "交易(2)",
-        "委托(1)",
-        "试探(1)",
-        "父亲(1)"
       ]
     },
     {
@@ -3179,19 +3130,17 @@
     },
     {
       "source": "克莱恩",
-      "target": "斟酌着",
+      "target": "罗珊",
       "mentions": 70,
-      "firstChapter": 19,
-      "lastChapter": 1273,
+      "firstChapter": 17,
+      "lastChapter": 206,
       "markers": [
-        "同章共现(62)",
-        "利用(2)",
-        "委托(1)",
-        "冲突(1)",
-        "保护(1)",
-        "仇(1)",
-        "帮助(1)",
-        "父亲(1)"
+        "同章共现(57)",
+        "队长(12)",
+        "父亲(1)",
+        "敌人(1)",
+        "喜欢(1)",
+        "委托(1)"
       ]
     },
     {
@@ -3293,17 +3242,6 @@
       ]
     },
     {
-      "source": "开口",
-      "target": "阿尔杰",
-      "mentions": 65,
-      "firstChapter": 5,
-      "lastChapter": 1395,
-      "markers": [
-        "同章共现(63)",
-        "交易(2)"
-      ]
-    },
-    {
       "source": "奥黛丽",
       "target": "贝克兰",
       "mentions": 65,
@@ -3384,18 +3322,14 @@
       ]
     },
     {
-      "source": "佛尔思",
-      "target": "开口",
-      "mentions": 60,
-      "firstChapter": 231,
-      "lastChapter": 1357,
+      "source": "克莱恩",
+      "target": "高背椅",
+      "mentions": 63,
+      "firstChapter": 36,
+      "lastChapter": 1384,
       "markers": [
-        "同章共现(52)",
-        "老师(3)",
-        "喜欢(2)",
-        "委托(1)",
-        "交易(1)",
-        "冲突(1)"
+        "同章共现(62)",
+        "救(1)"
       ]
     },
     {
@@ -3448,22 +3382,6 @@
       ]
     },
     {
-      "source": "奥黛丽",
-      "target": "浅笑",
-      "mentions": 56,
-      "firstChapter": 58,
-      "lastChapter": 1395,
-      "markers": [
-        "同章共现(48)",
-        "喜欢(2)",
-        "父亲(2)",
-        "试探(1)",
-        "救(1)",
-        "委托(1)",
-        "矛盾(1)"
-      ]
-    },
-    {
       "source": "克莱恩",
       "target": "顾一圈",
       "mentions": 56,
@@ -3489,18 +3407,6 @@
         "救(1)",
         "老师(1)",
         "交易(1)"
-      ]
-    },
-    {
-      "source": "主动",
-      "target": "开口",
-      "mentions": 54,
-      "firstChapter": 78,
-      "lastChapter": 1396,
-      "markers": [
-        "同章共现(52)",
-        "利用(2)",
-        "敌人(1)"
       ]
     },
     {
@@ -3573,6 +3479,22 @@
         "围攻(1)",
         "交易(1)",
         "交换(1)"
+      ]
+    },
+    {
+      "source": "克莱恩",
+      "target": "艾德雯",
+      "mentions": 52,
+      "firstChapter": 536,
+      "lastChapter": 933,
+      "markers": [
+        "同章共现(45)",
+        "喜欢(3)",
+        "交换(1)",
+        "保护(1)",
+        "救(1)",
+        "帮助(1)",
+        "导师(1)"
       ]
     },
     {
@@ -3720,19 +3642,6 @@
       "markers": [
         "同章共现(45)",
         "救(1)"
-      ]
-    },
-    {
-      "source": "伦纳德",
-      "target": "开口",
-      "mentions": 46,
-      "firstChapter": 72,
-      "lastChapter": 1394,
-      "markers": [
-        "同章共现(42)",
-        "队长(2)",
-        "仇(1)",
-        "试探(1)"
       ]
     },
     {
@@ -3886,6 +3795,23 @@
       ]
     },
     {
+      "source": "克莱恩",
+      "target": "郑重",
+      "mentions": 39,
+      "firstChapter": 15,
+      "lastChapter": 1215,
+      "markers": [
+        "同章共现(34)",
+        "父亲(1)",
+        "母亲(1)",
+        "女儿(1)",
+        "队长(1)",
+        "交易(1)",
+        "长老(1)",
+        "帮助(1)"
+      ]
+    },
+    {
       "source": "佛尔思",
       "target": "贝克兰",
       "mentions": 39,
@@ -3976,6 +3902,20 @@
       ]
     },
     {
+      "source": "艾德雯",
+      "target": "达尼兹",
+      "mentions": 36,
+      "firstChapter": 500,
+      "lastChapter": 1108,
+      "markers": [
+        "同章共现(31)",
+        "导师(2)",
+        "下属(1)",
+        "利用(1)",
+        "对手(1)"
+      ]
+    },
+    {
       "source": "奥黛丽",
       "target": "霍尔伯",
       "mentions": 34,
@@ -4006,6 +3946,18 @@
       ]
     },
     {
+      "source": "达尼兹",
+      "target": "黄金梦",
+      "mentions": 34,
+      "firstChapter": 500,
+      "lastChapter": 1383,
+      "markers": [
+        "同章共现(32)",
+        "下属(1)",
+        "喜欢(1)"
+      ]
+    },
+    {
       "source": "查拉图",
       "target": "贝克兰",
       "mentions": 34,
@@ -4015,19 +3967,6 @@
         "同章共现(32)",
         "利用(1)",
         "冲突(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "斟酌着",
-      "mentions": 33,
-      "firstChapter": 20,
-      "lastChapter": 1299,
-      "markers": [
-        "同章共现(30)",
-        "交易(1)",
-        "帮助(1)",
-        "喜欢(1)"
       ]
     },
     {
@@ -4156,19 +4095,6 @@
       ]
     },
     {
-      "source": "奥黛丽",
-      "target": "转而",
-      "mentions": 30,
-      "firstChapter": 146,
-      "lastChapter": 1318,
-      "markers": [
-        "同章共现(27)",
-        "委托(2)",
-        "女儿(1)",
-        "雇佣(1)"
-      ]
-    },
-    {
       "source": "贝克兰",
       "target": "齐林格",
       "mentions": 30,
@@ -4179,6 +4105,23 @@
         "帮助(2)",
         "委托(1)",
         "追杀(1)"
+      ]
+    },
+    {
+      "source": "克莱恩",
+      "target": "梅迪奇",
+      "mentions": 30,
+      "firstChapter": 514,
+      "lastChapter": 1391,
+      "markers": [
+        "同章共现(19)",
+        "救(7)",
+        "兄弟(1)",
+        "试探(1)",
+        "同伴(1)",
+        "交易(1)",
+        "利用(1)",
+        "帮助(1)"
       ]
     },
     {
@@ -4199,17 +4142,6 @@
       ]
     },
     {
-      "source": "主动",
-      "target": "奥黛丽",
-      "mentions": 29,
-      "firstChapter": 180,
-      "lastChapter": 1366,
-      "markers": [
-        "同章共现(28)",
-        "救(1)"
-      ]
-    },
-    {
       "source": "伦纳德",
       "target": "夏洛克",
       "mentions": 29,
@@ -4218,43 +4150,6 @@
       "markers": [
         "同章共现(27)",
         "朋友(2)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "邓恩",
-      "mentions": 28,
-      "firstChapter": 12,
-      "lastChapter": 208,
-      "markers": [
-        "同章共现(26)",
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "克莱恩",
-      "target": "克莱恩斟酌着",
-      "mentions": 28,
-      "firstChapter": 33,
-      "lastChapter": 1273,
-      "markers": [
-        "同章共现(24)",
-        "利用(2)",
-        "委托(1)",
-        "仇(1)"
-      ]
-    },
-    {
-      "source": "克莱恩斟酌着",
-      "target": "斟酌着",
-      "mentions": 28,
-      "firstChapter": 33,
-      "lastChapter": 1273,
-      "markers": [
-        "同章共现(24)",
-        "利用(2)",
-        "委托(1)",
-        "仇(1)"
       ]
     },
     {
@@ -4553,16 +4448,6 @@
       ]
     },
     {
-      "source": "开口",
-      "target": "疑惑",
-      "mentions": 24,
-      "firstChapter": 33,
-      "lastChapter": 1275,
-      "markers": [
-        "同章共现(24)"
-      ]
-    },
-    {
       "source": "克莱恩",
       "target": "罗思德",
       "mentions": 24,
@@ -4705,6 +4590,19 @@
       ]
     },
     {
+      "source": "安德森",
+      "target": "艾德雯",
+      "mentions": 23,
+      "firstChapter": 695,
+      "lastChapter": 933,
+      "markers": [
+        "同章共现(20)",
+        "救(1)",
+        "对手(1)",
+        "帮助(1)"
+      ]
+    },
+    {
       "source": "唐泰斯",
       "target": "马赫特",
       "mentions": 23,
@@ -4718,17 +4616,6 @@
     },
     {
       "source": "克莱恩",
-      "target": "连忙",
-      "mentions": 22,
-      "firstChapter": 13,
-      "lastChapter": 1153,
-      "markers": [
-        "同章共现(21)",
-        "利用(1)"
-      ]
-    },
-    {
-      "source": "克莱恩",
       "target": "张椅子",
       "mentions": 22,
       "firstChapter": 20,
@@ -4736,17 +4623,6 @@
       "markers": [
         "同章共现(21)",
         "父亲(1)"
-      ]
-    },
-    {
-      "source": "主动",
-      "target": "阿尔杰",
-      "mentions": 22,
-      "firstChapter": 36,
-      "lastChapter": 1327,
-      "markers": [
-        "同章共现(21)",
-        "冲突(1)"
       ]
     },
     {
@@ -4762,28 +4638,6 @@
         "妻子(1)",
         "喜欢(1)",
         "利用(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "缓慢",
-      "mentions": 21,
-      "firstChapter": 94,
-      "lastChapter": 1396,
-      "markers": [
-        "同章共现(21)"
-      ]
-    },
-    {
-      "source": "主动",
-      "target": "伦纳德",
-      "mentions": 21,
-      "firstChapter": 162,
-      "lastChapter": 1394,
-      "markers": [
-        "同章共现(19)",
-        "喜欢(1)",
-        "保护(1)"
       ]
     },
     {
@@ -4877,6 +4731,28 @@
       ]
     },
     {
+      "source": "脱口",
+      "target": "达尼兹",
+      "mentions": 20,
+      "firstChapter": 504,
+      "lastChapter": 1395,
+      "markers": [
+        "同章共现(20)"
+      ]
+    },
+    {
+      "source": "艾尔兰",
+      "target": "达尼兹",
+      "mentions": 20,
+      "firstChapter": 506,
+      "lastChapter": 587,
+      "markers": [
+        "同章共现(18)",
+        "试探(1)",
+        "朋友(1)"
+      ]
+    },
+    {
       "source": "佛尔思",
       "target": "唐泰斯",
       "mentions": 20,
@@ -4912,19 +4788,6 @@
         "同章共现(16)",
         "队长(2)",
         "帮助(1)"
-      ]
-    },
-    {
-      "source": "伦纳德",
-      "target": "转而",
-      "mentions": 19,
-      "firstChapter": 47,
-      "lastChapter": 1363,
-      "markers": [
-        "同章共现(17)",
-        "队长(1)",
-        "委托(1)",
-        "喜欢(1)"
       ]
     },
     {
@@ -4966,6 +4829,16 @@
         "合作(1)",
         "保护(1)",
         "妹妹(1)"
+      ]
+    },
+    {
+      "source": "伊康瑟",
+      "target": "克莱恩",
+      "mentions": 18,
+      "firstChapter": 417,
+      "lastChapter": 448,
+      "markers": [
+        "同章共现(18)"
       ]
     },
     {
@@ -5057,18 +4930,6 @@
       ]
     },
     {
-      "source": "主动",
-      "target": "佛尔思",
-      "mentions": 17,
-      "firstChapter": 194,
-      "lastChapter": 1357,
-      "markers": [
-        "同章共现(15)",
-        "学生(1)",
-        "老师(1)"
-      ]
-    },
-    {
       "source": "佛尔思",
       "target": "罗塞尔",
       "mentions": 17,
@@ -5081,18 +4942,6 @@
         "女儿(1)",
         "救(1)",
         "背叛(1)"
-      ]
-    },
-    {
-      "source": "佛尔思",
-      "target": "转而",
-      "mentions": 17,
-      "firstChapter": 231,
-      "lastChapter": 1095,
-      "markers": [
-        "同章共现(15)",
-        "喜欢(1)",
-        "老师(1)"
       ]
     },
     {
@@ -5113,14 +4962,15 @@
       ]
     },
     {
-      "source": "奥黛丽",
-      "target": "斟酌着",
-      "mentions": 16,
-      "firstChapter": 6,
-      "lastChapter": 1323,
+      "source": "罗塞尔",
+      "target": "艾德雯",
+      "mentions": 17,
+      "firstChapter": 537,
+      "lastChapter": 721,
       "markers": [
         "同章共现(15)",
-        "朋友(1)"
+        "同伴(1)",
+        "帮助(1)"
       ]
     },
     {
@@ -5132,16 +4982,6 @@
       "markers": [
         "同章共现(15)",
         "保护(1)"
-      ]
-    },
-    {
-      "source": "平静",
-      "target": "开口",
-      "mentions": 16,
-      "firstChapter": 13,
-      "lastChapter": 1126,
-      "markers": [
-        "同章共现(16)"
       ]
     },
     {
@@ -5167,6 +5007,19 @@
         "帮助(2)",
         "队长(2)",
         "合作(1)"
+      ]
+    },
+    {
+      "source": "东拜朗",
+      "target": "克莱恩",
+      "mentions": 16,
+      "firstChapter": 113,
+      "lastChapter": 1086,
+      "markers": [
+        "同章共现(12)",
+        "喜欢(3)",
+        "兄弟(1)",
+        "矛盾(1)"
       ]
     },
     {
@@ -5343,6 +5196,21 @@
       ]
     },
     {
+      "source": "东拜朗",
+      "target": "贝克兰",
+      "mentions": 15,
+      "firstChapter": 286,
+      "lastChapter": 999,
+      "markers": [
+        "同章共现(8)",
+        "母亲(4)",
+        "父亲(3)",
+        "敌人(1)",
+        "盟友(1)",
+        "喜欢(1)"
+      ]
+    },
+    {
       "source": "丰收教",
       "target": "克莱恩",
       "mentions": 15,
@@ -5357,13 +5225,26 @@
       ]
     },
     {
-      "source": "开口",
-      "target": "当即",
-      "mentions": 14,
-      "firstChapter": 7,
-      "lastChapter": 1265,
+      "source": "达尼兹",
+      "target": "阿尔杰",
+      "mentions": 15,
+      "firstChapter": 522,
+      "lastChapter": 1395,
       "markers": [
-        "同章共现(14)"
+        "同章共现(13)",
+        "背叛(1)",
+        "仇(1)"
+      ]
+    },
+    {
+      "source": "罗珊",
+      "target": "邓恩",
+      "mentions": 14,
+      "firstChapter": 20,
+      "lastChapter": 203,
+      "markers": [
+        "同章共现(10)",
+        "队长(4)"
       ]
     },
     {
@@ -5376,16 +5257,6 @@
         "同章共现(11)",
         "仇(2)",
         "盟友(1)"
-      ]
-    },
-    {
-      "source": "斟酌着",
-      "target": "阿尔杰",
-      "mentions": 14,
-      "firstChapter": 93,
-      "lastChapter": 1279,
-      "markers": [
-        "同章共现(14)"
       ]
     },
     {
@@ -5439,30 +5310,6 @@
       ]
     },
     {
-      "source": "主动",
-      "target": "贝克兰",
-      "mentions": 14,
-      "firstChapter": 217,
-      "lastChapter": 1330,
-      "markers": [
-        "同章共现(13)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "安德森",
-      "target": "开口",
-      "mentions": 14,
-      "firstChapter": 652,
-      "lastChapter": 1108,
-      "markers": [
-        "同章共现(13)",
-        "同伴(1)",
-        "朋友(1)",
-        "救(1)"
-      ]
-    },
-    {
       "source": "安德森",
       "target": "旋即",
       "mentions": 14,
@@ -5510,17 +5357,6 @@
       ]
     },
     {
-      "source": "开口",
-      "target": "边开口",
-      "mentions": 13,
-      "firstChapter": 13,
-      "lastChapter": 1350,
-      "markers": [
-        "同章共现(12)",
-        "队长(1)"
-      ]
-    },
-    {
       "source": "伦纳德",
       "target": "罗塞尔",
       "mentions": 13,
@@ -5555,29 +5391,169 @@
         "老师(1)",
         "委托(1)"
       ]
+    },
+    {
+      "source": "关键",
+      "target": "贝克兰",
+      "mentions": 13,
+      "firstChapter": 179,
+      "lastChapter": 1199,
+      "markers": [
+        "同章共现(12)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "佛尔思",
+      "target": "谨慎",
+      "mentions": 13,
+      "firstChapter": 311,
+      "lastChapter": 1227,
+      "markers": [
+        "同章共现(12)",
+        "利用(1)"
+      ]
+    },
+    {
+      "source": "伦纳德",
+      "target": "利用",
+      "mentions": 13,
+      "firstChapter": 610,
+      "lastChapter": 1372,
+      "markers": [
+        "利用(13)",
+        "帮助(1)"
+      ]
+    },
+    {
+      "source": "严肃",
+      "target": "艾弥留",
+      "mentions": 13,
+      "firstChapter": 622,
+      "lastChapter": 998,
+      "markers": [
+        "同章共现(13)"
+      ]
+    },
+    {
+      "source": "查德森",
+      "target": "管家瓦",
+      "mentions": 13,
+      "firstChapter": 749,
+      "lastChapter": 1032,
+      "markers": [
+        "同章共现(11)",
+        "老师(1)",
+        "矛盾(1)",
+        "喜欢(1)"
+      ]
+    },
+    {
+      "source": "费内波",
+      "target": "鲁恩王",
+      "mentions": 12,
+      "firstChapter": 4,
+      "lastChapter": 580,
+      "markers": [
+        "同章共现(9)",
+        "保护(2)",
+        "冲突(1)"
+      ]
+    },
+    {
+      "source": "认真",
+      "target": "阿尔杰",
+      "mentions": 12,
+      "firstChapter": 7,
+      "lastChapter": 1313,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "缓慢",
+      "target": "阿尔杰",
+      "mentions": 12,
+      "firstChapter": 94,
+      "lastChapter": 1186,
+      "markers": [
+        "同章共现(11)",
+        "试探(1)"
+      ]
+    },
+    {
+      "source": "班森",
+      "target": "贝克兰",
+      "mentions": 12,
+      "firstChapter": 152,
+      "lastChapter": 1155,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "佛尔思",
+      "target": "齐林格",
+      "mentions": 12,
+      "firstChapter": 158,
+      "lastChapter": 313,
+      "markers": [
+        "同章共现(11)",
+        "委托(1)"
+      ]
+    },
+    {
+      "source": "佛尔思",
+      "target": "利用",
+      "mentions": 12,
+      "firstChapter": 360,
+      "lastChapter": 1296,
+      "markers": [
+        "利用(12)",
+        "朋友(1)",
+        "仇(1)"
+      ]
+    },
+    {
+      "source": "平静",
+      "target": "贝克兰",
+      "mentions": 12,
+      "firstChapter": 465,
+      "lastChapter": 1098,
+      "markers": [
+        "同章共现(8)",
+        "母亲(1)",
+        "委托(1)",
+        "女儿(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "唐泰斯",
+      "target": "查德森",
+      "mentions": 12,
+      "firstChapter": 749,
+      "lastChapter": 1032,
+      "markers": [
+        "同章共现(11)",
+        "喜欢(1)"
+      ]
+    },
+    {
+      "source": "唐泰斯",
+      "target": "辛德拉",
+      "mentions": 12,
+      "firstChapter": 856,
+      "lastChapter": 976,
+      "markers": [
+        "同章共现(10)",
+        "仇(1)",
+        "交易(1)",
+        "利用(1)"
+      ]
     }
   ],
   "semanticRelations": [
-    {
-      "source": "克莱恩",
-      "target": "开口",
-      "mentions": 385,
-      "firstChapter": 10,
-      "lastChapter": 1387,
-      "markers": [
-        "同章共现(359)",
-        "队长(5)",
-        "朋友(3)",
-        "救(3)",
-        "矛盾(2)",
-        "交易(2)",
-        "敌人(2)",
-        "威胁(2)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "矛盾",
-      "confidence": "中"
-    },
     {
       "source": "伦纳德",
       "target": "克莱恩",
@@ -5676,6 +5652,26 @@
       ],
       "group": "师徒/上下级",
       "relationType": "队长",
+      "confidence": "中"
+    },
+    {
+      "source": "克莱恩",
+      "target": "达尼兹",
+      "mentions": 223,
+      "firstChapter": 500,
+      "lastChapter": 1325,
+      "markers": [
+        "同章共现(213)",
+        "同伴(3)",
+        "朋友(2)",
+        "帮助(1)",
+        "交易(1)",
+        "敌人(1)",
+        "利用(1)",
+        "导师(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "同伴",
       "confidence": "中"
     },
     {
@@ -5835,26 +5831,6 @@
     },
     {
       "source": "克莱恩",
-      "target": "转而",
-      "mentions": 178,
-      "firstChapter": 16,
-      "lastChapter": 1391,
-      "markers": [
-        "同章共现(162)",
-        "委托(2)",
-        "帮助(2)",
-        "朋友(2)",
-        "喜欢(2)",
-        "导师(1)",
-        "队长(1)",
-        "救(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "帮助",
-      "confidence": "中"
-    },
-    {
-      "source": "克莱恩",
       "target": "认真",
       "mentions": 167,
       "firstChapter": 26,
@@ -5875,26 +5851,6 @@
     },
     {
       "source": "克莱恩",
-      "target": "克莱恩笑",
-      "mentions": 163,
-      "firstChapter": 11,
-      "lastChapter": 1389,
-      "markers": [
-        "同章共现(150)",
-        "妹妹(3)",
-        "喜欢(3)",
-        "委托(2)",
-        "朋友(2)",
-        "保护(1)",
-        "队长(1)",
-        "试探(1)"
-      ],
-      "group": "亲属/情感",
-      "relationType": "妹妹",
-      "confidence": "中"
-    },
-    {
-      "source": "克莱恩",
       "target": "左轮",
       "mentions": 150,
       "firstChapter": 2,
@@ -5910,26 +5866,6 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "敌人",
-      "confidence": "中"
-    },
-    {
-      "source": "主动",
-      "target": "克莱恩",
-      "mentions": 148,
-      "firstChapter": 28,
-      "lastChapter": 1385,
-      "markers": [
-        "同章共现(136)",
-        "仇(2)",
-        "委托(2)",
-        "敌人(2)",
-        "交易(2)",
-        "老师(1)",
-        "妹妹(1)",
-        "合作(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "仇",
       "confidence": "中"
     },
     {
@@ -6173,6 +6109,22 @@
       "confidence": "中"
     },
     {
+      "source": "安德森",
+      "target": "达尼兹",
+      "mentions": 109,
+      "firstChapter": 657,
+      "lastChapter": 1268,
+      "markers": [
+        "同章共现(106)",
+        "合作(1)",
+        "雇佣(1)",
+        "队长(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "合作",
+      "confidence": "低"
+    },
+    {
       "source": "克莱恩",
       "target": "自嘲",
       "mentions": 103,
@@ -6230,23 +6182,6 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "敌人",
-      "confidence": "中"
-    },
-    {
-      "source": "奥黛丽",
-      "target": "开口",
-      "mentions": 86,
-      "firstChapter": 5,
-      "lastChapter": 1368,
-      "markers": [
-        "同章共现(81)",
-        "交易(2)",
-        "委托(1)",
-        "试探(1)",
-        "父亲(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "交易",
       "confidence": "中"
     },
     {
@@ -6328,22 +6263,20 @@
     },
     {
       "source": "克莱恩",
-      "target": "斟酌着",
+      "target": "罗珊",
       "mentions": 70,
-      "firstChapter": 19,
-      "lastChapter": 1273,
+      "firstChapter": 17,
+      "lastChapter": 206,
       "markers": [
-        "同章共现(62)",
-        "利用(2)",
-        "委托(1)",
-        "冲突(1)",
-        "保护(1)",
-        "仇(1)",
-        "帮助(1)",
-        "父亲(1)"
+        "同章共现(57)",
+        "队长(12)",
+        "父亲(1)",
+        "敌人(1)",
+        "喜欢(1)",
+        "委托(1)"
       ],
-      "group": "交易/利用",
-      "relationType": "利用",
+      "group": "师徒/上下级",
+      "relationType": "队长",
       "confidence": "中"
     },
     {
@@ -6463,20 +6396,6 @@
       "confidence": "中"
     },
     {
-      "source": "开口",
-      "target": "阿尔杰",
-      "mentions": 65,
-      "firstChapter": 5,
-      "lastChapter": 1395,
-      "markers": [
-        "同章共现(63)",
-        "交易(2)"
-      ],
-      "group": "交易/利用",
-      "relationType": "交易",
-      "confidence": "低"
-    },
-    {
       "source": "奥黛丽",
       "target": "贝克兰",
       "mentions": 65,
@@ -6572,22 +6491,18 @@
       "confidence": "中"
     },
     {
-      "source": "佛尔思",
-      "target": "开口",
-      "mentions": 60,
-      "firstChapter": 231,
-      "lastChapter": 1357,
+      "source": "克莱恩",
+      "target": "高背椅",
+      "mentions": 63,
+      "firstChapter": 36,
+      "lastChapter": 1384,
       "markers": [
-        "同章共现(52)",
-        "老师(3)",
-        "喜欢(2)",
-        "委托(1)",
-        "交易(1)",
-        "冲突(1)"
+        "同章共现(62)",
+        "救(1)"
       ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "中"
+      "group": "同盟/合作",
+      "relationType": "救",
+      "confidence": "低"
     },
     {
       "source": "奥黛丽",
@@ -6648,25 +6563,6 @@
       "confidence": "中"
     },
     {
-      "source": "奥黛丽",
-      "target": "浅笑",
-      "mentions": 56,
-      "firstChapter": 58,
-      "lastChapter": 1395,
-      "markers": [
-        "同章共现(48)",
-        "喜欢(2)",
-        "父亲(2)",
-        "试探(1)",
-        "救(1)",
-        "委托(1)",
-        "矛盾(1)"
-      ],
-      "group": "亲属/情感",
-      "relationType": "喜欢",
-      "confidence": "中"
-    },
-    {
       "source": "克莱恩",
       "target": "顾一圈",
       "mentions": 56,
@@ -6699,21 +6595,6 @@
       "group": "交易/利用",
       "relationType": "试探",
       "confidence": "中"
-    },
-    {
-      "source": "主动",
-      "target": "开口",
-      "mentions": 54,
-      "firstChapter": 78,
-      "lastChapter": 1396,
-      "markers": [
-        "同章共现(52)",
-        "利用(2)",
-        "敌人(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "利用",
-      "confidence": "低"
     },
     {
       "source": "克莱恩",
@@ -6800,6 +6681,25 @@
       ],
       "group": "同盟/合作",
       "relationType": "朋友",
+      "confidence": "中"
+    },
+    {
+      "source": "克莱恩",
+      "target": "艾德雯",
+      "mentions": 52,
+      "firstChapter": 536,
+      "lastChapter": 933,
+      "markers": [
+        "同章共现(45)",
+        "喜欢(3)",
+        "交换(1)",
+        "保护(1)",
+        "救(1)",
+        "帮助(1)",
+        "导师(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "保护",
       "confidence": "中"
     },
     {
@@ -6977,22 +6877,6 @@
       ],
       "group": "同盟/合作",
       "relationType": "救",
-      "confidence": "低"
-    },
-    {
-      "source": "伦纳德",
-      "target": "开口",
-      "mentions": 46,
-      "firstChapter": 72,
-      "lastChapter": 1394,
-      "markers": [
-        "同章共现(42)",
-        "队长(2)",
-        "仇(1)",
-        "试探(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "队长",
       "confidence": "低"
     },
     {
@@ -7179,6 +7063,26 @@
       "confidence": "低"
     },
     {
+      "source": "克莱恩",
+      "target": "郑重",
+      "mentions": 39,
+      "firstChapter": 15,
+      "lastChapter": 1215,
+      "markers": [
+        "同章共现(34)",
+        "父亲(1)",
+        "母亲(1)",
+        "女儿(1)",
+        "队长(1)",
+        "交易(1)",
+        "长老(1)",
+        "帮助(1)"
+      ],
+      "group": "亲属/情感",
+      "relationType": "父亲",
+      "confidence": "中"
+    },
+    {
       "source": "佛尔思",
       "target": "贝克兰",
       "mentions": 39,
@@ -7287,6 +7191,23 @@
       "confidence": "中"
     },
     {
+      "source": "艾德雯",
+      "target": "达尼兹",
+      "mentions": 36,
+      "firstChapter": 500,
+      "lastChapter": 1108,
+      "markers": [
+        "同章共现(31)",
+        "导师(2)",
+        "下属(1)",
+        "利用(1)",
+        "对手(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "导师",
+      "confidence": "中"
+    },
+    {
       "source": "奥黛丽",
       "target": "霍尔伯",
       "mentions": 34,
@@ -7323,6 +7244,21 @@
       "confidence": "低"
     },
     {
+      "source": "达尼兹",
+      "target": "黄金梦",
+      "mentions": 34,
+      "firstChapter": 500,
+      "lastChapter": 1383,
+      "markers": [
+        "同章共现(32)",
+        "下属(1)",
+        "喜欢(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "下属",
+      "confidence": "低"
+    },
+    {
       "source": "查拉图",
       "target": "贝克兰",
       "mentions": 34,
@@ -7335,22 +7271,6 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "冲突",
-      "confidence": "低"
-    },
-    {
-      "source": "开口",
-      "target": "斟酌着",
-      "mentions": 33,
-      "firstChapter": 20,
-      "lastChapter": 1299,
-      "markers": [
-        "同章共现(30)",
-        "交易(1)",
-        "帮助(1)",
-        "喜欢(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "帮助",
       "confidence": "低"
     },
     {
@@ -7506,22 +7426,6 @@
       "confidence": "中"
     },
     {
-      "source": "奥黛丽",
-      "target": "转而",
-      "mentions": 30,
-      "firstChapter": 146,
-      "lastChapter": 1318,
-      "markers": [
-        "同章共现(27)",
-        "委托(2)",
-        "女儿(1)",
-        "雇佣(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "委托",
-      "confidence": "中"
-    },
-    {
       "source": "贝克兰",
       "target": "齐林格",
       "mentions": 30,
@@ -7536,6 +7440,26 @@
       "group": "同盟/合作",
       "relationType": "帮助",
       "confidence": "低"
+    },
+    {
+      "source": "克莱恩",
+      "target": "梅迪奇",
+      "mentions": 30,
+      "firstChapter": 514,
+      "lastChapter": 1391,
+      "markers": [
+        "同章共现(19)",
+        "救(7)",
+        "兄弟(1)",
+        "试探(1)",
+        "同伴(1)",
+        "交易(1)",
+        "利用(1)",
+        "帮助(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "救",
+      "confidence": "中"
     },
     {
       "source": "克莱恩",
@@ -7558,20 +7482,6 @@
       "confidence": "中"
     },
     {
-      "source": "主动",
-      "target": "奥黛丽",
-      "mentions": 29,
-      "firstChapter": 180,
-      "lastChapter": 1366,
-      "markers": [
-        "同章共现(28)",
-        "救(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
-      "confidence": "低"
-    },
-    {
       "source": "伦纳德",
       "target": "夏洛克",
       "mentions": 29,
@@ -7584,52 +7494,6 @@
       "group": "同盟/合作",
       "relationType": "朋友",
       "confidence": "低"
-    },
-    {
-      "source": "开口",
-      "target": "邓恩",
-      "mentions": 28,
-      "firstChapter": 12,
-      "lastChapter": 208,
-      "markers": [
-        "同章共现(26)",
-        "队长(2)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "队长",
-      "confidence": "低"
-    },
-    {
-      "source": "克莱恩",
-      "target": "克莱恩斟酌着",
-      "mentions": 28,
-      "firstChapter": 33,
-      "lastChapter": 1273,
-      "markers": [
-        "同章共现(24)",
-        "利用(2)",
-        "委托(1)",
-        "仇(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "利用",
-      "confidence": "中"
-    },
-    {
-      "source": "克莱恩斟酌着",
-      "target": "斟酌着",
-      "mentions": 28,
-      "firstChapter": 33,
-      "lastChapter": 1273,
-      "markers": [
-        "同章共现(24)",
-        "利用(2)",
-        "委托(1)",
-        "仇(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "利用",
-      "confidence": "中"
     },
     {
       "source": "克莱恩",
@@ -7996,19 +7860,6 @@
       "confidence": "低"
     },
     {
-      "source": "开口",
-      "target": "疑惑",
-      "mentions": 24,
-      "firstChapter": 33,
-      "lastChapter": 1275,
-      "markers": [
-        "同章共现(24)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "克莱恩",
       "target": "罗思德",
       "mentions": 24,
@@ -8184,6 +8035,22 @@
       "confidence": "中"
     },
     {
+      "source": "安德森",
+      "target": "艾德雯",
+      "mentions": 23,
+      "firstChapter": 695,
+      "lastChapter": 933,
+      "markers": [
+        "同章共现(20)",
+        "救(1)",
+        "对手(1)",
+        "帮助(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "救",
+      "confidence": "低"
+    },
+    {
       "source": "唐泰斯",
       "target": "马赫特",
       "mentions": 23,
@@ -8200,20 +8067,6 @@
     },
     {
       "source": "克莱恩",
-      "target": "连忙",
-      "mentions": 22,
-      "firstChapter": 13,
-      "lastChapter": 1153,
-      "markers": [
-        "同章共现(21)",
-        "利用(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "利用",
-      "confidence": "低"
-    },
-    {
-      "source": "克莱恩",
       "target": "张椅子",
       "mentions": 22,
       "firstChapter": 20,
@@ -8224,20 +8077,6 @@
       ],
       "group": "亲属/情感",
       "relationType": "父亲",
-      "confidence": "低"
-    },
-    {
-      "source": "主动",
-      "target": "阿尔杰",
-      "mentions": 22,
-      "firstChapter": 36,
-      "lastChapter": 1327,
-      "markers": [
-        "同章共现(21)",
-        "冲突(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "冲突",
       "confidence": "低"
     },
     {
@@ -8256,34 +8095,6 @@
       ],
       "group": "同盟/合作",
       "relationType": "帮助",
-      "confidence": "低"
-    },
-    {
-      "source": "开口",
-      "target": "缓慢",
-      "mentions": 21,
-      "firstChapter": 94,
-      "lastChapter": 1396,
-      "markers": [
-        "同章共现(21)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "主动",
-      "target": "伦纳德",
-      "mentions": 21,
-      "firstChapter": 162,
-      "lastChapter": 1394,
-      "markers": [
-        "同章共现(19)",
-        "喜欢(1)",
-        "保护(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "保护",
       "confidence": "低"
     },
     {
@@ -8401,6 +8212,34 @@
       "confidence": "低"
     },
     {
+      "source": "脱口",
+      "target": "达尼兹",
+      "mentions": 20,
+      "firstChapter": 504,
+      "lastChapter": 1395,
+      "markers": [
+        "同章共现(20)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "艾尔兰",
+      "target": "达尼兹",
+      "mentions": 20,
+      "firstChapter": 506,
+      "lastChapter": 587,
+      "markers": [
+        "同章共现(18)",
+        "试探(1)",
+        "朋友(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "朋友",
+      "confidence": "低"
+    },
+    {
       "source": "佛尔思",
       "target": "唐泰斯",
       "mentions": 20,
@@ -8442,22 +8281,6 @@
         "同章共现(16)",
         "队长(2)",
         "帮助(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "队长",
-      "confidence": "低"
-    },
-    {
-      "source": "伦纳德",
-      "target": "转而",
-      "mentions": 19,
-      "firstChapter": 47,
-      "lastChapter": 1363,
-      "markers": [
-        "同章共现(17)",
-        "队长(1)",
-        "委托(1)",
-        "喜欢(1)"
       ],
       "group": "师徒/上下级",
       "relationType": "队长",
@@ -8512,6 +8335,19 @@
       "group": "同盟/合作",
       "relationType": "帮助",
       "confidence": "中"
+    },
+    {
+      "source": "伊康瑟",
+      "target": "克莱恩",
+      "mentions": 18,
+      "firstChapter": 417,
+      "lastChapter": 448,
+      "markers": [
+        "同章共现(18)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
     },
     {
       "source": "克莱恩",
@@ -8623,21 +8459,6 @@
       "confidence": "低"
     },
     {
-      "source": "主动",
-      "target": "佛尔思",
-      "mentions": 17,
-      "firstChapter": 194,
-      "lastChapter": 1357,
-      "markers": [
-        "同章共现(15)",
-        "学生(1)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
-      "confidence": "低"
-    },
-    {
       "source": "佛尔思",
       "target": "罗塞尔",
       "mentions": 17,
@@ -8654,21 +8475,6 @@
       "group": "师徒/上下级",
       "relationType": "老师",
       "confidence": "中"
-    },
-    {
-      "source": "佛尔思",
-      "target": "转而",
-      "mentions": 17,
-      "firstChapter": 231,
-      "lastChapter": 1095,
-      "markers": [
-        "同章共现(15)",
-        "喜欢(1)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "低"
     },
     {
       "source": "丰收教",
@@ -8691,17 +8497,18 @@
       "confidence": "中"
     },
     {
-      "source": "奥黛丽",
-      "target": "斟酌着",
-      "mentions": 16,
-      "firstChapter": 6,
-      "lastChapter": 1323,
+      "source": "罗塞尔",
+      "target": "艾德雯",
+      "mentions": 17,
+      "firstChapter": 537,
+      "lastChapter": 721,
       "markers": [
         "同章共现(15)",
-        "朋友(1)"
+        "同伴(1)",
+        "帮助(1)"
       ],
       "group": "同盟/合作",
-      "relationType": "朋友",
+      "relationType": "同伴",
       "confidence": "低"
     },
     {
@@ -8716,19 +8523,6 @@
       ],
       "group": "同盟/合作",
       "relationType": "保护",
-      "confidence": "低"
-    },
-    {
-      "source": "平静",
-      "target": "开口",
-      "mentions": 16,
-      "firstChapter": 13,
-      "lastChapter": 1126,
-      "markers": [
-        "同章共现(16)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
       "confidence": "低"
     },
     {
@@ -8760,6 +8554,22 @@
       ],
       "group": "同盟/合作",
       "relationType": "帮助",
+      "confidence": "中"
+    },
+    {
+      "source": "东拜朗",
+      "target": "克莱恩",
+      "mentions": 16,
+      "firstChapter": 113,
+      "lastChapter": 1086,
+      "markers": [
+        "同章共现(12)",
+        "喜欢(3)",
+        "兄弟(1)",
+        "矛盾(1)"
+      ],
+      "group": "亲属/情感",
+      "relationType": "喜欢",
       "confidence": "中"
     },
     {
@@ -8981,6 +8791,24 @@
       "confidence": "低"
     },
     {
+      "source": "东拜朗",
+      "target": "贝克兰",
+      "mentions": 15,
+      "firstChapter": 286,
+      "lastChapter": 999,
+      "markers": [
+        "同章共现(8)",
+        "母亲(4)",
+        "父亲(3)",
+        "敌人(1)",
+        "盟友(1)",
+        "喜欢(1)"
+      ],
+      "group": "亲属/情感",
+      "relationType": "母亲",
+      "confidence": "中"
+    },
+    {
       "source": "丰收教",
       "target": "克莱恩",
       "mentions": 15,
@@ -8998,17 +8826,33 @@
       "confidence": "中"
     },
     {
-      "source": "开口",
-      "target": "当即",
-      "mentions": 14,
-      "firstChapter": 7,
-      "lastChapter": 1265,
+      "source": "达尼兹",
+      "target": "阿尔杰",
+      "mentions": 15,
+      "firstChapter": 522,
+      "lastChapter": 1395,
       "markers": [
-        "同章共现(14)"
+        "同章共现(13)",
+        "背叛(1)",
+        "仇(1)"
       ],
-      "group": "普通共现",
-      "relationType": "普通共现",
+      "group": "敌对/矛盾",
+      "relationType": "背叛",
       "confidence": "低"
+    },
+    {
+      "source": "罗珊",
+      "target": "邓恩",
+      "mentions": 14,
+      "firstChapter": 20,
+      "lastChapter": 203,
+      "markers": [
+        "同章共现(10)",
+        "队长(4)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "队长",
+      "confidence": "中"
     },
     {
       "source": "罗思德",
@@ -9023,19 +8867,6 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "仇",
-      "confidence": "低"
-    },
-    {
-      "source": "斟酌着",
-      "target": "阿尔杰",
-      "mentions": 14,
-      "firstChapter": 93,
-      "lastChapter": 1279,
-      "markers": [
-        "同章共现(14)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
       "confidence": "低"
     },
     {
@@ -9101,36 +8932,6 @@
       "confidence": "低"
     },
     {
-      "source": "主动",
-      "target": "贝克兰",
-      "mentions": 14,
-      "firstChapter": 217,
-      "lastChapter": 1330,
-      "markers": [
-        "同章共现(13)",
-        "妻子(1)"
-      ],
-      "group": "亲属/情感",
-      "relationType": "妻子",
-      "confidence": "低"
-    },
-    {
-      "source": "安德森",
-      "target": "开口",
-      "mentions": 14,
-      "firstChapter": 652,
-      "lastChapter": 1108,
-      "markers": [
-        "同章共现(13)",
-        "同伴(1)",
-        "朋友(1)",
-        "救(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "同伴",
-      "confidence": "中"
-    },
-    {
       "source": "安德森",
       "target": "旋即",
       "mentions": 14,
@@ -9190,20 +8991,6 @@
       "confidence": "低"
     },
     {
-      "source": "开口",
-      "target": "边开口",
-      "mentions": 13,
-      "firstChapter": 13,
-      "lastChapter": 1350,
-      "markers": [
-        "同章共现(12)",
-        "队长(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "队长",
-      "confidence": "低"
-    },
-    {
       "source": "伦纳德",
       "target": "罗塞尔",
       "mentions": 13,
@@ -9246,6 +9033,208 @@
       ],
       "group": "师徒/上下级",
       "relationType": "老师",
+      "confidence": "低"
+    },
+    {
+      "source": "关键",
+      "target": "贝克兰",
+      "mentions": 13,
+      "firstChapter": 179,
+      "lastChapter": 1199,
+      "markers": [
+        "同章共现(12)",
+        "兄弟(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "兄弟",
+      "confidence": "低"
+    },
+    {
+      "source": "佛尔思",
+      "target": "谨慎",
+      "mentions": 13,
+      "firstChapter": 311,
+      "lastChapter": 1227,
+      "markers": [
+        "同章共现(12)",
+        "利用(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "利用",
+      "confidence": "低"
+    },
+    {
+      "source": "伦纳德",
+      "target": "利用",
+      "mentions": 13,
+      "firstChapter": 610,
+      "lastChapter": 1372,
+      "markers": [
+        "利用(13)",
+        "帮助(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "利用",
+      "confidence": "中"
+    },
+    {
+      "source": "严肃",
+      "target": "艾弥留",
+      "mentions": 13,
+      "firstChapter": 622,
+      "lastChapter": 998,
+      "markers": [
+        "同章共现(13)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "查德森",
+      "target": "管家瓦",
+      "mentions": 13,
+      "firstChapter": 749,
+      "lastChapter": 1032,
+      "markers": [
+        "同章共现(11)",
+        "老师(1)",
+        "矛盾(1)",
+        "喜欢(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "矛盾",
+      "confidence": "低"
+    },
+    {
+      "source": "费内波",
+      "target": "鲁恩王",
+      "mentions": 12,
+      "firstChapter": 4,
+      "lastChapter": 580,
+      "markers": [
+        "同章共现(9)",
+        "保护(2)",
+        "冲突(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "保护",
+      "confidence": "低"
+    },
+    {
+      "source": "认真",
+      "target": "阿尔杰",
+      "mentions": 12,
+      "firstChapter": 7,
+      "lastChapter": 1313,
+      "markers": [
+        "同章共现(12)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "缓慢",
+      "target": "阿尔杰",
+      "mentions": 12,
+      "firstChapter": 94,
+      "lastChapter": 1186,
+      "markers": [
+        "同章共现(11)",
+        "试探(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "试探",
+      "confidence": "低"
+    },
+    {
+      "source": "班森",
+      "target": "贝克兰",
+      "mentions": 12,
+      "firstChapter": 152,
+      "lastChapter": 1155,
+      "markers": [
+        "同章共现(12)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "佛尔思",
+      "target": "齐林格",
+      "mentions": 12,
+      "firstChapter": 158,
+      "lastChapter": 313,
+      "markers": [
+        "同章共现(11)",
+        "委托(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "委托",
+      "confidence": "低"
+    },
+    {
+      "source": "佛尔思",
+      "target": "利用",
+      "mentions": 12,
+      "firstChapter": 360,
+      "lastChapter": 1296,
+      "markers": [
+        "利用(12)",
+        "朋友(1)",
+        "仇(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "利用",
+      "confidence": "中"
+    },
+    {
+      "source": "平静",
+      "target": "贝克兰",
+      "mentions": 12,
+      "firstChapter": 465,
+      "lastChapter": 1098,
+      "markers": [
+        "同章共现(8)",
+        "母亲(1)",
+        "委托(1)",
+        "女儿(1)",
+        "保护(1)"
+      ],
+      "group": "亲属/情感",
+      "relationType": "母亲",
+      "confidence": "低"
+    },
+    {
+      "source": "唐泰斯",
+      "target": "查德森",
+      "mentions": 12,
+      "firstChapter": 749,
+      "lastChapter": 1032,
+      "markers": [
+        "同章共现(11)",
+        "喜欢(1)"
+      ],
+      "group": "亲属/情感",
+      "relationType": "喜欢",
+      "confidence": "低"
+    },
+    {
+      "source": "唐泰斯",
+      "target": "辛德拉",
+      "mentions": 12,
+      "firstChapter": 856,
+      "lastChapter": 976,
+      "markers": [
+        "同章共现(10)",
+        "仇(1)",
+        "交易(1)",
+        "利用(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "交易",
       "confidence": "低"
     }
   ],
@@ -13068,14 +13057,12 @@
         "常态",
         "韦尔奇",
         "邓恩",
-        "连忙追",
         "史密斯",
         "邓恩半",
         "戴莉",
         "霍伊大",
         "罗珊",
-        "罗塞尔",
-        "转而"
+        "罗塞尔"
       ],
       "organizations": [
         "我不会",
@@ -13108,13 +13095,11 @@
         "史密斯",
         "戴莉",
         "克莱恩",
-        "转而",
         "梅丽莎",
         "韦尔奇",
         "文明人",
         "霍伊大",
         "容易出",
-        "斟酌着",
         "莫雷蒂",
         "查尼斯",
         "步一步",
@@ -13122,7 +13107,6 @@
         "郑重回",
         "边戴边",
         "老尼尔",
-        "老尼尔笑笑",
         "松地回",
         "简短回",
         "沉吟着",
@@ -13164,10 +13148,10 @@
       "range": "第 41-60 章",
       "characters": [
         "邓恩",
+        "老尼尔",
         "韦尔奇",
         "史密斯",
         "克莱恩",
-        "老尼尔",
         "罗塞尔",
         "罗珊",
         "左轮手",
@@ -13176,23 +13160,23 @@
         "文明人",
         "左轮",
         "艾略特",
-        "转而",
+        "旁边的老尼尔",
+        "车夫",
         "安提哥",
         "霍伊大",
         "班森",
-        "斟酌着",
         "当即",
-        "轻笑",
         "鲁恩王",
         "沉吟着",
         "好奇",
         "莫雷蒂",
         "梅丽莎",
         "摊手",
-        "好笑",
         "水仙花",
-        "老尼尔笑",
-        "戴莉"
+        "戴莉",
+        "安洁莉",
+        "谨慎",
+        "安娜"
       ],
       "organizations": [
         "黑荆棘安保公司",
@@ -13237,35 +13221,35 @@
       "range": "第 61-80 章",
       "characters": [
         "克莱恩",
-        "转而",
         "罗塞尔",
         "安提哥",
-        "斟酌着",
         "金毛大",
         "末了",
         "梅丽莎",
-        "好奇",
         "班森",
+        "好奇",
         "莫雷蒂",
         "安洁莉",
         "乔伊斯",
+        "安娜",
         "试探着",
         "当即",
         "诚恳",
+        "好一会儿才",
         "尤尼斯",
         "邓恩",
         "老尼尔",
         "史密斯",
         "罗珊",
-        "轻笑",
         "应非凡",
         "查尼斯",
         "应魔药",
         "确认般",
         "应序列",
         "符合",
-        "好笑",
-        "水仙花"
+        "水仙花",
+        "疑惑",
+        "旁边的老尼尔"
       ],
       "organizations": [
         "安提哥努斯家族",
@@ -13317,16 +13301,14 @@
       "characters": [
         "梅丽莎",
         "邓恩",
-        "转而",
         "克莱恩",
         "老尼尔",
-        "乔伊斯",
         "班森",
+        "乔伊斯",
         "好奇",
         "霍伊大",
-        "克莱恩笑",
         "莫雷蒂",
-        "老尼尔笑",
+        "安娜",
         "符合",
         "鲁恩人",
         "疑惑",
@@ -13343,8 +13325,10 @@
         "摊手",
         "末了",
         "安慰剂",
-        "斟酌着",
-        "当即"
+        "当即",
+        "左轮",
+        "乔治三",
+        "黄铜色"
       ],
       "organizations": [
         "我也会",
@@ -13404,8 +13388,8 @@
       "range": "第 101-120 章",
       "characters": [
         "邓恩",
-        "安提哥",
         "克莱恩",
+        "安提哥",
         "老尼尔",
         "史密斯",
         "好奇",
@@ -13414,7 +13398,6 @@
         "莫雷蒂",
         "当即",
         "诚恳",
-        "开口",
         "燕尾服",
         "符合",
         "旋即",
@@ -13432,7 +13415,8 @@
         "左轮手",
         "边思索边",
         "充满疑",
-        "罗塞尔"
+        "罗塞尔",
+        "高序列"
       ],
       "organizations": [
         "黑荆棘安保公司",
@@ -13495,30 +13479,30 @@
         "罗塞尔",
         "好奇",
         "封印物",
-        "斟酌着",
         "罗珊",
+        "伦纳德",
         "疑惑",
-        "开口",
         "克莱恩疑惑",
         "劳维斯",
-        "伦纳德",
-        "伦纳德笑",
         "露出",
         "沉声回",
         "怀表",
-        "轻笑",
         "邓恩",
         "鲁恩王",
         "史密斯",
         "查尼斯",
         "贝克兰",
         "当即",
+        "左轮",
+        "车夫",
+        "安娜",
         "脱口",
         "旋即",
-        "左轮",
         "水仙花",
         "谨慎",
-        "乔伊斯"
+        "乔伊斯",
+        "米切尔",
+        "黄水晶"
       ],
       "organizations": [
         "会不会",
@@ -13584,30 +13568,30 @@
         "自嘲",
         "白银之",
         "邓恩",
-        "克莱恩笑",
         "霍纳奇",
         "查尼斯",
         "燕尾服",
+        "左轮",
         "左轮手",
         "莫雷蒂",
-        "左轮",
-        "主动",
         "水仙花",
         "旋即",
-        "好笑",
         "怀表",
-        "转而",
         "安提哥",
-        "开口",
-        "斟酌着",
         "疑惑",
         "戴莉",
+        "好一会儿才",
         "步一步",
         "关键",
-        "好一会儿才",
         "古老组",
         "胡德",
-        "梅丽莎"
+        "梅丽莎",
+        "韦尔奇",
+        "老尼尔",
+        "黄水晶",
+        "罗塞尔",
+        "伦纳德",
+        "伊丽莎"
       ],
       "organizations": [
         "永恒烈阳教会",
@@ -13678,20 +13662,16 @@
         "克莱恩",
         "史密斯",
         "封印物",
+        "伦纳德",
         "艾尔",
         "好奇",
-        "开口",
         "查尼斯",
-        "燕尾服",
         "当即",
-        "伦纳德",
-        "主动",
-        "轻笑",
+        "燕尾服",
         "诚恳",
-        "伦纳德笑",
+        "车夫",
         "露出",
         "旋即",
-        "好笑",
         "恍然",
         "侧头",
         "谨慎",
@@ -13702,8 +13682,12 @@
         "方毫无",
         "怀表",
         "末了",
-        "连忙",
-        "克莱恩脱口"
+        "克莱恩脱口",
+        "梅丽莎",
+        "班森",
+        "老尼尔",
+        "罗珊",
+        "克莱恩诧异"
       ],
       "organizations": [
         "查尼斯门",
@@ -13768,15 +13752,13 @@
       "chunk": 10,
       "range": "第 181-200 章",
       "characters": [
-        "转而",
         "克莱恩",
         "疑惑",
-        "开口",
         "好奇",
         "白银城",
         "白银之",
         "齐林格",
-        "轻笑",
+        "阿尔杰",
         "诧异",
         "高背椅",
         "奥黛丽疑惑",
@@ -13796,8 +13778,10 @@
         "邓恩",
         "班森",
         "罗塞尔",
-        "克莱恩笑",
-        "戴莉女"
+        "戴莉女",
+        "简单来",
+        "戴莉",
+        "查尼斯"
       ],
       "organizations": [
         "极光会",
@@ -13870,13 +13854,11 @@
         "封印物",
         "史密斯",
         "疑惑",
-        "开口",
         "胡德",
         "戴莉",
         "应序列",
         "梅纳德",
         "步一步",
-        "主动",
         "水仙花",
         "恍然",
         "旋即",
@@ -13884,15 +13866,17 @@
         "古老组",
         "戴莉女",
         "查尼斯",
+        "左轮",
         "红之月",
         "左轮手",
-        "左轮",
         "露出",
         "侧头",
         "严重",
         "顾一圈",
         "梅丽莎",
-        "黄水晶"
+        "班森",
+        "黄水晶",
+        "齐林格"
       ],
       "organizations": [
         "心理炼金会",
@@ -13967,23 +13951,21 @@
         "克莱恩",
         "齐林格",
         "贝克兰",
-        "开口",
-        "步一步",
         "当即",
-        "轻笑",
+        "阿尔杰",
+        "步一步",
         "高背椅",
         "露出",
         "习惯",
         "侧头",
         "古赫密",
         "金钱",
-        "阿尔杰",
         "罗塞尔",
         "金毛大",
         "旋即",
         "叹息",
         "黄铜色",
-        "克莱恩笑",
+        "佛尔思",
         "坦然回",
         "边想边",
         "压低嗓音",
@@ -13991,9 +13973,11 @@
         "夏洛克",
         "鲁恩王",
         "黄水晶",
-        "斟酌着",
         "诚恳",
-        "自嘲"
+        "自嘲",
+        "左边牙",
+        "严重",
+        "敏锐"
       ],
       "organizations": [
         "密修会",
@@ -14064,24 +14048,19 @@
       "chunk": 13,
       "range": "第 241-260 章",
       "characters": [
-        "转而",
         "克莱恩",
         "鲁恩王",
         "贝克兰",
-        "斟酌着",
-        "开口",
         "诚恳",
         "脱口",
         "露出",
         "谨慎",
         "王国",
-        "克莱恩斟酌着",
         "郑重",
         "疑惑",
-        "克莱恩疑惑",
         "当即",
+        "克莱恩疑惑",
         "自嘲",
-        "主动",
         "压低嗓音",
         "愕然",
         "旋即",
@@ -14090,10 +14069,15 @@
         "好奇",
         "红茶",
         "鲁恩人",
-        "轻笑",
         "诧异",
         "伊恩",
-        "相当正"
+        "相当正",
+        "佛尔思",
+        "金钱",
+        "毫不犹豫地回",
+        "黄水晶",
+        "车夫",
+        "卢克"
       ],
       "organizations": [
         "极光会",
@@ -14167,13 +14151,10 @@
       "range": "第 261-280 章",
       "characters": [
         "邓恩",
-        "转而",
-        "安提哥",
         "克莱恩",
-        "开口",
+        "安提哥",
         "史密斯",
         "疑惑",
-        "主动",
         "查拉图",
         "克莱恩愕然",
         "符合",
@@ -14190,12 +14171,15 @@
         "鲁恩王",
         "贝克兰",
         "齐林格",
-        "斟酌着",
         "高背椅",
         "费内波",
         "习惯",
         "侧头",
-        "王国"
+        "王国",
+        "严重",
+        "当即回",
+        "米勒",
+        "梅丽莎"
       ],
       "organizations": [
         "安提哥努斯家族",
@@ -14274,7 +14258,6 @@
         "疑惑",
         "罗萨戈",
         "左轮",
-        "主动",
         "当即",
         "脱口",
         "严肃",
@@ -14287,11 +14270,12 @@
         "旋即",
         "侧头",
         "严重",
+        "沙哑",
         "梅丽莎",
         "班森",
         "红之月",
-        "转而",
-        "开口",
+        "佛尔思",
+        "同时",
         "好奇",
         "诚恳",
         "习惯",
@@ -14361,18 +14345,16 @@
       "chunk": 16,
       "range": "第 301-320 章",
       "characters": [
-        "转而",
         "克莱恩",
         "封印物",
-        "克莱恩笑",
         "顾一圈",
         "松地回",
+        "好一会儿才",
         "方肯定",
         "恍然",
         "愕然",
         "露出",
         "怀表",
-        "好一会儿才",
         "夏洛克",
         "沉声回",
         "脱口",
@@ -14384,13 +14366,15 @@
         "黄铜色",
         "方地低",
         "傻傻",
+        "同时",
         "嘶哑着",
         "贝克兰",
-        "开口",
         "疑惑",
         "克莱恩疑惑",
         "当即",
-        "王国"
+        "王国",
+        "东区",
+        "师回答"
       ],
       "organizations": [
         "好一会",
@@ -14464,8 +14448,8 @@
       "chunk": 17,
       "range": "第 321-340 章",
       "characters": [
-        "罗塞尔",
         "克莱恩",
+        "罗塞尔",
         "高序列",
         "贝克兰",
         "封印物",
@@ -14479,21 +14463,21 @@
         "怀表",
         "许久",
         "容易",
-        "开口",
-        "轻笑",
+        "同时",
         "露出",
         "武器",
         "侧头",
         "疑惑",
         "当即",
+        "车夫",
         "自嘲",
         "边感叹",
-        "车夫",
         "缓缓",
         "房屋内",
         "好奇",
         "符合",
-        "鲁恩语"
+        "鲁恩语",
+        "习惯"
       ],
       "organizations": [
         "会不会",
@@ -14563,17 +14547,14 @@
       "chunk": 18,
       "range": "第 341-360 章",
       "characters": [
-        "罗塞尔",
         "克莱恩",
+        "罗塞尔",
         "贝克兰",
         "高序列",
-        "克莱恩笑",
-        "开口",
         "好奇",
+        "左轮",
         "红之月",
         "左轮手",
-        "左轮",
-        "主动",
         "连环杀",
         "严肃",
         "费内波",
@@ -14584,15 +14565,18 @@
         "侧头",
         "安全航",
         "严重",
+        "佛尔思",
         "颔首",
         "毫不犹豫就",
         "克莱恩顿时",
         "安全",
+        "同时",
         "鲁恩",
         "东拜朗",
-        "转而",
         "白银城",
-        "疑惑"
+        "疑惑",
+        "阿尔杰",
+        "顾一圈"
       ],
       "organizations": [
         "塔罗会",
@@ -14650,21 +14634,22 @@
       "chunk": 19,
       "range": "第 361-380 章",
       "characters": [
-        "罗塞尔",
         "克莱恩",
+        "罗塞尔",
         "贝克兰",
-        "开口",
         "疑惑",
         "顾一圈",
+        "阿尔杰",
         "诚恳",
         "费内波",
         "谨慎",
         "王国",
-        "阿尔杰",
         "容易",
+        "佛尔思",
         "毫不犹豫就",
         "金钱",
         "抢先",
+        "同时",
         "戴里克",
         "巴伦",
         "高序列",
@@ -14678,8 +14663,7 @@
         "边叹息",
         "颔首",
         "茫然",
-        "安排",
-        "思索着"
+        "安排"
       ],
       "organizations": [
         "我不会",
@@ -14750,10 +14734,9 @@
         "克莱恩",
         "贝克兰",
         "高序列",
-        "开口",
         "疑惑",
-        "试探着",
         "当即",
+        "试探着",
         "关键",
         "严肃",
         "符合",
@@ -14764,10 +14747,9 @@
         "颔首",
         "毫不犹豫就",
         "红色",
-        "转而",
+        "同时",
         "黄水晶",
         "顾一圈",
-        "主动",
         "自嘲",
         "燕尾服",
         "费内波",
@@ -14776,7 +14758,9 @@
         "面具男",
         "侧头",
         "当即回",
-        "金钱"
+        "金钱",
+        "安全",
+        "乔伍德"
       ],
       "organizations": [
         "的大门",
@@ -14848,12 +14832,11 @@
       "chunk": 21,
       "range": "第 401-420 章",
       "characters": [
-        "白银城",
         "克莱恩",
+        "白银城",
         "高序列",
-        "开口",
-        "艾芙洛",
         "当即",
+        "艾芙洛",
         "露出",
         "戴里克",
         "侧头",
@@ -14862,22 +14845,23 @@
         "颔首",
         "安排",
         "牧羊人",
+        "同时",
         "解除",
         "杜姆果",
         "贝克兰",
         "白银之",
-        "费内波",
         "东区",
+        "费内波",
         "平静",
         "金钱",
         "曾经",
         "乔伍德",
         "鲁恩",
         "林沉默",
-        "斟酌着",
         "艾伦医",
         "夏洛克",
-        "疑惑"
+        "疑惑",
+        "伦纳德"
       ],
       "organizations": [
         "必然会",
@@ -14946,22 +14930,18 @@
       "chunk": 22,
       "range": "第 421-440 章",
       "characters": [
-        "艾辛格",
         "克莱恩",
+        "艾辛格",
         "贝克兰",
         "封印物",
-        "斟酌着",
         "夏洛克",
         "好奇",
         "疑惑",
         "顾一圈",
         "伊康瑟",
-        "连忙追",
         "旋即",
         "符合",
         "露出",
-        "连忙",
-        "克莱恩斟酌着",
         "郑重",
         "恍然",
         "叹息",
@@ -14973,9 +14953,13 @@
         "仿佛在思考般",
         "房屋内",
         "郑重问",
+        "同时",
         "曾经",
         "埃姆林",
-        "时回答"
+        "时回答",
+        "乌特拉",
+        "伦纳德",
+        "脱口"
       ],
       "organizations": [
         "肯定会",
@@ -15042,9 +15026,8 @@
       "chunk": 23,
       "range": "第 441-460 章",
       "characters": [
-        "转而",
-        "罗塞尔",
         "克莱恩",
+        "罗塞尔",
         "白银城",
         "安提哥",
         "鲁恩王",
@@ -15056,22 +15039,23 @@
         "查拉图",
         "奥黛丽",
         "恍然",
-        "轻笑",
+        "佛尔思",
         "王室",
         "戴里克",
         "幸运",
         "古籍",
-        "佛尔思",
         "索伦家",
         "方式",
+        "同时",
         "鲁恩",
         "解救",
         "高高",
         "索斯特",
         "贝利亚",
-        "开口",
         "疑惑",
-        "顾一圈"
+        "顾一圈",
+        "脱口",
+        "当即"
       ],
       "organizations": [
         "黄昏隐士会",
@@ -15145,36 +15129,36 @@
       "chunk": 24,
       "range": "第 461-480 章",
       "characters": [
-        "转而",
-        "白银城",
         "克莱恩",
+        "白银城",
         "贝克兰",
         "黄水晶",
         "鲁恩王",
-        "斟酌着",
         "封印物",
-        "开口",
         "诚恳",
-        "主动",
-        "犹豫着",
         "当即",
+        "阿尔杰",
+        "犹豫着",
         "郑重",
         "关键",
         "奥黛丽",
+        "王子",
         "末了",
         "苏尼亚",
         "王国",
+        "佛尔思",
         "平静",
         "愕然",
-        "阿尔杰",
         "容易",
         "戴里克",
-        "王子",
-        "佛尔思",
         "颔首",
         "坦然",
-        "当即开口",
-        "红色"
+        "红色",
+        "安排",
+        "方式",
+        "曾经",
+        "鲁恩",
+        "王子殿"
       ],
       "organizations": [
         "极光会",
@@ -15246,35 +15230,35 @@
       "range": "第 481-500 章",
       "characters": [
         "梅丽莎",
-        "转而",
+        "克莱恩",
         "罗塞尔",
         "艾辛格",
-        "克莱恩",
         "贝克兰",
         "高序列",
-        "斟酌着",
         "封印物",
-        "夏洛克",
-        "开口",
         "班森",
+        "夏洛克",
         "好奇",
         "疑惑",
         "红茶",
-        "主动",
-        "郑重",
         "旋即",
-        "东区",
         "当即",
-        "连忙",
+        "郑重",
+        "东区",
         "边走边",
         "坦然回",
-        "克莱恩斟酌着",
         "关键",
         "克莱恩追",
         "莫雷蒂",
         "诧异",
         "阿兹克",
-        "连忙说"
+        "王室",
+        "郑重说",
+        "克莱恩当即",
+        "颔首",
+        "坦然",
+        "当即回",
+        "克莱恩顿时"
       ],
       "organizations": [
         "塔罗会",
@@ -15350,10 +15334,10 @@
       "characters": [
         "克莱恩",
         "艾尔兰",
-        "脱口",
         "左轮",
-        "艾尔",
+        "脱口",
         "旋即",
+        "艾尔",
         "露出",
         "苏尼亚",
         "压低嗓音",
@@ -15361,23 +15345,23 @@
         "白地回",
         "平静",
         "容易",
+        "沙哑",
         "武器",
         "缓缓",
         "敏锐",
-        "沙哑",
+        "宣称",
+        "同时",
         "曾经",
         "满手血",
         "沙哑着",
+        "水手",
         "方平静",
-        "方拥有",
+        "方拥",
         "贝克兰",
-        "开口",
         "齐林格",
         "诧异",
         "白玛瑙",
-        "严重",
-        "颔首",
-        "冷静"
+        "严重"
       ],
       "organizations": [
         "的机会",
@@ -15443,13 +15427,12 @@
       "characters": [
         "克莱恩",
         "高序列",
-        "主动",
         "当即",
+        "阿尔杰",
         "关键",
         "苏尼亚",
         "黄金梦",
         "符合",
-        "阿尔杰",
         "米勒",
         "古弗萨",
         "恍然",
@@ -15464,13 +15447,14 @@
         "满意",
         "威尔",
         "罗思德",
-        "转而",
         "罗塞尔",
         "贝克兰",
         "鲁恩王",
-        "开口",
         "顾自说",
-        "顾一圈"
+        "顾一圈",
+        "脱口",
+        "自顾自",
+        "旋即"
       ],
       "organizations": [
         "极光会",
@@ -15539,27 +15523,27 @@
       "chunk": 28,
       "range": "第 541-560 章",
       "characters": [
+        "克莱恩",
         "罗塞尔",
         "白银城",
         "贝克兰",
-        "克莱恩",
         "封印物",
         "疑惑",
         "自顾自",
         "班西港",
-        "自言自语般",
         "阿尔杰",
+        "自言自语般",
         "埃姆林",
         "解除",
         "戴里克",
         "罗思德",
         "高级执",
         "安排",
+        "同时",
         "威尔",
         "达尼兹",
         "艾尔兰",
         "高序列",
-        "开口",
         "艾尔",
         "苏尼亚",
         "张椅子",
@@ -15567,8 +15551,8 @@
         "叹息",
         "王国",
         "白玛瑙",
-        "轻笑",
-        "阿兹克"
+        "阿兹克",
+        "愕然"
       ],
       "organizations": [
         "摩斯苦修会",
@@ -15638,16 +15622,14 @@
       "chunk": 29,
       "range": "第 561-580 章",
       "characters": [
-        "转而",
+        "克莱恩",
         "罗塞尔",
         "贝克兰",
-        "克莱恩",
         "鲁恩王",
         "高序列",
-        "开口",
         "好奇",
         "疑惑",
-        "主动",
+        "阿尔杰",
         "郑重",
         "戴莉",
         "古赫密",
@@ -15658,16 +15640,18 @@
         "莫雷蒂",
         "相当正",
         "王国",
-        "阿尔杰",
         "利用",
         "达尼兹",
         "阿兹克",
         "冷静",
         "容易",
-        "古代所",
         "高兴",
         "纳斯特",
-        "阿尔杰主动"
+        "宣称",
+        "顾左右",
+        "充满各",
+        "鲁恩",
+        "满意"
       ],
       "organizations": [
         "肯定会",
@@ -15743,8 +15727,8 @@
       "characters": [
         "克莱恩",
         "齐林格",
-        "平静",
         "当即",
+        "平静",
         "自嘲",
         "达尼兹",
         "鲁恩人",
@@ -15758,19 +15742,19 @@
         "茫然",
         "红色",
         "方式",
+        "同时",
         "鲁恩",
-        "时而",
         "格尔曼",
         "伊莲",
-        "开口",
         "关键",
         "认真",
         "罗思德",
         "露出",
-        "方拥有",
+        "方拥",
         "克莱恩当即",
         "淡然",
-        "相像"
+        "相像",
+        "金发"
       ],
       "organizations": [
         "我就会",
@@ -15845,13 +15829,13 @@
       "range": "第 601-620 章",
       "characters": [
         "克莱恩",
-        "贝克兰",
         "艾尔兰",
+        "贝克兰",
         "顾一圈",
         "左轮",
+        "当即",
         "艾尔",
         "左轮手",
-        "当即",
         "米索尔",
         "达尼兹",
         "露出",
@@ -15866,14 +15850,14 @@
         "解决",
         "关注",
         "房屋内",
+        "乌斯",
         "金发",
         "牧羊人",
+        "同时",
         "简略",
         "曾经",
         "曾经做",
-        "相当有",
-        "格尔曼",
-        "左掌"
+        "格尔曼"
       ],
       "organizations": [
         "有机会",
@@ -15945,19 +15929,16 @@
       "chunk": 32,
       "range": "第 621-640 章",
       "characters": [
-        "转而",
         "克莱恩",
         "贝克兰",
-        "开口",
         "安提哥",
         "齐林格",
         "班西港",
         "诚恳",
         "平静",
-        "严肃",
         "旋即",
+        "严肃",
         "苏尼亚",
-        "方开口",
         "关键",
         "叹息",
         "认真",
@@ -15974,7 +15955,10 @@
         "怀表",
         "敏锐",
         "关注",
-        "安乐椅"
+        "同时",
+        "安乐椅",
+        "花纹",
+        "水手"
       ],
       "organizations": [
         "黄昏隐士会",
@@ -16044,10 +16028,8 @@
       "chunk": 33,
       "range": "第 641-660 章",
       "characters": [
-        "转而",
         "克莱恩",
         "封印物",
-        "开口",
         "好奇",
         "疑惑",
         "平淡",
@@ -16065,11 +16047,13 @@
         "勉强",
         "颔首",
         "兴奋",
+        "同时",
         "方会",
         "高高",
+        "水手",
         "贝克兰",
-        "旋即",
         "当即",
+        "旋即",
         "燕尾服",
         "认真",
         "王国",
@@ -16165,6 +16149,7 @@
         "蓝色",
         "侧头",
         "毫不犹豫就",
+        "同时",
         "莎伦",
         "花纹",
         "左掌",
@@ -16172,7 +16157,6 @@
         "冷酷",
         "符咒",
         "罗塞尔",
-        "开口",
         "顾一圈",
         "好奇",
         "疑惑",
@@ -16250,21 +16234,19 @@
       "chunk": 35,
       "range": "第 681-700 章",
       "characters": [
-        "白银城",
-        "邓恩",
-        "贝克兰",
         "克莱恩",
-        "开口",
+        "邓恩",
+        "白银城",
+        "贝克兰",
         "顾一圈",
-        "主动",
         "戴莉女",
+        "阿尔杰",
+        "佛尔思",
         "戴莉",
         "关键",
         "简洁",
-        "佛尔思",
         "奥黛丽",
         "阿兹克",
-        "阿尔杰",
         "埃姆林",
         "诧异",
         "解决",
@@ -16275,11 +16257,13 @@
         "石柱",
         "嘉德丽雅",
         "颔首",
+        "明确",
         "随意",
         "方获得",
+        "同时",
         "在心里",
         "艰难",
-        "转而"
+        "好奇"
       ],
       "organizations": [
         "塔罗会",
@@ -16354,12 +16338,11 @@
       "range": "第 701-720 章",
       "characters": [
         "罗塞尔",
-        "安德森",
         "克莱恩",
-        "开口",
+        "安德森",
+        "当即",
         "胡德",
         "旋即",
-        "当即",
         "古赫密",
         "夏塔丝",
         "达尼兹",
@@ -16375,14 +16358,15 @@
         "勉强",
         "蓝色",
         "茫然",
+        "同时",
         "高高",
         "庄严",
-        "时而",
         "艾德雯娜",
         "古老",
         "方距离",
         "顾一圈",
-        "严重"
+        "严重",
+        "应位置"
       ],
       "organizations": [
         "的机会",
@@ -16457,16 +16441,17 @@
       "range": "第 721-740 章",
       "characters": [
         "罗塞尔",
+        "克莱恩",
         "安德森",
         "贝克兰",
-        "克莱恩",
         "好奇",
         "平静",
         "班西港",
-        "胡德",
-        "莫贝特",
-        "旋即",
         "当即",
+        "胡德",
+        "旋即",
+        "莫贝特",
+        "阿尔杰",
         "夏塔丝",
         "关键",
         "谨慎",
@@ -16477,15 +16462,14 @@
         "罗思德",
         "露出",
         "严重",
-        "阿尔杰",
         "嘉德丽雅",
         "解决",
+        "高层",
         "容易",
         "贝尔纳",
-        "格尔曼",
-        "强行",
-        "梦呓般",
-        "龙泽尔"
+        "曾经",
+        "水手",
+        "格尔曼"
       ],
       "organizations": [
         "风暴教会",
@@ -16557,36 +16541,36 @@
       "chunk": 38,
       "range": "第 741-760 章",
       "characters": [
-        "转而",
-        "贝克兰",
         "克莱恩",
-        "开口",
+        "贝克兰",
         "疑惑",
-        "旋即",
         "伦纳德",
+        "旋即",
         "自嘲",
+        "佛尔思",
         "认真",
         "沉声回",
         "全世界",
-        "佛尔思",
         "罗德斯",
         "习惯",
-        "好笑",
         "方察觉",
         "侧头",
         "古董",
         "容易",
-        "应该有",
         "缓缓",
         "管家",
         "康纳德",
         "立刻",
         "随意",
+        "同时",
         "鲁恩",
         "莎伦",
         "在心里",
         "简单",
-        "梅丽莎"
+        "梅丽莎",
+        "罗塞尔",
+        "班森",
+        "当即"
       ],
       "organizations": [
         "肯定会",
@@ -16657,20 +16641,16 @@
       "chunk": 39,
       "range": "第 761-780 章",
       "characters": [
-        "转而",
-        "贝克兰",
         "克莱恩",
+        "贝克兰",
         "夏洛克",
-        "开口",
-        "克莱恩笑",
         "平静",
-        "主动",
-        "诚恳",
         "当即",
+        "诚恳",
+        "霍尔伯爵",
         "认真",
         "霍尔伯",
         "奥黛丽",
-        "霍尔伯爵",
         "平静回",
         "容易",
         "白玛瑙",
@@ -16678,15 +16658,19 @@
         "边感叹",
         "高兴",
         "诧异",
+        "明明",
+        "曾经",
         "鲁恩",
         "立刻",
         "笑着回",
         "优雅",
         "随意",
         "金发",
-        "曾经",
-        "明明",
-        "相当有"
+        "同时",
+        "威尔",
+        "急促",
+        "简单",
+        "唐泰斯"
       ],
       "organizations": [
         "考伊姆公司",
@@ -16760,16 +16744,14 @@
       "chunk": 40,
       "range": "第 781-800 章",
       "characters": [
-        "转而",
-        "贝克兰",
         "克莱恩",
-        "克莱恩笑",
-        "查德森",
+        "贝克兰",
         "当即",
+        "查德森",
+        "旋即",
         "红茶",
         "自嘲",
         "管家瓦",
-        "旋即",
         "叹息",
         "张椅子",
         "罗德斯",
@@ -16782,14 +16764,16 @@
         "恍然",
         "侧头",
         "管家",
+        "曾经",
         "富翁",
         "缓缓",
         "立刻",
         "充满",
         "明天",
-        "曾经",
         "左掌",
-        "齐林格"
+        "齐林格",
+        "平静",
+        "左轮"
       ],
       "organizations": [
         "应该不会",
@@ -16863,14 +16847,14 @@
       "chunk": 41,
       "range": "第 801-820 章",
       "characters": [
-        "贝克兰",
         "克莱恩",
+        "贝克兰",
         "夏洛克",
         "安提哥",
         "周明瑞",
         "平静",
-        "查德森",
         "当即",
+        "查德森",
         "自嘲",
         "谨慎",
         "利用",
@@ -16892,7 +16876,7 @@
         "克莱恩当即",
         "立刻",
         "高级执",
-        "方式"
+        "克雷斯泰"
       ],
       "organizations": [
         "安提哥努斯家族",
@@ -16966,18 +16950,14 @@
       "chunk": 42,
       "range": "第 821-840 章",
       "characters": [
-        "转而",
         "贝克兰",
-        "开口",
-        "斟酌着",
-        "主动",
         "平静",
         "当即",
+        "佛尔思",
         "自嘲",
         "坦然回",
-        "佛尔思",
-        "关键",
         "东区",
+        "关键",
         "犹豫着",
         "坦然",
         "认真",
@@ -16986,6 +16966,7 @@
         "诧异",
         "敏锐",
         "面具男",
+        "曾经",
         "自嘲般",
         "立刻",
         "颔首",
@@ -16993,9 +16974,12 @@
         "黄金",
         "茫然",
         "方式",
-        "曾经",
         "乔伍德",
-        "欣喜"
+        "欣喜",
+        "宫廷侍",
+        "佛尔思当即",
+        "金猎人",
+        "时能够"
       ],
       "organizations": [
         "极光会",
@@ -17069,9 +17053,7 @@
       "chunk": 43,
       "range": "第 841-860 章",
       "characters": [
-        "转而",
         "克莱恩",
-        "开口",
         "平静",
         "查拉图",
         "当即",
@@ -17094,11 +17076,13 @@
         "立刻",
         "安慰剂",
         "缓慢",
+        "同时",
         "高声说",
         "在心里",
         "符号",
         "左掌",
-        "古老"
+        "古老",
+        "安提哥"
       ],
       "organizations": [
         "会不会",
@@ -17172,14 +17156,14 @@
       "chunk": 44,
       "range": "第 861-880 章",
       "characters": [
-        "贝克兰",
         "克莱恩",
+        "贝克兰",
         "唐泰斯",
-        "自顾自",
         "左轮",
-        "马赫特",
-        "旋即",
+        "自顾自",
         "佛尔思",
+        "旋即",
+        "马赫特",
         "简单回",
         "谨慎",
         "认真",
@@ -17189,17 +17173,17 @@
         "金镑",
         "管家",
         "牧师",
+        "明明",
         "富翁",
-        "明显",
         "莉亚娜",
         "缓缓",
         "明天",
         "克莱恩顿时",
         "随意",
         "方式",
+        "同时",
         "压着嗓音",
         "马车",
-        "明明",
         "由衷",
         "顾自"
       ],
@@ -17275,13 +17259,13 @@
       "chunk": 45,
       "range": "第 881-900 章",
       "characters": [
-        "贝克兰",
         "克莱恩",
+        "贝克兰",
         "夏洛克",
         "封印物",
         "步一步",
-        "叹息",
         "当即",
+        "叹息",
         "鲁恩军",
         "王国",
         "安排",
@@ -17292,17 +17276,17 @@
         "侧头",
         "相似",
         "面具男",
+        "莎伦",
         "后续",
-        "明显",
+        "水手",
         "缓慢",
         "关注",
         "黄金",
+        "同时",
         "马车",
-        "莎伦",
         "勾勒出",
         "由衷",
         "左掌",
-        "水手",
         "祝福",
         "张嘴巴"
       ],
@@ -17378,10 +17362,8 @@
       "chunk": 46,
       "range": "第 901-920 章",
       "characters": [
-        "白银城",
         "克莱恩",
-        "开口",
-        "主动",
+        "白银城",
         "脱口",
         "好奇",
         "当即",
@@ -17396,10 +17378,10 @@
         "补充",
         "诧异",
         "解决",
+        "高层",
         "左右观",
         "方式",
         "符号",
-        "明显",
         "武器",
         "勉强",
         "纳斯特",
@@ -17407,7 +17389,9 @@
         "相近序",
         "高地说",
         "应灵界",
-        "罗塞尔"
+        "罗塞尔",
+        "贝克兰",
+        "封印物"
       ],
       "organizations": [
         "我不会",
@@ -17481,24 +17465,20 @@
       "chunk": 47,
       "range": "第 921-940 章",
       "characters": [
-        "转而",
         "克莱恩",
-        "开口",
         "高序列",
         "封印物",
-        "主动",
         "齐林格",
         "好奇",
         "疑惑",
         "自顾自",
         "查尼斯",
+        "阿尔杰",
         "罗德斯",
         "坦然",
         "路德维",
-        "阿尔杰",
         "东拜朗",
         "克莱恩追",
-        "相对而",
         "阿兹克",
         "勾嘴角",
         "习惯",
@@ -17510,7 +17490,11 @@
         "嘉德丽雅",
         "许久",
         "补充",
-        "明显"
+        "曾经",
+        "简单",
+        "充满",
+        "颔首",
+        "同时"
       ],
       "organizations": [
         "肯定会",
@@ -17585,22 +17569,20 @@
       "range": "第 941-960 章",
       "characters": [
         "安德森",
-        "斟酌着",
         "封印物",
         "高序列",
-        "主动",
         "脱口",
         "疑惑",
         "步一步",
         "索斯特",
-        "班西港",
+        "伦纳德",
         "戴莉",
+        "班西港",
         "严肃",
         "边走边",
         "利用",
         "米切尔",
         "关键",
-        "伦纳德",
         "东拜朗",
         "符合",
         "红手套",
@@ -17611,9 +17593,11 @@
         "强行",
         "幸运",
         "侧头",
+        "高层",
+        "明明",
+        "曾经",
         "关注",
-        "茫然",
-        "高级执"
+        "茫然"
       ],
       "organizations": [
         "会不会",
@@ -17687,36 +17671,36 @@
       "chunk": 49,
       "range": "第 961-980 章",
       "characters": [
-        "转而",
-        "贝克兰",
         "克莱恩",
-        "开口",
+        "贝克兰",
         "夏洛克",
         "封印物",
         "唐泰斯",
         "疑惑",
+        "伦纳德",
         "查尼斯",
         "叹息",
-        "坦然回",
-        "路德维",
-        "旋即",
         "佛尔思",
+        "坦然回",
+        "旋即",
+        "阿尔杰",
+        "路德维",
         "坦然",
         "关键",
-        "伦纳德",
         "贝尔纳",
         "愕然",
         "奥黛丽",
-        "阿尔杰",
         "莫雷蒂",
         "安排",
         "鲁恩",
         "戴里克",
         "嘉德丽雅",
         "嘶哑",
+        "莎伦",
         "埃姆林",
         "格尔曼",
-        "恍然"
+        "恍然",
+        "诧异"
       ],
       "organizations": [
         "塔罗会",
@@ -17790,36 +17774,36 @@
       "chunk": 50,
       "range": "第 981-1000 章",
       "characters": [
-        "转而",
-        "贝克兰",
         "克莱恩",
-        "克莱恩笑",
-        "主动",
+        "贝克兰",
         "唐泰斯",
         "平静",
         "疑惑",
         "马赫特",
         "索斯特",
+        "伦纳德",
         "叹息",
         "诚恳",
-        "平淡",
         "旋即",
+        "平淡",
         "米切尔",
-        "伦纳德",
         "简单说",
-        "连忙",
+        "边低",
         "燕尾服",
         "压低嗓音",
         "艾伦",
         "红手套",
         "雷斯泰",
-        "边低",
+        "相视",
         "自言自语般",
         "容易",
         "艰难",
         "无奈",
         "简单",
-        "恍然"
+        "恍然",
+        "补充",
+        "牧师",
+        "随意"
       ],
       "organizations": [
         "肯定会",
@@ -17893,12 +17877,9 @@
       "chunk": 51,
       "range": "第 1001-1020 章",
       "characters": [
-        "转而",
-        "贝克兰",
-        "开口",
         "克莱恩",
+        "贝克兰",
         "夏洛克",
-        "主动",
         "好奇",
         "马赫特",
         "疑惑",
@@ -17910,19 +17891,22 @@
         "红茶",
         "欧内斯",
         "简洁",
-        "丰收教",
         "伊恩",
+        "丰收教",
         "悠然",
         "啧啧",
         "露出",
         "缓慢",
         "金币",
+        "莎伦",
         "埃姆林",
         "简单",
         "补充",
         "诧异",
+        "高层",
         "随意",
-        "方式"
+        "方式",
+        "索罗亚"
       ],
       "organizations": [
         "塔罗会",
@@ -17996,19 +17980,16 @@
       "chunk": 52,
       "range": "第 1021-1040 章",
       "characters": [
-        "贝克兰",
-        "开口",
         "克莱恩",
+        "贝克兰",
         "唐泰斯",
-        "主动",
         "当即",
         "自嘲",
+        "佛尔思",
         "利用",
         "旋即",
-        "佛尔思",
         "犹豫着",
         "罗思德",
-        "轻笑",
         "鲁恩",
         "解除",
         "缓慢",
@@ -18025,7 +18006,10 @@
         "克莱恩当即",
         "纳斯特",
         "立刻",
-        "跟着"
+        "跟着",
+        "同时",
+        "在心里",
+        "成熟"
       ],
       "organizations": [
         "会不会",
@@ -18099,14 +18083,12 @@
       "chunk": 53,
       "range": "第 1041-1060 章",
       "characters": [
+        "克莱恩",
         "黄金梦",
         "贝克兰",
         "安德森",
-        "克莱恩",
         "封印物",
-        "克莱恩笑",
         "唐泰斯",
-        "主动",
         "好奇",
         "疑惑",
         "自嘲",
@@ -18115,20 +18097,22 @@
         "旋即",
         "郑重",
         "奥黛丽",
-        "应该听",
         "东区",
+        "应该听",
         "认真",
         "符合",
-        "轻笑",
         "王国",
         "达尼兹",
         "边说边",
+        "苏茜",
         "鲁恩",
         "啧啧",
         "露出",
         "习惯",
-        "苏茜",
-        "格尔曼"
+        "莎伦",
+        "格尔曼",
+        "高兴",
+        "诧异"
       ],
       "organizations": [
         "肯定会",
@@ -18203,35 +18187,35 @@
       "range": "第 1061-1080 章",
       "characters": [
         "罗塞尔",
-        "贝克兰",
-        "开口",
         "克莱恩",
-        "斟酌着",
+        "贝克兰",
         "夏洛克",
         "封印物",
-        "克莱恩笑",
         "好奇",
         "疑惑",
+        "伦纳德",
         "思索着",
         "利用",
-        "克莱恩斟酌着",
         "奥黛丽",
-        "伦纳德",
         "谨慎",
-        "相对而",
         "愕然",
         "解决",
         "安排",
         "容易",
         "安全",
         "回忆着",
+        "莎伦",
         "埃姆林",
-        "明显",
         "米斯特",
         "诧异",
         "应该能",
         "顺势",
-        "蓝色"
+        "蓝色",
+        "立刻",
+        "封锁",
+        "金发",
+        "同时",
+        "先生"
       ],
       "organizations": [
         "玫瑰学派",
@@ -18305,8 +18289,8 @@
       "chunk": 55,
       "range": "第 1081-1100 章",
       "characters": [
-        "贝克兰",
         "克莱恩",
+        "贝克兰",
         "唐泰斯",
         "平静",
         "管家瓦",
@@ -18317,15 +18301,12 @@
         "管家先",
         "艾伦",
         "习惯",
-        "好笑",
         "解决",
         "鲁恩",
-        "方有",
         "露出",
         "幸运",
         "边想边",
         "容易",
-        "明显",
         "简单",
         "侧头",
         "管家",
@@ -18334,7 +18315,10 @@
         "道恩",
         "立刻",
         "跟着",
-        "颔首"
+        "颔首",
+        "明天",
+        "金发",
+        "同时"
       ],
       "organizations": [
         "会不会",
@@ -18409,35 +18393,35 @@
       "range": "第 1101-1120 章",
       "characters": [
         "罗塞尔",
-        "白银城",
-        "开口",
         "克莱恩",
+        "白银城",
         "简单来",
         "好奇",
         "叹息",
-        "当即",
         "伦纳德",
+        "当即",
         "佛尔思",
+        "阿尔杰",
         "贝尔纳",
         "乔治三",
         "全世界",
         "奥黛丽",
-        "严重",
         "王室",
+        "严重",
         "罗思德",
-        "符合",
-        "轻笑",
-        "阿尔杰",
-        "悠然",
         "嘉德丽雅",
+        "符合",
+        "戴里克",
+        "悠然",
         "黄昏隐",
         "习惯",
         "解决",
         "安排",
-        "戴里克",
+        "曾经",
         "强行",
         "露出",
-        "方表现"
+        "方表现",
+        "解决掉"
       ],
       "organizations": [
         "黄昏隐士会",
@@ -18511,24 +18495,25 @@
       "chunk": 57,
       "range": "第 1121-1140 章",
       "characters": [
-        "白银城",
-        "开口",
         "克莱恩",
+        "白银城",
         "缓慢",
-        "解决",
         "戴里克",
+        "解决",
+        "曾经",
         "符号",
         "花纹",
-        "明显",
         "武器",
         "红色",
-        "曾经",
         "庄严",
+        "后来",
         "古籍",
         "牧羊人",
+        "同时",
         "曾经做",
-        "时而",
+        "先生",
         "张嘴巴",
+        "左侧",
         "左右两",
         "随即",
         "科林",
@@ -18539,8 +18524,7 @@
         "认真",
         "符合",
         "露出",
-        "金币",
-        "相像"
+        "金币"
       ],
       "organizations": [
         "必然会",
@@ -18615,29 +18599,29 @@
       "range": "第 1141-1160 章",
       "characters": [
         "罗塞尔",
-        "贝克兰",
-        "开口",
         "克莱恩",
+        "贝克兰",
         "夏洛克",
         "简单来",
-        "克莱恩笑",
-        "主动",
         "查拉图",
         "平静",
         "疑惑",
+        "伦纳德",
         "叹息",
         "自嘲",
         "乔治三",
-        "伦纳德",
         "平淡",
         "贝尔纳",
         "缓慢",
         "高背椅",
         "方竟然",
         "安排",
+        "高层",
+        "曾经",
+        "莎伦",
         "符号",
         "索罗亚",
-        "明显",
+        "明明",
         "简单",
         "塞尼奥尔",
         "许久",
@@ -18717,34 +18701,34 @@
       "chunk": 59,
       "range": "第 1161-1180 章",
       "characters": [
+        "克莱恩",
         "贝克兰",
         "白银城",
-        "克莱恩",
-        "主动",
         "乔治三",
         "疑惑",
+        "佛尔思",
         "利用",
         "关键",
-        "佛尔思",
         "缓慢",
         "东区",
         "安排",
+        "戴里克",
         "解决",
         "黄铜色",
         "阿兹克",
-        "戴里克",
         "艰难",
         "容易",
         "阿蒙",
         "勉强",
         "后续",
         "石柱",
-        "颔首",
-        "威尔",
         "终于",
+        "颔首",
+        "同时",
+        "先生",
+        "威尔",
         "随即",
         "科林",
-        "开口",
         "自嘲",
         "思索着"
       ],
@@ -18820,16 +18804,15 @@
       "chunk": 60,
       "range": "第 1181-1200 章",
       "characters": [
-        "转而",
+        "克莱恩",
         "贝克兰",
         "白银城",
-        "克莱恩",
         "好奇",
+        "伦纳德",
         "张椅子",
         "查尼斯",
         "当即",
         "左轮",
-        "伦纳德",
         "旋即",
         "缓慢",
         "奥黛丽",
@@ -18845,6 +18828,7 @@
         "帕列斯",
         "露出",
         "解决掉",
+        "克雷斯泰",
         "欧弥贝",
         "乌洛琉",
         "安东尼",
@@ -18924,35 +18908,35 @@
       "range": "第 1201-1220 章",
       "characters": [
         "贝克兰",
-        "白银城",
-        "开口",
         "克莱恩",
+        "白银城",
         "封印物",
-        "罗德斯",
         "利用",
+        "罗德斯",
         "符号",
         "解除",
-        "明显",
         "勉强",
         "简单",
         "应层次",
         "牧师",
         "封锁",
-        "相当有",
         "成熟",
         "乌洛琉",
+        "终于",
         "安东尼",
         "立刻",
         "皱眉",
+        "同时",
         "威尔",
         "顿时",
         "古老",
         "女士",
         "祝福",
         "安眠",
-        "终于",
         "低头",
-        "布提斯"
+        "布提斯",
+        "伦纳德",
+        "叹息"
       ],
       "organizations": [
         "风暴教会",
@@ -19027,35 +19011,35 @@
       "range": "第 1221-1240 章",
       "characters": [
         "贝克兰",
-        "开口",
-        "斟酌着",
         "封印物",
         "脱口",
         "乌特拉",
         "疑惑",
         "查尼斯",
         "当即",
+        "佛尔思",
         "旋即",
         "关键",
         "费内波",
         "贝尔纳",
         "缓慢",
-        "佛尔思",
         "丰收教",
         "认真",
+        "嘉德丽雅",
         "安排",
         "鲁恩",
-        "嘉德丽雅",
         "解决",
         "艰难",
         "格尔曼",
-        "明显",
         "简单",
         "露出",
         "容易",
         "埃姆林",
         "鲁斯",
-        "高兴"
+        "高兴",
+        "终于",
+        "边认真",
+        "立刻"
       ],
       "organizations": [
         "极光会",
@@ -19130,7 +19114,6 @@
       "range": "第 1241-1260 章",
       "characters": [
         "贝克兰",
-        "开口",
         "简单来",
         "封印物",
         "脱口",
@@ -19144,21 +19127,22 @@
         "奥黛丽",
         "简洁",
         "卢克",
-        "充满希",
         "嘉德丽雅",
+        "充满希",
+        "曾经",
         "符号",
         "强行",
         "简单",
+        "好一会儿才",
         "随意",
         "容易",
+        "方会",
         "花园",
         "许久",
         "跟着",
         "方式",
-        "曾经",
-        "好一会儿才",
-        "充满",
-        "金发"
+        "斯塔琳",
+        "充满"
       ],
       "organizations": [
         "好一会",
@@ -19233,21 +19217,20 @@
       "range": "第 1261-1280 章",
       "characters": [
         "贝克兰",
+        "克莱恩",
         "白银城",
         "安德森",
-        "开口",
-        "克莱恩",
         "顾一圈",
-        "克莱恩笑",
         "好奇",
         "当即",
         "谨慎",
         "愕然",
         "解决",
+        "戴里克",
         "埃姆林",
         "黄铜色",
+        "高层",
         "解决掉",
-        "戴里克",
         "露出",
         "相似",
         "花纹",
@@ -19261,7 +19244,8 @@
         "方式",
         "勾勒出",
         "沉稳",
-        "高空"
+        "高空",
+        "克莱恩当即"
       ],
       "organizations": [
         "会不会",
@@ -19337,34 +19321,34 @@
       "characters": [
         "白银城",
         "贝克兰",
-        "开口",
         "克莱恩",
         "应序列",
         "乌特拉",
-        "旋即",
         "伦纳德",
-        "贝尔纳",
+        "旋即",
         "佛尔思",
+        "阿尔杰",
+        "贝尔纳",
         "丰收教",
         "安宁",
         "欧内斯",
+        "车夫",
         "奥黛丽",
         "郑重",
-        "车夫",
         "愕然",
-        "阿尔杰",
-        "关押",
-        "埃姆林",
         "嘉德丽雅",
-        "时开口",
+        "关押",
         "戴里克",
+        "埃姆林",
+        "曾经",
         "格尔曼",
         "索罗亚",
         "帕列斯",
         "露出",
         "管怎么",
         "语气",
-        "补充"
+        "补充",
+        "诧异"
       ],
       "organizations": [
         "塔罗会",
@@ -19439,7 +19423,6 @@
       "range": "第 1301-1320 章",
       "characters": [
         "白银城",
-        "开口",
         "克莱恩",
         "安全航",
         "好奇",
@@ -19449,11 +19432,12 @@
         "缓慢",
         "解决",
         "安全",
-        "明显",
+        "曾经",
         "康斯顿",
         "格尔曼",
         "简单",
         "露出",
+        "先生",
         "慌忙",
         "鲁斯",
         "金镑",
@@ -19461,13 +19445,13 @@
         "敏锐",
         "跟着",
         "冷静",
-        "曾经",
         "后续",
         "石柱",
-        "先生",
+        "终于",
         "高空",
         "充满",
-        "兴奋"
+        "兴奋",
+        "明确"
       ],
       "organizations": [
         "肯定会",
@@ -19508,10 +19492,10 @@
         "图铎遗迹",
         "通过无形的界",
         "于脑海",
-        "有着明显的南大陆",
         "现实世界",
         "回到现实世界",
-        "与外界"
+        "与外界",
+        "从灵界"
       ],
       "systems": [
         "途径的半",
@@ -19541,9 +19525,8 @@
       "chunk": 67,
       "range": "第 1321-1340 章",
       "characters": [
-        "转而",
-        "贝克兰",
         "克莱恩",
+        "贝克兰",
         "封印物",
         "贝尔纳",
         "平静",
@@ -19551,8 +19534,8 @@
         "疑惑",
         "梅林",
         "严肃",
-        "坦然",
         "当即",
+        "坦然",
         "贝尔丹",
         "奥黛丽",
         "认真",
@@ -19562,15 +19545,16 @@
         "解决",
         "安排",
         "黄昏隐",
+        "曾经",
         "解除",
         "相当重",
         "全知全",
+        "先生",
         "相当危",
         "穆地回",
         "方式",
-        "曾经",
         "石柱",
-        "先生"
+        "德尔劳"
       ],
       "organizations": [
         "黄昏隐士会",
@@ -19644,13 +19628,11 @@
       "chunk": 68,
       "range": "第 1341-1360 章",
       "characters": [
-        "开口",
         "班西港",
         "索伦",
         "艾因霍",
         "梅迪奇",
         "符号",
-        "明显",
         "勉强",
         "格尔曼",
         "强行",
@@ -19660,20 +19642,22 @@
         "立刻",
         "后续",
         "相对更",
+        "终于",
         "高空",
         "戴半高",
         "蓝色",
         "皱眉",
+        "同时",
         "平缓",
-        "时而",
         "左掌",
         "重复",
         "女士",
         "冷漠",
-        "终于",
         "随即",
         "贝克兰",
-        "安德森"
+        "安德森",
+        "平静",
+        "文德尔"
       ],
       "organizations": [
         "亚伯拉罕家族",
@@ -19747,23 +19731,20 @@
       "chunk": 69,
       "range": "第 1361-1380 章",
       "characters": [
-        "转而",
+        "克莱恩",
         "贝克兰",
         "梅丽莎",
-        "开口",
-        "克莱恩",
         "邓恩",
-        "主动",
         "班森",
-        "自嘲",
         "伦纳德",
+        "自嘲",
+        "老尼尔",
         "关键",
         "诚恳",
+        "车夫",
         "史密斯",
         "缓慢",
-        "车夫",
         "罗珊",
-        "老尼尔",
         "梅迪奇",
         "索伦",
         "艾因霍",
@@ -19771,7 +19752,10 @@
         "符合",
         "勉强",
         "阿兹克",
+        "曾经",
         "先生",
+        "安娜",
+        "明明",
         "恶灵",
         "侧头",
         "诧异",
@@ -19853,32 +19837,32 @@
         "克莱恩",
         "安提哥",
         "利用",
+        "当即",
         "索斯特",
         "旋即",
-        "当即",
         "郑重",
         "严重",
         "阿蒙",
         "莫雷蒂",
         "应非凡",
         "红之月",
-        "明显",
         "古老年",
+        "先生",
         "解除",
+        "明明",
         "容易",
         "全部",
-        "先生",
         "立刻",
         "跟着",
         "黄金",
+        "对克莱恩",
         "当即回",
         "方复活",
         "顿时",
-        "明明",
-        "时而",
+        "终于",
+        "同时",
         "蓝星",
         "古老",
-        "对克莱恩",
         "容纳"
       ],
       "organizations": [
