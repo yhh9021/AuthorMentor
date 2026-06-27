@@ -78,6 +78,47 @@ type EventSummary = {
   impact?: string;
 };
 
+type HighlightSummary = {
+  title: string;
+  chunk: number;
+  range: string;
+  plot: string;
+  setup: string;
+  conflict: string;
+  payoff: string;
+  impact: string;
+  reusableMechanism: string;
+  reuseBoundary: string;
+  evidence: string;
+};
+
+type SettingInsightSummary = {
+  name: string;
+  category: string;
+  chunk: number;
+  range: string;
+  definition: string;
+  rule: string;
+  cost: string;
+  interfaces: string;
+  evolution: string;
+  reuseValue: string;
+  reuseBoundary: string;
+  evidence: string;
+};
+
+type MechanismSummary = {
+  name: string;
+  chunk: number;
+  range: string;
+  principle: string;
+  implementation: string;
+  appeal: string;
+  rewriteMethod: string;
+  failureRisk: string;
+  evidence: string;
+};
+
 type DeepBook = {
   title: string;
   chapterCount: number;
@@ -92,6 +133,9 @@ type DeepBook = {
   locations: EntitySummary[];
   systems: EntitySummary[];
   events: EventSummary[];
+  highlights: HighlightSummary[];
+  settingInsights: SettingInsightSummary[];
+  mechanisms: MechanismSummary[];
   chunkSummaries: Array<{
     chunk: number;
     range: string;
@@ -123,6 +167,38 @@ type AgentChunk = {
   locations: Array<{ name: string; description?: string; evidence: string }>;
   systems: Array<{ name: string; category?: string; rule?: string; evidence: string }>;
   events: Array<{ name: string; evidence: string; impact?: string }>;
+  highlights?: Array<{
+    title: string;
+    plot: string;
+    setup: string;
+    conflict: string;
+    payoff: string;
+    impact: string;
+    reusableMechanism: string;
+    reuseBoundary: string;
+    evidence: string;
+  }>;
+  settingInsights?: Array<{
+    name: string;
+    category: string;
+    definition: string;
+    rule: string;
+    cost: string;
+    interfaces: string;
+    evolution: string;
+    reuseValue: string;
+    reuseBoundary: string;
+    evidence: string;
+  }>;
+  mechanisms?: Array<{
+    name: string;
+    principle: string;
+    implementation: string;
+    appeal: string;
+    rewriteMethod: string;
+    failureRisk: string;
+    evidence: string;
+  }>;
 };
 
 const CHAPTER_TITLE_PATTERN =
@@ -708,6 +784,9 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
   const systems = new Map<string, EntityRecord>();
   const relations = new Map<string, RelationRecord>();
   const events: EventSummary[] = [];
+  const highlights: HighlightSummary[] = [];
+  const settingInsights: SettingInsightSummary[] = [];
+  const mechanisms: MechanismSummary[] = [];
   const chunkSummaries: DeepBook["chunkSummaries"] = [];
   const agentChunkMap = new Map(agentChunks.map((chunk) => [chunk.chunk, chunk]));
 
@@ -768,6 +847,59 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
           impact: item.impact
         });
       }
+      for (const item of agentChunk.highlights ?? []) {
+        if (!isCompleteHighlight(item)) {
+          continue;
+        }
+        highlights.push({
+          title: item.title,
+          chunk: chunk.index,
+          range: agentChunk.range ?? `第 ${chunk.start}-${chunk.end} 章`,
+          plot: item.plot,
+          setup: item.setup,
+          conflict: item.conflict,
+          payoff: item.payoff,
+          impact: item.impact,
+          reusableMechanism: item.reusableMechanism,
+          reuseBoundary: item.reuseBoundary,
+          evidence: item.evidence
+        });
+      }
+      for (const item of agentChunk.settingInsights ?? []) {
+        if (!isCompleteSettingInsight(item)) {
+          continue;
+        }
+        settingInsights.push({
+          name: item.name,
+          category: item.category,
+          chunk: chunk.index,
+          range: agentChunk.range ?? `第 ${chunk.start}-${chunk.end} 章`,
+          definition: item.definition,
+          rule: item.rule,
+          cost: item.cost,
+          interfaces: item.interfaces,
+          evolution: item.evolution,
+          reuseValue: item.reuseValue,
+          reuseBoundary: item.reuseBoundary,
+          evidence: item.evidence
+        });
+      }
+      for (const item of agentChunk.mechanisms ?? []) {
+        if (!isCompleteMechanism(item)) {
+          continue;
+        }
+        mechanisms.push({
+          name: item.name,
+          chunk: chunk.index,
+          range: agentChunk.range ?? `第 ${chunk.start}-${chunk.end} 章`,
+          principle: item.principle,
+          implementation: item.implementation,
+          appeal: item.appeal,
+          rewriteMethod: item.rewriteMethod,
+          failureRisk: item.failureRisk,
+          evidence: item.evidence
+        });
+      }
     }
 
     chunkSummaries.push({
@@ -803,6 +935,9 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
     locations: summarizeEntities(locations, 120),
     systems: summarizeEntities(systems, 140),
     events: events.slice(0, 500),
+    highlights: highlights.slice(0, 120),
+    settingInsights: settingInsights.slice(0, 160),
+    mechanisms: mechanisms.slice(0, 120),
     chunkSummaries
   };
 }
@@ -858,6 +993,44 @@ function renderAgentChunkTask(title: string, chunk: Chunk): string {
   ],
   "events": [
     {"name": "关键事件", "evidence": "章节证据摘要", "impact": "后续影响"}
+  ],
+  "highlights": [
+    {
+      "title": "高光片段名",
+      "plot": "这一段具体发生了什么，写清事件链，不要只写功能",
+      "setup": "前置铺垫",
+      "conflict": "冲突设计、限制、对手或代价",
+      "payoff": "当场兑现的爽点/情绪/资源/真相/身份变化",
+      "impact": "后续影响",
+      "reusableMechanism": "可复用写法机制",
+      "reuseBoundary": "不可复用的专名、事件组合或表达",
+      "evidence": "章节证据摘要"
+    }
+  ],
+  "settingInsights": [
+    {
+      "name": "设定名",
+      "category": "世界规则/能力体系/资源体系/组织势力/地图层级/人物身份/禁忌代价",
+      "definition": "设定定义",
+      "rule": "运行规则",
+      "cost": "代价或限制",
+      "interfaces": "关联人物/势力/资源/地图接口",
+      "evolution": "本 chunk 内的首次出现、升级、反转或回收",
+      "reuseValue": "为什么值得借鉴",
+      "reuseBoundary": "复用边界",
+      "evidence": "章节证据摘要"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "为什么好看的机制名",
+      "principle": "机制原理",
+      "implementation": "本 chunk 如何具体实现",
+      "appeal": "为什么好看，读者获得什么期待或满足",
+      "rewriteMethod": "改写到新书时怎么做",
+      "failureRisk": "失败风险",
+      "evidence": "章节证据摘要"
+    }
   ]
 }
 \`\`\`
@@ -868,6 +1041,9 @@ function renderAgentChunkTask(title: string, chunk: Chunk): string {
 - 人物要列主要出场人物、身份变化、关系变化，不要把动作、副词、职业泛称当人物。
 - 关系边必须写清关系类型，例如师徒、同伴、敌对、交易、上下级、亲属、暧昧、组织同盟。
 - 设定条目要记录运行规则、代价或限制，不要只写名词。
+- highlights 只选本 chunk 内真正值得复用的桥段；必须写具体剧情过程、铺垫、兑现和后续影响。
+- settingInsights 必须能进入后续 Story Bible；不能写成“某某设定很重要”。
+- mechanisms 必须解释“为什么好看”和“如何改写”，不能只列标题。
 - evidence 是摘要，不要复制超过 20 个连续原文字。
 
 ## 正文
@@ -933,8 +1109,52 @@ function normalizeAgentChunk(chunk: AgentChunk): AgentChunk {
     organizations: Array.isArray(chunk.organizations) ? chunk.organizations.filter((item) => isUsefulEntityName(item.name)) : [],
     locations: Array.isArray(chunk.locations) ? chunk.locations.filter((item) => isUsefulEntityName(item.name)) : [],
     systems: Array.isArray(chunk.systems) ? chunk.systems.filter((item) => isUsefulEntityName(item.name)) : [],
-    events: Array.isArray(chunk.events) ? chunk.events : []
+    events: Array.isArray(chunk.events) ? chunk.events : [],
+    highlights: Array.isArray(chunk.highlights) ? chunk.highlights.filter(isCompleteHighlight) : [],
+    settingInsights: Array.isArray(chunk.settingInsights) ? chunk.settingInsights.filter(isCompleteSettingInsight) : [],
+    mechanisms: Array.isArray(chunk.mechanisms) ? chunk.mechanisms.filter(isCompleteMechanism) : []
   };
+}
+
+function isCompleteHighlight(item: NonNullable<AgentChunk["highlights"]>[number]): boolean {
+  return Boolean(
+    item?.title &&
+      item.plot &&
+      item.setup &&
+      item.conflict &&
+      item.payoff &&
+      item.impact &&
+      item.reusableMechanism &&
+      item.reuseBoundary &&
+      item.evidence
+  );
+}
+
+function isCompleteSettingInsight(item: NonNullable<AgentChunk["settingInsights"]>[number]): boolean {
+  return Boolean(
+    item?.name &&
+      item.category &&
+      item.definition &&
+      item.rule &&
+      item.cost &&
+      item.interfaces &&
+      item.evolution &&
+      item.reuseValue &&
+      item.reuseBoundary &&
+      item.evidence
+  );
+}
+
+function isCompleteMechanism(item: NonNullable<AgentChunk["mechanisms"]>[number]): boolean {
+  return Boolean(
+    item?.name &&
+      item.principle &&
+      item.implementation &&
+      item.appeal &&
+      item.rewriteMethod &&
+      item.failureRisk &&
+      item.evidence
+  );
 }
 
 function mergeAgentChunk(
@@ -1341,6 +1561,9 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
     auditCount("势力组织数量", book.organizations.length, minOrganizations),
     auditCount("地图地点数量", book.locations.length, minLocations),
     auditCount("能力/资源/规则数量", book.systems.length, minSystems),
+    auditCount("高光洞察数量", book.highlights.length, determineHighlightTarget(book.chapterCount)),
+    auditCount("设定洞察数量", book.settingInsights.length, Math.max(12, Math.floor(book.chapterCount / 80))),
+    auditCount("机制洞察数量", book.mechanisms.length, Math.max(8, Math.floor(book.chapterCount / 120))),
     {
       name: "全书 chunk 覆盖率",
       status: coverage >= 0.85 ? "通过" : "需返工",
@@ -1362,6 +1585,19 @@ function auditCount(name: string, actual: number, expected: number): AuditItem {
   };
 }
 
+function determineHighlightTarget(chapterCount: number): number {
+  if (chapterCount >= 1200) {
+    return 16;
+  }
+  if (chapterCount >= 850) {
+    return 12;
+  }
+  if (chapterCount >= 500) {
+    return 10;
+  }
+  return 8;
+}
+
 async function cleanDeepOutputs(bookDir: string): Promise<void> {
   await Promise.all(
     [
@@ -1371,6 +1607,10 @@ async function cleanDeepOutputs(bookDir: string): Promise<void> {
       "地图与世界结构.md",
       "修炼能力与资源体系.md",
       "关键事件链.md",
+      "深度高光片段.md",
+      "深度设定沉淀.md",
+      "深度优点机制.md",
+      "优点与可复用机制.md",
       "深拆质量审计.md",
       "深拆中间数据.json"
     ].map((file) => rm(path.join(bookDir, file), { force: true }))
@@ -1385,6 +1625,10 @@ async function writeDeepBookOutputs(bookDir: string, book: DeepBook, audit: Audi
     writeText(path.join(bookDir, "地图与世界结构.md"), renderEntityFile(book.title, "地图与世界结构", book.locations, "地点/地图层级")),
     writeText(path.join(bookDir, "修炼能力与资源体系.md"), renderEntityFile(book.title, "修炼能力与资源体系", book.systems, "能力/资源/规则")),
     writeText(path.join(bookDir, "关键事件链.md"), renderEventFile(book.title, book.events)),
+    writeText(path.join(bookDir, "深度高光片段.md"), renderDeepHighlights(book)),
+    writeText(path.join(bookDir, "深度设定沉淀.md"), renderDeepSettingInsights(book)),
+    writeText(path.join(bookDir, "深度优点机制.md"), renderDeepMechanisms(book, "深度优点机制")),
+    writeText(path.join(bookDir, "优点与可复用机制.md"), renderDeepMechanisms(book, "优点与可复用机制")),
     writeText(path.join(bookDir, "深拆质量审计.md"), renderAudit(book, audit)),
     writeText(path.join(bookDir, "深拆中间数据.json"), JSON.stringify(toJsonBook(book, audit), null, 2))
   ]);
@@ -1406,6 +1650,9 @@ function renderDeepReport(book: DeepBook, audit: AuditItem[]): string {
 - 地图地点候选：${book.locations.length}
 - 能力/资源/规则候选：${book.systems.length}
 - 关键事件候选：${book.events.length}
+- 高光洞察：${book.highlights.length}
+- 设定洞察：${book.settingInsights.length}
+- 机制洞察：${book.mechanisms.length}
 
 ## 方法说明
 
@@ -1422,6 +1669,9 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 - \`地图与世界结构.md\`
 - \`修炼能力与资源体系.md\`
 - \`关键事件链.md\`
+- \`深度高光片段.md\`
+- \`深度设定沉淀.md\`
+- \`深度优点机制.md\`
 - \`深拆中间数据.json\`
 `;
 }
@@ -1555,6 +1805,117 @@ ${events.length === 0
 `;
 }
 
+function renderDeepHighlights(book: DeepBook): string {
+  const highlights = book.highlights.slice(0, Math.max(determineHighlightTarget(book.chapterCount), book.highlights.length));
+  return `# 深度高光片段：《${book.title}》
+
+## 生成口径
+
+本文件只接收子 Agent 基于原文 chunk 精读后的高光洞察，不再用章节标题模板推断。每个条目必须有剧情过程、铺垫、冲突、兑现、后续影响和复用边界。
+
+## 高光片段详拆
+
+${highlights.length === 0
+  ? "- 当前没有收到子 Agent 高光洞察；必须补跑 chunk 精读，不能使用模板化高光报告替代。"
+  : highlights.map(renderHighlightInsight).join("\n")}
+`;
+}
+
+function renderHighlightInsight(item: HighlightSummary, index: number): string {
+  return `### ${index + 1}. ${item.range}：${item.title}
+
+**剧情概述**：${item.plot}
+
+**剧情拆分**：
+
+- 起点：${item.setup}
+- 推进：${item.conflict}
+- 结果：${item.payoff}
+
+**前置铺垫**：${item.setup}
+
+**冲突设计**：${item.conflict}
+
+**当场爽点**：${item.payoff}
+
+**后续影响**：${item.impact}
+
+**为什么好**：这一段的价值不只在事件本身，而在它把铺垫、限制、选择和兑现连成了可复用的读者期待链。证据摘要：${item.evidence}
+
+**可复用写法**：${item.reusableMechanism}
+
+**不可复用元素**：${item.reuseBoundary}
+`;
+}
+
+function renderDeepSettingInsights(book: DeepBook): string {
+  return `# 深度设定沉淀：《${book.title}》
+
+## 生成口径
+
+本文件只接收子 Agent 基于原文 chunk 精读后的设定洞察。每个设定都必须能进入后续 Story Bible，不能只保留名词。
+
+## 设定条目
+
+${book.settingInsights.length === 0
+  ? "- 当前没有收到子 Agent 设定洞察；必须补跑 chunk 精读，不能使用模板化设定报告替代。"
+  : book.settingInsights.map(renderSettingInsight).join("\n")}
+`;
+}
+
+function renderSettingInsight(item: SettingInsightSummary, index: number): string {
+  return `### ${index + 1}. ${item.name}
+
+**设定定义**：${item.definition}
+
+**剧情落点**：${item.range}。证据摘要：${item.evidence}
+
+**运行规则**：${item.rule}
+
+**代价与限制**：${item.cost}
+
+**人物和势力接口**：${item.interfaces}
+
+**阶段变化**：${item.evolution}
+
+**为什么值得借鉴**：${item.reuseValue}
+
+**复用边界**：${item.reuseBoundary}
+`;
+}
+
+function renderDeepMechanisms(book: DeepBook, fileTitle: string): string {
+  return `# ${fileTitle}：《${book.title}》
+
+## 生成口径
+
+本文件只接收子 Agent 基于原文 chunk 精读后的“为什么好看”机制。机制必须能指导新书改写，不能只列标题。
+
+## 机制拆解
+
+${book.mechanisms.length === 0
+  ? "- 当前没有收到子 Agent 机制洞察；必须补跑 chunk 精读，不能使用标题级机制列表替代。"
+  : book.mechanisms.map(renderMechanismInsight).join("\n")}
+`;
+}
+
+function renderMechanismInsight(item: MechanismSummary, index: number): string {
+  return `### ${index + 1}. ${item.name}
+
+**机制原理**：${item.principle}
+
+**本书中的工作方式**：${item.implementation}（来源：${item.range}；证据摘要：${item.evidence}）
+
+**为什么好看**：${item.appeal}
+
+**适用题材**：男频玄幻、仙侠、都市重生、科幻、高武、历史、西幻或志怪题材均可借用其结构，但必须替换题材包装、资源形态和组织关系。
+
+**改写方法**：${item.rewriteMethod}
+
+**失败风险**：${item.failureRisk}
+`;
+}
+
 function renderEntityFile(title: string, fileTitle: string, entities: EntitySummary[], label: string): string {
   return `# ${fileTitle}：《${title}》
 
@@ -1619,6 +1980,9 @@ async function writeDeepRunOutputs(
 - 地图地点候选：${book.locations.length}
 - 能力/资源/规则候选：${book.systems.length}
 - 关键事件候选：${book.events.length}
+- 高光洞察：${book.highlights.length}
+- 设定洞察：${book.settingInsights.length}
+- 机制洞察：${book.mechanisms.length}
 
 ## 审计结果
 
@@ -1646,6 +2010,20 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
             tags: ["深拆", "势力", "组织"],
             source: `《${book.title}》深拆势力图谱`,
             reuseBoundary: "只复用组织功能和冲突位置，不复用原书势力名。"
+          })),
+          ...book.highlights.slice(0, 12).map((item) => ({
+            title: `${book.title}：高光-${item.title}`,
+            summary: `${item.plot}\n\n可复用机制：${item.reusableMechanism}\n\n后续影响：${item.impact}`,
+            tags: ["深拆", "高光", "爽点", "可复用桥段"],
+            source: `《${book.title}》${item.range} 高光洞察`,
+            reuseBoundary: item.reuseBoundary
+          })),
+          ...book.mechanisms.slice(0, 12).map((item) => ({
+            title: `${book.title}：机制-${item.name}`,
+            summary: `${item.principle}\n\n本书实现：${item.implementation}\n\n改写方法：${item.rewriteMethod}`,
+            tags: ["深拆", "优点机制", "写作方法"],
+            source: `《${book.title}》${item.range} 机制洞察`,
+            reuseBoundary: item.failureRisk
           }))
         ]
       },
@@ -1666,7 +2044,7 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 
 ## 改动摘要
 
-本次生成全本扫描后的深拆总报告、人物与关系图、势力与组织图谱、地图与世界结构、修炼能力与资源体系、深拆中间数据和质量审计。
+本次生成全本扫描后的深拆总报告、人物与关系图、势力与组织图谱、地图与世界结构、修炼能力与资源体系、关键事件链、深度高光片段、深度设定沉淀、深度优点机制、深拆中间数据和质量审计。
 `
   );
 }
@@ -1687,6 +2065,9 @@ function toJsonBook(book: DeepBook, audit: AuditItem[]): Record<string, unknown>
     locations: book.locations,
     systems: book.systems,
     events: book.events,
+    highlights: book.highlights,
+    settingInsights: book.settingInsights,
+    mechanisms: book.mechanisms,
     chunkSummaries: book.chunkSummaries
   };
 }
