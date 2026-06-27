@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { Command } from "commander";
 import { applyDeconstructionRun } from "../capabilities/deconstruction/apply.js";
+import { auditDeconstructionTarget } from "../capabilities/deconstruction/audit.js";
 import { runDeepDeconstruction } from "../capabilities/deconstruction/deep-run.js";
 import { runFullDeconstruction } from "../capabilities/deconstruction/full-run.js";
 import { prepareDeconstructionRun } from "../capabilities/deconstruction/prepare.js";
@@ -92,6 +93,24 @@ deconstruct
       agentMode: options.agentMode
     });
     console.log(`全本结构化深拆已完成并提交 Git：${runDir}`);
+  });
+
+deconstruct
+  .command("audit")
+  .description("审计拆书产物是否足够深入、可参考、可复用")
+  .argument("<target>", "单本拆书目录或 global/deconstructions 目录")
+  .option("--no-write", "只输出摘要，不写入审计报告")
+  .option("--fail-on-issues", "发现需返工问题时返回非 0")
+  .action(async (target, options) => {
+    const result = await auditDeconstructionTarget(target, { writeReport: options.write });
+    const results = Array.isArray(result) ? result : [result];
+    const failed = results.filter((item) => item.status === "需返工");
+    for (const item of results) {
+      console.log(`${item.title}：${item.status}，问题 ${item.issues.length} 个${item.reportPath ? `，报告：${item.reportPath}` : ""}`);
+    }
+    if (options.failOnIssues && failed.length > 0) {
+      throw new Error(`拆书产物审计未通过：${failed.length}/${results.length} 本需返工。`);
+    }
   });
 
 program.parseAsync().catch((error: unknown) => {
