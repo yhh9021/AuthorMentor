@@ -28,6 +28,8 @@ runs/<run-id>/
   output/
 ```
 
+`input/` 保存本地输入材料，不进入 Git，避免把原始小说正文提交到远程仓库。
+
 把 `runs/<run-id>/TASK.md` 交给 Codex、Claude Code 或其他智能体执行。智能体填完 `output/` 后，应用拆书结果：
 
 ```bash
