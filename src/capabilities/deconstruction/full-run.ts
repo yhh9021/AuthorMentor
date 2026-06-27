@@ -725,19 +725,24 @@ function renderDeepSettingEntry(
 ): string {
   const matched = findRepresentativeSegments(dimension, segments, profile, 4, index);
   const signal = profile.onlineSignals[index % Math.max(profile.onlineSignals.length, 1)];
+  const segmentSignals = matched
+    .map((segment) => `第 ${segment.start}-${segment.end} 章的标题线索包括：${segment.chapters.slice(0, 4).map((chapter) => chapter.title).join("、")}。`)
+    .join(" ");
   return `### ${index + 1}. ${dimension}
 
-**设定定义**：这是《${profile.name}》中支撑“${profile.genre}”阅读体验的一组规则，不只是背景名词。它需要同时回答三个问题：这个世界如何运行，主角能从中拿到什么，读者为什么愿意继续看它被升级或打破。
+**设定定义**：在《${profile.name}》里，“${dimension}”不是单独的背景名词，而是支撑“${profile.genre}”阅读体验的规则层。它需要同时回答三个问题：这个世界如何运行，主角能从中拿到什么，读者为什么愿意继续看它被升级或打破。
 
-**运行规则**：这一设定通常通过阶段事件逐步显形，而不是开篇一次性讲完。先用具体困境或机会让读者感到它存在，再通过组织、资源、能力、地图或敌人展示它的边界，最后让主角用理解规则的方式获得优势。代表落点：${matched.map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”`).join("；")}。
+**剧情落点**：代表段落是 ${matched.map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”`).join("；")}。${segmentSignals}这些章节不是简单解释设定，而是让设定和事件绑定：读者通过角色遇到的机会、阻力、组织评价或环境危险来理解规则。
+
+**运行规则**：这一设定通常通过阶段事件逐步显形，而不是开篇一次性讲完。先用具体困境或机会让读者感到它存在，再通过组织、资源、能力、地图或敌人展示它的边界，最后让主角用理解规则的方式获得优势。对“${dimension}”来说，最重要的是让读者知道它如何影响主角的行动空间：能不能进入某个圈层，能不能获得某种资源，是否会被更强势力识别、利用或清算。
 
 **代价与限制**：设定好看的关键在于有成本。它不能只给主角奖励，还要带来身份风险、资源消耗、知识门槛、组织约束、道德压力或更高位格凝视。写新书时要保留“拿到收益的同时增加新问题”的结构，否则设定会变成外挂说明书。
 
-**人物和势力接口**：这个设定应当连接至少三类角色：帮助主角理解规则的人，因规则受益或受损的人，以及试图垄断规则解释权的人。这样设定才会转化为人物关系、冲突和剧情推进，而不是孤立百科条目。
+**人物和势力接口**：这个设定应当连接至少三类角色：帮助主角理解规则的人，因规则受益或受损的人，以及试图垄断规则解释权的人。这样设定才会转化为人物关系、冲突和剧情推进，而不是孤立百科条目。拆这类设定时，要继续追问：谁制定规则，谁解释规则，谁因为主角理解规则而损失利益。
 
-**阶段变化**：前期承担入门和解释，中期承担升级、交易、考核或组织化，后期承担世界观抬升或伏笔回收。全书 ${chapters.length} 章的体量要求设定多次变形：第一次出现解决局部问题，第二次升级打开新地图，第三次回收解释更大的世界规则。
+**阶段变化**：前期承担入门和解释，中期承担升级、交易、考核或组织化，后期承担世界观抬升或伏笔回收。全书 ${chapters.length} 章的体量要求设定多次变形：第一次出现解决局部问题，第二次升级打开新地图，第三次回收解释更大的世界规则。如果一个设定只出现一次，它不是长篇资产；只有反复改变主角处境，才值得沉淀。
 
-**为什么值得借鉴**：它把抽象世界观变成可写的剧情机器。读者不是因为知道名词而兴奋，而是因为设定持续改变主角的选择空间：能去哪里、能学什么、能换到什么、会被谁盯上、下一步要付出什么。
+**为什么值得借鉴**：它把抽象世界观变成可写的剧情机器。读者不是因为知道名词而兴奋，而是因为设定持续改变主角的选择空间：能去哪里、能学什么、能换到什么、会被谁盯上、下一步要付出什么。对后续自动写作系统来说，这类设定应该进入单书设定集，而不是只留在摘要里。
 
 **复用边界**：可以复用“规则分层、成本递增、人物接口、阶段升级”的结构；不能复用本书具体专有名词、人物关系组合、连续事件链和标志性表达。${signal ? `外部讨论信号“${signal.label}”提示：${signal.note}` : ""}
 `;
@@ -862,7 +867,7 @@ function determineHighlightTarget(chapterCount: number): number {
   if (chapterCount >= 850) {
     return 12;
   }
-  if (chapterCount >= 550) {
+  if (chapterCount >= 500) {
     return 10;
   }
   return 8;
@@ -885,10 +890,20 @@ function renderDeepHighlightEntry(segment: Segment, index: number, segments: Seg
   const next = segments.find((item) => item.index === segment.index + 1);
   const matchedSignals = profile.onlineSignals.filter((signal) => includesAny(textOfSegment(segment), signal.keywords));
   const firstTitles = segment.chapters.slice(0, 5).map((chapter) => chapter.title).join("、");
+  const middleTitles = segment.chapters
+    .slice(Math.max(0, Math.floor(segment.chapters.length / 2) - 2), Math.floor(segment.chapters.length / 2) + 2)
+    .map((chapter) => chapter.title)
+    .join("、");
   const lastTitles = segment.chapters.slice(-4).map((chapter) => chapter.title).join("、");
   return `### ${index + 1}. 第 ${segment.start}-${segment.end} 章：${segment.focus}
 
 **剧情概述**：这一段从“${firstTitles}”一组章节信号切入，逐步把读者带入“${segment.focus}”的阶段目标；后段又通过“${lastTitles}”把阶段问题推向新的结果或悬念。它不是单章爆点，而是一个局部剧情单元：先让主角面对新压力或新机会，再让主角调用已有能力、关系或信息差处理问题，最后把收益转化为下一阶段的身份、地图、敌人或规则变化。
+
+**剧情拆分**：
+
+- 起点：${firstTitles}。这一组标题通常负责抛出新处境、新目标或新压力，让读者知道本段要解决什么。
+- 推进：${middleTitles || firstTitles}。中段负责把压力具体化，加入人物、组织、资源、规则或敌对力量，使问题不只是单点事件。
+- 结果：${lastTitles}。结尾要么给阶段收益，要么留下更高层问题，用来牵引下一段。
 
 **前置铺垫**：${previous ? `上一段“第 ${previous.start}-${previous.end} 章：${previous.focus}”已经提供了读者理解本段所需的背景、目标或压力。` : "开局段需要快速建立主角处境、世界规则和第一层压力。"}本段的高光成立，依赖读者已经接受《${profile.name}》的类型承诺：${profile.genre}。如果前置铺垫不足，同样的桥段会显得突兀。
 
@@ -898,9 +913,9 @@ function renderDeepHighlightEntry(segment: Segment, index: number, segments: Seg
 
 **后续影响**：${next ? `下一段“第 ${next.start}-${next.end} 章：${next.focus}”说明本段结果继续外溢，没有停在单次事件。` : "作为尾段或接近尾段内容，它承担收束、回收或抬升世界观的功能。"}高光片段要能改变后续局面，否则只能算一次短促刺激，不能支撑长篇。
 
-**为什么好**：它同时做了三件事：推进剧情、更新设定、制造读者期待。读者获得的不只是“发生了什么”，而是“主角因此能做什么、会被谁注意、下一层规则是什么”。这也是它值得沉淀的原因。
+**为什么好**：它同时做了三件事：推进剧情、更新设定、制造读者期待。读者获得的不只是“发生了什么”，而是“主角因此能做什么、会被谁注意、下一层规则是什么”。尤其是当“${segment.focus}”和本书的核心机制“${profile.reusableMechanisms[index % profile.reusableMechanisms.length]}”结合时，桥段就会从普通事件变成可复用的长篇结构。
 
-**可复用写法**：可以复用这一段的功能链：前置压力 -> 规则限制 -> 主角利用信息差或能力组合 -> 当场兑现 -> 留下新问题。迁移到新书时，把资源形态、组织关系、能力体系和场景换掉，保留因果顺序。
+**可复用写法**：可以复用这一段的功能链：前置压力 -> 规则限制 -> 主角利用信息差或能力组合 -> 当场兑现 -> 留下新问题。迁移到新书时，把资源形态、组织关系、能力体系和场景换掉，保留因果顺序。新作品中还要明确“读者等的是什么”：等主角赢、等真相揭开、等身份升级，还是等关系反转。
 
 **不可复用元素**：不要复用原书人物名、组织名、专有道具名、连续事件链和标志性表达。可借的是“高光如何被铺垫和兑现”，不是桥段表皮。
 
