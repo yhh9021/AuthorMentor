@@ -1,4 +1,4 @@
-import { rm } from "node:fs/promises";
+import { readdir, rm, unlink } from "node:fs/promises";
 import path from "node:path";
 import { TextDecoder } from "node:util";
 import { applyDeconstructionRun } from "./apply.js";
@@ -70,6 +70,12 @@ export async function runFullDeconstruction(rawOptions: PrepareOptions): Promise
 
 async function readSourceText(filePath: string): Promise<string> {
   const buffer = await import("node:fs/promises").then((fs) => fs.readFile(filePath));
+  const utf8Text = new TextDecoder("utf-8").decode(buffer).replace(/\r\n/g, "\n");
+  if (CHAPTER_TITLE_PATTERN.test(utf8Text)) {
+    CHAPTER_TITLE_PATTERN.lastIndex = 0;
+    return utf8Text;
+  }
+  CHAPTER_TITLE_PATTERN.lastIndex = 0;
   return new TextDecoder("gb18030").decode(buffer).replace(/\r\n/g, "\n");
 }
 
@@ -125,12 +131,24 @@ function occurrences(text: string, keyword: string): number {
 }
 
 async function cleanGeneratedOutputs(bookDir: string): Promise<void> {
-  await rm(path.join(bookDir, "segments"), { recursive: true, force: true });
-  await rm(path.join(bookDir, "material-cards"), { recursive: true, force: true });
   await ensureDir(path.join(bookDir, "book-map"));
   await ensureDir(path.join(bookDir, "segments"));
   await ensureDir(path.join(bookDir, "material-cards"));
   await ensureDir(path.join(bookDir, "synthesis"));
+  await removeGeneratedMarkdown(path.join(bookDir, "segments"), /^\d{3}-\d{4}-\d{4}-.+\.md$/);
+  await removeGeneratedMarkdown(path.join(bookDir, "material-cards"), /^\d{3}-.+\.md$/);
+  await rm(path.join(bookDir, "book-map", "剧情阶段总览.md"), { force: true });
+  await rm(path.join(bookDir, "book-map", "章节索引.md"), { force: true });
+  await rm(path.join(bookDir, "synthesis", "全书拆书总报告.md"), { force: true });
+}
+
+async function removeGeneratedMarkdown(dir: string, pattern: RegExp): Promise<void> {
+  const entries = await readdir(dir, { withFileTypes: true });
+  await Promise.all(
+    entries
+      .filter((entry) => entry.isFile() && pattern.test(entry.name))
+      .map((entry) => unlink(path.join(dir, entry.name)))
+  );
 }
 
 async function writeBookMap(bookDir: string, chapters: Chapter[], segments: Segment[]): Promise<void> {
