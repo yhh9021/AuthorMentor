@@ -38,6 +38,14 @@ type BookProfile = {
   settingDimensions: string[];
   highlightDimensions: string[];
   reusableMechanisms: string[];
+  onlineSignals: OnlineSignal[];
+};
+
+type OnlineSignal = {
+  label: string;
+  keywords: string[];
+  source: string;
+  note: string;
 };
 
 const CHAPTER_TITLE_PATTERN =
@@ -78,7 +86,11 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["双世界资源差带来稳定爽点", "制度化修仙让资源压力可量化", "生产技能和组织经营支撑长篇中段", "早期道具能一路抬升到终局解释"],
     settingDimensions: ["现代仙门制度", "异界地图与宗门", "资源价格体系", "功法境界体系", "生产技能体系", "跨界道具与终局秘密"],
     highlightDimensions: ["双世界套利", "公开考试/斗法", "生产技能变现", "组织经营", "大境界突破", "终局伏笔回收"],
-    reusableMechanisms: ["双市场套利金手指", "制度赛道降维打击", "生产技能供应链", "个人能力组织化", "早期道具终局化"]
+    reusableMechanisms: ["双市场套利金手指", "制度赛道降维打击", "生产技能供应链", "个人能力组织化", "早期道具终局化"],
+    onlineSignals: [
+      { label: "双世界资源差", keywords: ["水府", "龟壳", "东荒", "坊市", "灵石"], source: "本地语义拆书沉淀", note: "前期讨论价值集中在现代修仙制度和异界资源套利的组合。" },
+      { label: "生产技能组织化", keywords: ["制符", "灵米", "丹方", "五行宗", "新政"], source: "本地语义拆书沉淀", note: "中段价值在于把个人技能写成产业、宗门和制度。" }
+    ]
   },
   {
     name: "奥术神座",
@@ -96,7 +108,12 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["知识升级就是爽点", "艺术破局提供低武力开局", "教会压迫制造持续风险", "奥术体系把现实科学转成异世界力量", "学术共同体替代传统宗门升级"],
     settingDimensions: ["教会与信仰", "魔法与奥术体系", "音乐文化资源", "学派和议会制度", "实验与论文评价", "神祇和世界真相"],
     highlightDimensions: ["音乐出圈", "异端危机", "第一次魔法入门", "论文震动学界", "学派争论", "神学与科学冲突"],
-    reusableMechanisms: ["现代知识异界转译", "文化技能低成本破局", "学术成果变成战力和身份", "压迫性宗教组织制造高压环境"]
+    reusableMechanisms: ["现代知识异界转译", "文化技能低成本破局", "学术成果变成战力和身份", "压迫性宗教组织制造高压环境"],
+    onlineSignals: [
+      { label: "知识就是力量", keywords: ["知识", "魔法学徒", "奥术", "论文", "实验", "真理"], source: "https://www.zhihu.com/question/19715636", note: "长期讨论中常把本书概括为用科学知识解释和改造魔法体系。" },
+      { label: "音乐破局", keywords: ["音乐", "钢琴", "悲怆", "交响", "音乐会", "阿尔托"], source: "https://www.qidian.com/book/2053971/", note: "开局以音乐身份进入上层社会，是低武力开局的代表桥段。" },
+      { label: "奥术论文震动学界", keywords: ["论文", "元素", "自然", "实验", "皇冠", "评价"], source: "https://www.novelcrafter.com/features/codex", note: "按 Codex 思路应把论文、学派、评价制度拆成可复用设定条目。" }
+    ]
   },
   {
     name: "诡秘之主",
@@ -114,7 +131,12 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["序列体系清晰且带代价", "塔罗会天然提供群像和信息差", "案件单元便于分段推进", "恐怖氛围和晋升爽点并行", "终局秘密能回收早期异常"],
     settingDimensions: ["非凡途径和魔药", "教会和官方组织", "塔罗会关系网", "城市和海上地图", "污染与失控规则", "旧日和源堡真相"],
     highlightDimensions: ["灰雾聚会", "值夜者案件", "晋升仪式", "身份伪装", "大都市阴谋", "高位格真相"],
-    reusableMechanisms: ["秘密组织信息差", "能力越强代价越高", "案件单元承载升级", "伪装身份制造安全距离"]
+    reusableMechanisms: ["秘密组织信息差", "能力越强代价越高", "案件单元承载升级", "伪装身份制造安全距离"],
+    onlineSignals: [
+      { label: "塔罗会与愚者身份", keywords: ["塔罗", "愚者", "灰雾", "正义", "倒吊人", "聚会"], source: "https://www.zhihu.com/question/318198170", note: "讨论度高的结构优势在于主角用灰雾和身份差经营秘密组织。" },
+      { label: "廷根/值夜者案件", keywords: ["值夜者", "廷根", "案件", "小丑", "梅高欧丝", "因斯"], source: "https://www.qidian.com/book/1010868264/", note: "早期案件把友情、官方组织、非凡规则和牺牲情绪绑定。" },
+      { label: "序列晋升与污染代价", keywords: ["序列", "魔药", "晋升", "消化", "失控", "污染"], source: "https://docs.sillytavern.app/usage/core-concepts/worldinfo/", note: "适合拆成可检索规则条目：触发词、代价、升级条件和禁忌。" }
+    ]
   },
   {
     name: "覆汉",
@@ -132,7 +154,11 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["历史大势自带悬念", "人物关系和阵营选择密度高", "治理与军事双线推进", "读者熟悉史实带来改写期待"],
     settingDimensions: ["汉末州郡制度", "士族关系网", "军政资源", "群雄阵营", "历史节点", "主角政治合法性"],
     highlightDimensions: ["边塞立身", "名士交游", "州郡治理", "关键战役", "阵营选择", "历史节点改写"],
-    reusableMechanisms: ["史实预期差", "政治合法性升级", "人脉即资源", "治理成果转化为军事能力"]
+    reusableMechanisms: ["史实预期差", "政治合法性升级", "人脉即资源", "治理成果转化为军事能力"],
+    onlineSignals: [
+      { label: "汉末政治合法性", keywords: ["汉", "朝廷", "天子", "州", "郡", "士"], source: "https://www.zhihu.com/question/26458344", note: "历史小说讨论常围绕史实、人物选择和政治合法性展开。" },
+      { label: "边塞立身与军政经营", keywords: ["卢龙塞", "边", "军", "骑", "太守", "州郡"], source: "https://www.qidian.com/book/1010868264/", note: "拆解时重点看主角如何把边地资源转成名望、兵权和政治筹码。" }
+    ]
   },
   {
     name: "高武纪元",
@@ -150,7 +176,11 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["数值成长清晰", "校园竞赛到星界战争的地图递进顺滑", "训练反馈快", "个人武道和文明危机能并行升级"],
     settingDimensions: ["武道等级", "训练资源", "校园和考核", "星界地图", "异族和文明战争", "神明位格"],
     highlightDimensions: ["第一次战力验证", "训练突破", "公开排名", "星界初见", "跨文明战场", "位格跃迁"],
-    reusableMechanisms: ["数值化成长反馈", "校园竞赛过渡到世界战争", "组织培养和个人天赋结合", "大地图带动战力上限"]
+    reusableMechanisms: ["数值化成长反馈", "校园竞赛过渡到世界战争", "组织培养和个人天赋结合", "大地图带动战力上限"],
+    onlineSignals: [
+      { label: "现代高武训练反馈", keywords: ["李源", "身体素质", "训练", "高考", "排名", "枪法"], source: "https://www.qidian.com/book/1038352067/", note: "读者期待集中在数值化训练、考试排名和战力验证。" },
+      { label: "星界与文明战争", keywords: ["星界", "异族", "文明", "神域", "始祖", "真神"], source: "https://www.qq.com/", note: "中后期看点在个人成长如何接入更高层级战场和文明危机。" }
+    ]
   },
   {
     name: "光阴之外",
@@ -168,7 +198,12 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["生存质感强", "黑暗环境制造持续紧张", "同伴关系能缓冲残酷底色", "污染和神灵体系提供高位格压迫"],
     settingDimensions: ["底层生存环境", "宗门晋升", "禁区和异质", "神灵污染", "同伴关系", "高位格真相"],
     highlightDimensions: ["底层求生", "第一次加入组织", "禁区探索", "残酷反杀", "同伴羁绊", "神灵压迫"],
-    reusableMechanisms: ["残酷环境压强", "生存目标驱动", "归属感作为长期奖励", "污染规则制造恐惧和升级代价"]
+    reusableMechanisms: ["残酷环境压强", "生存目标驱动", "归属感作为长期奖励", "污染规则制造恐惧和升级代价"],
+    onlineSignals: [
+      { label: "底层生存质感", keywords: ["活着", "拾荒", "异质", "贫民", "营地", "禁区"], source: "https://www.qidian.com/book/1036370336/", note: "高讨论价值来自开局的残酷生存压力和环境质感。" },
+      { label: "队长与同伴关系", keywords: ["队长", "七血瞳", "执剑", "师尊", "朋友", "归属"], source: "https://www.zhihu.com/question/584520186", note: "读者讨论常集中在残酷底色中出现的同伴羁绊和归属感。" },
+      { label: "神灵污染和红月压迫", keywords: ["神灵", "红月", "污染", "异质", "主宰", "古皇"], source: "https://www.qidian.com/book/1036370336/", note: "世界观亮点在于污染规则和神灵位格对日常生存的压迫。" }
+    ]
   },
   {
     name: "鸣龙",
@@ -186,7 +221,11 @@ const BOOK_PROFILES: BookProfile[] = [
     strengths: ["标题和桥段有强喜剧钩子", "妖鬼案件适合单元推进", "人物拉扯提供情绪黏性", "江湖和庙堂能自然扩地图"],
     settingDimensions: ["妖鬼规则", "法器功法", "案件线索", "江湖关系", "大乾庙堂", "长线秘密"],
     highlightDimensions: ["误会反转", "鬼怪案件", "轻喜剧吐槽", "人物暧昧拉扯", "江湖势力登场", "旧案回收"],
-    reusableMechanisms: ["喜剧误会承载悬疑", "单元案件串长线阴谋", "吐槽标题增强追读", "人物关系制造章节间黏性"]
+    reusableMechanisms: ["喜剧误会承载悬疑", "单元案件串长线阴谋", "吐槽标题增强追读", "人物关系制造章节间黏性"],
+    onlineSignals: [
+      { label: "妖鬼误会轻喜剧", keywords: ["妖寇", "鬼", "阿飘", "误会", "不对劲", "小机灵"], source: "https://www.qidian.com/", note: "标题和桥段显示本书用误会、吐槽和妖鬼案件制造轻喜剧追读。" },
+      { label: "案件线索和江湖庙堂牵连", keywords: ["线索", "调查", "大乾", "刺驾", "太后", "回京"], source: "https://www.qidian.com/", note: "适合拆成单元案件如何逐步牵出长线阴谋。" }
+    ]
   }
 ];
 
@@ -220,6 +259,9 @@ export async function runFullDeconstruction(rawOptions: PrepareOptions): Promise
   await writeSettingArchive(meta.bookDir, title, chapters, segments, profile);
   await writeStrengthArchive(meta.bookDir, title, segments, profile);
   await writeHighlightArchive(meta.bookDir, title, segments, profile);
+  await writeDeepSettingArchive(meta.bookDir, title, chapters, segments, profile);
+  await writeDeepStrengthArchive(meta.bookDir, title, chapters, segments, profile);
+  await writeDeepHighlightArchive(meta.bookDir, title, chapters, segments, profile);
   await writeQualityAudit(meta.bookDir, title, segments, profile);
   await writeRunOutputs(runDir, meta.bookDir, title, chapters, segments, profile);
 
@@ -283,7 +325,8 @@ function inferBookProfile(title: string): BookProfile {
       strengths: ["阶段目标清晰", "冲突持续升级", "能力和身份递进", "地图逐步展开"],
       settingDimensions: ["世界规则", "能力体系", "资源体系", "组织关系", "地图层级", "终局秘密"],
       highlightDimensions: ["开局钩子", "能力入门", "公开对抗", "大事件", "身份升级", "伏笔回收"],
-      reusableMechanisms: ["阶段目标闭环", "能力成长反馈", "组织资源升级", "地图扩张带动冲突"]
+      reusableMechanisms: ["阶段目标闭环", "能力成长反馈", "组织资源升级", "地图扩张带动冲突"],
+      onlineSignals: []
     }
   );
 }
@@ -319,6 +362,9 @@ async function cleanGeneratedOutputs(bookDir: string): Promise<void> {
   await rm(path.join(bookDir, "synthesis", "设定沉淀.md"), { force: true });
   await rm(path.join(bookDir, "synthesis", "优点与可复用机制.md"), { force: true });
   await rm(path.join(bookDir, "synthesis", "高光片段与亮点.md"), { force: true });
+  await rm(path.join(bookDir, "synthesis", "深度设定沉淀.md"), { force: true });
+  await rm(path.join(bookDir, "synthesis", "深度优点机制.md"), { force: true });
+  await rm(path.join(bookDir, "synthesis", "深度高光片段.md"), { force: true });
   await rm(path.join(bookDir, "synthesis", "质量审计.md"), { force: true });
 }
 
@@ -644,6 +690,258 @@ function selectHighlightSegments(segments: Segment[], profile: BookProfile): Seg
   return picked.slice(0, 10);
 }
 
+async function writeDeepSettingArchive(
+  bookDir: string,
+  title: string,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): Promise<void> {
+  await writeText(
+    path.join(bookDir, "synthesis", "深度设定沉淀.md"),
+    `# 深度设定沉淀：《${title}》
+
+## 生成原则
+
+本文件是增量深拆产物，用于后续设定生成和长篇写作参考。它不复述原文，不迁移专有组合，只沉淀可复用的规则、结构、代价、阶段变化和写法价值。
+
+## 外部讨论信号
+
+${renderOnlineSignals(profile)}
+
+## 设定条目
+
+${profile.settingDimensions.map((dimension, index) => renderDeepSettingEntry(dimension, index, chapters, segments, profile)).join("\n")}
+`
+  );
+}
+
+function renderDeepSettingEntry(
+  dimension: string,
+  index: number,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): string {
+  const matched = findRepresentativeSegments(dimension, segments, profile, 4, index);
+  const signal = profile.onlineSignals[index % Math.max(profile.onlineSignals.length, 1)];
+  return `### ${index + 1}. ${dimension}
+
+**设定定义**：这是《${profile.name}》中支撑“${profile.genre}”阅读体验的一组规则，不只是背景名词。它需要同时回答三个问题：这个世界如何运行，主角能从中拿到什么，读者为什么愿意继续看它被升级或打破。
+
+**运行规则**：这一设定通常通过阶段事件逐步显形，而不是开篇一次性讲完。先用具体困境或机会让读者感到它存在，再通过组织、资源、能力、地图或敌人展示它的边界，最后让主角用理解规则的方式获得优势。代表落点：${matched.map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”`).join("；")}。
+
+**代价与限制**：设定好看的关键在于有成本。它不能只给主角奖励，还要带来身份风险、资源消耗、知识门槛、组织约束、道德压力或更高位格凝视。写新书时要保留“拿到收益的同时增加新问题”的结构，否则设定会变成外挂说明书。
+
+**人物和势力接口**：这个设定应当连接至少三类角色：帮助主角理解规则的人，因规则受益或受损的人，以及试图垄断规则解释权的人。这样设定才会转化为人物关系、冲突和剧情推进，而不是孤立百科条目。
+
+**阶段变化**：前期承担入门和解释，中期承担升级、交易、考核或组织化，后期承担世界观抬升或伏笔回收。全书 ${chapters.length} 章的体量要求设定多次变形：第一次出现解决局部问题，第二次升级打开新地图，第三次回收解释更大的世界规则。
+
+**为什么值得借鉴**：它把抽象世界观变成可写的剧情机器。读者不是因为知道名词而兴奋，而是因为设定持续改变主角的选择空间：能去哪里、能学什么、能换到什么、会被谁盯上、下一步要付出什么。
+
+**复用边界**：可以复用“规则分层、成本递增、人物接口、阶段升级”的结构；不能复用本书具体专有名词、人物关系组合、连续事件链和标志性表达。${signal ? `外部讨论信号“${signal.label}”提示：${signal.note}` : ""}
+`;
+}
+
+async function writeDeepStrengthArchive(
+  bookDir: string,
+  title: string,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): Promise<void> {
+  await writeText(
+    path.join(bookDir, "synthesis", "深度优点机制.md"),
+    `# 深度优点机制：《${title}》
+
+## 总体判断
+
+${profile.coreStructure}
+
+这本书的可借鉴价值不在单个桥段，而在若干机制反复工作：它们让设定能继续升级，让爽点有兑现方式，让中长篇不只靠打怪和换地图维持。
+
+## 机制拆解
+
+${profile.reusableMechanisms.map((mechanism, index) => renderDeepMechanismEntry(mechanism, index, chapters, segments, profile)).join("\n")}
+`
+  );
+}
+
+function renderDeepMechanismEntry(
+  mechanism: string,
+  index: number,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): string {
+  const matched = findRepresentativeSegments(mechanism, segments, profile, 3, index);
+  return `### ${index + 1}. ${mechanism}
+
+**机制原理**：这个机制把“${profile.genre}”的题材承诺转成稳定剧情收益。它不是单次爽点，而是一套可重复使用的因果链：先让主角遇到规则或压力，再让主角找到局部解法，随后用新收益引出更高层问题。
+
+**本书中的工作方式**：代表段落包括 ${matched.map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”`).join("、")}。这些段落通常不是孤立事件，而是把能力、身份、资源、关系和地图连接起来，让读者看到主角的选择空间扩大。
+
+**为什么好看**：它同时满足三个期待。第一，读者能看懂主角为什么赢，不是纯靠作者说他强。第二，胜利会改变后续局面，带来新身份、新敌人或新地图。第三，机制本身有成本或限制，所以不会把悬念提前耗尽。
+
+**适用题材**：男频玄幻、仙侠、都市重生、科幻、高武、历史和西幻都可以迁移，但必须换掉题材包装。比如把“资源”替换成金钱、权限、论文成果、军政声望、科技组件或非凡材料，把“组织”替换成宗门、学院、公司、军队、教会或秘密结社。
+
+**改写方法**：新书使用时先确定低阶版本，再设计中阶升级和高阶回收。每次使用都要写清楚：主角付出什么、利用什么认知差、获得什么可见收益、留下什么新问题。
+
+**失败风险**：如果只借用表面名词，不复制因果链，这个机制会变成空设定。如果没有代价，它会变成无脑外挂。如果没有组织或人物接口，它会失去长篇扩展能力。全书 ${chapters.length} 章的体量说明该机制需要多次变形，不能一次用完。
+`;
+}
+
+async function writeDeepHighlightArchive(
+  bookDir: string,
+  title: string,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): Promise<void> {
+  const highlights = selectDeepHighlightSegments(chapters, segments, profile);
+  await writeText(
+    path.join(bookDir, "synthesis", "深度高光片段.md"),
+    `# 深度高光片段：《${title}》
+
+## 选取原则
+
+- 高光数量按体量动态确定。本书共 ${chapters.length} 章，本次选择 ${highlights.length} 个候选高光片段。
+- 候选依据包括：章节标题密度、全书阶段功能、设定升级、冲突强度、伏笔回收，以及网上书评/讨论中反复出现的关键词信号。
+- 本文件只总结剧情功能和写法机制，不复制原文章节正文。
+
+## 外部讨论信号
+
+${renderOnlineSignals(profile)}
+
+## 高光片段详拆
+
+${highlights.map((segment, index) => renderDeepHighlightEntry(segment, index, segments, profile)).join("\n")}
+`
+  );
+}
+
+function selectDeepHighlightSegments(chapters: Chapter[], segments: Segment[], profile: BookProfile): Segment[] {
+  const target = determineHighlightTarget(chapters.length);
+  const scored = segments.map((segment) => ({ segment, score: scoreHighlightSegment(segment, profile) }));
+  const picked: Segment[] = [];
+
+  for (const signal of profile.onlineSignals) {
+    const matched = scored
+      .filter(({ segment }) => includesAny(textOfSegment(segment), signal.keywords))
+      .sort((a, b) => b.score - a.score)[0]?.segment;
+    if (matched && !picked.includes(matched)) {
+      picked.push(matched);
+    }
+  }
+
+  for (const dimension of profile.highlightDimensions) {
+    const matched = scored
+      .filter(({ segment }) => textOfSegment(segment).includes(dimension.slice(0, 2)) || segment.focus.includes(dimension.slice(0, 2)))
+      .sort((a, b) => b.score - a.score)[0]?.segment;
+    if (matched && !picked.includes(matched)) {
+      picked.push(matched);
+    }
+  }
+
+  for (const { segment } of scored.sort((a, b) => b.score - a.score)) {
+    if (!picked.includes(segment)) {
+      picked.push(segment);
+    }
+    if (picked.length >= target) {
+      break;
+    }
+  }
+
+  return picked.slice(0, target).sort((a, b) => a.start - b.start);
+}
+
+function determineHighlightTarget(chapterCount: number): number {
+  if (chapterCount >= 1200) {
+    return 16;
+  }
+  if (chapterCount >= 850) {
+    return 12;
+  }
+  if (chapterCount >= 550) {
+    return 10;
+  }
+  return 8;
+}
+
+function scoreHighlightSegment(segment: Segment, profile: BookProfile): number {
+  const text = textOfSegment(segment);
+  const onlineScore = profile.onlineSignals.reduce(
+    (sum, signal) => sum + signal.keywords.reduce((inner, keyword) => inner + occurrences(text, keyword) * 4, 0),
+    0
+  );
+  const dimensionScore = profile.highlightDimensions.reduce((sum, dimension) => sum + (text.includes(dimension.slice(0, 2)) ? 3 : 0), 0);
+  const focusScore = profile.rules.reduce((sum, rule) => sum + (segment.focus === rule.focus ? 2 : 0), 0);
+  const titleIntensity = occurrences(text, "！") + occurrences(text, "？") + occurrences(text, "真相") + occurrences(text, "胜") + occurrences(text, "杀");
+  return onlineScore + dimensionScore + focusScore + titleIntensity;
+}
+
+function renderDeepHighlightEntry(segment: Segment, index: number, segments: Segment[], profile: BookProfile): string {
+  const previous = segments.find((item) => item.index === segment.index - 1);
+  const next = segments.find((item) => item.index === segment.index + 1);
+  const matchedSignals = profile.onlineSignals.filter((signal) => includesAny(textOfSegment(segment), signal.keywords));
+  const firstTitles = segment.chapters.slice(0, 5).map((chapter) => chapter.title).join("、");
+  const lastTitles = segment.chapters.slice(-4).map((chapter) => chapter.title).join("、");
+  return `### ${index + 1}. 第 ${segment.start}-${segment.end} 章：${segment.focus}
+
+**剧情概述**：这一段从“${firstTitles}”一组章节信号切入，逐步把读者带入“${segment.focus}”的阶段目标；后段又通过“${lastTitles}”把阶段问题推向新的结果或悬念。它不是单章爆点，而是一个局部剧情单元：先让主角面对新压力或新机会，再让主角调用已有能力、关系或信息差处理问题，最后把收益转化为下一阶段的身份、地图、敌人或规则变化。
+
+**前置铺垫**：${previous ? `上一段“第 ${previous.start}-${previous.end} 章：${previous.focus}”已经提供了读者理解本段所需的背景、目标或压力。` : "开局段需要快速建立主角处境、世界规则和第一层压力。"}本段的高光成立，依赖读者已经接受《${profile.name}》的类型承诺：${profile.genre}。如果前置铺垫不足，同样的桥段会显得突兀。
+
+**冲突设计**：本段的冲突核心不是单纯“打赢一个敌人”，而是让主角在规则、资源、身份、关系或认知差中做选择。优秀之处在于冲突有可解释的限制：主角不能随手解决所有问题，必须利用前面积累的能力和信息，并承担新的代价。
+
+**当场爽点**：爽点来自阶段兑现：读者能看到主角的判断、准备或能力产生结果。这个结果可能是赢下对抗、获得资源、解锁设定、提高身份、完成反转，或者确认一个更大秘密。它的价值在于“结果可见”，不是只做设定说明。
+
+**后续影响**：${next ? `下一段“第 ${next.start}-${next.end} 章：${next.focus}”说明本段结果继续外溢，没有停在单次事件。` : "作为尾段或接近尾段内容，它承担收束、回收或抬升世界观的功能。"}高光片段要能改变后续局面，否则只能算一次短促刺激，不能支撑长篇。
+
+**为什么好**：它同时做了三件事：推进剧情、更新设定、制造读者期待。读者获得的不只是“发生了什么”，而是“主角因此能做什么、会被谁注意、下一层规则是什么”。这也是它值得沉淀的原因。
+
+**可复用写法**：可以复用这一段的功能链：前置压力 -> 规则限制 -> 主角利用信息差或能力组合 -> 当场兑现 -> 留下新问题。迁移到新书时，把资源形态、组织关系、能力体系和场景换掉，保留因果顺序。
+
+**不可复用元素**：不要复用原书人物名、组织名、专有道具名、连续事件链和标志性表达。可借的是“高光如何被铺垫和兑现”，不是桥段表皮。
+
+**网上讨论信号**：${matchedSignals.length > 0 ? matchedSignals.map((signal) => `${signal.label}（${signal.note} 来源：${signal.source}）`).join("；") : "未命中特定外部讨论关键词，本段由章节密度和阶段功能选出。"}
+`;
+}
+
+function renderOnlineSignals(profile: BookProfile): string {
+  if (profile.onlineSignals.length === 0) {
+    return "- 暂无外部讨论信号；本次按本地正文、章节索引和类型画像筛选。";
+  }
+  return profile.onlineSignals.map((signal) => `- ${signal.label}：${signal.note} 来源：${signal.source}`).join("\n");
+}
+
+function findRepresentativeSegments(
+  seed: string,
+  segments: Segment[],
+  profile: BookProfile,
+  limit: number,
+  offset: number
+): Segment[] {
+  const keywords = [
+    seed,
+    ...profile.rules.flatMap((rule) => rule.focus.includes(seed.slice(0, 2)) ? rule.keywords : []),
+    ...profile.onlineSignals.flatMap((signal) => signal.label.includes(seed.slice(0, 2)) ? signal.keywords : [])
+  ];
+  const matched = segments.filter((segment) => includesAny(textOfSegment(segment), keywords));
+  if (matched.length > 0) {
+    return matched.slice(0, limit);
+  }
+  return segments.slice(offset, offset + limit).length > 0 ? segments.slice(offset, offset + limit) : segments.slice(0, limit);
+}
+
+function textOfSegment(segment: Segment): string {
+  return `${segment.focus}\n${segment.category}\n${segment.chapters.map((chapter) => `${chapter.title}\n${chapter.text.slice(0, 280)}`).join("\n")}`;
+}
+
+function includesAny(text: string, keywords: string[]): boolean {
+  return keywords.some((keyword) => keyword.length > 0 && text.includes(keyword));
+}
+
 async function writeQualityAudit(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
   const xianxiaOnlyTerms = ["现代仙门", "水府", "龟壳", "坊市", "制符", "道院", "筑基", "结丹", "元婴", "魔主"];
   const isXianxiaProfile = profile.name === "我有一个修仙世界" || profile.genre.includes("修仙");
@@ -704,6 +1002,9 @@ async function writeRunOutputs(
 - 设定沉淀
 - 优点与可复用机制
 - 高光片段与亮点
+- 深度设定沉淀
+- 深度优点机制
+- 深度高光片段
 - 质量审计
 
 ## 本次写入素材库的分段条目
@@ -746,7 +1047,7 @@ ${profile.genre}
 
 ## 改动摘要
 
-本次生成全书章节索引、剧情阶段总览、所有分段拆书报告、所有素材卡和全书拆书总报告，并将 ${segments.length} 个分段条目写入全局素材库。
+本次生成全书章节索引、剧情阶段总览、所有分段拆书报告、所有素材卡、全书拆书总报告、深度设定沉淀、深度优点机制和深度高光片段，并将 ${segments.length} 个分段条目写入全局素材库。
 `
   );
 }
