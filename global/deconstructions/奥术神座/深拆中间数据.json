@@ -1,12 +1,18 @@
 {
-  "title": "奥术神座",
+  "title": "奥术神座.txt",
   "chapterCount": 919,
   "chunkCount": 46,
+  "agentChunkCount": 0,
   "audit": [
+    {
+      "name": "子 Agent 精读覆盖率",
+      "status": "需返工",
+      "detail": "收到 0/46 个 chunk JSON，覆盖率 0.0%。"
+    },
     {
       "name": "人物数量",
       "status": "通过",
-      "detail": "实际 70，最低要求 45。"
+      "detail": "实际 180，最低要求 45。"
     },
     {
       "name": "关系边数量",
@@ -36,18 +42,1304 @@
     {
       "name": "人物噪声率",
       "status": "通过",
-      "detail": "疑似动作/语气噪声 0/70，噪声率 0.0%。"
+      "detail": "疑似动作/语气噪声 0/180，噪声率 0.0%。"
     }
   ],
   "characters": [
     {
       "name": "路西恩",
-      "mentions": 224,
-      "firstChapter": 5,
-      "lastChapter": 826,
-      "chapterCount": 177,
+      "mentions": 18453,
+      "firstChapter": 1,
+      "lastChapter": 856,
+      "chapterCount": 804,
       "markers": [
-        "人物行为/发言(224)"
+        "姓名候选(18225)",
+        "人物行为/发言(228)"
+      ]
+    },
+    {
+      "name": "伊文斯",
+      "mentions": 2251,
+      "firstChapter": 1,
+      "lastChapter": 857,
+      "chapterCount": 461,
+      "markers": [
+        "姓名候选(2251)"
+      ]
+    },
+    {
+      "name": "段时间",
+      "mentions": 407,
+      "firstChapter": 10,
+      "lastChapter": 915,
+      "chapterCount": 297,
+      "markers": [
+        "姓名候选(407)"
+      ]
+    },
+    {
+      "name": "霍尔姆",
+      "mentions": 803,
+      "firstChapter": 12,
+      "lastChapter": 917,
+      "chapterCount": 294,
+      "markers": [
+        "姓名候选(803)"
+      ]
+    },
+    {
+      "name": "费尔南",
+      "mentions": 1907,
+      "firstChapter": 173,
+      "lastChapter": 917,
+      "chapterCount": 275,
+      "markers": [
+        "姓名候选(1907)"
+      ]
+    },
+    {
+      "name": "危险",
+      "mentions": 320,
+      "firstChapter": 1,
+      "lastChapter": 916,
+      "chapterCount": 236,
+      "markers": [
+        "姓名候选(320)"
+      ]
+    },
+    {
+      "name": "高阶魔",
+      "mentions": 365,
+      "firstChapter": 24,
+      "lastChapter": 911,
+      "chapterCount": 211,
+      "markers": [
+        "姓名候选(365)"
+      ]
+    },
+    {
+      "name": "程度",
+      "mentions": 202,
+      "firstChapter": 7,
+      "lastChapter": 911,
+      "chapterCount": 172,
+      "markers": [
+        "姓名候选(202)"
+      ]
+    },
+    {
+      "name": "林厄",
+      "mentions": 220,
+      "firstChapter": 117,
+      "lastChapter": 917,
+      "chapterCount": 155,
+      "markers": [
+        "姓名候选(220)"
+      ]
+    },
+    {
+      "name": "古代魔",
+      "mentions": 222,
+      "firstChapter": 23,
+      "lastChapter": 906,
+      "chapterCount": 150,
+      "markers": [
+        "姓名候选(222)"
+      ]
+    },
+    {
+      "name": "时间内",
+      "mentions": 156,
+      "firstChapter": 14,
+      "lastChapter": 913,
+      "chapterCount": 135,
+      "markers": [
+        "姓名候选(156)"
+      ]
+    },
+    {
+      "name": "相信",
+      "mentions": 149,
+      "firstChapter": 12,
+      "lastChapter": 907,
+      "chapterCount": 130,
+      "markers": [
+        "姓名候选(149)"
+      ]
+    },
+    {
+      "name": "水准",
+      "mentions": 151,
+      "firstChapter": 12,
+      "lastChapter": 891,
+      "chapterCount": 127,
+      "markers": [
+        "姓名候选(151)"
+      ]
+    },
+    {
+      "name": "怀疑",
+      "mentions": 149,
+      "firstChapter": 7,
+      "lastChapter": 905,
+      "chapterCount": 126,
+      "markers": [
+        "姓名候选(149)"
+      ]
+    },
+    {
+      "name": "成果",
+      "mentions": 194,
+      "firstChapter": 38,
+      "lastChapter": 913,
+      "chapterCount": 125,
+      "markers": [
+        "姓名候选(194)"
+      ]
+    },
+    {
+      "name": "安静",
+      "mentions": 141,
+      "firstChapter": 4,
+      "lastChapter": 905,
+      "chapterCount": 120,
+      "markers": [
+        "姓名候选(141)"
+      ]
+    },
+    {
+      "name": "乐家",
+      "mentions": 214,
+      "firstChapter": 2,
+      "lastChapter": 856,
+      "chapterCount": 117,
+      "markers": [
+        "姓名候选(214)"
+      ]
+    },
+    {
+      "name": "成功",
+      "mentions": 163,
+      "firstChapter": 17,
+      "lastChapter": 916,
+      "chapterCount": 117,
+      "markers": [
+        "姓名候选(163)"
+      ]
+    },
+    {
+      "name": "安尼克",
+      "mentions": 398,
+      "firstChapter": 170,
+      "lastChapter": 825,
+      "chapterCount": 115,
+      "markers": [
+        "姓名候选(398)"
+      ]
+    },
+    {
+      "name": "红衣主",
+      "mentions": 259,
+      "firstChapter": 7,
+      "lastChapter": 917,
+      "chapterCount": 107,
+      "markers": [
+        "姓名候选(259)"
+      ]
+    },
+    {
+      "name": "高评议",
+      "mentions": 221,
+      "firstChapter": 131,
+      "lastChapter": 856,
+      "chapterCount": 107,
+      "markers": [
+        "姓名候选(221)"
+      ]
+    },
+    {
+      "name": "费利佩",
+      "mentions": 717,
+      "firstChapter": 147,
+      "lastChapter": 852,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(716)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "任何一",
+      "mentions": 112,
+      "firstChapter": 3,
+      "lastChapter": 888,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "方教会",
+      "mentions": 211,
+      "firstChapter": 7,
+      "lastChapter": 917,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(211)"
+      ]
+    },
+    {
+      "name": "古怪",
+      "mentions": 119,
+      "firstChapter": 5,
+      "lastChapter": 902,
+      "chapterCount": 99,
+      "markers": [
+        "姓名候选(118)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "成员",
+      "mentions": 122,
+      "firstChapter": 18,
+      "lastChapter": 888,
+      "chapterCount": 95,
+      "markers": [
+        "姓名候选(122)"
+      ]
+    },
+    {
+      "name": "方法",
+      "mentions": 124,
+      "firstChapter": 9,
+      "lastChapter": 907,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(124)"
+      ]
+    },
+    {
+      "name": "方面",
+      "mentions": 113,
+      "firstChapter": 3,
+      "lastChapter": 913,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(113)"
+      ]
+    },
+    {
+      "name": "史诗骑",
+      "mentions": 161,
+      "firstChapter": 34,
+      "lastChapter": 916,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(161)"
+      ]
+    },
+    {
+      "name": "冷静",
+      "mentions": 105,
+      "firstChapter": 2,
+      "lastChapter": 904,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "周围",
+      "mentions": 94,
+      "firstChapter": 4,
+      "lastChapter": 912,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(94)"
+      ]
+    },
+    {
+      "name": "任务",
+      "mentions": 139,
+      "firstChapter": 11,
+      "lastChapter": 917,
+      "chapterCount": 82,
+      "markers": [
+        "姓名候选(139)"
+      ]
+    },
+    {
+      "name": "房间内",
+      "mentions": 102,
+      "firstChapter": 40,
+      "lastChapter": 917,
+      "chapterCount": 81,
+      "markers": [
+        "姓名候选(102)"
+      ]
+    },
+    {
+      "name": "施展",
+      "mentions": 100,
+      "firstChapter": 23,
+      "lastChapter": 916,
+      "chapterCount": 81,
+      "markers": [
+        "姓名候选(100)"
+      ]
+    },
+    {
+      "name": "满意",
+      "mentions": 89,
+      "firstChapter": 12,
+      "lastChapter": 913,
+      "chapterCount": 81,
+      "markers": [
+        "姓名候选(89)"
+      ]
+    },
+    {
+      "name": "林厄魔",
+      "mentions": 105,
+      "firstChapter": 193,
+      "lastChapter": 859,
+      "chapterCount": 79,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "师们",
+      "mentions": 91,
+      "firstChapter": 24,
+      "lastChapter": 917,
+      "chapterCount": 76,
+      "markers": [
+        "姓名候选(91)"
+      ]
+    },
+    {
+      "name": "关键时",
+      "mentions": 82,
+      "firstChapter": 7,
+      "lastChapter": 910,
+      "chapterCount": 76,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "王国",
+      "mentions": 114,
+      "firstChapter": 64,
+      "lastChapter": 917,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(114)"
+      ]
+    },
+    {
+      "name": "景象",
+      "mentions": 85,
+      "firstChapter": 52,
+      "lastChapter": 897,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "严肃",
+      "mentions": 79,
+      "firstChapter": 9,
+      "lastChapter": 891,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(78)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "花纹",
+      "mentions": 85,
+      "firstChapter": 33,
+      "lastChapter": 904,
+      "chapterCount": 74,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "方式",
+      "mentions": 83,
+      "firstChapter": 11,
+      "lastChapter": 902,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(83)"
+      ]
+    },
+    {
+      "name": "范围内",
+      "mentions": 83,
+      "firstChapter": 16,
+      "lastChapter": 895,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(83)"
+      ]
+    },
+    {
+      "name": "安全",
+      "mentions": 85,
+      "firstChapter": 8,
+      "lastChapter": 909,
+      "chapterCount": 71,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "施展魔",
+      "mentions": 79,
+      "firstChapter": 32,
+      "lastChapter": 817,
+      "chapterCount": 71,
+      "markers": [
+        "姓名候选(79)"
+      ]
+    },
+    {
+      "name": "马斯基",
+      "mentions": 179,
+      "firstChapter": 122,
+      "lastChapter": 889,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(179)"
+      ]
+    },
+    {
+      "name": "白之手",
+      "mentions": 157,
+      "firstChapter": 148,
+      "lastChapter": 847,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(157)"
+      ]
+    },
+    {
+      "name": "牧师",
+      "mentions": 104,
+      "firstChapter": 3,
+      "lastChapter": 916,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(104)"
+      ]
+    },
+    {
+      "name": "管如何",
+      "mentions": 74,
+      "firstChapter": 5,
+      "lastChapter": 914,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(74)"
+      ]
+    },
+    {
+      "name": "边说",
+      "mentions": 73,
+      "firstChapter": 1,
+      "lastChapter": 902,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(73)"
+      ]
+    },
+    {
+      "name": "艾丽萨",
+      "mentions": 239,
+      "firstChapter": 2,
+      "lastChapter": 816,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(238)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "房门",
+      "mentions": 85,
+      "firstChapter": 3,
+      "lastChapter": 914,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "金物品",
+      "mentions": 112,
+      "firstChapter": 32,
+      "lastChapter": 856,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "范围",
+      "mentions": 78,
+      "firstChapter": 25,
+      "lastChapter": 887,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "高阶奥",
+      "mentions": 107,
+      "firstChapter": 190,
+      "lastChapter": 800,
+      "chapterCount": 66,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "毛笔",
+      "mentions": 82,
+      "firstChapter": 11,
+      "lastChapter": 902,
+      "chapterCount": 64,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "乐家协",
+      "mentions": 132,
+      "firstChapter": 9,
+      "lastChapter": 856,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(132)"
+      ]
+    },
+    {
+      "name": "乐会",
+      "mentions": 135,
+      "firstChapter": 10,
+      "lastChapter": 856,
+      "chapterCount": 62,
+      "markers": [
+        "姓名候选(135)"
+      ]
+    },
+    {
+      "name": "乐曲",
+      "mentions": 160,
+      "firstChapter": 21,
+      "lastChapter": 743,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(160)"
+      ]
+    },
+    {
+      "name": "相对论",
+      "mentions": 131,
+      "firstChapter": 360,
+      "lastChapter": 830,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(131)"
+      ]
+    },
+    {
+      "name": "谢谢你",
+      "mentions": 77,
+      "firstChapter": 12,
+      "lastChapter": 854,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(77)"
+      ]
+    },
+    {
+      "name": "权威",
+      "mentions": 73,
+      "firstChapter": 61,
+      "lastChapter": 830,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(73)"
+      ]
+    },
+    {
+      "name": "钟后",
+      "mentions": 68,
+      "firstChapter": 3,
+      "lastChapter": 912,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(68)"
+      ]
+    },
+    {
+      "name": "习魔法",
+      "mentions": 99,
+      "firstChapter": 7,
+      "lastChapter": 902,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(99)"
+      ]
+    },
+    {
+      "name": "应该有",
+      "mentions": 60,
+      "firstChapter": 23,
+      "lastChapter": 910,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(60)"
+      ]
+    },
+    {
+      "name": "高阶",
+      "mentions": 68,
+      "firstChapter": 74,
+      "lastChapter": 894,
+      "chapterCount": 59,
+      "markers": [
+        "姓名候选(68)"
+      ]
+    },
+    {
+      "name": "利弗",
+      "mentions": 106,
+      "firstChapter": 43,
+      "lastChapter": 910,
+      "chapterCount": 58,
+      "markers": [
+        "姓名候选(106)"
+      ]
+    },
+    {
+      "name": "文字",
+      "mentions": 86,
+      "firstChapter": 8,
+      "lastChapter": 906,
+      "chapterCount": 58,
+      "markers": [
+        "姓名候选(86)"
+      ]
+    },
+    {
+      "name": "水晶球",
+      "mentions": 145,
+      "firstChapter": 25,
+      "lastChapter": 916,
+      "chapterCount": 57,
+      "markers": [
+        "姓名候选(145)"
+      ]
+    },
+    {
+      "name": "融合",
+      "mentions": 84,
+      "firstChapter": 51,
+      "lastChapter": 875,
+      "chapterCount": 57,
+      "markers": [
+        "姓名候选(84)"
+      ]
+    },
+    {
+      "name": "庄园",
+      "mentions": 70,
+      "firstChapter": 1,
+      "lastChapter": 912,
+      "chapterCount": 56,
+      "markers": [
+        "姓名候选(70)"
+      ]
+    },
+    {
+      "name": "时代",
+      "mentions": 73,
+      "firstChapter": 1,
+      "lastChapter": 898,
+      "chapterCount": 55,
+      "markers": [
+        "姓名候选(73)"
+      ]
+    },
+    {
+      "name": "金塔勒",
+      "mentions": 120,
+      "firstChapter": 10,
+      "lastChapter": 905,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(120)"
+      ]
+    },
+    {
+      "name": "解决",
+      "mentions": 63,
+      "firstChapter": 39,
+      "lastChapter": 877,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "宫殿",
+      "mentions": 74,
+      "firstChapter": 77,
+      "lastChapter": 913,
+      "chapterCount": 53,
+      "markers": [
+        "姓名候选(74)"
+      ]
+    },
+    {
+      "name": "康格斯",
+      "mentions": 217,
+      "firstChapter": 155,
+      "lastChapter": 916,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(216)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "黄金骑",
+      "mentions": 80,
+      "firstChapter": 34,
+      "lastChapter": 899,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(80)"
+      ]
+    },
+    {
+      "name": "权杖",
+      "mentions": 78,
+      "firstChapter": 131,
+      "lastChapter": 825,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "明正大",
+      "mentions": 61,
+      "firstChapter": 17,
+      "lastChapter": 917,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(61)"
+      ]
+    },
+    {
+      "name": "荣耀",
+      "mentions": 60,
+      "firstChapter": 8,
+      "lastChapter": 876,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(60)"
+      ]
+    },
+    {
+      "name": "严重",
+      "mentions": 57,
+      "firstChapter": 6,
+      "lastChapter": 914,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "房内",
+      "mentions": 57,
+      "firstChapter": 81,
+      "lastChapter": 915,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "明白自",
+      "mentions": 56,
+      "firstChapter": 24,
+      "lastChapter": 917,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "习惯性",
+      "mentions": 52,
+      "firstChapter": 1,
+      "lastChapter": 913,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "游诗人",
+      "mentions": 87,
+      "firstChapter": 2,
+      "lastChapter": 909,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(87)"
+      ]
+    },
+    {
+      "name": "颜色",
+      "mentions": 54,
+      "firstChapter": 15,
+      "lastChapter": 875,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(54)"
+      ]
+    },
+    {
+      "name": "安排",
+      "mentions": 55,
+      "firstChapter": 8,
+      "lastChapter": 905,
+      "chapterCount": 50,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "古魔鬼",
+      "mentions": 166,
+      "firstChapter": 392,
+      "lastChapter": 854,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(166)"
+      ]
+    },
+    {
+      "name": "鲁克",
+      "mentions": 77,
+      "firstChapter": 220,
+      "lastChapter": 821,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(77)"
+      ]
+    },
+    {
+      "name": "林特",
+      "mentions": 71,
+      "firstChapter": 170,
+      "lastChapter": 800,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(71)"
+      ]
+    },
+    {
+      "name": "包裹",
+      "mentions": 53,
+      "firstChapter": 51,
+      "lastChapter": 915,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "沙赫兰",
+      "mentions": 117,
+      "firstChapter": 100,
+      "lastChapter": 916,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "边缘",
+      "mentions": 52,
+      "firstChapter": 6,
+      "lastChapter": 908,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "应该能",
+      "mentions": 49,
+      "firstChapter": 17,
+      "lastChapter": 901,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "符号",
+      "mentions": 65,
+      "firstChapter": 8,
+      "lastChapter": 900,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(65)"
+      ]
+    },
+    {
+      "name": "金术",
+      "mentions": 92,
+      "firstChapter": 350,
+      "lastChapter": 810,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(92)"
+      ]
+    },
+    {
+      "name": "师管理",
+      "mentions": 73,
+      "firstChapter": 185,
+      "lastChapter": 718,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(73)"
+      ]
+    },
+    {
+      "name": "左手",
+      "mentions": 65,
+      "firstChapter": 55,
+      "lastChapter": 912,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(65)"
+      ]
+    },
+    {
+      "name": "古代传",
+      "mentions": 54,
+      "firstChapter": 23,
+      "lastChapter": 877,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(54)"
+      ]
+    },
+    {
+      "name": "费时间",
+      "mentions": 50,
+      "firstChapter": 14,
+      "lastChapter": 867,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "师来说",
+      "mentions": 50,
+      "firstChapter": 25,
+      "lastChapter": 900,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "时空",
+      "mentions": 56,
+      "firstChapter": 25,
+      "lastChapter": 899,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "相信你",
+      "mentions": 54,
+      "firstChapter": 28,
+      "lastChapter": 911,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(54)"
+      ]
+    },
+    {
+      "name": "相同",
+      "mentions": 50,
+      "firstChapter": 20,
+      "lastChapter": 877,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "马尔迪",
+      "mentions": 144,
+      "firstChapter": 434,
+      "lastChapter": 915,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(144)"
+      ]
+    },
+    {
+      "name": "金生命",
+      "mentions": 62,
+      "firstChapter": 160,
+      "lastChapter": 882,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "关注",
+      "mentions": 51,
+      "firstChapter": 43,
+      "lastChapter": 894,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(51)"
+      ]
+    },
+    {
+      "name": "相信自",
+      "mentions": 47,
+      "firstChapter": 12,
+      "lastChapter": 917,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(47)"
+      ]
+    },
+    {
+      "name": "周期表",
+      "mentions": 106,
+      "firstChapter": 198,
+      "lastChapter": 828,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(106)"
+      ]
+    },
+    {
+      "name": "乔尔叔",
+      "mentions": 87,
+      "firstChapter": 2,
+      "lastChapter": 816,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(87)"
+      ]
+    },
+    {
+      "name": "白灰色",
+      "mentions": 73,
+      "firstChapter": 122,
+      "lastChapter": 888,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(73)"
+      ]
+    },
+    {
+      "name": "施法材",
+      "mentions": 63,
+      "firstChapter": 7,
+      "lastChapter": 829,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "山脉",
+      "mentions": 52,
+      "firstChapter": 8,
+      "lastChapter": 901,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "全无法",
+      "mentions": 47,
+      "firstChapter": 16,
+      "lastChapter": 908,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(47)"
+      ]
+    },
+    {
+      "name": "高礼帽",
+      "mentions": 48,
+      "firstChapter": 195,
+      "lastChapter": 828,
+      "chapterCount": 41,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "明显",
+      "mentions": 44,
+      "firstChapter": 3,
+      "lastChapter": 899,
+      "chapterCount": 41,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "马车",
+      "mentions": 57,
+      "firstChapter": 19,
+      "lastChapter": 904,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "高荣誉",
+      "mentions": 50,
+      "firstChapter": 134,
+      "lastChapter": 828,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "师费尔",
+      "mentions": 46,
+      "firstChapter": 194,
+      "lastChapter": 793,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(46)"
+      ]
+    },
+    {
+      "name": "谢谢您",
+      "mentions": 45,
+      "firstChapter": 23,
+      "lastChapter": 848,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(45)"
+      ]
+    },
+    {
+      "name": "应该已",
+      "mentions": 42,
+      "firstChapter": 52,
+      "lastChapter": 911,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(42)"
+      ]
+    },
+    {
+      "name": "任何人",
+      "mentions": 41,
+      "firstChapter": 30,
+      "lastChapter": 869,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(41)"
+      ]
+    },
+    {
+      "name": "时光之",
+      "mentions": 90,
+      "firstChapter": 509,
+      "lastChapter": 901,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(90)"
+      ]
+    },
+    {
+      "name": "解析",
+      "mentions": 44,
+      "firstChapter": 28,
+      "lastChapter": 842,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "容易",
+      "mentions": 39,
+      "firstChapter": 18,
+      "lastChapter": 914,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(39)"
+      ]
+    },
+    {
+      "name": "高兴",
+      "mentions": 43,
+      "firstChapter": 9,
+      "lastChapter": 902,
+      "chapterCount": 38,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "安提弗",
+      "mentions": 65,
+      "firstChapter": 4,
+      "lastChapter": 891,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(65)"
+      ]
+    },
+    {
+      "name": "金钱",
+      "mentions": 50,
+      "firstChapter": 11,
+      "lastChapter": 910,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(50)"
       ]
     },
     {
@@ -61,706 +1353,528 @@
       ]
     },
     {
-      "name": "娜塔莎",
-      "mentions": 36,
-      "firstChapter": 64,
-      "lastChapter": 816,
-      "chapterCount": 32,
+      "name": "习惯",
+      "mentions": 39,
+      "firstChapter": 11,
+      "lastChapter": 905,
+      "chapterCount": 37,
       "markers": [
-        "人物行为/发言(36)"
+        "姓名候选(39)"
       ]
     },
     {
-      "name": "费尔南多",
-      "mentions": 20,
-      "firstChapter": 327,
-      "lastChapter": 891,
-      "chapterCount": 19,
+      "name": "应该没",
+      "mentions": 37,
+      "firstChapter": 7,
+      "lastChapter": 905,
+      "chapterCount": 37,
       "markers": [
-        "人物行为/发言(20)"
+        "姓名候选(37)"
       ]
     },
     {
-      "name": "莱茵",
-      "mentions": 17,
-      "firstChapter": 50,
-      "lastChapter": 784,
-      "chapterCount": 12,
+      "name": "白之角",
+      "mentions": 86,
+      "firstChapter": 34,
+      "lastChapter": 827,
+      "chapterCount": 36,
       "markers": [
-        "人物行为/发言(17)"
+        "姓名候选(86)"
       ]
     },
     {
-      "name": "奥利弗",
-      "mentions": 15,
-      "firstChapter": 437,
-      "lastChapter": 821,
-      "chapterCount": 12,
-      "markers": [
-        "人物行为/发言(15)"
-      ]
-    },
-    {
-      "name": "拉扎尔",
-      "mentions": 7,
-      "firstChapter": 184,
-      "lastChapter": 579,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(7)"
-      ]
-    },
-    {
-      "name": "内心",
-      "mentions": 5,
-      "firstChapter": 218,
-      "lastChapter": 842,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "尤里斯安",
-      "mentions": 6,
-      "firstChapter": 552,
-      "lastChapter": 752,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "约翰",
-      "mentions": 4,
-      "firstChapter": 17,
-      "lastChapter": 856,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "加斯东",
-      "mentions": 4,
-      "firstChapter": 209,
-      "lastChapter": 531,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "莫里斯",
-      "mentions": 4,
-      "firstChapter": 231,
-      "lastChapter": 602,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "弗朗西斯",
-      "mentions": 4,
-      "firstChapter": 469,
-      "lastChapter": 480,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "海蒂",
-      "mentions": 4,
-      "firstChapter": 596,
-      "lastChapter": 665,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "萨尔德",
-      "mentions": 6,
-      "firstChapter": 135,
-      "lastChapter": 556,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "阿斯塔尔",
-      "mentions": 6,
+      "name": "广义相",
+      "mentions": 66,
       "firstChapter": 169,
-      "lastChapter": 173,
-      "chapterCount": 3,
+      "lastChapter": 827,
+      "chapterCount": 36,
       "markers": [
-        "人物行为/发言(6)"
+        "姓名候选(66)"
       ]
     },
     {
-      "name": "唐尼",
-      "mentions": 4,
-      "firstChapter": 828,
-      "lastChapter": 851,
-      "chapterCount": 3,
+      "name": "霍芬伯",
+      "mentions": 65,
+      "firstChapter": 130,
+      "lastChapter": 917,
+      "chapterCount": 36,
       "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "安诺德",
-      "mentions": 4,
-      "firstChapter": 873,
-      "lastChapter": 882,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "罗杰里奥",
-      "mentions": 3,
-      "firstChapter": 199,
-      "lastChapter": 229,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "亚当",
-      "mentions": 3,
-      "firstChapter": 315,
-      "lastChapter": 321,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "汤谱",
-      "mentions": 3,
-      "firstChapter": 328,
-      "lastChapter": 614,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "阿特兰特",
-      "mentions": 3,
-      "firstChapter": 360,
-      "lastChapter": 677,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "弗洛伦莎",
-      "mentions": 3,
-      "firstChapter": 438,
-      "lastChapter": 602,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "阿里",
-      "mentions": 3,
-      "firstChapter": 723,
-      "lastChapter": 735,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "卡尔",
-      "mentions": 3,
-      "firstChapter": 835,
-      "lastChapter": 854,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "罗兰",
-      "mentions": 3,
-      "firstChapter": 862,
-      "lastChapter": 865,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "安泰克",
-      "mentions": 3,
-      "firstChapter": 889,
-      "lastChapter": 896,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "艾勒丝汀",
-      "mentions": 3,
-      "firstChapter": 691,
-      "lastChapter": 696,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "蕾切尔",
-      "mentions": 3,
-      "firstChapter": 696,
-      "lastChapter": 768,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(3)"
+        "姓名候选(65)"
       ]
     },
     {
       "name": "乔尔",
-      "mentions": 2,
+      "mentions": 58,
+      "firstChapter": 2,
+      "lastChapter": 816,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(56)",
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "花园别",
+      "mentions": 44,
+      "firstChapter": 71,
+      "lastChapter": 461,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "相比",
+      "mentions": 39,
+      "firstChapter": 8,
+      "lastChapter": 884,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(39)"
+      ]
+    },
+    {
+      "name": "高高在",
+      "mentions": 38,
       "firstChapter": 17,
-      "lastChapter": 592,
-      "chapterCount": 2,
+      "lastChapter": 855,
+      "chapterCount": 36,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(38)"
       ]
     },
     {
-      "name": "怀斯",
-      "mentions": 2,
-      "firstChapter": 137,
-      "lastChapter": 150,
-      "chapterCount": 2,
+      "name": "后道",
+      "mentions": 38,
+      "firstChapter": 132,
+      "lastChapter": 906,
+      "chapterCount": 36,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(38)"
       ]
     },
     {
-      "name": "路西恩轻",
-      "mentions": 2,
-      "firstChapter": 153,
-      "lastChapter": 188,
-      "chapterCount": 2,
+      "name": "文第",
+      "mentions": 53,
+      "firstChapter": 210,
+      "lastChapter": 650,
+      "chapterCount": 35,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(53)"
       ]
     },
     {
-      "name": "不由",
-      "mentions": 2,
-      "firstChapter": 166,
-      "lastChapter": 191,
-      "chapterCount": 2,
+      "name": "施法缓",
+      "mentions": 51,
+      "firstChapter": 89,
+      "lastChapter": 764,
+      "chapterCount": 35,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(51)"
       ]
     },
     {
-      "name": "蕾依丽雅",
-      "mentions": 2,
-      "firstChapter": 171,
-      "lastChapter": 753,
-      "chapterCount": 2,
+      "name": "武器",
+      "mentions": 47,
+      "firstChapter": 25,
+      "lastChapter": 805,
+      "chapterCount": 35,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(47)"
       ]
     },
     {
-      "name": "暗自",
-      "mentions": 2,
+      "name": "成立",
+      "mentions": 43,
+      "firstChapter": 159,
+      "lastChapter": 830,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "施展神",
+      "mentions": 41,
+      "firstChapter": 4,
+      "lastChapter": 880,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(41)"
+      ]
+    },
+    {
+      "name": "常识",
+      "mentions": 39,
+      "firstChapter": 4,
+      "lastChapter": 900,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(39)"
+      ]
+    },
+    {
+      "name": "应用",
+      "mentions": 38,
+      "firstChapter": 43,
+      "lastChapter": 841,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(38)"
+      ]
+    },
+    {
+      "name": "边无际",
+      "mentions": 37,
+      "firstChapter": 1,
+      "lastChapter": 915,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(37)"
+      ]
+    },
+    {
+      "name": "明亮",
+      "mentions": 36,
+      "firstChapter": 23,
+      "lastChapter": 798,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "全身心",
+      "mentions": 36,
+      "firstChapter": 50,
+      "lastChapter": 900,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "鲁克阁",
+      "mentions": 55,
+      "firstChapter": 196,
+      "lastChapter": 822,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "周一求",
+      "mentions": 42,
+      "firstChapter": 13,
+      "lastChapter": 818,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(42)"
+      ]
+    },
+    {
+      "name": "索世界",
+      "mentions": 38,
+      "firstChapter": 7,
+      "lastChapter": 863,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(38)"
+      ]
+    },
+    {
+      "name": "常好",
+      "mentions": 35,
+      "firstChapter": 6,
+      "lastChapter": 870,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "怀疑自",
+      "mentions": 34,
+      "firstChapter": 44,
+      "lastChapter": 851,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "成长起",
+      "mentions": 34,
+      "firstChapter": 155,
+      "lastChapter": 872,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "王子",
+      "mentions": 72,
+      "firstChapter": 107,
+      "lastChapter": 781,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(72)"
+      ]
+    },
+    {
+      "name": "白金权",
+      "mentions": 56,
+      "firstChapter": 224,
+      "lastChapter": 916,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "巫妖",
+      "mentions": 49,
+      "firstChapter": 155,
+      "lastChapter": 914,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "仇者",
+      "mentions": 47,
+      "firstChapter": 34,
+      "lastChapter": 821,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(47)"
+      ]
+    },
+    {
+      "name": "时光",
+      "mentions": 39,
+      "firstChapter": 94,
+      "lastChapter": 898,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(39)"
+      ]
+    },
+    {
+      "name": "容貌",
+      "mentions": 37,
+      "firstChapter": 64,
+      "lastChapter": 874,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(37)"
+      ]
+    },
+    {
+      "name": "白光芒",
+      "mentions": 35,
+      "firstChapter": 130,
+      "lastChapter": 825,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "时间一",
+      "mentions": 33,
+      "firstChapter": 31,
+      "lastChapter": 880,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(33)"
+      ]
+    },
+    {
+      "name": "简意赅",
+      "mentions": 33,
+      "firstChapter": 110,
+      "lastChapter": 871,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(33)"
+      ]
+    },
+    {
+      "name": "艾勒丝",
+      "mentions": 150,
       "firstChapter": 221,
-      "lastChapter": 693,
-      "chapterCount": 2,
+      "lastChapter": 841,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(150)"
       ]
     },
     {
-      "name": "雷欧",
-      "mentions": 2,
-      "firstChapter": 269,
-      "lastChapter": 281,
-      "chapterCount": 2,
+      "name": "艾琳娜",
+      "mentions": 133,
+      "firstChapter": 10,
+      "lastChapter": 296,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(133)"
       ]
     },
     {
-      "name": "纷纷",
-      "mentions": 2,
-      "firstChapter": 317,
-      "lastChapter": 751,
-      "chapterCount": 2,
+      "name": "艾丽卡",
+      "mentions": 88,
+      "firstChapter": 554,
+      "lastChapter": 915,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(87)",
+        "人物行为/发言(1)"
       ]
     },
     {
-      "name": "卡特里娜",
-      "mentions": 2,
-      "firstChapter": 343,
-      "lastChapter": 636,
-      "chapterCount": 2,
+      "name": "时间停",
+      "mentions": 59,
+      "firstChapter": 226,
+      "lastChapter": 881,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(59)"
       ]
     },
     {
-      "name": "拜尔",
-      "mentions": 2,
-      "firstChapter": 397,
-      "lastChapter": 401,
-      "chapterCount": 2,
+      "name": "水晶灯",
+      "mentions": 55,
+      "firstChapter": 368,
+      "lastChapter": 834,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(55)"
       ]
     },
     {
-      "name": "詹姆斯",
-      "mentions": 2,
-      "firstChapter": 420,
-      "lastChapter": 556,
-      "chapterCount": 2,
+      "name": "高阶骑",
+      "mentions": 48,
+      "firstChapter": 5,
+      "lastChapter": 752,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(48)"
       ]
     },
     {
-      "name": "列夫斯基",
-      "mentions": 2,
-      "firstChapter": 437,
-      "lastChapter": 438,
-      "chapterCount": 2,
+      "name": "娜塔莎",
+      "mentions": 37,
+      "firstChapter": 64,
+      "lastChapter": 816,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "人物行为/发言(37)"
       ]
     },
     {
-      "name": "埃尔",
-      "mentions": 2,
-      "firstChapter": 473,
-      "lastChapter": 503,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "奥菲莉亚",
-      "mentions": 2,
-      "firstChapter": 534,
-      "lastChapter": 577,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "奥菲莉亚浅",
-      "mentions": 2,
-      "firstChapter": 545,
-      "lastChapter": 546,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "本笃三世",
-      "mentions": 2,
-      "firstChapter": 571,
-      "lastChapter": 742,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "贝格纳",
-      "mentions": 2,
-      "firstChapter": 583,
-      "lastChapter": 651,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "布鲁克",
-      "mentions": 2,
-      "firstChapter": 599,
-      "lastChapter": 656,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "维肯",
-      "mentions": 2,
-      "firstChapter": 648,
-      "lastChapter": 823,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "阿格莱亚",
-      "mentions": 2,
-      "firstChapter": 686,
-      "lastChapter": 690,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "安娜",
-      "mentions": 2,
-      "firstChapter": 709,
-      "lastChapter": 712,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "路易丝",
-      "mentions": 2,
-      "firstChapter": 724,
-      "lastChapter": 788,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "路西恩对道格拉斯",
-      "mentions": 2,
-      "firstChapter": 746,
-      "lastChapter": 747,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "故意",
-      "mentions": 2,
-      "firstChapter": 752,
-      "lastChapter": 891,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "布雷恩",
-      "mentions": 2,
-      "firstChapter": 752,
-      "lastChapter": 755,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "圣徒卡蒂",
-      "mentions": 2,
-      "firstChapter": 808,
-      "lastChapter": 813,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "老板",
-      "mentions": 2,
-      "firstChapter": 828,
-      "lastChapter": 829,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "弗兰克斯",
-      "mentions": 4,
-      "firstChapter": 570,
-      "lastChapter": 570,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "奥菲利亚",
-      "mentions": 3,
-      "firstChapter": 534,
-      "lastChapter": 534,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "汤姆",
-      "mentions": 2,
-      "firstChapter": 170,
-      "lastChapter": 170,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "伍兹",
-      "mentions": 2,
-      "firstChapter": 228,
-      "lastChapter": 228,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "金坷垃",
-      "mentions": 2,
-      "firstChapter": 240,
-      "lastChapter": 240,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "克里斯多夫",
-      "mentions": 2,
-      "firstChapter": 287,
-      "lastChapter": 287,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "侍女",
-      "mentions": 2,
-      "firstChapter": 514,
-      "lastChapter": 514,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "克劳斯",
-      "mentions": 2,
-      "firstChapter": 617,
-      "lastChapter": 617,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "邮差",
-      "mentions": 2,
-      "firstChapter": 649,
-      "lastChapter": 649,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "决定论",
-      "mentions": 2,
-      "firstChapter": 655,
-      "lastChapter": 655,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "兰希尔",
-      "mentions": 2,
-      "firstChapter": 676,
-      "lastChapter": 676,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "玛法里奥",
-      "mentions": 2,
-      "firstChapter": 677,
-      "lastChapter": 677,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "老者",
-      "mentions": 2,
-      "firstChapter": 806,
-      "lastChapter": 806,
-      "chapterCount": 1,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "安德鲁",
-      "mentions": 2,
-      "firstChapter": 905,
+      "name": "步一步",
+      "mentions": 34,
+      "firstChapter": 24,
       "lastChapter": 905,
-      "chapterCount": 1,
+      "chapterCount": 32,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "常危险",
+      "mentions": 33,
+      "firstChapter": 6,
+      "lastChapter": 839,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(33)"
+      ]
+    },
+    {
+      "name": "常清楚",
+      "mentions": 33,
+      "firstChapter": 22,
+      "lastChapter": 814,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(33)"
+      ]
+    },
+    {
+      "name": "相信他",
+      "mentions": 32,
+      "firstChapter": 5,
+      "lastChapter": 905,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(32)"
+      ]
+    },
+    {
+      "name": "任何事",
+      "mentions": 32,
+      "firstChapter": 17,
+      "lastChapter": 899,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(32)"
+      ]
+    },
+    {
+      "name": "时变得",
+      "mentions": 32,
+      "firstChapter": 23,
+      "lastChapter": 905,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(32)"
+      ]
+    },
+    {
+      "name": "莫名",
+      "mentions": 32,
+      "firstChapter": 115,
+      "lastChapter": 917,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(32)"
+      ]
+    },
+    {
+      "name": "鲁道夫",
+      "mentions": 110,
+      "firstChapter": 396,
+      "lastChapter": 898,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(110)"
       ]
     }
   ],
   "relations": [
     {
-      "source": "娜塔莎",
+      "source": "伊文斯",
       "target": "路西恩",
-      "mentions": 1436,
-      "firstChapter": 28,
-      "lastChapter": 843,
+      "mentions": 1072,
+      "firstChapter": 1,
+      "lastChapter": 855,
       "markers": [
-        "同章共现(1297)",
-        "朋友(35)",
-        "老师(24)",
-        "保护(18)",
-        "父亲(16)",
-        "敌人(12)",
-        "学生(8)",
-        "追杀(8)"
+        "同章共现(941)",
+        "老师(40)",
+        "学生(27)",
+        "朋友(21)",
+        "合作(10)",
+        "保护(10)",
+        "同伴(7)",
+        "队长(6)"
       ]
     },
     {
-      "source": "费尔南多",
+      "source": "费尔南",
       "target": "路西恩",
       "mentions": 500,
       "firstChapter": 200,
@@ -777,123 +1891,439 @@
       ]
     },
     {
-      "source": "莱茵",
-      "target": "路西恩",
-      "mentions": 447,
-      "firstChapter": 9,
-      "lastChapter": 810,
+      "source": "高阶",
+      "target": "高阶魔",
+      "mentions": 407,
+      "firstChapter": 24,
+      "lastChapter": 911,
       "markers": [
-        "同章共现(420)",
-        "老师(8)",
-        "朋友(5)",
-        "敌人(5)",
-        "学生(4)",
-        "母亲(2)",
-        "合作(2)",
-        "追杀(2)"
-      ]
-    },
-    {
-      "source": "费尔南多",
-      "target": "道格拉斯",
-      "mentions": 423,
-      "firstChapter": 220,
-      "lastChapter": 917,
-      "markers": [
-        "同章共现(377)",
-        "老师(15)",
-        "合作(11)",
-        "学生(8)",
-        "朋友(5)",
-        "敌人(2)",
-        "队长(2)",
-        "命令(2)"
+        "同章共现(354)",
+        "学生(15)",
+        "老师(9)",
+        "敌人(7)",
+        "朋友(6)",
+        "合作(4)",
+        "同伴(3)",
+        "弟子(3)"
       ]
     },
     {
       "source": "路西恩",
-      "target": "道格拉斯",
-      "mentions": 346,
-      "firstChapter": 24,
-      "lastChapter": 855,
+      "target": "高阶",
+      "mentions": 341,
+      "firstChapter": 4,
+      "lastChapter": 807,
       "markers": [
-        "同章共现(308)",
-        "老师(18)",
-        "学生(10)",
-        "合作(4)",
+        "同章共现(316)",
+        "老师(13)",
+        "学生(4)",
         "朋友(3)",
-        "对手(2)",
-        "敌人(1)",
-        "下属(1)"
+        "队长(3)",
+        "父亲(2)",
+        "追杀(2)",
+        "同伴(1)"
       ]
     },
     {
-      "source": "拉扎尔",
+      "source": "危险",
       "target": "路西恩",
-      "mentions": 256,
-      "firstChapter": 182,
-      "lastChapter": 786,
+      "mentions": 334,
+      "firstChapter": 3,
+      "lastChapter": 810,
       "markers": [
-        "同章共现(225)",
-        "朋友(19)",
-        "老师(11)",
-        "学生(3)",
+        "同章共现(290)",
+        "老师(15)",
+        "学生(7)",
+        "敌人(6)",
+        "朋友(4)",
+        "追杀(4)",
+        "保护(3)",
         "同伴(2)"
       ]
     },
     {
-      "source": "约翰",
+      "source": "乐家",
       "target": "路西恩",
-      "mentions": 249,
-      "firstChapter": 12,
-      "lastChapter": 856,
+      "mentions": 325,
+      "firstChapter": 2,
+      "lastChapter": 779,
       "markers": [
-        "同章共现(210)",
-        "朋友(23)",
-        "保护(5)",
-        "父亲(4)",
-        "学生(3)",
-        "老师(3)",
-        "同伴(2)",
-        "儿子(1)"
+        "同章共现(268)",
+        "学生(19)",
+        "朋友(15)",
+        "老师(14)",
+        "同伴(3)",
+        "弟子(3)",
+        "父亲(3)",
+        "保护(3)"
       ]
     },
     {
-      "source": "内心",
+      "source": "方面",
       "target": "路西恩",
-      "mentions": 237,
-      "firstChapter": 2,
-      "lastChapter": 829,
+      "mentions": 320,
+      "firstChapter": 3,
+      "lastChapter": 824,
       "markers": [
-        "同章共现(214)",
-        "老师(8)",
-        "朋友(5)",
+        "同章共现(285)",
+        "老师(17)",
+        "学生(10)",
+        "同伴(4)",
+        "朋友(4)",
         "敌人(3)",
-        "追杀(2)",
-        "背叛(2)",
-        "学生(1)",
+        "保护(1)",
         "弟子(1)"
       ]
     },
     {
-      "source": "乔尔",
+      "source": "施展",
       "target": "路西恩",
-      "mentions": 180,
-      "firstChapter": 2,
-      "lastChapter": 816,
+      "mentions": 283,
+      "firstChapter": 4,
+      "lastChapter": 825,
       "markers": [
-        "同章共现(145)",
-        "朋友(9)",
-        "学生(7)",
-        "合作(6)",
-        "老师(5)",
-        "父亲(4)",
-        "保护(4)",
-        "敌人(3)"
+        "同章共现(277)",
+        "敌人(3)",
+        "保护(2)",
+        "背叛(1)"
       ]
     },
     {
-      "source": "奥利弗",
+      "source": "路西恩",
+      "target": "霍尔姆",
+      "mentions": 279,
+      "firstChapter": 12,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(252)",
+        "朋友(7)",
+        "老师(6)",
+        "学生(3)",
+        "母亲(2)",
+        "保护(2)",
+        "父亲(2)",
+        "合作(2)"
+      ]
+    },
+    {
+      "source": "相信",
+      "target": "路西恩",
+      "mentions": 274,
+      "firstChapter": 1,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(234)",
+        "老师(10)",
+        "朋友(6)",
+        "学生(6)",
+        "保护(4)",
+        "合作(3)",
+        "同伴(3)",
+        "敌人(2)"
+      ]
+    },
+    {
+      "source": "周围",
+      "target": "路西恩",
+      "mentions": 273,
+      "firstChapter": 4,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(263)",
+        "老师(4)",
+        "保护(2)",
+        "追杀(1)",
+        "敌人(1)",
+        "合作(1)",
+        "弟子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "左手",
+      "target": "路西恩",
+      "mentions": 249,
+      "firstChapter": 4,
+      "lastChapter": 763,
+      "markers": [
+        "同章共现(239)",
+        "保护(2)",
+        "敌人(1)",
+        "朋友(1)",
+        "合作(1)",
+        "追杀(1)",
+        "背叛(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "王国",
+      "target": "霍尔姆",
+      "mentions": 249,
+      "firstChapter": 12,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(227)",
+        "母亲(6)",
+        "父亲(5)",
+        "女儿(3)",
+        "老师(2)",
+        "朋友(2)",
+        "保护(2)",
+        "合作(2)"
+      ]
+    },
+    {
+      "source": "费利佩",
+      "target": "路西恩",
+      "mentions": 232,
+      "firstChapter": 147,
+      "lastChapter": 678,
+      "markers": [
+        "同章共现(210)",
+        "老师(6)",
+        "敌人(4)",
+        "合作(3)",
+        "学生(3)",
+        "追杀(2)",
+        "对手(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "林厄",
+      "target": "路西恩",
+      "mentions": 213,
+      "firstChapter": 117,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(179)",
+        "老师(21)",
+        "学生(5)",
+        "朋友(3)",
+        "保护(3)",
+        "母亲(1)",
+        "父亲(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "怀疑",
+      "target": "路西恩",
+      "mentions": 208,
+      "firstChapter": 3,
+      "lastChapter": 828,
+      "markers": [
+        "同章共现(190)",
+        "老师(8)",
+        "朋友(3)",
+        "追杀(2)",
+        "合作(1)",
+        "弟子(1)",
+        "对手(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "安静",
+      "target": "路西恩",
+      "mentions": 206,
+      "firstChapter": 2,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(197)",
+        "老师(3)",
+        "朋友(2)",
+        "敌人(2)",
+        "队长(1)",
+        "对手(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "冷静",
+      "target": "路西恩",
+      "mentions": 202,
+      "firstChapter": 2,
+      "lastChapter": 809,
+      "markers": [
+        "同章共现(189)",
+        "敌人(4)",
+        "学生(3)",
+        "同伴(3)",
+        "交易(1)",
+        "合作(1)",
+        "保护(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "乐会",
+      "target": "路西恩",
+      "mentions": 191,
+      "firstChapter": 10,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(161)",
+        "朋友(10)",
+        "老师(8)",
+        "学生(7)",
+        "父亲(3)",
+        "同伴(2)",
+        "弟子(2)",
+        "保护(2)"
+      ]
+    },
+    {
+      "source": "程度",
+      "target": "路西恩",
+      "mentions": 187,
+      "firstChapter": 7,
+      "lastChapter": 782,
+      "markers": [
+        "同章共现(165)",
+        "老师(8)",
+        "敌人(4)",
+        "合作(3)",
+        "交易(2)",
+        "弟子(2)",
+        "学生(2)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "路西恩",
+      "mentions": 179,
+      "firstChapter": 36,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(170)",
+        "老师(5)",
+        "弟子(2)",
+        "朋友(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "时空",
+      "target": "路西恩",
+      "mentions": 179,
+      "firstChapter": 174,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(171)",
+        "合作(2)",
+        "追杀(1)",
+        "上司(1)",
+        "盟友(1)",
+        "对手(1)",
+        "敌人(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "成功",
+      "target": "路西恩",
+      "mentions": 173,
+      "firstChapter": 7,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(147)",
+        "老师(7)",
+        "朋友(6)",
+        "弟子(3)",
+        "学生(3)",
+        "合作(2)",
+        "背叛(2)",
+        "保护(2)"
+      ]
+    },
+    {
+      "source": "乐曲",
+      "target": "路西恩",
+      "mentions": 173,
+      "firstChapter": 26,
+      "lastChapter": 547,
+      "markers": [
+        "同章共现(151)",
+        "学生(13)",
+        "老师(4)",
+        "弟子(3)",
+        "朋友(3)",
+        "敌人(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "段时间",
+      "target": "路西恩",
+      "mentions": 170,
+      "firstChapter": 10,
+      "lastChapter": 827,
+      "markers": [
+        "同章共现(149)",
+        "老师(9)",
+        "学生(4)",
+        "朋友(3)",
+        "敌人(2)",
+        "保护(1)",
+        "合作(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "严肃",
+      "target": "路西恩",
+      "mentions": 163,
+      "firstChapter": 4,
+      "lastChapter": 819,
+      "markers": [
+        "同章共现(137)",
+        "老师(14)",
+        "学生(8)",
+        "朋友(5)",
+        "弟子(1)",
+        "父亲(1)",
+        "兄弟(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "解决",
+      "target": "路西恩",
+      "mentions": 161,
+      "firstChapter": 10,
+      "lastChapter": 789,
+      "markers": [
+        "同章共现(146)",
+        "老师(9)",
+        "敌人(3)",
+        "保护(1)",
+        "背叛(1)",
+        "追杀(1)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "水准",
+      "target": "路西恩",
+      "mentions": 156,
+      "firstChapter": 22,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(138)",
+        "老师(10)",
+        "学生(4)",
+        "敌人(2)",
+        "背叛(1)",
+        "女儿(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "利弗",
       "target": "路西恩",
       "mentions": 156,
       "firstChapter": 43,
@@ -910,155 +2340,309 @@
       ]
     },
     {
-      "source": "埃尔",
-      "target": "路西恩",
-      "mentions": 152,
-      "firstChapter": 103,
-      "lastChapter": 613,
-      "markers": [
-        "同章共现(143)",
-        "背叛(3)",
-        "命令(3)",
-        "敌人(2)",
-        "追杀(1)",
-        "保护(1)",
-        "老师(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "维肯",
+      "source": "古怪",
       "target": "路西恩",
       "mentions": 148,
-      "firstChapter": 255,
+      "firstChapter": 3,
       "lastChapter": 827,
       "markers": [
-        "同章共现(138)",
-        "合作(3)",
-        "朋友(1)",
-        "背叛(1)",
-        "对手(1)",
-        "交易(1)",
-        "敌人(1)",
-        "盟友(1)"
-      ]
-    },
-    {
-      "source": "卡尔",
-      "target": "唐尼",
-      "mentions": 130,
-      "firstChapter": 834,
-      "lastChapter": 854,
-      "markers": [
-        "同章共现(114)",
-        "导师(6)",
-        "朋友(3)",
-        "老师(2)",
-        "保护(2)",
+        "同章共现(139)",
+        "老师(5)",
         "学生(2)",
-        "母亲(1)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "蕾依丽雅",
-      "mentions": 122,
-      "firstChapter": 170,
-      "lastChapter": 771,
-      "markers": [
-        "同章共现(88)",
-        "老师(24)",
-        "学生(7)",
-        "朋友(4)",
-        "母亲(1)",
-        "同伴(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "路西恩轻",
-      "mentions": 120,
-      "firstChapter": 9,
-      "lastChapter": 810,
-      "markers": [
-        "同章共现(113)",
-        "父亲(2)",
-        "老师(2)",
-        "保护(1)",
-        "朋友(1)",
-        "学生(1)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "雷欧",
-      "mentions": 118,
-      "firstChapter": 258,
-      "lastChapter": 772,
-      "markers": [
-        "同章共现(110)",
-        "朋友(3)",
-        "老师(2)",
         "父亲(1)",
-        "保护(1)",
-        "追杀(1)"
+        "敌人(1)"
       ]
     },
     {
-      "source": "弗朗西斯",
+      "source": "成果",
       "target": "路西恩",
-      "mentions": 112,
-      "firstChapter": 411,
-      "lastChapter": 720,
+      "mentions": 144,
+      "firstChapter": 34,
+      "lastChapter": 830,
       "markers": [
-        "同章共现(104)",
-        "追杀(3)",
+        "同章共现(126)",
+        "老师(10)",
+        "学生(2)",
+        "母亲(2)",
+        "合作(1)",
+        "弟子(1)",
         "同伴(1)",
-        "兄弟(1)",
-        "姐妹(1)",
-        "敌人(1)",
-        "命令(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "萨尔德",
-      "target": "路西恩",
-      "mentions": 110,
-      "firstChapter": 64,
-      "lastChapter": 747,
-      "markers": [
-        "同章共现(88)",
-        "老师(7)",
-        "合作(6)",
-        "朋友(4)",
-        "敌人(2)",
-        "保护(2)",
-        "学生(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "路西恩",
-      "mentions": 109,
-      "firstChapter": 171,
-      "lastChapter": 824,
-      "markers": [
-        "同章共现(75)",
-        "老师(24)",
-        "学生(10)",
-        "母亲(1)",
-        "盟友(1)",
         "朋友(1)"
       ]
     },
     {
-      "source": "布鲁克",
+      "source": "方法",
       "target": "路西恩",
+      "mentions": 136,
+      "firstChapter": 9,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(124)",
+        "老师(6)",
+        "学生(2)",
+        "师父(1)",
+        "弟子(1)",
+        "交易(1)",
+        "敌人(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "方式",
+      "target": "路西恩",
+      "mentions": 135,
+      "firstChapter": 8,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(125)",
+        "老师(5)",
+        "同伴(1)",
+        "父亲(1)",
+        "母亲(1)",
+        "对手(1)",
+        "学生(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "明显",
+      "target": "路西恩",
+      "mentions": 134,
+      "firstChapter": 11,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(120)",
+        "父亲(4)",
+        "保护(3)",
+        "老师(2)",
+        "学生(1)",
+        "敌人(1)",
+        "丈夫(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "艾丽萨",
+      "target": "路西恩",
+      "mentions": 133,
+      "firstChapter": 2,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(118)",
+        "朋友(8)",
+        "学生(4)",
+        "老师(3)",
+        "保护(2)",
+        "儿子(1)",
+        "合作(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "高阶魔",
+      "mentions": 128,
+      "firstChapter": 24,
+      "lastChapter": 807,
+      "markers": [
+        "同章共现(123)",
+        "老师(3)",
+        "同伴(1)",
+        "丈夫(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "满意",
+      "target": "路西恩",
+      "mentions": 127,
+      "firstChapter": 12,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(110)",
+        "学生(6)",
+        "老师(5)",
+        "朋友(2)",
+        "合作(2)",
+        "父亲(1)",
+        "敌人(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "乐家",
+      "target": "乐家协",
+      "mentions": 126,
+      "firstChapter": 9,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(112)",
+        "朋友(6)",
+        "老师(3)",
+        "父亲(2)",
+        "学生(1)",
+        "同伴(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "范围",
+      "target": "路西恩",
+      "mentions": 125,
+      "firstChapter": 16,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(118)",
+        "老师(3)",
+        "敌人(2)",
+        "合作(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "安尼克",
+      "target": "路西恩",
+      "mentions": 122,
+      "firstChapter": 171,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(92)",
+        "老师(15)",
+        "学生(15)",
+        "朋友(2)",
+        "下属(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "高阶",
+      "target": "高阶奥",
+      "mentions": 122,
+      "firstChapter": 190,
+      "lastChapter": 800,
+      "markers": [
+        "同章共现(107)",
+        "老师(6)",
+        "学生(4)",
+        "朋友(2)",
+        "命令(1)",
+        "下属(1)",
+        "弟子(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "王国",
+      "target": "路西恩",
+      "mentions": 120,
+      "firstChapter": 9,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(112)",
+        "老师(4)",
+        "母亲(2)",
+        "弟子(1)",
+        "朋友(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "乐家",
+      "target": "伊文斯",
+      "mentions": 117,
+      "firstChapter": 2,
+      "lastChapter": 854,
+      "markers": [
+        "同章共现(97)",
+        "学生(7)",
+        "朋友(4)",
+        "老师(3)",
+        "父亲(2)",
+        "同伴(2)",
+        "合作(2)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "安尼克",
+      "target": "林特",
+      "mentions": 111,
+      "firstChapter": 171,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(81)",
+        "老师(18)",
+        "学生(10)",
+        "朋友(3)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "成员",
+      "target": "路西恩",
+      "mentions": 110,
+      "firstChapter": 18,
+      "lastChapter": 813,
+      "markers": [
+        "同章共现(90)",
+        "老师(7)",
+        "学生(5)",
+        "合作(4)",
+        "父亲(1)",
+        "母亲(1)",
+        "盟友(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "成员",
+      "target": "高评议",
+      "mentions": 109,
+      "firstChapter": 187,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(96)",
+        "老师(5)",
+        "学生(3)",
+        "盟友(2)",
+        "命令(1)",
+        "朋友(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "林厄",
+      "target": "林厄魔",
+      "mentions": 108,
+      "firstChapter": 193,
+      "lastChapter": 859,
+      "markers": [
+        "同章共现(97)",
+        "老师(6)",
+        "学生(2)",
+        "敌人(1)",
+        "保护(1)",
+        "同伴(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "金术",
+      "mentions": 107,
+      "firstChapter": 25,
+      "lastChapter": 744,
+      "markers": [
+        "同章共现(98)",
+        "老师(5)",
+        "学生(3)",
+        "对手(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "鲁克",
       "mentions": 104,
       "firstChapter": 169,
       "lastChapter": 818,
@@ -1073,216 +2657,451 @@
       ]
     },
     {
-      "source": "故意",
-      "target": "路西恩",
+      "source": "路西恩",
+      "target": "马车",
       "mentions": 103,
-      "firstChapter": 2,
-      "lastChapter": 826,
+      "firstChapter": 10,
+      "lastChapter": 719,
       "markers": [
-        "同章共现(95)",
-        "学生(3)",
-        "老师(3)",
+        "同章共现(97)",
+        "老师(2)",
+        "父亲(1)",
+        "母亲(1)",
         "同伴(1)",
-        "朋友(1)",
-        "上司(1)"
-      ]
-    },
-    {
-      "source": "布鲁克",
-      "target": "道格拉斯",
-      "mentions": 102,
-      "firstChapter": 220,
-      "lastChapter": 815,
-      "markers": [
-        "同章共现(90)",
-        "学生(6)",
-        "老师(3)",
-        "背叛(1)",
-        "敌人(1)",
-        "对手(1)",
-        "妻子(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "乔尔",
-      "target": "约翰",
-      "mentions": 89,
-      "firstChapter": 2,
-      "lastChapter": 816,
-      "markers": [
-        "同章共现(72)",
-        "朋友(5)",
-        "父亲(3)",
-        "老师(3)",
-        "学生(2)",
-        "母亲(2)",
-        "儿子(2)",
+        "队长(1)",
+        "儿子(1)",
         "保护(1)"
       ]
     },
     {
-      "source": "埃尔",
-      "target": "弗朗西斯",
-      "mentions": 87,
-      "firstChapter": 468,
-      "lastChapter": 547,
-      "markers": [
-        "同章共现(82)",
-        "背叛(2)",
-        "合作(2)",
-        "敌人(1)",
-        "追杀(1)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "弗洛伦莎",
+      "source": "任务",
       "target": "路西恩",
-      "mentions": 86,
-      "firstChapter": 217,
-      "lastChapter": 602,
+      "mentions": 102,
+      "firstChapter": 10,
+      "lastChapter": 700,
       "markers": [
-        "同章共现(72)",
-        "老师(5)",
-        "妻子(4)",
-        "丈夫(3)",
-        "学生(2)",
-        "弟子(1)",
+        "同章共现(89)",
+        "老师(7)",
         "合作(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "卡特里娜",
-      "target": "海蒂",
-      "mentions": 76,
-      "firstChapter": 170,
-      "lastChapter": 822,
-      "markers": [
-        "同章共现(46)",
-        "老师(17)",
-        "学生(6)",
-        "朋友(5)",
-        "同伴(2)",
+        "命令(1)",
+        "朋友(1)",
         "弟子(1)",
         "保护(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "范围",
+      "target": "范围内",
+      "mentions": 98,
+      "firstChapter": 16,
+      "lastChapter": 910,
+      "markers": [
+        "同章共现(95)",
+        "敌人(2)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "霍尔姆",
+      "mentions": 97,
+      "firstChapter": 135,
+      "lastChapter": 844,
+      "markers": [
+        "同章共现(84)",
+        "老师(8)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)",
+        "学生(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "安全",
+      "target": "路西恩",
+      "mentions": 96,
+      "firstChapter": 7,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(78)",
+        "老师(5)",
+        "合作(3)",
+        "保护(3)",
+        "朋友(3)",
+        "追杀(2)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "文字",
+      "target": "路西恩",
+      "mentions": 92,
+      "firstChapter": 8,
+      "lastChapter": 760,
+      "markers": [
+        "同章共现(88)",
+        "学生(2)",
+        "父亲(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "马斯基",
+      "mentions": 92,
+      "firstChapter": 123,
+      "lastChapter": 690,
+      "markers": [
+        "同章共现(86)",
+        "朋友(2)",
+        "合作(2)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "权杖",
+      "target": "路西恩",
+      "mentions": 92,
+      "firstChapter": 217,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(87)",
+        "敌人(1)",
+        "老师(1)",
+        "保护(1)",
+        "盟友(1)",
+        "合作(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "相对论",
+      "target": "路西恩",
+      "mentions": 90,
+      "firstChapter": 360,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(82)",
+        "老师(6)",
+        "学生(3)"
+      ]
+    },
+    {
+      "source": "安排",
+      "target": "路西恩",
+      "mentions": 89,
+      "firstChapter": 8,
+      "lastChapter": 739,
+      "markers": [
+        "同章共现(73)",
+        "老师(8)",
+        "保护(2)",
+        "追杀(2)",
+        "队长(1)",
+        "同伴(1)",
+        "弟子(1)",
         "合作(1)"
       ]
     },
     {
-      "source": "加斯东",
+      "source": "严重",
       "target": "路西恩",
-      "mentions": 76,
-      "firstChapter": 204,
-      "lastChapter": 606,
+      "mentions": 86,
+      "firstChapter": 6,
+      "lastChapter": 830,
       "markers": [
-        "同章共现(71)",
-        "老师(2)",
+        "同章共现(74)",
+        "老师(6)",
+        "保护(2)",
+        "朋友(1)",
+        "敌人(1)",
+        "同伴(1)",
         "追杀(1)",
-        "弟子(1)",
-        "学生(1)",
-        "丈夫(1)"
-      ]
-    },
-    {
-      "source": "莫里斯",
-      "target": "路西恩",
-      "mentions": 76,
-      "firstChapter": 215,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(67)",
-        "学生(5)",
-        "老师(2)",
-        "合作(2)",
         "父亲(1)"
       ]
     },
     {
-      "source": "罗兰",
-      "target": "费尔南多",
-      "mentions": 75,
-      "firstChapter": 311,
-      "lastChapter": 873,
+      "source": "毛笔",
+      "target": "路西恩",
+      "mentions": 86,
+      "firstChapter": 11,
+      "lastChapter": 669,
+      "markers": [
+        "同章共现(81)",
+        "老师(2)",
+        "学生(2)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "施展",
+      "target": "施展魔",
+      "mentions": 86,
+      "firstChapter": 32,
+      "lastChapter": 817,
+      "markers": [
+        "同章共现(81)",
+        "保护(2)",
+        "老师(2)",
+        "对手(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "高评议",
+      "mentions": 84,
+      "firstChapter": 186,
+      "lastChapter": 807,
       "markers": [
         "同章共现(68)",
-        "学生(3)",
-        "老师(3)",
-        "追杀(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "汤谱",
-      "target": "路西恩",
-      "mentions": 72,
-      "firstChapter": 255,
-      "lastChapter": 721,
-      "markers": [
-        "同章共现(58)",
-        "老师(11)",
-        "学生(5)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "奥利弗",
-      "target": "道格拉斯",
-      "mentions": 68,
-      "firstChapter": 220,
-      "lastChapter": 915,
-      "markers": [
-        "同章共现(62)",
-        "老师(1)",
-        "丈夫(1)",
-        "妻子(1)",
-        "学生(1)",
-        "敌人(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "亚当",
-      "target": "路西恩",
-      "mentions": 67,
-      "firstChapter": 315,
-      "lastChapter": 324,
-      "markers": [
-        "同章共现(64)",
-        "命令(2)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "萨尔德",
-      "mentions": 66,
-      "firstChapter": 64,
-      "lastChapter": 567,
-      "markers": [
-        "同章共现(57)",
-        "老师(6)",
+        "老师(8)",
+        "学生(4)",
         "合作(2)",
         "敌人(1)",
-        "对手(1)",
-        "朋友(1)"
+        "盟友(1)"
       ]
     },
     {
-      "source": "列夫斯基",
+      "source": "花纹",
       "target": "路西恩",
-      "mentions": 66,
-      "firstChapter": 423,
-      "lastChapter": 827,
+      "mentions": 82,
+      "firstChapter": 8,
+      "lastChapter": 806,
       "markers": [
-        "同章共现(64)",
+        "同章共现(80)",
         "老师(2)"
       ]
     },
     {
-      "source": "布鲁克",
-      "target": "费尔南多",
+      "source": "关注",
+      "target": "路西恩",
+      "mentions": 81,
+      "firstChapter": 3,
+      "lastChapter": 803,
+      "markers": [
+        "同章共现(76)",
+        "学生(2)",
+        "保护(1)",
+        "弟子(1)",
+        "追杀(1)",
+        "下属(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "古代魔",
+      "target": "路西恩",
+      "mentions": 81,
+      "firstChapter": 43,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(74)",
+        "老师(3)",
+        "弟子(2)",
+        "导师(1)",
+        "朋友(1)",
+        "敌人(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "水晶球",
+      "target": "路西恩",
+      "mentions": 80,
+      "firstChapter": 25,
+      "lastChapter": 807,
+      "markers": [
+        "同章共现(77)",
+        "保护(1)",
+        "背叛(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "庄园",
+      "target": "路西恩",
+      "mentions": 79,
+      "firstChapter": 12,
+      "lastChapter": 743,
+      "markers": [
+        "同章共现(73)",
+        "老师(3)",
+        "保护(3)"
+      ]
+    },
+    {
+      "source": "乐会",
+      "target": "乐家",
+      "mentions": 79,
+      "firstChapter": 18,
+      "lastChapter": 743,
+      "markers": [
+        "同章共现(63)",
+        "朋友(6)",
+        "学生(5)",
+        "老师(3)",
+        "同伴(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "康格斯",
+      "target": "路西恩",
+      "mentions": 79,
+      "firstChapter": 415,
+      "lastChapter": 793,
+      "markers": [
+        "同章共现(71)",
+        "追杀(5)",
+        "朋友(2)",
+        "敌人(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "山脉",
+      "target": "路西恩",
+      "mentions": 75,
+      "firstChapter": 8,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(65)",
+        "老师(3)",
+        "朋友(2)",
+        "儿子(1)",
+        "保护(1)",
+        "弟子(1)",
+        "队长(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "乔尔叔",
+      "target": "路西恩",
+      "mentions": 71,
+      "firstChapter": 2,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(53)",
+        "合作(5)",
+        "老师(4)",
+        "学生(4)",
+        "朋友(2)",
+        "父亲(2)",
+        "保护(2)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "宫殿",
+      "target": "路西恩",
+      "mentions": 71,
+      "firstChapter": 77,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(66)",
+        "朋友(3)",
+        "保护(2)"
+      ]
+    },
+    {
+      "source": "融合",
+      "target": "路西恩",
+      "mentions": 69,
+      "firstChapter": 28,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(64)",
+        "老师(2)",
+        "父亲(1)",
+        "学生(1)",
+        "交易(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "乐家协",
+      "target": "路西恩",
+      "mentions": 67,
+      "firstChapter": 9,
+      "lastChapter": 720,
+      "markers": [
+        "同章共现(58)",
+        "朋友(4)",
+        "老师(2)",
+        "学生(1)",
+        "同伴(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "房门",
+      "target": "路西恩",
+      "mentions": 65,
+      "firstChapter": 3,
+      "lastChapter": 633,
+      "markers": [
+        "同章共现(59)",
+        "老师(2)",
+        "朋友(1)",
+        "敌人(1)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "时间内",
+      "target": "路西恩",
+      "mentions": 65,
+      "firstChapter": 19,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(54)",
+        "学生(4)",
+        "老师(4)",
+        "敌人(2)",
+        "朋友(1)",
+        "父亲(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "安尼克",
+      "mentions": 65,
+      "firstChapter": 171,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(49)",
+        "老师(13)",
+        "学生(3)",
+        "弟子(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "利弗",
+      "target": "费尔南",
+      "mentions": 65,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(57)",
+        "老师(3)",
+        "学生(2)",
+        "合作(2)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "费尔南",
+      "target": "鲁克",
       "mentions": 65,
       "firstChapter": 220,
       "lastChapter": 818,
@@ -1295,36 +3114,75 @@
       ]
     },
     {
-      "source": "克里斯多夫",
-      "target": "路西恩",
+      "source": "伊文斯",
+      "target": "高阶",
       "mentions": 63,
-      "firstChapter": 70,
-      "lastChapter": 720,
+      "firstChapter": 139,
+      "lastChapter": 832,
       "markers": [
         "同章共现(53)",
-        "老师(6)",
+        "老师(4)",
         "学生(3)",
         "朋友(2)",
-        "儿子(1)"
+        "保护(1)",
+        "同伴(1)"
       ]
     },
     {
-      "source": "奥利弗",
-      "target": "费尔南多",
-      "mentions": 63,
-      "firstChapter": 220,
-      "lastChapter": 915,
+      "source": "习魔法",
+      "target": "路西恩",
+      "mentions": 62,
+      "firstChapter": 7,
+      "lastChapter": 592,
+      "markers": [
+        "同章共现(58)",
+        "学生(2)",
+        "师父(1)",
+        "背叛(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "颜色",
+      "mentions": 61,
+      "firstChapter": 19,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(61)"
+      ]
+    },
+    {
+      "source": "时代",
+      "target": "路西恩",
+      "mentions": 60,
+      "firstChapter": 1,
+      "lastChapter": 784,
       "markers": [
         "同章共现(55)",
-        "老师(3)",
         "学生(2)",
-        "合作(2)",
-        "妻子(1)"
+        "老师(2)",
+        "合作(1)"
       ]
     },
     {
-      "source": "奥利弗",
-      "target": "布鲁克",
+      "source": "路西恩",
+      "target": "金塔勒",
+      "mentions": 58,
+      "firstChapter": 10,
+      "lastChapter": 719,
+      "markers": [
+        "同章共现(54)",
+        "朋友(1)",
+        "父亲(1)",
+        "保护(1)",
+        "敌人(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "利弗",
+      "target": "鲁克",
       "mentions": 58,
       "firstChapter": 220,
       "lastChapter": 821,
@@ -1336,2143 +3194,1745 @@
       ]
     },
     {
-      "source": "罗兰",
-      "target": "路西恩",
-      "mentions": 57,
-      "firstChapter": 28,
-      "lastChapter": 587,
+      "source": "伊文斯",
+      "target": "相信",
+      "mentions": 56,
+      "firstChapter": 1,
+      "lastChapter": 771,
       "markers": [
-        "同章共现(48)",
-        "老师(5)",
-        "父亲(2)",
-        "敌人(1)",
+        "同章共现(50)",
+        "父亲(1)",
+        "母亲(1)",
+        "队长(1)",
+        "兄弟(1)",
         "合作(1)",
-        "背叛(1)",
-        "学生(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "汤姆",
-      "target": "路西恩",
-      "mentions": 56,
-      "firstChapter": 3,
-      "lastChapter": 546,
-      "markers": [
-        "同章共现(51)",
-        "同伴(2)",
-        "背叛(1)",
         "老师(1)",
-        "学生(1)"
+        "同伴(1)"
       ]
     },
     {
-      "source": "安泰克",
-      "target": "费尔南多",
+      "source": "林特",
+      "target": "路西恩",
       "mentions": 56,
-      "firstChapter": 888,
-      "lastChapter": 897,
-      "markers": [
-        "同章共现(45)",
-        "学生(5)",
-        "老师(4)",
-        "朋友(3)"
-      ]
-    },
-    {
-      "source": "伍兹",
-      "target": "路西恩",
-      "mentions": 55,
-      "firstChapter": 188,
-      "lastChapter": 337,
-      "markers": [
-        "同章共现(52)",
-        "朋友(2)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "卡特里娜",
-      "target": "路西恩",
-      "mentions": 54,
-      "firstChapter": 171,
-      "lastChapter": 749,
+      "firstChapter": 170,
+      "lastChapter": 824,
       "markers": [
         "同章共现(37)",
-        "老师(10)",
-        "学生(6)",
+        "老师(11)",
+        "学生(8)",
         "同伴(2)",
         "朋友(1)",
         "弟子(1)"
       ]
     },
     {
-      "source": "卡特里娜",
-      "target": "蕾依丽雅",
-      "mentions": 53,
-      "firstChapter": 170,
-      "lastChapter": 768,
-      "markers": [
-        "同章共现(30)",
-        "老师(17)",
-        "学生(4)",
-        "朋友(2)",
-        "同伴(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "安诺德",
-      "target": "道格拉斯",
-      "mentions": 53,
-      "firstChapter": 873,
-      "lastChapter": 898,
-      "markers": [
-        "同章共现(46)",
-        "合作(5)",
-        "学生(1)",
-        "朋友(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "暗自",
+      "source": "相同",
       "target": "路西恩",
-      "mentions": 51,
-      "firstChapter": 3,
-      "lastChapter": 829,
-      "markers": [
-        "同章共现(42)",
-        "学生(3)",
-        "合作(3)",
-        "老师(2)",
-        "同伴(1)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "詹姆斯",
-      "target": "路西恩",
-      "mentions": 51,
-      "firstChapter": 332,
-      "lastChapter": 729,
-      "markers": [
-        "同章共现(45)",
-        "敌人(2)",
-        "朋友(1)",
-        "学生(1)",
-        "保护(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "维肯",
-      "target": "道格拉斯",
-      "mentions": 51,
-      "firstChapter": 616,
+      "mentions": 54,
+      "firstChapter": 20,
       "lastChapter": 826,
       "markers": [
-        "同章共现(49)",
-        "合作(1)",
+        "同章共现(52)",
+        "老师(2)"
+      ]
+    },
+    {
+      "source": "权威",
+      "target": "路西恩",
+      "mentions": 54,
+      "firstChapter": 50,
+      "lastChapter": 780,
+      "markers": [
+        "同章共现(46)",
+        "老师(5)",
+        "学生(3)",
         "敌人(1)"
       ]
     },
     {
-      "source": "娜塔莎",
-      "target": "罗兰",
-      "mentions": 48,
-      "firstChapter": 28,
-      "lastChapter": 587,
+      "source": "师们",
+      "target": "高阶",
+      "mentions": 54,
+      "firstChapter": 64,
+      "lastChapter": 898,
       "markers": [
-        "同章共现(40)",
-        "父亲(4)",
-        "母亲(2)",
+        "同章共现(48)",
         "老师(2)",
-        "保护(2)",
-        "敌人(1)",
         "合作(1)",
-        "朋友(1)"
+        "命令(1)",
+        "学生(1)",
+        "朋友(1)",
+        "下属(1)"
       ]
     },
     {
-      "source": "安诺德",
-      "target": "费尔南多",
+      "source": "谢谢你",
+      "target": "路西恩",
+      "mentions": 53,
+      "firstChapter": 12,
+      "lastChapter": 727,
+      "markers": [
+        "同章共现(51)",
+        "朋友(1)",
+        "保护(1)",
+        "同伴(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "白之手",
+      "target": "路西恩",
+      "mentions": 53,
+      "firstChapter": 153,
+      "lastChapter": 581,
+      "markers": [
+        "同章共现(46)",
+        "合作(2)",
+        "保护(2)",
+        "老师(1)",
+        "追杀(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "成果",
+      "mentions": 53,
+      "firstChapter": 183,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(44)",
+        "老师(4)",
+        "学生(2)",
+        "朋友(2)",
+        "弟子(1)",
+        "同伴(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "相信",
+      "target": "相信自",
+      "mentions": 51,
+      "firstChapter": 12,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(45)",
+        "同伴(2)",
+        "儿子(1)",
+        "老师(1)",
+        "学生(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "相信",
+      "target": "相信你",
+      "mentions": 51,
+      "firstChapter": 28,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(44)",
+        "朋友(2)",
+        "队长(2)",
+        "母亲(1)",
+        "弟子(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "时空",
+      "target": "权杖",
+      "mentions": 50,
+      "firstChapter": 574,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(46)",
+        "保护(3)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "乐会",
+      "target": "伊文斯",
+      "mentions": 49,
+      "firstChapter": 26,
+      "lastChapter": 854,
+      "markers": [
+        "同章共现(39)",
+        "学生(3)",
+        "同伴(2)",
+        "保护(1)",
+        "导师(1)",
+        "队长(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "严肃",
+      "target": "费尔南",
+      "mentions": 49,
+      "firstChapter": 327,
+      "lastChapter": 914,
+      "markers": [
+        "同章共现(42)",
+        "学生(3)",
+        "老师(3)",
+        "合作(2)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "边说",
+      "mentions": 48,
+      "firstChapter": 1,
+      "lastChapter": 708,
+      "markers": [
+        "同章共现(45)",
+        "朋友(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "符号",
+      "target": "路西恩",
+      "mentions": 48,
+      "firstChapter": 8,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(48)"
+      ]
+    },
+    {
+      "source": "古魔鬼",
+      "target": "路西恩",
+      "mentions": 48,
+      "firstChapter": 477,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(46)",
+        "父亲(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "乐家",
+      "target": "乐曲",
+      "mentions": 47,
+      "firstChapter": 21,
+      "lastChapter": 743,
+      "markers": [
+        "同章共现(43)",
+        "老师(2)",
+        "学生(2)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "乐会",
+      "target": "成功",
+      "mentions": 47,
+      "firstChapter": 22,
+      "lastChapter": 308,
+      "markers": [
+        "同章共现(42)",
+        "朋友(2)",
+        "弟子(1)",
+        "父亲(1)",
+        "同伴(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "牧师",
+      "target": "路西恩",
       "mentions": 46,
-      "firstChapter": 873,
-      "lastChapter": 899,
+      "firstChapter": 2,
+      "lastChapter": 747,
+      "markers": [
+        "同章共现(42)",
+        "敌人(2)",
+        "学生(1)",
+        "老师(1)",
+        "合作(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "乐会",
+      "target": "乐曲",
+      "mentions": 46,
+      "firstChapter": 10,
+      "lastChapter": 743,
+      "markers": [
+        "同章共现(39)",
+        "学生(3)",
+        "弟子(2)",
+        "朋友(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "包裹",
+      "target": "路西恩",
+      "mentions": 46,
+      "firstChapter": 51,
+      "lastChapter": 819,
+      "markers": [
+        "同章共现(46)"
+      ]
+    },
+    {
+      "source": "费尔南",
+      "target": "高阶",
+      "mentions": 46,
+      "firstChapter": 242,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(36)",
+        "老师(6)",
+        "学生(3)",
+        "朋友(2)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "方教会",
+      "target": "路西恩",
+      "mentions": 46,
+      "firstChapter": 255,
+      "lastChapter": 798,
       "markers": [
         "同章共现(38)",
-        "合作(5)",
-        "学生(1)",
+        "合作(4)",
+        "追杀(2)",
+        "母亲(1)",
+        "父亲(1)",
+        "老师(1)",
         "朋友(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "林厄",
+      "target": "费尔南",
+      "mentions": 46,
+      "firstChapter": 359,
+      "lastChapter": 910,
+      "markers": [
+        "同章共现(37)",
+        "老师(8)",
+        "学生(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "任何一",
+      "target": "路西恩",
+      "mentions": 45,
+      "firstChapter": 6,
+      "lastChapter": 811,
+      "markers": [
+        "同章共现(38)",
+        "同伴(2)",
+        "学生(2)",
+        "朋友(1)",
+        "追杀(1)",
+        "敌人(1)",
         "命令(1)",
         "老师(1)"
       ]
     },
     {
-      "source": "艾勒丝汀",
+      "source": "施展魔",
       "target": "路西恩",
       "mentions": 45,
-      "firstChapter": 221,
-      "lastChapter": 698,
+      "firstChapter": 32,
+      "lastChapter": 810,
       "markers": [
-        "同章共现(39)",
-        "合作(2)",
-        "保护(2)",
-        "朋友(1)",
-        "同伴(1)",
-        "妻子(1)"
+        "同章共现(45)"
       ]
     },
     {
-      "source": "罗兰",
-      "target": "道格拉斯",
+      "source": "伊文斯",
+      "target": "方面",
       "mentions": 45,
-      "firstChapter": 329,
-      "lastChapter": 876,
-      "markers": [
-        "同章共现(40)",
-        "学生(2)",
-        "背叛(1)",
-        "老师(1)",
-        "朋友(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "怀斯",
-      "target": "路西恩",
-      "mentions": 44,
-      "firstChapter": 137,
-      "lastChapter": 150,
+      "firstChapter": 102,
+      "lastChapter": 836,
       "markers": [
         "同章共现(39)",
-        "朋友(3)",
-        "保护(2)"
-      ]
-    },
-    {
-      "source": "蕾依丽雅",
-      "target": "路西恩",
-      "mentions": 44,
-      "firstChapter": 170,
-      "lastChapter": 750,
-      "markers": [
-        "同章共现(37)",
-        "老师(4)",
-        "学生(2)",
-        "母亲(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "卡特里娜",
-      "target": "安娜",
-      "mentions": 44,
-      "firstChapter": 709,
-      "lastChapter": 716,
-      "markers": [
-        "同章共现(37)",
-        "朋友(3)",
-        "母亲(1)",
-        "同伴(1)",
-        "学生(1)",
-        "追杀(1)",
-        "背叛(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "路西恩",
-      "mentions": 42,
-      "firstChapter": 48,
-      "lastChapter": 807,
-      "markers": [
-        "同章共现(40)",
-        "朋友(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "安娜",
-      "target": "路西恩",
-      "mentions": 42,
-      "firstChapter": 140,
-      "lastChapter": 558,
-      "markers": [
-        "同章共现(34)",
-        "队长(5)",
-        "儿子(1)",
-        "朋友(1)",
-        "保护(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "玛法里奥",
-      "target": "路西恩",
-      "mentions": 42,
-      "firstChapter": 217,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(42)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "约翰",
-      "mentions": 41,
-      "firstChapter": 47,
-      "lastChapter": 856,
-      "markers": [
-        "同章共现(30)",
-        "朋友(4)",
-        "保护(2)",
+        "学生(3)",
         "老师(2)",
-        "父亲(2)",
-        "母亲(1)",
-        "兄弟(1)",
-        "学生(1)"
+        "弟子(1)"
       ]
     },
     {
-      "source": "路西恩",
-      "target": "阿特兰特",
-      "mentions": 39,
-      "firstChapter": 351,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(37)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "娜塔莎",
-      "mentions": 38,
-      "firstChapter": 90,
+      "source": "周围",
+      "target": "时空",
+      "mentions": 45,
+      "firstChapter": 127,
       "lastChapter": 826,
       "markers": [
-        "同章共现(31)",
-        "朋友(3)",
-        "父亲(3)",
-        "母亲(3)",
-        "同伴(1)"
+        "同章共现(45)"
       ]
     },
     {
-      "source": "克劳斯",
-      "target": "路西恩",
-      "mentions": 38,
-      "firstChapter": 351,
-      "lastChapter": 650,
+      "source": "费利佩",
+      "target": "高阶",
+      "mentions": 45,
+      "firstChapter": 152,
+      "lastChapter": 841,
       "markers": [
-        "同章共现(36)",
-        "对手(1)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "乔尔",
-      "target": "娜塔莎",
-      "mentions": 36,
-      "firstChapter": 72,
-      "lastChapter": 816,
-      "markers": [
-        "同章共现(25)",
-        "父亲(4)",
-        "朋友(3)",
-        "保护(2)",
-        "背叛(1)",
-        "老师(1)",
-        "母亲(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "埃尔",
-      "target": "娜塔莎",
-      "mentions": 34,
-      "firstChapter": 125,
-      "lastChapter": 503,
-      "markers": [
-        "同章共现(31)",
-        "敌人(1)",
-        "背叛(1)",
-        "追杀(1)",
-        "同伴(1)",
-        "合作(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "纷纷",
-      "target": "路西恩",
-      "mentions": 33,
-      "firstChapter": 18,
-      "lastChapter": 784,
-      "markers": [
-        "同章共现(29)",
-        "老师(3)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "罗杰里奥",
-      "target": "路西恩",
-      "mentions": 32,
-      "firstChapter": 107,
-      "lastChapter": 445,
-      "markers": [
-        "同章共现(25)",
-        "保护(2)",
-        "朋友(2)",
-        "敌人(1)",
-        "背叛(1)",
-        "追杀(1)",
-        "老师(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "詹姆斯",
-      "mentions": 32,
-      "firstChapter": 510,
-      "lastChapter": 583,
-      "markers": [
-        "同章共现(26)",
-        "老师(2)",
-        "保护(2)",
-        "敌人(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "莱茵",
-      "target": "萨尔德",
-      "mentions": 31,
-      "firstChapter": 64,
-      "lastChapter": 690,
-      "markers": [
-        "同章共现(27)",
-        "老师(2)",
-        "敌人(1)",
-        "合作(1)",
-        "保护(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "阿斯塔尔",
-      "mentions": 30,
-      "firstChapter": 169,
-      "lastChapter": 184,
-      "markers": [
-        "同章共现(28)",
-        "导师(1)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "奥利弗",
-      "target": "弗洛伦莎",
-      "mentions": 30,
-      "firstChapter": 220,
-      "lastChapter": 543,
-      "markers": [
-        "同章共现(18)",
-        "丈夫(5)",
-        "学生(2)",
-        "合作(2)",
-        "妻子(2)",
-        "老师(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "老板",
-      "target": "路西恩",
-      "mentions": 29,
-      "firstChapter": 8,
-      "lastChapter": 829,
-      "markers": [
-        "同章共现(25)",
-        "父亲(2)",
-        "姐妹(1)",
-        "导师(1)"
-      ]
-    },
-    {
-      "source": "拉扎尔",
-      "target": "海蒂",
-      "mentions": 28,
-      "firstChapter": 184,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(22)",
-        "老师(4)",
+        "同章共现(37)",
+        "学生(4)",
         "朋友(1)",
-        "学生(1)"
+        "敌人(1)",
+        "对手(1)",
+        "保护(1)",
+        "交易(1)"
       ]
     },
     {
-      "source": "汤谱",
-      "target": "费尔南多",
-      "mentions": 27,
-      "firstChapter": 327,
-      "lastChapter": 593,
+      "source": "方面",
+      "target": "费尔南",
+      "mentions": 45,
+      "firstChapter": 328,
+      "lastChapter": 911,
       "markers": [
-        "同章共现(15)",
-        "学生(9)",
-        "老师(4)",
-        "朋友(1)"
+        "同章共现(38)",
+        "老师(5)",
+        "学生(4)",
+        "同伴(1)"
       ]
     },
     {
-      "source": "娜塔莎",
-      "target": "费尔南多",
-      "mentions": 26,
-      "firstChapter": 311,
-      "lastChapter": 827,
+      "source": "师费尔",
+      "target": "费尔南",
+      "mentions": 44,
+      "firstChapter": 194,
+      "lastChapter": 793,
       "markers": [
-        "同章共现(22)",
-        "老师(2)",
-        "父亲(1)",
-        "学生(1)",
+        "老师(41)",
+        "同章共现(3)",
         "敌人(1)"
       ]
     },
     {
-      "source": "贝格纳",
-      "target": "费尔南多",
-      "mentions": 26,
-      "firstChapter": 432,
-      "lastChapter": 754,
-      "markers": [
-        "同章共现(24)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "故意",
-      "mentions": 24,
-      "firstChapter": 94,
-      "lastChapter": 797,
-      "markers": [
-        "同章共现(23)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "加斯东",
-      "target": "莫里斯",
-      "mentions": 24,
-      "firstChapter": 215,
-      "lastChapter": 660,
-      "markers": [
-        "同章共现(22)",
-        "学生(2)"
-      ]
-    },
-    {
-      "source": "萨尔德",
-      "target": "费尔南多",
-      "mentions": 24,
-      "firstChapter": 350,
-      "lastChapter": 613,
-      "markers": [
-        "同章共现(16)",
-        "合作(4)",
-        "学生(3)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "道格拉斯",
-      "mentions": 23,
-      "firstChapter": 170,
-      "lastChapter": 917,
-      "markers": [
-        "同章共现(21)",
-        "对手(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "不由",
+      "source": "范围内",
       "target": "路西恩",
-      "mentions": 22,
-      "firstChapter": 2,
-      "lastChapter": 777,
+      "mentions": 43,
+      "firstChapter": 16,
+      "lastChapter": 811,
       "markers": [
-        "同章共现(21)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "莱茵",
-      "mentions": 22,
-      "firstChapter": 108,
-      "lastChapter": 827,
-      "markers": [
-        "同章共现(18)",
-        "老师(2)",
-        "母亲(1)",
+        "同章共现(41)",
         "敌人(1)",
-        "合作(1)",
         "保护(1)"
       ]
     },
     {
-      "source": "蕾切尔",
+      "source": "施法材",
       "target": "路西恩",
-      "mentions": 22,
-      "firstChapter": 243,
-      "lastChapter": 696,
+      "mentions": 43,
+      "firstChapter": 25,
+      "lastChapter": 708,
       "markers": [
-        "同章共现(15)",
-        "老师(5)",
+        "同章共现(40)",
+        "老师(2)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "景象",
+      "target": "路西恩",
+      "mentions": 43,
+      "firstChapter": 52,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(41)",
+        "老师(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "关键时",
+      "target": "路西恩",
+      "mentions": 42,
+      "firstChapter": 7,
+      "lastChapter": 798,
+      "markers": [
+        "同章共现(37)",
+        "敌人(2)",
+        "老师(1)",
+        "保护(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "红衣主",
+      "target": "路西恩",
+      "mentions": 42,
+      "firstChapter": 10,
+      "lastChapter": 804,
+      "markers": [
+        "同章共现(37)",
+        "队长(1)",
+        "朋友(1)",
+        "兄弟(1)",
+        "弟子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "师们",
+      "mentions": 42,
+      "firstChapter": 151,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(37)",
+        "弟子(1)",
+        "老师(1)",
+        "朋友(1)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "高阶奥",
+      "mentions": 42,
+      "firstChapter": 203,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(40)",
+        "老师(2)"
+      ]
+    },
+    {
+      "source": "房内",
+      "target": "路西恩",
+      "mentions": 41,
+      "firstChapter": 22,
+      "lastChapter": 738,
+      "markers": [
+        "同章共现(39)",
+        "老师(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "边缘",
+      "mentions": 40,
+      "firstChapter": 6,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(37)",
+        "老师(2)",
+        "学生(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "白之手",
+      "target": "费利佩",
+      "mentions": 40,
+      "firstChapter": 153,
+      "lastChapter": 847,
+      "markers": [
+        "同章共现(31)",
+        "老师(2)",
+        "合作(2)",
+        "敌人(2)",
+        "保护(1)",
+        "朋友(1)",
+        "追杀(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "沙赫兰",
+      "target": "路西恩",
+      "mentions": 40,
+      "firstChapter": 257,
+      "lastChapter": 775,
+      "markers": [
+        "同章共现(35)",
+        "追杀(1)",
+        "朋友(1)",
+        "儿子(1)",
         "学生(1)",
         "对手(1)"
       ]
     },
     {
-      "source": "内心",
-      "target": "费尔南多",
-      "mentions": 22,
-      "firstChapter": 418,
+      "source": "危险",
+      "target": "高阶",
+      "mentions": 39,
+      "firstChapter": 4,
+      "lastChapter": 878,
+      "markers": [
+        "同章共现(32)",
+        "老师(3)",
+        "朋友(1)",
+        "保护(1)",
+        "弟子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "钟后",
+      "mentions": 39,
+      "firstChapter": 11,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(38)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "霍尔姆",
+      "target": "高阶",
+      "mentions": 39,
+      "firstChapter": 182,
+      "lastChapter": 892,
+      "markers": [
+        "同章共现(33)",
+        "老师(3)",
+        "弟子(2)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "林厄",
+      "target": "霍尔姆",
+      "mentions": 38,
+      "firstChapter": 117,
+      "lastChapter": 794,
+      "markers": [
+        "同章共现(34)",
+        "保护(2)",
+        "母亲(1)",
+        "朋友(1)",
+        "父亲(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "林厄",
+      "mentions": 38,
+      "firstChapter": 169,
+      "lastChapter": 800,
+      "markers": [
+        "同章共现(32)",
+        "老师(3)",
+        "父亲(1)",
+        "合作(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "艾丽萨",
+      "mentions": 37,
+      "firstChapter": 2,
+      "lastChapter": 592,
+      "markers": [
+        "同章共现(32)",
+        "朋友(2)",
+        "对手(1)",
+        "妻子(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "程度",
+      "target": "高阶",
+      "mentions": 37,
+      "firstChapter": 24,
+      "lastChapter": 752,
+      "markers": [
+        "同章共现(34)",
+        "老师(2)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "师管理",
+      "target": "路西恩",
+      "mentions": 37,
+      "firstChapter": 185,
+      "lastChapter": 718,
+      "markers": [
+        "同章共现(35)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "古代魔",
+      "target": "师们",
+      "mentions": 36,
+      "firstChapter": 26,
+      "lastChapter": 877,
+      "markers": [
+        "同章共现(33)",
+        "学生(1)",
+        "弟子(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "师费尔",
+      "target": "路西恩",
+      "mentions": 36,
+      "firstChapter": 334,
+      "lastChapter": 793,
+      "markers": [
+        "老师(35)",
+        "同章共现(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "荣耀",
+      "target": "路西恩",
+      "mentions": 35,
+      "firstChapter": 7,
+      "lastChapter": 697,
+      "markers": [
+        "同章共现(33)",
+        "朋友(2)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "方面",
+      "mentions": 35,
+      "firstChapter": 44,
+      "lastChapter": 877,
+      "markers": [
+        "同章共现(33)",
+        "盟友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "周期表",
+      "target": "路西恩",
+      "mentions": 35,
+      "firstChapter": 201,
+      "lastChapter": 570,
+      "markers": [
+        "同章共现(34)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "相信",
+      "target": "费尔南",
+      "mentions": 35,
+      "firstChapter": 220,
       "lastChapter": 911,
       "markers": [
-        "同章共现(21)",
-        "背叛(1)"
+        "同章共现(28)",
+        "老师(2)",
+        "学生(2)",
+        "朋友(1)",
+        "合作(1)",
+        "敌人(1)"
       ]
     },
     {
-      "source": "贝格纳",
+      "source": "史诗骑",
       "target": "路西恩",
-      "mentions": 22,
-      "firstChapter": 432,
+      "mentions": 35,
+      "firstChapter": 278,
+      "lastChapter": 804,
+      "markers": [
+        "同章共现(31)",
+        "对手(1)",
+        "老师(1)",
+        "同伴(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "解决",
+      "target": "金术",
+      "mentions": 35,
+      "firstChapter": 515,
+      "lastChapter": 658,
+      "markers": [
+        "同章共现(34)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "金物品",
+      "mentions": 34,
+      "firstChapter": 158,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(32)",
+        "老师(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "费尔南",
+      "mentions": 34,
+      "firstChapter": 237,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(31)",
+        "弟子(1)",
+        "学生(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "金术",
+      "mentions": 34,
+      "firstChapter": 240,
+      "lastChapter": 691,
+      "markers": [
+        "同章共现(32)",
+        "合作(1)",
+        "老师(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "费时间",
+      "target": "路西恩",
+      "mentions": 33,
+      "firstChapter": 14,
+      "lastChapter": 789,
+      "markers": [
+        "同章共现(30)",
+        "敌人(1)",
+        "追杀(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "成果",
+      "target": "方面",
+      "mentions": 33,
+      "firstChapter": 156,
+      "lastChapter": 913,
+      "markers": [
+        "同章共现(32)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "危险",
+      "target": "费尔南",
+      "mentions": 33,
+      "firstChapter": 311,
+      "lastChapter": 896,
+      "markers": [
+        "同章共现(27)",
+        "学生(2)",
+        "老师(2)",
+        "朋友(2)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "乔尔叔",
+      "target": "艾丽萨",
+      "mentions": 32,
+      "firstChapter": 14,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(22)",
+        "老师(3)",
+        "学生(2)",
+        "朋友(2)",
+        "母亲(2)",
+        "父亲(2)",
+        "合作(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "乐曲",
+      "target": "伊文斯",
+      "mentions": 32,
+      "firstChapter": 61,
+      "lastChapter": 309,
+      "markers": [
+        "同章共现(26)",
+        "学生(4)",
+        "合作(2)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "怀疑",
+      "mentions": 32,
+      "firstChapter": 119,
+      "lastChapter": 828,
+      "markers": [
+        "同章共现(30)",
+        "老师(1)",
+        "合作(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "高阶魔",
+      "mentions": 32,
+      "firstChapter": 174,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(27)",
+        "学生(2)",
+        "老师(2)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "怀疑",
+      "target": "费尔南",
+      "mentions": 32,
+      "firstChapter": 330,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(27)",
+        "老师(3)",
+        "追杀(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "马尔迪",
+      "mentions": 32,
+      "firstChapter": 505,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(30)",
+        "队长(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "严肃",
+      "target": "伊文斯",
+      "mentions": 31,
+      "firstChapter": 61,
+      "lastChapter": 807,
+      "markers": [
+        "同章共现(25)",
+        "学生(2)",
+        "同伴(1)",
+        "兄弟(1)",
+        "命令(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "林厄魔",
+      "target": "路西恩",
+      "mentions": 31,
+      "firstChapter": 203,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(24)",
+        "老师(6)",
+        "保护(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "林厄",
+      "target": "鲁克",
+      "mentions": 31,
+      "firstChapter": 433,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(28)",
+        "老师(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "房间内",
+      "target": "路西恩",
+      "mentions": 30,
+      "firstChapter": 75,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(28)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "时代",
+      "mentions": 30,
+      "firstChapter": 100,
+      "lastChapter": 833,
+      "markers": [
+        "同章共现(29)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "段时间",
+      "mentions": 30,
+      "firstChapter": 109,
+      "lastChapter": 702,
+      "markers": [
+        "同章共现(25)",
+        "保护(2)",
+        "弟子(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "周围",
+      "target": "颜色",
+      "mentions": 30,
+      "firstChapter": 125,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(30)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "成果",
+      "mentions": 30,
+      "firstChapter": 157,
+      "lastChapter": 864,
+      "markers": [
+        "同章共现(28)",
+        "学生(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "高礼帽",
+      "mentions": 30,
+      "firstChapter": 195,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(29)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "水准",
+      "target": "高阶",
+      "mentions": 29,
+      "firstChapter": 52,
+      "lastChapter": 841,
+      "markers": [
+        "同章共现(25)",
+        "老师(1)",
+        "丈夫(1)",
+        "学生(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "高阶",
+      "mentions": 29,
+      "firstChapter": 155,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(25)",
+        "保护(1)",
+        "下属(1)",
+        "老师(1)",
+        "父亲(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "林特",
+      "mentions": 29,
+      "firstChapter": 170,
       "lastChapter": 824,
       "markers": [
-        "同章共现(18)",
-        "老师(4)"
+        "老师(17)",
+        "同章共现(11)",
+        "学生(2)"
       ]
     },
     {
-      "source": "本笃三世",
-      "target": "道格拉斯",
+      "source": "任务",
+      "target": "危险",
+      "mentions": 29,
+      "firstChapter": 192,
+      "lastChapter": 881,
+      "markers": [
+        "同章共现(26)",
+        "老师(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "解决",
+      "mentions": 29,
+      "firstChapter": 228,
+      "lastChapter": 838,
+      "markers": [
+        "同章共现(24)",
+        "老师(4)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "费尔南",
+      "mentions": 29,
+      "firstChapter": 237,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(24)",
+        "老师(2)",
+        "学生(2)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "牧师",
+      "mentions": 28,
+      "firstChapter": 2,
+      "lastChapter": 904,
+      "markers": [
+        "同章共现(27)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "费利佩",
+      "mentions": 28,
+      "firstChapter": 152,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(22)",
+        "学生(1)",
+        "老师(1)",
+        "合作(1)",
+        "弟子(1)",
+        "同伴(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "林厄",
+      "mentions": 28,
+      "firstChapter": 170,
+      "lastChapter": 877,
+      "markers": [
+        "同章共现(22)",
+        "老师(2)",
+        "朋友(2)",
+        "保护(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "成员",
+      "target": "霍尔姆",
+      "mentions": 28,
+      "firstChapter": 218,
+      "lastChapter": 747,
+      "markers": [
+        "同章共现(22)",
+        "合作(2)",
+        "老师(1)",
+        "学生(1)",
+        "朋友(1)",
+        "父亲(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "费尔南",
+      "target": "高评议",
+      "mentions": 28,
+      "firstChapter": 327,
+      "lastChapter": 814,
+      "markers": [
+        "同章共现(24)",
+        "老师(2)",
+        "命令(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "相对论",
+      "mentions": 28,
+      "firstChapter": 497,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(26)",
+        "同伴(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "游诗人",
+      "target": "路西恩",
+      "mentions": 27,
+      "firstChapter": 8,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(27)"
+      ]
+    },
+    {
+      "source": "牧师",
+      "target": "红衣主",
+      "mentions": 27,
+      "firstChapter": 34,
+      "lastChapter": 872,
+      "markers": [
+        "同章共现(27)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "成功",
+      "mentions": 27,
+      "firstChapter": 69,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(19)",
+        "学生(2)",
+        "朋友(2)",
+        "同伴(1)",
+        "背叛(1)",
+        "老师(1)",
+        "弟子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "方面",
+      "target": "高阶",
+      "mentions": 27,
+      "firstChapter": 173,
+      "lastChapter": 873,
+      "markers": [
+        "同章共现(25)",
+        "老师(1)",
+        "妻子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "应该能",
+      "target": "路西恩",
+      "mentions": 26,
+      "firstChapter": 14,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(23)",
+        "学生(1)",
+        "敌人(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "应该有",
+      "target": "路西恩",
+      "mentions": 26,
+      "firstChapter": 29,
+      "lastChapter": 754,
+      "markers": [
+        "同章共现(22)",
+        "老师(3)",
+        "弟子(1)",
+        "学生(1)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "方法",
+      "mentions": 26,
+      "firstChapter": 72,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(23)",
+        "学生(3)",
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "方面",
+      "target": "权威",
+      "mentions": 26,
+      "firstChapter": 96,
+      "lastChapter": 677,
+      "markers": [
+        "同章共现(19)",
+        "学生(3)",
+        "老师(3)",
+        "敌人(1)",
+        "对手(1)",
+        "师尊(1)",
+        "下属(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "高阶魔",
+      "mentions": 26,
+      "firstChapter": 157,
+      "lastChapter": 887,
+      "markers": [
+        "同章共现(25)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "明白自",
+      "target": "路西恩",
+      "mentions": 25,
+      "firstChapter": 24,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(24)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "明正大",
+      "target": "路西恩",
+      "mentions": 25,
+      "firstChapter": 40,
+      "lastChapter": 805,
+      "markers": [
+        "同章共现(21)",
+        "背叛(1)",
+        "保护(1)",
+        "队长(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "施展",
+      "target": "高阶",
+      "mentions": 25,
+      "firstChapter": 51,
+      "lastChapter": 896,
+      "markers": [
+        "同章共现(22)",
+        "敌人(2)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "危险",
+      "target": "安全",
+      "mentions": 25,
+      "firstChapter": 84,
+      "lastChapter": 909,
+      "markers": [
+        "同章共现(19)",
+        "追杀(2)",
+        "保护(1)",
+        "合作(1)",
+        "敌人(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "林厄",
+      "target": "王国",
+      "mentions": 25,
+      "firstChapter": 117,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(21)",
+        "合作(2)",
+        "母亲(1)",
+        "老师(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "成果",
+      "target": "费利佩",
+      "mentions": 25,
+      "firstChapter": 153,
+      "lastChapter": 847,
+      "markers": [
+        "同章共现(20)",
+        "敌人(2)",
+        "合作(1)",
+        "弟子(1)",
+        "朋友(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "伊文斯",
+      "target": "利弗",
+      "mentions": 25,
+      "firstChapter": 242,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(23)",
+        "丈夫(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "管如何",
+      "target": "路西恩",
+      "mentions": 24,
+      "firstChapter": 5,
+      "lastChapter": 819,
+      "markers": [
+        "同章共现(22)",
+        "保护(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "习惯性",
+      "target": "路西恩",
+      "mentions": 24,
+      "firstChapter": 15,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(23)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "程度",
+      "target": "费尔南",
+      "mentions": 24,
+      "firstChapter": 220,
+      "lastChapter": 897,
+      "markers": [
+        "同章共现(22)",
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "费尔南",
+      "target": "霍尔姆",
+      "mentions": 24,
+      "firstChapter": 311,
+      "lastChapter": 896,
+      "markers": [
+        "同章共现(16)",
+        "学生(5)",
+        "老师(2)",
+        "父亲(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "黄金骑",
+      "mentions": 24,
+      "firstChapter": 333,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(23)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "周围",
+      "target": "费尔南",
+      "mentions": 24,
+      "firstChapter": 418,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(23)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "危险",
+      "target": "霍尔姆",
+      "mentions": 23,
+      "firstChapter": 117,
+      "lastChapter": 909,
+      "markers": [
+        "同章共现(20)",
+        "父亲(2)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "怀疑",
+      "target": "相信",
+      "mentions": 23,
+      "firstChapter": 151,
+      "lastChapter": 885,
+      "markers": [
+        "同章共现(21)",
+        "追杀(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "师们",
+      "target": "林厄",
+      "mentions": 23,
+      "firstChapter": 204,
+      "lastChapter": 828,
+      "markers": [
+        "同章共现(20)",
+        "老师(1)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "全无法",
+      "target": "路西恩",
       "mentions": 22,
-      "firstChapter": 570,
-      "lastChapter": 808,
+      "firstChapter": 16,
+      "lastChapter": 590,
+      "markers": [
+        "同章共现(18)",
+        "敌人(3)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "时间内",
+      "target": "段时间",
+      "mentions": 22,
+      "firstChapter": 23,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(17)",
+        "敌人(2)",
+        "学生(1)",
+        "朋友(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "方面",
+      "target": "相信",
+      "mentions": 22,
+      "firstChapter": 42,
+      "lastChapter": 868,
+      "markers": [
+        "同章共现(19)",
+        "老师(2)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "古代传",
+      "target": "路西恩",
+      "mentions": 22,
+      "firstChapter": 123,
+      "lastChapter": 809,
       "markers": [
         "同章共现(22)"
       ]
     },
     {
-      "source": "路易丝",
+      "source": "白灰色",
       "target": "路西恩",
-      "mentions": 20,
-      "firstChapter": 286,
-      "lastChapter": 802,
+      "mentions": 22,
+      "firstChapter": 277,
+      "lastChapter": 647,
       "markers": [
-        "同章共现(18)",
-        "老师(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "道格拉斯",
-      "target": "阿特兰特",
-      "mentions": 20,
-      "firstChapter": 354,
-      "lastChapter": 916,
-      "markers": [
-        "同章共现(18)",
-        "老师(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "唐尼",
-      "mentions": 20,
-      "firstChapter": 829,
-      "lastChapter": 855,
-      "markers": [
-        "同章共现(20)"
-      ]
-    },
-    {
-      "source": "卡尔",
-      "target": "卡特里娜",
-      "mentions": 19,
-      "firstChapter": 709,
-      "lastChapter": 716,
-      "markers": [
-        "同章共现(14)",
-        "朋友(2)",
-        "合作(2)",
-        "同伴(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "唐尼",
-      "target": "老板",
-      "mentions": 19,
-      "firstChapter": 828,
-      "lastChapter": 852,
-      "markers": [
-        "同章共现(18)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "本笃三世",
-      "target": "路西恩",
-      "mentions": 18,
-      "firstChapter": 571,
-      "lastChapter": 813,
-      "markers": [
-        "同章共现(16)",
-        "保护(1)",
-        "合作(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "维肯",
-      "target": "费尔南多",
-      "mentions": 18,
-      "firstChapter": 614,
-      "lastChapter": 883,
-      "markers": [
-        "同章共现(15)",
-        "合作(2)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "玛法里奥",
-      "mentions": 18,
-      "firstChapter": 672,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(18)"
-      ]
-    },
-    {
-      "source": "奥菲莉亚",
-      "target": "海蒂",
-      "mentions": 17,
-      "firstChapter": 548,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(12)",
-        "老师(5)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "阿特兰特",
-      "mentions": 17,
-      "firstChapter": 671,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(17)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "阿格莱亚",
-      "mentions": 17,
-      "firstChapter": 673,
-      "lastChapter": 765,
-      "markers": [
-        "同章共现(15)",
-        "盟友(2)"
-      ]
-    },
-    {
-      "source": "尤里斯安",
-      "target": "海蒂",
-      "mentions": 16,
-      "firstChapter": 672,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(15)",
+        "同章共现(21)",
         "保护(1)"
       ]
     },
     {
-      "source": "克里斯多夫",
-      "target": "娜塔莎",
-      "mentions": 15,
-      "firstChapter": 103,
-      "lastChapter": 720,
+      "source": "施展",
+      "target": "时空",
+      "mentions": 22,
+      "firstChapter": 607,
+      "lastChapter": 899,
       "markers": [
-        "同章共现(13)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "弗洛伦莎",
-      "target": "莫里斯",
-      "mentions": 15,
-      "firstChapter": 215,
-      "lastChapter": 532,
-      "markers": [
-        "同章共现(9)",
-        "老师(3)",
-        "盟友(1)",
-        "弟子(1)",
-        "妻子(1)",
-        "学生(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "奥菲莉亚",
-      "target": "路西恩",
-      "mentions": 15,
-      "firstChapter": 317,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(15)"
-      ]
-    },
-    {
-      "source": "费尔南多",
-      "target": "阿特兰特",
-      "mentions": 15,
-      "firstChapter": 360,
-      "lastChapter": 916,
-      "markers": [
-        "同章共现(13)",
-        "老师(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "弗朗西斯",
-      "mentions": 15,
-      "firstChapter": 486,
-      "lastChapter": 720,
-      "markers": [
-        "同章共现(13)",
-        "合作(2)",
-        "同伴(1)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "道格拉斯",
-      "mentions": 14,
-      "firstChapter": 206,
-      "lastChapter": 827,
-      "markers": [
-        "同章共现(11)",
-        "朋友(1)",
-        "老师(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "贝格纳",
-      "target": "道格拉斯",
-      "mentions": 14,
-      "firstChapter": 432,
-      "lastChapter": 766,
-      "markers": [
-        "同章共现(12)",
-        "朋友(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "弗兰克斯",
-      "target": "道格拉斯",
-      "mentions": 14,
-      "firstChapter": 569,
-      "lastChapter": 580,
-      "markers": [
-        "同章共现(14)"
-      ]
-    },
-    {
-      "source": "兰希尔",
-      "target": "路西恩",
-      "mentions": 14,
-      "firstChapter": 672,
-      "lastChapter": 776,
-      "markers": [
-        "同章共现(13)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "阿里",
-      "mentions": 14,
-      "firstChapter": 723,
-      "lastChapter": 817,
-      "markers": [
-        "同章共现(13)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "加斯东",
-      "target": "弗洛伦莎",
-      "mentions": 13,
-      "firstChapter": 215,
-      "lastChapter": 429,
-      "markers": [
-        "同章共现(12)",
-        "老师(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "尤里斯安",
-      "target": "路西恩",
-      "mentions": 13,
-      "firstChapter": 245,
-      "lastChapter": 678,
-      "markers": [
-        "同章共现(12)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "布鲁克",
-      "target": "罗兰",
-      "mentions": 13,
-      "firstChapter": 420,
-      "lastChapter": 457,
-      "markers": [
-        "同章共现(13)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "维肯",
-      "mentions": 13,
-      "firstChapter": 664,
-      "lastChapter": 825,
-      "markers": [
-        "同章共现(12)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "莱茵",
-      "mentions": 12,
-      "firstChapter": 22,
-      "lastChapter": 784,
-      "markers": [
-        "同章共现(12)"
-      ]
-    },
-    {
-      "source": "莱茵",
-      "target": "道格拉斯",
-      "mentions": 12,
-      "firstChapter": 117,
-      "lastChapter": 827,
-      "markers": [
-        "同章共现(11)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "安娜",
-      "target": "怀斯",
-      "mentions": 12,
-      "firstChapter": 138,
-      "lastChapter": 150,
-      "markers": [
-        "同章共现(10)",
-        "妻子(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "纷纷",
-      "mentions": 12,
-      "firstChapter": 179,
-      "lastChapter": 787,
-      "markers": [
-        "同章共现(8)",
-        "老师(4)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "道格拉斯",
-      "mentions": 12,
-      "firstChapter": 195,
-      "lastChapter": 884,
-      "markers": [
-        "同章共现(11)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "维肯",
-      "target": "莱茵",
-      "mentions": 12,
-      "firstChapter": 628,
-      "lastChapter": 793,
-      "markers": [
-        "同章共现(11)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "兰希尔",
-      "target": "阿特兰特",
-      "mentions": 12,
-      "firstChapter": 672,
-      "lastChapter": 684,
-      "markers": [
-        "同章共现(12)"
-      ]
-    },
-    {
-      "source": "乔尔",
-      "target": "内心",
-      "mentions": 11,
-      "firstChapter": 2,
-      "lastChapter": 788,
-      "markers": [
-        "同章共现(7)",
-        "朋友(2)",
-        "儿子(1)",
-        "父亲(1)",
-        "母亲(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "唐尼",
-      "target": "路西恩",
-      "mentions": 11,
-      "firstChapter": 12,
-      "lastChapter": 855,
-      "markers": [
-        "同章共现(10)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "兰希尔",
-      "target": "玛法里奥",
-      "mentions": 11,
-      "firstChapter": 672,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(11)"
-      ]
-    },
-    {
-      "source": "尤里斯安",
-      "target": "艾勒丝汀",
-      "mentions": 11,
-      "firstChapter": 674,
-      "lastChapter": 682,
-      "markers": [
-        "同章共现(10)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "艾勒丝汀",
-      "mentions": 11,
-      "firstChapter": 679,
-      "lastChapter": 698,
-      "markers": [
-        "同章共现(10)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "暗自",
-      "mentions": 10,
-      "firstChapter": 148,
-      "lastChapter": 693,
-      "markers": [
-        "同章共现(9)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "卡特里娜",
-      "target": "拉扎尔",
-      "mentions": 10,
-      "firstChapter": 184,
-      "lastChapter": 698,
-      "markers": [
-        "同章共现(8)",
-        "学生(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "莫里斯",
-      "mentions": 10,
-      "firstChapter": 214,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(7)",
-        "合作(2)",
-        "学生(1)",
+        "同章共现(20)",
+        "敌人(1)",
         "保护(1)"
       ]
     },
     {
-      "source": "故意",
-      "target": "维肯",
-      "mentions": 10,
-      "firstChapter": 255,
-      "lastChapter": 803,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
-      "source": "莫里斯",
-      "target": "费尔南多",
-      "mentions": 10,
-      "firstChapter": 327,
+      "source": "周围",
+      "target": "安静",
+      "mentions": 21,
+      "firstChapter": 3,
       "lastChapter": 832,
       "markers": [
-        "同章共现(8)",
-        "学生(1)",
-        "老师(1)"
+        "同章共现(21)"
       ]
     },
     {
-      "source": "故意",
-      "target": "道格拉斯",
-      "mentions": 10,
-      "firstChapter": 341,
-      "lastChapter": 901,
+      "source": "成功",
+      "target": "高阶",
+      "mentions": 21,
+      "firstChapter": 26,
+      "lastChapter": 865,
       "markers": [
-        "同章共现(9)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "暗自",
-      "target": "费尔南多",
-      "mentions": 10,
-      "firstChapter": 510,
-      "lastChapter": 896,
-      "markers": [
-        "同章共现(7)",
-        "合作(2)",
-        "学生(1)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "海蒂",
-      "mentions": 10,
-      "firstChapter": 587,
-      "lastChapter": 698,
-      "markers": [
-        "同章共现(5)",
-        "老师(4)",
-        "学生(2)"
-      ]
-    },
-    {
-      "source": "决定论",
-      "target": "路西恩",
-      "mentions": 10,
-      "firstChapter": 603,
-      "lastChapter": 754,
-      "markers": [
-        "同章共现(9)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "维肯",
-      "mentions": 10,
-      "firstChapter": 689,
-      "lastChapter": 909,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
-      "source": "卡尔",
-      "target": "安娜",
-      "mentions": 10,
-      "firstChapter": 709,
-      "lastChapter": 716,
-      "markers": [
-        "同章共现(4)",
-        "朋友(2)",
-        "学生(2)",
-        "保护(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "汤姆",
-      "target": "阿斯塔尔",
-      "mentions": 9,
-      "firstChapter": 169,
-      "lastChapter": 182,
-      "markers": [
-        "同章共现(8)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "安德鲁",
-      "target": "路西恩",
-      "mentions": 9,
-      "firstChapter": 209,
-      "lastChapter": 213,
-      "markers": [
-        "同章共现(8)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "弗洛伦莎",
-      "target": "费尔南多",
-      "mentions": 9,
-      "firstChapter": 246,
-      "lastChapter": 524,
-      "markers": [
-        "同章共现(7)",
-        "学生(2)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "列夫斯基",
-      "target": "费尔南多",
-      "mentions": 9,
-      "firstChapter": 423,
-      "lastChapter": 597,
-      "markers": [
-        "同章共现(8)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "玛法里奥",
-      "target": "阿特兰特",
-      "mentions": 9,
-      "firstChapter": 672,
-      "lastChapter": 677,
-      "markers": [
-        "同章共现(9)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "安娜",
-      "mentions": 8,
-      "firstChapter": 90,
-      "lastChapter": 716,
-      "markers": [
-        "同章共现(6)",
-        "同伴(2)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "约翰",
-      "mentions": 8,
-      "firstChapter": 93,
-      "lastChapter": 788,
-      "markers": [
-        "同章共现(5)",
-        "朋友(2)",
-        "儿子(1)",
+        "同章共现(17)",
+        "朋友(1)",
         "父亲(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "故意",
-      "target": "莱茵",
-      "mentions": 8,
-      "firstChapter": 117,
-      "lastChapter": 784,
-      "markers": [
-        "同章共现(8)"
-      ]
-    },
-    {
-      "source": "拉扎尔",
-      "target": "道格拉斯",
-      "mentions": 8,
-      "firstChapter": 185,
-      "lastChapter": 436,
-      "markers": [
-        "同章共现(5)",
-        "朋友(2)",
-        "弟子(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "克劳斯",
-      "target": "费尔南多",
-      "mentions": 8,
-      "firstChapter": 220,
-      "lastChapter": 624,
-      "markers": [
-        "同章共现(8)"
-      ]
-    },
-    {
-      "source": "故意",
-      "target": "费尔南多",
-      "mentions": 8,
-      "firstChapter": 341,
-      "lastChapter": 894,
-      "markers": [
-        "同章共现(7)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "奥利弗",
-      "target": "娜塔莎",
-      "mentions": 8,
-      "firstChapter": 353,
-      "lastChapter": 650,
-      "markers": [
-        "同章共现(6)",
-        "学生(1)",
-        "合作(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "埃尔",
-      "mentions": 8,
-      "firstChapter": 454,
-      "lastChapter": 490,
-      "markers": [
-        "同章共现(6)",
+        "同伴(1)",
         "老师(1)",
         "敌人(1)"
       ]
     },
     {
-      "source": "奥菲莉亚",
-      "target": "拉扎尔",
-      "mentions": 8,
-      "firstChapter": 553,
-      "lastChapter": 786,
+      "source": "方面",
+      "target": "水准",
+      "mentions": 21,
+      "firstChapter": 43,
+      "lastChapter": 842,
       "markers": [
-        "同章共现(7)",
-        "老师(1)"
+        "同章共现(17)",
+        "老师(3)",
+        "学生(1)"
       ]
     },
     {
-      "source": "海蒂",
-      "target": "道格拉斯",
-      "mentions": 7,
-      "firstChapter": 191,
-      "lastChapter": 800,
+      "source": "伊文斯",
+      "target": "程度",
+      "mentions": 21,
+      "firstChapter": 76,
+      "lastChapter": 735,
       "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "加斯东",
-      "target": "费尔南多",
-      "mentions": 7,
-      "firstChapter": 246,
-      "lastChapter": 606,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "故意",
-      "target": "萨尔德",
-      "mentions": 7,
-      "firstChapter": 306,
-      "lastChapter": 642,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "拉扎尔",
-      "target": "蕾依丽雅",
-      "mentions": 7,
-      "firstChapter": 333,
-      "lastChapter": 750,
-      "markers": [
-        "同章共现(5)",
-        "学生(2)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "拜尔",
-      "target": "路西恩",
-      "mentions": 7,
-      "firstChapter": 398,
-      "lastChapter": 410,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "莱茵",
-      "target": "费尔南多",
-      "mentions": 7,
-      "firstChapter": 418,
-      "lastChapter": 827,
-      "markers": [
-        "同章共现(5)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "布鲁克",
-      "mentions": 7,
-      "firstChapter": 441,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(6)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "本笃三世",
-      "target": "维肯",
-      "mentions": 7,
-      "firstChapter": 645,
-      "lastChapter": 792,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "奥菲莉亚",
-      "target": "蕾依丽雅",
-      "mentions": 7,
-      "firstChapter": 652,
-      "lastChapter": 771,
-      "markers": [
-        "同章共现(5)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "奥利弗",
-      "target": "贝格纳",
-      "mentions": 7,
-      "firstChapter": 668,
-      "lastChapter": 824,
-      "markers": [
-        "同章共现(6)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "道格拉斯",
-      "target": "阿格莱亚",
-      "mentions": 7,
-      "firstChapter": 670,
-      "lastChapter": 799,
-      "markers": [
-        "同章共现(6)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "兰希尔",
-      "target": "娜塔莎",
-      "mentions": 7,
-      "firstChapter": 672,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "卡特里娜",
-      "mentions": 7,
-      "firstChapter": 710,
-      "lastChapter": 730,
-      "markers": [
-        "同章共现(6)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "侍女",
-      "target": "路西恩",
-      "mentions": 6,
-      "firstChapter": 77,
-      "lastChapter": 272,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "安娜",
-      "mentions": 6,
-      "firstChapter": 90,
-      "lastChapter": 305,
-      "markers": [
-        "队长(4)",
-        "同伴(1)",
-        "同章共现(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "萨尔德",
-      "mentions": 6,
-      "firstChapter": 126,
-      "lastChapter": 690,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "弗洛伦莎",
-      "target": "道格拉斯",
-      "mentions": 6,
-      "firstChapter": 217,
-      "lastChapter": 517,
-      "markers": [
-        "同章共现(4)",
-        "丈夫(2)"
-      ]
-    },
-    {
-      "source": "老板",
-      "target": "雷欧",
-      "mentions": 6,
-      "firstChapter": 259,
-      "lastChapter": 265,
-      "markers": [
-        "同章共现(5)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "约翰",
-      "target": "罗兰",
-      "mentions": 6,
-      "firstChapter": 285,
-      "lastChapter": 542,
-      "markers": [
-        "同章共现(4)",
-        "老师(1)",
+        "同章共现(20)",
         "合作(1)"
       ]
     },
     {
-      "source": "萨尔德",
-      "target": "道格拉斯",
-      "mentions": 6,
-      "firstChapter": 447,
-      "lastChapter": 567,
+      "source": "怀疑",
+      "target": "高阶",
+      "mentions": 21,
+      "firstChapter": 86,
+      "lastChapter": 878,
       "markers": [
-        "同章共现(3)",
-        "合作(2)",
-        "老师(1)"
+        "同章共现(19)",
+        "朋友(2)"
       ]
     },
     {
-      "source": "布鲁克",
-      "target": "蕾切尔",
-      "mentions": 6,
-      "firstChapter": 455,
-      "lastChapter": 461,
+      "source": "伊文斯",
+      "target": "王国",
+      "mentions": 21,
+      "firstChapter": 135,
+      "lastChapter": 693,
       "markers": [
-        "同章共现(4)",
-        "母亲(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "克劳斯",
-      "target": "道格拉斯",
-      "mentions": 6,
-      "firstChapter": 461,
-      "lastChapter": 651,
-      "markers": [
-        "同章共现(5)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "弗朗西斯",
-      "mentions": 6,
-      "firstChapter": 472,
-      "lastChapter": 490,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "奥利弗",
-      "mentions": 6,
-      "firstChapter": 531,
-      "lastChapter": 906,
-      "markers": [
-        "同章共现(5)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "弗兰克斯",
-      "target": "本笃三世",
-      "mentions": 6,
-      "firstChapter": 570,
-      "lastChapter": 580,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "本笃三世",
-      "target": "费尔南多",
-      "mentions": 6,
-      "firstChapter": 573,
-      "lastChapter": 635,
-      "markers": [
-        "同章共现(5)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "维肯",
-      "target": "萨尔德",
-      "mentions": 6,
-      "firstChapter": 643,
-      "lastChapter": 648,
-      "markers": [
-        "同章共现(4)",
-        "背叛(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "维肯",
-      "target": "阿特兰特",
-      "mentions": 6,
-      "firstChapter": 653,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "布鲁克",
-      "target": "贝格纳",
-      "mentions": 6,
-      "firstChapter": 668,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(5)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "老者",
-      "mentions": 5,
-      "firstChapter": 65,
-      "lastChapter": 510,
-      "markers": [
-        "同章共现(4)",
-        "同伴(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "娜塔莎",
-      "mentions": 5,
-      "firstChapter": 65,
-      "lastChapter": 556,
-      "markers": [
-        "同章共现(4)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "埃尔",
-      "target": "罗兰",
-      "mentions": 5,
-      "firstChapter": 118,
-      "lastChapter": 454,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "汤姆",
-      "target": "蕾依丽雅",
-      "mentions": 5,
-      "firstChapter": 170,
-      "lastChapter": 175,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "纷纷",
-      "target": "蕾依丽雅",
-      "mentions": 5,
-      "firstChapter": 179,
-      "lastChapter": 768,
-      "markers": [
-        "同章共现(4)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "内心",
-      "target": "罗兰",
-      "mentions": 5,
-      "firstChapter": 285,
-      "lastChapter": 868,
-      "markers": [
-        "同章共现(4)",
-        "父亲(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "亚当",
-      "target": "奥菲莉亚",
-      "mentions": 5,
-      "firstChapter": 316,
-      "lastChapter": 325,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "奥利弗",
-      "target": "阿特兰特",
-      "mentions": 5,
-      "firstChapter": 460,
-      "lastChapter": 799,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "弗朗西斯",
-      "target": "故意",
-      "mentions": 5,
-      "firstChapter": 470,
-      "lastChapter": 481,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "克劳斯",
-      "target": "奥利弗",
-      "mentions": 5,
-      "firstChapter": 585,
-      "lastChapter": 598,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "路易丝",
-      "mentions": 5,
-      "firstChapter": 587,
-      "lastChapter": 725,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "布鲁克",
-      "target": "维肯",
-      "mentions": 5,
-      "firstChapter": 613,
-      "lastChapter": 818,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "布鲁克",
-      "mentions": 5,
-      "firstChapter": 636,
-      "lastChapter": 650,
-      "markers": [
-        "同章共现(4)",
+        "同章共现(19)",
+        "命令(1)",
         "妻子(1)"
       ]
     },
     {
-      "source": "卡特里娜",
-      "target": "暗自",
-      "mentions": 5,
-      "firstChapter": 675,
-      "lastChapter": 714,
+      "source": "伊文斯",
+      "target": "明显",
+      "mentions": 21,
+      "firstChapter": 140,
+      "lastChapter": 829,
       "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "布雷恩",
-      "target": "阿里",
-      "mentions": 5,
-      "firstChapter": 752,
-      "lastChapter": 767,
-      "markers": [
-        "老师(4)",
-        "学生(1)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "阿里",
-      "mentions": 5,
-      "firstChapter": 755,
-      "lastChapter": 821,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "阿格莱亚",
-      "mentions": 5,
-      "firstChapter": 758,
-      "lastChapter": 764,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "萨尔德",
-      "mentions": 4,
-      "firstChapter": 65,
-      "lastChapter": 555,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "克里斯多夫",
-      "target": "纷纷",
-      "mentions": 4,
-      "firstChapter": 110,
-      "lastChapter": 309,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "罗杰里奥",
-      "mentions": 4,
-      "firstChapter": 126,
-      "lastChapter": 199,
-      "markers": [
-        "同章共现(3)",
-        "敌人(1)",
-        "背叛(1)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "安娜",
-      "target": "罗兰",
-      "mentions": 4,
-      "firstChapter": 137,
-      "lastChapter": 454,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "布鲁克",
-      "target": "阿斯塔尔",
-      "mentions": 4,
-      "firstChapter": 169,
-      "lastChapter": 173,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "拉扎尔",
-      "target": "纷纷",
-      "mentions": 4,
-      "firstChapter": 184,
-      "lastChapter": 750,
-      "markers": [
-        "同章共现(3)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "蕾依丽雅",
-      "target": "道格拉斯",
-      "mentions": 4,
-      "firstChapter": 191,
-      "lastChapter": 652,
-      "markers": [
-        "同章共现(2)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "卡特里娜",
-      "target": "道格拉斯",
-      "mentions": 4,
-      "firstChapter": 191,
-      "lastChapter": 600,
-      "markers": [
-        "同章共现(1)",
-        "弟子(1)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "路西恩",
-      "target": "金坷垃",
-      "mentions": 4,
-      "firstChapter": 240,
-      "lastChapter": 368,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "克里斯多夫",
-      "target": "内心",
-      "mentions": 4,
-      "firstChapter": 293,
-      "lastChapter": 295,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "弗洛伦莎",
-      "mentions": 4,
-      "firstChapter": 326,
-      "lastChapter": 532,
-      "markers": [
-        "同章共现(3)",
-        "学生(1)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "拉扎尔",
-      "target": "雷欧",
-      "mentions": 4,
-      "firstChapter": 333,
-      "lastChapter": 579,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "卡特里娜",
-      "target": "纷纷",
-      "mentions": 4,
-      "firstChapter": 336,
-      "lastChapter": 686,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "故意",
-      "target": "海蒂",
-      "mentions": 4,
-      "firstChapter": 445,
-      "lastChapter": 786,
-      "markers": [
-        "同章共现(2)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "故意",
-      "target": "老者",
-      "mentions": 4,
-      "firstChapter": 452,
-      "lastChapter": 884,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "埃尔",
-      "target": "安娜",
-      "mentions": 4,
-      "firstChapter": 452,
-      "lastChapter": 454,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "萨尔德",
-      "target": "詹姆斯",
-      "mentions": 4,
-      "firstChapter": 515,
-      "lastChapter": 561,
-      "markers": [
-        "同章共现(2)",
-        "敌人(1)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "娜塔莎",
-      "target": "拉扎尔",
-      "mentions": 4,
-      "firstChapter": 579,
-      "lastChapter": 698,
-      "markers": [
-        "同章共现(3)",
-        "学生(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "维肯",
-      "mentions": 4,
-      "firstChapter": 664,
-      "lastChapter": 825,
-      "markers": [
-        "同章共现(2)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "尤里斯安",
-      "target": "阿特兰特",
-      "mentions": 4,
-      "firstChapter": 671,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(3)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "兰希尔",
-      "target": "阿格莱亚",
-      "mentions": 4,
-      "firstChapter": 673,
-      "lastChapter": 686,
-      "markers": [
-        "同章共现(3)",
-        "合作(1)"
-      ]
-    },
-    {
-      "source": "兰希尔",
-      "target": "艾勒丝汀",
-      "mentions": 4,
-      "firstChapter": 675,
-      "lastChapter": 691,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "海蒂",
-      "target": "阿特兰特",
-      "mentions": 4,
-      "firstChapter": 683,
-      "lastChapter": 689,
-      "markers": [
-        "同章共现(3)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "维肯",
-      "target": "阿格莱亚",
-      "mentions": 4,
-      "firstChapter": 686,
-      "lastChapter": 823,
-      "markers": [
-        "同章共现(3)",
-        "保护(1)"
-      ]
-    },
-    {
-      "source": "唐尼",
-      "target": "暗自",
-      "mentions": 4,
-      "firstChapter": 829,
-      "lastChapter": 844,
-      "markers": [
-        "同章共现(3)",
+        "同章共现(18)",
+        "老师(2)",
         "父亲(1)"
       ]
     },
     {
-      "source": "埃尔",
-      "target": "萨尔德",
-      "mentions": 3,
-      "firstChapter": 130,
-      "lastChapter": 540,
+      "source": "师们",
+      "target": "相信",
+      "mentions": 21,
+      "firstChapter": 151,
+      "lastChapter": 895,
       "markers": [
-        "同章共现(3)"
+        "同章共现(20)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "费利佩",
+      "target": "高阶魔",
+      "mentions": 21,
+      "firstChapter": 154,
+      "lastChapter": 841,
+      "markers": [
+        "同章共现(14)",
+        "学生(4)",
+        "敌人(1)",
+        "对手(1)",
+        "保护(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "安静",
+      "target": "费尔南",
+      "mentions": 21,
+      "firstChapter": 220,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(16)",
+        "老师(3)",
+        "学生(2)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "费尔南",
+      "target": "高阶魔",
+      "mentions": 21,
+      "firstChapter": 330,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(18)",
+        "老师(1)",
+        "学生(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "施展",
+      "target": "费尔南",
+      "mentions": 21,
+      "firstChapter": 334,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(21)"
       ]
     }
   ],
@@ -7282,11 +8742,43 @@
       ]
     }
   ],
+  "events": [],
   "chunkSummaries": [
     {
       "chunk": 1,
       "range": "第 1-20 章",
-      "characters": [],
+      "characters": [
+        "路西恩",
+        "夏风看",
+        "夏风心",
+        "夏风",
+        "白色十",
+        "广场",
+        "艾丽萨",
+        "伊文斯",
+        "乐梦想",
+        "明大人",
+        "汤姆森",
+        "习骑士",
+        "白色长",
+        "危险",
+        "马脚",
+        "明牧师",
+        "祝福术",
+        "牧师大",
+        "牧师",
+        "庄严",
+        "白手套",
+        "白色光",
+        "雷亚",
+        "方传来",
+        "习牧师",
+        "红色",
+        "红眼老",
+        "成一团",
+        "谢谢",
+        "安静"
+      ],
       "organizations": [
         "阿得让教堂",
         "一不小心就会",
@@ -7306,13 +8798,43 @@
         "激发神术",
         "学习魔法",
         "通用语发音和初级"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 2,
       "range": "第 21-40 章",
       "characters": [
-        "路西恩"
+        "路西恩",
+        "文字",
+        "习文字",
+        "乐家协",
+        "游诗人",
+        "段时间",
+        "管键琴",
+        "庄园",
+        "乐家",
+        "乐会",
+        "夏维尔",
+        "古王国",
+        "怀疑",
+        "相信",
+        "安妮",
+        "马脚",
+        "许久",
+        "安静",
+        "红色",
+        "乐家维",
+        "满意",
+        "艾斯",
+        "全记住",
+        "水果",
+        "罗多德",
+        "段旋律",
+        "明天",
+        "明显",
+        "方面",
+        "古怪"
       ],
       "organizations": [
         "一定会",
@@ -7353,13 +8875,43 @@
         "恐怖的魔法",
         "施展魔法",
         "或者魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 3,
       "range": "第 41-60 章",
       "characters": [
-        "路西恩"
+        "路西恩",
+        "艾丽萨",
+        "习魔法",
+        "段时间",
+        "危险",
+        "师先生",
+        "水道",
+        "怀疑",
+        "陆魔法",
+        "相信",
+        "古怪",
+        "应该能",
+        "古代魔",
+        "仇者",
+        "相同",
+        "关键",
+        "常危险",
+        "古代希",
+        "方式",
+        "任何作",
+        "巫废墟",
+        "任何动",
+        "水道哪",
+        "梅尔泽",
+        "师身份",
+        "全无法",
+        "容易",
+        "曾经见",
+        "常吃惊",
+        "连在一"
       ],
       "organizations": [
         "大陆魔法议会",
@@ -7405,13 +8957,43 @@
         "一环魔法",
         "恐怖的魔法",
         "甚至魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 4,
       "range": "第 61-80 章",
       "characters": [
-        "路西恩"
+        "路西恩",
+        "乐曲",
+        "艾琳娜",
+        "红眼老",
+        "乐家",
+        "伊文斯",
+        "罗理事",
+        "习音乐",
+        "乐谱",
+        "乐会",
+        "乐器",
+        "高阶骑",
+        "怀疑",
+        "雷亚",
+        "安静",
+        "毛笔",
+        "钟后",
+        "乐评论",
+        "满意",
+        "冷静",
+        "相信",
+        "曲目",
+        "高兴",
+        "谢谢您",
+        "边说",
+        "常好",
+        "谢谢",
+        "边缘",
+        "严肃",
+        "乐潮流"
       ],
       "organizations": [
         "肯定会",
@@ -7454,14 +9036,43 @@
         "还是魔法",
         "整个魔法",
         "但初级"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 5,
       "range": "第 81-100 章",
       "characters": [
         "路西恩",
-        "娜塔莎"
+        "艾丽萨",
+        "乐曲",
+        "伊文斯",
+        "乐家",
+        "白蜜糖",
+        "乐家协",
+        "乔尔叔",
+        "文字",
+        "成功",
+        "程度",
+        "乐器",
+        "乐天分",
+        "怀疑",
+        "安静",
+        "吉苏区",
+        "乔尔",
+        "钟后",
+        "乐师",
+        "安全",
+        "艾文",
+        "施展",
+        "关键时",
+        "许多",
+        "水准",
+        "谢谢您",
+        "明显",
+        "梅尔泽",
+        "夏宫",
+        "明天"
       ],
       "organizations": [
         "在协会",
@@ -7514,15 +9125,43 @@
         "强大的魔法",
         "古代魔法",
         "由于古代魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 6,
       "range": "第 101-120 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "莱茵"
+        "乐曲",
+        "段时间",
+        "习魔法",
+        "文字",
+        "习音乐",
+        "施法材",
+        "程度",
+        "怀疑",
+        "古代魔",
+        "乐器",
+        "安静",
+        "方法",
+        "满意",
+        "吉苏区",
+        "段旋律",
+        "施展",
+        "解析",
+        "相同",
+        "施法",
+        "古代希",
+        "习惯",
+        "巫笔记",
+        "乐曲来",
+        "成熟",
+        "常惊讶",
+        "毕竟自",
+        "常快",
+        "全部",
+        "解析魔"
       ],
       "organizations": [
         "过了一会",
@@ -7581,15 +9220,43 @@
         "在成为高阶魔法",
         "早就被魔法",
         "以及魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 7,
       "range": "第 121-140 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "莱茵"
+        "文字",
+        "危险",
+        "安静",
+        "古代魔",
+        "仇者",
+        "冷静",
+        "钟后",
+        "安全",
+        "任何一",
+        "古怪",
+        "方式",
+        "解析",
+        "许多",
+        "解决",
+        "水银",
+        "石头",
+        "周围",
+        "景象",
+        "花园",
+        "颜色",
+        "边缘",
+        "任何",
+        "全部",
+        "时路西",
+        "常适合",
+        "常冷静",
+        "后面则",
+        "林边缘",
+        "白色"
       ],
       "organizations": [
         "的机会",
@@ -7655,16 +9322,43 @@
         "魔法实验",
         "邪恶魔法",
         "霍尔姆王国扶持魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 8,
       "range": "第 141-160 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
+        "伊文斯",
+        "乐曲",
+        "乐家",
+        "乐会",
+        "游诗人",
+        "管键琴",
+        "成功",
+        "乐顾问",
+        "怀疑",
+        "乐器",
+        "乐谱",
+        "乔安娜",
+        "贝罗男",
+        "相信",
+        "怀斯先",
         "怀斯",
-        "莱茵"
+        "武器",
+        "习钢琴",
+        "贝蒂",
+        "时代",
+        "边说",
+        "华丽",
+        "罗男爵",
+        "安排",
+        "严肃",
+        "乐队",
+        "马尔斯",
+        "明显",
+        "明天"
       ],
       "organizations": [
         "音乐会",
@@ -7722,17 +9416,43 @@
         "还是魔法",
         "议会总部的魔法",
         "其他魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 9,
       "range": "第 161-180 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "莱茵",
-        "阿斯塔尔",
-        "汤姆"
+        "伊文斯",
+        "费利佩",
+        "乐家",
+        "段时间",
+        "金塔勒",
+        "乐评论",
+        "霍尔姆",
+        "安静",
+        "费尔",
+        "满意",
+        "乐家路",
+        "金钱",
+        "方式",
+        "吉布提",
+        "解析",
+        "水道",
+        "房间内",
+        "周围",
+        "明正大",
+        "任何动",
+        "明白他",
+        "明显",
+        "成熟",
+        "应该已",
+        "王国",
+        "明天",
+        "边缘",
+        "水道入",
+        "师护甲"
       ],
       "organizations": [
         "肯定会",
@@ -7791,19 +9511,43 @@
         "几位魔法",
         "一位正式魔法",
         "元素魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 10,
       "range": "第 181-200 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
+        "伊文斯",
+        "乐家",
+        "段时间",
+        "危险",
+        "习魔法",
+        "霍尔姆",
+        "成功",
+        "文字",
+        "牧师",
+        "冷静",
+        "高阶骑",
+        "寇涛鱼",
+        "施展魔",
+        "毛笔",
+        "施展",
+        "明白自",
+        "师先生",
         "汤姆",
-        "阿斯塔尔",
-        "拉扎尔",
-        "路西恩轻",
-        "不由"
+        "严重",
+        "施法",
+        "相同",
+        "包裹",
+        "王国",
+        "任何动",
+        "左手",
+        "文斯先",
+        "幸运",
+        "明天",
+        "汤姆先"
       ],
       "organizations": [
         "魔法议会",
@@ -7866,18 +9610,43 @@
         "一环魔法",
         "净化序列",
         "还是魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 11,
       "range": "第 201-220 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "拉扎尔",
-        "路西恩轻",
-        "罗杰里奥",
-        "不由"
+        "伊文斯",
+        "费利佩",
+        "乐家",
+        "安尼克",
+        "霍尔姆",
+        "危险",
+        "白之手",
+        "冷静",
+        "费尔",
+        "相信",
+        "安全",
+        "谢谢您",
+        "古怪",
+        "时间内",
+        "成果",
+        "林厄",
+        "师等级",
+        "师管理",
+        "吉布提",
+        "花园别",
+        "武器",
+        "高兴",
+        "习惯",
+        "时代",
+        "古代传",
+        "文斯先",
+        "师们",
+        "高频率",
+        "尤利塞"
       ],
       "organizations": [
         "魔法议会",
@@ -7929,21 +9698,43 @@
         "道格拉斯魔法",
         "两位魔法",
         "传奇魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 12,
       "range": "第 221-240 章",
       "characters": [
         "路西恩",
-        "罗杰里奥",
-        "路西恩轻",
-        "拉扎尔",
-        "伍兹",
-        "娜塔莎",
-        "不由",
-        "莱茵",
-        "金坷垃"
+        "伊文斯",
+        "费利佩",
+        "霍尔姆",
+        "乐家",
+        "安静",
+        "任务",
+        "牧师",
+        "林厄",
+        "水准",
+        "方面",
+        "师们",
+        "明显",
+        "严肃",
+        "成员",
+        "严重",
+        "明正大",
+        "解析",
+        "高阶奥",
+        "权威",
+        "高礼帽",
+        "牛排",
+        "文斯先",
+        "成熟",
+        "白水",
+        "舒服",
+        "沙发",
+        "满足",
+        "白色衬",
+        "金属光"
       ],
       "organizations": [
         "魔法议会",
@@ -8003,19 +9794,43 @@
         "在魔法实验",
         "按照魔法",
         "净化序列"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 13,
       "range": "第 241-260 章",
       "characters": [
         "路西恩",
-        "罗杰里奥",
-        "娜塔莎",
-        "路西恩轻",
-        "拉扎尔",
-        "莱茵",
-        "加斯东"
+        "伊文斯",
+        "费利佩",
+        "霍尔姆",
+        "乐家",
+        "安尼克",
+        "白之手",
+        "高阶魔",
+        "成功",
+        "程度",
+        "任务",
+        "艾勒丝",
+        "冷静",
+        "师管理",
+        "金物质",
+        "林厄",
+        "师们",
+        "方面",
+        "高评议",
+        "相信",
+        "高阶奥",
+        "成员",
+        "相信你",
+        "习惯性",
+        "严重",
+        "权威",
+        "习惯",
+        "王子殿",
+        "高礼帽",
+        "成熟"
       ],
       "organizations": [
         "魔法议会",
@@ -8082,18 +9897,43 @@
         "到了魔法",
         "进行魔法实验",
         "绝大部分奥术"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 14,
       "range": "第 261-280 章",
       "characters": [
         "路西恩",
-        "路西恩轻",
-        "不由",
-        "娜塔莎",
-        "加斯东",
-        "莱茵"
+        "霍尔姆",
+        "古代魔",
+        "危险",
+        "金塔勒",
+        "任务",
+        "程度",
+        "安静",
+        "方法",
+        "东流亡",
+        "沙赫兰",
+        "金钱",
+        "房门",
+        "古怪",
+        "成员",
+        "花园别",
+        "周围",
+        "施展",
+        "贝尔特",
+        "明显",
+        "施展魔",
+        "古代传",
+        "武器",
+        "雷欧",
+        "罗利姆",
+        "雷亚",
+        "房内",
+        "成熟",
+        "红茶",
+        "房屋"
       ],
       "organizations": [
         "魔法议会",
@@ -8157,20 +9997,43 @@
         "星相系魔法",
         "我的魔法",
         "传奇魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 15,
       "range": "第 281-300 章",
       "characters": [
         "路西恩",
-        "莱茵",
+        "沙赫兰",
+        "红衣主",
+        "安静",
+        "冷静",
+        "牧师",
+        "马斯基",
+        "乌拉尔",
         "雷欧",
-        "娜塔莎",
-        "路西恩轻",
-        "克里斯多夫",
-        "拉扎尔",
-        "不由"
+        "方教会",
+        "方面",
+        "白之主",
+        "解析",
+        "高阶",
+        "任何问",
+        "任何人",
+        "史文献",
+        "文献",
+        "符号",
+        "解读",
+        "明天",
+        "任何",
+        "容易",
+        "解读出",
+        "高等级",
+        "相似",
+        "解析魔",
+        "关注",
+        "全身心",
+        "严格"
       ],
       "organizations": [
         "魔法议会",
@@ -8237,20 +10100,43 @@
         "一位五级",
         "成为高阶",
         "在高阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 16,
       "range": "第 301-320 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "路西恩轻",
-        "莱茵",
-        "克里斯多夫",
-        "约翰",
-        "亚当",
-        "不由"
+        "伊文斯",
+        "霍尔姆",
+        "危险",
+        "古代魔",
+        "红衣主",
+        "沙赫兰",
+        "安静",
+        "冷静",
+        "怀疑",
+        "方法",
+        "林厄",
+        "谢谢您",
+        "梅尔泽",
+        "师们",
+        "方面",
+        "相信",
+        "明正大",
+        "严重",
+        "朱莉安",
+        "严肃",
+        "王国",
+        "习奥术",
+        "解析",
+        "水银",
+        "高阶",
+        "后道",
+        "水道",
+        "成长起",
+        "高等级"
       ],
       "organizations": [
         "魔法议会",
@@ -8317,24 +10203,43 @@
         "星相系魔法",
         "魔法等级",
         "邪恶魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 17,
       "range": "第 321-340 章",
       "characters": [
         "路西恩",
-        "亚当",
-        "路西恩轻",
-        "莱茵",
-        "娜塔莎",
-        "约翰",
-        "加斯东",
-        "雷欧",
-        "费尔南多",
-        "金坷垃",
-        "拉扎尔",
-        "伍兹"
+        "危险",
+        "古代魔",
+        "任务",
+        "方法",
+        "施法材",
+        "时间内",
+        "水准",
+        "师们",
+        "相信",
+        "方面",
+        "施展",
+        "方式",
+        "周围",
+        "施法缓",
+        "明显",
+        "施展魔",
+        "高阶",
+        "解析",
+        "包裹",
+        "范围内",
+        "应该能",
+        "施法",
+        "许多",
+        "全无法",
+        "解决",
+        "颜色",
+        "容易",
+        "范围",
+        "巫婆"
       ],
       "organizations": [
         "魔法议会",
@@ -8401,21 +10306,43 @@
         "一位魔法",
         "独有魔法",
         "古代传承魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 18,
       "range": "第 341-360 章",
       "characters": [
         "路西恩",
-        "费尔南多",
-        "拉扎尔",
-        "雷欧",
-        "娜塔莎",
-        "加斯东",
-        "莫里斯",
-        "罗杰里奥",
-        "路西恩轻"
+        "伊文斯",
+        "段时间",
+        "费尔南",
+        "古代魔",
+        "周期表",
+        "成果",
+        "冷静",
+        "方法",
+        "林厄",
+        "时间内",
+        "伊莎贝",
+        "水准",
+        "满意",
+        "师们",
+        "方面",
+        "相信",
+        "马车",
+        "费尔",
+        "周围",
+        "鲁蒙德",
+        "严肃",
+        "荣耀",
+        "高阶",
+        "房内",
+        "文件",
+        "高兴",
+        "解析出",
+        "解析",
+        "林特"
       ],
       "organizations": [
         "魔法议会",
@@ -8482,22 +10409,43 @@
         "高阶奥术",
         "二环魔法",
         "高阶魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 19,
       "range": "第 361-380 章",
       "characters": [
         "路西恩",
-        "费尔南多",
-        "路西恩轻",
-        "金坷垃",
-        "加斯东",
-        "莫里斯",
-        "拉扎尔",
-        "莱茵",
-        "不由",
-        "娜塔莎"
+        "伊文斯",
+        "费尔南",
+        "高阶魔",
+        "危险",
+        "程度",
+        "怀疑",
+        "施法材",
+        "水准",
+        "相信",
+        "方面",
+        "高阶",
+        "费尔",
+        "周期性",
+        "周围",
+        "解析",
+        "施法",
+        "范围",
+        "成熟",
+        "解决",
+        "颜色",
+        "牛排",
+        "容易",
+        "贝拉克",
+        "边响起",
+        "步实质",
+        "符文",
+        "丰富",
+        "毕竟",
+        "白色"
       ],
       "organizations": [
         "事务委员会",
@@ -8564,20 +10512,43 @@
         "净化序列",
         "在古代魔法",
         "六环魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 20,
       "range": "第 381-400 章",
       "characters": [
         "路西恩",
-        "莱茵",
-        "路西恩轻",
-        "内心",
-        "费尔南多",
-        "不由",
-        "娜塔莎",
-        "约翰"
+        "危险",
+        "冷静",
+        "怀疑",
+        "文字",
+        "相信",
+        "水准",
+        "高阶",
+        "古怪",
+        "施展",
+        "荣耀",
+        "施展魔",
+        "管家",
+        "韦尔斯",
+        "颜色",
+        "容易",
+        "罗德",
+        "任何",
+        "时变得",
+        "安宁",
+        "黄金",
+        "任何怀",
+        "常激动",
+        "荣光",
+        "后一丝",
+        "管家加",
+        "水波般",
+        "黄金骑",
+        "时涌现",
+        "后裔"
       ],
       "organizations": [
         "魔法议会",
@@ -8644,24 +10615,43 @@
         "二环魔法",
         "六级神术",
         "但保留进阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 21,
       "range": "第 401-420 章",
       "characters": [
         "路西恩",
-        "内心",
-        "不由",
-        "拜尔",
-        "娜塔莎",
-        "莱茵",
-        "费尔南多",
-        "路西恩轻",
-        "罗杰里奥",
-        "雷欧",
-        "道格拉斯",
-        "莫里斯"
+        "霍尔姆",
+        "段时间",
+        "危险",
+        "索菲娅",
+        "怀疑",
+        "安静",
+        "金雀花",
+        "方法",
+        "时间内",
+        "相信",
+        "安全",
+        "成员",
+        "相信你",
+        "荣耀",
+        "周围",
+        "方式",
+        "王子殿",
+        "明显",
+        "宫殿",
+        "费时间",
+        "乔瑟琳",
+        "颜色",
+        "相同",
+        "雷尔夫",
+        "时间去",
+        "任何",
+        "时间来",
+        "常清楚",
+        "相信我"
       ],
       "organizations": [
         "肯定会",
@@ -8728,23 +10718,43 @@
         "四环魔法",
         "五环魔法",
         "道格拉斯的法术"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 22,
       "range": "第 421-440 章",
       "characters": [
         "路西恩",
-        "内心",
-        "拉扎尔",
-        "道格拉斯",
-        "费尔南多",
-        "不由",
-        "加斯东",
-        "娜塔莎",
-        "金坷垃",
-        "列夫斯基",
-        "路西恩轻"
+        "伊文斯",
+        "霍尔姆",
+        "高阶魔",
+        "危险",
+        "成果",
+        "程度",
+        "怀疑",
+        "林厄",
+        "方法",
+        "时间内",
+        "水准",
+        "相信",
+        "安全",
+        "师管理",
+        "方面",
+        "成员",
+        "高阶",
+        "王国",
+        "方式",
+        "宫殿",
+        "习惯性",
+        "景象",
+        "时代",
+        "习惯",
+        "容易",
+        "成熟",
+        "金物品",
+        "水晶灯",
+        "高原"
       ],
       "organizations": [
         "让教会",
@@ -8811,25 +10821,43 @@
         "八级奥术",
         "开始撰写论文",
         "当前奥术"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 23,
       "range": "第 441-460 章",
       "characters": [
         "路西恩",
-        "费尔南多",
-        "道格拉斯",
-        "内心",
-        "列夫斯基",
-        "拉扎尔",
-        "罗杰里奥",
-        "娜塔莎",
-        "莱茵",
-        "不由",
-        "金坷垃",
-        "莫里斯",
-        "路西恩轻"
+        "伊文斯",
+        "费尔南",
+        "段时间",
+        "成果",
+        "林厄",
+        "师管理",
+        "相信",
+        "何体系",
+        "方面",
+        "满意",
+        "费尔",
+        "严肃",
+        "毛笔",
+        "文件",
+        "权杖",
+        "权威",
+        "金生命",
+        "方式",
+        "高荣誉",
+        "费时间",
+        "容易",
+        "成熟",
+        "成长起",
+        "应该得",
+        "常识",
+        "时间来",
+        "白光芒",
+        "任何",
+        "严谨"
       ],
       "organizations": [
         "肯定会",
@@ -8896,22 +10924,43 @@
         "完全不符",
         "路西恩的论文",
         "传奇魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 24,
       "range": "第 461-480 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "费尔南多",
-        "拉扎尔",
-        "道格拉斯",
-        "加斯东",
-        "内心",
-        "约翰",
-        "弗朗西斯",
-        "不由"
+        "伊文斯",
+        "费尔南",
+        "高阶魔",
+        "段时间",
+        "乐家",
+        "危险",
+        "林厄",
+        "伊莎贝",
+        "安静",
+        "牧师",
+        "水准",
+        "方教会",
+        "路易丝",
+        "任何一",
+        "高阶",
+        "费尔",
+        "严肃",
+        "花园别",
+        "金生命",
+        "权威",
+        "尤利塞",
+        "文第",
+        "明显",
+        "时代",
+        "古堡",
+        "罗克",
+        "金术",
+        "颜色",
+        "项目"
       ],
       "organizations": [
         "魔法议会",
@@ -8978,21 +11027,43 @@
         "成为高阶",
         "领域作出的卓越贡献",
         "七环电磁类魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 25,
       "range": "第 481-500 章",
       "characters": [
         "路西恩",
-        "弗朗西斯",
-        "内心",
-        "娜塔莎",
-        "费尔南多",
-        "莱茵",
-        "路西恩轻",
-        "道格拉斯",
-        "列夫斯基"
+        "霍尔姆",
+        "危险",
+        "程度",
+        "怀疑",
+        "水准",
+        "安静",
+        "相信",
+        "利维坦",
+        "安休斯",
+        "方面",
+        "古怪",
+        "权杖",
+        "周围",
+        "索尔纳",
+        "宫殿",
+        "费时间",
+        "颜色",
+        "包裹",
+        "怀疑自",
+        "连续",
+        "黄金",
+        "任何",
+        "连续两",
+        "金发碧",
+        "安宁",
+        "米罗",
+        "时他",
+        "金属",
+        "白色"
       ],
       "organizations": [
         "过了一会",
@@ -9059,25 +11130,43 @@
         "七环魔法",
         "五环魔法",
         "星相系魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 26,
       "range": "第 501-520 章",
       "characters": [
         "路西恩",
+        "危险",
+        "程度",
+        "水晶球",
+        "康格斯",
+        "古怪",
+        "方面",
+        "权杖",
+        "安全",
+        "范围内",
+        "施展",
+        "黄金骑",
+        "边说",
+        "周围",
+        "范围",
+        "施法缓",
+        "周一求",
+        "施法",
+        "容易",
+        "巫妖",
+        "黄金",
+        "白色长",
+        "任何",
+        "后一步",
+        "连续",
+        "后一天",
         "娜塔莎",
-        "弗朗西斯",
-        "路西恩轻",
-        "内心",
-        "埃尔",
-        "费尔南多",
-        "莱茵",
-        "道格拉斯",
-        "莫里斯",
-        "约翰",
-        "拉扎尔",
-        "侍女"
+        "幸运",
+        "方案",
+        "雷电之"
       ],
       "organizations": [
         "肯定会",
@@ -9144,29 +11233,43 @@
         "七环魔法",
         "比如魔法",
         "根据魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 27,
       "range": "第 521-540 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "费尔南多",
-        "路西恩轻",
-        "奥利弗",
-        "埃尔",
-        "道格拉斯",
-        "内心",
-        "金坷垃",
-        "弗朗西斯",
-        "加斯东",
-        "雷欧",
-        "拉扎尔",
-        "莫里斯",
-        "弗洛伦莎",
-        "奥菲利亚",
-        "萨尔德"
+        "霍尔姆",
+        "段时间",
+        "危险",
+        "怀疑",
+        "古怪",
+        "方面",
+        "方法",
+        "任何一",
+        "房门",
+        "王国",
+        "满意",
+        "严肃",
+        "明正大",
+        "左手",
+        "方式",
+        "施法缓",
+        "马车",
+        "关键时",
+        "解析",
+        "明白自",
+        "应该能",
+        "施法",
+        "后果",
+        "成熟",
+        "任何问",
+        "满足",
+        "任何",
+        "时光",
+        "周报"
       ],
       "organizations": [
         "怎么会",
@@ -9233,34 +11336,43 @@
         "而其他魔法",
         "或者魔法",
         "得到神术"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 28,
       "range": "第 541-560 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "费尔南多",
-        "莱茵",
-        "萨尔德",
-        "道格拉斯",
-        "约翰",
-        "内心",
-        "莫里斯",
-        "奥利弗",
-        "路西恩轻",
-        "弗洛伦莎",
-        "汤姆",
-        "奥菲莉亚浅",
-        "弗朗西斯",
-        "埃尔",
-        "列夫斯基",
-        "尤里斯安",
-        "拉扎尔",
-        "汤谱",
-        "不由",
-        "詹姆斯"
+        "伊文斯",
+        "霍尔姆",
+        "费尔南",
+        "康格斯",
+        "白之手",
+        "林厄",
+        "成功",
+        "安静",
+        "相信",
+        "成员",
+        "房门",
+        "满意",
+        "庄园",
+        "左手",
+        "高阶",
+        "王子殿",
+        "严肃",
+        "施展",
+        "费尔",
+        "边说",
+        "关键时",
+        "严重",
+        "明显",
+        "师费尔",
+        "常好",
+        "容易",
+        "应该没",
+        "关注",
+        "康腰带"
       ],
       "organizations": [
         "过了一会",
@@ -9327,30 +11439,43 @@
         "正式魔法",
         "恐怖的魔法",
         "学徒级"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 29,
       "range": "第 561-580 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "费尔南多",
-        "道格拉斯",
-        "萨尔德",
-        "奥利弗",
-        "莱茵",
-        "詹姆斯",
-        "内心",
-        "莫里斯",
-        "拉扎尔",
-        "弗兰克斯",
-        "金坷垃",
-        "列夫斯基",
-        "加斯东",
-        "奥菲莉亚",
-        "雷欧",
-        "路西恩轻"
+        "费尔南",
+        "霍尔姆",
+        "危险",
+        "红衣主",
+        "雷克斯",
+        "时间内",
+        "牧师",
+        "相信",
+        "古怪",
+        "王国",
+        "成员",
+        "庄园",
+        "施展魔",
+        "施展",
+        "史诗骑",
+        "周围",
+        "师们",
+        "费尔",
+        "方式",
+        "景象",
+        "应该有",
+        "米尔",
+        "利弗",
+        "解决",
+        "松伯爵",
+        "包裹",
+        "应该已",
+        "任何人",
+        "鲁克"
       ],
       "organizations": [
         "魔法议会",
@@ -9417,33 +11542,43 @@
         "几位大奥术",
         "霍尔姆皇家魔法",
         "其余传奇魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 30,
       "range": "第 581-600 章",
       "characters": [
         "路西恩",
-        "费尔南多",
-        "道格拉斯",
-        "奥利弗",
-        "路西恩轻",
-        "娜塔莎",
-        "詹姆斯",
-        "埃尔",
-        "汤谱",
-        "加斯东",
-        "尤里斯安",
-        "拉扎尔",
-        "莱茵",
-        "雷欧",
-        "奥菲莉亚",
-        "内心",
-        "萨尔德",
-        "约翰",
-        "乔尔",
-        "莫里斯",
-        "列夫斯基"
+        "费尔南",
+        "危险",
+        "古代魔",
+        "白之手",
+        "程度",
+        "成果",
+        "水准",
+        "高评议",
+        "安静",
+        "方面",
+        "严肃",
+        "周围",
+        "利弗",
+        "费尔",
+        "时代",
+        "符号",
+        "颜色",
+        "包裹",
+        "封印",
+        "容易",
+        "应用",
+        "常识",
+        "融合",
+        "边缘",
+        "高高在",
+        "时空观",
+        "解除",
+        "任何",
+        "相似"
       ],
       "organizations": [
         "议长阁",
@@ -9510,30 +11645,43 @@
         "一位传奇魔法",
         "真实梦境",
         "高阶魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 31,
       "range": "第 601-620 章",
       "characters": [
         "路西恩",
-        "费尔南多",
-        "加斯东",
-        "路西恩轻",
-        "道格拉斯",
-        "奥利弗",
-        "莫里斯",
-        "弗洛伦莎",
-        "娜塔莎",
-        "内心",
-        "詹姆斯",
-        "约翰",
-        "乔尔",
-        "萨尔德",
-        "莱茵",
-        "埃尔",
-        "汤谱",
-        "克劳斯"
+        "费尔南",
+        "霍尔姆",
+        "危险",
+        "高评议",
+        "成果",
+        "方教会",
+        "怀疑",
+        "王国",
+        "金术",
+        "方法",
+        "马斯基",
+        "严肃",
+        "方式",
+        "高阶",
+        "师们",
+        "费尔",
+        "宫殿",
+        "解决",
+        "东先生",
+        "巫妖",
+        "索世界",
+        "高阶亡",
+        "高高在",
+        "任何",
+        "金反应",
+        "成形",
+        "关心",
+        "安宁",
+        "白色"
       ],
       "organizations": [
         "事务委员会",
@@ -9600,24 +11748,43 @@
         "接过论文",
         "中高阶奥术",
         "你的论文"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 32,
       "range": "第 621-640 章",
       "characters": [
         "路西恩",
-        "克劳斯",
-        "道格拉斯",
-        "费尔南多",
-        "莱茵",
-        "萨尔德",
-        "不由",
-        "路西恩轻",
-        "内心",
-        "娜塔莎",
-        "奥利弗",
-        "卡特里娜"
+        "危险",
+        "康格斯",
+        "程度",
+        "怀疑",
+        "水准",
+        "史诗骑",
+        "权杖",
+        "任何一",
+        "施展魔",
+        "左手",
+        "施展",
+        "周围",
+        "宫殿",
+        "施法缓",
+        "古木乃",
+        "巫妖",
+        "雷鸣",
+        "时间停",
+        "施法",
+        "融合",
+        "黄褐色",
+        "白色衬",
+        "相系魔",
+        "时光",
+        "解除",
+        "任何",
+        "明亮",
+        "常感谢",
+        "高级时"
       ],
       "organizations": [
         "肯定会",
@@ -9684,36 +11851,43 @@
         "路西恩的魔法",
         "维肯等传奇魔法",
         "魔法实验"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 33,
       "range": "第 641-660 章",
       "characters": [
         "路西恩",
+        "危险",
+        "马斯基",
+        "成功",
+        "相信",
+        "方法",
+        "权杖",
+        "方式",
+        "宫殿",
+        "严重",
+        "应该能",
+        "融合",
+        "常危险",
+        "梅坎特",
+        "相似",
+        "任何",
+        "毕竟",
         "莱茵",
-        "内心",
-        "埃尔",
-        "娜塔莎",
-        "萨尔德",
-        "道格拉斯",
-        "费尔南多",
-        "路西恩轻",
-        "拉扎尔",
-        "卡特里娜",
-        "奥菲莉亚",
-        "奥利弗",
-        "邮差",
-        "克劳斯",
-        "尤里斯安",
-        "不由",
-        "贝格纳",
-        "阿特兰特",
-        "列夫斯基",
-        "决定论",
-        "布鲁克",
-        "加斯东",
-        "莫里斯"
+        "王塔诺",
+        "后肯定",
+        "关键",
+        "郑重",
+        "危险之",
+        "后者",
+        "时他",
+        "马斯",
+        "古魔鬼",
+        "林等人",
+        "山峰",
+        "冷笑"
       ],
       "organizations": [
         "会不会",
@@ -9780,34 +11954,43 @@
         "中阶奥术",
         "提升魔法",
         "改进魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 34,
       "range": "第 661-680 章",
       "characters": [
-        "拉扎尔",
-        "卡特里娜",
-        "海蒂",
-        "道格拉斯",
-        "内心",
-        "路西恩",
-        "娜塔莎",
-        "费尔南多",
-        "奥利弗",
-        "雷欧",
-        "阿特兰特",
-        "布鲁克",
-        "加斯东",
-        "汤谱",
-        "奥菲莉亚",
-        "决定论",
-        "尤里斯安",
-        "贝格纳",
-        "路西恩轻",
-        "兰希尔",
-        "玛法里奥",
-        "莱茵"
+        "霍尔姆",
+        "费利佩",
+        "高阶魔",
+        "安尼克",
+        "程度",
+        "林厄",
+        "水准",
+        "成功",
+        "相信",
+        "冷静",
+        "金术",
+        "王国",
+        "方面",
+        "金物品",
+        "边说",
+        "师们",
+        "高阶",
+        "金工坊",
+        "林特",
+        "时代",
+        "高荣誉",
+        "马车",
+        "尤利塞",
+        "罗克",
+        "项目",
+        "容易",
+        "霍尔特",
+        "关注",
+        "常清楚",
+        "莫名"
       ],
       "organizations": [
         "魔法议会",
@@ -9874,38 +12057,43 @@
         "学习魔法",
         "绝大部分魔法",
         "强大的魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 35,
       "range": "第 681-700 章",
       "characters": [
         "路西恩",
+        "费利佩",
+        "安尼克",
+        "危险",
+        "怀疑",
+        "安静",
+        "艾勒丝",
+        "古怪",
+        "方法",
+        "高阶",
+        "周围",
+        "马特维",
+        "景象",
+        "范围",
+        "解决",
+        "费瑞德",
+        "颜色",
+        "容易",
+        "黄褐色",
+        "关注",
         "娜塔莎",
-        "尤里斯安",
-        "海蒂",
-        "玛法里奥",
-        "阿特兰特",
-        "兰希尔",
-        "道格拉斯",
-        "内心",
-        "卡特里娜",
-        "莱茵",
-        "萨尔德",
-        "阿格莱亚",
-        "费尔南多",
-        "拉扎尔",
-        "约翰",
-        "艾勒丝汀",
-        "暗自",
-        "埃尔",
-        "奥菲莉亚",
-        "决定论",
-        "蕾切尔",
-        "列夫斯基",
-        "贝格纳",
-        "布鲁克",
-        "路西恩轻"
+        "申请",
+        "满足",
+        "任何",
+        "时变得",
+        "明亮",
+        "房屋",
+        "高阶以",
+        "成形",
+        "连线"
       ],
       "organizations": [
         "肯定会",
@@ -9972,30 +12160,43 @@
         "传奇一阶",
         "绝大部分魔法",
         "大部分魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 36,
       "range": "第 701-720 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "道格拉斯",
-        "费尔南多",
-        "内心",
-        "海蒂",
-        "卡特里娜",
-        "暗自",
-        "莱茵",
-        "不由",
-        "安娜",
-        "奥利弗",
-        "布鲁克",
-        "贝格纳",
-        "决定论",
-        "约翰",
-        "弗朗西斯",
-        "克里斯多夫"
+        "伊文斯",
+        "段时间",
+        "程度",
+        "满意",
+        "周围",
+        "融合",
+        "王子",
+        "明显",
+        "颜色",
+        "容易",
+        "关注",
+        "张开",
+        "容貌",
+        "任何",
+        "时光",
+        "戈恩海",
+        "毕竟",
+        "山爆发",
+        "融化",
+        "巴张开",
+        "熊熊燃",
+        "古炎魔",
+        "红色",
+        "连通",
+        "高温",
+        "安心",
+        "全部",
+        "时觉得",
+        "温暖"
       ],
       "organizations": [
         "随时会",
@@ -10062,33 +12263,43 @@
         "手段诡异的魔法",
         "诡异的魔法",
         "的大奥术"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 37,
       "range": "第 721-740 章",
       "characters": [
         "路西恩",
-        "道格拉斯",
+        "伊文斯",
+        "段时间",
+        "高阶魔",
+        "古代魔",
+        "程度",
+        "成果",
+        "林厄",
+        "任务",
+        "高阶奥",
+        "方面",
+        "任何一",
+        "安德烈",
+        "林厄魔",
+        "毛笔",
+        "施展",
+        "施展魔",
+        "范围内",
+        "师们",
+        "房门",
+        "高阶",
+        "景象",
+        "花纹",
+        "范围",
+        "解决",
+        "古魔鬼",
+        "师来说",
         "汤谱",
-        "不由",
-        "卡特里娜",
-        "决定论",
-        "费尔南多",
-        "暗自",
-        "布鲁克",
-        "内心",
-        "娜塔莎",
-        "奥利弗",
-        "詹姆斯",
-        "侍女",
-        "阿里",
-        "莱茵",
-        "海蒂",
-        "雷欧",
-        "约翰",
-        "萨尔德",
-        "贝格纳"
+        "关注",
+        "应用"
       ],
       "organizations": [
         "魔法议会",
@@ -10155,42 +12366,43 @@
         "传奇魔法",
         "的传奇魔法",
         "其余传奇魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 38,
       "range": "第 741-760 章",
       "characters": [
         "路西恩",
+        "伊文斯",
+        "费尔南",
+        "方教会",
+        "怀疑",
+        "时间内",
+        "成功",
+        "方面",
+        "牧师",
+        "方式",
+        "周围",
+        "鲁克",
+        "时代",
+        "范围",
+        "解决",
+        "管如何",
+        "费尔",
+        "武器",
+        "相同",
+        "应用",
         "道格拉斯",
+        "丰富",
+        "关键",
         "费尔南多",
-        "路西恩轻",
-        "布鲁克",
-        "内心",
-        "本笃三世",
-        "娜塔莎",
-        "约翰",
-        "乔尔",
-        "不由",
-        "奥利弗",
-        "海蒂",
-        "兰希尔",
-        "萨尔德",
-        "路西恩对道格拉斯",
-        "卡特里娜",
-        "拉扎尔",
-        "奥菲莉亚",
-        "蕾切尔",
-        "尤里斯安",
-        "莫里斯",
-        "纷纷",
-        "阿里",
-        "列夫斯基",
-        "决定论",
-        "蕾依丽雅",
-        "贝格纳",
-        "布雷恩",
-        "阿格莱亚"
+        "应堆",
+        "怀疑起",
+        "全部",
+        "许会有",
+        "越好",
+        "充满"
       ],
       "organizations": [
         "魔法议会",
@@ -10257,38 +12469,43 @@
         "的大奥术",
         "毕竟魔法",
         "绝大部分魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 39,
       "range": "第 761-780 章",
       "characters": [
         "路西恩",
+        "成功",
+        "任何一",
+        "施展",
+        "时空石",
+        "权杖",
+        "周围",
+        "范围",
+        "宫殿",
+        "管如何",
+        "关键时",
+        "左手",
+        "古魔鬼",
+        "严重",
+        "蓝之门",
+        "颜色",
+        "高级时",
+        "包裹",
+        "宫殿内",
+        "周一求",
+        "时空权",
+        "华大裂",
         "娜塔莎",
-        "内心",
-        "暗自",
-        "道格拉斯",
-        "莱茵",
-        "费尔南多",
-        "路西恩轻",
-        "阿格莱亚",
-        "纷纷",
-        "奥利弗",
-        "本笃三世",
-        "阿里",
-        "贝格纳",
-        "布鲁克",
-        "布雷恩",
-        "拉扎尔",
-        "海蒂",
-        "蕾依丽雅",
-        "奥菲莉亚",
-        "决定论",
-        "蕾切尔",
-        "卡特里娜",
-        "雷欧",
-        "兰希尔",
-        "不由"
+        "时空",
+        "时间停",
+        "应该没",
+        "任何事",
+        "任何",
+        "后果",
+        "解除"
       ],
       "organizations": [
         "魔法议会",
@@ -10355,35 +12572,43 @@
         "一位中阶魔法",
         "中阶奥术",
         "整个实验"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 40,
       "range": "第 781-800 章",
       "characters": [
         "路西恩",
-        "内心",
-        "纷纷",
-        "道格拉斯",
-        "莱茵",
-        "暗自",
-        "路西恩轻",
-        "娜塔莎",
-        "费尔南多",
-        "拉扎尔",
-        "海蒂",
-        "奥菲莉亚",
-        "奥利弗",
-        "莫里斯",
-        "卡特里娜",
-        "阿里",
-        "约翰",
-        "乔尔",
-        "路易丝",
-        "布鲁克",
-        "本笃三世",
-        "阿特兰特",
-        "阿格莱亚"
+        "伊文斯",
+        "程度",
+        "相信",
+        "古怪",
+        "施展",
+        "周围",
+        "古魔鬼",
+        "安全",
+        "王子",
+        "戈恩海",
+        "关键时",
+        "解决",
+        "华大裂",
+        "严重",
+        "颜色",
+        "包裹",
+        "相同",
+        "时空",
+        "关注",
+        "明显",
+        "施法",
+        "时光",
+        "燕尾服",
+        "任何",
+        "红宝石",
+        "毕竟",
+        "丰富",
+        "古拉",
+        "时刻"
       ],
       "organizations": [
         "的机会",
@@ -10450,37 +12675,43 @@
         "传奇等级",
         "成为高阶魔法",
         "大部分魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 41,
       "range": "第 801-820 章",
       "characters": [
         "路西恩",
-        "道格拉斯",
-        "费尔南多",
-        "内心",
-        "海蒂",
-        "阿里",
-        "暗自",
-        "卡特里娜",
+        "伊文斯",
+        "费尔南",
+        "安尼克",
+        "高评议",
+        "红衣主",
+        "林厄",
+        "相信",
+        "安静",
+        "方法",
+        "成员",
+        "马尔迪",
+        "鲁道夫",
+        "林厄魔",
         "路易丝",
-        "奥利弗",
-        "纷纷",
-        "布鲁克",
-        "决定论",
-        "路西恩轻",
-        "娜塔莎",
-        "莱茵",
-        "老者",
-        "本笃三世",
-        "圣徒卡蒂",
-        "约翰",
-        "阿特兰特",
-        "乔尔",
-        "尤里斯安",
-        "莫里斯",
-        "贝格纳"
+        "林特",
+        "严肃",
+        "相信你",
+        "房内",
+        "费尔",
+        "高礼帽",
+        "莫斯",
+        "全身心",
+        "张开",
+        "时间一",
+        "高层",
+        "道格拉斯",
+        "相似",
+        "任何",
+        "毕竟"
       ],
       "organizations": [
         "魔法议会",
@@ -10547,35 +12778,43 @@
         "讨论奥术",
         "的大奥术",
         "一位大奥术"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 42,
       "range": "第 821-840 章",
       "characters": [
         "路西恩",
-        "娜塔莎",
-        "费尔南多",
-        "奥利弗",
-        "内心",
-        "莫里斯",
-        "海蒂",
-        "阿特兰特",
-        "阿里",
+        "费尔南",
+        "霍尔姆",
+        "安尼克",
+        "林厄",
+        "古魔鬼",
+        "时间内",
+        "成功",
+        "史诗骑",
+        "马尔迪",
+        "梅尔莫",
+        "古怪",
+        "王国",
+        "林厄魔",
+        "古地狱",
+        "施展",
+        "利弗",
+        "周围",
+        "方式",
+        "融合",
+        "鲁克",
         "贝格纳",
-        "布鲁克",
-        "阿格莱亚",
-        "道格拉斯",
-        "卡特里娜",
-        "纷纷",
-        "维肯",
-        "莱茵",
-        "列夫斯基",
-        "暗自",
-        "老板",
-        "唐尼",
-        "邮差",
-        "老者"
+        "师们",
+        "管如何",
+        "解决",
+        "房内",
+        "颜色",
+        "仇者",
+        "费尔",
+        "明显"
       ],
       "organizations": [
         "议长阁",
@@ -10642,28 +12881,43 @@
         "整个奥术",
         "由于论文",
         "奥术和魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 43,
       "range": "第 841-860 章",
       "characters": [
         "路西恩",
-        "内心",
-        "艾勒丝汀",
-        "暗自",
-        "纷纷",
+        "伊文斯",
+        "费利佩",
+        "高阶魔",
+        "危险",
+        "程度",
+        "成功",
+        "艾勒丝",
+        "水准",
+        "古怪",
+        "方面",
+        "冷静",
+        "施展",
+        "房间内",
+        "师们",
+        "融合",
+        "高阶",
+        "金生命",
+        "颜色",
+        "包裹",
         "唐尼",
-        "不由",
-        "娜塔莎",
-        "海蒂",
-        "道格拉斯",
-        "老者",
-        "卡尔",
-        "老板",
-        "费尔南多",
-        "约翰",
-        "蕾切尔"
+        "关注",
+        "黄褐色",
+        "应用",
+        "施法",
+        "应该没",
+        "丰富",
+        "毕竟",
+        "游戏",
+        "后裔"
       ],
       "organizations": [
         "会不会",
@@ -10730,23 +12984,43 @@
         "古代魔法",
         "学徒级",
         "还是魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 44,
       "range": "第 861-880 章",
       "characters": [
+        "费尔南",
+        "高阶魔",
+        "古代魔",
+        "红衣主",
+        "怀疑",
+        "史诗骑",
+        "王国",
+        "冷静",
+        "施展",
+        "周围",
+        "安全",
+        "严肃",
+        "高阶",
+        "符号",
+        "荣耀",
+        "山脉",
+        "费尔",
+        "容易",
+        "明亮",
+        "安提弗",
         "道格拉斯",
-        "费尔南多",
-        "暗自",
-        "内心",
+        "房屋",
         "罗兰",
-        "老者",
-        "老板",
-        "纷纷",
-        "维肯",
-        "阿特兰特",
-        "安诺德"
+        "包围",
+        "胡子",
+        "后悔",
+        "明天",
+        "施展法",
+        "费尔南多",
+        "利用"
       ],
       "organizations": [
         "肯定会",
@@ -10813,24 +13087,43 @@
         "两位魔法",
         "成为高阶",
         "传奇等级"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 45,
       "range": "第 881-900 章",
       "characters": [
-        "道格拉斯",
-        "费尔南多",
+        "费尔南",
+        "危险",
+        "红衣主",
+        "康格斯",
+        "程度",
+        "相信",
+        "史诗骑",
+        "任务",
+        "任何一",
+        "方面",
         "安诺德",
-        "老者",
-        "内心",
-        "维肯",
-        "纷纷",
-        "暗自",
-        "埃尔",
-        "安泰克",
-        "故意",
-        "阿特兰特"
+        "牧师",
+        "冷静",
+        "施展",
+        "周围",
+        "范围内",
+        "范围",
+        "高阶",
+        "时光之",
+        "时间停",
+        "时空",
+        "包裹",
+        "费尔",
+        "巫妖",
+        "道格拉斯",
+        "时光",
+        "张开",
+        "高阶以",
+        "任何",
+        "时之间"
       ],
       "organizations": [
         "怎么会",
@@ -10897,23 +13190,43 @@
         "一位魔法",
         "有了魔法",
         "红色魔法"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 46,
       "range": "第 901-919 章",
       "characters": [
+        "费尔南",
+        "段时间",
+        "危险",
+        "程度",
+        "相信",
+        "周围",
+        "时光之",
+        "艾丽卡",
+        "庄园",
+        "霍芬伯",
+        "安排",
+        "伊凡",
+        "山脉",
+        "包裹",
+        "边缘",
+        "应该能",
+        "陆魔法",
+        "费尔",
+        "高兴",
         "道格拉斯",
-        "费尔南多",
-        "内心",
-        "阿特兰特",
-        "故意",
-        "奥利弗",
-        "纷纷",
-        "安德鲁",
-        "不由",
-        "维肯",
-        "卡尔"
+        "时光",
+        "习惯",
+        "容易",
+        "任教皇",
+        "古拉",
+        "成长",
+        "安宁",
+        "师联合",
+        "全大陆",
+        "费尔南多"
       ],
       "organizations": [
         "异界之门",
@@ -10980,7 +13293,8 @@
         "不少魔法",
         "传奇巅峰的魔法",
         "一位位魔法"
-      ]
+      ],
+      "events": []
     }
   ]
 }
