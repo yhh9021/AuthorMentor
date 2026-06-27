@@ -213,6 +213,47 @@ const PERSON_PATTERNS = [
   /(?:名叫|名为|叫做|唤作|自称|称为)([\p{Script=Han}A-Za-z·]{2,10})/gu
 ];
 
+const COMPOUND_SURNAMES = [
+  "万俟",
+  "司马",
+  "上官",
+  "欧阳",
+  "夏侯",
+  "诸葛",
+  "闻人",
+  "东方",
+  "赫连",
+  "皇甫",
+  "尉迟",
+  "公羊",
+  "澹台",
+  "公冶",
+  "宗政",
+  "濮阳",
+  "淳于",
+  "单于",
+  "太叔",
+  "申屠",
+  "公孙",
+  "仲孙",
+  "轩辕",
+  "令狐",
+  "钟离",
+  "宇文",
+  "长孙",
+  "慕容",
+  "鲜于",
+  "司徒",
+  "司空",
+  "南宫",
+  "西门",
+  "东郭",
+  "端木",
+  "拓跋"
+];
+
+const SINGLE_SURNAMES = "赵钱孙李周吴郑王冯陈褚卫蒋沈韩杨朱秦尤许何吕施张孔曹严华金魏陶姜谢邹喻柏水窦章云苏潘葛范彭郎鲁韦昌马苗凤花方俞任袁柳鲍史唐费廉岑薛雷贺倪汤滕殷罗毕郝安常乐于时傅齐康伍余顾孟黄和穆萧尹姚邵汪祁毛米贝明成戴宋庞熊纪舒屈项祝董梁杜阮蓝季贾路危江童颜郭梅盛林钟徐骆高夏蔡田胡凌霍虞万柯管卢莫房解应宗丁宣邓郁杭洪包左石崔吉龚程邢裴陆荣翁荀惠曲封靳松井段富巫乌焦巴弓牧山谷车侯全班秋仲伊宫宁仇甘厉祖武符刘景龙叶幸韶黎薄白怀蒲从索赖卓蔺蒙池乔闻党翟谭劳姬申冉雍桑桂牛寿边扈燕浦尚温庄晏柴瞿阎充慕连习艾鱼容向古易戈廖庾衡步都耿满弘匡文寇广东欧沃利越师巩聂晁勾敖融冷辛简饶曾沙丰关相查后荆红游竺权益桓";
+
 const ORGANIZATION_PATTERN =
   /([\p{Script=Han}A-Za-z·]{2,16}(?:宗|门|派|教会|议会|学派|学院|道院|武殿|朝廷|军团|军|营|府|司|局|公司|家族|世家|教派|联盟|协会|结社|会|帮|堂|阁|宫|骑士团|值夜者|塔罗会|七血瞳))/gu;
 
@@ -404,6 +445,7 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
     for (const chapter of chunk.chapters) {
       const chapterText = normalizeText(`${chapter.title}\n${chapter.text}`);
       collectPatternEntities(chapterText, PERSON_PATTERNS, characters, chapter.index, "人物行为/发言");
+      collectChineseNameCandidates(chapterText, characters, chapter.index);
       collectPatternEntities(chapterText, [ORGANIZATION_PATTERN], organizations, chapter.index, "组织名词");
       collectPatternEntities(chapterText, [LOCATION_PATTERN], locations, chapter.index, "地图名词");
       collectPatternEntities(chapterText, [SYSTEM_PATTERN], systems, chapter.index, "体系名词");
@@ -646,6 +688,36 @@ function collectPatternEntities(
       addEntity(target, name, chapter, marker);
     }
   }
+}
+
+function collectChineseNameCandidates(text: string, target: Map<string, EntityRecord>, chapter: number): void {
+  for (const surname of COMPOUND_SURNAMES) {
+    const pattern = new RegExp(`${surname}[\\p{Script=Han}]{1,2}`, "gu");
+    for (const match of text.matchAll(pattern)) {
+      const name = normalizeEntityName(match[0]);
+      if (isUsefulNameCandidate(name)) {
+        addEntity(target, name, chapter, "姓名候选");
+      }
+    }
+  }
+
+  const singlePattern = new RegExp(`[${SINGLE_SURNAMES}][\\p{Script=Han}]{1,2}`, "gu");
+  for (const match of text.matchAll(singlePattern)) {
+    const name = normalizeEntityName(match[0]);
+    if (isUsefulNameCandidate(name)) {
+      addEntity(target, name, chapter, "姓名候选");
+    }
+  }
+}
+
+function isUsefulNameCandidate(name: string): boolean {
+  if (!isUsefulEntityName(name)) {
+    return false;
+  }
+  if (/[的是了不着过里上中下这那和都很又再才就把被给从到向为与于]/.test(name)) {
+    return false;
+  }
+  return true;
 }
 
 function entitiesInChapter(text: string, source: Map<string, EntityRecord>, limit: number): string[] {
