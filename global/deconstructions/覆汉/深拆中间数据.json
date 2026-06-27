@@ -1,12 +1,18 @@
 {
-  "title": "覆汉",
+  "title": "覆汉.txt",
   "chapterCount": 541,
   "chunkCount": 28,
+  "agentChunkCount": 0,
   "audit": [
+    {
+      "name": "子 Agent 精读覆盖率",
+      "status": "需返工",
+      "detail": "收到 0/28 个 chunk JSON，覆盖率 0.0%。"
+    },
     {
       "name": "人物数量",
       "status": "通过",
-      "detail": "实际 109，最低要求 27。"
+      "detail": "实际 180，最低要求 27。"
     },
     {
       "name": "关系边数量",
@@ -36,1168 +42,1983 @@
     {
       "name": "人物噪声率",
       "status": "通过",
-      "detail": "疑似动作/语气噪声 0/109，噪声率 0.0%。"
+      "detail": "疑似动作/语气噪声 0/180，噪声率 0.0%。"
     }
   ],
   "characters": [
     {
       "name": "公孙珣",
-      "mentions": 90,
-      "firstChapter": 4,
-      "lastChapter": 504,
-      "chapterCount": 70,
+      "mentions": 1711,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 443,
       "markers": [
-        "人物行为/发言(90)"
+        "姓名候选(1610)",
+        "人物行为/发言(101)"
       ]
     },
     {
-      "name": "公孙珣幽幽",
-      "mentions": 13,
-      "firstChapter": 4,
-      "lastChapter": 530,
-      "chapterCount": 13,
+      "name": "孙珣",
+      "mentions": 1567,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 437,
       "markers": [
-        "人物行为/发言(13)"
+        "姓名候选(1567)"
       ]
     },
     {
-      "name": "公孙珣坦然",
-      "mentions": 11,
-      "firstChapter": 4,
-      "lastChapter": 427,
-      "chapterCount": 11,
+      "name": "公孙珣一",
+      "mentions": 454,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "chapterCount": 261,
       "markers": [
-        "人物行为/发言(11)"
+        "姓名候选(454)"
       ]
     },
     {
-      "name": "公孙珣正色",
-      "mentions": 11,
-      "firstChapter": 32,
-      "lastChapter": 295,
-      "chapterCount": 11,
+      "name": "孙珣一",
+      "mentions": 449,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "chapterCount": 257,
       "markers": [
-        "人物行为/发言(11)"
+        "姓名候选(449)"
       ]
     },
     {
-      "name": "从容",
-      "mentions": 10,
-      "firstChapter": 12,
-      "lastChapter": 520,
-      "chapterCount": 10,
+      "name": "毕竟",
+      "mentions": 362,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "chapterCount": 241,
       "markers": [
-        "人物行为/发言(10)"
+        "姓名候选(362)"
       ]
     },
     {
-      "name": "吕范",
-      "mentions": 11,
-      "firstChapter": 35,
-      "lastChapter": 262,
-      "chapterCount": 9,
+      "name": "燕书",
+      "mentions": 253,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 231,
       "markers": [
-        "人物行为/发言(11)"
+        "姓名候选(253)"
       ]
     },
     {
-      "name": "公孙珣不由",
-      "mentions": 9,
-      "firstChapter": 100,
-      "lastChapter": 348,
-      "chapterCount": 8,
+      "name": "公孙珣却",
+      "mentions": 318,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 213,
       "markers": [
-        "人物行为/发言(9)"
+        "姓名候选(318)"
       ]
     },
     {
-      "name": "公孙珣复又",
-      "mentions": 8,
-      "firstChapter": 97,
-      "lastChapter": 484,
-      "chapterCount": 7,
+      "name": "孙珣却",
+      "mentions": 311,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 208,
       "markers": [
-        "人物行为/发言(8)"
+        "姓名候选(311)"
       ]
     },
     {
-      "name": "正色",
-      "mentions": 7,
-      "firstChapter": 4,
-      "lastChapter": 241,
-      "chapterCount": 7,
+      "name": "卫将军",
+      "mentions": 1549,
+      "firstChapter": 271,
+      "lastChapter": 541,
+      "chapterCount": 198,
       "markers": [
-        "人物行为/发言(7)"
+        "姓名候选(1549)"
       ]
     },
     {
-      "name": "公孙珣无奈",
-      "mentions": 7,
-      "firstChapter": 31,
-      "lastChapter": 481,
-      "chapterCount": 7,
+      "name": "公孙珣忽",
+      "mentions": 260,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 165,
       "markers": [
-        "人物行为/发言(7)"
+        "姓名候选(260)"
       ]
     },
     {
-      "name": "公孙珣低头",
-      "mentions": 5,
-      "firstChapter": 11,
-      "lastChapter": 335,
-      "chapterCount": 5,
+      "name": "孙珣忽",
+      "mentions": 258,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 164,
       "markers": [
-        "人物行为/发言(5)"
+        "姓名候选(258)"
       ]
     },
     {
-      "name": "娄圭",
-      "mentions": 5,
-      "firstChapter": 58,
-      "lastChapter": 321,
-      "chapterCount": 5,
+      "name": "公孙珣当",
+      "mentions": 232,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "chapterCount": 159,
       "markers": [
-        "人物行为/发言(5)"
+        "姓名候选(232)"
       ]
     },
     {
-      "name": "公孙珣愈发",
-      "mentions": 5,
-      "firstChapter": 129,
-      "lastChapter": 289,
-      "chapterCount": 5,
+      "name": "孙珣当",
+      "mentions": 230,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "chapterCount": 158,
       "markers": [
-        "人物行为/发言(5)"
+        "姓名候选(230)"
       ]
     },
     {
-      "name": "却又",
-      "mentions": 5,
-      "firstChapter": 129,
-      "lastChapter": 226,
-      "chapterCount": 5,
+      "name": "公孙大娘",
+      "mentions": 541,
+      "firstChapter": 1,
+      "lastChapter": 541,
+      "chapterCount": 150,
       "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "卢植",
-      "mentions": 9,
-      "firstChapter": 44,
-      "lastChapter": 229,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(9)"
-      ]
-    },
-    {
-      "name": "许攸",
-      "mentions": 5,
-      "firstChapter": 30,
-      "lastChapter": 114,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "公孙珣认真",
-      "mentions": 5,
-      "firstChapter": 61,
-      "lastChapter": 177,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "天子",
-      "mentions": 5,
-      "firstChapter": 303,
-      "lastChapter": 480,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "公孙珣好奇",
-      "mentions": 4,
-      "firstChapter": 19,
-      "lastChapter": 222,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "勉力",
-      "mentions": 4,
-      "firstChapter": 34,
-      "lastChapter": 126,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "坦然",
-      "mentions": 4,
-      "firstChapter": 38,
-      "lastChapter": 318,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "公孙珣昂首",
-      "mentions": 4,
-      "firstChapter": 40,
-      "lastChapter": 284,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "方才",
-      "mentions": 4,
-      "firstChapter": 100,
-      "lastChapter": 473,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "公孙珣当即",
-      "mentions": 4,
-      "firstChapter": 100,
-      "lastChapter": 467,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "公孙珣轻",
-      "mentions": 4,
-      "firstChapter": 202,
-      "lastChapter": 346,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "公孙珣随意",
-      "mentions": 4,
-      "firstChapter": 215,
-      "lastChapter": 486,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "公孙珣干脆",
-      "mentions": 4,
-      "firstChapter": 285,
-      "lastChapter": 434,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "贾诩",
-      "mentions": 5,
-      "firstChapter": 381,
-      "lastChapter": 530,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "刘宽",
-      "mentions": 4,
-      "firstChapter": 72,
-      "lastChapter": 281,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "公孙珣蹙眉",
-      "mentions": 3,
-      "firstChapter": 21,
-      "lastChapter": 254,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣昂然",
-      "mentions": 3,
-      "firstChapter": 22,
-      "lastChapter": 202,
-      "chapterCount": 3,
-      "markers": [
+        "姓名候选(538)",
         "人物行为/发言(3)"
       ]
     },
     {
       "name": "韩当",
-      "mentions": 3,
-      "firstChapter": 31,
-      "lastChapter": 81,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣再度",
-      "mentions": 3,
-      "firstChapter": 40,
-      "lastChapter": 147,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "却是",
-      "mentions": 3,
-      "firstChapter": 42,
-      "lastChapter": 126,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣忍不住",
-      "mentions": 3,
-      "firstChapter": 51,
-      "lastChapter": 86,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣不禁",
-      "mentions": 3,
-      "firstChapter": 53,
-      "lastChapter": 160,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "娄圭坦然",
-      "mentions": 3,
-      "firstChapter": 53,
-      "lastChapter": 140,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣正色询",
-      "mentions": 3,
-      "firstChapter": 107,
-      "lastChapter": 297,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣如此",
-      "mentions": 3,
-      "firstChapter": 115,
-      "lastChapter": 481,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣凛然",
-      "mentions": 3,
-      "firstChapter": 165,
-      "lastChapter": 422,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣仰头",
-      "mentions": 3,
-      "firstChapter": 165,
-      "lastChapter": 251,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "公孙珣缓缓",
-      "mentions": 3,
-      "firstChapter": 179,
-      "lastChapter": 426,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "良久方才",
-      "mentions": 3,
-      "firstChapter": 188,
-      "lastChapter": 216,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "凛然",
-      "mentions": 3,
-      "firstChapter": 234,
-      "lastChapter": 361,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "戏忠",
-      "mentions": 3,
-      "firstChapter": 258,
-      "lastChapter": 377,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "缓缓",
-      "mentions": 3,
-      "firstChapter": 286,
-      "lastChapter": 498,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "郭嘉",
-      "mentions": 3,
-      "firstChapter": 456,
-      "lastChapter": 498,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "荀攸",
-      "mentions": 5,
-      "firstChapter": 386,
-      "lastChapter": 401,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "韩遂",
-      "mentions": 3,
-      "firstChapter": 50,
-      "lastChapter": 276,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "张颌",
-      "mentions": 3,
-      "firstChapter": 215,
-      "lastChapter": 437,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "有策",
-      "mentions": 3,
-      "firstChapter": 414,
+      "mentions": 240,
+      "firstChapter": 2,
       "lastChapter": 541,
-      "chapterCount": 2,
+      "chapterCount": 145,
       "markers": [
-        "人物行为/发言(3)"
+        "姓名候选(236)",
+        "人物行为/发言(4)"
       ]
     },
     {
-      "name": "淮阴故策",
-      "mentions": 3,
-      "firstChapter": 414,
+      "name": "公孙珣在",
+      "mentions": 178,
+      "firstChapter": 3,
+      "lastChapter": 536,
+      "chapterCount": 144,
+      "markers": [
+        "姓名候选(178)"
+      ]
+    },
+    {
+      "name": "孙大娘",
+      "mentions": 518,
+      "firstChapter": 1,
       "lastChapter": 541,
-      "chapterCount": 2,
+      "chapterCount": 143,
       "markers": [
-        "人物行为/发言(3)"
+        "姓名候选(518)"
       ]
     },
     {
-      "name": "项王旧计",
-      "mentions": 3,
-      "firstChapter": 414,
+      "name": "孙珣在",
+      "mentions": 175,
+      "firstChapter": 3,
+      "lastChapter": 536,
+      "chapterCount": 141,
+      "markers": [
+        "姓名候选(175)"
+      ]
+    },
+    {
+      "name": "管如何",
+      "mentions": 174,
+      "firstChapter": 9,
+      "lastChapter": 539,
+      "chapterCount": 140,
+      "markers": [
+        "姓名候选(174)"
+      ]
+    },
+    {
+      "name": "何呢",
+      "mentions": 181,
+      "firstChapter": 4,
       "lastChapter": 541,
-      "chapterCount": 2,
+      "chapterCount": 139,
       "markers": [
-        "人物行为/发言(3)"
+        "姓名候选(181)"
       ]
     },
     {
-      "name": "当即昂然",
-      "mentions": 2,
-      "firstChapter": 8,
-      "lastChapter": 69,
-      "chapterCount": 2,
+      "name": "曹孟德",
+      "mentions": 484,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "chapterCount": 130,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(484)"
       ]
     },
     {
-      "name": "韩当无奈",
-      "mentions": 2,
-      "firstChapter": 16,
-      "lastChapter": 334,
-      "chapterCount": 2,
+      "name": "安利号",
+      "mentions": 329,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 125,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(329)"
       ]
     },
     {
-      "name": "公孙珣立即",
-      "mentions": 2,
-      "firstChapter": 35,
-      "lastChapter": 118,
-      "chapterCount": 2,
+      "name": "许久",
+      "mentions": 147,
+      "firstChapter": 47,
+      "lastChapter": 532,
+      "chapterCount": 120,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(147)"
       ]
     },
     {
-      "name": "此人",
-      "mentions": 2,
-      "firstChapter": 35,
-      "lastChapter": 108,
-      "chapterCount": 2,
+      "name": "万大军",
+      "mentions": 225,
+      "firstChapter": 62,
+      "lastChapter": 533,
+      "chapterCount": 117,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(225)"
       ]
     },
     {
-      "name": "公孙珣平静",
-      "mentions": 2,
-      "firstChapter": 36,
-      "lastChapter": 530,
-      "chapterCount": 2,
+      "name": "公孙珣心",
+      "mentions": 160,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "chapterCount": 114,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(160)"
       ]
     },
     {
-      "name": "公孙珣负手",
-      "mentions": 2,
-      "firstChapter": 37,
-      "lastChapter": 122,
-      "chapterCount": 2,
+      "name": "孙珣心",
+      "mentions": 160,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "chapterCount": 114,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(160)"
       ]
     },
     {
-      "name": "公孙珣坦诚",
-      "mentions": 2,
-      "firstChapter": 40,
-      "lastChapter": 259,
-      "chapterCount": 2,
+      "name": "公孙珣闻",
+      "mentions": 155,
+      "firstChapter": 4,
+      "lastChapter": 533,
+      "chapterCount": 114,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(155)"
       ]
     },
     {
-      "name": "忍不住",
-      "mentions": 2,
-      "firstChapter": 53,
-      "lastChapter": 61,
-      "chapterCount": 2,
+      "name": "冷笑",
+      "mentions": 137,
+      "firstChapter": 13,
+      "lastChapter": 539,
+      "chapterCount": 114,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(137)"
       ]
     },
     {
-      "name": "公孙大娘",
-      "mentions": 2,
-      "firstChapter": 57,
-      "lastChapter": 296,
-      "chapterCount": 2,
+      "name": "孙珣闻",
+      "mentions": 153,
+      "firstChapter": 4,
+      "lastChapter": 533,
+      "chapterCount": 113,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(153)"
       ]
     },
     {
-      "name": "峭王",
-      "mentions": 2,
-      "firstChapter": 67,
-      "lastChapter": 319,
-      "chapterCount": 2,
+      "name": "袁本初",
+      "mentions": 411,
+      "firstChapter": 48,
+      "lastChapter": 541,
+      "chapterCount": 112,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(411)"
       ]
     },
     {
-      "name": "汗鲁王",
-      "mentions": 2,
-      "firstChapter": 67,
-      "lastChapter": 319,
-      "chapterCount": 2,
+      "name": "相觑",
+      "mentions": 123,
+      "firstChapter": 26,
+      "lastChapter": 541,
+      "chapterCount": 111,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(123)"
       ]
     },
     {
-      "name": "公孙珣回头",
-      "mentions": 2,
-      "firstChapter": 79,
-      "lastChapter": 329,
-      "chapterCount": 2,
+      "name": "公孙珣自",
+      "mentions": 134,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 110,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(134)"
       ]
     },
     {
-      "name": "郭缊",
-      "mentions": 2,
-      "firstChapter": 89,
-      "lastChapter": 100,
-      "chapterCount": 2,
+      "name": "曹操",
+      "mentions": 248,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "chapterCount": 109,
       "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "檀石槐轻",
-      "mentions": 2,
-      "firstChapter": 95,
-      "lastChapter": 96,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣闻言",
-      "mentions": 2,
-      "firstChapter": 98,
-      "lastChapter": 111,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙大娘幽幽",
-      "mentions": 2,
-      "firstChapter": 101,
-      "lastChapter": 296,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣轻松",
-      "mentions": 2,
-      "firstChapter": 107,
-      "lastChapter": 335,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "赵芸",
-      "mentions": 2,
-      "firstChapter": 113,
-      "lastChapter": 137,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "袁逢",
-      "mentions": 2,
-      "firstChapter": 114,
-      "lastChapter": 118,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "袁绍不由",
-      "mentions": 2,
-      "firstChapter": 119,
-      "lastChapter": 389,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "杨赐不由",
-      "mentions": 2,
-      "firstChapter": 120,
-      "lastChapter": 124,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣冷笑反",
-      "mentions": 2,
-      "firstChapter": 122,
-      "lastChapter": 145,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "曹操得意",
-      "mentions": 2,
-      "firstChapter": 146,
-      "lastChapter": 148,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "插嘴",
-      "mentions": 2,
-      "firstChapter": 150,
-      "lastChapter": 245,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣不解",
-      "mentions": 2,
-      "firstChapter": 153,
-      "lastChapter": 179,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣黑着脸质",
-      "mentions": 2,
-      "firstChapter": 159,
-      "lastChapter": 240,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣蹙额",
-      "mentions": 2,
-      "firstChapter": 159,
-      "lastChapter": 319,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "娄子伯",
-      "mentions": 2,
-      "firstChapter": 169,
-      "lastChapter": 332,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "简雍",
-      "mentions": 2,
-      "firstChapter": 180,
-      "lastChapter": 214,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "罗敷",
-      "mentions": 2,
-      "firstChapter": 181,
-      "lastChapter": 197,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣凛然反",
-      "mentions": 2,
-      "firstChapter": 192,
-      "lastChapter": 328,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(247)",
+        "人物行为/发言(1)"
       ]
     },
     {
       "name": "袁绍",
-      "mentions": 2,
-      "firstChapter": 226,
-      "lastChapter": 435,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣嗤",
-      "mentions": 2,
-      "firstChapter": 236,
-      "lastChapter": 339,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "孙坚",
-      "mentions": 2,
-      "firstChapter": 246,
-      "lastChapter": 447,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣也跟着",
-      "mentions": 2,
-      "firstChapter": 247,
-      "lastChapter": 393,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣尴尬",
-      "mentions": 2,
-      "firstChapter": 249,
-      "lastChapter": 277,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "皇甫嵩",
-      "mentions": 2,
-      "firstChapter": 252,
-      "lastChapter": 482,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "阎忠",
-      "mentions": 2,
-      "firstChapter": 252,
-      "lastChapter": 254,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "张让",
-      "mentions": 2,
-      "firstChapter": 255,
-      "lastChapter": 279,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "从容在马上",
-      "mentions": 2,
-      "firstChapter": 260,
-      "lastChapter": 487,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "不由",
-      "mentions": 2,
-      "firstChapter": 267,
-      "lastChapter": 436,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "司马直",
-      "mentions": 2,
-      "firstChapter": 273,
-      "lastChapter": 274,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "公孙珣失笑",
-      "mentions": 2,
-      "firstChapter": 299,
-      "lastChapter": 354,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "鲜于辅",
-      "mentions": 2,
-      "firstChapter": 322,
-      "lastChapter": 335,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "娄圭复又",
-      "mentions": 2,
-      "firstChapter": 329,
-      "lastChapter": 363,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "讨董",
-      "mentions": 2,
-      "firstChapter": 350,
-      "lastChapter": 393,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "刘备从容",
-      "mentions": 2,
-      "firstChapter": 449,
-      "lastChapter": 532,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "治军七十万",
-      "mentions": 2,
-      "firstChapter": 482,
+      "mentions": 247,
+      "firstChapter": 25,
       "lastChapter": 541,
-      "chapterCount": 2,
+      "chapterCount": 107,
       "markers": [
+        "姓名候选(245)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "金大姨",
-      "mentions": 2,
-      "firstChapter": 32,
-      "lastChapter": 32,
-      "chapterCount": 1,
+      "name": "文琪",
+      "mentions": 241,
+      "firstChapter": 52,
+      "lastChapter": 541,
+      "chapterCount": 107,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(241)"
       ]
     },
     {
-      "name": "阳球",
-      "mentions": 2,
-      "firstChapter": 127,
-      "lastChapter": 127,
-      "chapterCount": 1,
+      "name": "吕范",
+      "mentions": 211,
+      "firstChapter": 35,
+      "lastChapter": 541,
+      "chapterCount": 105,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(199)",
+        "人物行为/发言(12)"
       ]
     },
     {
-      "name": "罗慕咬牙",
-      "mentions": 2,
-      "firstChapter": 139,
-      "lastChapter": 139,
-      "chapterCount": 1,
+      "name": "孙珣自",
+      "mentions": 128,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 105,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(128)"
+      ]
+    },
+    {
+      "name": "公孙珣继",
+      "mentions": 130,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "chapterCount": 104,
+      "markers": [
+        "姓名候选(130)"
+      ]
+    },
+    {
+      "name": "孙珣继",
+      "mentions": 130,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "chapterCount": 104,
+      "markers": [
+        "姓名候选(130)"
+      ]
+    },
+    {
+      "name": "公孙珣依",
+      "mentions": 132,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(132)"
+      ]
+    },
+    {
+      "name": "孙珣依",
+      "mentions": 132,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(132)"
+      ]
+    },
+    {
+      "name": "公孙珣看",
+      "mentions": 112,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "孙珣看",
+      "mentions": 112,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "公孙文琪",
+      "mentions": 228,
+      "firstChapter": 53,
+      "lastChapter": 533,
+      "chapterCount": 99,
+      "markers": [
+        "姓名候选(228)"
+      ]
+    },
+    {
+      "name": "孙文琪",
+      "mentions": 217,
+      "firstChapter": 53,
+      "lastChapter": 533,
+      "chapterCount": 98,
+      "markers": [
+        "姓名候选(217)"
+      ]
+    },
+    {
+      "name": "公孙珣面",
+      "mentions": 125,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "chapterCount": 97,
+      "markers": [
+        "姓名候选(125)"
+      ]
+    },
+    {
+      "name": "后居然",
+      "mentions": 110,
+      "firstChapter": 9,
+      "lastChapter": 536,
+      "chapterCount": 97,
+      "markers": [
+        "姓名候选(110)"
+      ]
+    },
+    {
+      "name": "公孙珣见",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "chapterCount": 96,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "孙珣见",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "chapterCount": 96,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "孙珣面",
+      "mentions": 123,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "chapterCount": 95,
+      "markers": [
+        "姓名候选(123)"
+      ]
+    },
+    {
+      "name": "公孙珣正",
+      "mentions": 110,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "chapterCount": 95,
+      "markers": [
+        "姓名候选(110)"
+      ]
+    },
+    {
+      "name": "何意",
+      "mentions": 107,
+      "firstChapter": 4,
+      "lastChapter": 538,
+      "chapterCount": 95,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "尚书台",
+      "mentions": 273,
+      "firstChapter": 73,
+      "lastChapter": 541,
+      "chapterCount": 94,
+      "markers": [
+        "姓名候选(273)"
+      ]
+    },
+    {
+      "name": "公孙珣终",
+      "mentions": 116,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(116)"
+      ]
+    },
+    {
+      "name": "孙珣终",
+      "mentions": 116,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(116)"
+      ]
+    },
+    {
+      "name": "公孙珣此",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(110)"
+      ]
+    },
+    {
+      "name": "孙珣正",
+      "mentions": 107,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "刘备",
+      "mentions": 212,
+      "firstChapter": 15,
+      "lastChapter": 541,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(212)"
+      ]
+    },
+    {
+      "name": "解释道",
+      "mentions": 116,
+      "firstChapter": 22,
+      "lastChapter": 495,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(116)"
+      ]
+    },
+    {
+      "name": "孙珣此",
+      "mentions": 107,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "白马义",
+      "mentions": 214,
+      "firstChapter": 111,
+      "lastChapter": 541,
+      "chapterCount": 89,
+      "markers": [
+        "姓名候选(214)"
+      ]
+    },
+    {
+      "name": "公孙珣身",
+      "mentions": 107,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "chapterCount": 89,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "公孙珣愈",
+      "mentions": 105,
+      "firstChapter": 28,
+      "lastChapter": 540,
+      "chapterCount": 87,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "公孙珣倒",
+      "mentions": 111,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(111)"
+      ]
+    },
+    {
+      "name": "孙珣倒",
+      "mentions": 111,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(111)"
+      ]
+    },
+    {
+      "name": "孙珣身",
+      "mentions": 104,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(104)"
+      ]
+    },
+    {
+      "name": "孙珣愈",
+      "mentions": 104,
+      "firstChapter": 28,
+      "lastChapter": 540,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(104)"
+      ]
+    },
+    {
+      "name": "刘玄德",
+      "mentions": 175,
+      "firstChapter": 181,
+      "lastChapter": 541,
+      "chapterCount": 83,
+      "markers": [
+        "姓名候选(175)"
+      ]
+    },
+    {
+      "name": "时此刻",
+      "mentions": 95,
+      "firstChapter": 4,
+      "lastChapter": 535,
+      "chapterCount": 83,
+      "markers": [
+        "姓名候选(95)"
       ]
     },
     {
       "name": "董卓",
-      "mentions": 2,
-      "firstChapter": 359,
-      "lastChapter": 359,
-      "chapterCount": 1,
+      "mentions": 202,
+      "firstChapter": 80,
+      "lastChapter": 541,
+      "chapterCount": 82,
       "markers": [
+        "姓名候选(200)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "有德",
-      "mentions": 2,
-      "firstChapter": 368,
-      "lastChapter": 368,
-      "chapterCount": 1,
+      "name": "时无言",
+      "mentions": 90,
+      "firstChapter": 23,
+      "lastChapter": 518,
+      "chapterCount": 79,
       "markers": [
+        "姓名候选(90)"
+      ]
+    },
+    {
+      "name": "郎将",
+      "mentions": 125,
+      "firstChapter": 50,
+      "lastChapter": 541,
+      "chapterCount": 78,
+      "markers": [
+        "姓名候选(125)"
+      ]
+    },
+    {
+      "name": "公孙越",
+      "mentions": 132,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 76,
+      "markers": [
+        "姓名候选(131)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "何事",
+      "mentions": 91,
+      "firstChapter": 22,
+      "lastChapter": 539,
+      "chapterCount": 76,
+      "markers": [
+        "姓名候选(91)"
+      ]
+    },
+    {
+      "name": "明显",
+      "mentions": 84,
+      "firstChapter": 13,
+      "lastChapter": 541,
+      "chapterCount": 76,
+      "markers": [
+        "姓名候选(84)"
+      ]
+    },
+    {
+      "name": "毕竟嘛",
+      "mentions": 82,
+      "firstChapter": 6,
+      "lastChapter": 536,
+      "chapterCount": 76,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "吕布",
+      "mentions": 164,
+      "firstChapter": 81,
+      "lastChapter": 541,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(164)"
+      ]
+    },
+    {
+      "name": "成功",
+      "mentions": 94,
+      "firstChapter": 4,
+      "lastChapter": 534,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(94)"
+      ]
+    },
+    {
+      "name": "何处",
+      "mentions": 92,
+      "firstChapter": 7,
+      "lastChapter": 532,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(92)"
+      ]
+    },
+    {
+      "name": "孙越",
+      "mentions": 125,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "chapterCount": 74,
+      "markers": [
+        "姓名候选(125)"
+      ]
+    },
+    {
+      "name": "祖武皇",
+      "mentions": 85,
+      "firstChapter": 8,
+      "lastChapter": 541,
+      "chapterCount": 74,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "公孙珣无",
+      "mentions": 85,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "公孙珣听",
+      "mentions": 79,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(79)"
+      ]
+    },
+    {
+      "name": "连连摇",
+      "mentions": 77,
+      "firstChapter": 2,
+      "lastChapter": 532,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(77)"
+      ]
+    },
+    {
+      "name": "孙珣无",
+      "mentions": 84,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "chapterCount": 71,
+      "markers": [
+        "姓名候选(84)"
+      ]
+    },
+    {
+      "name": "孙珣听",
+      "mentions": 78,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "chapterCount": 71,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "车骑将",
+      "mentions": 167,
+      "firstChapter": 87,
+      "lastChapter": 541,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(167)"
+      ]
+    },
+    {
+      "name": "公孙珣缓",
+      "mentions": 82,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "孙珣缓",
+      "mentions": 82,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "公孙珣连",
+      "mentions": 81,
+      "firstChapter": 9,
+      "lastChapter": 540,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(81)"
+      ]
+    },
+    {
+      "name": "孙珣连",
+      "mentions": 81,
+      "firstChapter": 9,
+      "lastChapter": 540,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(81)"
+      ]
+    },
+    {
+      "name": "后却",
+      "mentions": 76,
+      "firstChapter": 3,
+      "lastChapter": 539,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(76)"
+      ]
+    },
+    {
+      "name": "安排",
+      "mentions": 85,
+      "firstChapter": 23,
+      "lastChapter": 541,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "王粲",
+      "mentions": 78,
+      "firstChapter": 49,
+      "lastChapter": 541,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "公孙珣复",
+      "mentions": 92,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(84)",
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "孙珣复",
+      "mentions": 84,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(84)"
+      ]
+    },
+    {
+      "name": "周围人",
+      "mentions": 82,
+      "firstChapter": 3,
+      "lastChapter": 539,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(81)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "公孙瓒",
+      "mentions": 121,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 65,
+      "markers": [
+        "姓名候选(119)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "刘备坦然",
-      "mentions": 2,
-      "firstChapter": 452,
-      "lastChapter": 452,
-      "chapterCount": 1,
+      "name": "王修",
+      "mentions": 105,
+      "firstChapter": 143,
+      "lastChapter": 541,
+      "chapterCount": 65,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(105)"
       ]
     },
     {
-      "name": "伐蜀",
-      "mentions": 2,
-      "firstChapter": 461,
-      "lastChapter": 461,
-      "chapterCount": 1,
+      "name": "卢龙塞",
+      "mentions": 191,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 64,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(191)"
       ]
     },
     {
-      "name": "夏侯惇使者",
-      "mentions": 2,
-      "firstChapter": 498,
-      "lastChapter": 498,
-      "chapterCount": 1,
+      "name": "孙瓒",
+      "mentions": 115,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 64,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(115)"
+      ]
+    },
+    {
+      "name": "何啊",
+      "mentions": 78,
+      "firstChapter": 7,
+      "lastChapter": 540,
+      "chapterCount": 64,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "魏越",
+      "mentions": 104,
+      "firstChapter": 78,
+      "lastChapter": 541,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(104)"
+      ]
+    },
+    {
+      "name": "公孙珣赶",
+      "mentions": 82,
+      "firstChapter": 4,
+      "lastChapter": 476,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "孙珣赶",
+      "mentions": 82,
+      "firstChapter": 4,
+      "lastChapter": 476,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "相对应",
+      "mentions": 78,
+      "firstChapter": 142,
+      "lastChapter": 535,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "公孙珣本",
+      "mentions": 75,
+      "firstChapter": 15,
+      "lastChapter": 541,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(75)"
+      ]
+    },
+    {
+      "name": "关羽",
+      "mentions": 114,
+      "firstChapter": 206,
+      "lastChapter": 541,
+      "chapterCount": 62,
+      "markers": [
+        "姓名候选(114)"
+      ]
+    },
+    {
+      "name": "文书",
+      "mentions": 101,
+      "firstChapter": 27,
+      "lastChapter": 541,
+      "chapterCount": 62,
+      "markers": [
+        "姓名候选(101)"
+      ]
+    },
+    {
+      "name": "公孙珣立",
+      "mentions": 70,
+      "firstChapter": 20,
+      "lastChapter": 504,
+      "chapterCount": 62,
+      "markers": [
+        "姓名候选(70)"
+      ]
+    },
+    {
+      "name": "高句丽",
+      "mentions": 572,
+      "firstChapter": 42,
+      "lastChapter": 541,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(572)"
+      ]
+    },
+    {
+      "name": "关云长",
+      "mentions": 232,
+      "firstChapter": 210,
+      "lastChapter": 541,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(232)"
+      ]
+    },
+    {
+      "name": "何如何",
+      "mentions": 78,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "孙珣立",
+      "mentions": 69,
+      "firstChapter": 20,
+      "lastChapter": 504,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(69)"
+      ]
+    },
+    {
+      "name": "后来",
+      "mentions": 67,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(67)"
+      ]
+    },
+    {
+      "name": "相比",
+      "mentions": 66,
+      "firstChapter": 25,
+      "lastChapter": 509,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(66)"
+      ]
+    },
+    {
+      "name": "白马",
+      "mentions": 117,
+      "firstChapter": 37,
+      "lastChapter": 541,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "吕子衡",
+      "mentions": 108,
+      "firstChapter": 36,
+      "lastChapter": 541,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(108)"
+      ]
+    },
+    {
+      "name": "程普",
+      "mentions": 102,
+      "firstChapter": 7,
+      "lastChapter": 541,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(101)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "刘表",
+      "mentions": 97,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "chapterCount": 59,
+      "markers": [
+        "姓名候选(97)"
+      ]
+    },
+    {
+      "name": "孙珣本",
+      "mentions": 71,
+      "firstChapter": 58,
+      "lastChapter": 541,
+      "chapterCount": 59,
+      "markers": [
+        "姓名候选(71)"
+      ]
+    },
+    {
+      "name": "白马旗",
+      "mentions": 115,
+      "firstChapter": 164,
+      "lastChapter": 541,
+      "chapterCount": 58,
+      "markers": [
+        "姓名候选(115)"
+      ]
+    },
+    {
+      "name": "方如此",
+      "mentions": 66,
+      "firstChapter": 5,
+      "lastChapter": 540,
+      "chapterCount": 58,
+      "markers": [
+        "姓名候选(66)"
+      ]
+    },
+    {
+      "name": "公孙珣回",
+      "mentions": 63,
+      "firstChapter": 5,
+      "lastChapter": 540,
+      "chapterCount": 58,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "时失笑",
+      "mentions": 63,
+      "firstChapter": 131,
+      "lastChapter": 528,
+      "chapterCount": 57,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "孙珣回",
+      "mentions": 62,
+      "firstChapter": 5,
+      "lastChapter": 540,
+      "chapterCount": 57,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "田丰",
+      "mentions": 85,
+      "firstChapter": 110,
+      "lastChapter": 541,
+      "chapterCount": 56,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "公孙珣居",
+      "mentions": 63,
+      "firstChapter": 93,
+      "lastChapter": 521,
+      "chapterCount": 56,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "公孙珣之",
+      "mentions": 60,
+      "firstChapter": 5,
+      "lastChapter": 486,
+      "chapterCount": 56,
+      "markers": [
+        "姓名候选(60)"
+      ]
+    },
+    {
+      "name": "公孙珣所",
+      "mentions": 62,
+      "firstChapter": 3,
+      "lastChapter": 520,
+      "chapterCount": 55,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "公孙珣只",
+      "mentions": 61,
+      "firstChapter": 40,
+      "lastChapter": 521,
+      "chapterCount": 55,
+      "markers": [
+        "姓名候选(61)"
+      ]
+    },
+    {
+      "name": "孙珣只",
+      "mentions": 61,
+      "firstChapter": 40,
+      "lastChapter": 521,
+      "chapterCount": 55,
+      "markers": [
+        "姓名候选(61)"
+      ]
+    },
+    {
+      "name": "孙珣居",
+      "mentions": 61,
+      "firstChapter": 93,
+      "lastChapter": 521,
+      "chapterCount": 55,
+      "markers": [
+        "姓名候选(61)"
+      ]
+    },
+    {
+      "name": "黄巾军",
+      "mentions": 372,
+      "firstChapter": 219,
+      "lastChapter": 541,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(372)"
+      ]
+    },
+    {
+      "name": "孙文台",
+      "mentions": 179,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(179)"
+      ]
+    },
+    {
+      "name": "万之众",
+      "mentions": 92,
+      "firstChapter": 158,
+      "lastChapter": 541,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(92)"
+      ]
+    },
+    {
+      "name": "相见",
+      "mentions": 64,
+      "firstChapter": 44,
+      "lastChapter": 541,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(64)"
+      ]
+    },
+    {
+      "name": "孙珣之",
+      "mentions": 58,
+      "firstChapter": 5,
+      "lastChapter": 486,
+      "chapterCount": 54,
+      "markers": [
+        "姓名候选(58)"
+      ]
+    },
+    {
+      "name": "孙珣所",
+      "mentions": 58,
+      "firstChapter": 3,
+      "lastChapter": 520,
+      "chapterCount": 53,
+      "markers": [
+        "姓名候选(58)"
+      ]
+    },
+    {
+      "name": "时沉默",
+      "mentions": 55,
+      "firstChapter": 122,
+      "lastChapter": 532,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "公孙珣摇",
+      "mentions": 57,
+      "firstChapter": 4,
+      "lastChapter": 501,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "孙珣摇",
+      "mentions": 57,
+      "firstChapter": 4,
+      "lastChapter": 501,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "公孙珣并",
+      "mentions": 57,
+      "firstChapter": 5,
+      "lastChapter": 536,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "孙珣并",
+      "mentions": 57,
+      "firstChapter": 5,
+      "lastChapter": 536,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(57)"
+      ]
+    },
+    {
+      "name": "时愕然",
+      "mentions": 53,
+      "firstChapter": 73,
+      "lastChapter": 525,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "万人",
+      "mentions": 72,
+      "firstChapter": 67,
+      "lastChapter": 541,
+      "chapterCount": 50,
+      "markers": [
+        "姓名候选(72)"
+      ]
+    },
+    {
+      "name": "索片刻",
+      "mentions": 56,
+      "firstChapter": 12,
+      "lastChapter": 538,
+      "chapterCount": 50,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "后者",
+      "mentions": 53,
+      "firstChapter": 26,
+      "lastChapter": 537,
+      "chapterCount": 50,
+      "markers": [
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "袁术",
+      "mentions": 85,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(84)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "严肃",
+      "mentions": 56,
+      "firstChapter": 23,
+      "lastChapter": 541,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(55)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "公孙珣没",
+      "mentions": 52,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "孙珣没",
+      "mentions": 51,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(51)"
+      ]
+    },
+    {
+      "name": "黄巾贼",
+      "mentions": 136,
+      "firstChapter": 219,
+      "lastChapter": 541,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(136)"
+      ]
+    },
+    {
+      "name": "皇甫嵩",
+      "mentions": 108,
+      "firstChapter": 228,
+      "lastChapter": 541,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(105)",
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "何处置",
+      "mentions": 56,
+      "firstChapter": 27,
+      "lastChapter": 530,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "董昭",
+      "mentions": 77,
+      "firstChapter": 197,
+      "lastChapter": 541,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(76)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "何应",
+      "mentions": 55,
+      "firstChapter": 38,
+      "lastChapter": 513,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "后汉书",
+      "mentions": 51,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(51)"
+      ]
+    },
+    {
+      "name": "公孙珣笑",
+      "mentions": 50,
+      "firstChapter": 4,
+      "lastChapter": 530,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(49)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "利索",
+      "mentions": 50,
+      "firstChapter": 13,
+      "lastChapter": 541,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "公孙珣有",
+      "mentions": 49,
+      "firstChapter": 3,
+      "lastChapter": 484,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "孙珣有",
+      "mentions": 49,
+      "firstChapter": 3,
+      "lastChapter": 484,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "孙珣笑",
+      "mentions": 49,
+      "firstChapter": 4,
+      "lastChapter": 530,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "贾诩",
+      "mentions": 89,
+      "firstChapter": 307,
+      "lastChapter": 541,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(84)",
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "莫户袧",
+      "mentions": 323,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(323)"
+      ]
+    },
+    {
+      "name": "张飞",
+      "mentions": 90,
+      "firstChapter": 181,
+      "lastChapter": 541,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(90)"
+      ]
+    },
+    {
+      "name": "徐荣",
+      "mentions": 83,
+      "firstChapter": 159,
+      "lastChapter": 541,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(83)"
+      ]
+    },
+    {
+      "name": "闻之",
+      "mentions": 71,
+      "firstChapter": 27,
+      "lastChapter": 541,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(71)"
+      ]
+    },
+    {
+      "name": "黄巾",
+      "mentions": 63,
+      "firstChapter": 219,
+      "lastChapter": 541,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(62)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "后呢",
+      "mentions": 50,
+      "firstChapter": 23,
+      "lastChapter": 539,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "公孙珣眼",
+      "mentions": 49,
+      "firstChapter": 12,
+      "lastChapter": 540,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "后立即",
+      "mentions": 49,
+      "firstChapter": 27,
+      "lastChapter": 537,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "孙珣眼",
+      "mentions": 48,
+      "firstChapter": 12,
+      "lastChapter": 540,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "时居然",
+      "mentions": 46,
+      "firstChapter": 116,
+      "lastChapter": 539,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(46)"
+      ]
+    },
+    {
+      "name": "高顺",
+      "mentions": 68,
+      "firstChapter": 93,
+      "lastChapter": 541,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(67)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "王叔治",
+      "mentions": 63,
+      "firstChapter": 143,
+      "lastChapter": 541,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "公孙珣等",
+      "mentions": 58,
+      "firstChapter": 6,
+      "lastChapter": 439,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(58)"
+      ]
+    },
+    {
+      "name": "万万没",
+      "mentions": 45,
+      "firstChapter": 37,
+      "lastChapter": 491,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(45)"
+      ]
+    },
+    {
+      "name": "时茫然",
+      "mentions": 45,
+      "firstChapter": 102,
+      "lastChapter": 516,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(45)"
+      ]
+    },
+    {
+      "name": "蔡伯喈",
+      "mentions": 168,
+      "firstChapter": 30,
+      "lastChapter": 530,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(168)"
       ]
     }
   ],
   "relations": [
     {
       "source": "公孙珣",
-      "target": "却是",
-      "mentions": 732,
-      "firstChapter": 4,
+      "target": "孙珣",
+      "mentions": 12038,
+      "firstChapter": 2,
       "lastChapter": 541,
       "markers": [
-        "同章共现(664)",
-        "母亲(14)",
-        "妻子(11)",
-        "儿子(10)",
-        "兄弟(8)",
-        "老师(7)",
-        "命令(3)",
-        "下属(3)"
+        "同章共现(11038)",
+        "母亲(292)",
+        "兄弟(137)",
+        "老师(129)",
+        "儿子(105)",
+        "妻子(65)",
+        "学生(56)",
+        "下属(48)"
+      ]
+    },
+    {
+      "source": "公孙瓒",
+      "target": "孙瓒",
+      "mentions": 518,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(449)",
+        "兄弟(36)",
+        "弟子(10)",
+        "母亲(7)",
+        "老师(5)",
+        "儿子(5)",
+        "学生(4)",
+        "下属(4)"
+      ]
+    },
+    {
+      "source": "公孙大娘",
+      "target": "孙大娘",
+      "mentions": 511,
+      "firstChapter": 1,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(382)",
+        "儿子(84)",
+        "母亲(20)",
+        "兄弟(5)",
+        "下属(4)",
+        "妻子(4)",
+        "丈夫(3)",
+        "合作(3)"
+      ]
+    },
+    {
+      "source": "公孙越",
+      "target": "孙越",
+      "mentions": 459,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(395)",
+        "兄弟(31)",
+        "老师(11)",
+        "女儿(6)",
+        "母亲(5)",
+        "学生(5)",
+        "弟子(4)",
+        "妻子(4)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "却又",
-      "mentions": 426,
-      "firstChapter": 4,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(385)",
-        "母亲(18)",
-        "父亲(4)",
-        "兄弟(4)",
-        "儿子(4)",
-        "命令(3)",
-        "弟子(2)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "公孙珣",
-      "mentions": 407,
+      "target": "公孙珣一",
+      "mentions": 428,
       "firstChapter": 3,
       "lastChapter": 540,
       "markers": [
-        "同章共现(370)",
-        "母亲(13)",
-        "老师(5)",
-        "女儿(4)",
-        "妻子(4)",
-        "儿子(4)",
-        "丈夫(2)",
-        "父亲(2)"
+        "同章共现(395)",
+        "母亲(9)",
+        "妻子(5)",
+        "兄弟(3)",
+        "儿子(3)",
+        "学生(3)",
+        "下属(3)",
+        "敌人(2)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "天子",
-      "mentions": 369,
-      "firstChapter": 29,
-      "lastChapter": 541,
+      "target": "孙珣一",
+      "mentions": 428,
+      "firstChapter": 3,
+      "lastChapter": 540,
       "markers": [
-        "同章共现(350)",
-        "老师(6)",
-        "母亲(4)",
-        "父亲(2)",
-        "妻子(2)",
-        "儿子(2)",
-        "保护(1)",
-        "学生(1)"
+        "同章共现(395)",
+        "母亲(9)",
+        "妻子(5)",
+        "兄弟(3)",
+        "儿子(3)",
+        "学生(3)",
+        "下属(3)",
+        "敌人(2)"
+      ]
+    },
+    {
+      "source": "公孙珣一",
+      "target": "孙珣",
+      "mentions": 428,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(395)",
+        "母亲(9)",
+        "妻子(5)",
+        "兄弟(3)",
+        "儿子(3)",
+        "学生(3)",
+        "下属(3)",
+        "敌人(2)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣一",
+      "mentions": 428,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(395)",
+        "母亲(9)",
+        "妻子(5)",
+        "兄弟(3)",
+        "儿子(3)",
+        "学生(3)",
+        "下属(3)",
+        "敌人(2)"
+      ]
+    },
+    {
+      "source": "公孙珣一",
+      "target": "孙珣一",
+      "mentions": 428,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(395)",
+        "母亲(9)",
+        "妻子(5)",
+        "兄弟(3)",
+        "儿子(3)",
+        "学生(3)",
+        "下属(3)",
+        "敌人(2)"
       ]
     },
     {
@@ -1218,37 +2039,105 @@
       ]
     },
     {
-      "source": "公孙珣",
-      "target": "此人",
-      "mentions": 349,
+      "source": "孙珣",
+      "target": "韩当",
+      "mentions": 360,
       "firstChapter": 2,
-      "lastChapter": 530,
+      "lastChapter": 537,
       "markers": [
-        "同章共现(322)",
-        "母亲(7)",
-        "老师(3)",
-        "兄弟(3)",
-        "儿子(3)",
-        "命令(2)",
-        "妻子(2)",
-        "下属(2)"
+        "同章共现(336)",
+        "母亲(10)",
+        "兄弟(6)",
+        "命令(4)",
+        "老师(2)",
+        "下属(2)",
+        "妻子(1)",
+        "儿子(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "娄圭",
-      "mentions": 321,
-      "firstChapter": 35,
+      "target": "公孙珣却",
+      "mentions": 317,
+      "firstChapter": 3,
       "lastChapter": 541,
       "markers": [
-        "同章共现(299)",
-        "母亲(4)",
-        "兄弟(4)",
-        "命令(3)",
+        "同章共现(292)",
+        "母亲(8)",
+        "命令(4)",
+        "老师(3)",
         "妻子(3)",
-        "儿子(2)",
-        "老师(2)",
-        "女儿(1)"
+        "兄弟(2)",
+        "儿子(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣却",
+      "mentions": 317,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(292)",
+        "母亲(8)",
+        "命令(4)",
+        "老师(3)",
+        "妻子(3)",
+        "兄弟(2)",
+        "儿子(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣却",
+      "target": "孙珣",
+      "mentions": 317,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(292)",
+        "母亲(8)",
+        "命令(4)",
+        "老师(3)",
+        "妻子(3)",
+        "兄弟(2)",
+        "儿子(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣却",
+      "mentions": 317,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(292)",
+        "母亲(8)",
+        "命令(4)",
+        "老师(3)",
+        "妻子(3)",
+        "兄弟(2)",
+        "儿子(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣却",
+      "target": "孙珣却",
+      "mentions": 317,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(292)",
+        "母亲(8)",
+        "命令(4)",
+        "老师(3)",
+        "妻子(3)",
+        "兄弟(2)",
+        "儿子(1)",
+        "丈夫(1)"
       ]
     },
     {
@@ -1269,13 +2158,64 @@
       ]
     },
     {
+      "source": "吕范",
+      "target": "孙珣",
+      "mentions": 312,
+      "firstChapter": 35,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(291)",
+        "儿子(4)",
+        "命令(2)",
+        "母亲(2)",
+        "下属(2)",
+        "老师(2)",
+        "对手(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "卫将军",
+      "mentions": 309,
+      "firstChapter": 271,
+      "lastChapter": 501,
+      "markers": [
+        "同章共现(280)",
+        "下属(6)",
+        "母亲(5)",
+        "兄弟(5)",
+        "女儿(4)",
+        "学生(3)",
+        "儿子(3)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "卫将军",
+      "target": "孙珣",
+      "mentions": 309,
+      "firstChapter": 271,
+      "lastChapter": 501,
+      "markers": [
+        "同章共现(280)",
+        "下属(6)",
+        "母亲(5)",
+        "兄弟(5)",
+        "女儿(4)",
+        "学生(3)",
+        "儿子(3)",
+        "背叛(1)"
+      ]
+    },
+    {
       "source": "公孙珣",
       "target": "董卓",
-      "mentions": 292,
+      "mentions": 287,
       "firstChapter": 80,
       "lastChapter": 534,
       "markers": [
-        "同章共现(268)",
+        "同章共现(263)",
         "合作(4)",
         "兄弟(4)",
         "老师(3)",
@@ -1283,6 +2223,125 @@
         "下属(3)",
         "女儿(2)",
         "弟子(2)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "董卓",
+      "mentions": 287,
+      "firstChapter": 80,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(263)",
+        "合作(4)",
+        "兄弟(4)",
+        "老师(3)",
+        "母亲(3)",
+        "下属(3)",
+        "女儿(2)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "曹操",
+      "mentions": 274,
+      "firstChapter": 30,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(250)",
+        "兄弟(5)",
+        "儿子(5)",
+        "母亲(4)",
+        "妻子(3)",
+        "对手(3)",
+        "下属(2)",
+        "命令(2)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "曹操",
+      "mentions": 274,
+      "firstChapter": 30,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(250)",
+        "兄弟(5)",
+        "儿子(5)",
+        "母亲(4)",
+        "妻子(3)",
+        "对手(3)",
+        "下属(2)",
+        "命令(2)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "白马",
+      "mentions": 273,
+      "firstChapter": 7,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(257)",
+        "儿子(4)",
+        "命令(3)",
+        "兄弟(2)",
+        "母亲(2)",
+        "保护(2)",
+        "敌人(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "白马",
+      "mentions": 273,
+      "firstChapter": 7,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(257)",
+        "儿子(4)",
+        "命令(3)",
+        "兄弟(2)",
+        "母亲(2)",
+        "保护(2)",
+        "敌人(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "毕竟",
+      "mentions": 272,
+      "firstChapter": 11,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(243)",
+        "兄弟(8)",
+        "母亲(4)",
+        "下属(4)",
+        "老师(2)",
+        "学生(2)",
+        "儿子(2)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "毕竟",
+      "mentions": 272,
+      "firstChapter": 11,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(243)",
+        "兄弟(8)",
+        "母亲(4)",
+        "下属(4)",
+        "老师(2)",
+        "学生(2)",
+        "儿子(2)",
+        "父亲(1)"
       ]
     },
     {
@@ -1303,145 +2362,552 @@
       ]
     },
     {
-      "source": "公孙珣",
-      "target": "忍不住",
-      "mentions": 208,
-      "firstChapter": 2,
-      "lastChapter": 540,
+      "source": "孙珣",
+      "target": "袁绍",
+      "mentions": 263,
+      "firstChapter": 25,
+      "lastChapter": 534,
       "markers": [
-        "同章共现(182)",
-        "母亲(8)",
-        "老师(7)",
-        "兄弟(4)",
-        "儿子(2)",
-        "对手(2)",
-        "学生(1)",
-        "上司(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "缓缓",
-      "mentions": 187,
-      "firstChapter": 5,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(176)",
-        "学生(3)",
-        "儿子(2)",
-        "老师(2)",
-        "母亲(2)",
+        "同章共现(235)",
+        "兄弟(8)",
+        "母亲(5)",
+        "儿子(5)",
+        "父亲(3)",
+        "弟子(2)",
         "下属(2)",
-        "兄弟(1)",
-        "敌人(1)"
+        "盟友(2)"
       ]
     },
     {
-      "source": "娄圭",
-      "target": "韩当",
-      "mentions": 184,
-      "firstChapter": 53,
+      "source": "公孙珣",
+      "target": "公孙珣忽",
+      "mentions": 259,
+      "firstChapter": 3,
       "lastChapter": 541,
       "markers": [
-        "同章共现(175)",
-        "兄弟(3)",
-        "母亲(1)",
-        "命令(1)",
-        "老师(1)",
-        "下属(1)",
-        "学生(1)",
-        "丈夫(1)"
+        "同章共现(242)",
+        "老师(5)",
+        "丈夫(3)",
+        "母亲(3)",
+        "妻子(2)",
+        "兄弟(2)",
+        "交易(1)",
+        "命令(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "正色",
-      "mentions": 181,
-      "firstChapter": 28,
-      "lastChapter": 530,
+      "target": "孙珣忽",
+      "mentions": 259,
+      "firstChapter": 3,
+      "lastChapter": 541,
       "markers": [
-        "同章共现(163)",
-        "母亲(6)",
-        "学生(4)",
+        "同章共现(242)",
+        "老师(5)",
+        "丈夫(3)",
+        "母亲(3)",
+        "妻子(2)",
+        "兄弟(2)",
+        "交易(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣忽",
+      "target": "孙珣",
+      "mentions": 259,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(242)",
+        "老师(5)",
+        "丈夫(3)",
+        "母亲(3)",
+        "妻子(2)",
+        "兄弟(2)",
+        "交易(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣忽",
+      "mentions": 259,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(242)",
+        "老师(5)",
+        "丈夫(3)",
+        "母亲(3)",
+        "妻子(2)",
+        "兄弟(2)",
+        "交易(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣忽",
+      "target": "孙珣忽",
+      "mentions": 259,
+      "firstChapter": 3,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(242)",
+        "老师(5)",
+        "丈夫(3)",
+        "母亲(3)",
+        "妻子(2)",
+        "兄弟(2)",
+        "交易(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣当",
+      "mentions": 222,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(204)",
+        "母亲(7)",
         "老师(4)",
+        "儿子(2)",
+        "女儿(1)",
+        "妻子(1)",
+        "上司(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣当",
+      "mentions": 222,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(204)",
+        "母亲(7)",
+        "老师(4)",
+        "儿子(2)",
+        "女儿(1)",
+        "妻子(1)",
+        "上司(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣当",
+      "target": "孙珣",
+      "mentions": 222,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(204)",
+        "母亲(7)",
+        "老师(4)",
+        "儿子(2)",
+        "女儿(1)",
+        "妻子(1)",
+        "上司(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣当",
+      "mentions": 222,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(204)",
+        "母亲(7)",
+        "老师(4)",
+        "儿子(2)",
+        "女儿(1)",
+        "妻子(1)",
+        "上司(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣当",
+      "target": "孙珣当",
+      "mentions": 222,
+      "firstChapter": 6,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(204)",
+        "母亲(7)",
+        "老师(4)",
+        "儿子(2)",
+        "女儿(1)",
+        "妻子(1)",
+        "上司(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "白马",
+      "target": "白马义",
+      "mentions": 206,
+      "firstChapter": 111,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(192)",
+        "命令(3)",
         "下属(2)",
+        "兄弟(2)",
+        "追杀(2)",
+        "保护(2)",
+        "儿子(2)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙文琪",
+      "target": "文琪",
+      "mentions": 200,
+      "firstChapter": 53,
+      "lastChapter": 533,
+      "markers": [
+        "同章共现(183)",
+        "丈夫(4)",
+        "老师(2)",
+        "下属(2)",
+        "儿子(2)",
+        "上司(1)",
+        "敌人(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "孙文琪",
+      "target": "文琪",
+      "mentions": 198,
+      "firstChapter": 53,
+      "lastChapter": 533,
+      "markers": [
+        "同章共现(182)",
+        "丈夫(3)",
+        "老师(2)",
+        "下属(2)",
+        "儿子(2)",
+        "上司(1)",
+        "敌人(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙文琪",
+      "target": "孙文琪",
+      "mentions": 198,
+      "firstChapter": 53,
+      "lastChapter": 533,
+      "markers": [
+        "同章共现(182)",
+        "丈夫(3)",
+        "老师(2)",
+        "下属(2)",
+        "儿子(2)",
+        "上司(1)",
+        "敌人(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣在",
+      "mentions": 175,
+      "firstChapter": 3,
+      "lastChapter": 536,
+      "markers": [
+        "同章共现(165)",
+        "母亲(4)",
+        "儿子(2)",
+        "对手(2)",
         "丈夫(1)",
-        "兄弟(1)",
+        "父亲(1)",
+        "女儿(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "公孙珣在",
+      "target": "孙珣",
+      "mentions": 175,
+      "firstChapter": 3,
+      "lastChapter": 536,
+      "markers": [
+        "同章共现(165)",
+        "母亲(4)",
+        "儿子(2)",
+        "对手(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "女儿(1)",
         "保护(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "方才",
-      "mentions": 176,
-      "firstChapter": 5,
-      "lastChapter": 541,
+      "target": "孙珣在",
+      "mentions": 174,
+      "firstChapter": 3,
+      "lastChapter": 536,
       "markers": [
         "同章共现(164)",
         "母亲(4)",
-        "妻子(3)",
-        "学生(2)",
+        "儿子(2)",
+        "对手(2)",
         "丈夫(1)",
-        "老师(1)",
+        "父亲(1)",
         "女儿(1)",
-        "儿子(1)"
+        "保护(1)"
       ]
     },
     {
-      "source": "公孙珣",
-      "target": "公孙珣不由",
-      "mentions": 168,
+      "source": "孙珣",
+      "target": "孙珣在",
+      "mentions": 174,
       "firstChapter": 3,
-      "lastChapter": 540,
+      "lastChapter": 536,
       "markers": [
-        "同章共现(158)",
-        "母亲(6)",
-        "老师(2)",
-        "妻子(1)",
-        "合作(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "公孙珣不由",
-      "mentions": 168,
-      "firstChapter": 3,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(158)",
-        "母亲(6)",
-        "老师(2)",
-        "妻子(1)",
-        "合作(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣当即",
-      "mentions": 153,
-      "firstChapter": 6,
-      "lastChapter": 467,
-      "markers": [
-        "同章共现(141)",
+        "同章共现(164)",
         "母亲(4)",
-        "老师(3)",
+        "儿子(2)",
+        "对手(2)",
+        "丈夫(1)",
+        "父亲(1)",
         "女儿(1)",
-        "妻子(1)",
-        "兄弟(1)",
-        "保护(1)",
-        "儿子(1)"
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "公孙珣在",
+      "target": "孙珣在",
+      "mentions": 174,
+      "firstChapter": 3,
+      "lastChapter": 536,
+      "markers": [
+        "同章共现(164)",
+        "母亲(4)",
+        "儿子(2)",
+        "对手(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "女儿(1)",
+        "保护(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "公孙珣闻言",
-      "mentions": 146,
+      "target": "公孙越",
+      "mentions": 171,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(133)",
+        "兄弟(21)",
+        "母亲(5)",
+        "老师(5)",
+        "学生(3)",
+        "妻子(3)",
+        "命令(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "公孙越",
+      "target": "孙珣",
+      "mentions": 171,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(133)",
+        "兄弟(21)",
+        "母亲(5)",
+        "老师(5)",
+        "学生(3)",
+        "妻子(3)",
+        "命令(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "曹操",
+      "mentions": 162,
+      "firstChapter": 178,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(147)",
+        "妻子(4)",
+        "母亲(3)",
+        "儿子(3)",
+        "兄弟(2)",
+        "下属(1)",
+        "敌人(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "刘备",
+      "mentions": 159,
+      "firstChapter": 15,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(136)",
+        "母亲(8)",
+        "儿子(4)",
+        "兄弟(4)",
+        "下属(3)",
+        "学生(3)",
+        "女儿(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "刘备",
+      "target": "孙珣",
+      "mentions": 159,
+      "firstChapter": 15,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(136)",
+        "母亲(8)",
+        "儿子(4)",
+        "兄弟(4)",
+        "下属(3)",
+        "学生(3)",
+        "女儿(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣心",
+      "mentions": 158,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "markers": [
+        "同章共现(145)",
+        "兄弟(4)",
+        "母亲(4)",
+        "下属(2)",
+        "命令(2)",
+        "对手(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣心",
+      "mentions": 158,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "markers": [
+        "同章共现(145)",
+        "兄弟(4)",
+        "母亲(4)",
+        "下属(2)",
+        "命令(2)",
+        "对手(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣心",
+      "target": "孙珣",
+      "mentions": 158,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "markers": [
+        "同章共现(145)",
+        "兄弟(4)",
+        "母亲(4)",
+        "下属(2)",
+        "命令(2)",
+        "对手(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣心",
+      "mentions": 158,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "markers": [
+        "同章共现(145)",
+        "兄弟(4)",
+        "母亲(4)",
+        "下属(2)",
+        "命令(2)",
+        "对手(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣心",
+      "target": "孙珣心",
+      "mentions": 158,
+      "firstChapter": 10,
+      "lastChapter": 521,
+      "markers": [
+        "同章共现(145)",
+        "兄弟(4)",
+        "母亲(4)",
+        "下属(2)",
+        "命令(2)",
+        "对手(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙越",
+      "mentions": 157,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(119)",
+        "兄弟(21)",
+        "母亲(5)",
+        "老师(5)",
+        "学生(3)",
+        "妻子(3)",
+        "命令(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙越",
+      "mentions": 157,
+      "firstChapter": 3,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(119)",
+        "兄弟(21)",
+        "母亲(5)",
+        "老师(5)",
+        "学生(3)",
+        "妻子(3)",
+        "命令(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣闻",
+      "mentions": 154,
       "firstChapter": 4,
       "lastChapter": 533,
       "markers": [
-        "同章共现(131)",
+        "同章共现(138)",
         "母亲(5)",
         "兄弟(4)",
         "老师(3)",
@@ -1453,80 +2919,585 @@
     },
     {
       "source": "公孙珣",
-      "target": "皇甫嵩",
-      "mentions": 131,
-      "firstChapter": 215,
-      "lastChapter": 482,
+      "target": "孙珣闻",
+      "mentions": 154,
+      "firstChapter": 4,
+      "lastChapter": 533,
       "markers": [
-        "同章共现(122)",
-        "儿子(3)",
-        "下属(2)",
-        "合作(2)",
-        "女儿(1)",
-        "母亲(1)",
+        "同章共现(138)",
+        "母亲(5)",
+        "兄弟(4)",
+        "老师(3)",
+        "弟子(1)",
+        "儿子(1)",
+        "敌人(1)",
         "学生(1)"
       ]
     },
     {
-      "source": "吕范",
-      "target": "娄圭",
-      "mentions": 129,
-      "firstChapter": 35,
-      "lastChapter": 541,
+      "source": "公孙珣闻",
+      "target": "孙珣",
+      "mentions": 154,
+      "firstChapter": 4,
+      "lastChapter": 533,
       "markers": [
-        "同章共现(123)",
-        "儿子(2)",
-        "母亲(1)",
-        "老师(1)",
-        "父亲(1)",
-        "学生(1)",
-        "朋友(1)"
+        "同章共现(138)",
+        "母亲(5)",
+        "兄弟(4)",
+        "老师(3)",
+        "弟子(1)",
+        "儿子(1)",
+        "敌人(1)",
+        "学生(1)"
       ]
     },
     {
-      "source": "从容",
-      "target": "公孙珣",
-      "mentions": 126,
-      "firstChapter": 12,
-      "lastChapter": 540,
+      "source": "孙珣",
+      "target": "孙珣闻",
+      "mentions": 154,
+      "firstChapter": 4,
+      "lastChapter": 533,
       "markers": [
-        "同章共现(119)",
-        "母亲(2)",
-        "兄弟(2)",
-        "丈夫(1)",
-        "老师(1)",
-        "下属(1)"
+        "同章共现(138)",
+        "母亲(5)",
+        "兄弟(4)",
+        "老师(3)",
+        "弟子(1)",
+        "儿子(1)",
+        "敌人(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣闻",
+      "target": "孙珣闻",
+      "mentions": 154,
+      "firstChapter": 4,
+      "lastChapter": 533,
+      "markers": [
+        "同章共现(138)",
+        "母亲(5)",
+        "兄弟(4)",
+        "老师(3)",
+        "弟子(1)",
+        "儿子(1)",
+        "敌人(1)",
+        "学生(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "卢植",
-      "mentions": 124,
-      "firstChapter": 15,
-      "lastChapter": 438,
+      "target": "明显",
+      "mentions": 149,
+      "firstChapter": 5,
+      "lastChapter": 533,
       "markers": [
-        "同章共现(90)",
-        "老师(17)",
-        "学生(10)",
+        "同章共现(136)",
+        "母亲(3)",
+        "女儿(2)",
+        "老师(2)",
+        "对手(2)",
+        "儿子(2)",
+        "兄弟(2)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "明显",
+      "mentions": 149,
+      "firstChapter": 5,
+      "lastChapter": 533,
+      "markers": [
+        "同章共现(136)",
+        "母亲(3)",
+        "女儿(2)",
+        "老师(2)",
+        "对手(2)",
+        "儿子(2)",
+        "兄弟(2)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙瓒",
+      "mentions": 131,
+      "firstChapter": 2,
+      "lastChapter": 477,
+      "markers": [
+        "同章共现(99)",
+        "兄弟(19)",
+        "母亲(5)",
+        "老师(4)",
+        "弟子(4)",
+        "学生(2)",
+        "儿子(2)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙瓒",
+      "target": "孙珣",
+      "mentions": 131,
+      "firstChapter": 2,
+      "lastChapter": 477,
+      "markers": [
+        "同章共现(99)",
+        "兄弟(19)",
+        "母亲(5)",
+        "老师(4)",
+        "弟子(4)",
+        "学生(2)",
+        "儿子(2)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣自",
+      "mentions": 130,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(120)",
+        "母亲(2)",
+        "兄弟(2)",
+        "上司(1)",
+        "下属(1)",
+        "父亲(1)",
+        "儿子(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣自",
+      "target": "孙珣",
+      "mentions": 130,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(120)",
+        "母亲(2)",
+        "兄弟(2)",
+        "上司(1)",
+        "下属(1)",
+        "父亲(1)",
+        "儿子(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣继",
+      "mentions": 130,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(115)",
+        "老师(5)",
+        "母亲(4)",
+        "丈夫(3)",
+        "兄弟(2)",
+        "妻子(2)",
+        "女儿(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣继",
+      "target": "孙珣",
+      "mentions": 130,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(115)",
+        "老师(5)",
+        "母亲(4)",
+        "丈夫(3)",
+        "兄弟(2)",
+        "妻子(2)",
+        "女儿(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣自",
+      "mentions": 129,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(119)",
+        "母亲(2)",
+        "兄弟(2)",
+        "上司(1)",
+        "下属(1)",
+        "父亲(1)",
+        "儿子(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣自",
+      "mentions": 129,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(119)",
+        "母亲(2)",
+        "兄弟(2)",
+        "上司(1)",
+        "下属(1)",
+        "父亲(1)",
+        "儿子(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣自",
+      "target": "孙珣自",
+      "mentions": 129,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(119)",
+        "母亲(2)",
+        "兄弟(2)",
+        "上司(1)",
+        "下属(1)",
+        "父亲(1)",
+        "儿子(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣继",
+      "mentions": 129,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(114)",
+        "老师(5)",
+        "母亲(4)",
+        "丈夫(3)",
+        "兄弟(2)",
+        "妻子(2)",
+        "女儿(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣继",
+      "mentions": 129,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(114)",
+        "老师(5)",
+        "母亲(4)",
+        "丈夫(3)",
+        "兄弟(2)",
+        "妻子(2)",
+        "女儿(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣继",
+      "target": "孙珣继",
+      "mentions": 129,
+      "firstChapter": 23,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(114)",
+        "老师(5)",
+        "母亲(4)",
+        "丈夫(3)",
+        "兄弟(2)",
+        "妻子(2)",
+        "女儿(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "冷笑",
+      "mentions": 129,
+      "firstChapter": 47,
+      "lastChapter": 529,
+      "markers": [
+        "同章共现(124)",
+        "兄弟(2)",
+        "母亲(1)",
+        "丈夫(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "冷笑",
+      "target": "孙珣",
+      "mentions": 129,
+      "firstChapter": 47,
+      "lastChapter": 529,
+      "markers": [
+        "同章共现(124)",
+        "兄弟(2)",
+        "母亲(1)",
+        "丈夫(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "曹孟德",
+      "mentions": 125,
+      "firstChapter": 35,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(112)",
         "母亲(6)",
-        "兄弟(4)",
-        "儿子(3)",
-        "弟子(3)",
+        "兄弟(3)",
+        "儿子(2)",
+        "对手(2)",
+        "父亲(1)",
+        "女儿(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "曹孟德",
+      "mentions": 125,
+      "firstChapter": 35,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(112)",
+        "母亲(6)",
+        "兄弟(3)",
+        "儿子(2)",
+        "对手(2)",
+        "父亲(1)",
+        "女儿(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "高句丽",
+      "mentions": 123,
+      "firstChapter": 7,
+      "lastChapter": 460,
+      "markers": [
+        "同章共现(117)",
+        "儿子(2)",
+        "母亲(1)",
+        "保护(1)",
+        "下属(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "高句丽",
+      "mentions": 123,
+      "firstChapter": 7,
+      "lastChapter": 460,
+      "markers": [
+        "同章共现(117)",
+        "儿子(2)",
+        "母亲(1)",
+        "保护(1)",
+        "下属(1)",
         "命令(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "戏忠",
-      "mentions": 123,
-      "firstChapter": 249,
+      "target": "王修",
+      "mentions": 122,
+      "firstChapter": 143,
       "lastChapter": 529,
       "markers": [
-        "同章共现(119)",
+        "同章共现(116)",
+        "母亲(3)",
+        "学生(1)",
+        "儿子(1)",
+        "兄弟(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "王修",
+      "mentions": 122,
+      "firstChapter": 143,
+      "lastChapter": 529,
+      "markers": [
+        "同章共现(116)",
+        "母亲(3)",
+        "学生(1)",
+        "儿子(1)",
+        "兄弟(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣面",
+      "mentions": 121,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(115)",
+        "母亲(2)",
+        "儿子(2)",
+        "兄弟(1)",
+        "女儿(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣面",
+      "mentions": 121,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(115)",
+        "母亲(2)",
+        "儿子(2)",
+        "兄弟(1)",
+        "女儿(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "公孙珣面",
+      "target": "孙珣",
+      "mentions": 121,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(115)",
+        "母亲(2)",
+        "儿子(2)",
+        "兄弟(1)",
+        "女儿(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣面",
+      "mentions": 121,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(115)",
+        "母亲(2)",
+        "儿子(2)",
+        "兄弟(1)",
+        "女儿(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "公孙珣面",
+      "target": "孙珣面",
+      "mentions": 121,
+      "firstChapter": 6,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(115)",
+        "母亲(2)",
+        "儿子(2)",
+        "兄弟(1)",
+        "女儿(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣依",
+      "mentions": 121,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(115)",
+        "老师(2)",
+        "兄弟(1)",
         "妻子(1)",
-        "老师(1)",
-        "对手(1)",
-        "儿子(1)"
+        "母亲(1)",
+        "儿子(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "公孙珣依",
+      "target": "孙珣",
+      "mentions": 121,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(115)",
+        "老师(2)",
+        "兄弟(1)",
+        "妻子(1)",
+        "母亲(1)",
+        "儿子(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣依",
+      "mentions": 120,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(114)",
+        "老师(2)",
+        "兄弟(1)",
+        "妻子(1)",
+        "母亲(1)",
+        "儿子(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣依",
+      "mentions": 120,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(114)",
+        "老师(2)",
+        "兄弟(1)",
+        "妻子(1)",
+        "母亲(1)",
+        "儿子(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "公孙珣依",
+      "target": "孙珣依",
+      "mentions": 120,
+      "firstChapter": 15,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(114)",
+        "老师(2)",
+        "兄弟(1)",
+        "妻子(1)",
+        "母亲(1)",
+        "儿子(1)",
+        "女儿(1)"
       ]
     },
     {
@@ -1547,16 +3518,560 @@
       ]
     },
     {
-      "source": "却是",
-      "target": "袁绍",
+      "source": "公孙大娘",
+      "target": "孙珣",
+      "mentions": 119,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(88)",
+        "母亲(15)",
+        "儿子(12)",
+        "妻子(3)",
+        "女儿(2)",
+        "上司(1)",
+        "对手(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙大娘",
+      "mentions": 118,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(87)",
+        "母亲(15)",
+        "儿子(12)",
+        "妻子(3)",
+        "女儿(2)",
+        "上司(1)",
+        "对手(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "孙大娘",
+      "target": "孙珣",
+      "mentions": 118,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(87)",
+        "母亲(15)",
+        "儿子(12)",
+        "妻子(3)",
+        "女儿(2)",
+        "上司(1)",
+        "对手(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "袁本初",
+      "mentions": 117,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(103)",
+        "兄弟(7)",
+        "儿子(3)",
+        "母亲(2)",
+        "对手(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "袁本初",
+      "mentions": 117,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(103)",
+        "兄弟(7)",
+        "儿子(3)",
+        "母亲(2)",
+        "对手(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣见",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(107)",
+        "兄弟(3)",
+        "妻子(2)",
+        "母亲(2)",
+        "儿子(2)",
+        "学生(2)",
+        "女儿(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣见",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(107)",
+        "兄弟(3)",
+        "妻子(2)",
+        "母亲(2)",
+        "儿子(2)",
+        "学生(2)",
+        "女儿(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣见",
+      "target": "孙珣",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(107)",
+        "兄弟(3)",
+        "妻子(2)",
+        "母亲(2)",
+        "儿子(2)",
+        "学生(2)",
+        "女儿(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣见",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(107)",
+        "兄弟(3)",
+        "妻子(2)",
+        "母亲(2)",
+        "儿子(2)",
+        "学生(2)",
+        "女儿(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣见",
+      "target": "孙珣见",
+      "mentions": 117,
+      "firstChapter": 43,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(107)",
+        "兄弟(3)",
+        "妻子(2)",
+        "母亲(2)",
+        "儿子(2)",
+        "学生(2)",
+        "女儿(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣终",
       "mentions": 113,
-      "firstChapter": 51,
-      "lastChapter": 441,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(105)",
+        "儿子(3)",
+        "母亲(2)",
+        "下属(2)",
+        "上司(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣终",
+      "target": "孙珣",
+      "mentions": 113,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(105)",
+        "儿子(3)",
+        "母亲(2)",
+        "下属(2)",
+        "上司(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣终",
+      "mentions": 111,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(103)",
+        "儿子(3)",
+        "母亲(2)",
+        "下属(2)",
+        "上司(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣终",
+      "mentions": 111,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(103)",
+        "儿子(3)",
+        "母亲(2)",
+        "下属(2)",
+        "上司(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣终",
+      "target": "孙珣终",
+      "mentions": 111,
+      "firstChapter": 22,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(103)",
+        "儿子(3)",
+        "母亲(2)",
+        "下属(2)",
+        "上司(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣此",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(104)",
+        "母亲(4)",
+        "妻子(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "公孙珣此",
+      "target": "孙珣",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(104)",
+        "母亲(4)",
+        "妻子(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣看",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(96)",
+        "母亲(6)",
+        "老师(2)",
+        "兄弟(1)",
+        "儿子(1)",
+        "丈夫(1)",
+        "保护(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣看",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(96)",
+        "母亲(6)",
+        "老师(2)",
+        "兄弟(1)",
+        "儿子(1)",
+        "丈夫(1)",
+        "保护(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "公孙珣看",
+      "target": "孙珣",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(96)",
+        "母亲(6)",
+        "老师(2)",
+        "兄弟(1)",
+        "儿子(1)",
+        "丈夫(1)",
+        "保护(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣看",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(96)",
+        "母亲(6)",
+        "老师(2)",
+        "兄弟(1)",
+        "儿子(1)",
+        "丈夫(1)",
+        "保护(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "公孙珣看",
+      "target": "孙珣看",
+      "mentions": 110,
+      "firstChapter": 4,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(96)",
+        "母亲(6)",
+        "老师(2)",
+        "兄弟(1)",
+        "儿子(1)",
+        "丈夫(1)",
+        "保护(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣倒",
+      "mentions": 110,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(99)",
+        "母亲(7)",
+        "兄弟(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣倒",
+      "mentions": 110,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(99)",
+        "母亲(7)",
+        "兄弟(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣倒",
+      "target": "孙珣",
+      "mentions": 110,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(99)",
+        "母亲(7)",
+        "兄弟(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣倒",
+      "mentions": 110,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(99)",
+        "母亲(7)",
+        "兄弟(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣倒",
+      "target": "孙珣倒",
+      "mentions": 110,
+      "firstChapter": 20,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(99)",
+        "母亲(7)",
+        "兄弟(2)",
+        "丈夫(1)",
+        "父亲(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙瓒",
+      "mentions": 109,
+      "firstChapter": 2,
+      "lastChapter": 477,
+      "markers": [
+        "同章共现(83)",
+        "兄弟(15)",
+        "母亲(4)",
+        "弟子(4)",
+        "老师(3)",
+        "学生(1)",
+        "儿子(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙瓒",
+      "mentions": 109,
+      "firstChapter": 2,
+      "lastChapter": 477,
+      "markers": [
+        "同章共现(83)",
+        "兄弟(15)",
+        "母亲(4)",
+        "弟子(4)",
+        "老师(3)",
+        "学生(1)",
+        "儿子(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣此",
+      "mentions": 109,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(103)",
+        "母亲(4)",
+        "妻子(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣此",
+      "mentions": 109,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(103)",
+        "母亲(4)",
+        "妻子(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "公孙珣此",
+      "target": "孙珣此",
+      "mentions": 109,
+      "firstChapter": 4,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(103)",
+        "母亲(4)",
+        "妻子(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "程普",
+      "mentions": 109,
+      "firstChapter": 8,
+      "lastChapter": 519,
       "markers": [
         "同章共现(106)",
-        "儿子(3)",
-        "兄弟(2)",
-        "父亲(1)",
+        "母亲(1)",
+        "女儿(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "程普",
+      "mentions": 109,
+      "firstChapter": 8,
+      "lastChapter": 519,
+      "markers": [
+        "同章共现(106)",
+        "母亲(1)",
+        "女儿(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣正",
+      "mentions": 109,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(101)",
+        "母亲(3)",
+        "学生(2)",
+        "弟子(1)",
+        "老师(1)",
+        "儿子(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣正",
+      "target": "孙珣",
+      "mentions": 109,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(101)",
+        "母亲(3)",
+        "学生(2)",
+        "弟子(1)",
+        "老师(1)",
+        "儿子(1)",
         "对手(1)"
       ]
     },
@@ -1575,22 +4090,242 @@
     },
     {
       "source": "公孙珣",
-      "target": "贾诩",
-      "mentions": 99,
-      "firstChapter": 254,
+      "target": "孙珣正",
+      "mentions": 108,
+      "firstChapter": 25,
       "lastChapter": 534,
       "markers": [
-        "同章共现(94)",
-        "下属(1)",
+        "同章共现(100)",
+        "母亲(3)",
+        "学生(2)",
+        "弟子(1)",
+        "老师(1)",
+        "儿子(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣正",
+      "mentions": 108,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(100)",
+        "母亲(3)",
+        "学生(2)",
+        "弟子(1)",
+        "老师(1)",
+        "儿子(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣正",
+      "target": "孙珣正",
+      "mentions": 108,
+      "firstChapter": 25,
+      "lastChapter": 534,
+      "markers": [
+        "同章共现(100)",
+        "母亲(3)",
+        "学生(2)",
+        "弟子(1)",
+        "老师(1)",
+        "儿子(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "后来",
+      "mentions": 106,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(92)",
+        "母亲(3)",
+        "学生(2)",
+        "儿子(2)",
+        "父亲(2)",
+        "老师(1)",
+        "妻子(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "后来",
+      "target": "孙珣",
+      "mentions": 106,
+      "firstChapter": 2,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(92)",
+        "母亲(3)",
+        "学生(2)",
+        "儿子(2)",
+        "父亲(2)",
+        "老师(1)",
+        "妻子(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣身",
+      "mentions": 106,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(96)",
+        "兄弟(2)",
+        "儿子(2)",
+        "对手(2)",
         "母亲(1)",
-        "背叛(1)",
+        "弟子(1)",
         "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣身",
+      "mentions": 106,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(96)",
+        "兄弟(2)",
+        "儿子(2)",
+        "对手(2)",
+        "母亲(1)",
+        "弟子(1)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "公孙珣身",
+      "target": "孙珣",
+      "mentions": 106,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(96)",
+        "兄弟(2)",
+        "儿子(2)",
+        "对手(2)",
+        "母亲(1)",
+        "弟子(1)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣身",
+      "mentions": 106,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(96)",
+        "兄弟(2)",
+        "儿子(2)",
+        "对手(2)",
+        "母亲(1)",
+        "弟子(1)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "公孙珣身",
+      "target": "孙珣身",
+      "mentions": 106,
+      "firstChapter": 10,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(96)",
+        "兄弟(2)",
+        "儿子(2)",
+        "对手(2)",
+        "母亲(1)",
+        "弟子(1)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "文琪",
+      "mentions": 103,
+      "firstChapter": 52,
+      "lastChapter": 503,
+      "markers": [
+        "同章共现(94)",
+        "丈夫(2)",
+        "儿子(2)",
+        "学生(1)",
+        "母亲(1)",
+        "老师(1)",
+        "上司(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "文琪",
+      "mentions": 103,
+      "firstChapter": 52,
+      "lastChapter": 503,
+      "markers": [
+        "同章共现(94)",
+        "丈夫(2)",
+        "儿子(2)",
+        "学生(1)",
+        "母亲(1)",
+        "老师(1)",
+        "上司(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "安排",
+      "mentions": 101,
+      "firstChapter": 5,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(84)",
+        "母亲(5)",
+        "老师(3)",
+        "兄弟(3)",
+        "下属(2)",
+        "朋友(1)",
+        "学生(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "安排",
+      "mentions": 101,
+      "firstChapter": 5,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(84)",
+        "母亲(5)",
+        "老师(3)",
+        "兄弟(3)",
+        "下属(2)",
+        "朋友(1)",
+        "学生(1)",
         "儿子(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "公孙珣愈发",
+      "target": "公孙珣愈",
       "mentions": 98,
       "firstChapter": 28,
       "lastChapter": 540,
@@ -1603,58 +4338,471 @@
       ]
     },
     {
-      "source": "袁绍",
-      "target": "许攸",
+      "source": "公孙珣愈",
+      "target": "孙珣",
+      "mentions": 98,
+      "firstChapter": 28,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(94)",
+        "老师(1)",
+        "背叛(1)",
+        "对手(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣愈",
+      "mentions": 97,
+      "firstChapter": 28,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(94)",
+        "老师(1)",
+        "背叛(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣愈",
+      "mentions": 97,
+      "firstChapter": 28,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(94)",
+        "老师(1)",
+        "背叛(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣愈",
+      "target": "孙珣愈",
+      "mentions": 97,
+      "firstChapter": 28,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(94)",
+        "老师(1)",
+        "背叛(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "魏越",
       "mentions": 96,
-      "firstChapter": 49,
+      "firstChapter": 78,
       "lastChapter": 541,
       "markers": [
-        "同章共现(90)",
-        "兄弟(2)",
-        "敌人(1)",
-        "母亲(1)",
+        "同章共现(91)",
+        "母亲(2)",
         "妻子(1)",
+        "命令(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "魏越",
+      "mentions": 96,
+      "firstChapter": 78,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(91)",
+        "母亲(2)",
+        "妻子(1)",
+        "命令(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "安利号",
+      "mentions": 95,
+      "firstChapter": 5,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(70)",
+        "母亲(16)",
+        "妻子(3)",
+        "儿子(2)",
+        "老师(2)",
+        "上司(1)",
+        "对手(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "安利号",
+      "mentions": 95,
+      "firstChapter": 5,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(70)",
+        "母亲(16)",
+        "妻子(3)",
+        "儿子(2)",
+        "老师(2)",
+        "上司(1)",
+        "对手(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "吕布",
+      "mentions": 94,
+      "firstChapter": 81,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(81)",
+        "母亲(3)",
+        "弟子(3)",
+        "儿子(2)",
+        "父亲(1)",
+        "老师(1)",
+        "敌人(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "吕布",
+      "target": "孙珣",
+      "mentions": 94,
+      "firstChapter": 81,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(81)",
+        "母亲(3)",
+        "弟子(3)",
+        "儿子(2)",
+        "父亲(1)",
+        "老师(1)",
+        "敌人(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "许久",
+      "mentions": 90,
+      "firstChapter": 32,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(86)",
+        "妻子(2)",
+        "丈夫(1)",
+        "母亲(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "许久",
+      "mentions": 90,
+      "firstChapter": 32,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(86)",
+        "妻子(2)",
+        "丈夫(1)",
+        "母亲(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "吕范",
+      "target": "文琪",
+      "mentions": 89,
+      "firstChapter": 53,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(86)",
+        "命令(2)",
+        "学生(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "袁本初",
+      "target": "袁绍",
+      "mentions": 87,
+      "firstChapter": 25,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(80)",
+        "兄弟(3)",
+        "母亲(3)",
+        "儿子(1)",
         "命令(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "韩遂",
-      "mentions": 95,
-      "firstChapter": 25,
-      "lastChapter": 467,
+      "target": "尚书台",
+      "mentions": 87,
+      "firstChapter": 73,
+      "lastChapter": 471,
       "markers": [
-        "同章共现(81)",
-        "兄弟(4)",
-        "母亲(3)",
-        "对手(3)",
-        "儿子(2)",
-        "老师(1)",
+        "同章共现(77)",
+        "上司(3)",
+        "学生(3)",
+        "母亲(2)",
         "妻子(1)",
-        "合作(1)"
+        "老师(1)",
+        "父亲(1)",
+        "女儿(1)"
       ]
     },
     {
-      "source": "娄圭",
-      "target": "戏忠",
-      "mentions": 89,
-      "firstChapter": 251,
+      "source": "孙珣",
+      "target": "尚书台",
+      "mentions": 87,
+      "firstChapter": 73,
+      "lastChapter": 471,
+      "markers": [
+        "同章共现(77)",
+        "上司(3)",
+        "学生(3)",
+        "母亲(2)",
+        "妻子(1)",
+        "老师(1)",
+        "父亲(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "关羽",
+      "mentions": 87,
+      "firstChapter": 207,
       "lastChapter": 541,
       "markers": [
-        "同章共现(86)",
-        "妻子(1)",
+        "同章共现(76)",
+        "命令(5)",
+        "兄弟(1)",
         "下属(1)",
+        "学生(1)",
+        "母亲(1)",
+        "对手(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "关羽",
+      "target": "孙珣",
+      "mentions": 87,
+      "firstChapter": 207,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(76)",
+        "命令(5)",
+        "兄弟(1)",
+        "下属(1)",
+        "学生(1)",
+        "母亲(1)",
+        "对手(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "文琪",
+      "target": "曹操",
+      "mentions": 85,
+      "firstChapter": 123,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(77)",
+        "儿子(2)",
+        "兄弟(1)",
+        "丈夫(1)",
+        "父亲(1)",
+        "母亲(1)",
+        "学生(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "白马义",
+      "mentions": 83,
+      "firstChapter": 111,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(77)",
+        "儿子(2)",
+        "下属(1)",
+        "保护(1)",
+        "学生(1)",
+        "弟子(1)",
+        "兄弟(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "白马义",
+      "mentions": 83,
+      "firstChapter": 111,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(77)",
+        "儿子(2)",
+        "下属(1)",
+        "保护(1)",
+        "学生(1)",
+        "弟子(1)",
+        "兄弟(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣无",
+      "mentions": 82,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "markers": [
+        "同章共现(73)",
+        "母亲(3)",
+        "老师(3)",
+        "兄弟(2)",
+        "命令(1)",
+        "父亲(1)",
         "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣无",
+      "mentions": 82,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "markers": [
+        "同章共现(73)",
+        "母亲(3)",
+        "老师(3)",
+        "兄弟(2)",
+        "命令(1)",
+        "父亲(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣无",
+      "target": "孙珣",
+      "mentions": 82,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "markers": [
+        "同章共现(73)",
+        "母亲(3)",
+        "老师(3)",
+        "兄弟(2)",
+        "命令(1)",
+        "父亲(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣无",
+      "mentions": 82,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "markers": [
+        "同章共现(73)",
+        "母亲(3)",
+        "老师(3)",
+        "兄弟(2)",
+        "命令(1)",
+        "父亲(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣无",
+      "target": "孙珣无",
+      "mentions": 82,
+      "firstChapter": 10,
+      "lastChapter": 481,
+      "markers": [
+        "同章共现(73)",
+        "母亲(3)",
+        "老师(3)",
+        "兄弟(2)",
+        "命令(1)",
+        "父亲(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣复",
+      "mentions": 82,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(78)",
+        "母亲(4)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣复",
+      "mentions": 82,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(78)",
+        "母亲(4)"
+      ]
+    },
+    {
+      "source": "公孙珣复",
+      "target": "孙珣",
+      "mentions": 82,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(78)",
+        "母亲(4)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣复",
+      "mentions": 82,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(78)",
+        "母亲(4)"
+      ]
+    },
+    {
+      "source": "公孙珣复",
+      "target": "孙珣复",
+      "mentions": 82,
+      "firstChapter": 43,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(78)",
+        "母亲(4)"
       ]
     },
     {
       "source": "董卓",
       "target": "袁绍",
-      "mentions": 86,
+      "mentions": 81,
       "firstChapter": 88,
       "lastChapter": 541,
       "markers": [
-        "同章共现(79)",
+        "同章共现(74)",
         "儿子(3)",
         "老师(1)",
         "弟子(1)",
@@ -1665,2250 +4813,568 @@
     },
     {
       "source": "公孙珣",
-      "target": "刘宽",
-      "mentions": 82,
-      "firstChapter": 29,
-      "lastChapter": 387,
-      "markers": [
-        "同章共现(61)",
-        "学生(8)",
-        "兄弟(7)",
-        "老师(6)",
-        "弟子(3)",
-        "母亲(3)",
-        "命令(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "阳球",
-      "mentions": 81,
-      "firstChapter": 19,
-      "lastChapter": 305,
-      "markers": [
-        "同章共现(73)",
-        "母亲(3)",
-        "父亲(2)",
-        "学生(1)",
-        "老师(1)",
-        "上司(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣复又",
+      "target": "公孙珣赶",
       "mentions": 80,
-      "firstChapter": 43,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(76)",
-        "母亲(4)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "许攸",
-      "mentions": 79,
-      "firstChapter": 30,
-      "lastChapter": 439,
-      "markers": [
-        "同章共现(71)",
-        "兄弟(3)",
-        "母亲(2)",
-        "弟子(1)",
-        "学生(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "皇甫嵩",
-      "target": "董卓",
-      "mentions": 79,
-      "firstChapter": 252,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(76)",
-        "下属(2)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣缓缓",
-      "mentions": 78,
-      "firstChapter": 50,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(73)",
-        "母亲(2)",
-        "兄弟(1)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "公孙珣缓缓",
-      "target": "缓缓",
-      "mentions": 78,
-      "firstChapter": 50,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(73)",
-        "母亲(2)",
-        "兄弟(1)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "却是",
-      "mentions": 77,
-      "firstChapter": 80,
-      "lastChapter": 529,
-      "markers": [
-        "同章共现(72)",
-        "母亲(2)",
-        "女儿(1)",
-        "妻子(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "天子",
-      "mentions": 75,
-      "firstChapter": 23,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(72)",
-        "父亲(1)",
-        "学生(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "刘宽",
-      "target": "卢植",
-      "mentions": 74,
-      "firstChapter": 29,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(51)",
-        "兄弟(10)",
-        "老师(7)",
-        "弟子(5)",
-        "学生(4)",
-        "命令(1)",
-        "上司(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "董卓",
-      "mentions": 74,
-      "firstChapter": 80,
-      "lastChapter": 537,
-      "markers": [
-        "同章共现(71)",
-        "盟友(1)",
-        "命令(1)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "忍不住",
-      "mentions": 73,
-      "firstChapter": 13,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(62)",
-        "母亲(3)",
-        "父亲(2)",
-        "儿子(2)",
-        "学生(1)",
-        "妻子(1)",
-        "命令(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣再度",
-      "mentions": 72,
-      "firstChapter": 3,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(66)",
-        "母亲(3)",
-        "弟子(2)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "坦然",
-      "mentions": 69,
       "firstChapter": 4,
-      "lastChapter": 513,
+      "lastChapter": 476,
       "markers": [
-        "同章共现(62)",
-        "母亲(3)",
-        "学生(1)",
-        "命令(1)",
-        "兄弟(1)",
-        "敌人(1)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "凛然",
-      "mentions": 67,
-      "firstChapter": 62,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(65)",
-        "老师(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "董卓",
-      "mentions": 65,
-      "firstChapter": 80,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(61)",
-        "下属(2)",
-        "儿子(1)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "讨董",
-      "mentions": 65,
-      "firstChapter": 325,
-      "lastChapter": 534,
-      "markers": [
-        "同章共现(61)",
-        "盟友(1)",
-        "兄弟(1)",
-        "母亲(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "娄子伯",
-      "mentions": 63,
-      "firstChapter": 53,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(62)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "袁绍",
-      "mentions": 60,
-      "firstChapter": 73,
-      "lastChapter": 520,
-      "markers": [
-        "同章共现(57)",
-        "父亲(2)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "张让",
-      "mentions": 60,
-      "firstChapter": 87,
-      "lastChapter": 339,
-      "markers": [
-        "同章共现(54)",
-        "下属(2)",
-        "盟友(1)",
-        "保护(1)",
-        "儿子(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "此人",
-      "mentions": 59,
-      "firstChapter": 34,
-      "lastChapter": 538,
-      "markers": [
-        "同章共现(54)",
-        "儿子(2)",
-        "老师(1)",
-        "母亲(1)",
-        "下属(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "娄圭",
-      "mentions": 59,
-      "firstChapter": 53,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(53)",
-        "丈夫(2)",
-        "兄弟(1)",
-        "妻子(1)",
-        "母亲(1)",
-        "父亲(1)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "勉力",
-      "mentions": 59,
-      "firstChapter": 56,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(54)",
-        "老师(2)",
-        "妻子(1)",
-        "母亲(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "韩当",
-      "mentions": 56,
-      "firstChapter": 3,
-      "lastChapter": 536,
-      "markers": [
-        "同章共现(53)",
-        "母亲(1)",
-        "兄弟(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "此人",
-      "mentions": 56,
-      "firstChapter": 55,
-      "lastChapter": 508,
-      "markers": [
-        "同章共现(54)",
-        "下属(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "荀攸",
-      "mentions": 56,
-      "firstChapter": 249,
-      "lastChapter": 516,
-      "markers": [
-        "同章共现(54)",
-        "兄弟(1)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "方才",
-      "mentions": 55,
-      "firstChapter": 63,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(52)",
-        "母亲(1)",
-        "儿子(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "缓缓",
-      "mentions": 53,
-      "firstChapter": 122,
-      "lastChapter": 537,
-      "markers": [
-        "同章共现(47)",
+        "同章共现(64)",
+        "母亲(8)",
         "儿子(4)",
-        "老师(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣正色",
-      "mentions": 52,
-      "firstChapter": 32,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(46)",
-        "母亲(2)",
-        "学生(1)",
-        "弟子(1)",
-        "老师(1)",
-        "儿子(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "公孙珣正色",
-      "target": "正色",
-      "mentions": 52,
-      "firstChapter": 32,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(46)",
-        "母亲(2)",
-        "学生(1)",
-        "弟子(1)",
-        "老师(1)",
-        "儿子(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣无奈",
-      "mentions": 50,
-      "firstChapter": 25,
-      "lastChapter": 481,
-      "markers": [
-        "同章共现(43)",
         "老师(3)",
-        "兄弟(2)",
-        "母亲(2)",
-        "命令(1)",
-        "学生(1)"
+        "下属(2)",
+        "学生(2)",
+        "上司(1)",
+        "兄弟(1)"
       ]
     },
     {
-      "source": "董卓",
-      "target": "讨董",
-      "mentions": 50,
-      "firstChapter": 339,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(47)",
-        "下属(1)",
-        "母亲(1)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "忍不住",
-      "mentions": 49,
-      "firstChapter": 16,
-      "lastChapter": 529,
-      "markers": [
-        "同章共现(41)",
-        "老师(3)",
-        "对手(2)",
-        "兄弟(1)",
-        "父亲(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "郭缊",
-      "mentions": 47,
-      "firstChapter": 86,
-      "lastChapter": 360,
-      "markers": [
-        "同章共现(45)",
-        "老师(1)",
-        "弟子(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "却又",
-      "mentions": 46,
-      "firstChapter": 117,
-      "lastChapter": 539,
-      "markers": [
-        "同章共现(40)",
-        "儿子(2)",
-        "丈夫(1)",
-        "老师(1)",
-        "学生(1)",
-        "母亲(1)",
-        "下属(1)",
-        "上司(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "天子",
-      "mentions": 46,
-      "firstChapter": 126,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(45)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "忍不住",
-      "mentions": 45,
-      "firstChapter": 53,
-      "lastChapter": 419,
-      "markers": [
-        "同章共现(42)",
-        "敌人(1)",
-        "兄弟(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "孙坚",
-      "mentions": 44,
+      "source": "公孙珣赶",
+      "target": "孙珣",
+      "mentions": 80,
       "firstChapter": 4,
-      "lastChapter": 504,
+      "lastChapter": 476,
       "markers": [
-        "同章共现(40)",
-        "老师(1)",
-        "弟子(1)",
-        "母亲(1)",
-        "下属(1)",
-        "敌人(1)"
+        "同章共现(64)",
+        "母亲(8)",
+        "儿子(4)",
+        "老师(3)",
+        "下属(2)",
+        "学生(2)",
+        "上司(1)",
+        "兄弟(1)"
       ]
     },
     {
-      "source": "天子",
+      "source": "曹操",
       "target": "袁绍",
-      "mentions": 43,
-      "firstChapter": 119,
-      "lastChapter": 529,
+      "mentions": 80,
+      "firstChapter": 25,
+      "lastChapter": 541,
       "markers": [
-        "同章共现(41)",
-        "父亲(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "从容",
-      "target": "却是",
-      "mentions": 41,
-      "firstChapter": 66,
-      "lastChapter": 537,
-      "markers": [
-        "同章共现(40)",
+        "同章共现(71)",
+        "母亲(3)",
+        "儿子(3)",
+        "兄弟(2)",
+        "妻子(1)",
+        "敌人(1)",
         "下属(1)"
       ]
     },
     {
-      "source": "却是",
-      "target": "缓缓",
-      "mentions": 41,
-      "firstChapter": 79,
-      "lastChapter": 525,
+      "source": "公孙珣",
+      "target": "文书",
+      "mentions": 80,
+      "firstChapter": 38,
+      "lastChapter": 541,
       "markers": [
-        "同章共现(41)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "阳球",
-      "mentions": 41,
-      "firstChapter": 112,
-      "lastChapter": 454,
-      "markers": [
-        "同章共现(38)",
-        "下属(1)",
+        "同章共现(76)",
+        "老师(1)",
+        "妻子(1)",
+        "上司(1)",
         "父亲(1)",
-        "妻子(1)"
+        "儿子(1)"
       ]
     },
     {
-      "source": "忍不住",
-      "target": "韩当",
-      "mentions": 40,
+      "source": "孙珣",
+      "target": "文书",
+      "mentions": 80,
+      "firstChapter": 38,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(76)",
+        "老师(1)",
+        "妻子(1)",
+        "上司(1)",
+        "父亲(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣赶",
+      "mentions": 79,
+      "firstChapter": 4,
+      "lastChapter": 476,
+      "markers": [
+        "同章共现(63)",
+        "母亲(8)",
+        "儿子(4)",
+        "老师(3)",
+        "下属(2)",
+        "学生(2)",
+        "上司(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣赶",
+      "mentions": 79,
+      "firstChapter": 4,
+      "lastChapter": 476,
+      "markers": [
+        "同章共现(63)",
+        "母亲(8)",
+        "儿子(4)",
+        "老师(3)",
+        "下属(2)",
+        "学生(2)",
+        "上司(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "公孙珣赶",
+      "target": "孙珣赶",
+      "mentions": 79,
+      "firstChapter": 4,
+      "lastChapter": 476,
+      "markers": [
+        "同章共现(63)",
+        "母亲(8)",
+        "儿子(4)",
+        "老师(3)",
+        "下属(2)",
+        "学生(2)",
+        "上司(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣听",
+      "mentions": 79,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(70)",
+        "母亲(4)",
+        "下属(1)",
+        "丈夫(1)",
+        "女儿(1)",
+        "对手(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "公孙珣听",
+      "target": "孙珣",
+      "mentions": 79,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(70)",
+        "母亲(4)",
+        "下属(1)",
+        "丈夫(1)",
+        "女儿(1)",
+        "对手(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣听",
+      "mentions": 78,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(69)",
+        "母亲(4)",
+        "下属(1)",
+        "丈夫(1)",
+        "女儿(1)",
+        "对手(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣听",
+      "mentions": 78,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(69)",
+        "母亲(4)",
+        "下属(1)",
+        "丈夫(1)",
+        "女儿(1)",
+        "对手(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "公孙珣听",
+      "target": "孙珣听",
+      "mentions": 78,
+      "firstChapter": 4,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(69)",
+        "母亲(4)",
+        "下属(1)",
+        "丈夫(1)",
+        "女儿(1)",
+        "对手(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "燕书",
+      "target": "祖武皇",
+      "mentions": 78,
+      "firstChapter": 8,
+      "lastChapter": 541,
+      "markers": [
+        "同章共现(70)",
+        "丈夫(4)",
+        "兄弟(2)",
+        "妻子(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣缓",
+      "mentions": 78,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(73)",
+        "母亲(2)",
+        "兄弟(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣缓",
+      "mentions": 78,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(73)",
+        "母亲(2)",
+        "兄弟(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣缓",
+      "target": "孙珣",
+      "mentions": 78,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(73)",
+        "母亲(2)",
+        "兄弟(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣缓",
+      "mentions": 78,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(73)",
+        "母亲(2)",
+        "兄弟(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "公孙珣缓",
+      "target": "孙珣缓",
+      "mentions": 78,
+      "firstChapter": 50,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(73)",
+        "母亲(2)",
+        "兄弟(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "毕竟",
+      "target": "毕竟嘛",
+      "mentions": 77,
       "firstChapter": 6,
       "lastChapter": 536,
       "markers": [
-        "同章共现(38)",
-        "老师(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "却是",
-      "mentions": 40,
-      "firstChapter": 57,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(39)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "娄圭",
-      "mentions": 39,
-      "firstChapter": 98,
-      "lastChapter": 380,
-      "markers": [
-        "同章共现(37)",
-        "上司(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "忍不住",
-      "target": "插嘴",
-      "mentions": 38,
-      "firstChapter": 104,
-      "lastChapter": 499,
-      "markers": [
-        "同章共现(34)",
-        "父亲(1)",
-        "儿子(1)",
-        "兄弟(1)",
-        "师尊(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "天子",
-      "mentions": 37,
-      "firstChapter": 118,
-      "lastChapter": 538,
-      "markers": [
-        "同章共现(34)",
+        "同章共现(66)",
+        "兄弟(5)",
+        "保护(1)",
+        "合作(1)",
+        "下属(1)",
+        "妻子(1)",
         "学生(1)",
-        "下属(1)",
-        "儿子(1)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "戏忠",
-      "target": "韩当",
-      "mentions": 37,
-      "firstChapter": 255,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(35)",
-        "下属(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "吕范",
-      "mentions": 36,
-      "firstChapter": 38,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(31)",
-        "儿子(2)",
-        "母亲(1)",
-        "下属(1)",
-        "父亲(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "董卓",
-      "mentions": 36,
-      "firstChapter": 80,
-      "lastChapter": 520,
-      "markers": [
-        "同章共现(34)",
-        "儿子(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "孙坚",
-      "mentions": 35,
-      "firstChapter": 88,
-      "lastChapter": 539,
-      "markers": [
-        "同章共现(33)",
-        "命令(1)",
-        "儿子(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "缓缓",
-      "mentions": 35,
-      "firstChapter": 135,
-      "lastChapter": 523,
-      "markers": [
-        "同章共现(34)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣立即",
-      "mentions": 34,
-      "firstChapter": 20,
-      "lastChapter": 504,
-      "markers": [
-        "同章共现(30)",
-        "妻子(2)",
-        "学生(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "许攸",
-      "mentions": 34,
-      "firstChapter": 30,
-      "lastChapter": 439,
-      "markers": [
-        "同章共现(32)",
-        "兄弟(1)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "娄子伯",
-      "mentions": 34,
-      "firstChapter": 53,
-      "lastChapter": 514,
-      "markers": [
-        "同章共现(33)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "赵芸",
-      "mentions": 34,
-      "firstChapter": 93,
-      "lastChapter": 521,
-      "markers": [
-        "同章共现(19)",
-        "妻子(9)",
-        "母亲(5)",
-        "老师(2)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "此人",
-      "mentions": 34,
-      "firstChapter": 99,
-      "lastChapter": 522,
-      "markers": [
-        "同章共现(33)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "司马直",
-      "mentions": 33,
-      "firstChapter": 273,
-      "lastChapter": 318,
-      "markers": [
-        "同章共现(30)",
-        "学生(2)",
-        "丈夫(1)"
-      ]
-    },
-    {
-      "source": "袁绍",
-      "target": "讨董",
-      "mentions": 33,
-      "firstChapter": 339,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(31)",
-        "盟友(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "董卓",
-      "target": "贾诩",
-      "mentions": 32,
-      "firstChapter": 309,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(30)",
-        "敌人(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "荀攸",
-      "target": "贾诩",
-      "mentions": 32,
-      "firstChapter": 338,
-      "lastChapter": 528,
-      "markers": [
-        "同章共现(31)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣低头",
-      "mentions": 31,
-      "firstChapter": 11,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(25)",
-        "母亲(5)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣干脆",
-      "mentions": 31,
-      "firstChapter": 38,
-      "lastChapter": 529,
-      "markers": [
-        "同章共现(26)",
-        "兄弟(3)",
-        "父亲(1)",
-        "下属(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "袁绍",
-      "mentions": 31,
-      "firstChapter": 115,
-      "lastChapter": 520,
-      "markers": [
-        "同章共现(30)",
-        "父亲(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "吕范",
-      "target": "戏忠",
-      "mentions": 31,
-      "firstChapter": 255,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(29)",
-        "命令(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "此人",
-      "target": "韩当",
-      "mentions": 30,
-      "firstChapter": 2,
-      "lastChapter": 537,
-      "markers": [
-        "同章共现(30)"
-      ]
-    },
-    {
-      "source": "此人",
-      "target": "董卓",
-      "mentions": 30,
-      "firstChapter": 80,
-      "lastChapter": 497,
-      "markers": [
-        "同章共现(26)",
-        "上司(1)",
-        "敌人(1)",
-        "女儿(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣轻",
-      "mentions": 30,
-      "firstChapter": 107,
-      "lastChapter": 449,
-      "markers": [
-        "同章共现(27)",
-        "老师(1)",
-        "兄弟(1)",
-        "母亲(1)",
-        "背叛(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "方才",
-      "mentions": 30,
-      "firstChapter": 146,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(27)",
-        "丈夫(1)",
-        "父亲(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣忍不住",
-      "mentions": 29,
-      "firstChapter": 3,
-      "lastChapter": 504,
-      "markers": [
-        "同章共现(27)",
-        "兄弟(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣忍不住",
-      "target": "忍不住",
-      "mentions": 29,
-      "firstChapter": 3,
-      "lastChapter": 504,
-      "markers": [
-        "同章共现(27)",
-        "兄弟(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣坦然",
-      "mentions": 29,
-      "firstChapter": 4,
-      "lastChapter": 452,
-      "markers": [
-        "同章共现(28)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣坦然",
-      "target": "坦然",
-      "mentions": 29,
-      "firstChapter": 4,
-      "lastChapter": 452,
-      "markers": [
-        "同章共现(28)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "董卓",
-      "mentions": 29,
-      "firstChapter": 80,
-      "lastChapter": 520,
-      "markers": [
-        "同章共现(27)",
-        "女儿(1)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "贾诩",
-      "mentions": 29,
-      "firstChapter": 308,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(28)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "吕范",
-      "mentions": 28,
-      "firstChapter": 37,
-      "lastChapter": 534,
-      "markers": [
-        "同章共现(27)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣失笑",
-      "mentions": 28,
-      "firstChapter": 38,
-      "lastChapter": 514,
-      "markers": [
-        "同章共现(27)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "孙坚",
-      "target": "董卓",
-      "mentions": 28,
-      "firstChapter": 88,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(26)",
-        "老师(1)",
-        "弟子(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "忍不住",
-      "target": "此人",
-      "mentions": 27,
-      "firstChapter": 20,
-      "lastChapter": 485,
-      "markers": [
-        "同章共现(25)",
-        "老师(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "许攸",
-      "mentions": 27,
-      "firstChapter": 33,
-      "lastChapter": 435,
-      "markers": [
-        "同章共现(25)",
-        "弟子(1)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "公孙珣闻言",
-      "mentions": 27,
-      "firstChapter": 76,
-      "lastChapter": 481,
-      "markers": [
-        "同章共现(25)",
-        "儿子(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "张让",
-      "mentions": 27,
-      "firstChapter": 118,
-      "lastChapter": 385,
-      "markers": [
-        "同章共现(26)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "吕范",
-      "target": "此人",
-      "mentions": 26,
-      "firstChapter": 35,
-      "lastChapter": 452,
-      "markers": [
-        "同章共现(23)",
-        "老师(2)",
-        "弟子(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "从容",
-      "target": "此人",
-      "mentions": 26,
-      "firstChapter": 41,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(26)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "韩当",
-      "mentions": 26,
-      "firstChapter": 53,
-      "lastChapter": 534,
-      "markers": [
-        "同章共现(26)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "娄圭",
-      "mentions": 26,
-      "firstChapter": 54,
-      "lastChapter": 433,
-      "markers": [
-        "同章共现(25)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "正色",
-      "mentions": 26,
-      "firstChapter": 106,
-      "lastChapter": 517,
-      "markers": [
-        "同章共现(25)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "方才",
-      "mentions": 26,
-      "firstChapter": 114,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(25)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "此人",
-      "target": "袁绍",
-      "mentions": 26,
-      "firstChapter": 115,
-      "lastChapter": 482,
-      "markers": [
-        "同章共现(24)",
-        "下属(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "缓缓",
-      "mentions": 26,
-      "firstChapter": 176,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(24)",
-        "学生(1)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "皇甫嵩",
-      "mentions": 26,
-      "firstChapter": 215,
-      "lastChapter": 482,
-      "markers": [
-        "同章共现(25)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "公孙大娘",
-      "target": "却是",
-      "mentions": 25,
-      "firstChapter": 10,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(18)",
-        "儿子(5)",
-        "下属(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣负手",
-      "mentions": 25,
-      "firstChapter": 37,
-      "lastChapter": 467,
-      "markers": [
-        "同章共现(25)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "许攸",
-      "mentions": 25,
-      "firstChapter": 114,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(21)",
-        "丈夫(2)",
-        "儿子(1)",
         "上司(1)"
       ]
     },
     {
-      "source": "却是",
-      "target": "郭嘉",
-      "mentions": 25,
-      "firstChapter": 249,
-      "lastChapter": 523,
+      "source": "卫将军",
+      "target": "董卓",
+      "mentions": 77,
+      "firstChapter": 294,
+      "lastChapter": 541,
       "markers": [
-        "同章共现(22)",
-        "对手(1)",
-        "下属(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "张颌",
-      "mentions": 25,
-      "firstChapter": 261,
-      "lastChapter": 492,
-      "markers": [
-        "同章共现(23)",
+        "同章共现(74)",
         "母亲(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "吕范",
-      "target": "忍不住",
-      "mentions": 24,
-      "firstChapter": 35,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(23)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "吕范",
-      "mentions": 24,
-      "firstChapter": 36,
-      "lastChapter": 438,
-      "markers": [
-        "同章共现(23)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣不禁",
-      "mentions": 24,
-      "firstChapter": 53,
-      "lastChapter": 469,
-      "markers": [
-        "同章共现(22)",
-        "学生(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣凛然",
-      "mentions": 24,
-      "firstChapter": 62,
-      "lastChapter": 476,
-      "markers": [
-        "同章共现(23)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣凛然",
-      "target": "凛然",
-      "mentions": 24,
-      "firstChapter": 62,
-      "lastChapter": 476,
-      "markers": [
-        "同章共现(23)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣仰头",
-      "mentions": 24,
-      "firstChapter": 82,
-      "lastChapter": 391,
-      "markers": [
-        "同章共现(24)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "正色",
-      "mentions": 24,
-      "firstChapter": 101,
-      "lastChapter": 535,
-      "markers": [
-        "同章共现(22)",
-        "命令(1)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "从容",
-      "target": "方才",
-      "mentions": 24,
-      "firstChapter": 111,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(24)"
-      ]
-    },
-    {
-      "source": "勉力",
-      "target": "方才",
-      "mentions": 24,
-      "firstChapter": 127,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(22)",
-        "丈夫(1)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "戏忠",
-      "mentions": 24,
-      "firstChapter": 249,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(24)"
-      ]
-    },
-    {
-      "source": "戏忠",
-      "target": "贾诩",
-      "mentions": 24,
-      "firstChapter": 307,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(23)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣回头",
-      "mentions": 23,
-      "firstChapter": 23,
-      "lastChapter": 485,
-      "markers": [
-        "同章共现(19)",
-        "父亲(1)",
-        "女儿(1)",
-        "老师(1)",
-        "命令(1)",
-        "妻子(1)"
-      ]
-    },
-    {
-      "source": "缓缓",
-      "target": "袁绍",
-      "mentions": 23,
-      "firstChapter": 50,
-      "lastChapter": 435,
-      "markers": [
-        "同章共现(21)",
-        "兄弟(2)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "此人",
-      "mentions": 23,
-      "firstChapter": 54,
-      "lastChapter": 323,
-      "markers": [
-        "同章共现(21)",
-        "兄弟(1)",
-        "老师(1)",
-        "学生(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "此人",
-      "mentions": 23,
-      "firstChapter": 87,
-      "lastChapter": 518,
-      "markers": [
-        "同章共现(22)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "孙坚",
-      "target": "袁绍",
-      "mentions": 23,
-      "firstChapter": 88,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(20)",
-        "老师(1)",
-        "弟子(1)",
-        "妻子(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣如此",
-      "mentions": 23,
-      "firstChapter": 93,
-      "lastChapter": 521,
-      "markers": [
-        "同章共现(22)",
+        "下属(1)",
         "女儿(1)"
       ]
     },
     {
-      "source": "从容",
-      "target": "天子",
-      "mentions": 23,
-      "firstChapter": 111,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(20)",
-        "老师(1)",
-        "兄弟(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "戏忠",
-      "mentions": 23,
-      "firstChapter": 258,
-      "lastChapter": 481,
-      "markers": [
-        "同章共现(23)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "韩当",
-      "mentions": 22,
-      "firstChapter": 3,
-      "lastChapter": 333,
-      "markers": [
-        "同章共现(21)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙大娘",
-      "target": "韩当",
-      "mentions": 22,
-      "firstChapter": 4,
-      "lastChapter": 393,
-      "markers": [
-        "同章共现(18)",
-        "儿子(2)",
-        "母亲(2)"
-      ]
-    },
-    {
       "source": "公孙珣",
-      "target": "公孙珣蹙眉",
-      "mentions": 22,
-      "firstChapter": 21,
-      "lastChapter": 492,
+      "target": "公孙珣连",
+      "mentions": 76,
+      "firstChapter": 9,
+      "lastChapter": 540,
       "markers": [
-        "同章共现(20)",
-        "母亲(2)"
-      ]
-    },
-    {
-      "source": "刘宽",
-      "target": "天子",
-      "mentions": 22,
-      "firstChapter": 107,
-      "lastChapter": 309,
-      "markers": [
-        "同章共现(17)",
-        "学生(3)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "皇甫嵩",
-      "mentions": 22,
-      "firstChapter": 229,
-      "lastChapter": 388,
-      "markers": [
-        "同章共现(20)",
-        "儿子(1)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "正色",
-      "mentions": 21,
-      "firstChapter": 13,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(20)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "郭嘉",
-      "mentions": 21,
-      "firstChapter": 36,
-      "lastChapter": 529,
-      "markers": [
-        "同章共现(18)",
-        "学生(2)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣认真",
-      "mentions": 21,
-      "firstChapter": 40,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(19)",
-        "母亲(1)",
-        "敌人(1)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "缓缓",
-      "mentions": 21,
-      "firstChapter": 59,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(21)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "孙坚",
-      "mentions": 21,
-      "firstChapter": 123,
-      "lastChapter": 539,
-      "markers": [
-        "同章共现(20)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "袁绍",
-      "mentions": 21,
-      "firstChapter": 343,
-      "lastChapter": 426,
-      "markers": [
-        "同章共现(20)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣昂然",
-      "mentions": 20,
-      "firstChapter": 22,
-      "lastChapter": 439,
-      "markers": [
-        "同章共现(20)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "正色",
-      "mentions": 20,
-      "firstChapter": 58,
-      "lastChapter": 486,
-      "markers": [
-        "同章共现(19)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "正色",
-      "mentions": 20,
-      "firstChapter": 75,
-      "lastChapter": 515,
-      "markers": [
-        "同章共现(19)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "吕范",
-      "target": "天子",
-      "mentions": 20,
-      "firstChapter": 87,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(20)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "正色",
-      "mentions": 20,
-      "firstChapter": 107,
-      "lastChapter": 505,
-      "markers": [
-        "同章共现(17)",
+        "同章共现(64)",
+        "母亲(5)",
+        "兄弟(2)",
+        "女儿(2)",
+        "弟子(1)",
         "老师(1)",
         "保护(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "袁逢",
-      "mentions": 20,
-      "firstChapter": 114,
-      "lastChapter": 518,
-      "markers": [
-        "同章共现(18)",
-        "儿子(2)"
-      ]
-    },
-    {
-      "source": "董卓",
-      "target": "韩遂",
-      "mentions": 20,
-      "firstChapter": 293,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(16)",
-        "命令(2)",
-        "合作(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "方才",
-      "mentions": 19,
-      "firstChapter": 54,
-      "lastChapter": 301,
-      "markers": [
-        "同章共现(18)",
-        "兄弟(1)"
+        "儿子(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "袁逢",
-      "mentions": 19,
-      "firstChapter": 108,
-      "lastChapter": 530,
+      "target": "孙珣连",
+      "mentions": 76,
+      "firstChapter": 9,
+      "lastChapter": 540,
       "markers": [
-        "同章共现(19)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "插嘴",
-      "mentions": 19,
-      "firstChapter": 112,
-      "lastChapter": 533,
-      "markers": [
-        "同章共现(18)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "许攸",
-      "mentions": 19,
-      "firstChapter": 114,
-      "lastChapter": 439,
-      "markers": [
-        "同章共现(17)",
-        "兄弟(1)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "阎忠",
-      "mentions": 19,
-      "firstChapter": 247,
-      "lastChapter": 316,
-      "markers": [
-        "同章共现(19)"
-      ]
-    },
-    {
-      "source": "从容",
-      "target": "袁绍",
-      "mentions": 19,
-      "firstChapter": 336,
-      "lastChapter": 473,
-      "markers": [
-        "同章共现(19)"
-      ]
-    },
-    {
-      "source": "勉力",
-      "target": "袁绍",
-      "mentions": 18,
-      "firstChapter": 50,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(15)",
+        "同章共现(64)",
+        "母亲(5)",
         "兄弟(2)",
-        "父亲(1)"
-      ]
-    },
-    {
-      "source": "董卓",
-      "target": "郭缊",
-      "mentions": 18,
-      "firstChapter": 88,
-      "lastChapter": 352,
-      "markers": [
-        "同章共现(17)",
-        "老师(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "阳球",
-      "mentions": 18,
-      "firstChapter": 110,
-      "lastChapter": 139,
-      "markers": [
-        "同章共现(16)",
-        "兄弟(1)",
-        "丈夫(1)"
-      ]
-    },
-    {
-      "source": "从容",
-      "target": "却又",
-      "mentions": 18,
-      "firstChapter": 220,
-      "lastChapter": 539,
-      "markers": [
-        "同章共现(18)"
-      ]
-    },
-    {
-      "source": "戏忠",
-      "target": "荀攸",
-      "mentions": 18,
-      "firstChapter": 249,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(17)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "戏忠",
-      "mentions": 18,
-      "firstChapter": 276,
-      "lastChapter": 529,
-      "markers": [
-        "同章共现(17)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "荀攸",
-      "mentions": 18,
-      "firstChapter": 387,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(17)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "公孙珣",
-      "target": "公孙珣幽幽",
-      "mentions": 17,
-      "firstChapter": 4,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(16)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "韩遂",
-      "mentions": 17,
-      "firstChapter": 48,
-      "lastChapter": 467,
-      "markers": [
-        "同章共现(15)",
-        "老师(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "卢植",
-      "target": "董卓",
-      "mentions": 17,
-      "firstChapter": 99,
-      "lastChapter": 385,
-      "markers": [
-        "同章共现(17)"
-      ]
-    },
-    {
-      "source": "皇甫嵩",
-      "target": "阎忠",
-      "mentions": 17,
-      "firstChapter": 247,
-      "lastChapter": 465,
-      "markers": [
-        "同章共现(17)"
-      ]
-    },
-    {
-      "source": "正色",
-      "target": "贾诩",
-      "mentions": 17,
-      "firstChapter": 307,
-      "lastChapter": 530,
-      "markers": [
-        "同章共现(17)"
-      ]
-    },
-    {
-      "source": "却又",
-      "target": "郭嘉",
-      "mentions": 17,
-      "firstChapter": 402,
-      "lastChapter": 523,
-      "markers": [
-        "同章共现(17)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "卢植",
-      "mentions": 16,
-      "firstChapter": 29,
-      "lastChapter": 436,
-      "markers": [
-        "同章共现(11)",
-        "老师(2)",
-        "学生(2)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "吕范",
-      "target": "许攸",
-      "mentions": 16,
-      "firstChapter": 43,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(16)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "忍不住",
-      "mentions": 16,
-      "firstChapter": 111,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(15)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "勉力",
-      "target": "天子",
-      "mentions": 16,
-      "firstChapter": 116,
-      "lastChapter": 531,
-      "markers": [
-        "同章共现(14)",
-        "老师(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "忍不住",
-      "target": "戏忠",
-      "mentions": 16,
-      "firstChapter": 255,
-      "lastChapter": 529,
-      "markers": [
-        "同章共现(16)"
-      ]
-    },
-    {
-      "source": "缓缓",
-      "target": "董卓",
-      "mentions": 16,
-      "firstChapter": 264,
-      "lastChapter": 537,
-      "markers": [
-        "同章共现(16)"
-      ]
-    },
-    {
-      "source": "从容",
-      "target": "董卓",
-      "mentions": 16,
-      "firstChapter": 265,
-      "lastChapter": 478,
-      "markers": [
-        "同章共现(16)"
-      ]
-    },
-    {
-      "source": "天子",
-      "target": "讨董",
-      "mentions": 16,
-      "firstChapter": 343,
-      "lastChapter": 469,
-      "markers": [
-        "同章共现(16)"
-      ]
-    },
-    {
-      "source": "公孙珣闻言",
-      "target": "却是",
-      "mentions": 15,
-      "firstChapter": 4,
-      "lastChapter": 363,
-      "markers": [
-        "同章共现(13)",
+        "女儿(2)",
         "弟子(1)",
-        "兄弟(1)",
-        "学生(1)"
+        "老师(1)",
+        "保护(1)",
+        "儿子(1)"
       ]
     },
     {
-      "source": "公孙大娘",
-      "target": "却又",
-      "mentions": 15,
-      "firstChapter": 10,
+      "source": "公孙珣连",
+      "target": "孙珣",
+      "mentions": 76,
+      "firstChapter": 9,
       "lastChapter": 540,
       "markers": [
-        "同章共现(12)",
-        "儿子(2)",
-        "母亲(1)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "良久方才",
-      "mentions": 15,
-      "firstChapter": 38,
-      "lastChapter": 229,
-      "markers": [
-        "同章共现(14)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "卢植",
-      "target": "却是",
-      "mentions": 15,
-      "firstChapter": 40,
-      "lastChapter": 436,
-      "markers": [
-        "同章共现(12)",
-        "母亲(2)",
+        "同章共现(64)",
+        "母亲(5)",
+        "兄弟(2)",
+        "女儿(2)",
+        "弟子(1)",
         "老师(1)",
-        "妻子(1)"
+        "保护(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣连",
+      "mentions": 76,
+      "firstChapter": 9,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(64)",
+        "母亲(5)",
+        "兄弟(2)",
+        "女儿(2)",
+        "弟子(1)",
+        "老师(1)",
+        "保护(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣连",
+      "target": "孙珣连",
+      "mentions": 76,
+      "firstChapter": 9,
+      "lastChapter": 540,
+      "markers": [
+        "同章共现(64)",
+        "母亲(5)",
+        "兄弟(2)",
+        "女儿(2)",
+        "弟子(1)",
+        "老师(1)",
+        "保护(1)",
+        "儿子(1)"
       ]
     },
     {
       "source": "公孙珣",
-      "target": "公孙珣坦诚",
-      "mentions": 15,
-      "firstChapter": 40,
-      "lastChapter": 476,
+      "target": "公孙珣立",
+      "mentions": 70,
+      "firstChapter": 20,
+      "lastChapter": 504,
       "markers": [
-        "同章共现(15)"
-      ]
-    },
-    {
-      "source": "吕范",
-      "target": "袁绍",
-      "mentions": 15,
-      "firstChapter": 50,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(14)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "正色",
-      "target": "袁绍",
-      "mentions": 15,
-      "firstChapter": 50,
-      "lastChapter": 435,
-      "markers": [
-        "同章共现(14)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "忍不住",
-      "target": "袁绍",
-      "mentions": 15,
-      "firstChapter": 73,
-      "lastChapter": 482,
-      "markers": [
-        "同章共现(12)",
-        "父亲(2)",
-        "对手(1)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "董卓",
-      "mentions": 15,
-      "firstChapter": 80,
-      "lastChapter": 514,
-      "markers": [
-        "同章共现(14)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "正色",
-      "target": "董卓",
-      "mentions": 15,
-      "firstChapter": 80,
-      "lastChapter": 514,
-      "markers": [
-        "同章共现(14)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "卢植",
-      "target": "天子",
-      "mentions": 15,
-      "firstChapter": 116,
-      "lastChapter": 337,
-      "markers": [
-        "同章共现(14)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "袁绍",
-      "target": "贾诩",
-      "mentions": 15,
-      "firstChapter": 338,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(15)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "讨董",
-      "mentions": 15,
-      "firstChapter": 341,
-      "lastChapter": 429,
-      "markers": [
-        "同章共现(15)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "此人",
-      "mentions": 14,
-      "firstChapter": 7,
-      "lastChapter": 540,
-      "markers": [
-        "同章共现(14)"
-      ]
-    },
-    {
-      "source": "卢植",
-      "target": "却又",
-      "mentions": 14,
-      "firstChapter": 34,
-      "lastChapter": 437,
-      "markers": [
-        "同章共现(11)",
-        "父亲(1)",
+        "同章共现(63)",
+        "母亲(4)",
+        "妻子(2)",
         "学生(1)",
         "儿子(1)"
       ]
     },
     {
-      "source": "卢植",
-      "target": "吕范",
-      "mentions": 14,
-      "firstChapter": 36,
+      "source": "公孙珣立",
+      "target": "孙珣",
+      "mentions": 70,
+      "firstChapter": 20,
+      "lastChapter": 504,
+      "markers": [
+        "同章共现(63)",
+        "母亲(4)",
+        "妻子(2)",
+        "学生(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "郎将",
+      "mentions": 70,
+      "firstChapter": 74,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(65)",
+        "上司(1)",
+        "兄弟(1)",
+        "合作(1)",
+        "下属(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "郎将",
+      "mentions": 70,
+      "firstChapter": 74,
+      "lastChapter": 527,
+      "markers": [
+        "同章共现(65)",
+        "上司(1)",
+        "兄弟(1)",
+        "合作(1)",
+        "下属(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "孙珣立",
+      "mentions": 69,
+      "firstChapter": 20,
+      "lastChapter": 504,
+      "markers": [
+        "同章共现(62)",
+        "母亲(4)",
+        "妻子(2)",
+        "学生(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "孙珣",
+      "target": "孙珣立",
+      "mentions": 69,
+      "firstChapter": 20,
+      "lastChapter": 504,
+      "markers": [
+        "同章共现(62)",
+        "母亲(4)",
+        "妻子(2)",
+        "学生(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "公孙珣立",
+      "target": "孙珣立",
+      "mentions": 69,
+      "firstChapter": 20,
+      "lastChapter": 504,
+      "markers": [
+        "同章共现(62)",
+        "母亲(4)",
+        "妻子(2)",
+        "学生(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "何处",
+      "target": "公孙珣",
+      "mentions": 69,
+      "firstChapter": 24,
+      "lastChapter": 530,
+      "markers": [
+        "同章共现(67)",
+        "母亲(2)"
+      ]
+    },
+    {
+      "source": "何处",
+      "target": "孙珣",
+      "mentions": 69,
+      "firstChapter": 24,
+      "lastChapter": 530,
+      "markers": [
+        "同章共现(67)",
+        "母亲(2)"
+      ]
+    },
+    {
+      "source": "公孙珣",
+      "target": "公孙珣本",
+      "mentions": 69,
+      "firstChapter": 58,
       "lastChapter": 541,
       "markers": [
-        "同章共现(12)",
-        "弟子(2)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "韩遂",
-      "mentions": 14,
-      "firstChapter": 50,
-      "lastChapter": 524,
-      "markers": [
-        "同章共现(13)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "娄子伯",
-      "mentions": 14,
-      "firstChapter": 53,
-      "lastChapter": 350,
-      "markers": [
-        "同章共现(13)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "此人",
-      "target": "阳球",
-      "mentions": 14,
-      "firstChapter": 72,
-      "lastChapter": 142,
-      "markers": [
-        "同章共现(11)",
+        "同章共现(59)",
+        "兄弟(2)",
         "母亲(2)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "郭缊",
-      "mentions": 14,
-      "firstChapter": 88,
-      "lastChapter": 360,
-      "markers": [
-        "同章共现(14)"
-      ]
-    },
-    {
-      "source": "娄圭",
-      "target": "董卓",
-      "mentions": 14,
-      "firstChapter": 89,
-      "lastChapter": 541,
-      "markers": [
-        "同章共现(13)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "不由",
-      "target": "公孙大娘",
-      "mentions": 14,
-      "firstChapter": 101,
-      "lastChapter": 392,
-      "markers": [
-        "同章共现(11)",
-        "儿子(2)",
-        "母亲(1)"
-      ]
-    },
-    {
-      "source": "却是",
-      "target": "阳球",
-      "mentions": 14,
-      "firstChapter": 112,
-      "lastChapter": 176,
-      "markers": [
-        "同章共现(11)",
         "老师(1)",
-        "丈夫(1)",
         "妻子(1)",
-        "下属(1)"
+        "合作(1)",
+        "敌人(1)",
+        "父亲(1)"
       ]
     },
     {
-      "source": "从容",
-      "target": "缓缓",
-      "mentions": 14,
-      "firstChapter": 199,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(13)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "戏忠",
-      "target": "正色",
-      "mentions": 14,
-      "firstChapter": 290,
-      "lastChapter": 474,
-      "markers": [
-        "同章共现(14)"
-      ]
-    },
-    {
-      "source": "孙坚",
-      "target": "讨董",
-      "mentions": 14,
-      "firstChapter": 344,
+      "source": "公孙珣本",
+      "target": "孙珣",
+      "mentions": 69,
+      "firstChapter": 58,
       "lastChapter": 541,
       "markers": [
-        "同章共现(13)",
-        "下属(1)"
-      ]
-    },
-    {
-      "source": "方才",
-      "target": "郭嘉",
-      "mentions": 14,
-      "firstChapter": 459,
-      "lastChapter": 523,
-      "markers": [
-        "同章共现(13)",
-        "兄弟(1)"
+        "同章共现(59)",
+        "兄弟(2)",
+        "母亲(2)",
+        "老师(1)",
+        "妻子(1)",
+        "合作(1)",
+        "敌人(1)",
+        "父亲(1)"
       ]
     }
   ],
@@ -6528,13 +7994,42 @@
       ]
     }
   ],
+  "events": [],
   "chunkSummaries": [
     {
       "chunk": 1,
       "range": "第 1-20 章",
       "characters": [
+        "卢龙塞",
+        "公孙大娘",
+        "孙大娘",
+        "公孙瓒",
+        "孙瓒",
+        "侯太守",
+        "韩当韩",
+        "乐善好",
+        "公孙珣怎",
+        "公孙伯圭",
         "公孙珣",
-        "公孙珣坦然"
+        "燕山山",
+        "卢龙楼",
+        "孙珣怎",
+        "孙伯圭",
+        "安利号",
+        "孙珣",
+        "卢植学",
+        "韩义公",
+        "江东猛",
+        "韩当",
+        "田队率",
+        "韩当闻",
+        "史大人",
+        "连连摇",
+        "公孙长史",
+        "公孙越",
+        "公孙昭",
+        "公孙珣在",
+        "公孙主计"
       ],
       "organizations": [
         "怎么会",
@@ -6555,20 +8050,43 @@
       ],
       "systems": [
         "新书期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 2,
       "range": "第 21-40 章",
       "characters": [
+        "崔县君",
+        "公孙大娘",
+        "孙大娘",
+        "马老公",
         "公孙珣",
-        "许攸",
-        "公孙珣坦然",
-        "金大姨",
-        "公孙珣幽幽",
+        "孙珣",
+        "贾超",
         "韩当",
-        "吕范",
-        "公孙珣低头"
+        "燕书",
+        "公孙珣忽",
+        "孙珣忽",
+        "公孙珣自",
+        "石大员",
+        "孙珣自",
+        "毕竟嘛",
+        "公孙珣心",
+        "孙珣心",
+        "贾平",
+        "后来",
+        "公孙珣赶",
+        "孙珣赶",
+        "公孙珣面",
+        "公孙珣低",
+        "孙珣面",
+        "孙珣低",
+        "祖武皇",
+        "韩当在",
+        "党锢之",
+        "方面",
+        "公孙珣有"
       ],
       "organizations": [
         "诸位同门",
@@ -6591,24 +8109,43 @@
       ],
       "systems": [
         "新书期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 3,
       "range": "第 41-60 章",
       "characters": [
         "公孙珣",
-        "许攸",
-        "吕范",
-        "韩当",
+        "孙珣",
+        "公孙越",
+        "孙越",
+        "车子",
+        "连连摇",
+        "卢子干",
+        "后来",
         "卢植",
-        "公孙珣坦然",
-        "公孙珣低头",
-        "公孙珣昂首",
-        "韩遂",
-        "公孙珣无奈",
-        "金大姨",
-        "公孙珣正色"
+        "刘文绕",
+        "毛诗",
+        "何应",
+        "公孙越赶",
+        "孙越赶",
+        "后却",
+        "毕竟",
+        "谢编辑",
+        "闻名",
+        "石经",
+        "韩诗",
+        "卢师",
+        "杨赐",
+        "水平",
+        "何必如",
+        "师之一",
+        "周礼",
+        "东观",
+        "卓著",
+        "方正",
+        "刘宽闻"
       ],
       "organizations": [
         "我自然会",
@@ -6648,30 +8185,43 @@
       ],
       "systems": [
         "新书期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 4,
       "range": "第 61-80 章",
       "characters": [
         "公孙珣",
-        "正色",
+        "孙珣",
+        "莫户袧",
+        "卢龙塞",
+        "安利号",
+        "柯最阙",
         "韩当",
-        "忍不住",
-        "娄圭坦然",
-        "娄圭",
-        "公孙珣坦然",
-        "公孙珣无奈",
-        "勉力",
-        "公孙珣低头",
-        "金大姨",
-        "吕范",
-        "当即昂然",
-        "卢植",
-        "许攸",
-        "公孙珣昂首",
-        "韩遂",
-        "公孙珣正色"
+        "公孙珣一",
+        "孙珣一",
+        "燕书",
+        "公孙珣却",
+        "孙珣却",
+        "赵太守",
+        "连连摇",
+        "公孙珣心",
+        "孙珣心",
+        "柯最坦",
+        "莫户部",
+        "解释道",
+        "公孙珣忍",
+        "孙珣忍",
+        "莫户头",
+        "赵老夫",
+        "韩义公",
+        "公孙主计",
+        "边郡",
+        "孙主计",
+        "何呢",
+        "毕竟",
+        "程普"
       ],
       "organizations": [
         "怎么会",
@@ -6713,32 +8263,43 @@
         "北邙山",
         "七八个郡"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 5,
       "range": "第 81-100 章",
       "characters": [
         "公孙珣",
-        "公孙珣无奈",
+        "孙珣",
         "韩当",
-        "忍不住",
-        "公孙珣坦然",
-        "公孙珣忍不住",
-        "卢植",
-        "公孙珣正色",
-        "正色",
-        "公孙珣昂首",
-        "勉力",
-        "从容",
-        "娄圭",
-        "吕范",
-        "公孙珣幽幽",
-        "檀石槐轻",
-        "公孙珣复又",
-        "公孙珣好奇",
-        "郭缊",
-        "公孙珣不由"
+        "燕书",
+        "公孙珣却",
+        "孙珣却",
+        "公孙珣无",
+        "孙珣无",
+        "连连摇",
+        "公孙珣连",
+        "孙珣连",
+        "公孙珣面",
+        "孙珣面",
+        "公孙珣自",
+        "公孙珣忍",
+        "孙珣忍",
+        "孙珣自",
+        "毕竟",
+        "公孙珣看",
+        "孙珣看",
+        "马匹",
+        "公孙司马",
+        "孙司马",
+        "韩当一",
+        "连公孙",
+        "游侠",
+        "公孙珣愈",
+        "孙珣愈",
+        "公孙珣长",
+        "孙珣长"
       ],
       "organizations": [
         "公孙司",
@@ -6780,39 +8341,43 @@
       ],
       "systems": [
         "新书期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 6,
       "range": "第 101-120 章",
       "characters": [
         "公孙珣",
-        "公孙珣低头",
-        "正色",
-        "忍不住",
-        "吕范",
-        "娄圭",
-        "郭缊",
-        "公孙珣不由",
-        "公孙珣正色",
-        "韩当",
-        "公孙珣无奈",
-        "从容",
-        "公孙珣复又",
-        "却是",
-        "刘宽",
-        "卢植",
-        "此人",
-        "公孙珣认真",
-        "勉力",
-        "公孙珣闻言",
-        "公孙珣坦然",
-        "许攸",
-        "公孙珣当即",
-        "公孙珣不禁",
-        "公孙珣立即",
-        "袁逢",
-        "坦然"
+        "孙珣",
+        "莫户袧",
+        "公孙大娘",
+        "孙大娘",
+        "安利号",
+        "赵老夫",
+        "公孙珣却",
+        "孙珣却",
+        "公孙珣闻",
+        "孙珣闻",
+        "公孙珣忽",
+        "孙珣忽",
+        "公孙司马",
+        "孙司马",
+        "文琪",
+        "公孙珣无",
+        "孙珣无",
+        "连连摇",
+        "公孙珣赶",
+        "孙珣赶",
+        "何呢",
+        "东部鲜",
+        "管如何",
+        "公孙珣低",
+        "孙珣低",
+        "石槐",
+        "公孙珣愈",
+        "董卓",
+        "孙珣愈"
       ],
       "organizations": [
         "公孙司",
@@ -6846,42 +8411,43 @@
         "南宫平城",
         "蔡公府"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 7,
       "range": "第 121-140 章",
       "characters": [
         "公孙珣",
-        "公孙珣不由",
-        "从容",
-        "勉力",
-        "此人",
-        "却是",
-        "忍不住",
-        "郭缊",
-        "公孙珣闻言",
-        "公孙珣当即",
+        "孙珣",
+        "公孙珣一",
+        "尚书台",
+        "孙珣一",
+        "蔡伯喈",
+        "公孙珣却",
+        "文琪",
+        "公孙珣当",
+        "孙珣却",
+        "孙珣当",
+        "公孙珣闻",
+        "袁本初",
+        "孙珣闻",
+        "毕竟",
+        "程普",
+        "公孙珣赶",
+        "孙珣赶",
+        "解释道",
         "袁逢",
-        "正色",
-        "韩当",
-        "公孙珣立即",
-        "公孙珣负手",
-        "公孙珣复又",
-        "韩遂",
-        "吕范",
-        "公孙珣坦然",
-        "坦然",
-        "杨赐不由",
-        "公孙珣无奈",
-        "卢植",
-        "公孙珣正色",
-        "刘宽",
-        "公孙珣如此",
-        "阳球",
-        "方才",
-        "公孙珣不禁",
-        "公孙珣再度"
+        "管如何",
+        "公孙珣继",
+        "孙珣继",
+        "公孙珣自",
+        "何呢",
+        "孙珣自",
+        "蔡邕",
+        "公孙文琪",
+        "孙文琪",
+        "车子"
       ],
       "organizations": [
         "亭舍大门",
@@ -6919,42 +8485,43 @@
       ],
       "systems": [
         "一脸期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 8,
       "range": "第 141-160 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "卢植",
-        "公孙珣坦然",
-        "正色",
-        "从容",
-        "公孙珣不由",
-        "公孙珣认真",
+        "孙珣",
+        "尚书台",
+        "卢龙塞",
+        "公孙珣一",
+        "孙珣一",
+        "公孙珣当",
         "韩当",
-        "却是",
-        "公孙珣复又",
-        "公孙珣立即",
-        "此人",
-        "坦然",
-        "公孙珣再度",
-        "忍不住",
-        "娄圭",
-        "刘宽",
-        "方才",
-        "公孙珣当即",
-        "赵芸",
-        "阳球",
-        "公孙珣低头",
-        "公孙珣忍不住",
-        "公孙珣负手",
-        "公孙珣闻言",
-        "公孙珣冷笑反",
-        "公孙珣正色",
-        "公孙珣无奈",
-        "曹操得意"
+        "孙珣当",
+        "文琪",
+        "公孙珣却",
+        "孙珣却",
+        "曹破石",
+        "吕范",
+        "公孙珣忽",
+        "孙珣忽",
+        "柯最坦",
+        "王甫",
+        "毕竟",
+        "尚书令",
+        "柯最阙",
+        "公孙珣心",
+        "孙珣心",
+        "卢植",
+        "解释道",
+        "公孙珣面",
+        "孙珣面",
+        "尚书郎",
+        "常侍",
+        "卢子干"
       ],
       "organizations": [
         "小黄门",
@@ -7000,42 +8567,43 @@
         "緱氏山",
         "公孙县"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 9,
       "range": "第 161-180 章",
       "characters": [
         "公孙珣",
+        "孙珣",
+        "安利号",
+        "公孙珣一",
+        "孙珣一",
+        "公孙珣却",
+        "孙珣却",
+        "公孙珣当",
+        "文琪",
+        "孙珣当",
+        "高句丽",
         "吕范",
-        "公孙珣正色",
-        "公孙珣不由",
-        "正色",
-        "勉力",
-        "公孙珣复又",
-        "公孙珣再度",
-        "却是",
-        "公孙珣当即",
-        "此人",
-        "公孙珣负手",
-        "忍不住",
-        "方才",
-        "却又",
-        "从容",
-        "韩当",
-        "赵芸",
-        "娄圭",
-        "坦然",
-        "公孙珣认真",
-        "公孙珣不禁",
-        "公孙珣闻言",
-        "公孙珣无奈",
-        "公孙珣坦然",
-        "公孙珣昂然",
-        "卢植",
-        "刘宽",
-        "阳球",
-        "金大姨"
+        "公孙珣忽",
+        "孙珣忽",
+        "公孙珣心",
+        "孙珣心",
+        "毕竟",
+        "解释道",
+        "管如何",
+        "吕子衡",
+        "连连摇",
+        "公孙珣正",
+        "文书",
+        "时无言",
+        "孙珣正",
+        "何处",
+        "何事",
+        "文琪你",
+        "边郡",
+        "公孙珣复"
       ],
       "organizations": [
         "哪里会",
@@ -7081,42 +8649,43 @@
         "废其城",
         "塞外五郡"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 10,
       "range": "第 181-200 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "公孙珣正色",
-        "正色",
-        "公孙珣认真",
-        "公孙珣低头",
-        "勉力",
-        "却又",
+        "孙珣",
+        "高句丽",
+        "公孙大娘",
+        "孙大娘",
+        "尚书台",
+        "公孙珣一",
+        "孙珣一",
+        "公孙珣却",
+        "孙珣却",
         "韩当",
-        "坦然",
-        "却是",
-        "娄圭",
-        "公孙珣当即",
-        "此人",
-        "方才",
-        "从容",
-        "刘宽",
-        "公孙珣闻言",
-        "公孙珣不由",
-        "公孙珣好奇",
-        "公孙珣再度",
-        "忍不住",
-        "赵芸",
-        "卢植",
-        "公孙珣负手",
-        "公孙珣昂然",
-        "公孙珣立即",
-        "公孙珣无奈",
-        "袁逢",
-        "阳球"
+        "公孙珣当",
+        "孙珣当",
+        "公孙珣忽",
+        "孙珣忽",
+        "毕竟",
+        "吕范",
+        "曹孟德",
+        "管如何",
+        "公孙珣自",
+        "何呢",
+        "孙珣自",
+        "冷笑",
+        "公孙珣正",
+        "公孙珣愈",
+        "孙珣正",
+        "孙珣愈",
+        "常侍",
+        "卢老师",
+        "公孙范"
       ],
       "organizations": [
         "哪里会",
@@ -7162,42 +8731,43 @@
         "太行山",
         "能将山"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 11,
       "range": "第 201-220 章",
       "characters": [
         "公孙珣",
+        "孙珣",
+        "公孙珣一",
+        "孙珣一",
+        "公孙珣却",
+        "孙珣却",
+        "文琪",
+        "蔡伯喈",
         "吕范",
-        "公孙珣正色",
-        "正色",
-        "却是",
-        "娄圭",
-        "公孙珣闻言",
-        "方才",
-        "卢植",
-        "从容",
-        "勉力",
-        "公孙珣复又",
-        "却又",
-        "公孙珣昂然",
-        "韩当",
-        "公孙珣再度",
-        "公孙珣当即",
-        "此人",
-        "忍不住",
-        "刘宽",
-        "公孙珣正色询",
-        "赵芸",
-        "公孙珣低头",
-        "公孙珣仰头",
-        "坦然",
-        "公孙珣负手",
-        "公孙珣不由",
-        "良久方才",
-        "罗敷",
-        "简雍"
+        "毕竟",
+        "公孙珣心",
+        "孙珣心",
+        "曹孟德",
+        "公孙珣闻",
+        "孙珣闻",
+        "何呢",
+        "公孙珣自",
+        "公孙珣面",
+        "孙珣自",
+        "孙珣面",
+        "公孙珣正",
+        "孙珣正",
+        "程普",
+        "常侍",
+        "魏越",
+        "何啊",
+        "公孙珣依",
+        "孙珣依",
+        "曲军侯",
+        "公孙珣复"
       ],
       "organizations": [
         "自然会",
@@ -7245,42 +8815,43 @@
       ],
       "systems": [
         "赵芸期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 12,
       "range": "第 221-240 章",
       "characters": [
         "公孙珣",
-        "勉力",
+        "孙珣",
+        "公孙大娘",
+        "孙大娘",
+        "公孙珣当",
+        "孙珣当",
         "韩当",
-        "却是",
-        "忍不住",
-        "方才",
-        "正色",
-        "从容",
-        "公孙珣认真",
-        "公孙珣好奇",
-        "公孙珣复又",
-        "却又",
-        "公孙珣不禁",
-        "娄圭",
-        "此人",
-        "阳球",
-        "吕范",
-        "公孙珣无奈",
-        "公孙珣再度",
-        "公孙珣闻言",
-        "赵芸",
-        "罗敷",
-        "公孙珣低头",
-        "公孙珣愈发",
-        "许攸",
-        "刘宽",
-        "袁逢",
-        "卢植",
-        "公孙珣当即",
-        "当即昂然"
+        "毕竟",
+        "管如何",
+        "解释道",
+        "何呢",
+        "刘备",
+        "魏越",
+        "游侠",
+        "相觑",
+        "黄巾军",
+        "马匹",
+        "吕布",
+        "后却",
+        "关羽",
+        "胡子",
+        "万大军",
+        "后者",
+        "程远志",
+        "游侠头",
+        "公孙太守",
+        "范阳",
+        "孙太守",
+        "白马",
+        "关云长"
       ],
       "organizations": [
         "黄巾军",
@@ -7326,42 +8897,43 @@
         "上谷郡",
         "乃是国"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 13,
       "range": "第 241-260 章",
       "characters": [
         "公孙珣",
-        "正色",
-        "却又",
-        "坦然",
-        "却是",
-        "此人",
-        "忍不住",
-        "方才",
-        "吕范",
-        "从容",
-        "公孙珣愈发",
-        "公孙珣再度",
-        "娄圭",
-        "公孙珣当即",
-        "当即昂然",
-        "公孙珣负手",
-        "公孙珣闻言",
-        "公孙珣正色",
-        "卢植",
-        "公孙珣不由",
-        "许攸",
-        "勉力",
-        "韩当",
-        "公孙珣忍不住",
-        "公孙珣不禁",
-        "公孙珣蹙眉",
-        "袁逢",
-        "插嘴",
-        "公孙珣认真",
-        "娄圭坦然"
+        "孙珣",
+        "黄巾军",
+        "燕书",
+        "何呢",
+        "黄巾贼",
+        "时无言",
+        "刘备",
+        "冷笑",
+        "何事",
+        "曲军侯",
+        "后居然",
+        "关羽",
+        "何处",
+        "游侠",
+        "王修",
+        "何意",
+        "方如此",
+        "白马",
+        "周围人",
+        "车子",
+        "索片刻",
+        "关云长",
+        "东武阳",
+        "何处置",
+        "明显",
+        "公孙将军",
+        "孙将军",
+        "马来",
+        "何如此"
       ],
       "organizations": [
         "黄巾军",
@@ -7401,48 +8973,49 @@
         "在赵国",
         "如今城",
         "两个郡",
-        "而此时城",
         "至于那些幽州",
         "阳翟城",
         "緱氏山",
-        "便是城"
+        "便是城",
+        "邯郸城"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 14,
       "range": "第 261-280 章",
       "characters": [
         "公孙珣",
+        "孙珣",
+        "黄巾军",
+        "公孙珣当",
+        "孙珣当",
+        "毕竟",
         "吕范",
-        "公孙珣不由",
-        "从容",
-        "却又",
-        "勉力",
-        "娄圭",
-        "却是",
-        "此人",
-        "忍不住",
-        "公孙珣闻言",
-        "公孙珣凛然",
-        "韩当",
-        "卢植",
-        "公孙珣当即",
-        "刘宽",
-        "方才",
-        "赵芸",
-        "插嘴",
-        "公孙珣缓缓",
-        "公孙珣复又",
-        "公孙珣坦诚",
-        "阎忠",
-        "韩遂",
-        "坦然",
-        "正色",
-        "公孙珣昂然",
-        "公孙珣再度",
-        "公孙珣无奈",
-        "公孙珣忍不住"
+        "燕书",
+        "黄巾贼",
+        "公孙珣闻",
+        "孙珣闻",
+        "何呢",
+        "管如何",
+        "公孙珣面",
+        "孙珣面",
+        "公孙珣此",
+        "孙珣此",
+        "冷笑",
+        "文书",
+        "程普",
+        "公孙珣依",
+        "孙珣依",
+        "后居然",
+        "安排",
+        "何处",
+        "郎将",
+        "公孙珣等",
+        "孙珣等",
+        "公孙珣身",
+        "孙珣身"
       ],
       "organizations": [
         "黄巾军",
@@ -7479,54 +9052,55 @@
         "如今城",
         "安平国",
         "钜鹿郡",
-        "此时城",
         "太行山",
         "便是东郡",
         "洛阳城",
         "内地郡国",
         "千石县",
         "我为郡",
-        "视我等边郡"
+        "视我等边郡",
+        "在赵国"
       ],
       "systems": [
         "公孙珣期",
         "经过初期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 15,
       "range": "第 281-300 章",
       "characters": [
         "公孙珣",
+        "孙珣",
+        "文琪",
+        "公孙珣当",
+        "孙珣当",
+        "毕竟",
         "吕范",
-        "公孙珣不由",
-        "正色",
-        "从容",
-        "公孙珣无奈",
-        "却又",
-        "娄圭",
-        "刘宽",
         "韩当",
-        "却是",
-        "公孙珣当即",
-        "此人",
-        "忍不住",
-        "公孙珣闻言",
-        "方才",
-        "插嘴",
-        "张让",
-        "勉力",
-        "司马直",
-        "公孙珣蹙眉",
-        "坦然",
-        "公孙珣复又",
-        "公孙珣昂首",
-        "公孙珣坦然",
-        "卢植",
-        "公孙珣凛然",
-        "凛然",
-        "公孙珣正色",
-        "许攸"
+        "燕书",
+        "公孙珣闻",
+        "孙珣闻",
+        "公孙珣自",
+        "孙珣自",
+        "袁本初",
+        "公孙越",
+        "尚书令",
+        "孙越",
+        "吕子衡",
+        "公孙珣赶",
+        "孙珣赶",
+        "公孙珣继",
+        "孙珣继",
+        "公孙珣无",
+        "孙珣无",
+        "时无言",
+        "冷笑",
+        "王修",
+        "安排",
+        "何事",
+        "公孙兄弟"
       ],
       "organizations": [
         "如此局",
@@ -7572,42 +9146,43 @@
         "我在城",
         "来到城"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 16,
       "range": "第 301-320 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "公孙珣不由",
-        "正色",
-        "从容",
-        "却又",
-        "娄圭",
-        "公孙珣蹙眉",
-        "韩当",
-        "却是",
+        "孙珣",
         "公孙大娘",
-        "公孙珣闻言",
-        "方才",
-        "勉力",
-        "坦然",
-        "公孙珣再度",
-        "韩遂",
-        "此人",
-        "阳球",
-        "公孙珣凛然",
-        "凛然",
-        "司马直",
-        "忍不住",
-        "张让",
-        "许攸",
-        "公孙珣愈发",
-        "公孙珣无奈",
-        "公孙珣复又",
-        "插嘴",
-        "公孙珣缓缓"
+        "孙大娘",
+        "公孙珣一",
+        "孙珣一",
+        "莫户袧",
+        "安利号",
+        "公孙珣却",
+        "孙珣却",
+        "毕竟",
+        "卫将军",
+        "韩当",
+        "吕范",
+        "燕书",
+        "卢龙塞",
+        "公孙珣闻",
+        "孙珣闻",
+        "公孙珣自",
+        "孙珣自",
+        "方伯",
+        "公孙珣在",
+        "孙珣在",
+        "公孙珣此",
+        "刘备",
+        "公孙珣见",
+        "孙珣见",
+        "孙珣此",
+        "冷笑",
+        "莫户部"
       ],
       "organizations": [
         "卫将军",
@@ -7655,42 +9230,43 @@
       ],
       "systems": [
         "从位阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 17,
       "range": "第 321-340 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "正色",
-        "娄圭",
-        "公孙珣愈发",
-        "坦然",
+        "孙珣",
+        "卫将军",
+        "莫户袧",
+        "毕竟",
         "韩当",
-        "却是",
-        "此人",
-        "赵芸",
-        "公孙珣缓缓",
-        "缓缓",
-        "天子",
-        "忍不住",
-        "公孙大娘",
-        "方才",
-        "公孙珣如此",
-        "从容",
-        "勉力",
-        "公孙珣再度",
-        "公孙珣当即",
-        "公孙珣轻",
-        "公孙珣闻言",
-        "却又",
-        "公孙珣低头",
-        "张让",
-        "司马直",
-        "许攸",
-        "公孙珣仰头",
-        "插嘴"
+        "吕范",
+        "卢龙塞",
+        "燕书",
+        "公孙珣自",
+        "孙珣自",
+        "吕子衡",
+        "莫户部",
+        "公孙珣见",
+        "孙珣见",
+        "公孙珣正",
+        "孙珣正",
+        "公孙珣愈",
+        "孙珣愈",
+        "王修",
+        "安排",
+        "程普",
+        "公孙珣身",
+        "孙珣身",
+        "尚书郎",
+        "祖武皇",
+        "何处",
+        "后却",
+        "王叔治",
+        "毕竟嘛"
       ],
       "organizations": [
         "卫将军",
@@ -7736,42 +9312,43 @@
         "如今柳城",
         "而管子城"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 18,
       "range": "第 341-360 章",
       "characters": [
         "公孙珣",
-        "却又",
-        "勉力",
-        "天子",
-        "却是",
-        "此人",
-        "方才",
-        "缓缓",
-        "吕范",
-        "公孙珣复又",
-        "从容",
-        "娄圭",
-        "公孙珣轻",
-        "鲜于辅",
-        "公孙珣幽幽",
-        "正色",
-        "坦然",
-        "韩当",
-        "忍不住",
-        "公孙珣闻言",
-        "插嘴",
-        "娄子伯",
-        "凛然",
-        "公孙珣再度",
-        "公孙大娘",
-        "赵芸",
-        "公孙珣不由",
-        "公孙珣无奈",
-        "公孙珣愈发",
-        "公孙珣立即"
+        "孙珣",
+        "卫将军",
+        "文琪",
+        "曹孟德",
+        "燕书",
+        "袁本初",
+        "公孙珣在",
+        "孙珣在",
+        "董卓",
+        "冷笑",
+        "刘备",
+        "车骑将",
+        "曹操",
+        "安排",
+        "公孙文琪",
+        "董仲颖",
+        "文书",
+        "孙文琪",
+        "袁绍",
+        "吕布",
+        "公孙珣本",
+        "孙珣本",
+        "时此刻",
+        "孙文台",
+        "明显",
+        "许久",
+        "徐荣",
+        "孟德",
+        "后来"
       ],
       "organizations": [
         "卫将军",
@@ -7819,42 +9396,43 @@
       ],
       "systems": [
         "从位阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 19,
       "range": "第 361-380 章",
       "characters": [
         "公孙珣",
-        "卢植",
-        "从容",
-        "却又",
-        "勉力",
-        "却是",
-        "凛然",
-        "此人",
-        "忍不住",
-        "插嘴",
-        "戏忠",
-        "缓缓",
+        "孙珣",
+        "卫将军",
+        "公孙珣一",
+        "孙珣一",
+        "安利号",
+        "毕竟",
+        "袁本初",
+        "管如何",
         "董卓",
-        "吕范",
-        "公孙珣不由",
-        "娄圭",
-        "公孙珣再度",
-        "公孙珣坦诚",
-        "公孙大娘",
-        "方才",
-        "公孙珣干脆",
-        "正色",
-        "公孙珣愈发",
-        "坦然",
-        "公孙珣昂然",
-        "韩当",
-        "公孙珣立即",
-        "郭缊",
-        "公孙珣闻言",
-        "娄圭复又"
+        "公孙珣在",
+        "孙珣在",
+        "解释道",
+        "万大军",
+        "公孙越",
+        "孙越",
+        "冷笑",
+        "袁绍",
+        "卢植",
+        "王修",
+        "相觑",
+        "吕布",
+        "何意",
+        "郎将",
+        "何处",
+        "何啊",
+        "何进",
+        "万人",
+        "张府君",
+        "成功"
       ],
       "organizations": [
         "卫将军",
@@ -7902,42 +9480,43 @@
       ],
       "systems": [
         "李儒首级"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 20,
       "range": "第 381-400 章",
       "characters": [
         "公孙珣",
-        "公孙珣不由",
-        "正色",
-        "从容",
-        "娄圭",
-        "却又",
-        "坦然",
-        "却是",
-        "此人",
-        "公孙珣缓缓",
-        "缓缓",
+        "孙珣",
+        "卫将军",
+        "公孙珣一",
+        "孙珣一",
+        "袁本初",
+        "蔡伯喈",
         "董卓",
+        "何呢",
+        "管如何",
+        "公孙珣依",
+        "孙珣依",
+        "公孙珣终",
+        "孙珣终",
+        "吕布",
+        "何事",
+        "白马旗",
+        "白马",
+        "徐荣",
+        "公孙珣缓",
+        "孙珣缓",
+        "许久",
+        "田丰",
+        "左将军",
+        "相见",
         "贾诩",
-        "天子",
-        "韩遂",
-        "公孙珣立即",
-        "方才",
-        "公孙珣坦然",
-        "公孙珣幽幽",
-        "韩当",
-        "公孙珣当即",
-        "娄子伯",
-        "公孙珣失笑",
-        "勉力",
-        "戏忠",
-        "卢植",
-        "公孙珣复又",
-        "公孙珣好奇",
-        "公孙珣再度",
-        "凛然"
+        "黄河",
+        "何应",
+        "吕奉先",
+        "时茫然"
       ],
       "organizations": [
         "卫将军",
@@ -7985,42 +9564,43 @@
       ],
       "systems": [
         "公孙珣立在台阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 21,
       "range": "第 401-420 章",
       "characters": [
         "公孙珣",
-        "公孙珣不由",
-        "正色",
-        "却又",
-        "荀攸",
-        "却是",
-        "戏忠",
-        "此人",
-        "忍不住",
+        "孙珣",
+        "卫将军",
         "公孙大娘",
-        "方才",
-        "公孙珣缓缓",
-        "缓缓",
-        "讨董",
+        "孙大娘",
+        "毕竟",
+        "公孙珣却",
+        "袁本初",
+        "孙珣却",
+        "曹孟德",
+        "文琪",
+        "公孙珣当",
+        "孙珣当",
+        "燕书",
         "董卓",
-        "从容",
-        "许攸",
-        "韩遂",
-        "坦然",
-        "天子",
-        "插嘴",
-        "简雍",
-        "勉力",
-        "袁绍不由",
-        "凛然",
-        "公孙珣正色",
-        "吕范",
-        "公孙珣复又",
-        "娄圭",
-        "贾诩"
+        "公孙珣在",
+        "孙珣在",
+        "袁绍",
+        "何呢",
+        "公孙珣自",
+        "孙珣自",
+        "刘备",
+        "公孙越",
+        "公孙瓒",
+        "冷笑",
+        "孙瓒",
+        "孙越",
+        "孙文台",
+        "何事",
+        "何处"
       ],
       "organizations": [
         "卫将军",
@@ -8068,42 +9648,43 @@
       ],
       "systems": [
         "如入无人之境"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 22,
       "range": "第 421-440 章",
       "characters": [
         "公孙珣",
-        "公孙珣不由",
-        "许攸",
-        "娄圭",
-        "却又",
-        "荀攸",
+        "孙珣",
+        "公孙珣一",
+        "孙珣一",
+        "袁本初",
+        "毕竟",
+        "公孙珣却",
+        "孙珣却",
+        "公孙珣忽",
         "韩当",
-        "却是",
-        "韩遂",
-        "讨董",
+        "孙珣忽",
+        "燕书",
+        "袁绍",
         "董卓",
-        "从容",
-        "正色",
-        "公孙珣蹙眉",
-        "公孙珣凛然",
-        "凛然",
-        "此人",
-        "忍不住",
-        "娄子伯",
-        "缓缓",
-        "公孙珣低头",
-        "公孙珣当即",
-        "公孙珣回头",
-        "方才",
-        "插嘴",
-        "勉力",
-        "袁绍不由",
-        "贾诩",
-        "公孙珣缓缓",
-        "公孙珣立即"
+        "万大军",
+        "白马义",
+        "管如何",
+        "魏越",
+        "关羽",
+        "何意",
+        "程普",
+        "许子远",
+        "白马",
+        "后却",
+        "公孙珣听",
+        "韩遂",
+        "孙珣听",
+        "许久",
+        "徐荣",
+        "明公"
       ],
       "organizations": [
         "必然会",
@@ -8152,42 +9733,43 @@
       "systems": [
         "如此情境",
         "但梁期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 23,
       "range": "第 441-460 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "正色",
-        "却又",
-        "天子",
-        "韩当",
-        "却是",
-        "方才",
-        "公孙珣当即",
-        "公孙珣立即",
-        "公孙珣负手",
-        "忍不住",
-        "插嘴",
+        "孙珣",
+        "卫将军",
+        "公孙珣一",
+        "孙珣一",
+        "袁本初",
+        "毕竟",
+        "曹孟德",
+        "尚书台",
         "袁绍",
-        "缓缓",
-        "讨董",
-        "贾诩",
-        "许攸",
-        "荀攸",
-        "勉力",
-        "此人",
-        "不由",
-        "董卓",
-        "从容",
-        "坦然",
-        "公孙大娘",
-        "孙坚",
-        "公孙珣轻",
-        "有德",
-        "娄圭"
+        "韩当",
+        "公孙珣当",
+        "孙珣当",
+        "燕书",
+        "吕范",
+        "公孙珣在",
+        "孙珣在",
+        "公孙珣心",
+        "孙珣心",
+        "公孙越",
+        "孙越",
+        "公孙珣终",
+        "孙珣终",
+        "孙文台",
+        "吕布",
+        "明公",
+        "徐荣",
+        "刘玄德",
+        "田丰",
+        "董昭"
       ],
       "organizations": [
         "卫将军",
@@ -8235,42 +9817,43 @@
       ],
       "systems": [
         "或持符"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 24,
       "range": "第 461-480 章",
       "characters": [
         "公孙珣",
-        "正色",
-        "却又",
-        "坦然",
-        "天子",
-        "忍不住",
-        "插嘴",
-        "缓缓",
+        "孙珣",
+        "卫将军",
+        "毕竟",
+        "燕书",
         "董卓",
-        "伐蜀",
-        "从容",
-        "勉力",
-        "却是",
-        "方才",
-        "公孙珣缓缓",
-        "戏忠",
-        "不由",
-        "贾诩",
-        "公孙珣复又",
-        "韩遂",
-        "此人",
-        "公孙珣回头",
-        "郭缊",
-        "讨董",
-        "袁绍",
-        "孙坚",
-        "阎忠",
-        "公孙珣不由",
-        "公孙珣蹙眉",
-        "公孙大娘"
+        "公孙珣在",
+        "孙珣在",
+        "刘备",
+        "曹操",
+        "公孙珣看",
+        "孙珣看",
+        "郎将",
+        "皇甫嵩",
+        "许久",
+        "徐荣",
+        "祖武皇",
+        "明显",
+        "毕竟嘛",
+        "刘焉",
+        "公孙珣本",
+        "孙珣本",
+        "公孙珣居",
+        "孙珣居",
+        "相比",
+        "后来",
+        "刘公",
+        "王子师",
+        "方面",
+        "赵云"
       ],
       "organizations": [
         "卫将军",
@@ -8316,42 +9899,43 @@
         "千石县",
         "五台山"
       ],
-      "systems": []
+      "systems": [],
+      "events": []
     },
     {
       "chunk": 25,
       "range": "第 481-500 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "公孙珣不由",
-        "从容",
-        "正色",
-        "公孙珣无奈",
-        "娄圭",
-        "公孙珣愈发",
-        "却又",
-        "天子",
-        "荀攸",
-        "方才",
+        "孙珣",
+        "曹孟德",
+        "公孙珣却",
+        "孙珣却",
+        "公孙珣忽",
+        "孙珣忽",
         "韩当",
-        "却是",
-        "公孙珣如此",
-        "公孙珣缓缓",
-        "戏忠",
-        "忍不住",
-        "公孙珣闻言",
-        "不由",
-        "缓缓",
-        "公孙珣失笑",
-        "贾诩",
-        "张颌",
-        "此人",
-        "公孙大娘",
-        "娄子伯",
-        "袁绍",
-        "皇甫嵩",
-        "讨董"
+        "吕范",
+        "卢龙塞",
+        "公孙珣在",
+        "孙珣在",
+        "白马义",
+        "公孙珣闻",
+        "孙珣闻",
+        "公孙珣面",
+        "公孙珣继",
+        "孙珣继",
+        "孙珣面",
+        "相觑",
+        "公孙珣愈",
+        "孙珣愈",
+        "王修",
+        "关羽",
+        "公孙珣无",
+        "程普",
+        "孙珣无",
+        "安排",
+        "徐荣",
+        "刘表"
       ],
       "organizations": [
         "怎么会",
@@ -8400,42 +9984,43 @@
       "systems": [
         "如入无人之境",
         "孙伯符"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 26,
       "range": "第 501-520 章",
       "characters": [
         "公孙珣",
+        "卫将军",
+        "孙珣",
+        "公孙珣一",
+        "孙珣一",
+        "曹孟德",
+        "毕竟",
+        "公孙珣却",
+        "孙珣却",
+        "文琪",
+        "公孙珣当",
+        "孙珣当",
+        "关云长",
         "吕范",
-        "从容",
-        "公孙珣复又",
-        "正色",
-        "却又",
-        "方才",
-        "公孙珣再度",
-        "却是",
-        "缓缓",
-        "贾诩",
-        "郭嘉",
-        "忍不住",
-        "娄圭",
-        "天子",
-        "荀攸",
-        "公孙珣缓缓",
-        "勉力",
-        "此人",
-        "插嘴",
-        "董卓",
-        "公孙珣愈发",
-        "坦然",
-        "公孙珣忍不住",
-        "公孙珣立即",
-        "袁绍",
-        "孙坚",
-        "不由",
-        "讨董",
-        "娄子伯"
+        "曹操",
+        "刘备",
+        "公孙珣心",
+        "孙珣心",
+        "夏侯惇",
+        "吕布",
+        "许久",
+        "冷笑",
+        "刘玄德",
+        "公孙珣看",
+        "孙珣看",
+        "公孙珣终",
+        "孙珣终",
+        "公孙珣此",
+        "关羽",
+        "后居然"
       ],
       "organizations": [
         "卫将军",
@@ -8474,53 +10059,54 @@
         "是中国",
         "整个战场",
         "春秋战国",
-        "此时战场",
         "往邺城",
         "来到城",
         "到了邺城",
         "随着城",
-        "城上城"
+        "城上城",
+        "刘荆州"
       ],
       "systems": [
         "孙伯符",
         "而孙伯符",
         "并割下首级"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 27,
       "range": "第 521-540 章",
       "characters": [
         "公孙珣",
-        "公孙珣幽幽",
-        "吕范",
-        "正色",
-        "却又",
-        "方才",
-        "却是",
-        "公孙珣如此",
-        "郭嘉",
+        "孙珣",
         "公孙大娘",
-        "赵芸",
-        "不由",
+        "孙大娘",
+        "公孙珣一",
+        "孙珣一",
+        "毕竟",
+        "曹操",
+        "吕范",
         "董卓",
-        "伐蜀",
-        "从容",
-        "天子",
-        "勉力",
-        "缓缓",
-        "此人",
-        "忍不住",
-        "插嘴",
-        "有德",
-        "凛然",
-        "袁绍",
-        "韩遂",
-        "许攸",
-        "坦然",
-        "鲜于辅",
-        "讨董",
-        "贾诩"
+        "刘备",
+        "公孙珣在",
+        "孙珣在",
+        "何呢",
+        "公孙珣心",
+        "孙珣心",
+        "吕布",
+        "公孙珣自",
+        "刘玄德",
+        "孙珣自",
+        "公孙越",
+        "郎将",
+        "孙越",
+        "吕子衡",
+        "程普",
+        "刘表",
+        "何事",
+        "公孙珣连",
+        "孙珣连",
+        "明显"
       ],
       "organizations": [
         "左将军",
@@ -8572,42 +10158,43 @@
         "全盛时期",
         "春秋战国时期",
         "大军压境"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 28,
       "range": "第 541-541 章",
       "characters": [
         "公孙珣",
-        "吕范",
-        "从容",
-        "卢植",
-        "正色",
-        "许攸",
-        "娄圭",
-        "却又",
-        "天子",
-        "贾诩",
-        "荀攸",
-        "勉力",
-        "坦然",
-        "刘宽",
-        "方才",
-        "韩当",
-        "却是",
-        "韩遂",
-        "张颌",
-        "凛然",
-        "戏忠",
-        "缓缓",
-        "有策",
-        "淮阴故策",
-        "项王旧计",
-        "郭嘉",
-        "金大姨",
-        "忍不住",
+        "孙珣",
+        "卫将军",
+        "高句丽",
         "公孙大娘",
-        "郭缊"
+        "孙大娘",
+        "曹孟德",
+        "袁本初",
+        "黄巾军",
+        "毕竟",
+        "安利号",
+        "莫户袧",
+        "公孙珣却",
+        "孙珣却",
+        "尚书台",
+        "公孙珣忽",
+        "孙珣忽",
+        "燕书",
+        "曹操",
+        "袁绍",
+        "文琪",
+        "韩当",
+        "公孙珣当",
+        "关云长",
+        "孙珣当",
+        "白马义",
+        "刘备",
+        "吕范",
+        "董卓",
+        "卢龙塞"
       ],
       "organizations": [
         "卫将军",
@@ -8656,7 +10243,8 @@
       "systems": [
         "计获首自张伯以下万余级",
         "广宗累获首三万级"
-      ]
+      ],
+      "events": []
     }
   ]
 }
