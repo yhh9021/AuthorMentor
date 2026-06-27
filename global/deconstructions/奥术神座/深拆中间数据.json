@@ -1,0 +1,8799 @@
+{
+  "title": "奥术神座",
+  "chapterCount": 919,
+  "chunkCount": 2,
+  "audit": [
+    {
+      "name": "人物数量",
+      "status": "通过",
+      "detail": "实际 180，最低要求 45。"
+    },
+    {
+      "name": "关系边数量",
+      "status": "通过",
+      "detail": "实际 220，最低要求 45。"
+    },
+    {
+      "name": "势力组织数量",
+      "status": "通过",
+      "detail": "实际 120，最低要求 11。"
+    },
+    {
+      "name": "地图地点数量",
+      "status": "通过",
+      "detail": "实际 120，最低要求 11。"
+    },
+    {
+      "name": "能力/资源/规则数量",
+      "status": "通过",
+      "detail": "实际 140，最低要求 15。"
+    },
+    {
+      "name": "全书 chunk 覆盖率",
+      "status": "通过",
+      "detail": "覆盖 2/2 个 chunk，覆盖率 100.0%。"
+    }
+  ],
+  "characters": [
+    {
+      "name": "路西恩",
+      "mentions": 222,
+      "firstChapter": 10,
+      "lastChapter": 826,
+      "chapterCount": 183,
+      "markers": [
+        "人物行为/发言(222)"
+      ]
+    },
+    {
+      "name": "路西恩点了",
+      "mentions": 62,
+      "firstChapter": 7,
+      "lastChapter": 826,
+      "chapterCount": 57,
+      "markers": [
+        "人物行为/发言(62)"
+      ]
+    },
+    {
+      "name": "路西恩摇了",
+      "mentions": 54,
+      "firstChapter": 16,
+      "lastChapter": 806,
+      "chapterCount": 51,
+      "markers": [
+        "人物行为/发言(54)"
+      ]
+    },
+    {
+      "name": "路西恩微",
+      "mentions": 50,
+      "firstChapter": 37,
+      "lastChapter": 825,
+      "chapterCount": 49,
+      "markers": [
+        "人物行为/发言(50)"
+      ]
+    },
+    {
+      "name": "微微",
+      "mentions": 51,
+      "firstChapter": 20,
+      "lastChapter": 914,
+      "chapterCount": 40,
+      "markers": [
+        "人物行为/发言(51)"
+      ]
+    },
+    {
+      "name": "呵呵",
+      "mentions": 45,
+      "firstChapter": 14,
+      "lastChapter": 873,
+      "chapterCount": 40,
+      "markers": [
+        "人物行为/发言(45)"
+      ]
+    },
+    {
+      "name": "摇了",
+      "mentions": 37,
+      "firstChapter": 18,
+      "lastChapter": 904,
+      "chapterCount": 36,
+      "markers": [
+        "人物行为/发言(37)"
+      ]
+    },
+    {
+      "name": "娜塔莎",
+      "mentions": 40,
+      "firstChapter": 65,
+      "lastChapter": 816,
+      "chapterCount": 35,
+      "markers": [
+        "人物行为/发言(40)"
+      ]
+    },
+    {
+      "name": "路西恩微微",
+      "mentions": 36,
+      "firstChapter": 109,
+      "lastChapter": 698,
+      "chapterCount": 34,
+      "markers": [
+        "人物行为/发言(36)"
+      ]
+    },
+    {
+      "name": "路西恩轻轻",
+      "mentions": 29,
+      "firstChapter": 137,
+      "lastChapter": 765,
+      "chapterCount": 28,
+      "markers": [
+        "人物行为/发言(29)"
+      ]
+    },
+    {
+      "name": "路西恩呵呵",
+      "mentions": 28,
+      "firstChapter": 174,
+      "lastChapter": 812,
+      "chapterCount": 28,
+      "markers": [
+        "人物行为/发言(28)"
+      ]
+    },
+    {
+      "name": "路西恩笑着摇了",
+      "mentions": 26,
+      "firstChapter": 45,
+      "lastChapter": 786,
+      "chapterCount": 26,
+      "markers": [
+        "人物行为/发言(26)"
+      ]
+    },
+    {
+      "name": "一边",
+      "mentions": 26,
+      "firstChapter": 61,
+      "lastChapter": 909,
+      "chapterCount": 25,
+      "markers": [
+        "人物行为/发言(26)"
+      ]
+    },
+    {
+      "name": "轻轻",
+      "mentions": 26,
+      "firstChapter": 112,
+      "lastChapter": 886,
+      "chapterCount": 25,
+      "markers": [
+        "人物行为/发言(26)"
+      ]
+    },
+    {
+      "name": "继续",
+      "mentions": 25,
+      "firstChapter": 4,
+      "lastChapter": 885,
+      "chapterCount": 25,
+      "markers": [
+        "人物行为/发言(25)"
+      ]
+    },
+    {
+      "name": "道格拉斯",
+      "mentions": 30,
+      "firstChapter": 419,
+      "lastChapter": 917,
+      "chapterCount": 24,
+      "markers": [
+        "人物行为/发言(30)"
+      ]
+    },
+    {
+      "name": "于是",
+      "mentions": 24,
+      "firstChapter": 41,
+      "lastChapter": 914,
+      "chapterCount": 24,
+      "markers": [
+        "人物行为/发言(24)"
+      ]
+    },
+    {
+      "name": "费尔南多",
+      "mentions": 26,
+      "firstChapter": 339,
+      "lastChapter": 897,
+      "chapterCount": 23,
+      "markers": [
+        "人物行为/发言(26)"
+      ]
+    },
+    {
+      "name": "路西恩疑惑地",
+      "mentions": 23,
+      "firstChapter": 101,
+      "lastChapter": 784,
+      "chapterCount": 23,
+      "markers": [
+        "人物行为/发言(23)"
+      ]
+    },
+    {
+      "name": "嘿嘿",
+      "mentions": 23,
+      "firstChapter": 108,
+      "lastChapter": 908,
+      "chapterCount": 23,
+      "markers": [
+        "人物行为/发言(23)"
+      ]
+    },
+    {
+      "name": "路西恩微笑",
+      "mentions": 20,
+      "firstChapter": 109,
+      "lastChapter": 825,
+      "chapterCount": 20,
+      "markers": [
+        "人物行为/发言(20)"
+      ]
+    },
+    {
+      "name": "微笑",
+      "mentions": 18,
+      "firstChapter": 106,
+      "lastChapter": 882,
+      "chapterCount": 18,
+      "markers": [
+        "人物行为/发言(18)"
+      ]
+    },
+    {
+      "name": "娜塔莎点了",
+      "mentions": 14,
+      "firstChapter": 82,
+      "lastChapter": 764,
+      "chapterCount": 14,
+      "markers": [
+        "人物行为/发言(14)"
+      ]
+    },
+    {
+      "name": "说着",
+      "mentions": 13,
+      "firstChapter": 8,
+      "lastChapter": 846,
+      "chapterCount": 13,
+      "markers": [
+        "人物行为/发言(13)"
+      ]
+    },
+    {
+      "name": "路西恩好笑地",
+      "mentions": 13,
+      "firstChapter": 9,
+      "lastChapter": 806,
+      "chapterCount": 13,
+      "markers": [
+        "人物行为/发言(13)"
+      ]
+    },
+    {
+      "name": "道格拉斯呵呵",
+      "mentions": 13,
+      "firstChapter": 432,
+      "lastChapter": 873,
+      "chapterCount": 13,
+      "markers": [
+        "人物行为/发言(13)"
+      ]
+    },
+    {
+      "name": "眼睁睁",
+      "mentions": 13,
+      "firstChapter": 55,
+      "lastChapter": 899,
+      "chapterCount": 12,
+      "markers": [
+        "人物行为/发言(13)"
+      ]
+    },
+    {
+      "name": "娜塔莎嘿嘿",
+      "mentions": 13,
+      "firstChapter": 99,
+      "lastChapter": 719,
+      "chapterCount": 12,
+      "markers": [
+        "人物行为/发言(13)"
+      ]
+    },
+    {
+      "name": "疑惑地",
+      "mentions": 12,
+      "firstChapter": 11,
+      "lastChapter": 728,
+      "chapterCount": 12,
+      "markers": [
+        "人物行为/发言(12)"
+      ]
+    },
+    {
+      "name": "而是",
+      "mentions": 12,
+      "firstChapter": 17,
+      "lastChapter": 777,
+      "chapterCount": 11,
+      "markers": [
+        "人物行为/发言(12)"
+      ]
+    },
+    {
+      "name": "接着",
+      "mentions": 12,
+      "firstChapter": 116,
+      "lastChapter": 819,
+      "chapterCount": 11,
+      "markers": [
+        "人物行为/发言(12)"
+      ]
+    },
+    {
+      "name": "路西恩继续",
+      "mentions": 11,
+      "firstChapter": 180,
+      "lastChapter": 800,
+      "chapterCount": 11,
+      "markers": [
+        "人物行为/发言(11)"
+      ]
+    },
+    {
+      "name": "道格拉斯轻轻",
+      "mentions": 11,
+      "firstChapter": 220,
+      "lastChapter": 868,
+      "chapterCount": 11,
+      "markers": [
+        "人物行为/发言(11)"
+      ]
+    },
+    {
+      "name": "轻轻点了",
+      "mentions": 11,
+      "firstChapter": 290,
+      "lastChapter": 899,
+      "chapterCount": 11,
+      "markers": [
+        "人物行为/发言(11)"
+      ]
+    },
+    {
+      "name": "莱茵",
+      "mentions": 12,
+      "firstChapter": 92,
+      "lastChapter": 784,
+      "chapterCount": 10,
+      "markers": [
+        "人物行为/发言(12)"
+      ]
+    },
+    {
+      "name": "奥利弗",
+      "mentions": 10,
+      "firstChapter": 460,
+      "lastChapter": 904,
+      "chapterCount": 10,
+      "markers": [
+        "人物行为/发言(10)"
+      ]
+    },
+    {
+      "name": "好奇地",
+      "mentions": 10,
+      "firstChapter": 70,
+      "lastChapter": 880,
+      "chapterCount": 9,
+      "markers": [
+        "人物行为/发言(10)"
+      ]
+    },
+    {
+      "name": "静静地",
+      "mentions": 9,
+      "firstChapter": 22,
+      "lastChapter": 802,
+      "chapterCount": 9,
+      "markers": [
+        "人物行为/发言(9)"
+      ]
+    },
+    {
+      "name": "于是微",
+      "mentions": 9,
+      "firstChapter": 194,
+      "lastChapter": 754,
+      "chapterCount": 9,
+      "markers": [
+        "人物行为/发言(9)"
+      ]
+    },
+    {
+      "name": "路西恩轻轻点了",
+      "mentions": 9,
+      "firstChapter": 316,
+      "lastChapter": 770,
+      "chapterCount": 9,
+      "markers": [
+        "人物行为/发言(9)"
+      ]
+    },
+    {
+      "name": "道格拉斯点了",
+      "mentions": 9,
+      "firstChapter": 600,
+      "lastChapter": 902,
+      "chapterCount": 9,
+      "markers": [
+        "人物行为/发言(9)"
+      ]
+    },
+    {
+      "name": "费尔南多点了",
+      "mentions": 9,
+      "firstChapter": 554,
+      "lastChapter": 915,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(9)"
+      ]
+    },
+    {
+      "name": "路西恩一边",
+      "mentions": 8,
+      "firstChapter": 5,
+      "lastChapter": 773,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "直接",
+      "mentions": 8,
+      "firstChapter": 16,
+      "lastChapter": 879,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "于是点了",
+      "mentions": 8,
+      "firstChapter": 22,
+      "lastChapter": 916,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "满意地点了",
+      "mentions": 8,
+      "firstChapter": 60,
+      "lastChapter": 778,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "娜塔莎疑惑地",
+      "mentions": 8,
+      "firstChapter": 64,
+      "lastChapter": 816,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "再次",
+      "mentions": 8,
+      "firstChapter": 92,
+      "lastChapter": 884,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "大声",
+      "mentions": 8,
+      "firstChapter": 125,
+      "lastChapter": 728,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "他微",
+      "mentions": 8,
+      "firstChapter": 170,
+      "lastChapter": 889,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "娜塔莎摇了",
+      "mentions": 8,
+      "firstChapter": 303,
+      "lastChapter": 758,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "赶紧",
+      "mentions": 8,
+      "firstChapter": 353,
+      "lastChapter": 775,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "道格拉斯摇了",
+      "mentions": 8,
+      "firstChapter": 548,
+      "lastChapter": 901,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "道格拉斯微微",
+      "mentions": 8,
+      "firstChapter": 566,
+      "lastChapter": 915,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "自嘲地",
+      "mentions": 7,
+      "firstChapter": 15,
+      "lastChapter": 864,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "他摇了",
+      "mentions": 7,
+      "firstChapter": 50,
+      "lastChapter": 910,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "含笑",
+      "mentions": 7,
+      "firstChapter": 83,
+      "lastChapter": 871,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "娜塔莎干",
+      "mentions": 7,
+      "firstChapter": 116,
+      "lastChapter": 756,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "路西恩嘿嘿",
+      "mentions": 7,
+      "firstChapter": 158,
+      "lastChapter": 826,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "路西恩笑着点了",
+      "mentions": 7,
+      "firstChapter": 161,
+      "lastChapter": 673,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "随口",
+      "mentions": 7,
+      "firstChapter": 182,
+      "lastChapter": 846,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "温和",
+      "mentions": 7,
+      "firstChapter": 240,
+      "lastChapter": 471,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "费尔南多摇了",
+      "mentions": 7,
+      "firstChapter": 425,
+      "lastChapter": 624,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "克托尼亚",
+      "mentions": 7,
+      "firstChapter": 515,
+      "lastChapter": 873,
+      "chapterCount": 7,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "海瑟薇",
+      "mentions": 8,
+      "firstChapter": 498,
+      "lastChapter": 900,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "拉文第",
+      "mentions": 7,
+      "firstChapter": 211,
+      "lastChapter": 602,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "费尔南多微微",
+      "mentions": 7,
+      "firstChapter": 330,
+      "lastChapter": 913,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "他呵呵",
+      "mentions": 7,
+      "firstChapter": 472,
+      "lastChapter": 798,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "低声",
+      "mentions": 6,
+      "firstChapter": 18,
+      "lastChapter": 804,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "路西恩满意地点了",
+      "mentions": 6,
+      "firstChapter": 45,
+      "lastChapter": 757,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "忽然",
+      "mentions": 6,
+      "firstChapter": 47,
+      "lastChapter": 875,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "奇怪地",
+      "mentions": 6,
+      "firstChapter": 53,
+      "lastChapter": 771,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "娜塔莎忽然",
+      "mentions": 6,
+      "firstChapter": 77,
+      "lastChapter": 507,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "莱茵摇了",
+      "mentions": 6,
+      "firstChapter": 90,
+      "lastChapter": 640,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "娜塔莎微微",
+      "mentions": 6,
+      "firstChapter": 101,
+      "lastChapter": 759,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "路西恩认真地",
+      "mentions": 6,
+      "firstChapter": 106,
+      "lastChapter": 584,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "短暂的",
+      "mentions": 6,
+      "firstChapter": 117,
+      "lastChapter": 863,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "于是轻轻",
+      "mentions": 6,
+      "firstChapter": 129,
+      "lastChapter": 879,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "只能眼睁睁",
+      "mentions": 6,
+      "firstChapter": 259,
+      "lastChapter": 908,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "费尔南多嘿嘿",
+      "mentions": 6,
+      "firstChapter": 334,
+      "lastChapter": 891,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "仔细",
+      "mentions": 6,
+      "firstChapter": 340,
+      "lastChapter": 649,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "卡特里娜",
+      "mentions": 6,
+      "firstChapter": 343,
+      "lastChapter": 753,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "道格拉斯微",
+      "mentions": 6,
+      "firstChapter": 353,
+      "lastChapter": 901,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "专注地",
+      "mentions": 6,
+      "firstChapter": 358,
+      "lastChapter": 885,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "路西恩低声",
+      "mentions": 6,
+      "firstChapter": 490,
+      "lastChapter": 822,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "本笃三世",
+      "mentions": 6,
+      "firstChapter": 569,
+      "lastChapter": 736,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "埃里克",
+      "mentions": 7,
+      "firstChapter": 214,
+      "lastChapter": 424,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(7)"
+      ]
+    },
+    {
+      "name": "雷克斯",
+      "mentions": 6,
+      "firstChapter": 368,
+      "lastChapter": 542,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(6)"
+      ]
+    },
+    {
+      "name": "一直",
+      "mentions": 5,
+      "firstChapter": 5,
+      "lastChapter": 649,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "严肃地",
+      "mentions": 5,
+      "firstChapter": 16,
+      "lastChapter": 830,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "认真地",
+      "mentions": 5,
+      "firstChapter": 23,
+      "lastChapter": 874,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩感",
+      "mentions": 5,
+      "firstChapter": 34,
+      "lastChapter": 645,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "又摇了",
+      "mentions": 5,
+      "firstChapter": 37,
+      "lastChapter": 842,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩礼貌地",
+      "mentions": 5,
+      "firstChapter": 46,
+      "lastChapter": 484,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "郑重地",
+      "mentions": 5,
+      "firstChapter": 50,
+      "lastChapter": 694,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩郑重地点了",
+      "mentions": 5,
+      "firstChapter": 78,
+      "lastChapter": 765,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "静静",
+      "mentions": 5,
+      "firstChapter": 81,
+      "lastChapter": 898,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩奇怪地",
+      "mentions": 5,
+      "firstChapter": 91,
+      "lastChapter": 804,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩摇头",
+      "mentions": 5,
+      "firstChapter": 94,
+      "lastChapter": 647,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩好笑地摇了",
+      "mentions": 5,
+      "firstChapter": 107,
+      "lastChapter": 779,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "莱茵呵呵",
+      "mentions": 5,
+      "firstChapter": 117,
+      "lastChapter": 631,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩好奇地",
+      "mentions": 5,
+      "firstChapter": 161,
+      "lastChapter": 544,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "回头",
+      "mentions": 5,
+      "firstChapter": 189,
+      "lastChapter": 622,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩忽然",
+      "mentions": 5,
+      "firstChapter": 222,
+      "lastChapter": 818,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "下意识",
+      "mentions": 5,
+      "firstChapter": 234,
+      "lastChapter": 912,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "笑着摇了",
+      "mentions": 5,
+      "firstChapter": 288,
+      "lastChapter": 875,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "费尔南多轻轻",
+      "mentions": 5,
+      "firstChapter": 335,
+      "lastChapter": 889,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "费尔南多忽然",
+      "mentions": 5,
+      "firstChapter": 359,
+      "lastChapter": 666,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "低声感",
+      "mentions": 5,
+      "firstChapter": 451,
+      "lastChapter": 722,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "布鲁克",
+      "mentions": 5,
+      "firstChapter": 453,
+      "lastChapter": 816,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "弗朗西斯",
+      "mentions": 5,
+      "firstChapter": 472,
+      "lastChapter": 503,
+      "chapterCount": 5,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "于是微微",
+      "mentions": 5,
+      "firstChapter": 44,
+      "lastChapter": 530,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩含笑",
+      "mentions": 5,
+      "firstChapter": 50,
+      "lastChapter": 213,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "阿里",
+      "mentions": 5,
+      "firstChapter": 725,
+      "lastChapter": 802,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "安诺德",
+      "mentions": 5,
+      "firstChapter": 874,
+      "lastChapter": 898,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "路西恩自嘲地",
+      "mentions": 4,
+      "firstChapter": 8,
+      "lastChapter": 812,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩郑重地",
+      "mentions": 4,
+      "firstChapter": 18,
+      "lastChapter": 732,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩伸",
+      "mentions": 4,
+      "firstChapter": 38,
+      "lastChapter": 810,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩关心地",
+      "mentions": 4,
+      "firstChapter": 47,
+      "lastChapter": 342,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "平静地",
+      "mentions": 4,
+      "firstChapter": 62,
+      "lastChapter": 218,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "安静地",
+      "mentions": 4,
+      "firstChapter": 78,
+      "lastChapter": 806,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩诚恳地",
+      "mentions": 4,
+      "firstChapter": 90,
+      "lastChapter": 719,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "似笑非笑地",
+      "mentions": 4,
+      "firstChapter": 94,
+      "lastChapter": 477,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩尴尬地",
+      "mentions": 4,
+      "firstChapter": 99,
+      "lastChapter": 574,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩温和",
+      "mentions": 4,
+      "firstChapter": 106,
+      "lastChapter": 311,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "莱茵点了",
+      "mentions": 4,
+      "firstChapter": 117,
+      "lastChapter": 645,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩静静",
+      "mentions": 4,
+      "firstChapter": 146,
+      "lastChapter": 282,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "凝重地",
+      "mentions": 4,
+      "firstChapter": 147,
+      "lastChapter": 853,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "目不转睛地",
+      "mentions": 4,
+      "firstChapter": 152,
+      "lastChapter": 847,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "安尼克",
+      "mentions": 4,
+      "firstChapter": 179,
+      "lastChapter": 667,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "死死",
+      "mentions": 4,
+      "firstChapter": 180,
+      "lastChapter": 367,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "拉扎尔",
+      "mentions": 4,
+      "firstChapter": 184,
+      "lastChapter": 579,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩皱了",
+      "mentions": 4,
+      "firstChapter": 185,
+      "lastChapter": 543,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "就像在",
+      "mentions": 4,
+      "firstChapter": 186,
+      "lastChapter": 793,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "讪讪",
+      "mentions": 4,
+      "firstChapter": 200,
+      "lastChapter": 880,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "加斯东",
+      "mentions": 4,
+      "firstChapter": 209,
+      "lastChapter": 531,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "坚定地摇了",
+      "mentions": 4,
+      "firstChapter": 215,
+      "lastChapter": 497,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "他一边",
+      "mentions": 4,
+      "firstChapter": 261,
+      "lastChapter": 836,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "面无表情地",
+      "mentions": 4,
+      "firstChapter": 298,
+      "lastChapter": 849,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "于是疑惑地",
+      "mentions": 4,
+      "firstChapter": 312,
+      "lastChapter": 749,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "目光",
+      "mentions": 4,
+      "firstChapter": 352,
+      "lastChapter": 839,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "怔怔地",
+      "mentions": 4,
+      "firstChapter": 369,
+      "lastChapter": 840,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "猛地",
+      "mentions": 4,
+      "firstChapter": 398,
+      "lastChapter": 834,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "詹姆斯公爵",
+      "mentions": 4,
+      "firstChapter": 421,
+      "lastChapter": 561,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "费尔南多嗤",
+      "mentions": 4,
+      "firstChapter": 424,
+      "lastChapter": 871,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "涅西卡",
+      "mentions": 4,
+      "firstChapter": 426,
+      "lastChapter": 651,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "费尔南多凝重地",
+      "mentions": 4,
+      "firstChapter": 539,
+      "lastChapter": 895,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩笑着",
+      "mentions": 4,
+      "firstChapter": 541,
+      "lastChapter": 806,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "道格拉斯笑着摇了",
+      "mentions": 4,
+      "firstChapter": 570,
+      "lastChapter": 790,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "自顾自地",
+      "mentions": 4,
+      "firstChapter": 582,
+      "lastChapter": 892,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "道格拉斯继续",
+      "mentions": 4,
+      "firstChapter": 583,
+      "lastChapter": 916,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "海蒂",
+      "mentions": 4,
+      "firstChapter": 662,
+      "lastChapter": 694,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩失",
+      "mentions": 4,
+      "firstChapter": 773,
+      "lastChapter": 826,
+      "chapterCount": 4,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "接着微微",
+      "mentions": 5,
+      "firstChapter": 664,
+      "lastChapter": 770,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(5)"
+      ]
+    },
+    {
+      "name": "汤姆",
+      "mentions": 4,
+      "firstChapter": 169,
+      "lastChapter": 181,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "路西恩幽默地",
+      "mentions": 4,
+      "firstChapter": 242,
+      "lastChapter": 767,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "海蒂微微",
+      "mentions": 4,
+      "firstChapter": 661,
+      "lastChapter": 663,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "尤里斯安",
+      "mentions": 4,
+      "firstChapter": 675,
+      "lastChapter": 752,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "维肯",
+      "mentions": 4,
+      "firstChapter": 744,
+      "lastChapter": 823,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "于是点",
+      "mentions": 3,
+      "firstChapter": 7,
+      "lastChapter": 185,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "开玩",
+      "mentions": 3,
+      "firstChapter": 15,
+      "lastChapter": 586,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "哈哈",
+      "mentions": 3,
+      "firstChapter": 15,
+      "lastChapter": 901,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩下意识地",
+      "mentions": 3,
+      "firstChapter": 17,
+      "lastChapter": 522,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "小声",
+      "mentions": 3,
+      "firstChapter": 20,
+      "lastChapter": 157,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "诚恳地",
+      "mentions": 3,
+      "firstChapter": 22,
+      "lastChapter": 173,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩表情严肃地",
+      "mentions": 3,
+      "firstChapter": 26,
+      "lastChapter": 804,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "约翰点了",
+      "mentions": 3,
+      "firstChapter": 37,
+      "lastChapter": 856,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "目光炯炯地",
+      "mentions": 3,
+      "firstChapter": 71,
+      "lastChapter": 846,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "满意地",
+      "mentions": 3,
+      "firstChapter": 96,
+      "lastChapter": 731,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "娜塔莎哈哈",
+      "mentions": 3,
+      "firstChapter": 99,
+      "lastChapter": 650,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "平和地",
+      "mentions": 3,
+      "firstChapter": 146,
+      "lastChapter": 899,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩轻",
+      "mentions": 3,
+      "firstChapter": 153,
+      "lastChapter": 758,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "费利佩",
+      "mentions": 3,
+      "firstChapter": 159,
+      "lastChapter": 543,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "深深地",
+      "mentions": 3,
+      "firstChapter": 168,
+      "lastChapter": 804,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "轻声",
+      "mentions": 3,
+      "firstChapter": 173,
+      "lastChapter": 829,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "安尼克摇了",
+      "mentions": 3,
+      "firstChapter": 174,
+      "lastChapter": 802,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "拉扎尔摇了",
+      "mentions": 3,
+      "firstChapter": 183,
+      "lastChapter": 359,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "拉扎尔呵呵",
+      "mentions": 3,
+      "firstChapter": 185,
+      "lastChapter": 345,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "远远",
+      "mentions": 3,
+      "firstChapter": 185,
+      "lastChapter": 711,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "路西恩正",
+      "mentions": 3,
+      "firstChapter": 224,
+      "lastChapter": 782,
+      "chapterCount": 3,
+      "markers": [
+        "人物行为/发言(3)"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "娜塔莎",
+      "target": "路西恩",
+      "mentions": 1436,
+      "firstChapter": 28,
+      "lastChapter": 843,
+      "markers": [
+        "同章共现(1297)",
+        "朋友(35)",
+        "老师(24)",
+        "保护(18)",
+        "父亲(16)",
+        "敌人(12)",
+        "学生(8)",
+        "追杀(8)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "路西恩",
+      "mentions": 597,
+      "firstChapter": 2,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(532)",
+        "老师(29)",
+        "朋友(9)",
+        "学生(5)",
+        "追杀(4)",
+        "敌人(4)",
+        "保护(4)",
+        "合作(2)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "路西恩",
+      "mentions": 537,
+      "firstChapter": 9,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(472)",
+        "老师(29)",
+        "学生(12)",
+        "朋友(9)",
+        "保护(4)",
+        "敌人(4)",
+        "追杀(2)",
+        "合作(2)"
+      ]
+    },
+    {
+      "source": "费尔南多",
+      "target": "路西恩",
+      "mentions": 500,
+      "firstChapter": 200,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(391)",
+        "老师(83)",
+        "学生(24)",
+        "弟子(3)",
+        "朋友(2)",
+        "保护(2)",
+        "合作(2)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "路西恩",
+      "mentions": 482,
+      "firstChapter": 2,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(444)",
+        "老师(17)",
+        "朋友(6)",
+        "学生(6)",
+        "合作(2)",
+        "命令(2)",
+        "丈夫(2)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "莱茵",
+      "target": "路西恩",
+      "mentions": 447,
+      "firstChapter": 9,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(420)",
+        "老师(8)",
+        "朋友(5)",
+        "敌人(5)",
+        "学生(4)",
+        "母亲(2)",
+        "合作(2)",
+        "追杀(2)"
+      ]
+    },
+    {
+      "source": "费尔南多",
+      "target": "道格拉斯",
+      "mentions": 423,
+      "firstChapter": 220,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(377)",
+        "老师(15)",
+        "合作(11)",
+        "学生(8)",
+        "朋友(5)",
+        "敌人(2)",
+        "队长(2)",
+        "命令(2)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "路西恩",
+      "mentions": 369,
+      "firstChapter": 7,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(344)",
+        "老师(10)",
+        "朋友(8)",
+        "学生(4)",
+        "父亲(2)",
+        "同伴(1)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "路西恩",
+      "mentions": 363,
+      "firstChapter": 2,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(343)",
+        "学生(5)",
+        "老师(4)",
+        "朋友(4)",
+        "保护(3)",
+        "背叛(2)",
+        "敌人(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "路西恩",
+      "mentions": 355,
+      "firstChapter": 1,
+      "lastChapter": 843,
+      "markers": [
+        "同章共现(311)",
+        "老师(19)",
+        "学生(9)",
+        "父亲(5)",
+        "保护(4)",
+        "敌人(3)",
+        "朋友(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "继续",
+      "target": "路西恩",
+      "mentions": 354,
+      "firstChapter": 2,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(328)",
+        "老师(6)",
+        "学生(5)",
+        "朋友(5)",
+        "敌人(3)",
+        "父亲(1)",
+        "女儿(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "道格拉斯",
+      "mentions": 346,
+      "firstChapter": 24,
+      "lastChapter": 855,
+      "markers": [
+        "同章共现(308)",
+        "老师(18)",
+        "学生(10)",
+        "合作(4)",
+        "朋友(3)",
+        "对手(2)",
+        "敌人(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "路西恩",
+      "mentions": 338,
+      "firstChapter": 8,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(310)",
+        "老师(10)",
+        "朋友(4)",
+        "保护(4)",
+        "学生(4)",
+        "追杀(2)",
+        "同伴(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "路西恩",
+      "mentions": 333,
+      "firstChapter": 2,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(313)",
+        "保护(5)",
+        "老师(5)",
+        "朋友(4)",
+        "学生(2)",
+        "同伴(1)",
+        "母亲(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "轻轻",
+      "mentions": 330,
+      "firstChapter": 4,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(306)",
+        "老师(8)",
+        "朋友(6)",
+        "学生(3)",
+        "弟子(2)",
+        "父亲(2)",
+        "保护(2)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "而是",
+      "target": "路西恩",
+      "mentions": 328,
+      "firstChapter": 5,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(293)",
+        "老师(10)",
+        "学生(6)",
+        "保护(5)",
+        "朋友(4)",
+        "敌人(3)",
+        "命令(3)",
+        "追杀(2)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "路西恩",
+      "mentions": 304,
+      "firstChapter": 4,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(286)",
+        "老师(7)",
+        "朋友(2)",
+        "敌人(2)",
+        "合作(2)",
+        "同伴(1)",
+        "妻子(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩微",
+      "mentions": 245,
+      "firstChapter": 4,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(223)",
+        "老师(10)",
+        "学生(5)",
+        "朋友(4)",
+        "保护(1)",
+        "同伴(1)",
+        "妻子(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "路西恩",
+      "mentions": 205,
+      "firstChapter": 12,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(183)",
+        "老师(6)",
+        "朋友(4)",
+        "父亲(3)",
+        "学生(2)",
+        "保护(2)",
+        "敌人(2)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "路西恩",
+      "mentions": 203,
+      "firstChapter": 10,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(173)",
+        "老师(8)",
+        "朋友(5)",
+        "学生(5)",
+        "敌人(3)",
+        "保护(2)",
+        "合作(2)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "仔细",
+      "target": "路西恩",
+      "mentions": 194,
+      "firstChapter": 2,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(179)",
+        "老师(7)",
+        "朋友(3)",
+        "父亲(1)",
+        "弟子(1)",
+        "同伴(1)",
+        "学生(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "海瑟薇",
+      "target": "费尔南多",
+      "mentions": 179,
+      "firstChapter": 220,
+      "lastChapter": 916,
+      "markers": [
+        "同章共现(164)",
+        "学生(5)",
+        "老师(5)",
+        "合作(3)",
+        "弟子(1)",
+        "妻子(1)",
+        "父亲(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "海瑟薇",
+      "target": "路西恩",
+      "mentions": 176,
+      "firstChapter": 171,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(137)",
+        "老师(22)",
+        "学生(5)",
+        "弟子(2)",
+        "母亲(2)",
+        "父亲(2)",
+        "敌人(2)",
+        "保护(2)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "路西恩微",
+      "mentions": 166,
+      "firstChapter": 9,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(149)",
+        "老师(8)",
+        "朋友(4)",
+        "学生(4)",
+        "保护(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "路西恩",
+      "mentions": 155,
+      "firstChapter": 43,
+      "lastChapter": 824,
+      "markers": [
+        "同章共现(136)",
+        "老师(10)",
+        "合作(3)",
+        "妻子(2)",
+        "学生(2)",
+        "丈夫(1)",
+        "敌人(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩微笑",
+      "mentions": 152,
+      "firstChapter": 9,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(137)",
+        "老师(6)",
+        "朋友(4)",
+        "学生(4)",
+        "保护(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "路西恩微",
+      "target": "路西恩微笑",
+      "mentions": 152,
+      "firstChapter": 9,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(137)",
+        "老师(6)",
+        "朋友(4)",
+        "学生(4)",
+        "保护(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "路西恩微笑",
+      "mentions": 151,
+      "firstChapter": 9,
+      "lastChapter": 825,
+      "markers": [
+        "同章共现(136)",
+        "老师(6)",
+        "朋友(4)",
+        "学生(4)",
+        "保护(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "疑惑地",
+      "target": "路西恩",
+      "mentions": 145,
+      "firstChapter": 2,
+      "lastChapter": 789,
+      "markers": [
+        "同章共现(132)",
+        "老师(5)",
+        "朋友(2)",
+        "合作(2)",
+        "学生(1)",
+        "保护(1)",
+        "下属(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "下意识",
+      "target": "路西恩",
+      "mentions": 136,
+      "firstChapter": 3,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(130)",
+        "老师(3)",
+        "保护(1)",
+        "师父(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "海瑟薇",
+      "target": "道格拉斯",
+      "mentions": 131,
+      "firstChapter": 220,
+      "lastChapter": 916,
+      "markers": [
+        "同章共现(124)",
+        "老师(2)",
+        "合作(2)",
+        "对手(1)",
+        "妻子(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "拉文第",
+      "target": "路西恩",
+      "mentions": 121,
+      "firstChapter": 210,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(109)",
+        "老师(7)",
+        "学生(3)",
+        "丈夫(2)",
+        "朋友(1)",
+        "保护(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩一边",
+      "mentions": 116,
+      "firstChapter": 2,
+      "lastChapter": 809,
+      "markers": [
+        "同章共现(112)",
+        "老师(2)",
+        "保护(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "路西恩一边",
+      "mentions": 116,
+      "firstChapter": 2,
+      "lastChapter": 809,
+      "markers": [
+        "同章共现(112)",
+        "老师(2)",
+        "保护(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "弗朗西斯",
+      "target": "路西恩",
+      "mentions": 111,
+      "firstChapter": 411,
+      "lastChapter": 720,
+      "markers": [
+        "同章共现(103)",
+        "追杀(3)",
+        "同伴(1)",
+        "兄弟(1)",
+        "姐妹(1)",
+        "敌人(1)",
+        "命令(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "埃里克",
+      "target": "路西恩",
+      "mentions": 110,
+      "firstChapter": 136,
+      "lastChapter": 442,
+      "markers": [
+        "同章共现(109)",
+        "老师(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "直接",
+      "mentions": 105,
+      "firstChapter": 77,
+      "lastChapter": 765,
+      "markers": [
+        "同章共现(94)",
+        "朋友(3)",
+        "老师(3)",
+        "父亲(2)",
+        "背叛(1)",
+        "保护(1)",
+        "对手(1)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "静静",
+      "mentions": 104,
+      "firstChapter": 15,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(98)",
+        "保护(2)",
+        "合作(2)",
+        "朋友(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "赶紧",
+      "target": "路西恩",
+      "mentions": 104,
+      "firstChapter": 23,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(90)",
+        "老师(11)",
+        "朋友(2)",
+        "队长(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩忽然",
+      "mentions": 103,
+      "firstChapter": 7,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(94)",
+        "老师(4)",
+        "学生(3)",
+        "朋友(3)",
+        "命令(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "路西恩忽然",
+      "mentions": 103,
+      "firstChapter": 7,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(94)",
+        "老师(4)",
+        "学生(3)",
+        "朋友(3)",
+        "命令(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "温和",
+      "target": "路西恩",
+      "mentions": 102,
+      "firstChapter": 12,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(91)",
+        "朋友(6)",
+        "学生(2)",
+        "老师(2)",
+        "母亲(1)",
+        "敌人(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "布鲁克",
+      "target": "路西恩",
+      "mentions": 102,
+      "firstChapter": 169,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(85)",
+        "老师(10)",
+        "学生(4)",
+        "朋友(2)",
+        "敌人(2)",
+        "对手(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩轻轻",
+      "mentions": 101,
+      "firstChapter": 9,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(97)",
+        "父亲(2)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩轻轻",
+      "target": "轻轻",
+      "mentions": 101,
+      "firstChapter": 9,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(97)",
+        "父亲(2)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "低声",
+      "target": "路西恩",
+      "mentions": 100,
+      "firstChapter": 4,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(92)",
+        "朋友(4)",
+        "老师(2)",
+        "学生(1)",
+        "父亲(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "布鲁克",
+      "target": "道格拉斯",
+      "mentions": 100,
+      "firstChapter": 220,
+      "lastChapter": 815,
+      "markers": [
+        "同章共现(88)",
+        "学生(6)",
+        "老师(3)",
+        "背叛(1)",
+        "敌人(1)",
+        "对手(1)",
+        "妻子(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "认真地",
+      "target": "路西恩",
+      "mentions": 94,
+      "firstChapter": 2,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(87)",
+        "敌人(2)",
+        "老师(2)",
+        "学生(1)",
+        "朋友(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩微微",
+      "mentions": 88,
+      "firstChapter": 4,
+      "lastChapter": 754,
+      "markers": [
+        "同章共现(81)",
+        "老师(4)",
+        "同伴(1)",
+        "妻子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "路西恩微",
+      "mentions": 88,
+      "firstChapter": 4,
+      "lastChapter": 754,
+      "markers": [
+        "同章共现(81)",
+        "老师(4)",
+        "同伴(1)",
+        "妻子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "路西恩微",
+      "target": "路西恩微微",
+      "mentions": 88,
+      "firstChapter": 4,
+      "lastChapter": 754,
+      "markers": [
+        "同章共现(81)",
+        "老师(4)",
+        "同伴(1)",
+        "妻子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "路西恩微微",
+      "mentions": 88,
+      "firstChapter": 4,
+      "lastChapter": 754,
+      "markers": [
+        "同章共现(81)",
+        "老师(4)",
+        "同伴(1)",
+        "妻子(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "接着",
+      "mentions": 82,
+      "firstChapter": 82,
+      "lastChapter": 804,
+      "markers": [
+        "同章共现(75)",
+        "朋友(3)",
+        "保护(2)",
+        "父亲(1)",
+        "学生(1)",
+        "追杀(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "好奇地",
+      "target": "路西恩",
+      "mentions": 81,
+      "firstChapter": 2,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(66)",
+        "老师(11)",
+        "学生(2)",
+        "丈夫(1)",
+        "合作(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "说着",
+      "target": "路西恩",
+      "mentions": 81,
+      "firstChapter": 4,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(74)",
+        "老师(5)",
+        "学生(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "静静",
+      "target": "静静地",
+      "mentions": 77,
+      "firstChapter": 1,
+      "lastChapter": 912,
+      "markers": [
+        "同章共现(74)",
+        "合作(2)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "费尔南多",
+      "mentions": 76,
+      "firstChapter": 201,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(62)",
+        "老师(9)",
+        "追杀(2)",
+        "敌人(1)",
+        "学生(1)",
+        "交易(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "而是",
+      "mentions": 73,
+      "firstChapter": 38,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(64)",
+        "老师(2)",
+        "敌人(1)",
+        "父亲(1)",
+        "学生(1)",
+        "儿子(1)",
+        "朋友(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩感",
+      "mentions": 69,
+      "firstChapter": 7,
+      "lastChapter": 785,
+      "markers": [
+        "同章共现(64)",
+        "老师(4)",
+        "保护(2)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "娜塔莎",
+      "mentions": 68,
+      "firstChapter": 96,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(63)",
+        "保护(2)",
+        "朋友(1)",
+        "老师(1)",
+        "命令(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "海瑟薇",
+      "mentions": 67,
+      "firstChapter": 171,
+      "lastChapter": 765,
+      "markers": [
+        "同章共现(53)",
+        "老师(5)",
+        "保护(4)",
+        "父亲(3)",
+        "弟子(1)",
+        "母亲(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "道格拉斯",
+      "mentions": 67,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(61)",
+        "老师(1)",
+        "丈夫(1)",
+        "妻子(1)",
+        "学生(1)",
+        "敌人(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩点了",
+      "mentions": 66,
+      "firstChapter": 7,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(60)",
+        "老师(3)",
+        "学生(1)",
+        "保护(1)",
+        "下属(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "娜塔莎",
+      "mentions": 66,
+      "firstChapter": 18,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(59)",
+        "老师(3)",
+        "朋友(1)",
+        "队长(1)",
+        "盟友(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "微笑",
+      "mentions": 66,
+      "firstChapter": 58,
+      "lastChapter": 785,
+      "markers": [
+        "同章共现(58)",
+        "朋友(2)",
+        "女儿(2)",
+        "老师(2)",
+        "父亲(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "回头",
+      "target": "路西恩",
+      "mentions": 65,
+      "firstChapter": 11,
+      "lastChapter": 805,
+      "markers": [
+        "同章共现(62)",
+        "学生(1)",
+        "儿子(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "随口",
+      "mentions": 63,
+      "firstChapter": 12,
+      "lastChapter": 787,
+      "markers": [
+        "同章共现(57)",
+        "老师(4)",
+        "学生(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "布鲁克",
+      "target": "费尔南多",
+      "mentions": 63,
+      "firstChapter": 220,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(59)",
+        "老师(1)",
+        "妻子(1)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "费尔南多",
+      "mentions": 62,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(54)",
+        "老师(3)",
+        "学生(2)",
+        "合作(2)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "布鲁克",
+      "target": "海瑟薇",
+      "mentions": 62,
+      "firstChapter": 220,
+      "lastChapter": 818,
+      "markers": [
+        "同章共现(58)",
+        "老师(2)",
+        "对手(1)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "笑着摇了",
+      "mentions": 61,
+      "firstChapter": 28,
+      "lastChapter": 875,
+      "markers": [
+        "同章共现(55)",
+        "学生(1)",
+        "父亲(1)",
+        "合作(1)",
+        "敌人(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "忽然",
+      "mentions": 61,
+      "firstChapter": 64,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(59)",
+        "父亲(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "嘿嘿",
+      "target": "娜塔莎",
+      "mentions": 61,
+      "firstChapter": 65,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(55)",
+        "老师(2)",
+        "学生(1)",
+        "朋友(1)",
+        "父亲(1)",
+        "敌人(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "含笑",
+      "target": "路西恩",
+      "mentions": 60,
+      "firstChapter": 47,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(53)",
+        "老师(4)",
+        "合作(1)",
+        "朋友(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "嘿嘿",
+      "target": "路西恩",
+      "mentions": 60,
+      "firstChapter": 52,
+      "lastChapter": 826,
+      "markers": [
+        "同章共现(51)",
+        "老师(4)",
+        "朋友(3)",
+        "学生(1)",
+        "同伴(1)",
+        "背叛(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "严肃地",
+      "target": "路西恩",
+      "mentions": 59,
+      "firstChapter": 4,
+      "lastChapter": 814,
+      "markers": [
+        "同章共现(48)",
+        "老师(6)",
+        "朋友(2)",
+        "学生(1)",
+        "父亲(1)",
+        "同伴(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩摇了",
+      "mentions": 59,
+      "firstChapter": 16,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(52)",
+        "保护(2)",
+        "朋友(1)",
+        "对手(1)",
+        "敌人(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "路西恩摇了",
+      "mentions": 59,
+      "firstChapter": 16,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(52)",
+        "保护(2)",
+        "朋友(1)",
+        "对手(1)",
+        "敌人(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "微微",
+      "mentions": 59,
+      "firstChapter": 64,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(54)",
+        "敌人(1)",
+        "朋友(1)",
+        "女儿(1)",
+        "保护(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "娜塔莎",
+      "mentions": 58,
+      "firstChapter": 65,
+      "lastChapter": 843,
+      "markers": [
+        "同章共现(47)",
+        "父亲(4)",
+        "保护(3)",
+        "母亲(2)",
+        "敌人(1)",
+        "朋友(1)",
+        "背叛(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩疑惑地",
+      "mentions": 57,
+      "firstChapter": 12,
+      "lastChapter": 789,
+      "markers": [
+        "同章共现(54)",
+        "下属(1)",
+        "老师(1)",
+        "母亲(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "疑惑地",
+      "target": "路西恩疑惑地",
+      "mentions": 57,
+      "firstChapter": 12,
+      "lastChapter": 789,
+      "markers": [
+        "同章共现(54)",
+        "下属(1)",
+        "老师(1)",
+        "母亲(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "继续",
+      "mentions": 57,
+      "firstChapter": 57,
+      "lastChapter": 804,
+      "markers": [
+        "同章共现(52)",
+        "朋友(2)",
+        "父亲(1)",
+        "队长(1)",
+        "背叛(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "布鲁克",
+      "mentions": 57,
+      "firstChapter": 220,
+      "lastChapter": 821,
+      "markers": [
+        "同章共现(53)",
+        "老师(2)",
+        "妻子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "费尔南多",
+      "target": "轻轻",
+      "mentions": 57,
+      "firstChapter": 330,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(48)",
+        "学生(5)",
+        "老师(4)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "轻轻",
+      "mentions": 56,
+      "firstChapter": 65,
+      "lastChapter": 764,
+      "markers": [
+        "同章共现(50)",
+        "朋友(3)",
+        "老师(1)",
+        "合作(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "微笑",
+      "mentions": 55,
+      "firstChapter": 46,
+      "lastChapter": 838,
+      "markers": [
+        "同章共现(45)",
+        "老师(5)",
+        "儿子(1)",
+        "合作(1)",
+        "朋友(1)",
+        "父亲(1)",
+        "女儿(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "卡特里娜",
+      "target": "路西恩",
+      "mentions": 54,
+      "firstChapter": 171,
+      "lastChapter": 749,
+      "markers": [
+        "同章共现(37)",
+        "老师(10)",
+        "学生(6)",
+        "同伴(2)",
+        "朋友(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "安诺德",
+      "target": "道格拉斯",
+      "mentions": 53,
+      "firstChapter": 873,
+      "lastChapter": 898,
+      "markers": [
+        "同章共现(46)",
+        "合作(5)",
+        "学生(1)",
+        "朋友(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "而是",
+      "mentions": 52,
+      "firstChapter": 65,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(45)",
+        "保护(3)",
+        "朋友(1)",
+        "母亲(1)",
+        "老师(1)",
+        "命令(1)",
+        "对手(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "道格拉斯",
+      "mentions": 51,
+      "firstChapter": 351,
+      "lastChapter": 916,
+      "markers": [
+        "同章共现(45)",
+        "老师(2)",
+        "敌人(2)",
+        "朋友(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "道格拉斯",
+      "mentions": 49,
+      "firstChapter": 170,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(43)",
+        "老师(4)",
+        "学生(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩继续",
+      "mentions": 48,
+      "firstChapter": 7,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(44)",
+        "朋友(1)",
+        "敌人(1)",
+        "命令(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "继续",
+      "target": "路西恩继续",
+      "mentions": 48,
+      "firstChapter": 7,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(44)",
+        "朋友(1)",
+        "敌人(1)",
+        "命令(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "费尔南多",
+      "mentions": 48,
+      "firstChapter": 220,
+      "lastChapter": 893,
+      "markers": [
+        "同章共现(38)",
+        "老师(4)",
+        "学生(3)",
+        "合作(3)",
+        "敌人(1)",
+        "保护(1)",
+        "父亲(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "克托尼亚",
+      "target": "娜塔莎",
+      "mentions": 47,
+      "firstChapter": 510,
+      "lastChapter": 615,
+      "markers": [
+        "同章共现(44)",
+        "朋友(1)",
+        "敌人(1)",
+        "学生(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "安诺德",
+      "target": "费尔南多",
+      "mentions": 46,
+      "firstChapter": 873,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(38)",
+        "合作(5)",
+        "学生(1)",
+        "朋友(1)",
+        "命令(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "笑着摇了",
+      "target": "路西恩",
+      "mentions": 44,
+      "firstChapter": 28,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(38)",
+        "学生(1)",
+        "父亲(1)",
+        "合作(1)",
+        "敌人(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "奥利弗",
+      "target": "海瑟薇",
+      "mentions": 44,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(39)",
+        "老师(2)",
+        "学生(1)",
+        "妻子(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "道格拉斯",
+      "mentions": 44,
+      "firstChapter": 220,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(39)",
+        "弟子(1)",
+        "敌人(1)",
+        "朋友(1)",
+        "背叛(1)",
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "轻轻",
+      "target": "道格拉斯",
+      "mentions": 44,
+      "firstChapter": 220,
+      "lastChapter": 917,
+      "markers": [
+        "同章共现(39)",
+        "老师(1)",
+        "学生(1)",
+        "合作(1)",
+        "追杀(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "继续",
+      "target": "费尔南多",
+      "mentions": 44,
+      "firstChapter": 330,
+      "lastChapter": 893,
+      "markers": [
+        "同章共现(39)",
+        "学生(4)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "道格拉斯",
+      "mentions": 44,
+      "firstChapter": 342,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(42)",
+        "同伴(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "平静地",
+      "target": "路西恩",
+      "mentions": 43,
+      "firstChapter": 12,
+      "lastChapter": 673,
+      "markers": [
+        "同章共现(39)",
+        "朋友(1)",
+        "追杀(1)",
+        "儿子(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "奇怪地",
+      "target": "路西恩",
+      "mentions": 43,
+      "firstChapter": 12,
+      "lastChapter": 804,
+      "markers": [
+        "同章共现(39)",
+        "老师(3)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "费尔南多",
+      "mentions": 43,
+      "firstChapter": 311,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(36)",
+        "老师(5)",
+        "敌人(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "直接",
+      "mentions": 42,
+      "firstChapter": 5,
+      "lastChapter": 893,
+      "markers": [
+        "同章共现(37)",
+        "老师(2)",
+        "兄弟(1)",
+        "姐妹(1)",
+        "丈夫(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "轻轻",
+      "target": "轻轻点了",
+      "mentions": 42,
+      "firstChapter": 42,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(38)",
+        "学生(2)",
+        "保护(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "而是",
+      "target": "费尔南多",
+      "mentions": 42,
+      "firstChapter": 327,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(38)",
+        "学生(2)",
+        "老师(2)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "道格拉斯",
+      "mentions": 40,
+      "firstChapter": 117,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(35)",
+        "学生(2)",
+        "弟子(1)",
+        "丈夫(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "费尔南多",
+      "mentions": 40,
+      "firstChapter": 328,
+      "lastChapter": 914,
+      "markers": [
+        "同章共现(35)",
+        "学生(3)",
+        "老师(2)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "克托尼亚",
+      "target": "路西恩",
+      "mentions": 40,
+      "firstChapter": 515,
+      "lastChapter": 615,
+      "markers": [
+        "同章共现(35)",
+        "敌人(2)",
+        "保护(1)",
+        "学生(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "静静地",
+      "mentions": 39,
+      "firstChapter": 15,
+      "lastChapter": 810,
+      "markers": [
+        "同章共现(37)",
+        "合作(2)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "娜塔莎",
+      "mentions": 39,
+      "firstChapter": 57,
+      "lastChapter": 760,
+      "markers": [
+        "同章共现(35)",
+        "女儿(1)",
+        "朋友(1)",
+        "敌人(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "忽然",
+      "mentions": 38,
+      "firstChapter": 15,
+      "lastChapter": 735,
+      "markers": [
+        "同章共现(34)",
+        "老师(2)",
+        "朋友(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "莱茵",
+      "mentions": 37,
+      "firstChapter": 9,
+      "lastChapter": 797,
+      "markers": [
+        "同章共现(35)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "短暂的",
+      "target": "路西恩",
+      "mentions": 37,
+      "firstChapter": 25,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(36)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "摇了",
+      "mentions": 37,
+      "firstChapter": 28,
+      "lastChapter": 758,
+      "markers": [
+        "同章共现(33)",
+        "父亲(2)",
+        "学生(1)",
+        "对手(1)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "费尔南多",
+      "mentions": 36,
+      "firstChapter": 330,
+      "lastChapter": 913,
+      "markers": [
+        "同章共现(33)",
+        "弟子(1)",
+        "合作(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "费尔南多",
+      "mentions": 36,
+      "firstChapter": 336,
+      "lastChapter": 914,
+      "markers": [
+        "同章共现(34)",
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "而是",
+      "target": "道格拉斯",
+      "mentions": 35,
+      "firstChapter": 323,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(33)",
+        "朋友(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩好笑地",
+      "mentions": 34,
+      "firstChapter": 9,
+      "lastChapter": 806,
+      "markers": [
+        "同章共现(32)",
+        "学生(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "娜塔莎",
+      "mentions": 34,
+      "firstChapter": 78,
+      "lastChapter": 797,
+      "markers": [
+        "同章共现(27)",
+        "老师(2)",
+        "保护(2)",
+        "敌人(1)",
+        "朋友(1)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "直接",
+      "mentions": 34,
+      "firstChapter": 108,
+      "lastChapter": 879,
+      "markers": [
+        "同章共现(28)",
+        "老师(2)",
+        "敌人(1)",
+        "朋友(1)",
+        "丈夫(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "道格拉斯",
+      "mentions": 34,
+      "firstChapter": 199,
+      "lastChapter": 879,
+      "markers": [
+        "同章共现(31)",
+        "对手(1)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "费尔南多",
+      "mentions": 33,
+      "firstChapter": 334,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(30)",
+        "学生(1)",
+        "合作(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "郑重地",
+      "mentions": 32,
+      "firstChapter": 12,
+      "lastChapter": 765,
+      "markers": [
+        "同章共现(30)",
+        "命令(1)",
+        "老师(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "再次",
+      "mentions": 32,
+      "firstChapter": 30,
+      "lastChapter": 847,
+      "markers": [
+        "同章共现(30)",
+        "老师(1)",
+        "学生(1)",
+        "背叛(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "疑惑地",
+      "mentions": 32,
+      "firstChapter": 64,
+      "lastChapter": 816,
+      "markers": [
+        "同章共现(28)",
+        "朋友(2)",
+        "母亲(1)",
+        "合作(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "道格拉斯",
+      "target": "道格拉斯微",
+      "mentions": 32,
+      "firstChapter": 342,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(31)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "莱茵",
+      "mentions": 31,
+      "firstChapter": 9,
+      "lastChapter": 784,
+      "markers": [
+        "同章共现(30)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "接着",
+      "mentions": 30,
+      "firstChapter": 101,
+      "lastChapter": 871,
+      "markers": [
+        "同章共现(29)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "费尔南多",
+      "mentions": 30,
+      "firstChapter": 246,
+      "lastChapter": 893,
+      "markers": [
+        "同章共现(27)",
+        "老师(2)",
+        "保护(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "道格拉斯",
+      "mentions": 30,
+      "firstChapter": 336,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(26)",
+        "敌人(1)",
+        "保护(1)",
+        "老师(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "费尔南多",
+      "mentions": 30,
+      "firstChapter": 338,
+      "lastChapter": 894,
+      "markers": [
+        "同章共现(26)",
+        "学生(2)",
+        "合作(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "莱茵",
+      "mentions": 29,
+      "firstChapter": 21,
+      "lastChapter": 783,
+      "markers": [
+        "同章共现(24)",
+        "保护(1)",
+        "追杀(1)",
+        "敌人(1)",
+        "朋友(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "继续",
+      "target": "而是",
+      "mentions": 29,
+      "firstChapter": 22,
+      "lastChapter": 870,
+      "markers": [
+        "同章共现(26)",
+        "朋友(1)",
+        "学生(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩笑着摇了",
+      "mentions": 29,
+      "firstChapter": 45,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(26)",
+        "父亲(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "路西恩笑着摇了",
+      "mentions": 29,
+      "firstChapter": 45,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(26)",
+        "父亲(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "笑着摇了",
+      "target": "路西恩笑着摇了",
+      "mentions": 29,
+      "firstChapter": 45,
+      "lastChapter": 786,
+      "markers": [
+        "同章共现(26)",
+        "父亲(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "继续",
+      "target": "道格拉斯",
+      "mentions": 29,
+      "firstChapter": 153,
+      "lastChapter": 916,
+      "markers": [
+        "同章共现(25)",
+        "敌人(1)",
+        "下属(1)",
+        "同伴(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩呵呵",
+      "mentions": 29,
+      "firstChapter": 174,
+      "lastChapter": 812,
+      "markers": [
+        "同章共现(27)",
+        "追杀(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "路西恩呵呵",
+      "mentions": 29,
+      "firstChapter": 174,
+      "lastChapter": 812,
+      "markers": [
+        "同章共现(27)",
+        "追杀(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "直接",
+      "mentions": 28,
+      "firstChapter": 19,
+      "lastChapter": 849,
+      "markers": [
+        "同章共现(26)",
+        "保护(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "道格拉斯",
+      "mentions": 28,
+      "firstChapter": 197,
+      "lastChapter": 916,
+      "markers": [
+        "同章共现(25)",
+        "老师(2)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "仔细",
+      "target": "费尔南多",
+      "mentions": 28,
+      "firstChapter": 334,
+      "lastChapter": 911,
+      "markers": [
+        "同章共现(24)",
+        "老师(2)",
+        "朋友(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "接着",
+      "mentions": 27,
+      "firstChapter": 65,
+      "lastChapter": 871,
+      "markers": [
+        "同章共现(27)"
+      ]
+    },
+    {
+      "source": "海瑟薇",
+      "target": "直接",
+      "mentions": 27,
+      "firstChapter": 231,
+      "lastChapter": 916,
+      "markers": [
+        "同章共现(24)",
+        "老师(2)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "呵呵",
+      "mentions": 26,
+      "firstChapter": 14,
+      "lastChapter": 855,
+      "markers": [
+        "同章共现(19)",
+        "朋友(3)",
+        "弟子(1)",
+        "学生(1)",
+        "敌人(1)",
+        "父亲(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "专注地",
+      "target": "路西恩",
+      "mentions": 26,
+      "firstChapter": 85,
+      "lastChapter": 725,
+      "markers": [
+        "同章共现(23)",
+        "背叛(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "微笑",
+      "mentions": 26,
+      "firstChapter": 97,
+      "lastChapter": 813,
+      "markers": [
+        "同章共现(22)",
+        "老师(2)",
+        "合作(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "忽然",
+      "mentions": 26,
+      "firstChapter": 104,
+      "lastChapter": 845,
+      "markers": [
+        "同章共现(26)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "费尔南多",
+      "mentions": 26,
+      "firstChapter": 311,
+      "lastChapter": 827,
+      "markers": [
+        "同章共现(22)",
+        "老师(2)",
+        "父亲(1)",
+        "学生(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "低声",
+      "target": "费尔南多",
+      "mentions": 26,
+      "firstChapter": 329,
+      "lastChapter": 890,
+      "markers": [
+        "同章共现(24)",
+        "背叛(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "道格拉斯",
+      "mentions": 26,
+      "firstChapter": 432,
+      "lastChapter": 902,
+      "markers": [
+        "同章共现(22)",
+        "合作(2)",
+        "命令(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "大声",
+      "target": "路西恩",
+      "mentions": 25,
+      "firstChapter": 3,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(23)",
+        "学生(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "接着",
+      "mentions": 25,
+      "firstChapter": 19,
+      "lastChapter": 817,
+      "markers": [
+        "同章共现(25)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "莱茵",
+      "mentions": 25,
+      "firstChapter": 49,
+      "lastChapter": 784,
+      "markers": [
+        "同章共现(23)",
+        "老师(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "拉文第",
+      "target": "直接",
+      "mentions": 25,
+      "firstChapter": 211,
+      "lastChapter": 605,
+      "markers": [
+        "同章共现(24)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "继续",
+      "mentions": 24,
+      "firstChapter": 7,
+      "lastChapter": 893,
+      "markers": [
+        "同章共现(23)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "继续",
+      "mentions": 24,
+      "firstChapter": 20,
+      "lastChapter": 914,
+      "markers": [
+        "同章共现(22)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "微笑",
+      "mentions": 24,
+      "firstChapter": 59,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(23)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩认真地",
+      "mentions": 23,
+      "firstChapter": 9,
+      "lastChapter": 599,
+      "markers": [
+        "同章共现(20)",
+        "敌人(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "认真地",
+      "target": "路西恩认真地",
+      "mentions": 23,
+      "firstChapter": 9,
+      "lastChapter": 599,
+      "markers": [
+        "同章共现(20)",
+        "敌人(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "仔细",
+      "mentions": 23,
+      "firstChapter": 22,
+      "lastChapter": 910,
+      "markers": [
+        "同章共现(22)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "直接",
+      "mentions": 23,
+      "firstChapter": 55,
+      "lastChapter": 845,
+      "markers": [
+        "同章共现(22)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "轻轻",
+      "target": "道格拉斯轻轻",
+      "mentions": 23,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(21)",
+        "合作(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "海瑟薇",
+      "target": "轻轻",
+      "mentions": 23,
+      "firstChapter": 220,
+      "lastChapter": 902,
+      "markers": [
+        "同章共现(21)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "道格拉斯",
+      "target": "道格拉斯轻轻",
+      "mentions": 23,
+      "firstChapter": 220,
+      "lastChapter": 915,
+      "markers": [
+        "同章共现(21)",
+        "合作(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "雷克斯",
+      "mentions": 23,
+      "firstChapter": 509,
+      "lastChapter": 567,
+      "markers": [
+        "同章共现(22)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "直接",
+      "mentions": 22,
+      "firstChapter": 17,
+      "lastChapter": 830,
+      "markers": [
+        "同章共现(19)",
+        "学生(1)",
+        "保护(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "直接",
+      "mentions": 22,
+      "firstChapter": 19,
+      "lastChapter": 912,
+      "markers": [
+        "同章共现(19)",
+        "父亲(1)",
+        "老师(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "于是",
+      "mentions": 22,
+      "firstChapter": 29,
+      "lastChapter": 904,
+      "markers": [
+        "同章共现(19)",
+        "老师(2)",
+        "同伴(1)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "莱茵",
+      "mentions": 22,
+      "firstChapter": 108,
+      "lastChapter": 827,
+      "markers": [
+        "同章共现(18)",
+        "老师(2)",
+        "母亲(1)",
+        "敌人(1)",
+        "合作(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "继续",
+      "mentions": 22,
+      "firstChapter": 127,
+      "lastChapter": 885,
+      "markers": [
+        "同章共现(20)",
+        "老师(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "道格拉斯",
+      "mentions": 22,
+      "firstChapter": 432,
+      "lastChapter": 878,
+      "markers": [
+        "同章共现(20)",
+        "敌人(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "本笃三世",
+      "target": "道格拉斯",
+      "mentions": 22,
+      "firstChapter": 570,
+      "lastChapter": 808,
+      "markers": [
+        "同章共现(22)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "直接",
+      "mentions": 21,
+      "firstChapter": 2,
+      "lastChapter": 869,
+      "markers": [
+        "同章共现(21)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "直接",
+      "mentions": 21,
+      "firstChapter": 31,
+      "lastChapter": 880,
+      "markers": [
+        "同章共现(18)",
+        "队长(1)",
+        "追杀(1)",
+        "父亲(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "轻轻点了",
+      "mentions": 21,
+      "firstChapter": 42,
+      "lastChapter": 797,
+      "markers": [
+        "同章共现(18)",
+        "保护(1)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "直接",
+      "target": "轻轻",
+      "mentions": 21,
+      "firstChapter": 73,
+      "lastChapter": 865,
+      "markers": [
+        "同章共现(18)",
+        "父亲(1)",
+        "老师(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "忽然",
+      "target": "轻轻",
+      "mentions": 21,
+      "firstChapter": 73,
+      "lastChapter": 847,
+      "markers": [
+        "同章共现(19)",
+        "父亲(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "轻轻",
+      "mentions": 21,
+      "firstChapter": 77,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(18)",
+        "朋友(1)",
+        "老师(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "含笑",
+      "target": "娜塔莎",
+      "mentions": 21,
+      "firstChapter": 103,
+      "lastChapter": 766,
+      "markers": [
+        "同章共现(18)",
+        "老师(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "轻轻",
+      "mentions": 21,
+      "firstChapter": 116,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(21)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "道格拉斯",
+      "mentions": 21,
+      "firstChapter": 457,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(18)",
+        "老师(1)",
+        "合作(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩礼貌地",
+      "mentions": 20,
+      "firstChapter": 46,
+      "lastChapter": 484,
+      "markers": [
+        "同章共现(18)",
+        "老师(2)"
+      ]
+    },
+    {
+      "source": "好奇地",
+      "target": "娜塔莎",
+      "mentions": 20,
+      "firstChapter": 82,
+      "lastChapter": 797,
+      "markers": [
+        "同章共现(19)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "继续",
+      "mentions": 20,
+      "firstChapter": 92,
+      "lastChapter": 870,
+      "markers": [
+        "同章共现(19)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "而是",
+      "target": "轻轻",
+      "mentions": 20,
+      "firstChapter": 129,
+      "lastChapter": 875,
+      "markers": [
+        "同章共现(15)",
+        "老师(2)",
+        "朋友(1)",
+        "学生(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "费尔南多",
+      "mentions": 20,
+      "firstChapter": 330,
+      "lastChapter": 889,
+      "markers": [
+        "同章共现(17)",
+        "老师(3)"
+      ]
+    },
+    {
+      "source": "费尔南多轻轻",
+      "target": "轻轻",
+      "mentions": 20,
+      "firstChapter": 335,
+      "lastChapter": 914,
+      "markers": [
+        "同章共现(19)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "费尔南多",
+      "target": "费尔南多轻轻",
+      "mentions": 20,
+      "firstChapter": 335,
+      "lastChapter": 914,
+      "markers": [
+        "同章共现(19)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "继续",
+      "mentions": 19,
+      "firstChapter": 18,
+      "lastChapter": 873,
+      "markers": [
+        "同章共现(17)",
+        "父亲(1)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "赶紧",
+      "mentions": 19,
+      "firstChapter": 23,
+      "lastChapter": 844,
+      "markers": [
+        "同章共现(18)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "接着",
+      "target": "继续",
+      "mentions": 19,
+      "firstChapter": 29,
+      "lastChapter": 871,
+      "markers": [
+        "同章共现(18)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "呵呵",
+      "target": "微笑",
+      "mentions": 19,
+      "firstChapter": 58,
+      "lastChapter": 856,
+      "markers": [
+        "同章共现(14)",
+        "朋友(2)",
+        "保护(1)",
+        "学生(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "他微",
+      "target": "微笑",
+      "mentions": 19,
+      "firstChapter": 58,
+      "lastChapter": 889,
+      "markers": [
+        "同章共现(18)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "微微",
+      "mentions": 19,
+      "firstChapter": 62,
+      "lastChapter": 871,
+      "markers": [
+        "同章共现(19)"
+      ]
+    },
+    {
+      "source": "仔细",
+      "target": "娜塔莎",
+      "mentions": 19,
+      "firstChapter": 65,
+      "lastChapter": 760,
+      "markers": [
+        "同章共现(16)",
+        "老师(1)",
+        "朋友(1)",
+        "丈夫(1)"
+      ]
+    },
+    {
+      "source": "拉文第",
+      "target": "海瑟薇",
+      "mentions": 19,
+      "firstChapter": 194,
+      "lastChapter": 832,
+      "markers": [
+        "同章共现(16)",
+        "学生(2)",
+        "弟子(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "疑惑地",
+      "target": "费尔南多",
+      "mentions": 19,
+      "firstChapter": 341,
+      "lastChapter": 890,
+      "markers": [
+        "同章共现(18)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "微微",
+      "mentions": 18,
+      "firstChapter": 44,
+      "lastChapter": 766,
+      "markers": [
+        "同章共现(17)",
+        "合作(1)"
+      ]
+    },
+    {
+      "source": "一边",
+      "target": "微笑",
+      "mentions": 18,
+      "firstChapter": 49,
+      "lastChapter": 823,
+      "markers": [
+        "同章共现(15)",
+        "学生(1)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "摇了",
+      "target": "直接",
+      "mentions": 18,
+      "firstChapter": 55,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(15)",
+        "对手(1)",
+        "父亲(1)",
+        "母亲(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "认真地",
+      "mentions": 18,
+      "firstChapter": 66,
+      "lastChapter": 719,
+      "markers": [
+        "同章共现(16)",
+        "母亲(2)",
+        "朋友(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎",
+      "target": "娜塔莎忽然",
+      "mentions": 18,
+      "firstChapter": 77,
+      "lastChapter": 759,
+      "markers": [
+        "同章共现(17)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "娜塔莎忽然",
+      "target": "忽然",
+      "mentions": 18,
+      "firstChapter": 77,
+      "lastChapter": 759,
+      "markers": [
+        "同章共现(17)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "微微",
+      "target": "直接",
+      "mentions": 18,
+      "firstChapter": 83,
+      "lastChapter": 822,
+      "markers": [
+        "同章共现(16)",
+        "朋友(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "嘿嘿",
+      "target": "费尔南多",
+      "mentions": 18,
+      "firstChapter": 311,
+      "lastChapter": 897,
+      "markers": [
+        "同章共现(16)",
+        "父亲(1)",
+        "老师(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "道格拉斯微",
+      "mentions": 18,
+      "firstChapter": 353,
+      "lastChapter": 901,
+      "markers": [
+        "同章共现(17)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "布鲁克",
+      "target": "直接",
+      "mentions": 18,
+      "firstChapter": 423,
+      "lastChapter": 817,
+      "markers": [
+        "同章共现(16)",
+        "老师(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "本笃三世",
+      "target": "路西恩",
+      "mentions": 18,
+      "firstChapter": 571,
+      "lastChapter": 813,
+      "markers": [
+        "同章共现(16)",
+        "保护(1)",
+        "合作(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "路西恩",
+      "target": "路西恩好奇地",
+      "mentions": 17,
+      "firstChapter": 6,
+      "lastChapter": 601,
+      "markers": [
+        "同章共现(13)",
+        "老师(4)"
+      ]
+    },
+    {
+      "source": "好奇地",
+      "target": "路西恩好奇地",
+      "mentions": 17,
+      "firstChapter": 6,
+      "lastChapter": 601,
+      "markers": [
+        "同章共现(13)",
+        "老师(4)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "而是",
+      "mentions": 17,
+      "firstChapter": 8,
+      "lastChapter": 812,
+      "markers": [
+        "同章共现(13)",
+        "朋友(2)",
+        "学生(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "微笑",
+      "target": "接着",
+      "mentions": 17,
+      "firstChapter": 17,
+      "lastChapter": 862,
+      "markers": [
+        "同章共现(14)",
+        "保护(1)",
+        "敌人(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "再次",
+      "target": "莱茵",
+      "mentions": 17,
+      "firstChapter": 21,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(16)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "一直",
+      "target": "于是",
+      "mentions": 17,
+      "firstChapter": 40,
+      "lastChapter": 863,
+      "markers": [
+        "同章共现(16)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "于是",
+      "target": "于是微",
+      "mentions": 17,
+      "firstChapter": 44,
+      "lastChapter": 754,
+      "markers": [
+        "同章共现(13)",
+        "合作(2)",
+        "老师(1)",
+        "丈夫(1)"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "魔法议会",
+      "mentions": 181,
+      "firstChapter": 92,
+      "lastChapter": 917,
+      "chapterCount": 130,
+      "markers": [
+        "组织名词(181)"
+      ]
+    },
+    {
+      "name": "怎么会",
+      "mentions": 75,
+      "firstChapter": 21,
+      "lastChapter": 917,
+      "chapterCount": 68,
+      "markers": [
+        "组织名词(75)"
+      ]
+    },
+    {
+      "name": "肯定会",
+      "mentions": 65,
+      "firstChapter": 14,
+      "lastChapter": 911,
+      "chapterCount": 64,
+      "markers": [
+        "组织名词(65)"
+      ]
+    },
+    {
+      "name": "过了一会",
+      "mentions": 64,
+      "firstChapter": 17,
+      "lastChapter": 913,
+      "chapterCount": 60,
+      "markers": [
+        "组织名词(64)"
+      ]
+    },
+    {
+      "name": "议长阁",
+      "mentions": 101,
+      "firstChapter": 353,
+      "lastChapter": 855,
+      "chapterCount": 56,
+      "markers": [
+        "组织名词(101)"
+      ]
+    },
+    {
+      "name": "也不会",
+      "mentions": 51,
+      "firstChapter": 36,
+      "lastChapter": 914,
+      "chapterCount": 49,
+      "markers": [
+        "组织名词(51)"
+      ]
+    },
+    {
+      "name": "伊文斯阁",
+      "mentions": 79,
+      "firstChapter": 577,
+      "lastChapter": 857,
+      "chapterCount": 46,
+      "markers": [
+        "组织名词(79)"
+      ]
+    },
+    {
+      "name": "会不会",
+      "mentions": 45,
+      "firstChapter": 7,
+      "lastChapter": 905,
+      "chapterCount": 42,
+      "markers": [
+        "组织名词(45)"
+      ]
+    },
+    {
+      "name": "我不会",
+      "mentions": 42,
+      "firstChapter": 58,
+      "lastChapter": 912,
+      "chapterCount": 39,
+      "markers": [
+        "组织名词(42)"
+      ]
+    },
+    {
+      "name": "我也会",
+      "mentions": 25,
+      "firstChapter": 122,
+      "lastChapter": 858,
+      "chapterCount": 25,
+      "markers": [
+        "组织名词(25)"
+      ]
+    },
+    {
+      "name": "奥术审核委员会",
+      "mentions": 32,
+      "firstChapter": 182,
+      "lastChapter": 593,
+      "chapterCount": 24,
+      "markers": [
+        "组织名词(32)"
+      ]
+    },
+    {
+      "name": "在魔法议会",
+      "mentions": 25,
+      "firstChapter": 153,
+      "lastChapter": 914,
+      "chapterCount": 24,
+      "markers": [
+        "组织名词(25)"
+      ]
+    },
+    {
+      "name": "事务委员会",
+      "mentions": 26,
+      "firstChapter": 192,
+      "lastChapter": 836,
+      "chapterCount": 22,
+      "markers": [
+        "组织名词(26)"
+      ]
+    },
+    {
+      "name": "光辉大教堂",
+      "mentions": 23,
+      "firstChapter": 235,
+      "lastChapter": 888,
+      "chapterCount": 21,
+      "markers": [
+        "组织名词(23)"
+      ]
+    },
+    {
+      "name": "过了好一会",
+      "mentions": 21,
+      "firstChapter": 33,
+      "lastChapter": 910,
+      "chapterCount": 21,
+      "markers": [
+        "组织名词(21)"
+      ]
+    },
+    {
+      "name": "内克瑟宫",
+      "mentions": 24,
+      "firstChapter": 367,
+      "lastChapter": 917,
+      "chapterCount": 19,
+      "markers": [
+        "组织名词(24)"
+      ]
+    },
+    {
+      "name": "布鲁克阁",
+      "mentions": 20,
+      "firstChapter": 196,
+      "lastChapter": 815,
+      "chapterCount": 19,
+      "markers": [
+        "组织名词(20)"
+      ]
+    },
+    {
+      "name": "北方教会",
+      "mentions": 22,
+      "firstChapter": 230,
+      "lastChapter": 785,
+      "chapterCount": 18,
+      "markers": [
+        "组织名词(22)"
+      ]
+    },
+    {
+      "name": "海瑟薇阁",
+      "mentions": 20,
+      "firstChapter": 213,
+      "lastChapter": 832,
+      "chapterCount": 18,
+      "markers": [
+        "组织名词(20)"
+      ]
+    },
+    {
+      "name": "应该不会",
+      "mentions": 18,
+      "firstChapter": 132,
+      "lastChapter": 915,
+      "chapterCount": 17,
+      "markers": [
+        "组织名词(18)"
+      ]
+    },
+    {
+      "name": "莫里斯阁",
+      "mentions": 21,
+      "firstChapter": 217,
+      "lastChapter": 832,
+      "chapterCount": 16,
+      "markers": [
+        "组织名词(21)"
+      ]
+    },
+    {
+      "name": "大祭司",
+      "mentions": 36,
+      "firstChapter": 86,
+      "lastChapter": 746,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(36)"
+      ]
+    },
+    {
+      "name": "黑暗议会",
+      "mentions": 19,
+      "firstChapter": 363,
+      "lastChapter": 916,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(19)"
+      ]
+    },
+    {
+      "name": "音乐会",
+      "mentions": 17,
+      "firstChapter": 59,
+      "lastChapter": 787,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(17)"
+      ]
+    },
+    {
+      "name": "或许会",
+      "mentions": 15,
+      "firstChapter": 47,
+      "lastChapter": 732,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(15)"
+      ]
+    },
+    {
+      "name": "我一定会",
+      "mentions": 15,
+      "firstChapter": 56,
+      "lastChapter": 912,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(15)"
+      ]
+    },
+    {
+      "name": "就不会",
+      "mentions": 15,
+      "firstChapter": 62,
+      "lastChapter": 730,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(15)"
+      ]
+    },
+    {
+      "name": "好一会",
+      "mentions": 15,
+      "firstChapter": 70,
+      "lastChapter": 904,
+      "chapterCount": 15,
+      "markers": [
+        "组织名词(15)"
+      ]
+    },
+    {
+      "name": "南方教会",
+      "mentions": 15,
+      "firstChapter": 281,
+      "lastChapter": 747,
+      "chapterCount": 14,
+      "markers": [
+        "组织名词(15)"
+      ]
+    },
+    {
+      "name": "在教会",
+      "mentions": 14,
+      "firstChapter": 42,
+      "lastChapter": 908,
+      "chapterCount": 14,
+      "markers": [
+        "组织名词(14)"
+      ]
+    },
+    {
+      "name": "蔚蓝之门",
+      "mentions": 74,
+      "firstChapter": 756,
+      "lastChapter": 809,
+      "chapterCount": 13,
+      "markers": [
+        "组织名词(74)"
+      ]
+    },
+    {
+      "name": "奥利弗阁",
+      "mentions": 22,
+      "firstChapter": 338,
+      "lastChapter": 786,
+      "chapterCount": 13,
+      "markers": [
+        "组织名词(22)"
+      ]
+    },
+    {
+      "name": "恐怕会",
+      "mentions": 13,
+      "firstChapter": 91,
+      "lastChapter": 905,
+      "chapterCount": 13,
+      "markers": [
+        "组织名词(13)"
+      ]
+    },
+    {
+      "name": "异界之门",
+      "mentions": 20,
+      "firstChapter": 378,
+      "lastChapter": 901,
+      "chapterCount": 12,
+      "markers": [
+        "组织名词(20)"
+      ]
+    },
+    {
+      "name": "风暴主宰阁",
+      "mentions": 13,
+      "firstChapter": 199,
+      "lastChapter": 751,
+      "chapterCount": 12,
+      "markers": [
+        "组织名词(13)"
+      ]
+    },
+    {
+      "name": "肯定不会",
+      "mentions": 12,
+      "firstChapter": 16,
+      "lastChapter": 894,
+      "chapterCount": 12,
+      "markers": [
+        "组织名词(12)"
+      ]
+    },
+    {
+      "name": "海德勒魔法学院",
+      "mentions": 15,
+      "firstChapter": 835,
+      "lastChapter": 852,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(15)"
+      ]
+    },
+    {
+      "name": "亚伦黑帮",
+      "mentions": 14,
+      "firstChapter": 10,
+      "lastChapter": 719,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(14)"
+      ]
+    },
+    {
+      "name": "的机会",
+      "mentions": 13,
+      "firstChapter": 28,
+      "lastChapter": 769,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(13)"
+      ]
+    },
+    {
+      "name": "抓住机会",
+      "mentions": 12,
+      "firstChapter": 87,
+      "lastChapter": 715,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(12)"
+      ]
+    },
+    {
+      "name": "总是会",
+      "mentions": 12,
+      "firstChapter": 98,
+      "lastChapter": 840,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(12)"
+      ]
+    },
+    {
+      "name": "你不会",
+      "mentions": 11,
+      "firstChapter": 18,
+      "lastChapter": 892,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(11)"
+      ]
+    },
+    {
+      "name": "反而会",
+      "mentions": 11,
+      "firstChapter": 28,
+      "lastChapter": 890,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(11)"
+      ]
+    },
+    {
+      "name": "是教会",
+      "mentions": 11,
+      "firstChapter": 57,
+      "lastChapter": 565,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(11)"
+      ]
+    },
+    {
+      "name": "迟早会",
+      "mentions": 11,
+      "firstChapter": 266,
+      "lastChapter": 888,
+      "chapterCount": 11,
+      "markers": [
+        "组织名词(11)"
+      ]
+    },
+    {
+      "name": "克莱门",
+      "mentions": 69,
+      "firstChapter": 635,
+      "lastChapter": 857,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(69)"
+      ]
+    },
+    {
+      "name": "亲爱的堂",
+      "mentions": 18,
+      "firstChapter": 65,
+      "lastChapter": 395,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(18)"
+      ]
+    },
+    {
+      "name": "音乐家协会",
+      "mentions": 12,
+      "firstChapter": 9,
+      "lastChapter": 287,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(12)"
+      ]
+    },
+    {
+      "name": "说不定会",
+      "mentions": 11,
+      "firstChapter": 3,
+      "lastChapter": 861,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(11)"
+      ]
+    },
+    {
+      "name": "被教会",
+      "mentions": 10,
+      "firstChapter": 25,
+      "lastChapter": 915,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(10)"
+      ]
+    },
+    {
+      "name": "都不会",
+      "mentions": 10,
+      "firstChapter": 41,
+      "lastChapter": 889,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(10)"
+      ]
+    },
+    {
+      "name": "按照魔法议会",
+      "mentions": 10,
+      "firstChapter": 65,
+      "lastChapter": 854,
+      "chapterCount": 10,
+      "markers": [
+        "组织名词(10)"
+      ]
+    },
+    {
+      "name": "金雀花家族",
+      "mentions": 17,
+      "firstChapter": 391,
+      "lastChapter": 411,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(17)"
+      ]
+    },
+    {
+      "name": "最高评议团会",
+      "mentions": 11,
+      "firstChapter": 241,
+      "lastChapter": 766,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(11)"
+      ]
+    },
+    {
+      "name": "一定会",
+      "mentions": 10,
+      "firstChapter": 15,
+      "lastChapter": 750,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(10)"
+      ]
+    },
+    {
+      "name": "一不小心就会",
+      "mentions": 9,
+      "firstChapter": 2,
+      "lastChapter": 878,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "绝对不会",
+      "mentions": 9,
+      "firstChapter": 12,
+      "lastChapter": 731,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "甚至会",
+      "mentions": 9,
+      "firstChapter": 27,
+      "lastChapter": 864,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "根本不会",
+      "mentions": 9,
+      "firstChapter": 42,
+      "lastChapter": 774,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "他就会",
+      "mentions": 9,
+      "firstChapter": 62,
+      "lastChapter": 902,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "同样会",
+      "mentions": 9,
+      "firstChapter": 102,
+      "lastChapter": 806,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "他肯定会",
+      "mentions": 9,
+      "firstChapter": 138,
+      "lastChapter": 897,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "随时会",
+      "mentions": 9,
+      "firstChapter": 164,
+      "lastChapter": 898,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "偶尔会",
+      "mentions": 9,
+      "firstChapter": 337,
+      "lastChapter": 902,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "霍尔特魔法学院",
+      "mentions": 9,
+      "firstChapter": 604,
+      "lastChapter": 838,
+      "chapterCount": 9,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "元素和炼金魔法年度会",
+      "mentions": 14,
+      "firstChapter": 205,
+      "lastChapter": 256,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(14)"
+      ]
+    },
+    {
+      "name": "魔法师联合工会",
+      "mentions": 12,
+      "firstChapter": 861,
+      "lastChapter": 901,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(12)"
+      ]
+    },
+    {
+      "name": "地下宫",
+      "mentions": 10,
+      "firstChapter": 85,
+      "lastChapter": 463,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(10)"
+      ]
+    },
+    {
+      "name": "我也不会",
+      "mentions": 9,
+      "firstChapter": 231,
+      "lastChapter": 728,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "必然会",
+      "mentions": 9,
+      "firstChapter": 445,
+      "lastChapter": 886,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "我肯定会",
+      "mentions": 8,
+      "firstChapter": 88,
+      "lastChapter": 522,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "趁此机会",
+      "mentions": 8,
+      "firstChapter": 121,
+      "lastChapter": 634,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "这是议会",
+      "mentions": 8,
+      "firstChapter": 131,
+      "lastChapter": 837,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "有机会",
+      "mentions": 8,
+      "firstChapter": 154,
+      "lastChapter": 889,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "否则就会",
+      "mentions": 8,
+      "firstChapter": 179,
+      "lastChapter": 667,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "否则会",
+      "mentions": 8,
+      "firstChapter": 187,
+      "lastChapter": 843,
+      "chapterCount": 8,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "克托尼亚阁",
+      "mentions": 10,
+      "firstChapter": 509,
+      "lastChapter": 867,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(10)"
+      ]
+    },
+    {
+      "name": "魔法之门",
+      "mentions": 9,
+      "firstChapter": 20,
+      "lastChapter": 124,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "黑色大门",
+      "mentions": 9,
+      "firstChapter": 121,
+      "lastChapter": 635,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "自然憎恨派",
+      "mentions": 9,
+      "firstChapter": 219,
+      "lastChapter": 689,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "归来音乐会",
+      "mentions": 9,
+      "firstChapter": 289,
+      "lastChapter": 307,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "而教会",
+      "mentions": 8,
+      "firstChapter": 231,
+      "lastChapter": 887,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "难怪会",
+      "mentions": 7,
+      "firstChapter": 1,
+      "lastChapter": 836,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "我还以为你会",
+      "mentions": 7,
+      "firstChapter": 2,
+      "lastChapter": 846,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "而且还会",
+      "mentions": 7,
+      "firstChapter": 7,
+      "lastChapter": 807,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "路西恩当然不会",
+      "mentions": 7,
+      "firstChapter": 11,
+      "lastChapter": 670,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "让教会",
+      "mentions": 7,
+      "firstChapter": 56,
+      "lastChapter": 712,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "这是教会",
+      "mentions": 7,
+      "firstChapter": 63,
+      "lastChapter": 635,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "以后有机会",
+      "mentions": 7,
+      "firstChapter": 80,
+      "lastChapter": 716,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "他不会",
+      "mentions": 7,
+      "firstChapter": 90,
+      "lastChapter": 637,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "因此才会",
+      "mentions": 7,
+      "firstChapter": 105,
+      "lastChapter": 823,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "对魔法议会",
+      "mentions": 7,
+      "firstChapter": 185,
+      "lastChapter": 729,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "拉文第阁",
+      "mentions": 7,
+      "firstChapter": 212,
+      "lastChapter": 832,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "居然会",
+      "mentions": 7,
+      "firstChapter": 236,
+      "lastChapter": 884,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "阿尔托音乐家协会",
+      "mentions": 7,
+      "firstChapter": 285,
+      "lastChapter": 589,
+      "chapterCount": 7,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "时空之门",
+      "mentions": 9,
+      "firstChapter": 748,
+      "lastChapter": 797,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(9)"
+      ]
+    },
+    {
+      "name": "对教会",
+      "mentions": 8,
+      "firstChapter": 469,
+      "lastChapter": 741,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(8)"
+      ]
+    },
+    {
+      "name": "在协会",
+      "mentions": 7,
+      "firstChapter": 28,
+      "lastChapter": 173,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(7)"
+      ]
+    },
+    {
+      "name": "竟然会",
+      "mentions": 6,
+      "firstChapter": 4,
+      "lastChapter": 771,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "沉默了一会",
+      "mentions": 6,
+      "firstChapter": 12,
+      "lastChapter": 318,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "很快就会",
+      "mentions": 6,
+      "firstChapter": 19,
+      "lastChapter": 816,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "他也会",
+      "mentions": 6,
+      "firstChapter": 30,
+      "lastChapter": 869,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "可能会",
+      "mentions": 6,
+      "firstChapter": 45,
+      "lastChapter": 488,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "但教会",
+      "mentions": 6,
+      "firstChapter": 65,
+      "lastChapter": 863,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "克里斯多夫会",
+      "mentions": 6,
+      "firstChapter": 70,
+      "lastChapter": 287,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "拉塔夏宫",
+      "mentions": 6,
+      "firstChapter": 77,
+      "lastChapter": 720,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "紫罗兰家族",
+      "mentions": 6,
+      "firstChapter": 82,
+      "lastChapter": 547,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "我可不会",
+      "mentions": 6,
+      "firstChapter": 83,
+      "lastChapter": 848,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "路西恩不会",
+      "mentions": 6,
+      "firstChapter": 112,
+      "lastChapter": 630,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "而魔法议会",
+      "mentions": 6,
+      "firstChapter": 126,
+      "lastChapter": 721,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "那样会",
+      "mentions": 6,
+      "firstChapter": 147,
+      "lastChapter": 767,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "是魔法议会",
+      "mentions": 6,
+      "firstChapter": 153,
+      "lastChapter": 828,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "但不会",
+      "mentions": 6,
+      "firstChapter": 169,
+      "lastChapter": 820,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "整个魔法议会",
+      "mentions": 6,
+      "firstChapter": 172,
+      "lastChapter": 609,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "但魔法议会",
+      "mentions": 6,
+      "firstChapter": 201,
+      "lastChapter": 725,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "和魔法议会",
+      "mentions": 6,
+      "firstChapter": 243,
+      "lastChapter": 742,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "与魔法议会",
+      "mentions": 6,
+      "firstChapter": 256,
+      "lastChapter": 654,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "他就不会",
+      "mentions": 6,
+      "firstChapter": 258,
+      "lastChapter": 864,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "路西恩才不会",
+      "mentions": 6,
+      "firstChapter": 268,
+      "lastChapter": 693,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    },
+    {
+      "name": "再也不会",
+      "mentions": 6,
+      "firstChapter": 337,
+      "lastChapter": 895,
+      "chapterCount": 6,
+      "markers": [
+        "组织名词(6)"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "原子宇宙",
+      "mentions": 85,
+      "firstChapter": 581,
+      "lastChapter": 826,
+      "chapterCount": 55,
+      "markers": [
+        "地图名词(85)"
+      ]
+    },
+    {
+      "name": "认知世界",
+      "mentions": 92,
+      "firstChapter": 338,
+      "lastChapter": 826,
+      "chapterCount": 50,
+      "markers": [
+        "地图名词(92)"
+      ]
+    },
+    {
+      "name": "天堂山",
+      "mentions": 67,
+      "firstChapter": 232,
+      "lastChapter": 916,
+      "chapterCount": 45,
+      "markers": [
+        "地图名词(67)"
+      ]
+    },
+    {
+      "name": "死灵界",
+      "mentions": 67,
+      "firstChapter": 122,
+      "lastChapter": 854,
+      "chapterCount": 44,
+      "markers": [
+        "地图名词(67)"
+      ]
+    },
+    {
+      "name": "霍尔姆王国",
+      "mentions": 48,
+      "firstChapter": 117,
+      "lastChapter": 916,
+      "chapterCount": 42,
+      "markers": [
+        "地图名词(48)"
+      ]
+    },
+    {
+      "name": "天空之城",
+      "mentions": 53,
+      "firstChapter": 184,
+      "lastChapter": 917,
+      "chapterCount": 37,
+      "markers": [
+        "地图名词(53)"
+      ]
+    },
+    {
+      "name": "黑暗山",
+      "mentions": 38,
+      "firstChapter": 9,
+      "lastChapter": 916,
+      "chapterCount": 28,
+      "markers": [
+        "地图名词(38)"
+      ]
+    },
+    {
+      "name": "门之世界",
+      "mentions": 79,
+      "firstChapter": 625,
+      "lastChapter": 826,
+      "chapterCount": 27,
+      "markers": [
+        "地图名词(79)"
+      ]
+    },
+    {
+      "name": "真实世界",
+      "mentions": 48,
+      "firstChapter": 373,
+      "lastChapter": 899,
+      "chapterCount": 25,
+      "markers": [
+        "地图名词(48)"
+      ]
+    },
+    {
+      "name": "路西恩脑海",
+      "mentions": 24,
+      "firstChapter": 16,
+      "lastChapter": 823,
+      "chapterCount": 23,
+      "markers": [
+        "地图名词(24)"
+      ]
+    },
+    {
+      "name": "真实秘境",
+      "mentions": 27,
+      "firstChapter": 431,
+      "lastChapter": 798,
+      "chapterCount": 20,
+      "markers": [
+        "地图名词(27)"
+      ]
+    },
+    {
+      "name": "人造星球",
+      "mentions": 31,
+      "firstChapter": 432,
+      "lastChapter": 786,
+      "chapterCount": 19,
+      "markers": [
+        "地图名词(31)"
+      ]
+    },
+    {
+      "name": "整个世界",
+      "mentions": 19,
+      "firstChapter": 125,
+      "lastChapter": 900,
+      "chapterCount": 19,
+      "markers": [
+        "地图名词(19)"
+      ]
+    },
+    {
+      "name": "伦塔特城",
+      "mentions": 20,
+      "firstChapter": 366,
+      "lastChapter": 917,
+      "chapterCount": 17,
+      "markers": [
+        "地图名词(20)"
+      ]
+    },
+    {
+      "name": "在古代魔法帝国",
+      "mentions": 16,
+      "firstChapter": 23,
+      "lastChapter": 877,
+      "chapterCount": 16,
+      "markers": [
+        "地图名词(16)"
+      ]
+    },
+    {
+      "name": "地上天国",
+      "mentions": 53,
+      "firstChapter": 557,
+      "lastChapter": 740,
+      "chapterCount": 15,
+      "markers": [
+        "地图名词(53)"
+      ]
+    },
+    {
+      "name": "布里亚纳王国",
+      "mentions": 17,
+      "firstChapter": 161,
+      "lastChapter": 794,
+      "chapterCount": 15,
+      "markers": [
+        "地图名词(17)"
+      ]
+    },
+    {
+      "name": "古代魔法帝国",
+      "mentions": 16,
+      "firstChapter": 33,
+      "lastChapter": 906,
+      "chapterCount": 15,
+      "markers": [
+        "地图名词(16)"
+      ]
+    },
+    {
+      "name": "瓦欧里特公国",
+      "mentions": 14,
+      "firstChapter": 41,
+      "lastChapter": 843,
+      "chapterCount": 14,
+      "markers": [
+        "地图名词(14)"
+      ]
+    },
+    {
+      "name": "戈恩海",
+      "mentions": 58,
+      "firstChapter": 688,
+      "lastChapter": 782,
+      "chapterCount": 13,
+      "markers": [
+        "地图名词(58)"
+      ]
+    },
+    {
+      "name": "风暴结界",
+      "mentions": 21,
+      "firstChapter": 563,
+      "lastChapter": 811,
+      "chapterCount": 13,
+      "markers": [
+        "地图名词(21)"
+      ]
+    },
+    {
+      "name": "沙赫兰帝国",
+      "mentions": 13,
+      "firstChapter": 259,
+      "lastChapter": 916,
+      "chapterCount": 13,
+      "markers": [
+        "地图名词(13)"
+      ]
+    },
+    {
+      "name": "蕾依丽雅和海",
+      "mentions": 26,
+      "firstChapter": 171,
+      "lastChapter": 718,
+      "chapterCount": 12,
+      "markers": [
+        "地图名词(26)"
+      ]
+    },
+    {
+      "name": "费尔南多和海",
+      "mentions": 15,
+      "firstChapter": 491,
+      "lastChapter": 815,
+      "chapterCount": 12,
+      "markers": [
+        "地图名词(15)"
+      ]
+    },
+    {
+      "name": "神圣海尔兹帝国",
+      "mentions": 13,
+      "firstChapter": 371,
+      "lastChapter": 814,
+      "chapterCount": 11,
+      "markers": [
+        "地图名词(13)"
+      ]
+    },
+    {
+      "name": "北地沿海",
+      "mentions": 13,
+      "firstChapter": 434,
+      "lastChapter": 794,
+      "chapterCount": 11,
+      "markers": [
+        "地图名词(13)"
+      ]
+    },
+    {
+      "name": "电磁王国",
+      "mentions": 16,
+      "firstChapter": 433,
+      "lastChapter": 821,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(16)"
+      ]
+    },
+    {
+      "name": "海德勒城",
+      "mentions": 12,
+      "firstChapter": 353,
+      "lastChapter": 839,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(12)"
+      ]
+    },
+    {
+      "name": "加莱公国",
+      "mentions": 11,
+      "firstChapter": 161,
+      "lastChapter": 911,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(11)"
+      ]
+    },
+    {
+      "name": "对世界",
+      "mentions": 11,
+      "firstChapter": 330,
+      "lastChapter": 911,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(11)"
+      ]
+    },
+    {
+      "name": "微观世界",
+      "mentions": 11,
+      "firstChapter": 349,
+      "lastChapter": 748,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(11)"
+      ]
+    },
+    {
+      "name": "整座城",
+      "mentions": 10,
+      "firstChapter": 8,
+      "lastChapter": 915,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(10)"
+      ]
+    },
+    {
+      "name": "古斯塔帝国",
+      "mentions": 10,
+      "firstChapter": 127,
+      "lastChapter": 788,
+      "chapterCount": 10,
+      "markers": [
+        "地图名词(10)"
+      ]
+    },
+    {
+      "name": "如同行走在您的国",
+      "mentions": 10,
+      "firstChapter": 92,
+      "lastChapter": 888,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(10)"
+      ]
+    },
+    {
+      "name": "暴风海",
+      "mentions": 9,
+      "firstChapter": 100,
+      "lastChapter": 862,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(9)"
+      ]
+    },
+    {
+      "name": "在死灵界",
+      "mentions": 9,
+      "firstChapter": 122,
+      "lastChapter": 855,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(9)"
+      ]
+    },
+    {
+      "name": "魔法帝国",
+      "mentions": 8,
+      "firstChapter": 103,
+      "lastChapter": 917,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "在霍尔姆王国",
+      "mentions": 8,
+      "firstChapter": 117,
+      "lastChapter": 800,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "探索世界",
+      "mentions": 8,
+      "firstChapter": 231,
+      "lastChapter": 857,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "他脑海",
+      "mentions": 8,
+      "firstChapter": 302,
+      "lastChapter": 912,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "路西恩认知世界",
+      "mentions": 8,
+      "firstChapter": 366,
+      "lastChapter": 769,
+      "chapterCount": 8,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "无名者小镇",
+      "mentions": 10,
+      "firstChapter": 676,
+      "lastChapter": 856,
+      "chapterCount": 7,
+      "markers": [
+        "地图名词(10)"
+      ]
+    },
+    {
+      "name": "阿尔托城",
+      "mentions": 8,
+      "firstChapter": 35,
+      "lastChapter": 719,
+      "chapterCount": 7,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "骸骨荒原",
+      "mentions": 7,
+      "firstChapter": 413,
+      "lastChapter": 688,
+      "chapterCount": 7,
+      "markers": [
+        "地图名词(7)"
+      ]
+    },
+    {
+      "name": "沸腾海",
+      "mentions": 19,
+      "firstChapter": 687,
+      "lastChapter": 704,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(19)"
+      ]
+    },
+    {
+      "name": "自新国",
+      "mentions": 14,
+      "firstChapter": 293,
+      "lastChapter": 719,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(14)"
+      ]
+    },
+    {
+      "name": "负能态真空大海",
+      "mentions": 12,
+      "firstChapter": 716,
+      "lastChapter": 768,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(12)"
+      ]
+    },
+    {
+      "name": "波恩小镇",
+      "mentions": 8,
+      "firstChapter": 120,
+      "lastChapter": 145,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "梅尔泽黑森林",
+      "mentions": 7,
+      "firstChapter": 81,
+      "lastChapter": 445,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(7)"
+      ]
+    },
+    {
+      "name": "雅洛蓝海",
+      "mentions": 7,
+      "firstChapter": 130,
+      "lastChapter": 751,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(7)"
+      ]
+    },
+    {
+      "name": "从古代魔法帝国",
+      "mentions": 7,
+      "firstChapter": 155,
+      "lastChapter": 789,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(7)"
+      ]
+    },
+    {
+      "name": "叙拉古王国",
+      "mentions": 6,
+      "firstChapter": 9,
+      "lastChapter": 569,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "向着城",
+      "mentions": 6,
+      "firstChapter": 10,
+      "lastChapter": 912,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "在沙赫兰帝国",
+      "mentions": 6,
+      "firstChapter": 258,
+      "lastChapter": 916,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "仿佛世界",
+      "mentions": 6,
+      "firstChapter": 276,
+      "lastChapter": 844,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "我和海",
+      "mentions": 6,
+      "firstChapter": 335,
+      "lastChapter": 732,
+      "chapterCount": 6,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "焰石山",
+      "mentions": 9,
+      "firstChapter": 774,
+      "lastChapter": 814,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(9)"
+      ]
+    },
+    {
+      "name": "星之天国",
+      "mentions": 7,
+      "firstChapter": 619,
+      "lastChapter": 917,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(7)"
+      ]
+    },
+    {
+      "name": "帕德雷港",
+      "mentions": 6,
+      "firstChapter": 181,
+      "lastChapter": 788,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "斯特鲁普森林",
+      "mentions": 6,
+      "firstChapter": 670,
+      "lastChapter": 856,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "圣咏之城",
+      "mentions": 5,
+      "firstChapter": 21,
+      "lastChapter": 812,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "对死灵界",
+      "mentions": 5,
+      "firstChapter": 306,
+      "lastChapter": 682,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "在魔法帝国",
+      "mentions": 5,
+      "firstChapter": 335,
+      "lastChapter": 889,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "在认知世界",
+      "mentions": 5,
+      "firstChapter": 359,
+      "lastChapter": 695,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "反正海",
+      "mentions": 5,
+      "firstChapter": 376,
+      "lastChapter": 758,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "掌控着生与死的界",
+      "mentions": 5,
+      "firstChapter": 380,
+      "lastChapter": 792,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "他的认知世界",
+      "mentions": 5,
+      "firstChapter": 447,
+      "lastChapter": 913,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "胡苏姆城",
+      "mentions": 5,
+      "firstChapter": 470,
+      "lastChapter": 489,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "在主物质世界",
+      "mentions": 5,
+      "firstChapter": 499,
+      "lastChapter": 806,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "这是海",
+      "mentions": 5,
+      "firstChapter": 730,
+      "lastChapter": 879,
+      "chapterCount": 5,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "污染海",
+      "mentions": 9,
+      "firstChapter": 179,
+      "lastChapter": 412,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(9)"
+      ]
+    },
+    {
+      "name": "与死灵界",
+      "mentions": 6,
+      "firstChapter": 122,
+      "lastChapter": 764,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "科瑟城",
+      "mentions": 6,
+      "firstChapter": 141,
+      "lastChapter": 151,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "这就是世界",
+      "mentions": 6,
+      "firstChapter": 551,
+      "lastChapter": 751,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "在黑暗山",
+      "mentions": 5,
+      "firstChapter": 2,
+      "lastChapter": 460,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "灰雾镇",
+      "mentions": 5,
+      "firstChapter": 140,
+      "lastChapter": 148,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "柯莱特王国",
+      "mentions": 5,
+      "firstChapter": 161,
+      "lastChapter": 565,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "绝望世界",
+      "mentions": 5,
+      "firstChapter": 702,
+      "lastChapter": 818,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "在整个大陆",
+      "mentions": 4,
+      "firstChapter": 70,
+      "lastChapter": 118,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "音乐界",
+      "mentions": 4,
+      "firstChapter": 96,
+      "lastChapter": 308,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "这座城",
+      "mentions": 4,
+      "firstChapter": 130,
+      "lastChapter": 725,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "魔法世界",
+      "mentions": 4,
+      "firstChapter": 216,
+      "lastChapter": 444,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "乌拉尔城",
+      "mentions": 4,
+      "firstChapter": 270,
+      "lastChapter": 277,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "打开了微观世界",
+      "mentions": 4,
+      "firstChapter": 352,
+      "lastChapter": 752,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "索拉尔群岛",
+      "mentions": 4,
+      "firstChapter": 356,
+      "lastChapter": 534,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "你的认知世界",
+      "mentions": 4,
+      "firstChapter": 367,
+      "lastChapter": 577,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "珍珠群岛",
+      "mentions": 4,
+      "firstChapter": 412,
+      "lastChapter": 794,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "在暴风海",
+      "mentions": 4,
+      "firstChapter": 412,
+      "lastChapter": 911,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "我的认知世界",
+      "mentions": 4,
+      "firstChapter": 433,
+      "lastChapter": 770,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "佩福斯郡",
+      "mentions": 4,
+      "firstChapter": 435,
+      "lastChapter": 862,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "的世界",
+      "mentions": 4,
+      "firstChapter": 471,
+      "lastChapter": 819,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "那整个世界",
+      "mentions": 4,
+      "firstChapter": 493,
+      "lastChapter": 802,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "路西恩的认知世界",
+      "mentions": 4,
+      "firstChapter": 498,
+      "lastChapter": 769,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "七层天堂山",
+      "mentions": 4,
+      "firstChapter": 566,
+      "lastChapter": 915,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "与外界",
+      "mentions": 4,
+      "firstChapter": 568,
+      "lastChapter": 780,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "海峡四国和北地沿海",
+      "mentions": 4,
+      "firstChapter": 568,
+      "lastChapter": 787,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "比如海",
+      "mentions": 4,
+      "firstChapter": 585,
+      "lastChapter": 771,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "他的脑海",
+      "mentions": 4,
+      "firstChapter": 656,
+      "lastChapter": 912,
+      "chapterCount": 4,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "布鲁克和海",
+      "mentions": 9,
+      "firstChapter": 566,
+      "lastChapter": 798,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(9)"
+      ]
+    },
+    {
+      "name": "人面山",
+      "mentions": 8,
+      "firstChapter": 680,
+      "lastChapter": 684,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(8)"
+      ]
+    },
+    {
+      "name": "强酸之海",
+      "mentions": 6,
+      "firstChapter": 688,
+      "lastChapter": 690,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(6)"
+      ]
+    },
+    {
+      "name": "奥术世界",
+      "mentions": 5,
+      "firstChapter": 329,
+      "lastChapter": 427,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(5)"
+      ]
+    },
+    {
+      "name": "防死结界",
+      "mentions": 4,
+      "firstChapter": 122,
+      "lastChapter": 251,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "自新大陆",
+      "mentions": 4,
+      "firstChapter": 285,
+      "lastChapter": 297,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "死亡山",
+      "mentions": 4,
+      "firstChapter": 500,
+      "lastChapter": 504,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(4)"
+      ]
+    },
+    {
+      "name": "整个大陆",
+      "mentions": 3,
+      "firstChapter": 10,
+      "lastChapter": 828,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "其他国",
+      "mentions": 3,
+      "firstChapter": 23,
+      "lastChapter": 720,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "物质世界",
+      "mentions": 3,
+      "firstChapter": 23,
+      "lastChapter": 877,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "魔法遗迹",
+      "mentions": 3,
+      "firstChapter": 80,
+      "lastChapter": 86,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "在瓦欧里特公国",
+      "mentions": 3,
+      "firstChapter": 92,
+      "lastChapter": 569,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "与主物质世界",
+      "mentions": 3,
+      "firstChapter": 126,
+      "lastChapter": 431,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "上面用古代魔法帝国",
+      "mentions": 3,
+      "firstChapter": 145,
+      "lastChapter": 836,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "在魔法的世界",
+      "mentions": 3,
+      "firstChapter": 154,
+      "lastChapter": 698,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "安尼克和海",
+      "mentions": 3,
+      "firstChapter": 171,
+      "lastChapter": 749,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "对霍尔姆王国",
+      "mentions": 3,
+      "firstChapter": 182,
+      "lastChapter": 747,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "挂在城",
+      "mentions": 3,
+      "firstChapter": 204,
+      "lastChapter": 380,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "阿林厄城",
+      "mentions": 3,
+      "firstChapter": 206,
+      "lastChapter": 821,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "瑟谷城",
+      "mentions": 3,
+      "firstChapter": 261,
+      "lastChapter": 263,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "主物质世界",
+      "mentions": 3,
+      "firstChapter": 279,
+      "lastChapter": 617,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    },
+    {
+      "name": "除了黑暗山",
+      "mentions": 3,
+      "firstChapter": 290,
+      "lastChapter": 815,
+      "chapterCount": 3,
+      "markers": [
+        "地图名词(3)"
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "name": "传奇魔法",
+      "mentions": 82,
+      "firstChapter": 43,
+      "lastChapter": 900,
+      "chapterCount": 73,
+      "markers": [
+        "体系名词(82)"
+      ]
+    },
+    {
+      "name": "阿林厄魔法",
+      "mentions": 47,
+      "firstChapter": 206,
+      "lastChapter": 859,
+      "chapterCount": 45,
+      "markers": [
+        "体系名词(47)"
+      ]
+    },
+    {
+      "name": "高阶魔法",
+      "mentions": 43,
+      "firstChapter": 122,
+      "lastChapter": 900,
+      "chapterCount": 40,
+      "markers": [
+        "体系名词(43)"
+      ]
+    },
+    {
+      "name": "这篇论文",
+      "mentions": 44,
+      "firstChapter": 187,
+      "lastChapter": 789,
+      "chapterCount": 31,
+      "markers": [
+        "体系名词(44)"
+      ]
+    },
+    {
+      "name": "普通奥术",
+      "mentions": 55,
+      "firstChapter": 185,
+      "lastChapter": 859,
+      "chapterCount": 25,
+      "markers": [
+        "体系名词(55)"
+      ]
+    },
+    {
+      "name": "奥术和魔法",
+      "mentions": 41,
+      "firstChapter": 169,
+      "lastChapter": 835,
+      "chapterCount": 25,
+      "markers": [
+        "体系名词(41)"
+      ]
+    },
+    {
+      "name": "二环魔法",
+      "mentions": 24,
+      "firstChapter": 55,
+      "lastChapter": 833,
+      "chapterCount": 23,
+      "markers": [
+        "体系名词(24)"
+      ]
+    },
+    {
+      "name": "霍尔姆皇家魔法",
+      "mentions": 28,
+      "firstChapter": 182,
+      "lastChapter": 727,
+      "chapterCount": 22,
+      "markers": [
+        "体系名词(28)"
+      ]
+    },
+    {
+      "name": "真实秘境",
+      "mentions": 27,
+      "firstChapter": 431,
+      "lastChapter": 798,
+      "chapterCount": 20,
+      "markers": [
+        "体系名词(27)"
+      ]
+    },
+    {
+      "name": "中阶魔法",
+      "mentions": 24,
+      "firstChapter": 122,
+      "lastChapter": 817,
+      "chapterCount": 20,
+      "markers": [
+        "体系名词(24)"
+      ]
+    },
+    {
+      "name": "古代魔法",
+      "mentions": 21,
+      "firstChapter": 33,
+      "lastChapter": 906,
+      "chapterCount": 19,
+      "markers": [
+        "体系名词(21)"
+      ]
+    },
+    {
+      "name": "七环魔法",
+      "mentions": 29,
+      "firstChapter": 209,
+      "lastChapter": 865,
+      "chapterCount": 18,
+      "markers": [
+        "体系名词(29)"
+      ]
+    },
+    {
+      "name": "元素周期",
+      "mentions": 20,
+      "firstChapter": 198,
+      "lastChapter": 662,
+      "chapterCount": 18,
+      "markers": [
+        "体系名词(20)"
+      ]
+    },
+    {
+      "name": "五环魔法",
+      "mentions": 19,
+      "firstChapter": 195,
+      "lastChapter": 717,
+      "chapterCount": 18,
+      "markers": [
+        "体系名词(19)"
+      ]
+    },
+    {
+      "name": "九环魔法",
+      "mentions": 19,
+      "firstChapter": 210,
+      "lastChapter": 864,
+      "chapterCount": 17,
+      "markers": [
+        "体系名词(19)"
+      ]
+    },
+    {
+      "name": "四环魔法",
+      "mentions": 16,
+      "firstChapter": 154,
+      "lastChapter": 856,
+      "chapterCount": 16,
+      "markers": [
+        "体系名词(16)"
+      ]
+    },
+    {
+      "name": "其他魔法",
+      "mentions": 15,
+      "firstChapter": 43,
+      "lastChapter": 875,
+      "chapterCount": 15,
+      "markers": [
+        "体系名词(15)"
+      ]
+    },
+    {
+      "name": "净化序列",
+      "mentions": 23,
+      "firstChapter": 90,
+      "lastChapter": 862,
+      "chapterCount": 14,
+      "markers": [
+        "体系名词(23)"
+      ]
+    },
+    {
+      "name": "传奇三阶",
+      "mentions": 16,
+      "firstChapter": 581,
+      "lastChapter": 889,
+      "chapterCount": 14,
+      "markers": [
+        "体系名词(16)"
+      ]
+    },
+    {
+      "name": "在古代魔法",
+      "mentions": 14,
+      "firstChapter": 23,
+      "lastChapter": 877,
+      "chapterCount": 14,
+      "markers": [
+        "体系名词(14)"
+      ]
+    },
+    {
+      "name": "按照魔法",
+      "mentions": 14,
+      "firstChapter": 24,
+      "lastChapter": 893,
+      "chapterCount": 14,
+      "markers": [
+        "体系名词(14)"
+      ]
+    },
+    {
+      "name": "魔法实验",
+      "mentions": 20,
+      "firstChapter": 26,
+      "lastChapter": 736,
+      "chapterCount": 13,
+      "markers": [
+        "体系名词(20)"
+      ]
+    },
+    {
+      "name": "六环魔法",
+      "mentions": 18,
+      "firstChapter": 221,
+      "lastChapter": 492,
+      "chapterCount": 13,
+      "markers": [
+        "体系名词(18)"
+      ]
+    },
+    {
+      "name": "整个魔法",
+      "mentions": 14,
+      "firstChapter": 45,
+      "lastChapter": 869,
+      "chapterCount": 13,
+      "markers": [
+        "体系名词(14)"
+      ]
+    },
+    {
+      "name": "施展魔法",
+      "mentions": 13,
+      "firstChapter": 34,
+      "lastChapter": 704,
+      "chapterCount": 13,
+      "markers": [
+        "体系名词(13)"
+      ]
+    },
+    {
+      "name": "由于魔法",
+      "mentions": 13,
+      "firstChapter": 33,
+      "lastChapter": 771,
+      "chapterCount": 12,
+      "markers": [
+        "体系名词(13)"
+      ]
+    },
+    {
+      "name": "这是魔法",
+      "mentions": 12,
+      "firstChapter": 181,
+      "lastChapter": 917,
+      "chapterCount": 12,
+      "markers": [
+        "体系名词(12)"
+      ]
+    },
+    {
+      "name": "绝大部分奥术",
+      "mentions": 12,
+      "firstChapter": 211,
+      "lastChapter": 800,
+      "chapterCount": 12,
+      "markers": [
+        "体系名词(12)"
+      ]
+    },
+    {
+      "name": "一环魔法",
+      "mentions": 19,
+      "firstChapter": 55,
+      "lastChapter": 220,
+      "chapterCount": 11,
+      "markers": [
+        "体系名词(19)"
+      ]
+    },
+    {
+      "name": "高等魔法",
+      "mentions": 19,
+      "firstChapter": 600,
+      "lastChapter": 838,
+      "chapterCount": 11,
+      "markers": [
+        "体系名词(19)"
+      ]
+    },
+    {
+      "name": "高阶奥术",
+      "mentions": 13,
+      "firstChapter": 190,
+      "lastChapter": 665,
+      "chapterCount": 11,
+      "markers": [
+        "体系名词(13)"
+      ]
+    },
+    {
+      "name": "八环魔法",
+      "mentions": 12,
+      "firstChapter": 211,
+      "lastChapter": 579,
+      "chapterCount": 11,
+      "markers": [
+        "体系名词(12)"
+      ]
+    },
+    {
+      "name": "这一期",
+      "mentions": 11,
+      "firstChapter": 70,
+      "lastChapter": 753,
+      "chapterCount": 11,
+      "markers": [
+        "体系名词(11)"
+      ]
+    },
+    {
+      "name": "其他奥术",
+      "mentions": 14,
+      "firstChapter": 211,
+      "lastChapter": 803,
+      "chapterCount": 10,
+      "markers": [
+        "体系名词(14)"
+      ]
+    },
+    {
+      "name": "海德勒魔法",
+      "mentions": 14,
+      "firstChapter": 835,
+      "lastChapter": 852,
+      "chapterCount": 10,
+      "markers": [
+        "体系名词(14)"
+      ]
+    },
+    {
+      "name": "很多魔法",
+      "mentions": 10,
+      "firstChapter": 29,
+      "lastChapter": 718,
+      "chapterCount": 10,
+      "markers": [
+        "体系名词(10)"
+      ]
+    },
+    {
+      "name": "绝大部分魔法",
+      "mentions": 10,
+      "firstChapter": 339,
+      "lastChapter": 874,
+      "chapterCount": 10,
+      "markers": [
+        "体系名词(10)"
+      ]
+    },
+    {
+      "name": "元素和炼金魔法",
+      "mentions": 15,
+      "firstChapter": 205,
+      "lastChapter": 362,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(15)"
+      ]
+    },
+    {
+      "name": "元素魔法",
+      "mentions": 11,
+      "firstChapter": 43,
+      "lastChapter": 512,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(11)"
+      ]
+    },
+    {
+      "name": "冥想环境",
+      "mentions": 11,
+      "firstChapter": 198,
+      "lastChapter": 482,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(11)"
+      ]
+    },
+    {
+      "name": "道格拉斯魔法",
+      "mentions": 9,
+      "firstChapter": 193,
+      "lastChapter": 437,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "这是奥术",
+      "mentions": 9,
+      "firstChapter": 328,
+      "lastChapter": 827,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "法术序列",
+      "mentions": 9,
+      "firstChapter": 488,
+      "lastChapter": 764,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "霍尔特魔法",
+      "mentions": 9,
+      "firstChapter": 604,
+      "lastChapter": 838,
+      "chapterCount": 9,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "学徒级魔法",
+      "mentions": 12,
+      "firstChapter": 53,
+      "lastChapter": 188,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(12)"
+      ]
+    },
+    {
+      "name": "道格拉斯的法术",
+      "mentions": 10,
+      "firstChapter": 247,
+      "lastChapter": 662,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(10)"
+      ]
+    },
+    {
+      "name": "一位魔法",
+      "mentions": 8,
+      "firstChapter": 41,
+      "lastChapter": 895,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "六级奥术",
+      "mentions": 8,
+      "firstChapter": 43,
+      "lastChapter": 424,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "除了魔法",
+      "mentions": 8,
+      "firstChapter": 45,
+      "lastChapter": 881,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "作为一名魔法",
+      "mentions": 8,
+      "firstChapter": 48,
+      "lastChapter": 320,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "毕竟魔法",
+      "mentions": 8,
+      "firstChapter": 126,
+      "lastChapter": 817,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "只有魔法",
+      "mentions": 8,
+      "firstChapter": 144,
+      "lastChapter": 885,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "魔法等级",
+      "mentions": 8,
+      "firstChapter": 209,
+      "lastChapter": 579,
+      "chapterCount": 8,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "四级奥术",
+      "mentions": 10,
+      "firstChapter": 193,
+      "lastChapter": 429,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(10)"
+      ]
+    },
+    {
+      "name": "奇迹实验",
+      "mentions": 10,
+      "firstChapter": 239,
+      "lastChapter": 369,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(10)"
+      ]
+    },
+    {
+      "name": "我很期",
+      "mentions": 7,
+      "firstChapter": 41,
+      "lastChapter": 550,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "比如魔法",
+      "mentions": 7,
+      "firstChapter": 45,
+      "lastChapter": 507,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "三环魔法",
+      "mentions": 7,
+      "firstChapter": 133,
+      "lastChapter": 450,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "这就是魔法",
+      "mentions": 7,
+      "firstChapter": 184,
+      "lastChapter": 910,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "根据魔法",
+      "mentions": 7,
+      "firstChapter": 187,
+      "lastChapter": 864,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "不少奥术",
+      "mentions": 7,
+      "firstChapter": 228,
+      "lastChapter": 751,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "随着魔法",
+      "mentions": 7,
+      "firstChapter": 237,
+      "lastChapter": 860,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "建议奖励奥术",
+      "mentions": 7,
+      "firstChapter": 336,
+      "lastChapter": 459,
+      "chapterCount": 7,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "一位奥术",
+      "mentions": 11,
+      "firstChapter": 360,
+      "lastChapter": 752,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(11)"
+      ]
+    },
+    {
+      "name": "非正式魔法",
+      "mentions": 9,
+      "firstChapter": 3,
+      "lastChapter": 51,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "大陆魔法",
+      "mentions": 9,
+      "firstChapter": 24,
+      "lastChapter": 155,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "真实梦境",
+      "mentions": 9,
+      "firstChapter": 325,
+      "lastChapter": 890,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(9)"
+      ]
+    },
+    {
+      "name": "两位魔法",
+      "mentions": 7,
+      "firstChapter": 188,
+      "lastChapter": 545,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "其他神灵",
+      "mentions": 7,
+      "firstChapter": 363,
+      "lastChapter": 481,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "恐怖的魔法",
+      "mentions": 6,
+      "firstChapter": 31,
+      "lastChapter": 917,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "成为正式魔法",
+      "mentions": 6,
+      "firstChapter": 51,
+      "lastChapter": 436,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "一位位魔法",
+      "mentions": 6,
+      "firstChapter": 154,
+      "lastChapter": 917,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "奥术等级",
+      "mentions": 6,
+      "firstChapter": 183,
+      "lastChapter": 497,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "一位传奇魔法",
+      "mentions": 6,
+      "firstChapter": 214,
+      "lastChapter": 897,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "很多奥术",
+      "mentions": 6,
+      "firstChapter": 235,
+      "lastChapter": 602,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "虽然魔法",
+      "mentions": 6,
+      "firstChapter": 281,
+      "lastChapter": 695,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "你是魔法",
+      "mentions": 6,
+      "firstChapter": 313,
+      "lastChapter": 901,
+      "chapterCount": 6,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "奖励奥术",
+      "mentions": 8,
+      "firstChapter": 228,
+      "lastChapter": 596,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(8)"
+      ]
+    },
+    {
+      "name": "正式魔法",
+      "mentions": 7,
+      "firstChapter": 40,
+      "lastChapter": 710,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "对于魔法",
+      "mentions": 6,
+      "firstChapter": 65,
+      "lastChapter": 195,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "高等奥术和魔法",
+      "mentions": 6,
+      "firstChapter": 185,
+      "lastChapter": 385,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "你的论文",
+      "mentions": 6,
+      "firstChapter": 187,
+      "lastChapter": 605,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "还是魔法",
+      "mentions": 5,
+      "firstChapter": 6,
+      "lastChapter": 589,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "学习魔法",
+      "mentions": 5,
+      "firstChapter": 7,
+      "lastChapter": 432,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "不知道魔法",
+      "mentions": 5,
+      "firstChapter": 10,
+      "lastChapter": 777,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "以及魔法",
+      "mentions": 5,
+      "firstChapter": 45,
+      "lastChapter": 823,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "不少魔法",
+      "mentions": 5,
+      "firstChapter": 52,
+      "lastChapter": 916,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "星相系魔法",
+      "mentions": 5,
+      "firstChapter": 76,
+      "lastChapter": 639,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "的传奇魔法",
+      "mentions": 5,
+      "firstChapter": 119,
+      "lastChapter": 874,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "他是魔法",
+      "mentions": 5,
+      "firstChapter": 133,
+      "lastChapter": 905,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "学徒级",
+      "mentions": 5,
+      "firstChapter": 146,
+      "lastChapter": 785,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "最新一期",
+      "mentions": 5,
+      "firstChapter": 149,
+      "lastChapter": 553,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "死灵魔法",
+      "mentions": 5,
+      "firstChapter": 156,
+      "lastChapter": 544,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "七级奥术",
+      "mentions": 5,
+      "firstChapter": 194,
+      "lastChapter": 442,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "在奥术和魔法",
+      "mentions": 5,
+      "firstChapter": 195,
+      "lastChapter": 604,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "海蒂等魔法",
+      "mentions": 5,
+      "firstChapter": 201,
+      "lastChapter": 689,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "另外一位奥术",
+      "mentions": 5,
+      "firstChapter": 211,
+      "lastChapter": 752,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "成为魔法",
+      "mentions": 5,
+      "firstChapter": 215,
+      "lastChapter": 828,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "而在魔法",
+      "mentions": 5,
+      "firstChapter": 230,
+      "lastChapter": 871,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "很多实验",
+      "mentions": 5,
+      "firstChapter": 231,
+      "lastChapter": 753,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "而且魔法",
+      "mentions": 5,
+      "firstChapter": 317,
+      "lastChapter": 891,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "这样的魔法",
+      "mentions": 5,
+      "firstChapter": 321,
+      "lastChapter": 912,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "两位大奥术",
+      "mentions": 5,
+      "firstChapter": 335,
+      "lastChapter": 578,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "一切以实验",
+      "mentions": 5,
+      "firstChapter": 351,
+      "lastChapter": 657,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "传奇一阶",
+      "mentions": 5,
+      "firstChapter": 559,
+      "lastChapter": 688,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "塔诺斯实验",
+      "mentions": 5,
+      "firstChapter": 634,
+      "lastChapter": 644,
+      "chapterCount": 5,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "遗传实验",
+      "mentions": 7,
+      "firstChapter": 614,
+      "lastChapter": 848,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(7)"
+      ]
+    },
+    {
+      "name": "有的奥术",
+      "mentions": 6,
+      "firstChapter": 183,
+      "lastChapter": 751,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(6)"
+      ]
+    },
+    {
+      "name": "这才是奥术",
+      "mentions": 5,
+      "firstChapter": 153,
+      "lastChapter": 826,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "从古代魔法",
+      "mentions": 5,
+      "firstChapter": 155,
+      "lastChapter": 450,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "这种等级",
+      "mentions": 5,
+      "firstChapter": 171,
+      "lastChapter": 914,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "七位大奥术",
+      "mentions": 5,
+      "firstChapter": 173,
+      "lastChapter": 344,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "基础奥术",
+      "mentions": 5,
+      "firstChapter": 193,
+      "lastChapter": 767,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "关于魔法",
+      "mentions": 5,
+      "firstChapter": 317,
+      "lastChapter": 877,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "晋升高阶",
+      "mentions": 5,
+      "firstChapter": 348,
+      "lastChapter": 438,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "周围的魔法",
+      "mentions": 5,
+      "firstChapter": 466,
+      "lastChapter": 910,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(5)"
+      ]
+    },
+    {
+      "name": "邪恶魔法",
+      "mentions": 4,
+      "firstChapter": 7,
+      "lastChapter": 664,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "而高阶",
+      "mentions": 4,
+      "firstChapter": 26,
+      "lastChapter": 676,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "至于魔法",
+      "mentions": 4,
+      "firstChapter": 33,
+      "lastChapter": 680,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "这种魔法",
+      "mentions": 4,
+      "firstChapter": 33,
+      "lastChapter": 591,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "这本期",
+      "mentions": 4,
+      "firstChapter": 41,
+      "lastChapter": 832,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "每位魔法",
+      "mentions": 4,
+      "firstChapter": 41,
+      "lastChapter": 243,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "八级奥术",
+      "mentions": 4,
+      "firstChapter": 43,
+      "lastChapter": 424,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "以古代魔法",
+      "mentions": 4,
+      "firstChapter": 43,
+      "lastChapter": 301,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "这些魔法",
+      "mentions": 4,
+      "firstChapter": 44,
+      "lastChapter": 721,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "邪恶的魔法",
+      "mentions": 4,
+      "firstChapter": 107,
+      "lastChapter": 887,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "等到魔法",
+      "mentions": 4,
+      "firstChapter": 133,
+      "lastChapter": 608,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "和能够在元素魔法",
+      "mentions": 4,
+      "firstChapter": 134,
+      "lastChapter": 352,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "成为高阶",
+      "mentions": 4,
+      "firstChapter": 143,
+      "lastChapter": 676,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "灵魂内法术",
+      "mentions": 4,
+      "firstChapter": 144,
+      "lastChapter": 466,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "路西恩将魔法",
+      "mentions": 4,
+      "firstChapter": 145,
+      "lastChapter": 632,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "这是传奇魔法",
+      "mentions": 4,
+      "firstChapter": 145,
+      "lastChapter": 581,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "每一位魔法",
+      "mentions": 4,
+      "firstChapter": 155,
+      "lastChapter": 822,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "周围的环境",
+      "mentions": 4,
+      "firstChapter": 161,
+      "lastChapter": 769,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "三级神术",
+      "mentions": 4,
+      "firstChapter": 164,
+      "lastChapter": 298,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "十一位传奇魔法",
+      "mentions": 4,
+      "firstChapter": 173,
+      "lastChapter": 378,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "否则魔法",
+      "mentions": 4,
+      "firstChapter": 184,
+      "lastChapter": 917,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "这种论文",
+      "mentions": 4,
+      "firstChapter": 187,
+      "lastChapter": 553,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "拿出论文",
+      "mentions": 4,
+      "firstChapter": 188,
+      "lastChapter": 594,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    },
+    {
+      "name": "我的论文",
+      "mentions": 4,
+      "firstChapter": 199,
+      "lastChapter": 440,
+      "chapterCount": 4,
+      "markers": [
+        "体系名词(4)"
+      ]
+    }
+  ],
+  "chunkSummaries": [
+    {
+      "chunk": 1,
+      "range": "第 1-20 章",
+      "characters": [
+        "我将在火焰中",
+        "本杰明",
+        "路西恩点了",
+        "杰克森",
+        "约翰温和地",
+        "呵呵",
+        "路西恩",
+        "继续"
+      ],
+      "organizations": [
+        "阿得让教堂",
+        "一不小心就会",
+        "音乐家协会",
+        "出了城门",
+        "会不会",
+        "亚伦黑帮",
+        "说不定会",
+        "肯定会",
+        "一定会",
+        "过了一会"
+      ],
+      "locations": [
+        "黑暗山",
+        "出了城"
+      ],
+      "systems": [
+        "激发神术",
+        "学习魔法",
+        "通用语发音和初级"
+      ]
+    },
+    {
+      "chunk": 2,
+      "range": "第 21-919 章",
+      "characters": [
+        "路西恩",
+        "路西恩点了",
+        "继续",
+        "呵呵",
+        "本杰明",
+        "杰克森",
+        "路西恩摇了",
+        "诚恳地",
+        "斯迈尔",
+        "于是",
+        "一直",
+        "静静地",
+        "洛特",
+        "而是",
+        "摇了",
+        "艾斯摇了",
+        "奇怪地",
+        "希罗多德在",
+        "一边",
+        "维克托",
+        "奥赛罗点了",
+        "于是点了",
+        "约翰摇了",
+        "音乐家",
+        "直接",
+        "冷静地",
+        "低声",
+        "路西恩礼貌地",
+        "娜塔莎忽然",
+        "路西恩一边"
+      ],
+      "organizations": [
+        "音乐家协会",
+        "又不会",
+        "一定会",
+        "魔法之门",
+        "大陆魔法议会",
+        "亚伦黑帮",
+        "让亚伦黑帮",
+        "会不会",
+        "难道会",
+        "应该会",
+        "说不定会",
+        "让黑帮",
+        "肯定会",
+        "去教会",
+        "威尔第伯爵阁",
+        "过了一会",
+        "而且还会",
+        "甚至会",
+        "很可能会",
+        "静寂门"
+      ],
+      "locations": [
+        "黑暗山",
+        "物质世界",
+        "阿尔托是圣咏之城",
+        "在古代魔法帝国",
+        "关于第五次寻找星球",
+        "路西恩脑海",
+        "维克托在音乐界",
+        "瓦欧里特公国",
+        "魔法遗迹",
+        "教会在瓦欧里特公国",
+        "出了城",
+        "梅尔泽黑森林",
+        "地下遗迹",
+        "叙拉古王国",
+        "在整个大陆",
+        "暴风海",
+        "是全大陆",
+        "其他国",
+        "整个大陆",
+        "霍尔姆王国"
+      ],
+      "systems": [
+        "学习魔法",
+        "是否和魔法",
+        "是否能够与魔法",
+        "大陆魔法",
+        "非正式魔法",
+        "这非正式魔法",
+        "在古代魔法",
+        "按照魔法",
+        "而高阶",
+        "至于魔法",
+        "魔法实验",
+        "恐怖的魔法",
+        "施展魔法",
+        "或者魔法",
+        "强大的魔法",
+        "传奇魔法",
+        "这本期",
+        "元素魔法",
+        "水银等魔法",
+        "邪恶魔法"
+      ]
+    }
+  ]
+}
