@@ -23,7 +23,7 @@
     {
       "name": "语义关系数量",
       "status": "通过",
-      "detail": "实际 109，最低要求 17。"
+      "detail": "实际 116，最低要求 17。"
     },
     {
       "name": "势力组织数量",
@@ -54,46 +54,35 @@
   "characters": [
     {
       "name": "李源",
-      "mentions": 2858,
+      "mentions": 3552,
       "firstChapter": 1,
       "lastChapter": 687,
-      "chapterCount": 622,
+      "chapterCount": 634,
       "markers": [
-        "姓名候选(2085)",
-        "人物行为/发言(773)"
-      ]
-    },
-    {
-      "name": "李源笑",
-      "mentions": 503,
-      "firstChapter": 1,
-      "lastChapter": 687,
-      "chapterCount": 249,
-      "markers": [
-        "姓名候选(502)",
-        "人物行为/发言(1)"
+        "姓名候选(2773)",
+        "人物行为/发言(779)"
       ]
     },
     {
       "name": "东方极",
-      "mentions": 544,
+      "mentions": 574,
       "firstChapter": 70,
       "lastChapter": 676,
       "chapterCount": 94,
       "markers": [
-        "姓名候选(487)",
+        "姓名候选(517)",
         "人物行为/发言(57)"
       ]
     },
     {
       "name": "柳冰",
-      "mentions": 121,
+      "mentions": 173,
       "firstChapter": 327,
-      "lastChapter": 682,
-      "chapterCount": 65,
+      "lastChapter": 686,
+      "chapterCount": 75,
       "markers": [
-        "姓名候选(81)",
-        "人物行为/发言(40)"
+        "姓名候选(132)",
+        "人物行为/发言(41)"
       ]
     },
     {
@@ -109,24 +98,13 @@
     },
     {
       "name": "方海",
-      "mentions": 180,
+      "mentions": 225,
       "firstChapter": 203,
       "lastChapter": 584,
-      "chapterCount": 59,
+      "chapterCount": 61,
       "markers": [
-        "姓名候选(94)",
+        "姓名候选(139)",
         "人物行为/发言(86)"
-      ]
-    },
-    {
-      "name": "李源连",
-      "mentions": 58,
-      "firstChapter": 14,
-      "lastChapter": 676,
-      "chapterCount": 52,
-      "markers": [
-        "姓名候选(52)",
-        "人物行为/发言(6)"
       ]
     },
     {
@@ -171,23 +149,24 @@
     },
     {
       "name": "黎阳",
-      "mentions": 115,
+      "mentions": 199,
       "firstChapter": 103,
       "lastChapter": 485,
       "chapterCount": 37,
       "markers": [
-        "人物行为/发言(94)",
-        "姓名候选(21)"
+        "姓名候选(105)",
+        "人物行为/发言(94)"
       ]
     },
     {
-      "name": "李源所",
-      "mentions": 40,
-      "firstChapter": 1,
-      "lastChapter": 683,
+      "name": "古悠",
+      "mentions": 85,
+      "firstChapter": 251,
+      "lastChapter": 673,
       "chapterCount": 37,
       "markers": [
-        "姓名候选(40)"
+        "姓名候选(59)",
+        "人物行为/发言(26)"
       ]
     },
     {
@@ -212,27 +191,6 @@
       ]
     },
     {
-      "name": "万万",
-      "mentions": 37,
-      "firstChapter": 44,
-      "lastChapter": 684,
-      "chapterCount": 36,
-      "markers": [
-        "姓名候选(37)"
-      ]
-    },
-    {
-      "name": "古悠",
-      "mentions": 67,
-      "firstChapter": 251,
-      "lastChapter": 673,
-      "chapterCount": 35,
-      "markers": [
-        "姓名候选(41)",
-        "人物行为/发言(26)"
-      ]
-    },
-    {
       "name": "李源能",
       "mentions": 35,
       "firstChapter": 81,
@@ -250,16 +208,6 @@
       "chapterCount": 32,
       "markers": [
         "姓名候选(47)"
-      ]
-    },
-    {
-      "name": "李源有",
-      "mentions": 32,
-      "firstChapter": 9,
-      "lastChapter": 657,
-      "chapterCount": 32,
-      "markers": [
-        "姓名候选(32)"
       ]
     },
     {
@@ -283,13 +231,14 @@
       ]
     },
     {
-      "name": "黎阳笑",
-      "mentions": 81,
-      "firstChapter": 111,
-      "lastChapter": 485,
+      "name": "澹台锋",
+      "mentions": 74,
+      "firstChapter": 125,
+      "lastChapter": 370,
       "chapterCount": 28,
       "markers": [
-        "姓名候选(81)"
+        "姓名候选(53)",
+        "人物行为/发言(21)"
       ]
     },
     {
@@ -304,35 +253,14 @@
       ]
     },
     {
-      "name": "澹台锋",
-      "mentions": 53,
-      "firstChapter": 125,
-      "lastChapter": 370,
-      "chapterCount": 27,
-      "markers": [
-        "姓名候选(32)",
-        "人物行为/发言(21)"
-      ]
-    },
-    {
       "name": "许博",
-      "mentions": 57,
+      "mentions": 88,
       "firstChapter": 1,
       "lastChapter": 163,
-      "chapterCount": 25,
+      "chapterCount": 26,
       "markers": [
-        "人物行为/发言(35)",
-        "姓名候选(22)"
-      ]
-    },
-    {
-      "name": "方海笑",
-      "mentions": 42,
-      "firstChapter": 259,
-      "lastChapter": 491,
-      "chapterCount": 25,
-      "markers": [
-        "姓名候选(42)"
+        "姓名候选(53)",
+        "人物行为/发言(35)"
       ]
     },
     {
@@ -369,34 +297,34 @@
     },
     {
       "name": "许源",
-      "mentions": 34,
+      "mentions": 35,
       "firstChapter": 401,
       "lastChapter": 504,
       "chapterCount": 23,
       "markers": [
-        "姓名候选(33)",
+        "姓名候选(34)",
         "人物行为/发言(1)"
       ]
     },
     {
-      "name": "柳冰连",
+      "name": "武者",
       "mentions": 29,
-      "firstChapter": 328,
-      "lastChapter": 686,
+      "firstChapter": 14,
+      "lastChapter": 424,
       "chapterCount": 23,
       "markers": [
-        "姓名候选(28)",
-        "人物行为/发言(1)"
+        "姓名候选(29)"
       ]
     },
     {
-      "name": "李源想",
-      "mentions": 22,
-      "firstChapter": 45,
-      "lastChapter": 658,
-      "chapterCount": 22,
+      "name": "柳京",
+      "mentions": 85,
+      "firstChapter": 170,
+      "lastChapter": 263,
+      "chapterCount": 21,
       "markers": [
-        "姓名候选(22)"
+        "姓名候选(55)",
+        "人物行为/发言(30)"
       ]
     },
     {
@@ -430,16 +358,6 @@
       ]
     },
     {
-      "name": "武者",
-      "mentions": 25,
-      "firstChapter": 14,
-      "lastChapter": 424,
-      "chapterCount": 21,
-      "markers": [
-        "姓名候选(25)"
-      ]
-    },
-    {
       "name": "广阔",
       "mentions": 21,
       "firstChapter": 169,
@@ -461,14 +379,13 @@
       ]
     },
     {
-      "name": "柳京",
-      "mentions": 66,
-      "firstChapter": 170,
-      "lastChapter": 263,
+      "name": "海院长",
+      "mentions": 68,
+      "firstChapter": 126,
+      "lastChapter": 370,
       "chapterCount": 20,
       "markers": [
-        "姓名候选(36)",
-        "人物行为/发言(30)"
+        "人物行为/发言(68)"
       ]
     },
     {
@@ -479,26 +396,6 @@
       "chapterCount": 20,
       "markers": [
         "姓名候选(25)"
-      ]
-    },
-    {
-      "name": "李源知",
-      "mentions": 20,
-      "firstChapter": 31,
-      "lastChapter": 625,
-      "chapterCount": 20,
-      "markers": [
-        "姓名候选(20)"
-      ]
-    },
-    {
-      "name": "海院长",
-      "mentions": 67,
-      "firstChapter": 126,
-      "lastChapter": 370,
-      "chapterCount": 19,
-      "markers": [
-        "人物行为/发言(67)"
       ]
     },
     {
@@ -531,16 +428,6 @@
       "chapterCount": 19,
       "markers": [
         "姓名候选(21)"
-      ]
-    },
-    {
-      "name": "李源而",
-      "mentions": 20,
-      "firstChapter": 46,
-      "lastChapter": 656,
-      "chapterCount": 19,
-      "markers": [
-        "姓名候选(20)"
       ]
     },
     {
@@ -586,12 +473,12 @@
     },
     {
       "name": "师尊",
-      "mentions": 20,
+      "mentions": 22,
       "firstChapter": 229,
       "lastChapter": 685,
       "chapterCount": 17,
       "markers": [
-        "姓名候选(20)"
+        "姓名候选(22)"
       ]
     },
     {
@@ -623,16 +510,6 @@
       "chapterCount": 16,
       "markers": [
         "人物行为/发言(34)"
-      ]
-    },
-    {
-      "name": "东方极笑",
-      "mentions": 28,
-      "firstChapter": 314,
-      "lastChapter": 600,
-      "chapterCount": 16,
-      "markers": [
-        "姓名候选(28)"
       ]
     },
     {
@@ -710,13 +587,13 @@
     },
     {
       "name": "姜山",
-      "mentions": 37,
+      "mentions": 52,
       "firstChapter": 402,
       "lastChapter": 436,
       "chapterCount": 14,
       "markers": [
-        "人物行为/发言(19)",
-        "姓名候选(18)"
+        "姓名候选(33)",
+        "人物行为/发言(19)"
       ]
     },
     {
@@ -832,26 +709,6 @@
       ]
     },
     {
-      "name": "许博笑",
-      "mentions": 29,
-      "firstChapter": 6,
-      "lastChapter": 154,
-      "chapterCount": 12,
-      "markers": [
-        "姓名候选(29)"
-      ]
-    },
-    {
-      "name": "柳冰笑",
-      "mentions": 20,
-      "firstChapter": 343,
-      "lastChapter": 575,
-      "chapterCount": 12,
-      "markers": [
-        "姓名候选(20)"
-      ]
-    },
-    {
       "name": "夏国人",
       "mentions": 15,
       "firstChapter": 102,
@@ -925,14 +782,35 @@
       ]
     },
     {
+      "name": "陈惠",
+      "mentions": 18,
+      "firstChapter": 8,
+      "lastChapter": 482,
+      "chapterCount": 11,
+      "markers": [
+        "姓名候选(11)",
+        "人物行为/发言(7)"
+      ]
+    },
+    {
       "name": "景奎",
-      "mentions": 15,
+      "mentions": 16,
       "firstChapter": 413,
       "lastChapter": 476,
       "chapterCount": 11,
       "markers": [
-        "姓名候选(12)",
+        "姓名候选(13)",
         "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "蓝星",
+      "mentions": 14,
+      "firstChapter": 23,
+      "lastChapter": 574,
+      "chapterCount": 11,
+      "markers": [
+        "姓名候选(14)"
       ]
     },
     {
@@ -943,6 +821,16 @@
       "chapterCount": 11,
       "markers": [
         "姓名候选(14)"
+      ]
+    },
+    {
+      "name": "文明",
+      "mentions": 13,
+      "firstChapter": 115,
+      "lastChapter": 495,
+      "chapterCount": 11,
+      "markers": [
+        "姓名候选(13)"
       ]
     },
     {
@@ -960,6 +848,16 @@
       "mentions": 12,
       "firstChapter": 69,
       "lastChapter": 613,
+      "chapterCount": 11,
+      "markers": [
+        "姓名候选(12)"
+      ]
+    },
+    {
+      "name": "夏国",
+      "mentions": 12,
+      "firstChapter": 163,
+      "lastChapter": 484,
       "chapterCount": 11,
       "markers": [
         "姓名候选(12)"
@@ -1006,23 +904,25 @@
       ]
     },
     {
-      "name": "柳京笑",
-      "mentions": 17,
-      "firstChapter": 170,
-      "lastChapter": 263,
+      "name": "姜璇",
+      "mentions": 33,
+      "firstChapter": 402,
+      "lastChapter": 436,
       "chapterCount": 10,
       "markers": [
-        "姓名候选(17)"
+        "姓名候选(21)",
+        "人物行为/发言(12)"
       ]
     },
     {
-      "name": "古悠笑",
-      "mentions": 16,
-      "firstChapter": 295,
-      "lastChapter": 673,
+      "name": "骆蝉",
+      "mentions": 20,
+      "firstChapter": 283,
+      "lastChapter": 312,
       "chapterCount": 10,
       "markers": [
-        "姓名候选(16)"
+        "姓名候选(16)",
+        "人物行为/发言(4)"
       ]
     },
     {
@@ -1051,16 +951,6 @@
       "mentions": 11,
       "firstChapter": 80,
       "lastChapter": 543,
-      "chapterCount": 10,
-      "markers": [
-        "姓名候选(11)"
-      ]
-    },
-    {
-      "name": "夏国",
-      "mentions": 11,
-      "firstChapter": 163,
-      "lastChapter": 484,
       "chapterCount": 10,
       "markers": [
         "姓名候选(11)"
@@ -1148,17 +1038,6 @@
       ]
     },
     {
-      "name": "姜璇",
-      "mentions": 24,
-      "firstChapter": 402,
-      "lastChapter": 436,
-      "chapterCount": 9,
-      "markers": [
-        "姓名候选(13)",
-        "人物行为/发言(11)"
-      ]
-    },
-    {
       "name": "明低",
       "mentions": 14,
       "firstChapter": 347,
@@ -1179,6 +1058,17 @@
       ]
     },
     {
+      "name": "周启",
+      "mentions": 12,
+      "firstChapter": 1,
+      "lastChapter": 101,
+      "chapterCount": 9,
+      "markers": [
+        "姓名候选(7)",
+        "人物行为/发言(5)"
+      ]
+    },
+    {
       "name": "关山区",
       "mentions": 12,
       "firstChapter": 1,
@@ -1196,27 +1086,6 @@
       "chapterCount": 9,
       "markers": [
         "姓名候选(12)"
-      ]
-    },
-    {
-      "name": "陈惠",
-      "mentions": 11,
-      "firstChapter": 8,
-      "lastChapter": 482,
-      "chapterCount": 9,
-      "markers": [
-        "人物行为/发言(6)",
-        "姓名候选(5)"
-      ]
-    },
-    {
-      "name": "蓝星",
-      "mentions": 11,
-      "firstChapter": 23,
-      "lastChapter": 574,
-      "chapterCount": 9,
-      "markers": [
-        "姓名候选(11)"
       ]
     },
     {
@@ -1361,46 +1230,46 @@
       ]
     },
     {
-      "name": "澹台锋笑",
-      "mentions": 18,
-      "firstChapter": 142,
-      "lastChapter": 370,
-      "chapterCount": 8,
-      "markers": [
-        "姓名候选(18)"
-      ]
-    },
-    {
-      "name": "骆蝉",
-      "mentions": 18,
-      "firstChapter": 283,
-      "lastChapter": 312,
-      "chapterCount": 8,
-      "markers": [
-        "姓名候选(14)",
-        "人物行为/发言(4)"
-      ]
-    },
-    {
       "name": "严景",
-      "mentions": 17,
+      "mentions": 24,
       "firstChapter": 267,
       "lastChapter": 293,
       "chapterCount": 8,
       "markers": [
-        "人物行为/发言(9)",
-        "姓名候选(8)"
+        "姓名候选(15)",
+        "人物行为/发言(9)"
+      ]
+    },
+    {
+      "name": "于京河",
+      "mentions": 21,
+      "firstChapter": 236,
+      "lastChapter": 481,
+      "chapterCount": 8,
+      "markers": [
+        "人物行为/发言(21)"
       ]
     },
     {
       "name": "宋漪",
-      "mentions": 14,
+      "mentions": 15,
       "firstChapter": 26,
       "lastChapter": 100,
       "chapterCount": 8,
       "markers": [
-        "姓名候选(10)",
+        "姓名候选(11)",
         "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "端木宏",
+      "mentions": 14,
+      "firstChapter": 273,
+      "lastChapter": 360,
+      "chapterCount": 8,
+      "markers": [
+        "姓名候选(11)",
+        "人物行为/发言(3)"
       ]
     },
     {
@@ -1416,12 +1285,12 @@
     },
     {
       "name": "吴洛",
-      "mentions": 11,
+      "mentions": 12,
       "firstChapter": 67,
       "lastChapter": 141,
       "chapterCount": 8,
       "markers": [
-        "姓名候选(9)",
+        "姓名候选(10)",
         "人物行为/发言(2)"
       ]
     },
@@ -1453,6 +1322,17 @@
       "chapterCount": 8,
       "markers": [
         "姓名候选(10)"
+      ]
+    },
+    {
+      "name": "师兄",
+      "mentions": 9,
+      "firstChapter": 57,
+      "lastChapter": 659,
+      "chapterCount": 8,
+      "markers": [
+        "姓名候选(8)",
+        "人物行为/发言(1)"
       ]
     },
     {
@@ -1556,6 +1436,16 @@
       ]
     },
     {
+      "name": "充满",
+      "mentions": 8,
+      "firstChapter": 223,
+      "lastChapter": 659,
+      "chapterCount": 8,
+      "markers": [
+        "姓名候选(8)"
+      ]
+    },
+    {
       "name": "李源以",
       "mentions": 8,
       "firstChapter": 299,
@@ -1587,6 +1477,17 @@
       ]
     },
     {
+      "name": "费乾",
+      "mentions": 33,
+      "firstChapter": 84,
+      "lastChapter": 335,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(20)",
+        "人物行为/发言(13)"
+      ]
+    },
+    {
       "name": "银发老者",
       "mentions": 29,
       "firstChapter": 447,
@@ -1604,27 +1505,6 @@
       "chapterCount": 7,
       "markers": [
         "姓名候选(28)"
-      ]
-    },
-    {
-      "name": "费乾",
-      "mentions": 23,
-      "firstChapter": 84,
-      "lastChapter": 335,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(13)",
-        "姓名候选(10)"
-      ]
-    },
-    {
-      "name": "于京河",
-      "mentions": 20,
-      "firstChapter": 236,
-      "lastChapter": 481,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(20)"
       ]
     },
     {
@@ -1648,14 +1528,25 @@
       ]
     },
     {
-      "name": "端木宏",
-      "mentions": 12,
-      "firstChapter": 273,
-      "lastChapter": 360,
+      "name": "安农",
+      "mentions": 16,
+      "firstChapter": 104,
+      "lastChapter": 208,
       "chapterCount": 7,
       "markers": [
-        "姓名候选(9)",
-        "人物行为/发言(3)"
+        "姓名候选(8)",
+        "人物行为/发言(8)"
+      ]
+    },
+    {
+      "name": "施霄",
+      "mentions": 16,
+      "firstChapter": 150,
+      "lastChapter": 263,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(12)",
+        "人物行为/发言(4)"
       ]
     },
     {
@@ -1669,17 +1560,6 @@
       ]
     },
     {
-      "name": "安农",
-      "mentions": 10,
-      "firstChapter": 104,
-      "lastChapter": 208,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(8)",
-        "姓名候选(2)"
-      ]
-    },
-    {
       "name": "古源",
       "mentions": 9,
       "firstChapter": 559,
@@ -1690,17 +1570,6 @@
       ]
     },
     {
-      "name": "周启",
-      "mentions": 8,
-      "firstChapter": 1,
-      "lastChapter": 93,
-      "chapterCount": 7,
-      "markers": [
-        "人物行为/发言(4)",
-        "姓名候选(4)"
-      ]
-    },
-    {
       "name": "武道大",
       "mentions": 8,
       "firstChapter": 8,
@@ -1708,17 +1577,6 @@
       "chapterCount": 7,
       "markers": [
         "姓名候选(8)"
-      ]
-    },
-    {
-      "name": "师兄",
-      "mentions": 8,
-      "firstChapter": 57,
-      "lastChapter": 659,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)",
-        "人物行为/发言(1)"
       ]
     },
     {
@@ -1786,16 +1644,6 @@
       "mentions": 7,
       "firstChapter": 27,
       "lastChapter": 678,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)"
-      ]
-    },
-    {
-      "name": "何如此",
-      "mentions": 7,
-      "firstChapter": 29,
-      "lastChapter": 567,
       "chapterCount": 7,
       "markers": [
         "姓名候选(7)"
@@ -1892,6 +1740,16 @@
       ]
     },
     {
+      "name": "何会",
+      "mentions": 7,
+      "firstChapter": 216,
+      "lastChapter": 676,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
       "name": "封禁",
       "mentions": 7,
       "firstChapter": 221,
@@ -1900,21 +1758,155 @@
       "markers": [
         "姓名候选(7)"
       ]
+    },
+    {
+      "name": "高高",
+      "mentions": 7,
+      "firstChapter": 227,
+      "lastChapter": 684,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "李源更",
+      "mentions": 7,
+      "firstChapter": 271,
+      "lastChapter": 658,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "陈老师",
+      "mentions": 28,
+      "firstChapter": 48,
+      "lastChapter": 93,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(24)",
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "燕真",
+      "mentions": 22,
+      "firstChapter": 351,
+      "lastChapter": 495,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(22)"
+      ]
+    },
+    {
+      "name": "白山星主",
+      "mentions": 21,
+      "firstChapter": 202,
+      "lastChapter": 224,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(21)"
+      ]
+    },
+    {
+      "name": "觉星神帝",
+      "mentions": 19,
+      "firstChapter": 546,
+      "lastChapter": 681,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(19)"
+      ]
+    },
+    {
+      "name": "烈擎真",
+      "mentions": 18,
+      "firstChapter": 488,
+      "lastChapter": 499,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(18)"
+      ]
+    },
+    {
+      "name": "金甲战",
+      "mentions": 15,
+      "firstChapter": 251,
+      "lastChapter": 299,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(15)"
+      ]
+    },
+    {
+      "name": "云神王",
+      "mentions": 13,
+      "firstChapter": 636,
+      "lastChapter": 685,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(13)"
+      ]
+    },
+    {
+      "name": "紫色巨兽",
+      "mentions": 12,
+      "firstChapter": 565,
+      "lastChapter": 602,
+      "chapterCount": 6,
+      "markers": [
+        "人物行为/发言(12)"
+      ]
+    },
+    {
+      "name": "尹漫",
+      "mentions": 11,
+      "firstChapter": 205,
+      "lastChapter": 264,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(10)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "东幽圣",
+      "mentions": 10,
+      "firstChapter": 425,
+      "lastChapter": 465,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(10)"
+      ]
+    },
+    {
+      "name": "蓝色武",
+      "mentions": 9,
+      "firstChapter": 21,
+      "lastChapter": 232,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(9)"
+      ]
+    },
+    {
+      "name": "安赤天",
+      "mentions": 9,
+      "firstChapter": 408,
+      "lastChapter": 476,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(9)"
+      ]
     }
   ],
   "characterRoles": [
     {
       "name": "李源",
       "role": "主角候选",
-      "reason": "全书出现和覆盖最高，覆盖第 1-687 章。",
-      "firstChapter": 1,
-      "lastChapter": 687,
-      "confidence": "中"
-    },
-    {
-      "name": "李源笑",
-      "role": "导师/上位者/下属候选",
-      "reason": "李源：老师，覆盖第 1-687 章，证据：同章共现(496)、老师(24)、帮助(7)、妹妹(6)、学生(5)、救(4)、兄弟(4)、弟子(3)",
+      "reason": "综合主角得分最高，覆盖第 1-687 章。",
       "firstChapter": 1,
       "lastChapter": 687,
       "confidence": "中"
@@ -1932,7 +1924,7 @@
       "role": "主要对手/反派候选",
       "reason": "李源：威胁，覆盖第 327-686 章，证据：同章共现(427)、威胁(5)、救(4)、仇(4)、追杀(2)、老师(2)、亲人(2)、围攻(2)",
       "firstChapter": 327,
-      "lastChapter": 682,
+      "lastChapter": 686,
       "confidence": "中"
     },
     {
@@ -1949,14 +1941,6 @@
       "reason": "李源：老师，覆盖第 164-650 章，证据：同章共现(381)、老师(27)、师尊(8)、命令(7)、帮助(5)、对手(3)、威胁(3)、保护(2)",
       "firstChapter": 203,
       "lastChapter": 584,
-      "confidence": "中"
-    },
-    {
-      "name": "李源连",
-      "role": "导师/上位者/下属候选",
-      "reason": "李源：老师，覆盖第 11-681 章，证据：同章共现(88)、老师(6)、救(2)、弟子(2)、师尊(2)、帮助(1)",
-      "firstChapter": 14,
-      "lastChapter": 676,
       "confidence": "中"
     },
     {
@@ -2000,12 +1984,12 @@
       "confidence": "中"
     },
     {
-      "name": "李源所",
-      "role": "重要配角候选",
-      "reason": "李源：威胁，覆盖第 1-683 章，证据：同章共现(244)、老师(1)、学生(1)、威胁(1)、镇压(1)、朋友(1)、试探(1)、盟友(1)",
-      "firstChapter": 1,
-      "lastChapter": 683,
-      "confidence": "低"
+      "name": "古悠",
+      "role": "亲属/情感关系候选",
+      "reason": "李源：父亲，覆盖第 251-673 章，证据：同章共现(203)、父亲(18)、帮助(7)、仇(6)、弟子(5)、师尊(5)、威胁(4)、老师(3)",
+      "firstChapter": 251,
+      "lastChapter": 673,
+      "confidence": "中"
     },
     {
       "name": "李源点",
@@ -2024,22 +2008,6 @@
       "confidence": "低"
     },
     {
-      "name": "万万",
-      "role": "重要配角候选",
-      "reason": "李源：帮助，覆盖第 59-684 章，证据：同章共现(23)、丈夫(1)、帮助(1)、保护(1)、敌人(1)",
-      "firstChapter": 44,
-      "lastChapter": 684,
-      "confidence": "低"
-    },
-    {
-      "name": "古悠",
-      "role": "亲属/情感关系候选",
-      "reason": "李源：父亲，覆盖第 251-673 章，证据：同章共现(203)、父亲(18)、帮助(7)、仇(6)、弟子(5)、师尊(5)、威胁(4)、老师(3)",
-      "firstChapter": 251,
-      "lastChapter": 673,
-      "confidence": "中"
-    },
-    {
       "name": "李源能",
       "role": "主要对手/反派候选",
       "reason": "李源：威胁，覆盖第 1-686 章，证据：同章共现(169)、学生(2)、老师(2)、威胁(2)、保护(1)、敌人(1)、围攻(1)、救(1)",
@@ -2054,14 +2022,6 @@
       "firstChapter": 303,
       "lastChapter": 685,
       "confidence": "低"
-    },
-    {
-      "name": "李源有",
-      "role": "主要对手/反派候选",
-      "reason": "李源：追杀，覆盖第 9-670 章，证据：同章共现(141)、学生(2)、老师(1)、追杀(1)、朋友(1)、对手(1)、威胁(1)、帮助(1)",
-      "firstChapter": 9,
-      "lastChapter": 657,
-      "confidence": "中"
     },
     {
       "name": "冬芒神王",
@@ -2080,11 +2040,11 @@
       "confidence": "中"
     },
     {
-      "name": "黎阳笑",
+      "name": "澹台锋",
       "role": "导师/上位者/下属候选",
-      "reason": "黎阳：学生，覆盖第 111-485 章，证据：同章共现(77)、学生(5)、老师(4)、保护(1)、妹妹(1)、弟子(1)",
-      "firstChapter": 111,
-      "lastChapter": 485,
+      "reason": "李源：学生，覆盖第 132-650 章，证据：同章共现(169)、学生(3)、喜欢(3)、对手(2)、老师(1)、父亲(1)、保护(1)、队长(1)",
+      "firstChapter": 125,
+      "lastChapter": 370,
       "confidence": "中"
     },
     {
@@ -2096,27 +2056,11 @@
       "confidence": "中"
     },
     {
-      "name": "澹台锋",
-      "role": "导师/上位者/下属候选",
-      "reason": "李源：学生，覆盖第 132-650 章，证据：同章共现(169)、学生(3)、喜欢(3)、对手(2)、老师(1)、父亲(1)、保护(1)、队长(1)",
-      "firstChapter": 125,
-      "lastChapter": 370,
-      "confidence": "中"
-    },
-    {
       "name": "许博",
       "role": "导师/上位者/下属候选",
       "reason": "李源：老师，覆盖第 1-603 章，证据：同章共现(139)、老师(68)、学生(11)、救(4)、儿子(2)、利用(1)、喜欢(1)、帮助(1)",
       "firstChapter": 1,
       "lastChapter": 163,
-      "confidence": "中"
-    },
-    {
-      "name": "方海笑",
-      "role": "导师/上位者/下属候选",
-      "reason": "方海：老师，覆盖第 259-491 章，证据：同章共现(34)、老师(7)、师尊(2)、命令(2)、弟子(1)、保护(1)、学生(1)",
-      "firstChapter": 259,
-      "lastChapter": 491,
       "confidence": "中"
     },
     {
@@ -2152,19 +2096,19 @@
       "confidence": "中"
     },
     {
-      "name": "柳冰连",
+      "name": "武者",
       "role": "导师/上位者/下属候选",
-      "reason": "柳冰：师尊，覆盖第 328-684 章，证据：同章共现(39)、师尊(2)、命令(1)、弟子(1)",
-      "firstChapter": 328,
-      "lastChapter": 686,
+      "reason": "李源：老师，覆盖第 1-537 章，证据：同章共现(639)、老师(19)、学生(9)、帮助(8)、救(6)、敌人(4)、保护(4)、命令(4)",
+      "firstChapter": 14,
+      "lastChapter": 424,
       "confidence": "中"
     },
     {
-      "name": "李源想",
-      "role": "导师/上位者/下属候选",
-      "reason": "李源：老师，覆盖第 8-684 章，证据：同章共现(116)、老师(4)、帮助(3)、学生(1)、对手(1)、追杀(1)、冲突(1)、父亲(1)",
-      "firstChapter": 45,
-      "lastChapter": 658,
+      "name": "柳京",
+      "role": "核心同伴/盟友候选",
+      "reason": "李源：保护，覆盖第 170-497 章，证据：同章共现(127)、保护(2)、老师(2)、救(2)、敌人(1)、威胁(1)",
+      "firstChapter": 170,
+      "lastChapter": 263,
       "confidence": "中"
     },
     {
@@ -2192,14 +2136,6 @@
       "confidence": "低"
     },
     {
-      "name": "武者",
-      "role": "导师/上位者/下属候选",
-      "reason": "李源：老师，覆盖第 1-537 章，证据：同章共现(639)、老师(19)、学生(9)、帮助(8)、救(6)、敌人(4)、保护(4)、命令(4)",
-      "firstChapter": 14,
-      "lastChapter": 424,
-      "confidence": "中"
-    },
-    {
       "name": "广阔",
       "role": "重要配角候选",
       "reason": "李源：争夺，覆盖第 74-679 章，证据：同章共现(63)、争夺(1)、敌人(1)、老师(1)",
@@ -2216,11 +2152,11 @@
       "confidence": "中"
     },
     {
-      "name": "柳京",
-      "role": "核心同伴/盟友候选",
-      "reason": "李源：保护，覆盖第 170-497 章，证据：同章共现(127)、保护(2)、老师(2)、救(2)、敌人(1)、威胁(1)",
-      "firstChapter": 170,
-      "lastChapter": 263,
+      "name": "海院长",
+      "role": "导师/上位者/下属候选",
+      "reason": "李源：命令，覆盖第 98-372 章，证据：同章共现(162)、命令(4)、老师(4)、学生(4)、喜欢(3)、试探(1)、追杀(1)、上司(1)",
+      "firstChapter": 126,
+      "lastChapter": 370,
       "confidence": "中"
     },
     {
@@ -2229,22 +2165,6 @@
       "reason": "李源：救，覆盖第 375-583 章，证据：同章共现(68)、救(3)、弟子(2)、命令(1)、帮助(1)、追杀(1)、师尊(1)",
       "firstChapter": 375,
       "lastChapter": 558,
-      "confidence": "中"
-    },
-    {
-      "name": "李源知",
-      "role": "重要配角候选",
-      "reason": "李源：救，覆盖第 31-641 章，证据：同章共现(22)、老师(1)、救(1)",
-      "firstChapter": 31,
-      "lastChapter": 625,
-      "confidence": "低"
-    },
-    {
-      "name": "海院长",
-      "role": "导师/上位者/下属候选",
-      "reason": "李源：命令，覆盖第 98-372 章，证据：同章共现(162)、命令(4)、老师(4)、学生(4)、喜欢(3)、试探(1)、追杀(1)、上司(1)",
-      "firstChapter": 126,
-      "lastChapter": 370,
       "confidence": "中"
     },
     {
@@ -2258,7 +2178,7 @@
     {
       "name": "连传音",
       "role": "重要配角候选",
-      "reason": "李源：对手，覆盖第 365-612 章，证据：同章共现(10)、父亲(1)、对手(1)",
+      "reason": "高频出场人物，覆盖第 318-630 章，需子 Agent 精读确认人物功能。",
       "firstChapter": 318,
       "lastChapter": 630,
       "confidence": "低"
@@ -2270,14 +2190,6 @@
       "firstChapter": 42,
       "lastChapter": 335,
       "confidence": "中"
-    },
-    {
-      "name": "李源而",
-      "role": "重要配角候选",
-      "reason": "李源：学生，覆盖第 46-687 章，证据：同章共现(22)、学生(1)、亲人(1)、老师(1)",
-      "firstChapter": 46,
-      "lastChapter": 656,
-      "confidence": "低"
     },
     {
       "name": "金护国",
@@ -2342,14 +2254,6 @@
       "firstChapter": 319,
       "lastChapter": 381,
       "confidence": "中"
-    },
-    {
-      "name": "东方极笑",
-      "role": "重要配角候选",
-      "reason": "东方极：帮助，覆盖第 314-600 章，证据：同章共现(25)、师尊(2)、帮助(2)、交换(1)",
-      "firstChapter": 314,
-      "lastChapter": 600,
-      "confidence": "低"
     },
     {
       "name": "古炬",
@@ -2442,7 +2346,7 @@
     {
       "name": "方实力",
       "role": "重要配角候选",
-      "reason": "李源：利用，覆盖第 180-672 章，证据：同章共现(11)、利用(1)",
+      "reason": "高频出场人物，覆盖第 6-672 章，需子 Agent 精读确认人物功能。",
       "firstChapter": 6,
       "lastChapter": 672,
       "confidence": "低"
@@ -2504,22 +2408,6 @@
       "confidence": "中"
     },
     {
-      "name": "许博笑",
-      "role": "导师/上位者/下属候选",
-      "reason": "许博：学生，覆盖第 6-154 章，证据：同章共现(28)、学生(5)、老师(3)、儿子(1)",
-      "firstChapter": 6,
-      "lastChapter": 154,
-      "confidence": "中"
-    },
-    {
-      "name": "柳冰笑",
-      "role": "重要配角候选",
-      "reason": "柳冰：对手，覆盖第 343-575 章，证据：同章共现(20)、对手(1)、保护(1)",
-      "firstChapter": 343,
-      "lastChapter": 575,
-      "confidence": "低"
-    },
-    {
       "name": "夏国人",
       "role": "导师/上位者/下属候选",
       "reason": "李源：师尊，覆盖第 131-495 章，证据：同章共现(11)、师尊(1)、学生(1)、弟子(1)",
@@ -2530,7 +2418,7 @@
     {
       "name": "李源造",
       "role": "重要配角候选",
-      "reason": "李源：威胁，覆盖第 4-654 章，证据：同章共现(10)、老师(1)、威胁(1)",
+      "reason": "高频出场人物，覆盖第 4-654 章，需子 Agent 精读确认人物功能。",
       "firstChapter": 4,
       "lastChapter": 654,
       "confidence": "低"
@@ -2542,9 +2430,155 @@
       "firstChapter": 42,
       "lastChapter": 577,
       "confidence": "低"
+    },
+    {
+      "name": "端木山主",
+      "role": "重要配角候选",
+      "reason": "李源：老师，覆盖第 270-356 章，证据：同章共现(34)、老师(2)",
+      "firstChapter": 270,
+      "lastChapter": 343,
+      "confidence": "低"
+    },
+    {
+      "name": "巫马农",
+      "role": "导师/上位者/下属候选",
+      "reason": "李源：老师，覆盖第 235-335 章，证据：同章共现(42)、老师(2)、敌人(1)、命令(1)、仇(1)",
+      "firstChapter": 235,
+      "lastChapter": 310,
+      "confidence": "中"
+    },
+    {
+      "name": "小墓",
+      "role": "导师/上位者/下属候选",
+      "reason": "李源：老师，覆盖第 627-685 章，证据：同章共现(117)、帮助(4)、老师(2)、弟子(2)、师尊(2)、命令(1)、利用(1)、敌人(1)",
+      "firstChapter": 629,
+      "lastChapter": 687,
+      "confidence": "中"
+    },
+    {
+      "name": "李慕华",
+      "role": "核心同伴/盟友候选",
+      "reason": "李源：帮助，覆盖第 8-575 章，证据：同章共现(24)、帮助(3)、老师(1)、学生(1)、儿子(1)",
+      "firstChapter": 7,
+      "lastChapter": 575,
+      "confidence": "中"
+    },
+    {
+      "name": "陈惠",
+      "role": "亲属/情感关系候选",
+      "reason": "李源：丈夫，覆盖第 9-425 章，证据：同章共现(28)、丈夫(3)、老师(2)、儿子(1)、女儿(1)、兄弟(1)、父亲(1)、妻子(1)",
+      "firstChapter": 8,
+      "lastChapter": 482,
+      "confidence": "中"
+    },
+    {
+      "name": "景奎",
+      "role": "重要配角候选",
+      "reason": "李源：对手，覆盖第 413-476 章，证据：同章共现(31)、对手(1)、帮助(1)、同行(1)、威胁(1)",
+      "firstChapter": 413,
+      "lastChapter": 476,
+      "confidence": "低"
+    },
+    {
+      "name": "蓝星",
+      "role": "导师/上位者/下属候选",
+      "reason": "李源：老师，覆盖第 5-673 章，证据：同章共现(321)、老师(5)、学生(5)、喜欢(3)、帮助(2)、救(2)、命令(2)、妹妹(1)",
+      "firstChapter": 23,
+      "lastChapter": 574,
+      "confidence": "中"
+    },
+    {
+      "name": "王传音",
+      "role": "重要配角候选",
+      "reason": "高频出场人物，覆盖第 304-647 章，需子 Agent 精读确认人物功能。",
+      "firstChapter": 304,
+      "lastChapter": 647,
+      "confidence": "低"
+    },
+    {
+      "name": "文明",
+      "role": "主要对手/反派候选",
+      "reason": "李源：威胁，覆盖第 8-674 章，证据：同章共现(745)、老师(19)、威胁(17)、仇(8)、帮助(7)、追杀(7)、命令(6)、敌人(6)",
+      "firstChapter": 115,
+      "lastChapter": 495,
+      "confidence": "中"
+    },
+    {
+      "name": "旋即",
+      "role": "导师/上位者/下属候选",
+      "reason": "李源：老师，覆盖第 3-687 章，证据：同章共现(180)、老师(4)、围攻(2)、对手(1)、救(1)、交易(1)",
+      "firstChapter": 41,
+      "lastChapter": 670,
+      "confidence": "中"
+    },
+    {
+      "name": "方身份",
+      "role": "重要配角候选",
+      "reason": "高频出场人物，覆盖第 69-613 章，需子 Agent 精读确认人物功能。",
+      "firstChapter": 69,
+      "lastChapter": 613,
+      "confidence": "低"
+    },
+    {
+      "name": "夏国",
+      "role": "导师/上位者/下属候选",
+      "reason": "李源：学生，覆盖第 24-574 章，证据：同章共现(113)、学生(18)、老师(2)、救(2)、帮助(2)、对手(1)、敌人(1)、喜欢(1)",
+      "firstChapter": 163,
+      "lastChapter": 484,
+      "confidence": "中"
+    },
+    {
+      "name": "时有可",
+      "role": "重要配角候选",
+      "reason": "高频出场人物，覆盖第 169-636 章，需子 Agent 精读确认人物功能。",
+      "firstChapter": 169,
+      "lastChapter": 636,
+      "confidence": "低"
+    },
+    {
+      "name": "李源最",
+      "role": "重要配角候选",
+      "reason": "李源：围攻，覆盖第 10-684 章，证据：同章共现(63)、妹妹(1)、老师(1)、救(1)、围攻(1)、威胁(1)",
+      "firstChapter": 16,
+      "lastChapter": 630,
+      "confidence": "低"
     }
   ],
   "relations": [
+    {
+      "source": "文明",
+      "target": "李源",
+      "mentions": 837,
+      "firstChapter": 8,
+      "lastChapter": 674,
+      "markers": [
+        "同章共现(745)",
+        "老师(19)",
+        "威胁(17)",
+        "仇(8)",
+        "帮助(7)",
+        "追杀(7)",
+        "命令(6)",
+        "敌人(6)"
+      ]
+    },
+    {
+      "source": "万魔文",
+      "target": "文明",
+      "mentions": 727,
+      "firstChapter": 243,
+      "lastChapter": 638,
+      "markers": [
+        "同章共现(648)",
+        "老师(16)",
+        "威胁(9)",
+        "命令(9)",
+        "仇(8)",
+        "敌人(8)",
+        "追杀(4)",
+        "试探(4)"
+      ]
+    },
     {
       "source": "李源",
       "target": "武者",
@@ -2560,23 +2594,6 @@
         "敌人(4)",
         "保护(4)",
         "命令(4)"
-      ]
-    },
-    {
-      "source": "李源",
-      "target": "李源笑",
-      "mentions": 559,
-      "firstChapter": 1,
-      "lastChapter": 687,
-      "markers": [
-        "同章共现(496)",
-        "老师(24)",
-        "帮助(7)",
-        "妹妹(6)",
-        "学生(5)",
-        "救(4)",
-        "兄弟(4)",
-        "弟子(3)"
       ]
     },
     {
@@ -2616,11 +2633,11 @@
     {
       "source": "李源",
       "target": "蓝星",
-      "mentions": 344,
+      "mentions": 345,
       "firstChapter": 5,
       "lastChapter": 673,
       "markers": [
-        "同章共现(320)",
+        "同章共现(321)",
         "老师(5)",
         "学生(5)",
         "喜欢(3)",
@@ -2645,6 +2662,23 @@
         "保护(2)",
         "老师(2)",
         "弟子(2)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "武者",
+      "mentions": 296,
+      "firstChapter": 6,
+      "lastChapter": 574,
+      "markers": [
+        "同章共现(265)",
+        "老师(5)",
+        "保护(5)",
+        "对手(3)",
+        "追杀(3)",
+        "命令(3)",
+        "敌人(3)",
+        "交易(2)"
       ]
     },
     {
@@ -2682,23 +2716,6 @@
       ]
     },
     {
-      "source": "李源",
-      "target": "李源所",
-      "mentions": 251,
-      "firstChapter": 1,
-      "lastChapter": 683,
-      "markers": [
-        "同章共现(244)",
-        "老师(1)",
-        "学生(1)",
-        "威胁(1)",
-        "镇压(1)",
-        "朋友(1)",
-        "试探(1)",
-        "盟友(1)"
-      ]
-    },
-    {
       "source": "古悠",
       "target": "李源",
       "mentions": 246,
@@ -2716,6 +2733,23 @@
       ]
     },
     {
+      "source": "东方极",
+      "target": "文明",
+      "mentions": 242,
+      "firstChapter": 11,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(223)",
+        "试探(3)",
+        "师尊(2)",
+        "老师(2)",
+        "弟子(2)",
+        "争夺(1)",
+        "交换(1)",
+        "帮助(1)"
+      ]
+    },
+    {
       "source": "李源",
       "target": "黎阳",
       "mentions": 238,
@@ -2730,6 +2764,23 @@
         "围攻(2)",
         "保护(1)",
         "帮助(1)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "方海",
+      "mentions": 235,
+      "firstChapter": 221,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(184)",
+        "老师(35)",
+        "帮助(3)",
+        "威胁(3)",
+        "仇(2)",
+        "命令(2)",
+        "弟子(2)",
+        "师尊(1)"
       ]
     },
     {
@@ -2899,23 +2950,6 @@
     },
     {
       "source": "李源",
-      "target": "李源有",
-      "mentions": 152,
-      "firstChapter": 9,
-      "lastChapter": 670,
-      "markers": [
-        "同章共现(141)",
-        "学生(2)",
-        "老师(1)",
-        "追杀(1)",
-        "朋友(1)",
-        "对手(1)",
-        "威胁(1)",
-        "帮助(1)"
-      ]
-    },
-    {
-      "source": "李源",
       "target": "艾利西",
       "mentions": 150,
       "firstChapter": 226,
@@ -2995,23 +3029,6 @@
         "救(2)",
         "敌人(1)",
         "威胁(1)"
-      ]
-    },
-    {
-      "source": "李源",
-      "target": "李源想",
-      "mentions": 132,
-      "firstChapter": 8,
-      "lastChapter": 684,
-      "markers": [
-        "同章共现(116)",
-        "老师(4)",
-        "帮助(3)",
-        "学生(1)",
-        "对手(1)",
-        "追杀(1)",
-        "冲突(1)",
-        "父亲(1)"
       ]
     },
     {
@@ -3097,6 +3114,23 @@
       ]
     },
     {
+      "source": "云兽文",
+      "target": "文明",
+      "mentions": 111,
+      "firstChapter": 200,
+      "lastChapter": 497,
+      "markers": [
+        "同章共现(103)",
+        "威胁(2)",
+        "支援(2)",
+        "同行(1)",
+        "追杀(1)",
+        "合作(1)",
+        "师尊(1)",
+        "仇(1)"
+      ]
+    },
+    {
       "source": "李源",
       "target": "李源实",
       "mentions": 108,
@@ -3127,6 +3161,23 @@
       ]
     },
     {
+      "source": "东魔",
+      "target": "文明",
+      "mentions": 104,
+      "firstChapter": 309,
+      "lastChapter": 498,
+      "markers": [
+        "同章共现(91)",
+        "试探(4)",
+        "命令(3)",
+        "威胁(2)",
+        "交易(2)",
+        "保护(1)",
+        "师尊(1)",
+        "对手(1)"
+      ]
+    },
+    {
       "source": "古强悍",
       "target": "李源",
       "mentions": 101,
@@ -3140,21 +3191,6 @@
         "朋友(1)",
         "儿子(1)",
         "姐妹(1)"
-      ]
-    },
-    {
-      "source": "李源",
-      "target": "李源连",
-      "mentions": 100,
-      "firstChapter": 11,
-      "lastChapter": 681,
-      "markers": [
-        "同章共现(88)",
-        "老师(6)",
-        "救(2)",
-        "弟子(2)",
-        "师尊(2)",
-        "帮助(1)"
       ]
     },
     {
@@ -3231,21 +3267,6 @@
       ]
     },
     {
-      "source": "黎阳",
-      "target": "黎阳笑",
-      "mentions": 89,
-      "firstChapter": 111,
-      "lastChapter": 485,
-      "markers": [
-        "同章共现(77)",
-        "学生(5)",
-        "老师(4)",
-        "保护(1)",
-        "妹妹(1)",
-        "弟子(1)"
-      ]
-    },
-    {
       "source": "李源",
       "target": "白山半",
       "mentions": 89,
@@ -3305,6 +3326,38 @@
         "队长(1)",
         "师尊(1)",
         "仇(1)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "明墟星",
+      "mentions": 80,
+      "firstChapter": 152,
+      "lastChapter": 479,
+      "markers": [
+        "同章共现(68)",
+        "争夺(5)",
+        "支援(2)",
+        "老师(2)",
+        "冲突(1)",
+        "利用(1)",
+        "救(1)",
+        "帮助(1)"
+      ]
+    },
+    {
+      "source": "于京河",
+      "target": "李源",
+      "mentions": 79,
+      "firstChapter": 60,
+      "lastChapter": 574,
+      "markers": [
+        "同章共现(74)",
+        "救(1)",
+        "同行(1)",
+        "同伴(1)",
+        "对手(1)",
+        "冲突(1)"
       ]
     },
     {
@@ -3397,6 +3450,31 @@
     },
     {
       "source": "李源",
+      "target": "桓神君",
+      "mentions": 69,
+      "firstChapter": 613,
+      "lastChapter": 660,
+      "markers": [
+        "同章共现(65)",
+        "师尊(2)",
+        "试探(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "夏国",
+      "target": "蓝星",
+      "mentions": 68,
+      "firstChapter": 1,
+      "lastChapter": 575,
+      "markers": [
+        "同章共现(65)",
+        "学生(2)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "李源",
       "target": "李源最",
       "mentions": 68,
       "firstChapter": 10,
@@ -3437,18 +3515,6 @@
         "弟子(1)",
         "围攻(1)",
         "命令(1)"
-      ]
-    },
-    {
-      "source": "夏国",
-      "target": "蓝星",
-      "mentions": 67,
-      "firstChapter": 1,
-      "lastChapter": 575,
-      "markers": [
-        "同章共现(64)",
-        "学生(2)",
-        "弟子(1)"
       ]
     },
     {
@@ -3581,6 +3647,29 @@
     },
     {
       "source": "李源",
+      "target": "李源修",
+      "mentions": 60,
+      "firstChapter": 1,
+      "lastChapter": 670,
+      "markers": [
+        "同章共现(60)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "蓝星",
+      "mentions": 59,
+      "firstChapter": 3,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(56)",
+        "威胁(1)",
+        "命令(1)",
+        "试探(1)"
+      ]
+    },
+    {
+      "source": "李源",
       "target": "黎天佑",
       "mentions": 59,
       "firstChapter": 6,
@@ -3649,6 +3738,20 @@
       ]
     },
     {
+      "source": "刀魔天",
+      "target": "李源",
+      "mentions": 56,
+      "firstChapter": 503,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(48)",
+        "弟子(3)",
+        "师尊(2)",
+        "保护(2)",
+        "命令(1)"
+      ]
+    },
+    {
       "source": "古炬",
       "target": "李源",
       "mentions": 53,
@@ -3662,6 +3765,21 @@
         "老师(2)",
         "命令(1)",
         "保护(1)"
+      ]
+    },
+    {
+      "source": "严景",
+      "target": "李源",
+      "mentions": 52,
+      "firstChapter": 263,
+      "lastChapter": 293,
+      "markers": [
+        "同章共现(47)",
+        "学生(1)",
+        "对手(1)",
+        "追杀(1)",
+        "命令(1)",
+        "救(1)"
       ]
     },
     {
@@ -3719,6 +3837,60 @@
       ]
     },
     {
+      "source": "李慕华",
+      "target": "李茜茜",
+      "mentions": 49,
+      "firstChapter": 7,
+      "lastChapter": 671,
+      "markers": [
+        "同章共现(44)",
+        "学生(2)",
+        "老师(2)",
+        "妻子(1)"
+      ]
+    },
+    {
+      "source": "李源",
+      "target": "骆蝉",
+      "mentions": 49,
+      "firstChapter": 274,
+      "lastChapter": 323,
+      "markers": [
+        "同章共现(45)",
+        "追杀(3)",
+        "命令(3)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "柳冰",
+      "mentions": 48,
+      "firstChapter": 344,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(41)",
+        "敌人(2)",
+        "威胁(2)",
+        "支援(1)",
+        "对手(1)",
+        "救(1)",
+        "镇压(1)"
+      ]
+    },
+    {
+      "source": "李源",
+      "target": "李源完",
+      "mentions": 47,
+      "firstChapter": 19,
+      "lastChapter": 673,
+      "markers": [
+        "同章共现(44)",
+        "敌人(1)",
+        "保护(1)",
+        "争夺(1)"
+      ]
+    },
+    {
       "source": "巫马农",
       "target": "李源",
       "mentions": 47,
@@ -3733,19 +3905,16 @@
       ]
     },
     {
-      "source": "方海",
-      "target": "方海笑",
+      "source": "于京河",
+      "target": "文明",
       "mentions": 46,
-      "firstChapter": 259,
-      "lastChapter": 491,
+      "firstChapter": 168,
+      "lastChapter": 575,
       "markers": [
-        "同章共现(34)",
-        "老师(7)",
-        "师尊(2)",
-        "命令(2)",
-        "弟子(1)",
-        "保护(1)",
-        "学生(1)"
+        "同章共现(43)",
+        "争夺(1)",
+        "冲突(1)",
+        "威胁(1)"
       ]
     },
     {
@@ -3814,6 +3983,19 @@
       ]
     },
     {
+      "source": "吴洛",
+      "target": "李源",
+      "mentions": 44,
+      "firstChapter": 66,
+      "lastChapter": 144,
+      "markers": [
+        "同章共现(35)",
+        "学生(4)",
+        "对手(4)",
+        "追杀(1)"
+      ]
+    },
+    {
       "source": "明墟星",
       "target": "武者",
       "mentions": 44,
@@ -3847,19 +4029,6 @@
         "老师(2)",
         "保护(1)",
         "帮助(1)"
-      ]
-    },
-    {
-      "source": "柳冰",
-      "target": "柳冰连",
-      "mentions": 43,
-      "firstChapter": 328,
-      "lastChapter": 684,
-      "markers": [
-        "同章共现(39)",
-        "师尊(2)",
-        "命令(1)",
-        "弟子(1)"
       ]
     },
     {
@@ -3977,16 +4146,15 @@
       ]
     },
     {
-      "source": "许博",
-      "target": "许博笑",
+      "source": "于京河",
+      "target": "武者",
       "mentions": 37,
-      "firstChapter": 6,
-      "lastChapter": 154,
+      "firstChapter": 150,
+      "lastChapter": 336,
       "markers": [
-        "同章共现(28)",
-        "学生(5)",
-        "老师(3)",
-        "儿子(1)"
+        "同章共现(35)",
+        "同行(1)",
+        "争夺(1)"
       ]
     },
     {
@@ -4007,6 +4175,30 @@
       ]
     },
     {
+      "source": "吴东东",
+      "target": "李源",
+      "mentions": 36,
+      "firstChapter": 64,
+      "lastChapter": 213,
+      "markers": [
+        "同章共现(32)",
+        "对手(2)",
+        "兄弟(1)",
+        "救(1)"
+      ]
+    },
+    {
+      "source": "李源",
+      "target": "端木宏",
+      "mentions": 36,
+      "firstChapter": 265,
+      "lastChapter": 405,
+      "markers": [
+        "同章共现(35)",
+        "命令(1)"
+      ]
+    },
+    {
       "source": "李源",
       "target": "端木山主",
       "mentions": 36,
@@ -4015,6 +4207,17 @@
       "markers": [
         "同章共现(34)",
         "老师(2)"
+      ]
+    },
+    {
+      "source": "于京河",
+      "target": "巫马农",
+      "mentions": 35,
+      "firstChapter": 237,
+      "lastChapter": 303,
+      "markers": [
+        "同章共现(34)",
+        "利用(1)"
       ]
     },
     {
@@ -4029,6 +4232,58 @@
         "帮助(1)",
         "同行(1)",
         "威胁(1)"
+      ]
+    },
+    {
+      "source": "李源",
+      "target": "白衣女子",
+      "mentions": 34,
+      "firstChapter": 113,
+      "lastChapter": 476,
+      "markers": [
+        "同章共现(30)",
+        "威胁(1)",
+        "学生(1)",
+        "镇压(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "庞大",
+      "target": "文明",
+      "mentions": 34,
+      "firstChapter": 152,
+      "lastChapter": 509,
+      "markers": [
+        "同章共现(32)",
+        "老师(1)",
+        "帮助(1)"
+      ]
+    },
+    {
+      "source": "严景",
+      "target": "骆蝉",
+      "mentions": 34,
+      "firstChapter": 283,
+      "lastChapter": 332,
+      "markers": [
+        "同章共现(32)",
+        "追杀(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "夏国",
+      "target": "文明",
+      "mentions": 33,
+      "firstChapter": 16,
+      "lastChapter": 495,
+      "markers": [
+        "同章共现(29)",
+        "学生(1)",
+        "命令(1)",
+        "帮助(1)",
+        "亲人(1)"
       ]
     },
     {
@@ -4070,6 +4325,21 @@
       ]
     },
     {
+      "source": "文明",
+      "target": "海院长",
+      "mentions": 32,
+      "firstChapter": 127,
+      "lastChapter": 289,
+      "markers": [
+        "同章共现(28)",
+        "冲突(1)",
+        "救(1)",
+        "利用(1)",
+        "交换(1)",
+        "帮助(1)"
+      ]
+    },
+    {
       "source": "叶半",
       "target": "方海",
       "mentions": 32,
@@ -4083,6 +4353,18 @@
         "学生(1)",
         "救(1)",
         "丈夫(1)"
+      ]
+    },
+    {
+      "source": "宋漪",
+      "target": "李源",
+      "mentions": 31,
+      "firstChapter": 26,
+      "lastChapter": 153,
+      "markers": [
+        "同章共现(29)",
+        "合作(1)",
+        "仇(1)"
       ]
     },
     {
@@ -4173,19 +4455,6 @@
     },
     {
       "source": "东方极",
-      "target": "东方极笑",
-      "mentions": 29,
-      "firstChapter": 314,
-      "lastChapter": 600,
-      "markers": [
-        "同章共现(25)",
-        "师尊(2)",
-        "帮助(2)",
-        "交换(1)"
-      ]
-    },
-    {
-      "source": "东方极",
       "target": "东魔",
       "mentions": 29,
       "firstChapter": 314,
@@ -4214,17 +4483,31 @@
       ]
     },
     {
-      "source": "万万",
-      "target": "李源",
+      "source": "文明",
+      "target": "白山半",
       "mentions": 27,
-      "firstChapter": 59,
-      "lastChapter": 684,
+      "firstChapter": 230,
+      "lastChapter": 495,
       "markers": [
-        "同章共现(23)",
-        "丈夫(1)",
-        "帮助(1)",
-        "保护(1)",
-        "敌人(1)"
+        "同章共现(24)",
+        "师尊(1)",
+        "争夺(1)",
+        "威胁(1)"
+      ]
+    },
+    {
+      "source": "古悠",
+      "target": "文明",
+      "mentions": 27,
+      "firstChapter": 296,
+      "lastChapter": 571,
+      "markers": [
+        "同章共现(20)",
+        "父亲(2)",
+        "敌人(2)",
+        "威胁(2)",
+        "仇(2)",
+        "围攻(1)"
       ]
     },
     {
@@ -4238,6 +4521,18 @@
         "兄弟(2)",
         "威胁(1)",
         "师尊(1)"
+      ]
+    },
+    {
+      "source": "周启",
+      "target": "李源",
+      "mentions": 26,
+      "firstChapter": 2,
+      "lastChapter": 216,
+      "markers": [
+        "同章共现(24)",
+        "老师(1)",
+        "朋友(1)"
       ]
     },
     {
@@ -4316,28 +4611,41 @@
       ]
     },
     {
-      "source": "李源",
-      "target": "李源知",
-      "mentions": 24,
-      "firstChapter": 31,
-      "lastChapter": 641,
+      "source": "东方盟主",
+      "target": "文明",
+      "mentions": 25,
+      "firstChapter": 337,
+      "lastChapter": 574,
       "markers": [
-        "同章共现(22)",
-        "老师(1)",
-        "救(1)"
+        "同章共现(23)",
+        "父亲(1)",
+        "帮助(1)"
       ]
     },
     {
-      "source": "李源",
-      "target": "李源而",
-      "mentions": 24,
-      "firstChapter": 46,
-      "lastChapter": 687,
+      "source": "东方盟",
+      "target": "文明",
+      "mentions": 25,
+      "firstChapter": 337,
+      "lastChapter": 574,
       "markers": [
-        "同章共现(22)",
-        "学生(1)",
-        "亲人(1)",
-        "老师(1)"
+        "同章共现(23)",
+        "父亲(1)",
+        "帮助(1)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "金神明",
+      "mentions": 25,
+      "firstChapter": 347,
+      "lastChapter": 391,
+      "markers": [
+        "同章共现(20)",
+        "威胁(2)",
+        "对手(1)",
+        "支援(1)",
+        "弟子(1)"
       ]
     },
     {
@@ -4369,6 +4677,19 @@
       ]
     },
     {
+      "source": "丘冰尊",
+      "target": "文明",
+      "mentions": 24,
+      "firstChapter": 316,
+      "lastChapter": 548,
+      "markers": [
+        "同章共现(21)",
+        "朋友(1)",
+        "保护(1)",
+        "敌人(1)"
+      ]
+    },
+    {
       "source": "关山区",
       "target": "李源",
       "mentions": 23,
@@ -4378,6 +4699,18 @@
         "同章共现(16)",
         "学生(6)",
         "老师(1)"
+      ]
+    },
+    {
+      "source": "李源",
+      "target": "李茜茜",
+      "mentions": 23,
+      "firstChapter": 7,
+      "lastChapter": 574,
+      "markers": [
+        "同章共现(21)",
+        "学生(1)",
+        "帮助(1)"
       ]
     },
     {
@@ -4479,18 +4812,6 @@
       ]
     },
     {
-      "source": "柳冰",
-      "target": "柳冰笑",
-      "mentions": 22,
-      "firstChapter": 343,
-      "lastChapter": 575,
-      "markers": [
-        "同章共现(20)",
-        "对手(1)",
-        "保护(1)"
-      ]
-    },
-    {
       "source": "师尊",
       "target": "柳冰",
       "mentions": 22,
@@ -4500,6 +4821,19 @@
         "师尊(22)",
         "弟子(2)",
         "保护(2)"
+      ]
+    },
+    {
+      "source": "吴东东",
+      "target": "林岚月",
+      "mentions": 21,
+      "firstChapter": 63,
+      "lastChapter": 216,
+      "markers": [
+        "同章共现(18)",
+        "对手(1)",
+        "围攻(1)",
+        "追杀(1)"
       ]
     },
     {
@@ -4553,6 +4887,16 @@
       ]
     },
     {
+      "source": "文明",
+      "target": "明墟兽",
+      "mentions": 20,
+      "firstChapter": 306,
+      "lastChapter": 334,
+      "markers": [
+        "同章共现(20)"
+      ]
+    },
+    {
       "source": "师尊",
       "target": "方海",
       "mentions": 19,
@@ -4563,18 +4907,6 @@
         "保护(2)",
         "命令(2)",
         "弟子(1)"
-      ]
-    },
-    {
-      "source": "古悠",
-      "target": "古悠笑",
-      "mentions": 19,
-      "firstChapter": 295,
-      "lastChapter": 673,
-      "markers": [
-        "同章共现(14)",
-        "父亲(4)",
-        "仇(1)"
       ]
     },
     {
@@ -4654,19 +4986,6 @@
       ]
     },
     {
-      "source": "柳京",
-      "target": "柳京笑",
-      "mentions": 18,
-      "firstChapter": 170,
-      "lastChapter": 263,
-      "markers": [
-        "同章共现(15)",
-        "学生(1)",
-        "保护(1)",
-        "支援(1)"
-      ]
-    },
-    {
       "source": "明墟星",
       "target": "柳京",
       "mentions": 18,
@@ -4711,6 +5030,16 @@
       "markers": [
         "同章共现(17)",
         "命令(1)"
+      ]
+    },
+    {
+      "source": "于京河",
+      "target": "夏国",
+      "mentions": 17,
+      "firstChapter": 60,
+      "lastChapter": 482,
+      "markers": [
+        "同章共现(17)"
       ]
     },
     {
@@ -4804,6 +5133,19 @@
       ]
     },
     {
+      "source": "文明",
+      "target": "林岚月",
+      "mentions": 16,
+      "firstChapter": 250,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(14)",
+        "师尊(1)",
+        "弟子(1)",
+        "试探(1)"
+      ]
+    },
+    {
       "source": "古炬",
       "target": "师尊",
       "mentions": 16,
@@ -4823,6 +5165,18 @@
       "lastChapter": 650,
       "markers": [
         "同章共现(16)"
+      ]
+    },
+    {
+      "source": "万青河",
+      "target": "宋漪",
+      "mentions": 15,
+      "firstChapter": 94,
+      "lastChapter": 153,
+      "markers": [
+        "同章共现(13)",
+        "仇(1)",
+        "朋友(1)"
       ]
     },
     {
@@ -4917,18 +5271,6 @@
       ]
     },
     {
-      "source": "李源所",
-      "target": "武者",
-      "mentions": 14,
-      "firstChapter": 1,
-      "lastChapter": 322,
-      "markers": [
-        "同章共现(12)",
-        "老师(1)",
-        "学生(1)"
-      ]
-    },
-    {
       "source": "万殿主",
       "target": "蓝星",
       "mentions": 14,
@@ -4936,6 +5278,18 @@
       "lastChapter": 95,
       "markers": [
         "同章共现(14)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "李长洲",
+      "mentions": 14,
+      "firstChapter": 121,
+      "lastChapter": 499,
+      "markers": [
+        "同章共现(13)",
+        "妻子(1)",
+        "保护(1)"
       ]
     },
     {
@@ -4983,6 +5337,30 @@
         "保护(1)",
         "命令(1)",
         "弟子(1)"
+      ]
+    },
+    {
+      "source": "于京河",
+      "target": "明墟星",
+      "mentions": 14,
+      "firstChapter": 266,
+      "lastChapter": 333,
+      "markers": [
+        "同章共现(12)",
+        "支援(1)",
+        "争夺(1)"
+      ]
+    },
+    {
+      "source": "叶半",
+      "target": "文明",
+      "mentions": 14,
+      "firstChapter": 270,
+      "lastChapter": 490,
+      "markers": [
+        "同章共现(13)",
+        "追杀(1)",
+        "命令(1)"
       ]
     },
     {
@@ -5062,6 +5440,18 @@
       ]
     },
     {
+      "source": "安全",
+      "target": "文明",
+      "mentions": 13,
+      "firstChapter": 74,
+      "lastChapter": 499,
+      "markers": [
+        "同章共现(11)",
+        "保护(1)",
+        "威胁(1)"
+      ]
+    },
+    {
       "source": "何等恐",
       "target": "李源",
       "mentions": 13,
@@ -5070,6 +5460,17 @@
       "markers": [
         "同章共现(12)",
         "学生(1)"
+      ]
+    },
+    {
+      "source": "文明",
+      "target": "黎阳",
+      "mentions": 13,
+      "firstChapter": 112,
+      "lastChapter": 485,
+      "markers": [
+        "同章共现(12)",
+        "命令(1)"
       ]
     },
     {
@@ -5109,360 +5510,57 @@
       ]
     },
     {
-      "source": "夏国",
-      "target": "白山半",
+      "source": "于京河",
+      "target": "方海",
       "mentions": 13,
-      "firstChapter": 240,
-      "lastChapter": 485,
-      "markers": [
-        "同章共现(13)"
-      ]
-    },
-    {
-      "source": "巫马农",
-      "target": "黎阳",
-      "mentions": 13,
-      "firstChapter": 302,
-      "lastChapter": 335,
-      "markers": [
-        "同章共现(11)",
-        "老师(2)"
-      ]
-    },
-    {
-      "source": "东方极",
-      "target": "金神明",
-      "mentions": 13,
-      "firstChapter": 379,
-      "lastChapter": 391,
-      "markers": [
-        "同章共现(11)",
-        "弟子(2)"
-      ]
-    },
-    {
-      "source": "方海",
-      "target": "林岚月",
-      "mentions": 13,
-      "firstChapter": 397,
-      "lastChapter": 650,
-      "markers": [
-        "同章共现(13)"
-      ]
-    },
-    {
-      "source": "姜璇",
-      "target": "许源",
-      "mentions": 13,
-      "firstChapter": 401,
-      "lastChapter": 431,
-      "markers": [
-        "同章共现(11)",
-        "救(1)",
-        "兄长(1)"
-      ]
-    },
-    {
-      "source": "柳冰",
-      "target": "许源",
-      "mentions": 13,
-      "firstChapter": 454,
-      "lastChapter": 470,
-      "markers": [
-        "同章共现(11)",
-        "师尊(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "李源",
-      "target": "李源造",
-      "mentions": 12,
-      "firstChapter": 4,
-      "lastChapter": 654,
-      "markers": [
-        "同章共现(10)",
-        "老师(1)",
-        "威胁(1)"
-      ]
-    },
-    {
-      "source": "蓝星",
-      "target": "许博",
-      "mentions": 12,
-      "firstChapter": 14,
-      "lastChapter": 57,
-      "markers": [
-        "同章共现(11)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "海院长",
-      "target": "黎院长",
-      "mentions": 12,
-      "firstChapter": 98,
-      "lastChapter": 164,
-      "markers": [
-        "同章共现(10)",
-        "追杀(2)"
-      ]
-    },
-    {
-      "source": "徐院长",
-      "target": "海院长",
-      "mentions": 12,
-      "firstChapter": 125,
-      "lastChapter": 215,
-      "markers": [
-        "同章共现(12)"
-      ]
-    },
-    {
-      "source": "方实力",
-      "target": "李源",
-      "mentions": 12,
-      "firstChapter": 180,
-      "lastChapter": 672,
-      "markers": [
-        "同章共现(11)",
-        "利用(1)"
-      ]
-    },
-    {
-      "source": "武神殿",
-      "target": "艾利西",
-      "mentions": 12,
-      "firstChapter": 262,
-      "lastChapter": 280,
-      "markers": [
-        "同章共现(9)",
-        "喜欢(2)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "田大壮",
-      "target": "艾利西",
-      "mentions": 12,
-      "firstChapter": 264,
-      "lastChapter": 366,
-      "markers": [
-        "同章共现(12)"
-      ]
-    },
-    {
-      "source": "东方极",
-      "target": "明墟星",
-      "mentions": 12,
-      "firstChapter": 291,
+      "firstChapter": 193,
       "lastChapter": 352,
       "markers": [
-        "同章共现(11)",
-        "帮助(1)"
-      ]
-    },
-    {
-      "source": "成天",
-      "target": "柳冰",
-      "mentions": 12,
-      "firstChapter": 329,
-      "lastChapter": 676,
-      "markers": [
-        "同章共现(10)",
-        "仇(2)"
-      ]
-    },
-    {
-      "source": "柳冰",
-      "target": "蓝星",
-      "mentions": 12,
-      "firstChapter": 350,
-      "lastChapter": 574,
-      "markers": [
-        "同章共现(11)",
-        "救(1)"
-      ]
-    },
-    {
-      "source": "李源",
-      "target": "连传音",
-      "mentions": 12,
-      "firstChapter": 365,
-      "lastChapter": 612,
-      "markers": [
-        "同章共现(10)",
-        "父亲(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "李源",
-      "target": "谭校长",
-      "mentions": 11,
-      "firstChapter": 14,
-      "lastChapter": 162,
-      "markers": [
-        "同章共现(10)",
-        "学生(1)"
-      ]
-    },
-    {
-      "source": "夏国",
-      "target": "方海",
-      "mentions": 11,
-      "firstChapter": 85,
-      "lastChapter": 490,
-      "markers": [
-        "同章共现(7)",
-        "老师(2)",
-        "师尊(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "李源笑",
-      "target": "蓝星",
-      "mentions": 11,
-      "firstChapter": 85,
-      "lastChapter": 574,
-      "markers": [
-        "同章共现(11)"
-      ]
-    },
-    {
-      "source": "武者",
-      "target": "澹台锋",
-      "mentions": 11,
-      "firstChapter": 142,
-      "lastChapter": 351,
-      "markers": [
-        "同章共现(10)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "庞大",
-      "target": "柳京",
-      "mentions": 11,
-      "firstChapter": 184,
-      "lastChapter": 263,
-      "markers": [
-        "同章共现(11)"
-      ]
-    },
-    {
-      "source": "武神殿",
-      "target": "金护国",
-      "mentions": 11,
-      "firstChapter": 262,
-      "lastChapter": 359,
-      "markers": [
-        "同章共现(11)"
-      ]
-    },
-    {
-      "source": "武神殿",
-      "target": "武者",
-      "mentions": 11,
-      "firstChapter": 263,
-      "lastChapter": 373,
-      "markers": [
-        "同章共现(9)",
-        "弟子(1)",
-        "帮助(1)"
-      ]
-    },
-    {
-      "source": "武者",
-      "target": "白山半",
-      "mentions": 11,
-      "firstChapter": 289,
-      "lastChapter": 376,
-      "markers": [
-        "同章共现(10)",
-        "追杀(1)"
-      ]
-    },
-    {
-      "source": "明墟星",
-      "target": "林岚月",
-      "mentions": 11,
-      "firstChapter": 299,
-      "lastChapter": 397,
-      "markers": [
-        "同章共现(11)"
-      ]
-    },
-    {
-      "source": "叶半",
-      "target": "白山半",
-      "mentions": 11,
-      "firstChapter": 306,
-      "lastChapter": 374,
-      "markers": [
-        "同章共现(11)"
-      ]
-    },
-    {
-      "source": "柳冰",
-      "target": "武者",
-      "mentions": 11,
-      "firstChapter": 342,
-      "lastChapter": 397,
-      "markers": [
-        "同章共现(9)",
-        "追杀(1)",
-        "支援(1)"
-      ]
-    },
-    {
-      "source": "万魔文",
-      "target": "柳冰",
-      "mentions": 11,
-      "firstChapter": 347,
-      "lastChapter": 574,
-      "markers": [
-        "同章共现(10)",
-        "镇压(1)"
-      ]
-    },
-    {
-      "source": "成天",
-      "target": "方海",
-      "mentions": 11,
-      "firstChapter": 396,
-      "lastChapter": 650,
-      "markers": [
-        "同章共现(10)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "武者",
-      "target": "江北武",
-      "mentions": 10,
-      "firstChapter": 9,
-      "lastChapter": 144,
-      "markers": [
-        "同章共现(6)",
-        "学生(3)",
-        "老师(1)"
-      ]
-    },
-    {
-      "source": "关山区",
-      "target": "江城市",
-      "mentions": 10,
-      "firstChapter": 23,
-      "lastChapter": 335,
-      "markers": [
-        "同章共现(9)",
-        "老师(1)"
+        "同章共现(13)"
       ]
     }
   ],
   "semanticRelations": [
+    {
+      "source": "文明",
+      "target": "李源",
+      "mentions": 837,
+      "firstChapter": 8,
+      "lastChapter": 674,
+      "markers": [
+        "同章共现(745)",
+        "老师(19)",
+        "威胁(17)",
+        "仇(8)",
+        "帮助(7)",
+        "追杀(7)",
+        "命令(6)",
+        "敌人(6)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "中"
+    },
+    {
+      "source": "万魔文",
+      "target": "文明",
+      "mentions": 727,
+      "firstChapter": 243,
+      "lastChapter": 638,
+      "markers": [
+        "同章共现(648)",
+        "老师(16)",
+        "威胁(9)",
+        "命令(9)",
+        "仇(8)",
+        "敌人(8)",
+        "追杀(4)",
+        "试探(4)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "中"
+    },
     {
       "source": "李源",
       "target": "武者",
@@ -5478,26 +5576,6 @@
         "敌人(4)",
         "保护(4)",
         "命令(4)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "中"
-    },
-    {
-      "source": "李源",
-      "target": "李源笑",
-      "mentions": 559,
-      "firstChapter": 1,
-      "lastChapter": 687,
-      "markers": [
-        "同章共现(496)",
-        "老师(24)",
-        "帮助(7)",
-        "妹妹(6)",
-        "学生(5)",
-        "救(4)",
-        "兄弟(4)",
-        "弟子(3)"
       ],
       "group": "师徒/上下级",
       "relationType": "老师",
@@ -5546,11 +5624,11 @@
     {
       "source": "李源",
       "target": "蓝星",
-      "mentions": 344,
+      "mentions": 345,
       "firstChapter": 5,
       "lastChapter": 673,
       "markers": [
-        "同章共现(320)",
+        "同章共现(321)",
         "老师(5)",
         "学生(5)",
         "喜欢(3)",
@@ -5581,6 +5659,26 @@
       ],
       "group": "同盟/合作",
       "relationType": "帮助",
+      "confidence": "中"
+    },
+    {
+      "source": "文明",
+      "target": "武者",
+      "mentions": 296,
+      "firstChapter": 6,
+      "lastChapter": 574,
+      "markers": [
+        "同章共现(265)",
+        "老师(5)",
+        "保护(5)",
+        "对手(3)",
+        "追杀(3)",
+        "命令(3)",
+        "敌人(3)",
+        "交易(2)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "对手",
       "confidence": "中"
     },
     {
@@ -5624,26 +5722,6 @@
       "confidence": "中"
     },
     {
-      "source": "李源",
-      "target": "李源所",
-      "mentions": 251,
-      "firstChapter": 1,
-      "lastChapter": 683,
-      "markers": [
-        "同章共现(244)",
-        "老师(1)",
-        "学生(1)",
-        "威胁(1)",
-        "镇压(1)",
-        "朋友(1)",
-        "试探(1)",
-        "盟友(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "威胁",
-      "confidence": "低"
-    },
-    {
       "source": "古悠",
       "target": "李源",
       "mentions": 246,
@@ -5664,6 +5742,26 @@
       "confidence": "中"
     },
     {
+      "source": "东方极",
+      "target": "文明",
+      "mentions": 242,
+      "firstChapter": 11,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(223)",
+        "试探(3)",
+        "师尊(2)",
+        "老师(2)",
+        "弟子(2)",
+        "争夺(1)",
+        "交换(1)",
+        "帮助(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
       "source": "李源",
       "target": "黎阳",
       "mentions": 238,
@@ -5678,6 +5776,26 @@
         "围攻(2)",
         "保护(1)",
         "帮助(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "老师",
+      "confidence": "中"
+    },
+    {
+      "source": "文明",
+      "target": "方海",
+      "mentions": 235,
+      "firstChapter": 221,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(184)",
+        "老师(35)",
+        "帮助(3)",
+        "威胁(3)",
+        "仇(2)",
+        "命令(2)",
+        "弟子(2)",
+        "师尊(1)"
       ],
       "group": "师徒/上下级",
       "relationType": "老师",
@@ -5873,26 +5991,6 @@
         "命令(2)",
         "围攻(1)",
         "弟子(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "追杀",
-      "confidence": "中"
-    },
-    {
-      "source": "李源",
-      "target": "李源有",
-      "mentions": 152,
-      "firstChapter": 9,
-      "lastChapter": 670,
-      "markers": [
-        "同章共现(141)",
-        "学生(2)",
-        "老师(1)",
-        "追杀(1)",
-        "朋友(1)",
-        "对手(1)",
-        "威胁(1)",
-        "帮助(1)"
       ],
       "group": "敌对/矛盾",
       "relationType": "追杀",
@@ -5997,26 +6095,6 @@
       "confidence": "中"
     },
     {
-      "source": "李源",
-      "target": "李源想",
-      "mentions": 132,
-      "firstChapter": 8,
-      "lastChapter": 684,
-      "markers": [
-        "同章共现(116)",
-        "老师(4)",
-        "帮助(3)",
-        "学生(1)",
-        "对手(1)",
-        "追杀(1)",
-        "冲突(1)",
-        "父亲(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "中"
-    },
-    {
       "source": "小墓",
       "target": "李源",
       "mentions": 129,
@@ -6114,6 +6192,26 @@
       "confidence": "中"
     },
     {
+      "source": "云兽文",
+      "target": "文明",
+      "mentions": 111,
+      "firstChapter": 200,
+      "lastChapter": 497,
+      "markers": [
+        "同章共现(103)",
+        "威胁(2)",
+        "支援(2)",
+        "同行(1)",
+        "追杀(1)",
+        "合作(1)",
+        "师尊(1)",
+        "仇(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "中"
+    },
+    {
       "source": "李源",
       "target": "李源实",
       "mentions": 108,
@@ -6150,6 +6248,26 @@
       "confidence": "低"
     },
     {
+      "source": "东魔",
+      "target": "文明",
+      "mentions": 104,
+      "firstChapter": 309,
+      "lastChapter": 498,
+      "markers": [
+        "同章共现(91)",
+        "试探(4)",
+        "命令(3)",
+        "威胁(2)",
+        "交易(2)",
+        "保护(1)",
+        "师尊(1)",
+        "对手(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "试探",
+      "confidence": "中"
+    },
+    {
       "source": "古强悍",
       "target": "李源",
       "mentions": 101,
@@ -6166,24 +6284,6 @@
       ],
       "group": "师徒/上下级",
       "relationType": "学生",
-      "confidence": "中"
-    },
-    {
-      "source": "李源",
-      "target": "李源连",
-      "mentions": 100,
-      "firstChapter": 11,
-      "lastChapter": 681,
-      "markers": [
-        "同章共现(88)",
-        "老师(6)",
-        "救(2)",
-        "弟子(2)",
-        "师尊(2)",
-        "帮助(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
       "confidence": "中"
     },
     {
@@ -6275,24 +6375,6 @@
       "confidence": "低"
     },
     {
-      "source": "黎阳",
-      "target": "黎阳笑",
-      "mentions": 89,
-      "firstChapter": 111,
-      "lastChapter": 485,
-      "markers": [
-        "同章共现(77)",
-        "学生(5)",
-        "老师(4)",
-        "保护(1)",
-        "妹妹(1)",
-        "弟子(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
-      "confidence": "中"
-    },
-    {
       "source": "李源",
       "target": "白山半",
       "mentions": 89,
@@ -6364,6 +6446,44 @@
       ],
       "group": "师徒/上下级",
       "relationType": "老师",
+      "confidence": "中"
+    },
+    {
+      "source": "文明",
+      "target": "明墟星",
+      "mentions": 80,
+      "firstChapter": 152,
+      "lastChapter": 479,
+      "markers": [
+        "同章共现(68)",
+        "争夺(5)",
+        "支援(2)",
+        "老师(2)",
+        "冲突(1)",
+        "利用(1)",
+        "救(1)",
+        "帮助(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "争夺",
+      "confidence": "中"
+    },
+    {
+      "source": "于京河",
+      "target": "李源",
+      "mentions": 79,
+      "firstChapter": 60,
+      "lastChapter": 574,
+      "markers": [
+        "同章共现(74)",
+        "救(1)",
+        "同行(1)",
+        "同伴(1)",
+        "对手(1)",
+        "冲突(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "救",
       "confidence": "中"
     },
     {
@@ -6474,6 +6594,37 @@
     },
     {
       "source": "李源",
+      "target": "桓神君",
+      "mentions": 69,
+      "firstChapter": 613,
+      "lastChapter": 660,
+      "markers": [
+        "同章共现(65)",
+        "师尊(2)",
+        "试探(1)",
+        "追杀(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "低"
+    },
+    {
+      "source": "夏国",
+      "target": "蓝星",
+      "mentions": 68,
+      "firstChapter": 1,
+      "lastChapter": 575,
+      "markers": [
+        "同章共现(65)",
+        "学生(2)",
+        "弟子(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "学生",
+      "confidence": "中"
+    },
+    {
+      "source": "李源",
       "target": "李源最",
       "mentions": 68,
       "firstChapter": 10,
@@ -6523,21 +6674,6 @@
       ],
       "group": "师徒/上下级",
       "relationType": "老师",
-      "confidence": "中"
-    },
-    {
-      "source": "夏国",
-      "target": "蓝星",
-      "mentions": 67,
-      "firstChapter": 1,
-      "lastChapter": 575,
-      "markers": [
-        "同章共现(64)",
-        "学生(2)",
-        "弟子(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
       "confidence": "中"
     },
     {
@@ -6697,6 +6833,35 @@
     },
     {
       "source": "李源",
+      "target": "李源修",
+      "mentions": 60,
+      "firstChapter": 1,
+      "lastChapter": 670,
+      "markers": [
+        "同章共现(60)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "文明",
+      "target": "蓝星",
+      "mentions": 59,
+      "firstChapter": 3,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(56)",
+        "威胁(1)",
+        "命令(1)",
+        "试探(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "低"
+    },
+    {
+      "source": "李源",
       "target": "黎天佑",
       "mentions": 59,
       "firstChapter": 6,
@@ -6780,6 +6945,23 @@
       "confidence": "低"
     },
     {
+      "source": "刀魔天",
+      "target": "李源",
+      "mentions": 56,
+      "firstChapter": 503,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(48)",
+        "弟子(3)",
+        "师尊(2)",
+        "保护(2)",
+        "命令(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "弟子",
+      "confidence": "中"
+    },
+    {
       "source": "古炬",
       "target": "李源",
       "mentions": 53,
@@ -6797,6 +6979,24 @@
       "group": "师徒/上下级",
       "relationType": "师尊",
       "confidence": "中"
+    },
+    {
+      "source": "严景",
+      "target": "李源",
+      "mentions": 52,
+      "firstChapter": 263,
+      "lastChapter": 293,
+      "markers": [
+        "同章共现(47)",
+        "学生(1)",
+        "对手(1)",
+        "追杀(1)",
+        "命令(1)",
+        "救(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "对手",
+      "confidence": "低"
     },
     {
       "source": "万神殿",
@@ -6865,6 +7065,72 @@
       "confidence": "中"
     },
     {
+      "source": "李慕华",
+      "target": "李茜茜",
+      "mentions": 49,
+      "firstChapter": 7,
+      "lastChapter": 671,
+      "markers": [
+        "同章共现(44)",
+        "学生(2)",
+        "老师(2)",
+        "妻子(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "学生",
+      "confidence": "中"
+    },
+    {
+      "source": "李源",
+      "target": "骆蝉",
+      "mentions": 49,
+      "firstChapter": 274,
+      "lastChapter": 323,
+      "markers": [
+        "同章共现(45)",
+        "追杀(3)",
+        "命令(3)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "追杀",
+      "confidence": "中"
+    },
+    {
+      "source": "文明",
+      "target": "柳冰",
+      "mentions": 48,
+      "firstChapter": 344,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(41)",
+        "敌人(2)",
+        "威胁(2)",
+        "支援(1)",
+        "对手(1)",
+        "救(1)",
+        "镇压(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "敌人",
+      "confidence": "中"
+    },
+    {
+      "source": "李源",
+      "target": "李源完",
+      "mentions": 47,
+      "firstChapter": 19,
+      "lastChapter": 673,
+      "markers": [
+        "同章共现(44)",
+        "敌人(1)",
+        "保护(1)",
+        "争夺(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "敌人",
+      "confidence": "低"
+    },
+    {
       "source": "巫马农",
       "target": "李源",
       "mentions": 47,
@@ -6882,22 +7148,19 @@
       "confidence": "中"
     },
     {
-      "source": "方海",
-      "target": "方海笑",
+      "source": "于京河",
+      "target": "文明",
       "mentions": 46,
-      "firstChapter": 259,
-      "lastChapter": 491,
+      "firstChapter": 168,
+      "lastChapter": 575,
       "markers": [
-        "同章共现(34)",
-        "老师(7)",
-        "师尊(2)",
-        "命令(2)",
-        "弟子(1)",
-        "保护(1)",
-        "学生(1)"
+        "同章共现(43)",
+        "争夺(1)",
+        "冲突(1)",
+        "威胁(1)"
       ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
+      "group": "敌对/矛盾",
+      "relationType": "争夺",
       "confidence": "中"
     },
     {
@@ -6981,6 +7244,22 @@
       "confidence": "低"
     },
     {
+      "source": "吴洛",
+      "target": "李源",
+      "mentions": 44,
+      "firstChapter": 66,
+      "lastChapter": 144,
+      "markers": [
+        "同章共现(35)",
+        "学生(4)",
+        "对手(4)",
+        "追杀(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "对手",
+      "confidence": "中"
+    },
+    {
       "source": "明墟星",
       "target": "武者",
       "mentions": 44,
@@ -7024,22 +7303,6 @@
       "group": "同盟/合作",
       "relationType": "保护",
       "confidence": "低"
-    },
-    {
-      "source": "柳冰",
-      "target": "柳冰连",
-      "mentions": 43,
-      "firstChapter": 328,
-      "lastChapter": 684,
-      "markers": [
-        "同章共现(39)",
-        "师尊(2)",
-        "命令(1)",
-        "弟子(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
     },
     {
       "source": "澹台锋",
@@ -7183,20 +7446,19 @@
       "confidence": "中"
     },
     {
-      "source": "许博",
-      "target": "许博笑",
+      "source": "于京河",
+      "target": "武者",
       "mentions": 37,
-      "firstChapter": 6,
-      "lastChapter": 154,
+      "firstChapter": 150,
+      "lastChapter": 336,
       "markers": [
-        "同章共现(28)",
-        "学生(5)",
-        "老师(3)",
-        "儿子(1)"
+        "同章共现(35)",
+        "同行(1)",
+        "争夺(1)"
       ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
-      "confidence": "中"
+      "group": "敌对/矛盾",
+      "relationType": "争夺",
+      "confidence": "低"
     },
     {
       "source": "李源",
@@ -7219,6 +7481,36 @@
       "confidence": "中"
     },
     {
+      "source": "吴东东",
+      "target": "李源",
+      "mentions": 36,
+      "firstChapter": 64,
+      "lastChapter": 213,
+      "markers": [
+        "同章共现(32)",
+        "对手(2)",
+        "兄弟(1)",
+        "救(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "对手",
+      "confidence": "低"
+    },
+    {
+      "source": "李源",
+      "target": "端木宏",
+      "mentions": 36,
+      "firstChapter": 265,
+      "lastChapter": 405,
+      "markers": [
+        "同章共现(35)",
+        "命令(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "命令",
+      "confidence": "低"
+    },
+    {
       "source": "李源",
       "target": "端木山主",
       "mentions": 36,
@@ -7230,6 +7522,20 @@
       ],
       "group": "师徒/上下级",
       "relationType": "老师",
+      "confidence": "低"
+    },
+    {
+      "source": "于京河",
+      "target": "巫马农",
+      "mentions": 35,
+      "firstChapter": 237,
+      "lastChapter": 303,
+      "markers": [
+        "同章共现(34)",
+        "利用(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "利用",
       "confidence": "低"
     },
     {
@@ -7247,6 +7553,70 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "对手",
+      "confidence": "低"
+    },
+    {
+      "source": "李源",
+      "target": "白衣女子",
+      "mentions": 34,
+      "firstChapter": 113,
+      "lastChapter": 476,
+      "markers": [
+        "同章共现(30)",
+        "威胁(1)",
+        "学生(1)",
+        "镇压(1)",
+        "弟子(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "低"
+    },
+    {
+      "source": "庞大",
+      "target": "文明",
+      "mentions": 34,
+      "firstChapter": 152,
+      "lastChapter": 509,
+      "markers": [
+        "同章共现(32)",
+        "老师(1)",
+        "帮助(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "帮助",
+      "confidence": "低"
+    },
+    {
+      "source": "严景",
+      "target": "骆蝉",
+      "mentions": 34,
+      "firstChapter": 283,
+      "lastChapter": 332,
+      "markers": [
+        "同章共现(32)",
+        "追杀(1)",
+        "命令(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "追杀",
+      "confidence": "低"
+    },
+    {
+      "source": "夏国",
+      "target": "文明",
+      "mentions": 33,
+      "firstChapter": 16,
+      "lastChapter": 495,
+      "markers": [
+        "同章共现(29)",
+        "学生(1)",
+        "命令(1)",
+        "帮助(1)",
+        "亲人(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "学生",
       "confidence": "低"
     },
     {
@@ -7297,6 +7667,24 @@
       "confidence": "中"
     },
     {
+      "source": "文明",
+      "target": "海院长",
+      "mentions": 32,
+      "firstChapter": 127,
+      "lastChapter": 289,
+      "markers": [
+        "同章共现(28)",
+        "冲突(1)",
+        "救(1)",
+        "利用(1)",
+        "交换(1)",
+        "帮助(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "救",
+      "confidence": "低"
+    },
+    {
       "source": "叶半",
       "target": "方海",
       "mentions": 32,
@@ -7314,6 +7702,21 @@
       "group": "师徒/上下级",
       "relationType": "老师",
       "confidence": "中"
+    },
+    {
+      "source": "宋漪",
+      "target": "李源",
+      "mentions": 31,
+      "firstChapter": 26,
+      "lastChapter": 153,
+      "markers": [
+        "同章共现(29)",
+        "合作(1)",
+        "仇(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "仇",
+      "confidence": "低"
     },
     {
       "source": "李源",
@@ -7424,22 +7827,6 @@
     },
     {
       "source": "东方极",
-      "target": "东方极笑",
-      "mentions": 29,
-      "firstChapter": 314,
-      "lastChapter": 600,
-      "markers": [
-        "同章共现(25)",
-        "师尊(2)",
-        "帮助(2)",
-        "交换(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "帮助",
-      "confidence": "低"
-    },
-    {
-      "source": "东方极",
       "target": "东魔",
       "mentions": 29,
       "firstChapter": 314,
@@ -7474,21 +7861,38 @@
       "confidence": "中"
     },
     {
-      "source": "万万",
-      "target": "李源",
+      "source": "文明",
+      "target": "白山半",
       "mentions": 27,
-      "firstChapter": 59,
-      "lastChapter": 684,
+      "firstChapter": 230,
+      "lastChapter": 495,
       "markers": [
-        "同章共现(23)",
-        "丈夫(1)",
-        "帮助(1)",
-        "保护(1)",
-        "敌人(1)"
+        "同章共现(24)",
+        "师尊(1)",
+        "争夺(1)",
+        "威胁(1)"
       ],
-      "group": "同盟/合作",
-      "relationType": "帮助",
+      "group": "敌对/矛盾",
+      "relationType": "争夺",
       "confidence": "低"
+    },
+    {
+      "source": "古悠",
+      "target": "文明",
+      "mentions": 27,
+      "firstChapter": 296,
+      "lastChapter": 571,
+      "markers": [
+        "同章共现(20)",
+        "父亲(2)",
+        "敌人(2)",
+        "威胁(2)",
+        "仇(2)",
+        "围攻(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "敌人",
+      "confidence": "中"
     },
     {
       "source": "景奎",
@@ -7504,6 +7908,21 @@
       ],
       "group": "同盟/合作",
       "relationType": "兄弟",
+      "confidence": "低"
+    },
+    {
+      "source": "周启",
+      "target": "李源",
+      "mentions": 26,
+      "firstChapter": 2,
+      "lastChapter": 216,
+      "markers": [
+        "同章共现(24)",
+        "老师(1)",
+        "朋友(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "朋友",
       "confidence": "低"
     },
     {
@@ -7600,35 +8019,51 @@
       "confidence": "中"
     },
     {
-      "source": "李源",
-      "target": "李源知",
-      "mentions": 24,
-      "firstChapter": 31,
-      "lastChapter": 641,
+      "source": "东方盟主",
+      "target": "文明",
+      "mentions": 25,
+      "firstChapter": 337,
+      "lastChapter": 574,
       "markers": [
-        "同章共现(22)",
-        "老师(1)",
-        "救(1)"
+        "同章共现(23)",
+        "父亲(1)",
+        "帮助(1)"
       ],
       "group": "同盟/合作",
-      "relationType": "救",
+      "relationType": "帮助",
       "confidence": "低"
     },
     {
-      "source": "李源",
-      "target": "李源而",
-      "mentions": 24,
-      "firstChapter": 46,
-      "lastChapter": 687,
+      "source": "东方盟",
+      "target": "文明",
+      "mentions": 25,
+      "firstChapter": 337,
+      "lastChapter": 574,
       "markers": [
-        "同章共现(22)",
-        "学生(1)",
-        "亲人(1)",
-        "老师(1)"
+        "同章共现(23)",
+        "父亲(1)",
+        "帮助(1)"
       ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
+      "group": "同盟/合作",
+      "relationType": "帮助",
       "confidence": "低"
+    },
+    {
+      "source": "文明",
+      "target": "金神明",
+      "mentions": 25,
+      "firstChapter": 347,
+      "lastChapter": 391,
+      "markers": [
+        "同章共现(20)",
+        "威胁(2)",
+        "对手(1)",
+        "支援(1)",
+        "弟子(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "中"
     },
     {
       "source": "徐院长",
@@ -7665,6 +8100,22 @@
       "confidence": "低"
     },
     {
+      "source": "丘冰尊",
+      "target": "文明",
+      "mentions": 24,
+      "firstChapter": 316,
+      "lastChapter": 548,
+      "markers": [
+        "同章共现(21)",
+        "朋友(1)",
+        "保护(1)",
+        "敌人(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "朋友",
+      "confidence": "低"
+    },
+    {
       "source": "关山区",
       "target": "李源",
       "mentions": 23,
@@ -7678,6 +8129,21 @@
       "group": "师徒/上下级",
       "relationType": "学生",
       "confidence": "中"
+    },
+    {
+      "source": "李源",
+      "target": "李茜茜",
+      "mentions": 23,
+      "firstChapter": 7,
+      "lastChapter": 574,
+      "markers": [
+        "同章共现(21)",
+        "学生(1)",
+        "帮助(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "帮助",
+      "confidence": "低"
     },
     {
       "source": "许博",
@@ -7802,21 +8268,6 @@
       "confidence": "低"
     },
     {
-      "source": "柳冰",
-      "target": "柳冰笑",
-      "mentions": 22,
-      "firstChapter": 343,
-      "lastChapter": 575,
-      "markers": [
-        "同章共现(20)",
-        "对手(1)",
-        "保护(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "对手",
-      "confidence": "低"
-    },
-    {
       "source": "师尊",
       "target": "柳冰",
       "mentions": 22,
@@ -7829,6 +8280,22 @@
       ],
       "group": "师徒/上下级",
       "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
+      "source": "吴东东",
+      "target": "林岚月",
+      "mentions": 21,
+      "firstChapter": 63,
+      "lastChapter": 216,
+      "markers": [
+        "同章共现(18)",
+        "对手(1)",
+        "围攻(1)",
+        "追杀(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "对手",
       "confidence": "中"
     },
     {
@@ -7894,6 +8361,19 @@
       "confidence": "低"
     },
     {
+      "source": "文明",
+      "target": "明墟兽",
+      "mentions": 20,
+      "firstChapter": 306,
+      "lastChapter": 334,
+      "markers": [
+        "同章共现(20)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
       "source": "师尊",
       "target": "方海",
       "mentions": 19,
@@ -7907,21 +8387,6 @@
       ],
       "group": "师徒/上下级",
       "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "古悠",
-      "target": "古悠笑",
-      "mentions": 19,
-      "firstChapter": 295,
-      "lastChapter": 673,
-      "markers": [
-        "同章共现(14)",
-        "父亲(4)",
-        "仇(1)"
-      ],
-      "group": "亲属/情感",
-      "relationType": "父亲",
       "confidence": "中"
     },
     {
@@ -8019,22 +8484,6 @@
       "confidence": "中"
     },
     {
-      "source": "柳京",
-      "target": "柳京笑",
-      "mentions": 18,
-      "firstChapter": 170,
-      "lastChapter": 263,
-      "markers": [
-        "同章共现(15)",
-        "学生(1)",
-        "保护(1)",
-        "支援(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "保护",
-      "confidence": "低"
-    },
-    {
       "source": "明墟星",
       "target": "柳京",
       "mentions": 18,
@@ -8091,6 +8540,19 @@
       ],
       "group": "师徒/上下级",
       "relationType": "命令",
+      "confidence": "低"
+    },
+    {
+      "source": "于京河",
+      "target": "夏国",
+      "mentions": 17,
+      "firstChapter": 60,
+      "lastChapter": 482,
+      "markers": [
+        "同章共现(17)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
       "confidence": "低"
     },
     {
@@ -8208,6 +8670,22 @@
       "confidence": "低"
     },
     {
+      "source": "文明",
+      "target": "林岚月",
+      "mentions": 16,
+      "firstChapter": 250,
+      "lastChapter": 650,
+      "markers": [
+        "同章共现(14)",
+        "师尊(1)",
+        "弟子(1)",
+        "试探(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "低"
+    },
+    {
       "source": "古炬",
       "target": "师尊",
       "mentions": 16,
@@ -8233,6 +8711,21 @@
       ],
       "group": "普通共现",
       "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "万青河",
+      "target": "宋漪",
+      "mentions": 15,
+      "firstChapter": 94,
+      "lastChapter": 153,
+      "markers": [
+        "同章共现(13)",
+        "仇(1)",
+        "朋友(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "仇",
       "confidence": "低"
     },
     {
@@ -8351,21 +8844,6 @@
       "confidence": "低"
     },
     {
-      "source": "李源所",
-      "target": "武者",
-      "mentions": 14,
-      "firstChapter": 1,
-      "lastChapter": 322,
-      "markers": [
-        "同章共现(12)",
-        "老师(1)",
-        "学生(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "低"
-    },
-    {
       "source": "万殿主",
       "target": "蓝星",
       "mentions": 14,
@@ -8376,6 +8854,21 @@
       ],
       "group": "普通共现",
       "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "文明",
+      "target": "李长洲",
+      "mentions": 14,
+      "firstChapter": 121,
+      "lastChapter": 499,
+      "markers": [
+        "同章共现(13)",
+        "妻子(1)",
+        "保护(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "保护",
       "confidence": "低"
     },
     {
@@ -8436,6 +8929,36 @@
       "group": "师徒/上下级",
       "relationType": "师尊",
       "confidence": "中"
+    },
+    {
+      "source": "于京河",
+      "target": "明墟星",
+      "mentions": 14,
+      "firstChapter": 266,
+      "lastChapter": 333,
+      "markers": [
+        "同章共现(12)",
+        "支援(1)",
+        "争夺(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "争夺",
+      "confidence": "低"
+    },
+    {
+      "source": "叶半",
+      "target": "文明",
+      "mentions": 14,
+      "firstChapter": 270,
+      "lastChapter": 490,
+      "markers": [
+        "同章共现(13)",
+        "追杀(1)",
+        "命令(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "追杀",
+      "confidence": "低"
     },
     {
       "source": "方海",
@@ -8532,6 +9055,21 @@
       "confidence": "低"
     },
     {
+      "source": "安全",
+      "target": "文明",
+      "mentions": 13,
+      "firstChapter": 74,
+      "lastChapter": 499,
+      "markers": [
+        "同章共现(11)",
+        "保护(1)",
+        "威胁(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "威胁",
+      "confidence": "低"
+    },
+    {
       "source": "何等恐",
       "target": "李源",
       "mentions": 13,
@@ -8543,6 +9081,20 @@
       ],
       "group": "师徒/上下级",
       "relationType": "学生",
+      "confidence": "低"
+    },
+    {
+      "source": "文明",
+      "target": "黎阳",
+      "mentions": 13,
+      "firstChapter": 112,
+      "lastChapter": 485,
+      "markers": [
+        "同章共现(12)",
+        "命令(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "命令",
       "confidence": "低"
     },
     {
@@ -8591,452 +9143,16 @@
       "confidence": "低"
     },
     {
-      "source": "夏国",
-      "target": "白山半",
+      "source": "于京河",
+      "target": "方海",
       "mentions": 13,
-      "firstChapter": 240,
-      "lastChapter": 485,
-      "markers": [
-        "同章共现(13)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "巫马农",
-      "target": "黎阳",
-      "mentions": 13,
-      "firstChapter": 302,
-      "lastChapter": 335,
-      "markers": [
-        "同章共现(11)",
-        "老师(2)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "低"
-    },
-    {
-      "source": "东方极",
-      "target": "金神明",
-      "mentions": 13,
-      "firstChapter": 379,
-      "lastChapter": 391,
-      "markers": [
-        "同章共现(11)",
-        "弟子(2)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "弟子",
-      "confidence": "低"
-    },
-    {
-      "source": "方海",
-      "target": "林岚月",
-      "mentions": 13,
-      "firstChapter": 397,
-      "lastChapter": 650,
-      "markers": [
-        "同章共现(13)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "姜璇",
-      "target": "许源",
-      "mentions": 13,
-      "firstChapter": 401,
-      "lastChapter": 431,
-      "markers": [
-        "同章共现(11)",
-        "救(1)",
-        "兄长(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
-      "confidence": "低"
-    },
-    {
-      "source": "柳冰",
-      "target": "许源",
-      "mentions": 13,
-      "firstChapter": 454,
-      "lastChapter": 470,
-      "markers": [
-        "同章共现(11)",
-        "师尊(1)",
-        "对手(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "对手",
-      "confidence": "低"
-    },
-    {
-      "source": "李源",
-      "target": "李源造",
-      "mentions": 12,
-      "firstChapter": 4,
-      "lastChapter": 654,
-      "markers": [
-        "同章共现(10)",
-        "老师(1)",
-        "威胁(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "威胁",
-      "confidence": "低"
-    },
-    {
-      "source": "蓝星",
-      "target": "许博",
-      "mentions": 12,
-      "firstChapter": 14,
-      "lastChapter": 57,
-      "markers": [
-        "同章共现(11)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "低"
-    },
-    {
-      "source": "海院长",
-      "target": "黎院长",
-      "mentions": 12,
-      "firstChapter": 98,
-      "lastChapter": 164,
-      "markers": [
-        "同章共现(10)",
-        "追杀(2)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "追杀",
-      "confidence": "低"
-    },
-    {
-      "source": "徐院长",
-      "target": "海院长",
-      "mentions": 12,
-      "firstChapter": 125,
-      "lastChapter": 215,
-      "markers": [
-        "同章共现(12)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "方实力",
-      "target": "李源",
-      "mentions": 12,
-      "firstChapter": 180,
-      "lastChapter": 672,
-      "markers": [
-        "同章共现(11)",
-        "利用(1)"
-      ],
-      "group": "交易/利用",
-      "relationType": "利用",
-      "confidence": "低"
-    },
-    {
-      "source": "武神殿",
-      "target": "艾利西",
-      "mentions": 12,
-      "firstChapter": 262,
-      "lastChapter": 280,
-      "markers": [
-        "同章共现(9)",
-        "喜欢(2)",
-        "对手(1)"
-      ],
-      "group": "亲属/情感",
-      "relationType": "喜欢",
-      "confidence": "低"
-    },
-    {
-      "source": "田大壮",
-      "target": "艾利西",
-      "mentions": 12,
-      "firstChapter": 264,
-      "lastChapter": 366,
-      "markers": [
-        "同章共现(12)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "东方极",
-      "target": "明墟星",
-      "mentions": 12,
-      "firstChapter": 291,
+      "firstChapter": 193,
       "lastChapter": 352,
       "markers": [
-        "同章共现(11)",
-        "帮助(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "帮助",
-      "confidence": "低"
-    },
-    {
-      "source": "成天",
-      "target": "柳冰",
-      "mentions": 12,
-      "firstChapter": 329,
-      "lastChapter": 676,
-      "markers": [
-        "同章共现(10)",
-        "仇(2)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "仇",
-      "confidence": "低"
-    },
-    {
-      "source": "柳冰",
-      "target": "蓝星",
-      "mentions": 12,
-      "firstChapter": 350,
-      "lastChapter": 574,
-      "markers": [
-        "同章共现(11)",
-        "救(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
-      "confidence": "低"
-    },
-    {
-      "source": "李源",
-      "target": "连传音",
-      "mentions": 12,
-      "firstChapter": 365,
-      "lastChapter": 612,
-      "markers": [
-        "同章共现(10)",
-        "父亲(1)",
-        "对手(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "对手",
-      "confidence": "低"
-    },
-    {
-      "source": "李源",
-      "target": "谭校长",
-      "mentions": 11,
-      "firstChapter": 14,
-      "lastChapter": 162,
-      "markers": [
-        "同章共现(10)",
-        "学生(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
-      "confidence": "低"
-    },
-    {
-      "source": "夏国",
-      "target": "方海",
-      "mentions": 11,
-      "firstChapter": 85,
-      "lastChapter": 490,
-      "markers": [
-        "同章共现(7)",
-        "老师(2)",
-        "师尊(1)",
-        "弟子(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "中"
-    },
-    {
-      "source": "李源笑",
-      "target": "蓝星",
-      "mentions": 11,
-      "firstChapter": 85,
-      "lastChapter": 574,
-      "markers": [
-        "同章共现(11)"
+        "同章共现(13)"
       ],
       "group": "普通共现",
       "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "武者",
-      "target": "澹台锋",
-      "mentions": 11,
-      "firstChapter": 142,
-      "lastChapter": 351,
-      "markers": [
-        "同章共现(10)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "低"
-    },
-    {
-      "source": "庞大",
-      "target": "柳京",
-      "mentions": 11,
-      "firstChapter": 184,
-      "lastChapter": 263,
-      "markers": [
-        "同章共现(11)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "武神殿",
-      "target": "金护国",
-      "mentions": 11,
-      "firstChapter": 262,
-      "lastChapter": 359,
-      "markers": [
-        "同章共现(11)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "武神殿",
-      "target": "武者",
-      "mentions": 11,
-      "firstChapter": 263,
-      "lastChapter": 373,
-      "markers": [
-        "同章共现(9)",
-        "弟子(1)",
-        "帮助(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "帮助",
-      "confidence": "低"
-    },
-    {
-      "source": "武者",
-      "target": "白山半",
-      "mentions": 11,
-      "firstChapter": 289,
-      "lastChapter": 376,
-      "markers": [
-        "同章共现(10)",
-        "追杀(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "追杀",
-      "confidence": "低"
-    },
-    {
-      "source": "明墟星",
-      "target": "林岚月",
-      "mentions": 11,
-      "firstChapter": 299,
-      "lastChapter": 397,
-      "markers": [
-        "同章共现(11)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "叶半",
-      "target": "白山半",
-      "mentions": 11,
-      "firstChapter": 306,
-      "lastChapter": 374,
-      "markers": [
-        "同章共现(11)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
-      "source": "柳冰",
-      "target": "武者",
-      "mentions": 11,
-      "firstChapter": 342,
-      "lastChapter": 397,
-      "markers": [
-        "同章共现(9)",
-        "追杀(1)",
-        "支援(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "追杀",
-      "confidence": "低"
-    },
-    {
-      "source": "万魔文",
-      "target": "柳冰",
-      "mentions": 11,
-      "firstChapter": 347,
-      "lastChapter": 574,
-      "markers": [
-        "同章共现(10)",
-        "镇压(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "镇压",
-      "confidence": "低"
-    },
-    {
-      "source": "成天",
-      "target": "方海",
-      "mentions": 11,
-      "firstChapter": 396,
-      "lastChapter": 650,
-      "markers": [
-        "同章共现(10)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
-      "confidence": "低"
-    },
-    {
-      "source": "武者",
-      "target": "江北武",
-      "mentions": 10,
-      "firstChapter": 9,
-      "lastChapter": 144,
-      "markers": [
-        "同章共现(6)",
-        "学生(3)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
-      "confidence": "中"
-    },
-    {
-      "source": "关山区",
-      "target": "江城市",
-      "mentions": 10,
-      "firstChapter": 23,
-      "lastChapter": 335,
-      "markers": [
-        "同章共现(9)",
-        "老师(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "老师",
       "confidence": "低"
     }
   ],
@@ -12854,15 +12970,12 @@
       "characters": [
         "李源",
         "周启",
-        "李源笑",
         "李源他",
         "许博",
         "许老师",
-        "周启连",
+        "严洲",
         "方长棍",
         "师许博",
-        "严洲",
-        "严洲笑",
         "黎天佑",
         "李慕华",
         "李长洲",
@@ -12879,9 +12992,12 @@
         "相对独",
         "林岚月",
         "高三",
-        "万霄笑",
         "武道室",
-        "古强悍"
+        "古强悍",
+        "关山区",
+        "李源问",
+        "高二期",
+        "武道高"
       ],
       "organizations": [
         "自然不会",
@@ -12930,17 +13046,16 @@
         "林岚月",
         "许博",
         "周启",
+        "严洲",
         "古强悍",
         "李源武",
         "黄金段",
-        "严洲",
         "武道服",
         "武道高",
         "关键",
         "高二期",
         "武道技",
         "李源刚",
-        "李源笑",
         "李慕华",
         "高三",
         "关山区",
@@ -12952,10 +13067,11 @@
         "谭校长",
         "李长洲",
         "王主任",
-        "高三学",
         "陈惠",
+        "高三学",
         "武道大",
-        "周启他"
+        "周启他",
+        "万霄"
       ],
       "organizations": [
         "一定会",
@@ -13022,9 +13138,8 @@
       "range": "第 41-60 章",
       "characters": [
         "李源",
-        "林岚月",
-        "李源笑",
         "许博",
+        "林岚月",
         "邢教官",
         "许老师",
         "李茜茜",
@@ -13050,7 +13165,8 @@
         "万殿主",
         "武道厅",
         "李源他",
-        "关山区"
+        "关山区",
+        "边走边"
       ],
       "organizations": [
         "星空武殿",
@@ -13121,8 +13237,8 @@
       "range": "第 61-80 章",
       "characters": [
         "李源",
-        "林岚月",
         "许博",
+        "林岚月",
         "江北武",
         "古强悍",
         "高三",
@@ -13140,16 +13256,16 @@
         "武殿",
         "罗布海",
         "万殿主",
-        "许博笑",
         "许老师",
         "明前辈",
-        "李源连",
         "武道技",
         "蓝星币",
         "武道灵",
         "李源他",
         "江北省",
-        "李源摇"
+        "李源摇",
+        "许博摇",
+        "旋即"
       ],
       "organizations": [
         "星空武殿",
@@ -13224,7 +13340,6 @@
         "李源",
         "林岚月",
         "万殿主",
-        "李源笑",
         "江北武",
         "古强悍",
         "吴东东",
@@ -13237,10 +13352,8 @@
         "李源来",
         "武道厅",
         "王姓军官",
-        "李源想",
         "蓝星币",
-        "何只有",
-        "李源有",
+        "何只",
         "相互独",
         "李源摇",
         "武道天",
@@ -13250,7 +13363,10 @@
         "黎院长",
         "许老师",
         "江城市",
-        "高阶修"
+        "高阶修",
+        "武道技",
+        "万青河",
+        "关键"
       ],
       "organizations": [
         "星火武殿",
@@ -13325,19 +13441,17 @@
       "range": "第 101-120 章",
       "characters": [
         "李源",
-        "李源笑",
-        "李长洲",
         "许博",
+        "李长洲",
         "陈老师",
-        "许博笑",
-        "江城市",
         "周启",
+        "江城市",
+        "陈惠",
         "关山区",
         "高三",
         "武者",
-        "陈惠",
-        "高三学",
         "严洲",
+        "高三学",
         "武殿",
         "文化课",
         "武道修",
@@ -13349,11 +13463,13 @@
         "万青河",
         "黎院长",
         "费乾",
+        "钟诚",
         "樊晋",
         "江北省",
         "李茜茜",
         "武道大",
-        "钟诚"
+        "李源能",
+        "李慕华"
       ],
       "organizations": [
         "怎么会",
@@ -13436,13 +13552,13 @@
         "武道厅",
         "高三",
         "樊晋",
-        "李源想",
         "蓝星币",
         "李源摇",
         "武殿",
         "李源愈",
         "宁静",
         "武道天",
+        "蓝星",
         "李源正",
         "凌厉",
         "高考",
@@ -13530,23 +13646,22 @@
       "range": "第 141-160 章",
       "characters": [
         "李源",
-        "李源笑",
         "黎阳",
-        "黎阳笑",
         "徐院长",
         "吴洛",
         "澹台锋",
         "武道大",
         "武道天",
+        "杨鸿",
         "关键",
         "夏国人",
-        "杨鸿",
         "全力以",
         "夏国武",
         "旋即",
         "李源回",
         "武道教",
         "魁梧大汉",
+        "师兄",
         "激动",
         "李源好",
         "夏国内",
@@ -13558,7 +13673,8 @@
         "李源点",
         "吴东东",
         "李源能",
-        "武者"
+        "武者",
+        "夏国第"
       ],
       "organizations": [
         "绝不会",
@@ -13633,12 +13749,13 @@
       "range": "第 161-180 章",
       "characters": [
         "李源",
-        "万殿主",
         "许博",
+        "万殿主",
         "邢教官",
         "鱼灵族",
         "方龙虎",
         "武者",
+        "高浩",
         "武道天",
         "连续两",
         "关键",
@@ -13647,8 +13764,6 @@
         "李源两",
         "旋即",
         "武者们",
-        "高浩",
-        "高浩笑",
         "武道教",
         "李源实",
         "李源只",
@@ -13661,6 +13776,7 @@
         "谭校长",
         "李源点",
         "江城市",
+        "东方极",
         "关山区"
       ],
       "organizations": [
@@ -13740,22 +13856,20 @@
         "费乾",
         "江城市",
         "武者",
-        "李源来",
         "柳京",
-        "李源有",
+        "李源来",
         "旋即",
-        "李源所",
         "李源大",
         "高级源",
         "关键",
         "蓝星币",
         "武殿",
         "全方位",
+        "蓝星",
         "武殿提",
         "安全",
         "李源若",
         "李源做",
-        "蓝星",
         "成源武",
         "激动",
         "夏国最",
@@ -13763,8 +13877,10 @@
         "夏国",
         "武者来",
         "李源先",
-        "柳京笑",
-        "高手"
+        "高手",
+        "明墟星",
+        "高大",
+        "李源察"
       ],
       "organizations": [
         "有机会",
@@ -13839,23 +13955,20 @@
       "range": "第 201-220 章",
       "characters": [
         "李源",
-        "黎院长",
         "黎阳",
+        "黎院长",
         "柳京",
-        "黎阳笑",
         "海院长",
         "李源点",
-        "江城市",
         "武者",
+        "江城市",
         "东方极",
         "施霄",
         "武道大",
         "高三",
         "李源摇",
-        "李源想",
         "武道天",
         "东方极前",
-        "李源所",
         "明墟星",
         "高三学",
         "关键",
@@ -13863,11 +13976,14 @@
         "武者军",
         "李源先",
         "武者们",
+        "蓝星",
         "黎阳老",
         "相似",
         "男子",
-        "蓝星",
-        "成源武"
+        "成源武",
+        "李源精",
+        "李源只",
+        "李源听"
       ],
       "organizations": [
         "星空武殿",
@@ -13947,30 +14063,30 @@
         "武者",
         "东方极",
         "李源能",
-        "李源知",
         "方海",
         "夏国",
         "白山星主",
         "武殿",
         "武者们",
         "白衣女子",
-        "方头颅",
         "蓝星",
+        "方头颅",
         "李源吧",
         "李源听",
         "蓝星各",
         "高明",
-        "李源笑",
         "徐院长",
         "李源点",
         "武道大",
-        "李源有",
         "武道天",
         "武道修",
         "越往后",
         "白山星",
         "武者厮",
-        "李源愈"
+        "李源愈",
+        "李源做",
+        "男子",
+        "李源认"
       ],
       "organizations": [
         "星火武殿",
@@ -14050,7 +14166,6 @@
         "艾利西",
         "李源自",
         "巫马农",
-        "李源而",
         "连续击",
         "旋即",
         "雷雾",
@@ -14066,14 +14181,15 @@
         "克罗斯",
         "罗斯",
         "李源能",
-        "李源有",
         "李源摇",
         "武道修",
         "李源之",
         "李源淡淡",
         "宁静",
         "李源若",
-        "成源武"
+        "成源武",
+        "李源听",
+        "李源充"
       ],
       "organizations": [
         "烈焰家族",
@@ -14156,19 +14272,16 @@
         "东方极",
         "武者",
         "李源击",
-        "李源想",
         "东方极前",
         "夏国人",
-        "方海笑",
         "李源刚",
         "李源摇",
         "李源回",
+        "蓝星",
         "文明来",
         "武道室",
-        "蓝星",
         "武殿",
         "夏国",
-        "万万",
         "白山半",
         "李源意",
         "安全",
@@ -14176,7 +14289,10 @@
         "郑重",
         "李源未",
         "万魔文",
-        "慕华"
+        "慕华",
+        "宁静",
+        "成源武",
+        "李源颇"
       ],
       "organizations": [
         "星火武殿",
@@ -14251,23 +14367,21 @@
       "range": "第 281-300 章",
       "characters": [
         "李源",
-        "海院长",
         "澹台锋",
+        "海院长",
         "田大壮",
         "艾利西",
+        "武者",
         "巫马农",
         "于京河",
         "贝特曼",
-        "武者",
         "李源自",
         "武神殿",
         "明墟星",
         "艾利西亚",
         "武者来",
-        "万万",
-        "李源所",
-        "夏国",
         "严景",
+        "夏国",
         "烈风半",
         "鲁德内",
         "罗布海",
@@ -14276,10 +14390,12 @@
         "武神星",
         "李源打",
         "李源突",
-        "李源笑",
         "金护国",
         "李源点",
-        "旋即"
+        "旋即",
+        "李源正",
+        "李源大",
+        "武道室"
       ],
       "organizations": [
         "七星联盟",
@@ -14292,7 +14408,6 @@
         "同时也会",
         "机械军团",
         "竟然会",
-        "万万没想到会",
         "别墅府",
         "星空武殿",
         "自然会",
@@ -14301,7 +14416,8 @@
         "林将军",
         "怎么会",
         "绝对会",
-        "刚才会"
+        "刚才会",
+        "我不会"
       ],
       "locations": [
         "技艺境界",
@@ -14362,11 +14478,10 @@
         "骆蝉",
         "夏国",
         "罗布海",
-        "李源所",
         "许多人",
+        "雷斯",
         "关键",
         "庞大",
-        "雷斯",
         "文明第",
         "激动",
         "严重",
@@ -14375,14 +14490,15 @@
         "武者来",
         "古炬",
         "乌斯海",
-        "全方位",
         "蓝星",
+        "全方位",
         "李源只",
         "李源根",
         "蓝星各",
         "全力厮",
         "安全",
-        "李源完"
+        "李源完",
+        "李源手"
       ],
       "organizations": [
         "跨入法则门",
@@ -14457,16 +14573,15 @@
       "range": "第 321-340 章",
       "characters": [
         "李源",
-        "李源笑",
         "方海",
         "李源点",
         "万魔文",
         "武者",
+        "古悠",
         "于京河",
         "李源能",
         "明墟星",
         "白山半",
-        "古悠",
         "李源击",
         "旋即",
         "文明来",
@@ -14485,7 +14600,8 @@
         "李源立刻",
         "安全",
         "丘冰尊",
-        "白山"
+        "白山",
+        "文明第"
       ],
       "organizations": [
         "怎么会",
@@ -14568,14 +14684,14 @@
         "古悠",
         "旋即",
         "李源最",
+        "山主",
+        "柳冰",
         "满意",
         "方身份",
         "武神星",
         "端木宏",
-        "柳冰",
         "李源意",
         "李源要",
-        "山主",
         "关注",
         "激动",
         "红色",
@@ -14584,11 +14700,11 @@
         "方才",
         "李源内",
         "李源灵",
-        "李源笑",
-        "李源连",
         "全有希",
-        "李源有",
-        "李源自"
+        "李源自",
+        "李源能",
+        "少女",
+        "广阔"
       ],
       "organizations": [
         "怎么会",
@@ -14665,8 +14781,8 @@
         "李源",
         "万魔文",
         "武者",
-        "于京河",
         "柳冰",
+        "于京河",
         "端木宏",
         "蓝星",
         "鲁德内",
@@ -14677,6 +14793,7 @@
         "李源他",
         "全力以",
         "李源只",
+        "文明",
         "容易",
         "李源吧",
         "李源修",
@@ -14686,12 +14803,11 @@
         "关注",
         "激动",
         "全球范",
+        "全球",
         "李源敢",
         "文明高",
         "幸事",
-        "充满",
-        "成飞天",
-        "文明"
+        "充满"
       ],
       "organizations": [
         "怎么会",
@@ -14766,17 +14882,16 @@
       "range": "第 381-400 章",
       "characters": [
         "李源",
-        "李源笑",
         "东方极",
         "方海",
         "万魔文",
         "古悠",
         "丘冰尊",
-        "武者",
         "柳冰",
-        "李源所",
+        "武者",
         "李源明",
         "旋即",
+        "文明",
         "郑重",
         "文明第",
         "关键",
@@ -14787,14 +14902,15 @@
         "李源察",
         "文明内",
         "兰特半",
-        "文明",
         "宁静",
         "激动",
         "施展出",
         "充满惊",
         "充满",
         "至强星术",
-        "李源突"
+        "李源突",
+        "方才",
+        "李源内"
       ],
       "organizations": [
         "自然会",
@@ -14875,7 +14991,6 @@
         "李源自",
         "少女",
         "金甲战",
-        "李源所",
         "蓝星",
         "旋即",
         "庞大",
@@ -14890,14 +15005,15 @@
         "成飞天",
         "姜垒狞",
         "姜垒嗤",
-        "李源笑",
         "方海",
-        "李源想",
         "李源刚",
-        "万万",
+        "文明",
         "全方位",
         "李源大",
-        "广阔"
+        "广阔",
+        "郑重",
+        "李源直",
+        "何等强"
       ],
       "organizations": [
         "怎么会",
@@ -14972,27 +15088,26 @@
       "range": "第 421-440 章",
       "characters": [
         "李源",
-        "武者",
         "姜山",
-        "姜渊真",
+        "武者",
         "姜璇",
+        "姜渊真",
         "许源",
-        "姜山笑",
-        "广阔",
         "冷岩",
+        "广阔",
         "许大哥",
         "姜山殿",
         "李源他",
         "李源冲",
         "武者们",
         "沙西虚",
-        "李源灵",
         "景奎",
+        "充满",
+        "李源灵",
         "百里滕",
         "巫北鸿",
         "激动",
         "方散发",
-        "充满",
         "何要",
         "黑甲中年人",
         "方海",
@@ -15000,7 +15115,8 @@
         "李源自",
         "全方位",
         "李源真",
-        "庞大"
+        "庞大",
+        "东方盟主"
       ],
       "organizations": [
         "怎么会",
@@ -15075,11 +15191,8 @@
       "range": "第 441-460 章",
       "characters": [
         "李源",
-        "李源笑",
         "姜山",
-        "李源有",
         "许源",
-        "李源所",
         "旋即",
         "李源彻",
         "常态",
@@ -15093,17 +15206,20 @@
         "宁静",
         "李源手",
         "李源完",
+        "何能",
+        "充满",
         "许多飞",
         "百里滕",
         "李源显",
         "李源态",
         "施展出",
         "李源站",
-        "充满",
         "李源内",
         "成半",
         "许源兄",
-        "阳狄"
+        "阳狄",
+        "古悠",
+        "李源自"
       ],
       "organizations": [
         "怎么会",
@@ -15178,17 +15294,15 @@
       "range": "第 461-480 章",
       "characters": [
         "李源",
-        "李源笑",
-        "李源来",
         "柳冰",
+        "李源来",
         "许源",
         "李源自",
         "李源击",
-        "李源想",
         "少女",
         "祖界之",
-        "游天",
         "景奎",
+        "游天",
         "全方位",
         "庞大",
         "李源摇",
@@ -15206,7 +15320,9 @@
         "姜渊天",
         "太游天",
         "李源如",
-        "时转头"
+        "时转头",
+        "李源根",
+        "李源赶"
       ],
       "organizations": [
         "一定会",
@@ -15282,7 +15398,6 @@
       "characters": [
         "李源",
         "东方极",
-        "李源笑",
         "林岚月",
         "方海",
         "李长洲",
@@ -15294,22 +15409,23 @@
         "武者",
         "明墟星",
         "于京河",
-        "李源想",
-        "李源所",
         "少女",
         "东方盟主",
         "东魔",
-        "古悠笑",
         "云兽文",
+        "蓝星",
+        "文明",
+        "夏国",
         "艾利西亚",
         "明墟兽",
-        "蓝星",
         "李源实",
         "安全",
-        "夏国",
         "庞大",
         "广阔",
-        "李源摇"
+        "李源摇",
+        "常态",
+        "后来者",
+        "李源之"
       ],
       "organizations": [
         "怎么会",
@@ -15389,9 +15505,9 @@
         "连传音",
         "全力以",
         "关键",
+        "充满",
         "李源做",
         "高明",
-        "充满",
         "焦急",
         "李源要",
         "施展出",
@@ -15404,7 +15520,6 @@
         "连焦急",
         "充满惊",
         "庄龙",
-        "李源笑",
         "柳冰",
         "李源点",
         "燕真",
@@ -15412,7 +15527,8 @@
         "李源刚",
         "旋即",
         "李源直",
-        "李源大"
+        "李源大",
+        "李源收"
       ],
       "organizations": [
         "黑驻军",
@@ -15494,27 +15610,27 @@
         "李源自",
         "武者",
         "李源能",
-        "李源所",
         "明墟星",
-        "柳冰连",
         "李源明",
+        "文明",
         "冬芒神王",
         "广阔",
         "旋即",
         "郑重",
         "成天",
         "李源摇",
-        "文明",
         "容易",
         "李源预",
         "李源只",
         "李源全",
+        "师兄",
+        "何会",
         "成真",
         "凌厉",
-        "师兄",
         "李源瞬",
         "李源初",
         "李源查",
+        "何能",
         "东方"
       ],
       "organizations": [
@@ -15601,12 +15717,12 @@
         "司五殿主",
         "容易",
         "越往后",
-        "高明",
         "充满",
+        "高明",
+        "寿命",
         "成真",
         "李源解",
         "施展出",
-        "寿命",
         "庞明殿",
         "庞明殿主",
         "司五总殿主",
@@ -15618,7 +15734,7 @@
         "许多半",
         "传音",
         "李源来",
-        "李源所"
+        "文明"
       ],
       "organizations": [
         "自然不会",
@@ -15695,7 +15811,6 @@
         "李源",
         "东方极",
         "柳冰",
-        "万万",
         "东方盟主",
         "庞大",
         "广阔",
@@ -15709,19 +15824,20 @@
         "何我",
         "柳冰立",
         "古域内",
-        "柳冰连",
         "刀魔天",
+        "文明",
         "安全",
-        "柳冰笑",
         "李源摇",
         "李源全",
         "李源灵",
-        "文明",
         "成真",
         "李源施",
+        "何会",
         "李源如",
         "焦急",
-        "施展出"
+        "施展出",
+        "金之法",
+        "传音"
       ],
       "organizations": [
         "主宰殿堂",
@@ -15796,35 +15912,35 @@
       "range": "第 581-600 章",
       "characters": [
         "李源",
-        "李源笑",
         "李源问",
-        "李源连",
-        "李源所",
         "冬芒神王",
         "庞大",
         "广阔",
         "李源刚",
+        "文明",
         "王感慨",
         "李源实",
         "王郑重",
         "夏风天",
         "旋即",
         "成天",
+        "师尊",
         "郑重",
         "李源收",
-        "师尊",
         "李源咧嘴",
-        "文明",
         "何等存",
         "古源",
         "容易",
         "咧嘴",
-        "李源立刻",
-        "李源如",
         "师兄",
-        "李源瞬",
+        "李源立刻",
         "充满",
-        "白衣青"
+        "李源如",
+        "李源瞬",
+        "白衣青",
+        "成神王",
+        "觉星神帝",
+        "李源充"
       ],
       "organizations": [
         "恐怕会",
@@ -15901,13 +16017,11 @@
         "李源",
         "全有希",
         "李源点",
-        "李源所",
-        "李源有",
         "李源明",
         "庞大",
-        "李源而",
         "广阔",
         "常态",
+        "文明",
         "李源彻",
         "旋即",
         "李源之",
@@ -15919,7 +16033,6 @@
         "后来者",
         "李源摇",
         "越往后",
-        "文明",
         "火凰",
         "容易",
         "李源手",
@@ -15927,7 +16040,10 @@
         "水之法",
         "成神王",
         "宫夫",
-        "李源愈"
+        "李源愈",
+        "寿命",
+        "李源本",
+        "应该能"
       ],
       "organizations": [
         "觉星帝宫",
@@ -16003,13 +16119,12 @@
       "characters": [
         "李源",
         "冬芒神王",
-        "李源有",
         "银发老者",
         "广阔",
         "王缓缓",
+        "师尊",
         "相似",
         "旋即",
-        "师尊",
         "成天",
         "古宇界",
         "李源直",
@@ -16030,7 +16145,8 @@
         "明方",
         "李源若",
         "方将自",
-        "李源恭敬"
+        "李源恭敬",
+        "李源逐"
       ],
       "organizations": [
         "怎么会",
@@ -16109,8 +16225,6 @@
         "冬芒神王",
         "李源点",
         "李源能",
-        "李源想",
-        "李源知",
         "李源明",
         "广阔",
         "夏风天",
@@ -16133,7 +16247,9 @@
         "鱼辰神王",
         "血炎神王",
         "李源瞬",
-        "李源成"
+        "寿命",
+        "李源成",
+        "路鸣"
       ],
       "organizations": [
         "任何一门",
@@ -16223,9 +16339,9 @@
         "郑重",
         "成神王",
         "李源早",
+        "充满",
         "红玖",
         "封禁",
-        "充满",
         "王们来",
         "云神王",
         "容易",
@@ -16313,8 +16429,6 @@
         "李源",
         "东方极",
         "柳冰",
-        "李源连",
-        "李源所",
         "李源点",
         "李源能",
         "师尊",
@@ -16332,14 +16446,16 @@
         "高阶永",
         "方才",
         "东方",
-        "连忙追",
         "传音",
         "姜渊",
         "宫主",
         "李源面",
         "李源点头",
         "许凌",
-        "李源无"
+        "李源无",
+        "师并",
+        "相应渠",
+        "李源盘"
       ],
       "organizations": [
         "自然会",
