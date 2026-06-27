@@ -1,4 +1,4 @@
-import { readdir, rm, unlink } from "node:fs/promises";
+import { rm } from "node:fs/promises";
 import path from "node:path";
 import { TextDecoder } from "node:util";
 import { applyDeconstructionRun } from "./apply.js";
@@ -262,6 +262,7 @@ export async function runFullDeconstruction(rawOptions: PrepareOptions): Promise
   await writeDeepSettingArchive(meta.bookDir, title, chapters, segments, profile);
   await writeDeepStrengthArchive(meta.bookDir, title, chapters, segments, profile);
   await writeDeepHighlightArchive(meta.bookDir, title, chapters, segments, profile);
+  await writeStoryBibleArchive(meta.bookDir, title, chapters, segments, profile);
   await writeQualityAudit(meta.bookDir, title, segments, profile);
   await writeRunOutputs(runDir, meta.bookDir, title, chapters, segments, profile);
 
@@ -350,41 +351,47 @@ function occurrences(text: string, keyword: string): number {
 }
 
 async function cleanGeneratedOutputs(bookDir: string): Promise<void> {
-  await ensureDir(path.join(bookDir, "book-map"));
-  await ensureDir(path.join(bookDir, "segments"));
-  await ensureDir(path.join(bookDir, "material-cards"));
-  await ensureDir(path.join(bookDir, "synthesis"));
-  await removeGeneratedMarkdown(path.join(bookDir, "segments"), /^\d{3}-\d{4}-\d{4}-.+\.md$/);
-  await removeGeneratedMarkdown(path.join(bookDir, "material-cards"), /^\d{3}-.+\.md$/);
-  await rm(path.join(bookDir, "book-map", "剧情阶段总览.md"), { force: true });
-  await rm(path.join(bookDir, "book-map", "章节索引.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "全书拆书总报告.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "设定沉淀.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "优点与可复用机制.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "高光片段与亮点.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "深度设定沉淀.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "深度优点机制.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "深度高光片段.md"), { force: true });
-  await rm(path.join(bookDir, "synthesis", "质量审计.md"), { force: true });
-}
-
-async function removeGeneratedMarkdown(dir: string, pattern: RegExp): Promise<void> {
-  const entries = await readdir(dir, { withFileTypes: true });
+  await ensureDir(bookDir);
   await Promise.all(
-    entries
-      .filter((entry) => entry.isFile() && pattern.test(entry.name))
-      .map((entry) => unlink(path.join(dir, entry.name)))
+    ["book-map", "segments", "material-cards", "synthesis", "story-bible"].map((dir) =>
+      rm(path.join(bookDir, dir), { force: true, recursive: true })
+    )
+  );
+  await Promise.all(
+    [
+      "章节索引.md",
+      "剧情阶段总览.md",
+      "分段拆书报告.md",
+      "素材卡.md",
+      "全书拆书总报告.md",
+      "设定沉淀.md",
+      "优点与可复用机制.md",
+      "高光片段与亮点.md",
+      "深度设定沉淀.md",
+      "深度优点机制.md",
+      "深度高光片段.md",
+      "设定集-总览.md",
+      "设定集-修炼与能力体系.md",
+      "设定集-地图与空间层级.md",
+      "设定集-势力与组织.md",
+      "设定集-资源体系.md",
+      "设定集-人物关系与身份体系.md",
+      "设定集-世界规则与禁忌.md",
+      "设定集-设定时间线.md",
+      "设定集-写作复用边界.md",
+      "质量审计.md"
+    ].map((file) => rm(path.join(bookDir, file), { force: true }))
   );
 }
 
 async function writeBookMap(bookDir: string, chapters: Chapter[], segments: Segment[]): Promise<void> {
   await writeText(
-    path.join(bookDir, "book-map", "章节索引.md"),
+    path.join(bookDir, "章节索引.md"),
     `# 章节索引\n\n${chapters.map((chapter) => `${chapter.index}. ${chapter.title}`).join("\n")}\n`
   );
 
   await writeText(
-    path.join(bookDir, "book-map", "剧情阶段总览.md"),
+    path.join(bookDir, "剧情阶段总览.md"),
     `# 剧情阶段总览\n\n${segments.map(renderSegmentIndexLine).join("\n")}\n`
   );
 }
@@ -396,9 +403,7 @@ function renderSegmentIndexLine(segment: Segment): string {
 }
 
 async function writeSegments(bookDir: string, segments: Segment[], profile: BookProfile): Promise<void> {
-  for (const segment of segments) {
-    await writeText(path.join(bookDir, "segments", `${segment.title}.md`), renderSegmentReport(segment, profile));
-  }
+  await writeText(path.join(bookDir, "分段拆书报告.md"), segments.map((segment) => renderSegmentReport(segment, profile)).join("\n---\n\n"));
 }
 
 function renderSegmentReport(segment: Segment, profile: BookProfile): string {
@@ -505,10 +510,7 @@ function inferSegmentSignals(segment: Segment, profile: BookProfile): {
 }
 
 async function writeMaterialCards(bookDir: string, segments: Segment[], profile: BookProfile): Promise<void> {
-  for (const segment of segments) {
-    const fileName = `${String(segment.index).padStart(3, "0")}-${slug(segment.focus)}.md`;
-    await writeText(path.join(bookDir, "material-cards", fileName), renderMaterialCard(segment, profile));
-  }
+  await writeText(path.join(bookDir, "素材卡.md"), segments.map((segment) => renderMaterialCard(segment, profile)).join("\n---\n\n"));
 }
 
 function renderMaterialCard(segment: Segment, profile: BookProfile): string {
@@ -549,7 +551,7 @@ ${segment.keywords.join("、")}
 async function writeSynthesis(bookDir: string, title: string, chapters: Chapter[], segments: Segment[], profile: BookProfile): Promise<void> {
   const focusCounts = countBy(segments.map((segment) => segment.focus));
   await writeText(
-    path.join(bookDir, "synthesis", "全书拆书总报告.md"),
+    path.join(bookDir, "全书拆书总报告.md"),
     `# 全书拆书总报告：《${title}》
 
 ## 拆书范围
@@ -591,7 +593,7 @@ async function writeSettingArchive(
   const firstTitles = chapters.slice(0, 12).map((chapter) => chapter.title).join("、");
   const lastTitles = chapters.slice(-12).map((chapter) => chapter.title).join("、");
   await writeText(
-    path.join(bookDir, "synthesis", "设定沉淀.md"),
+    path.join(bookDir, "设定沉淀.md"),
     `# 设定沉淀：《${title}》
 
 ## 类型画像
@@ -626,7 +628,7 @@ ${segments.map((segment) => `- 第 ${segment.start}-${segment.end} 章：${segme
 async function writeStrengthArchive(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
   const mechanisms = buildMechanisms(profile);
   await writeText(
-    path.join(bookDir, "synthesis", "优点与可复用机制.md"),
+    path.join(bookDir, "优点与可复用机制.md"),
     `# 优点与可复用机制：《${title}》
 
 ## 核心优点
@@ -657,7 +659,7 @@ ${mechanisms
 async function writeHighlightArchive(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
   const highlights = selectHighlightSegments(segments, profile);
   await writeText(
-    path.join(bookDir, "synthesis", "高光片段与亮点.md"),
+    path.join(bookDir, "高光片段与亮点.md"),
     `# 高光片段与亮点：《${title}》
 
 ## 高光维度
@@ -699,7 +701,7 @@ async function writeDeepSettingArchive(
   profile: BookProfile
 ): Promise<void> {
   await writeText(
-    path.join(bookDir, "synthesis", "深度设定沉淀.md"),
+    path.join(bookDir, "深度设定沉淀.md"),
     `# 深度设定沉淀：《${title}》
 
 ## 生成原则
@@ -757,7 +759,7 @@ async function writeDeepStrengthArchive(
   profile: BookProfile
 ): Promise<void> {
   await writeText(
-    path.join(bookDir, "synthesis", "深度优点机制.md"),
+    path.join(bookDir, "深度优点机制.md"),
     `# 深度优点机制：《${title}》
 
 ## 总体判断
@@ -806,7 +808,7 @@ async function writeDeepHighlightArchive(
 ): Promise<void> {
   const highlights = selectDeepHighlightSegments(chapters, segments, profile);
   await writeText(
-    path.join(bookDir, "synthesis", "深度高光片段.md"),
+    path.join(bookDir, "深度高光片段.md"),
     `# 深度高光片段：《${title}》
 
 ## 选取原则
@@ -968,6 +970,208 @@ function includesAny(text: string, keywords: string[]): boolean {
   return keywords.some((keyword) => keyword.length > 0 && text.includes(keyword));
 }
 
+async function writeStoryBibleArchive(
+  bookDir: string,
+  title: string,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): Promise<void> {
+  const files = [
+    ["设定集-总览.md", renderStoryBibleOverview(title, chapters, segments, profile)],
+    [
+      "设定集-修炼与能力体系.md",
+      renderStoryBibleCategory(title, "修炼与能力体系", abilitySeeds(profile), chapters, segments, profile)
+    ],
+    [
+      "设定集-地图与空间层级.md",
+      renderStoryBibleCategory(title, "地图与空间层级", mapSeeds(profile), chapters, segments, profile)
+    ],
+    ["设定集-势力与组织.md", renderStoryBibleCategory(title, "势力与组织", organizationSeeds(profile), chapters, segments, profile)],
+    ["设定集-资源体系.md", renderStoryBibleCategory(title, "资源体系", resourceSeeds(profile), chapters, segments, profile)],
+    [
+      "设定集-人物关系与身份体系.md",
+      renderStoryBibleCategory(title, "人物关系与身份体系", relationshipSeeds(profile), chapters, segments, profile)
+    ],
+    [
+      "设定集-世界规则与禁忌.md",
+      renderStoryBibleCategory(title, "世界规则与禁忌", worldRuleSeeds(profile), chapters, segments, profile)
+    ],
+    ["设定集-设定时间线.md", renderStoryBibleTimeline(title, segments, profile)],
+    ["设定集-写作复用边界.md", renderStoryBibleReuseBoundary(title, profile)]
+  ];
+  await Promise.all(files.map(([file, content]) => writeText(path.join(bookDir, file), content)));
+}
+
+function renderStoryBibleOverview(title: string, chapters: Chapter[], segments: Segment[], profile: BookProfile): string {
+  return `# 设定集-总览：《${title}》
+
+## 设定集定位
+
+本设定集用于后续自动写作系统读取，不是书评。它把《${title}》的世界规则、能力体系、地图、势力、资源、人物身份和禁忌拆成可检索事实库。复用时只借结构和功能，不迁移专有名词、人物组合和连续事件链。
+
+## 类型画像
+
+- 类型：${profile.genre}
+- 章节数：${chapters.length}
+- 长程分段数：${segments.length}
+- 核心结构：${profile.coreStructure}
+
+## 设定主轴
+
+${profile.settingDimensions.map((dimension) => `- ${dimension}：需要追踪定义、运行规则、代价限制、剧情落点和阶段变化。`).join("\n")}
+
+## 设定如何服务爽点
+
+${buildMechanisms(profile)
+  .map((mechanism) => `- ${mechanism}：把设定从背景名词变成主角可操作、可升级、可结算的剧情机制。`)
+  .join("\n")}
+
+## 阅读和写作注意
+
+- 先读本文件理解整体设定，再读各专项设定文件。
+- 如果后续自动写章节，应优先检索能力体系、资源体系、势力关系和世界禁忌，避免章节内容吃设定。
+- 任何设定复用都必须换题材包装、资源形态、组织结构和阶段事件链。
+`;
+}
+
+function renderStoryBibleCategory(
+  title: string,
+  category: string,
+  seeds: string[],
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): string {
+  const normalizedSeeds = unique(seeds).slice(0, 8);
+  return `# 设定集-${category}：《${title}》
+
+## 文件用途
+
+本文件沉淀《${title}》的“${category}”。后续写作时，它应作为事实源使用：先确认规则，再写剧情；先确认代价，再兑现爽点。
+
+${normalizedSeeds.map((seed, index) => renderStoryBibleEntry(seed, index, category, chapters, segments, profile)).join("\n")}
+`;
+}
+
+function renderStoryBibleEntry(
+  seed: string,
+  index: number,
+  category: string,
+  chapters: Chapter[],
+  segments: Segment[],
+  profile: BookProfile
+): string {
+  const matched = findRepresentativeSegments(seed, segments, profile, 3, index);
+  const chapterSignals = matched
+    .map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”（${segment.chapters.slice(0, 3).map((chapter) => chapter.title).join("、")}）`)
+    .join("；");
+  return `## ${index + 1}. ${seed}
+
+**设定定义**：在“${category}”中，${seed}承担的是规则层功能。它不是孤立名词，而是决定角色能做什么、不能做什么、通过什么成本换取收益的设定模块。
+
+**运行规则**：该设定应至少包含入口条件、升级方式、评价标准和失败后果。写作时不能只写“存在这个设定”，而要写清它如何影响选择：谁能进入，谁能解释，谁能垄断，主角怎样利用信息差或能力差获得阶段收益。
+
+**剧情落点**：当前自动索引命中的代表段落包括：${chapterSignals}。这些段落可以作为二次精读入口，用来补充首次出现、升级节点、阶段兑现和伏笔回收。
+
+**代价与限制**：长篇设定必须持续制造新问题。${seed}带来的收益应同时引出资源消耗、身份风险、组织约束、知识门槛、环境危险或更高层势力关注。没有代价的设定只能短期爽，无法支撑中后段。
+
+**人物和势力接口**：至少记录三类接口：教主角理解规则的人，靠规则获利的人，以及会因为主角突破规则而受损的人。这样设定才能自然转化为人物关系、组织冲突和后续任务。
+
+**阶段变化**：前期用于入门和建立期待，中期用于升级、交易、考核或扩地图，后期用于解释更大的世界规则或回收伏笔。全书 ${chapters.length} 章说明该设定必须多次变形，而不是一次性说明。
+
+**复用边界**：可复用规则分层、成本递增、阶段兑现和人物接口；不可复用原书专有名称、标志性事件链、角色关系组合和独特表达。
+`;
+}
+
+function renderStoryBibleTimeline(title: string, segments: Segment[], profile: BookProfile): string {
+  const step = Math.max(1, Math.floor(segments.length / 12));
+  const milestones = segments.filter((_, index) => index % step === 0 || index === segments.length - 1).slice(0, 14);
+  return `# 设定集-设定时间线：《${title}》
+
+## 文件用途
+
+本文件用于追踪重要设定如何首次出现、升级、转向和回收。它不是完整剧情年表，而是供写作 Agent 避免吃设定的设定演进索引。
+
+${milestones
+  .map(
+    (segment, index) => `## ${index + 1}. 第 ${segment.start}-${segment.end} 章：${segment.focus}
+
+- 阶段功能：${segment.category}
+- 章节信号：${segment.chapters.slice(0, 6).map((chapter) => chapter.title).join("、")}
+- 设定变化：本阶段应检查“${profile.settingDimensions[index % profile.settingDimensions.length]}”是否首次出现、升级或被重新解释。
+- 写作用途：后续章节如果引用这一阶段设定，需要延续它已建立的成本、限制、人物接口和后续影响。
+`
+  )
+  .join("\n")}
+`;
+}
+
+function renderStoryBibleReuseBoundary(title: string, profile: BookProfile): string {
+  return `# 设定集-写作复用边界：《${title}》
+
+## 可以复用
+
+${buildMechanisms(profile)
+  .map((mechanism) => `- ${mechanism}：复用其因果链、阶段兑现方式、成本设计和长篇升级节奏。`)
+  .join("\n")}
+
+## 必须改写
+
+- 题材包装：把原书的具体超凡、历史、科技、志怪或都市包装换成新书自己的规则。
+- 资源形态：把灵石、知识、权限、声望、材料、装备、货币等换成新书体系里的等价资源。
+- 组织结构：保留“规则制定者、规则解释者、规则受益者、规则挑战者”的功能，不照搬组织名和关系网。
+- 地图展开：保留从低阶场景到高阶场景的层级感，不照搬地点名和连续路线。
+- 爽点兑现：保留铺垫、限制、选择、兑现、后果的顺序，不照搬桥段表皮。
+
+## 禁止复用
+
+- 原书人物名、势力名、地点名、道具名和标志性表达。
+- 原书连续事件链和可识别组合。
+- 原书独有世界观真相、终局解释和角色关系配置。
+
+## 自动写作检查
+
+- 写章节前先查对应设定文件，确认能力上限、资源成本、组织态度和世界禁忌。
+- 写完章节后检查是否新增设定；新增后应回写设定集，而不是只留在章节正文。
+- 如果章节需要违反既有规则，必须设计明确代价、例外条件或伏笔解释。
+`;
+}
+
+function abilitySeeds(profile: BookProfile): string[] {
+  return seedBy(profile, /能力|修炼|境界|序列|职业|功法|魔法|奥术|武道|科技|规则|体系/);
+}
+
+function mapSeeds(profile: BookProfile): string[] {
+  return seedBy(profile, /地图|城市|海上|星界|禁区|世界|异界|宇宙|空间|层级|战场|国家/);
+}
+
+function organizationSeeds(profile: BookProfile): string[] {
+  return seedBy(profile, /组织|势力|宗门|学院|教会|朝廷|军|秘密|议会|阵营|家族|士族|塔罗会/);
+}
+
+function resourceSeeds(profile: BookProfile): string[] {
+  return seedBy(profile, /资源|钱|灵石|材料|知识|权限|声望|训练|军政|信息|价格|交易|文化/);
+}
+
+function relationshipSeeds(profile: BookProfile): string[] {
+  return seedBy(profile, /人物|关系|身份|主角|导师|同伴|对手|上位|群像|归属|名望/);
+}
+
+function worldRuleSeeds(profile: BookProfile): string[] {
+  return seedBy(profile, /世界|规则|禁忌|污染|失控|神灵|历史|制度|真相|信仰|代价|旧日|终局/);
+}
+
+function seedBy(profile: BookProfile, pattern: RegExp): string[] {
+  const matched = [
+    ...profile.settingDimensions,
+    ...profile.highlightDimensions,
+    ...profile.rules.map((rule) => rule.focus),
+    ...profile.onlineSignals.map((signal) => signal.label)
+  ].filter((item) => pattern.test(item));
+  return matched.length > 0 ? matched : profile.settingDimensions;
+}
+
 async function writeQualityAudit(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
   const xianxiaOnlyTerms = ["现代仙门", "水府", "龟壳", "坊市", "制符", "道院", "筑基", "结丹", "元婴", "魔主"];
   const isXianxiaProfile = profile.name === "我有一个修仙世界" || profile.genre.includes("修仙");
@@ -975,7 +1179,7 @@ async function writeQualityAudit(bookDir: string, title: string, segments: Segme
     ? []
     : segments.filter((segment) => xianxiaOnlyTerms.some((term) => segment.focus.includes(term)));
   await writeText(
-    path.join(bookDir, "synthesis", "质量审计.md"),
+    path.join(bookDir, "质量审计.md"),
     `# 质量审计：《${title}》
 
 ## 自动检查
@@ -1022,10 +1226,11 @@ async function writeRunOutputs(
 
 - 全书章节索引
 - 剧情阶段总览
-- ${segments.length} 份分段拆书报告
-- ${segments.length} 张素材卡
+- 合并版分段拆书报告（覆盖 ${segments.length} 个分段）
+- 合并版素材卡（覆盖 ${segments.length} 个分段）
 - 全书拆书总报告
 - 设定沉淀
+- 设定集总览、能力、地图、势力、资源、人物关系、世界规则、时间线和复用边界
 - 优点与可复用机制
 - 高光片段与亮点
 - 深度设定沉淀
@@ -1073,7 +1278,7 @@ ${profile.genre}
 
 ## 改动摘要
 
-本次生成全书章节索引、剧情阶段总览、所有分段拆书报告、所有素材卡、全书拆书总报告、深度设定沉淀、深度优点机制和深度高光片段，并将 ${segments.length} 个分段条目写入全局素材库。
+本次生成单层中文文件版拆书产物，包括章节索引、剧情阶段总览、合并版分段拆书报告、合并版素材卡、全书拆书总报告、完整设定集、深度设定沉淀、深度优点机制和深度高光片段，并将 ${segments.length} 个分段条目写入全局素材库。
 `
   );
 }

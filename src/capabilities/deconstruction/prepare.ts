@@ -65,24 +65,18 @@ function createSlug(title: string): string {
 async function ensureBookDeconstructionDir(bookDir: string, options: PrepareOptions, bookSourceFile: string): Promise<void> {
   await ensureDir(bookDir);
   await ensureDir(path.join(bookDir, "source"));
-  await ensureDir(path.join(bookDir, "book-map"));
-  await ensureDir(path.join(bookDir, "segments"));
-  await ensureDir(path.join(bookDir, "material-cards"));
-  await ensureDir(path.join(bookDir, "synthesis"));
 
   await writeText(
     path.join(bookDir, "README.md"),
     `# ${options.title ?? path.basename(options.sourcePath)}
 
-这是一本小说的持久拆书目录，用于沉淀全书结构、分段拆书、细粒度素材卡和最终汇总。
+这是一本小说的持久拆书目录，用于沉淀全书结构、设定集、分段拆书、细粒度素材卡和最终汇总。
 
-## 目录
+## 文件组织
 
 - \`source/\`：本地原始输入副本，不进入 Git。
-- \`book-map/\`：全书地图、章节索引、剧情阶段划分。
-- \`segments/\`：按剧情阶段或章节区间形成的分段拆书。
-- \`material-cards/\`：细粒度素材卡，例如桥段、梗、爽点、钩子、人物关系变化。
-- \`synthesis/\`：全书结构学习、去重归类和最终沉淀。
+- 其余拆书结果直接放在本目录下，文件名使用中文。
+- 如果后续单本书内容膨胀，再按需要拆分子目录。
 `
   );
 
@@ -111,17 +105,12 @@ async function ensureBookDeconstructionDir(bookDir: string, options: PrepareOpti
         mode: options.mode,
         segmentSize: options.segmentSize,
         sourceCopy: bookSourceFile,
-        stages: ["全书地图", "分段精拆", "素材卡提取", "全书汇总", "素材库更新"]
+        stages: ["章节索引", "剧情阶段", "分段精拆", "设定集", "素材卡", "全书汇总", "素材库更新"]
       },
       null,
       2
     )
   );
-
-  await writeText(path.join(bookDir, "book-map", ".gitkeep"), "");
-  await writeText(path.join(bookDir, "segments", ".gitkeep"), "");
-  await writeText(path.join(bookDir, "material-cards", ".gitkeep"), "");
-  await writeText(path.join(bookDir, "synthesis", ".gitkeep"), "");
 }
 
 function renderTask(runId: string, options: PrepareOptions, inputFile: string, bookDir: string, bookSourceFile: string): string {
@@ -150,10 +139,12 @@ function renderTask(runId: string, options: PrepareOptions, inputFile: string, b
 
 如果是长程分段拆书，请先在持久拆书目录中沉淀：
 
-- \`book-map/\`：章节索引和剧情阶段划分
-- \`segments/\`：分段拆书报告
-- \`material-cards/\`：细粒度素材卡
-- \`synthesis/\`：全书汇总
+- \`章节索引.md\`
+- \`剧情阶段总览.md\`
+- \`分段拆书报告.md\`
+- \`素材卡.md\`
+- \`设定集-*.md\`
+- \`全书拆书总报告.md\`
 
 完成后不要直接提交 Git。由 CLI 的 \`deconstruct apply\` 命令校验、落库并提交。
 `;
