@@ -1,12 +1,18 @@
 {
-  "title": "光阴之外",
+  "title": "光阴之外.txt",
   "chapterCount": 1344,
   "chunkCount": 68,
+  "agentChunkCount": 0,
   "audit": [
+    {
+      "name": "子 Agent 精读覆盖率",
+      "status": "需返工",
+      "detail": "收到 0/68 个 chunk JSON，覆盖率 0.0%。"
+    },
     {
       "name": "人物数量",
       "status": "通过",
-      "detail": "实际 67，最低要求 67。"
+      "detail": "实际 180，最低要求 67。"
     },
     {
       "name": "关系边数量",
@@ -36,918 +42,2455 @@
     {
       "name": "人物噪声率",
       "status": "通过",
-      "detail": "疑似动作/语气噪声 0/67，噪声率 0.0%。"
+      "detail": "疑似动作/语气噪声 0/180，噪声率 0.0%。"
     }
   ],
   "characters": [
     {
       "name": "许青",
-      "mentions": 57,
+      "mentions": 4864,
       "firstChapter": 1,
-      "lastChapter": 1317,
-      "chapterCount": 56,
+      "lastChapter": 1344,
+      "chapterCount": 1219,
       "markers": [
+        "姓名候选(4807)",
         "人物行为/发言(57)"
       ]
     },
     {
-      "name": "队长",
-      "mentions": 50,
-      "firstChapter": 65,
-      "lastChapter": 922,
-      "chapterCount": 42,
+      "name": "许青心",
+      "mentions": 1106,
+      "firstChapter": 2,
+      "lastChapter": 1342,
+      "chapterCount": 651,
       "markers": [
-        "人物行为/发言(50)"
+        "姓名候选(1106)"
       ]
     },
     {
-      "name": "张三",
-      "mentions": 10,
-      "firstChapter": 55,
-      "lastChapter": 716,
-      "chapterCount": 8,
+      "name": "许青目",
+      "mentions": 1032,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "chapterCount": 636,
       "markers": [
-        "人物行为/发言(10)"
+        "姓名候选(1032)"
       ]
     },
     {
-      "name": "七爷",
-      "mentions": 9,
-      "firstChapter": 261,
-      "lastChapter": 1323,
-      "chapterCount": 6,
+      "name": "许青身",
+      "mentions": 1014,
+      "firstChapter": 3,
+      "lastChapter": 1344,
+      "chapterCount": 620,
       "markers": [
-        "人物行为/发言(9)"
+        "姓名候选(1014)"
       ]
     },
     {
-      "name": "雷队",
-      "mentions": 8,
-      "firstChapter": 7,
-      "lastChapter": 26,
-      "chapterCount": 6,
+      "name": "许青一",
+      "mentions": 985,
+      "firstChapter": 3,
+      "lastChapter": 1344,
+      "chapterCount": 607,
       "markers": [
-        "人物行为/发言(8)"
+        "姓名候选(985)"
       ]
     },
     {
-      "name": "黄岩",
-      "mentions": 6,
-      "firstChapter": 71,
-      "lastChapter": 973,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "二牛",
-      "mentions": 5,
-      "firstChapter": 926,
-      "lastChapter": 1056,
-      "chapterCount": 5,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "老者",
-      "mentions": 4,
-      "firstChapter": 403,
-      "lastChapter": 1229,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "泥狐狸",
-      "mentions": 4,
-      "firstChapter": 806,
-      "lastChapter": 1253,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "卢米安",
-      "mentions": 6,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(6)"
-      ]
-    },
-    {
-      "name": "老头",
-      "mentions": 5,
-      "firstChapter": 539,
-      "lastChapter": 993,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "世子",
-      "mentions": 4,
-      "firstChapter": 588,
-      "lastChapter": 607,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "丁雪",
-      "mentions": 3,
-      "firstChapter": 165,
-      "lastChapter": 302,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "玄灵永意门",
-      "mentions": 3,
-      "firstChapter": 256,
-      "lastChapter": 295,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "玄幽宗",
-      "mentions": 3,
-      "firstChapter": 284,
-      "lastChapter": 388,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "队长正",
-      "mentions": 3,
-      "firstChapter": 344,
-      "lastChapter": 393,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "笑眯眯",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "灿烂",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "卢米安好奇",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "莉雅敏锐",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "笑嘻嘻",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "卢米安的黑发年轻人用",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "莉雅的女性展露出了挺",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "弗兰克",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "皮埃尔的中年男子得意",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "兰瑶之女",
-      "mentions": 3,
-      "firstChapter": 899,
-      "lastChapter": 906,
-      "chapterCount": 3,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "雷队的老者",
-      "mentions": 4,
-      "firstChapter": 4,
-      "lastChapter": 5,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "病鬼",
-      "mentions": 4,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "炎玄子",
-      "mentions": 3,
-      "firstChapter": 836,
-      "lastChapter": 997,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(3)"
-      ]
-    },
-    {
-      "name": "海山诀",
-      "mentions": 2,
+      "name": "许青没",
+      "mentions": 826,
       "firstChapter": 1,
-      "lastChapter": 3,
-      "chapterCount": 2,
+      "lastChapter": 1343,
+      "chapterCount": 548,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(826)"
       ]
     },
     {
-      "name": "许青回",
-      "mentions": 2,
+      "name": "许青看",
+      "mentions": 665,
+      "firstChapter": 3,
+      "lastChapter": 1344,
+      "chapterCount": 460,
+      "markers": [
+        "姓名候选(665)"
+      ]
+    },
+    {
+      "name": "许青沉",
+      "mentions": 645,
+      "firstChapter": 2,
+      "lastChapter": 1344,
+      "chapterCount": 447,
+      "markers": [
+        "姓名候选(645)"
+      ]
+    },
+    {
+      "name": "程度",
+      "mentions": 522,
+      "firstChapter": 2,
+      "lastChapter": 1344,
+      "chapterCount": 401,
+      "markers": [
+        "姓名候选(522)"
+      ]
+    },
+    {
+      "name": "许青在",
+      "mentions": 505,
+      "firstChapter": 4,
+      "lastChapter": 1342,
+      "chapterCount": 398,
+      "markers": [
+        "姓名候选(505)"
+      ]
+    },
+    {
+      "name": "许青神",
+      "mentions": 480,
+      "firstChapter": 3,
+      "lastChapter": 1334,
+      "chapterCount": 380,
+      "markers": [
+        "姓名候选(480)"
+      ]
+    },
+    {
+      "name": "许青抬",
+      "mentions": 449,
+      "firstChapter": 2,
+      "lastChapter": 1342,
+      "chapterCount": 369,
+      "markers": [
+        "姓名候选(449)"
+      ]
+    },
+    {
+      "name": "许青面",
+      "mentions": 453,
+      "firstChapter": 4,
+      "lastChapter": 1343,
+      "chapterCount": 348,
+      "markers": [
+        "姓名候选(453)"
+      ]
+    },
+    {
+      "name": "许青眼",
+      "mentions": 494,
+      "firstChapter": 2,
+      "lastChapter": 1268,
+      "chapterCount": 339,
+      "markers": [
+        "姓名候选(494)"
+      ]
+    },
+    {
+      "name": "段时间",
+      "mentions": 460,
+      "firstChapter": 2,
+      "lastChapter": 1327,
+      "chapterCount": 326,
+      "markers": [
+        "姓名候选(460)"
+      ]
+    },
+    {
+      "name": "古大陆",
+      "mentions": 579,
+      "firstChapter": 5,
+      "lastChapter": 1342,
+      "chapterCount": 312,
+      "markers": [
+        "姓名候选(579)"
+      ]
+    },
+    {
+      "name": "时间流",
+      "mentions": 349,
+      "firstChapter": 4,
+      "lastChapter": 1330,
+      "chapterCount": 309,
+      "markers": [
+        "姓名候选(349)"
+      ]
+    },
+    {
+      "name": "时之间",
+      "mentions": 329,
+      "firstChapter": 15,
+      "lastChapter": 1332,
+      "chapterCount": 287,
+      "markers": [
+        "姓名候选(329)"
+      ]
+    },
+    {
+      "name": "许青点",
+      "mentions": 314,
+      "firstChapter": 7,
+      "lastChapter": 1344,
+      "chapterCount": 257,
+      "markers": [
+        "姓名候选(314)"
+      ]
+    },
+    {
+      "name": "后面精",
+      "mentions": 266,
+      "firstChapter": 369,
+      "lastChapter": 1344,
+      "chapterCount": 256,
+      "markers": [
+        "姓名候选(266)"
+      ]
+    },
+    {
+      "name": "封海郡",
+      "mentions": 996,
+      "firstChapter": 225,
+      "lastChapter": 1340,
+      "chapterCount": 243,
+      "markers": [
+        "姓名候选(995)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "危机",
+      "mentions": 325,
+      "firstChapter": 14,
+      "lastChapter": 1342,
+      "chapterCount": 241,
+      "markers": [
+        "姓名候选(325)"
+      ]
+    },
+    {
+      "name": "许青深",
+      "mentions": 278,
+      "firstChapter": 3,
+      "lastChapter": 1344,
+      "chapterCount": 240,
+      "markers": [
+        "姓名候选(278)"
+      ]
+    },
+    {
+      "name": "许久",
+      "mentions": 295,
+      "firstChapter": 1,
+      "lastChapter": 1344,
+      "chapterCount": 236,
+      "markers": [
+        "姓名候选(295)"
+      ]
+    },
+    {
+      "name": "许青闻",
+      "mentions": 275,
       "firstChapter": 11,
-      "lastChapter": 300,
-      "chapterCount": 2,
+      "lastChapter": 1344,
+      "chapterCount": 231,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(275)"
       ]
     },
     {
-      "name": "少女",
-      "mentions": 2,
-      "firstChapter": 24,
-      "lastChapter": 393,
-      "chapterCount": 2,
+      "name": "师兄",
+      "mentions": 394,
+      "firstChapter": 67,
+      "lastChapter": 1344,
+      "chapterCount": 227,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(394)"
       ]
     },
     {
-      "name": "周青鹏",
-      "mentions": 2,
-      "firstChapter": 68,
-      "lastChapter": 93,
-      "chapterCount": 2,
+      "name": "全身",
+      "mentions": 272,
+      "firstChapter": 1,
+      "lastChapter": 1339,
+      "chapterCount": 226,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(272)"
       ]
     },
     {
-      "name": "无尽之海",
-      "mentions": 2,
-      "firstChapter": 82,
-      "lastChapter": 529,
-      "chapterCount": 2,
+      "name": "任何一",
+      "mentions": 267,
+      "firstChapter": 9,
+      "lastChapter": 1344,
+      "chapterCount": 226,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(267)"
       ]
     },
     {
-      "name": "金乌炼万灵",
-      "mentions": 2,
-      "firstChapter": 110,
-      "lastChapter": 233,
-      "chapterCount": 2,
+      "name": "许青想",
+      "mentions": 262,
+      "firstChapter": 6,
+      "lastChapter": 1337,
+      "chapterCount": 222,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(262)"
       ]
     },
     {
-      "name": "弥厄之甲",
-      "mentions": 2,
-      "firstChapter": 111,
-      "lastChapter": 114,
-      "chapterCount": 2,
+      "name": "金刚宗",
+      "mentions": 997,
+      "firstChapter": 26,
+      "lastChapter": 1329,
+      "chapterCount": 218,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(997)"
       ]
     },
     {
-      "name": "紫青上国",
-      "mentions": 2,
-      "firstChapter": 206,
-      "lastChapter": 519,
-      "chapterCount": 2,
+      "name": "许青之",
+      "mentions": 245,
+      "firstChapter": 5,
+      "lastChapter": 1312,
+      "chapterCount": 213,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(245)"
       ]
     },
     {
-      "name": "决阳灵尊",
-      "mentions": 2,
-      "firstChapter": 271,
-      "lastChapter": 272,
-      "chapterCount": 2,
+      "name": "许青所",
+      "mentions": 256,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "chapterCount": 212,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(256)"
       ]
     },
     {
-      "name": "迟若国",
-      "mentions": 2,
-      "firstChapter": 280,
-      "lastChapter": 351,
-      "chapterCount": 2,
+      "name": "方法",
+      "mentions": 263,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "chapterCount": 211,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(263)"
       ]
     },
     {
-      "name": "小三灵",
-      "mentions": 2,
-      "firstChapter": 280,
-      "lastChapter": 351,
-      "chapterCount": 2,
+      "name": "许青有",
+      "mentions": 273,
+      "firstChapter": 4,
+      "lastChapter": 1344,
+      "chapterCount": 210,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(273)"
       ]
     },
     {
-      "name": "诡幽夺道功",
-      "mentions": 2,
-      "firstChapter": 304,
-      "lastChapter": 305,
-      "chapterCount": 2,
+      "name": "明显",
+      "mentions": 224,
+      "firstChapter": 6,
+      "lastChapter": 1326,
+      "chapterCount": 207,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(224)"
       ]
     },
     {
-      "name": "女子",
-      "mentions": 2,
-      "firstChapter": 332,
-      "lastChapter": 576,
-      "chapterCount": 2,
+      "name": "毕竟",
+      "mentions": 229,
+      "firstChapter": 52,
+      "lastChapter": 1335,
+      "chapterCount": 201,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(229)"
       ]
     },
     {
-      "name": "许青平静",
-      "mentions": 2,
-      "firstChapter": 392,
-      "lastChapter": 1261,
-      "chapterCount": 2,
+      "name": "许青若",
+      "mentions": 217,
+      "firstChapter": 11,
+      "lastChapter": 1330,
+      "chapterCount": 200,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(217)"
       ]
     },
     {
-      "name": "孔祥龙",
-      "mentions": 2,
-      "firstChapter": 408,
-      "lastChapter": 494,
-      "chapterCount": 2,
+      "name": "范围",
+      "mentions": 252,
+      "firstChapter": 5,
+      "lastChapter": 1328,
+      "chapterCount": 198,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(252)"
       ]
     },
     {
-      "name": "缓缓",
-      "mentions": 2,
-      "firstChapter": 413,
-      "lastChapter": 434,
-      "chapterCount": 2,
+      "name": "方式",
+      "mentions": 234,
+      "firstChapter": 51,
+      "lastChapter": 1343,
+      "chapterCount": 194,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(234)"
       ]
     },
     {
-      "name": "青秋",
-      "mentions": 2,
-      "firstChapter": 440,
-      "lastChapter": 1000,
-      "chapterCount": 2,
+      "name": "许青觉",
+      "mentions": 257,
+      "firstChapter": 8,
+      "lastChapter": 1281,
+      "chapterCount": 188,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(257)"
       ]
     },
     {
-      "name": "仙术殿",
-      "mentions": 2,
-      "firstChapter": 506,
-      "lastChapter": 1023,
-      "chapterCount": 2,
+      "name": "许青望",
+      "mentions": 202,
+      "firstChapter": 12,
+      "lastChapter": 1342,
+      "chapterCount": 180,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(202)"
       ]
     },
     {
-      "name": "烛照",
-      "mentions": 2,
-      "firstChapter": 519,
-      "lastChapter": 789,
-      "chapterCount": 2,
+      "name": "成功",
+      "mentions": 246,
+      "firstChapter": 15,
+      "lastChapter": 1344,
+      "chapterCount": 179,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(246)"
       ]
     },
     {
-      "name": "灵渊",
-      "mentions": 2,
-      "firstChapter": 521,
-      "lastChapter": 683,
-      "chapterCount": 2,
+      "name": "师弟",
+      "mentions": 318,
+      "firstChapter": 28,
+      "lastChapter": 1318,
+      "chapterCount": 178,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(318)"
       ]
     },
     {
-      "name": "特尺的小国",
-      "mentions": 2,
-      "firstChapter": 532,
-      "lastChapter": 533,
-      "chapterCount": 2,
+      "name": "许青而",
+      "mentions": 203,
+      "firstChapter": 16,
+      "lastChapter": 1344,
+      "chapterCount": 177,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(203)"
       ]
     },
     {
-      "name": "灵儿",
-      "mentions": 2,
-      "firstChapter": 588,
-      "lastChapter": 663,
-      "chapterCount": 2,
+      "name": "时辰后",
+      "mentions": 203,
+      "firstChapter": 12,
+      "lastChapter": 1322,
+      "chapterCount": 174,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(203)"
       ]
     },
     {
-      "name": "青丝如血",
-      "mentions": 2,
-      "firstChapter": 613,
-      "lastChapter": 621,
-      "chapterCount": 2,
+      "name": "危险",
+      "mentions": 222,
+      "firstChapter": 1,
+      "lastChapter": 1344,
+      "chapterCount": 172,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(222)"
       ]
     },
     {
-      "name": "慈悲",
-      "mentions": 2,
-      "firstChapter": 692,
-      "lastChapter": 693,
-      "chapterCount": 2,
+      "name": "许青喃",
+      "mentions": 220,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "chapterCount": 172,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(220)"
       ]
     },
     {
-      "name": "队苌",
-      "mentions": 2,
-      "firstChapter": 695,
-      "lastChapter": 701,
-      "chapterCount": 2,
+      "name": "封印",
+      "mentions": 281,
+      "firstChapter": 129,
+      "lastChapter": 1343,
+      "chapterCount": 171,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(281)"
       ]
     },
     {
-      "name": "煌天",
-      "mentions": 2,
-      "firstChapter": 696,
-      "lastChapter": 1320,
-      "chapterCount": 2,
+      "name": "许青已",
+      "mentions": 186,
+      "firstChapter": 3,
+      "lastChapter": 1342,
+      "chapterCount": 166,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(186)"
       ]
     },
     {
-      "name": "许青的人",
-      "mentions": 2,
-      "firstChapter": 701,
-      "lastChapter": 713,
-      "chapterCount": 2,
+      "name": "任何迟",
+      "mentions": 178,
+      "firstChapter": 53,
+      "lastChapter": 1342,
+      "chapterCount": 163,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(178)"
       ]
     },
     {
-      "name": "玄雷子的弟子",
-      "mentions": 2,
-      "firstChapter": 769,
-      "lastChapter": 784,
-      "chapterCount": 2,
+      "name": "许青眯",
+      "mentions": 185,
+      "firstChapter": 4,
+      "lastChapter": 1343,
+      "chapterCount": 162,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(185)"
       ]
     },
     {
-      "name": "许青的人族",
-      "mentions": 2,
-      "firstChapter": 831,
-      "lastChapter": 977,
-      "chapterCount": 2,
+      "name": "许青听",
+      "mentions": 173,
+      "firstChapter": 1,
+      "lastChapter": 1344,
+      "chapterCount": 156,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(173)"
       ]
     },
     {
-      "name": "开口",
-      "mentions": 2,
-      "firstChapter": 918,
-      "lastChapter": 957,
-      "chapterCount": 2,
+      "name": "任务",
+      "mentions": 247,
+      "firstChapter": 11,
+      "lastChapter": 1311,
+      "chapterCount": 152,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(247)"
       ]
     },
     {
-      "name": "仿佛在诉",
-      "mentions": 2,
-      "firstChapter": 927,
-      "lastChapter": 1136,
-      "chapterCount": 2,
+      "name": "许青平",
+      "mentions": 165,
+      "firstChapter": 4,
+      "lastChapter": 1344,
+      "chapterCount": 151,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(165)"
       ]
     },
     {
-      "name": "二牛正",
-      "mentions": 2,
-      "firstChapter": 1064,
-      "lastChapter": 1282,
-      "chapterCount": 2,
+      "name": "全部",
+      "mentions": 174,
+      "firstChapter": 1,
+      "lastChapter": 1343,
+      "chapterCount": 148,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(174)"
       ]
     },
     {
-      "name": "天宫",
-      "mentions": 2,
-      "firstChapter": 1075,
-      "lastChapter": 1309,
-      "chapterCount": 2,
+      "name": "许青站",
+      "mentions": 170,
+      "firstChapter": 3,
+      "lastChapter": 1343,
+      "chapterCount": 148,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(170)"
       ]
     },
     {
-      "name": "海山的青年",
-      "mentions": 3,
-      "firstChapter": 1089,
-      "lastChapter": 1089,
-      "chapterCount": 1,
+      "name": "步一顿",
+      "mentions": 166,
+      "firstChapter": 4,
+      "lastChapter": 1321,
+      "chapterCount": 147,
       "markers": [
-        "人物行为/发言(3)"
+        "姓名候选(166)"
+      ]
+    },
+    {
+      "name": "许青体",
+      "mentions": 190,
+      "firstChapter": 8,
+      "lastChapter": 1336,
+      "chapterCount": 145,
+      "markers": [
+        "姓名候选(190)"
+      ]
+    },
+    {
+      "name": "许青低",
+      "mentions": 166,
+      "firstChapter": 2,
+      "lastChapter": 1321,
+      "chapterCount": 145,
+      "markers": [
+        "姓名候选(166)"
+      ]
+    },
+    {
+      "name": "关注",
+      "mentions": 170,
+      "firstChapter": 3,
+      "lastChapter": 1342,
+      "chapterCount": 144,
+      "markers": [
+        "姓名候选(170)"
+      ]
+    },
+    {
+      "name": "步走出",
+      "mentions": 158,
+      "firstChapter": 8,
+      "lastChapter": 1312,
+      "chapterCount": 144,
+      "markers": [
+        "姓名候选(158)"
+      ]
+    },
+    {
+      "name": "许青默",
+      "mentions": 164,
+      "firstChapter": 4,
+      "lastChapter": 1342,
+      "chapterCount": 142,
+      "markers": [
+        "姓名候选(164)"
+      ]
+    },
+    {
+      "name": "许青走",
+      "mentions": 172,
+      "firstChapter": 4,
+      "lastChapter": 1343,
+      "chapterCount": 141,
+      "markers": [
+        "姓名候选(172)"
+      ]
+    },
+    {
+      "name": "许青双",
+      "mentions": 161,
+      "firstChapter": 2,
+      "lastChapter": 1315,
+      "chapterCount": 139,
+      "markers": [
+        "姓名候选(161)"
+      ]
+    },
+    {
+      "name": "融合",
+      "mentions": 186,
+      "firstChapter": 34,
+      "lastChapter": 1344,
+      "chapterCount": 138,
+      "markers": [
+        "姓名候选(186)"
+      ]
+    },
+    {
+      "name": "苏醒",
+      "mentions": 171,
+      "firstChapter": 3,
+      "lastChapter": 1344,
+      "chapterCount": 137,
+      "markers": [
+        "姓名候选(171)"
+      ]
+    },
+    {
+      "name": "许青收",
+      "mentions": 152,
+      "firstChapter": 6,
+      "lastChapter": 1343,
+      "chapterCount": 137,
+      "markers": [
+        "姓名候选(152)"
+      ]
+    },
+    {
+      "name": "许青脑",
+      "mentions": 148,
+      "firstChapter": 7,
+      "lastChapter": 1337,
+      "chapterCount": 133,
+      "markers": [
+        "姓名候选(148)"
+      ]
+    },
+    {
+      "name": "许青如",
+      "mentions": 143,
+      "firstChapter": 14,
+      "lastChapter": 1344,
+      "chapterCount": 131,
+      "markers": [
+        "姓名候选(143)"
+      ]
+    },
+    {
+      "name": "后退",
+      "mentions": 159,
+      "firstChapter": 7,
+      "lastChapter": 1342,
+      "chapterCount": 129,
+      "markers": [
+        "姓名候选(159)"
+      ]
+    },
+    {
+      "name": "宗联盟",
+      "mentions": 435,
+      "firstChapter": 104,
+      "lastChapter": 1329,
+      "chapterCount": 128,
+      "markers": [
+        "姓名候选(435)"
+      ]
+    },
+    {
+      "name": "宗门",
+      "mentions": 166,
+      "firstChapter": 30,
+      "lastChapter": 1329,
+      "chapterCount": 124,
+      "markers": [
+        "姓名候选(166)"
+      ]
+    },
+    {
+      "name": "厉之音",
+      "mentions": 147,
+      "firstChapter": 1,
+      "lastChapter": 1342,
+      "chapterCount": 123,
+      "markers": [
+        "姓名候选(147)"
+      ]
+    },
+    {
+      "name": "关键时",
+      "mentions": 139,
+      "firstChapter": 5,
+      "lastChapter": 1336,
+      "chapterCount": 123,
+      "markers": [
+        "姓名候选(139)"
       ]
     },
     {
       "name": "吴剑巫",
-      "mentions": 2,
-      "firstChapter": 248,
-      "lastChapter": 248,
-      "chapterCount": 1,
+      "mentions": 621,
+      "firstChapter": 147,
+      "lastChapter": 1328,
+      "chapterCount": 122,
       "markers": [
+        "姓名候选(619)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "红衣女子",
-      "mentions": 2,
-      "firstChapter": 553,
-      "lastChapter": 553,
-      "chapterCount": 1,
+      "name": "相似",
+      "mentions": 137,
+      "firstChapter": 30,
+      "lastChapter": 1342,
+      "chapterCount": 121,
       "markers": [
+        "姓名候选(137)"
+      ]
+    },
+    {
+      "name": "许青全",
+      "mentions": 140,
+      "firstChapter": 12,
+      "lastChapter": 1312,
+      "chapterCount": 120,
+      "markers": [
+        "姓名候选(140)"
+      ]
+    },
+    {
+      "name": "冷漠",
+      "mentions": 133,
+      "firstChapter": 1,
+      "lastChapter": 1342,
+      "chapterCount": 120,
+      "markers": [
+        "姓名候选(133)"
+      ]
+    },
+    {
+      "name": "许青来",
+      "mentions": 130,
+      "firstChapter": 1,
+      "lastChapter": 1336,
+      "chapterCount": 120,
+      "markers": [
+        "姓名候选(130)"
+      ]
+    },
+    {
+      "name": "师尊",
+      "mentions": 225,
+      "firstChapter": 98,
+      "lastChapter": 1327,
+      "chapterCount": 117,
+      "markers": [
+        "姓名候选(224)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "方位",
+      "mentions": 140,
+      "firstChapter": 1,
+      "lastChapter": 1287,
+      "chapterCount": 114,
+      "markers": [
+        "姓名候选(140)"
+      ]
+    },
+    {
+      "name": "边缘",
+      "mentions": 131,
+      "firstChapter": 5,
+      "lastChapter": 1315,
+      "chapterCount": 113,
+      "markers": [
+        "姓名候选(131)"
+      ]
+    },
+    {
+      "name": "步走去",
+      "mentions": 124,
+      "firstChapter": 11,
+      "lastChapter": 1343,
+      "chapterCount": 113,
+      "markers": [
+        "姓名候选(124)"
+      ]
+    },
+    {
+      "name": "许青摇",
+      "mentions": 128,
+      "firstChapter": 29,
+      "lastChapter": 1330,
+      "chapterCount": 111,
+      "markers": [
+        "姓名候选(128)"
+      ]
+    },
+    {
+      "name": "许青脚",
+      "mentions": 123,
+      "firstChapter": 2,
+      "lastChapter": 1319,
+      "chapterCount": 111,
+      "markers": [
+        "姓名候选(123)"
+      ]
+    },
+    {
+      "name": "许青右",
+      "mentions": 122,
+      "firstChapter": 32,
+      "lastChapter": 1343,
+      "chapterCount": 111,
+      "markers": [
+        "姓名候选(122)"
+      ]
+    },
+    {
+      "name": "许青将",
+      "mentions": 121,
+      "firstChapter": 3,
+      "lastChapter": 1337,
+      "chapterCount": 111,
+      "markers": [
+        "姓名候选(121)"
+      ]
+    },
+    {
+      "name": "越发强",
+      "mentions": 118,
+      "firstChapter": 4,
+      "lastChapter": 1323,
+      "chapterCount": 110,
+      "markers": [
+        "姓名候选(118)"
+      ]
+    },
+    {
+      "name": "云涌",
+      "mentions": 113,
+      "firstChapter": 253,
+      "lastChapter": 1326,
+      "chapterCount": 110,
+      "markers": [
+        "姓名候选(113)"
+      ]
+    },
+    {
+      "name": "时辰",
+      "mentions": 132,
+      "firstChapter": 3,
+      "lastChapter": 1341,
+      "chapterCount": 108,
+      "markers": [
+        "姓名候选(132)"
+      ]
+    },
+    {
+      "name": "许青回",
+      "mentions": 123,
+      "firstChapter": 7,
+      "lastChapter": 1322,
+      "chapterCount": 108,
+      "markers": [
+        "姓名候选(121)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "木道子",
-      "mentions": 2,
-      "firstChapter": 587,
-      "lastChapter": 587,
-      "chapterCount": 1,
+      "name": "许青皱",
+      "mentions": 123,
+      "firstChapter": 34,
+      "lastChapter": 1262,
+      "chapterCount": 106,
       "markers": [
+        "姓名候选(123)"
+      ]
+    },
+    {
+      "name": "游走",
+      "mentions": 113,
+      "firstChapter": 46,
+      "lastChapter": 1297,
+      "chapterCount": 106,
+      "markers": [
+        "姓名候选(113)"
+      ]
+    },
+    {
+      "name": "许青无",
+      "mentions": 109,
+      "firstChapter": 16,
+      "lastChapter": 1343,
+      "chapterCount": 106,
+      "markers": [
+        "姓名候选(109)"
+      ]
+    },
+    {
+      "name": "全力以",
+      "mentions": 109,
+      "firstChapter": 38,
+      "lastChapter": 1236,
+      "chapterCount": 105,
+      "markers": [
+        "姓名候选(109)"
+      ]
+    },
+    {
+      "name": "宁炎",
+      "mentions": 204,
+      "firstChapter": 368,
+      "lastChapter": 1327,
+      "chapterCount": 104,
+      "markers": [
+        "姓名候选(204)"
+      ]
+    },
+    {
+      "name": "万物",
+      "mentions": 121,
+      "firstChapter": 19,
+      "lastChapter": 1343,
+      "chapterCount": 103,
+      "markers": [
+        "姓名候选(121)"
+      ]
+    },
+    {
+      "name": "许青转",
+      "mentions": 109,
+      "firstChapter": 9,
+      "lastChapter": 1330,
+      "chapterCount": 103,
+      "markers": [
+        "姓名候选(109)"
+      ]
+    },
+    {
+      "name": "许青后",
+      "mentions": 113,
+      "firstChapter": 6,
+      "lastChapter": 1342,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(113)"
+      ]
+    },
+    {
+      "name": "古怪",
+      "mentions": 112,
+      "firstChapter": 20,
+      "lastChapter": 1321,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "相关",
+      "mentions": 112,
+      "firstChapter": 82,
+      "lastChapter": 1344,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "许青忽",
+      "mentions": 106,
+      "firstChapter": 7,
+      "lastChapter": 1344,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(106)"
+      ]
+    },
+    {
+      "name": "山倒海",
+      "mentions": 104,
+      "firstChapter": 50,
+      "lastChapter": 1339,
+      "chapterCount": 102,
+      "markers": [
+        "姓名候选(104)"
+      ]
+    },
+    {
+      "name": "山脉",
+      "mentions": 163,
+      "firstChapter": 47,
+      "lastChapter": 1336,
+      "chapterCount": 101,
+      "markers": [
+        "姓名候选(163)"
+      ]
+    },
+    {
+      "name": "融化",
+      "mentions": 113,
+      "firstChapter": 4,
+      "lastChapter": 1343,
+      "chapterCount": 101,
+      "markers": [
+        "姓名候选(113)"
+      ]
+    },
+    {
+      "name": "边无际",
+      "mentions": 110,
+      "firstChapter": 246,
+      "lastChapter": 1341,
+      "chapterCount": 101,
+      "markers": [
+        "姓名候选(110)"
+      ]
+    },
+    {
+      "name": "许青睁",
+      "mentions": 109,
+      "firstChapter": 3,
+      "lastChapter": 1326,
+      "chapterCount": 101,
+      "markers": [
+        "姓名候选(109)"
+      ]
+    },
+    {
+      "name": "权柄",
+      "mentions": 195,
+      "firstChapter": 440,
+      "lastChapter": 1267,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(195)"
+      ]
+    },
+    {
+      "name": "明悟",
+      "mentions": 109,
+      "firstChapter": 53,
+      "lastChapter": 1337,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(109)"
+      ]
+    },
+    {
+      "name": "许青呼",
+      "mentions": 103,
+      "firstChapter": 1,
+      "lastChapter": 1326,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(103)"
+      ]
+    },
+    {
+      "name": "许青凝",
+      "mentions": 105,
+      "firstChapter": 33,
+      "lastChapter": 1337,
+      "chapterCount": 99,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "许青眉",
+      "mentions": 117,
+      "firstChapter": 9,
+      "lastChapter": 1322,
+      "chapterCount": 98,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "时间一",
+      "mentions": 102,
+      "firstChapter": 1,
+      "lastChapter": 1253,
+      "chapterCount": 98,
+      "markers": [
+        "姓名候选(102)"
+      ]
+    },
+    {
+      "name": "万丈",
+      "mentions": 113,
+      "firstChapter": 46,
+      "lastChapter": 1343,
+      "chapterCount": 97,
+      "markers": [
+        "姓名候选(113)"
+      ]
+    },
+    {
+      "name": "许青立",
+      "mentions": 105,
+      "firstChapter": 19,
+      "lastChapter": 1267,
+      "chapterCount": 96,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "许青自",
+      "mentions": 100,
+      "firstChapter": 63,
+      "lastChapter": 1344,
+      "chapterCount": 96,
+      "markers": [
+        "姓名候选(100)"
+      ]
+    },
+    {
+      "name": "许青知",
+      "mentions": 98,
+      "firstChapter": 6,
+      "lastChapter": 1342,
+      "chapterCount": 96,
+      "markers": [
+        "姓名候选(98)"
+      ]
+    },
+    {
+      "name": "许青说",
+      "mentions": 107,
+      "firstChapter": 9,
+      "lastChapter": 1342,
+      "chapterCount": 94,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "许青四",
+      "mentions": 107,
+      "firstChapter": 51,
+      "lastChapter": 1336,
+      "chapterCount": 94,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "全面爆",
+      "mentions": 107,
+      "firstChapter": 37,
+      "lastChapter": 1268,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(107)"
+      ]
+    },
+    {
+      "name": "融合在",
+      "mentions": 102,
+      "firstChapter": 14,
+      "lastChapter": 1322,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(102)"
+      ]
+    },
+    {
+      "name": "步步走",
+      "mentions": 98,
+      "firstChapter": 67,
+      "lastChapter": 1343,
+      "chapterCount": 92,
+      "markers": [
+        "姓名候选(98)"
+      ]
+    },
+    {
+      "name": "时空",
+      "mentions": 161,
+      "firstChapter": 22,
+      "lastChapter": 1343,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(161)"
+      ]
+    },
+    {
+      "name": "许青内",
+      "mentions": 105,
+      "firstChapter": 4,
+      "lastChapter": 1273,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "安全",
+      "mentions": 98,
+      "firstChapter": 2,
+      "lastChapter": 1251,
+      "chapterCount": 91,
+      "markers": [
+        "姓名候选(98)"
+      ]
+    },
+    {
+      "name": "许青等",
+      "mentions": 145,
+      "firstChapter": 14,
+      "lastChapter": 1322,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(145)"
+      ]
+    },
+    {
+      "name": "颜色",
+      "mentions": 111,
+      "firstChapter": 13,
+      "lastChapter": 1337,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(111)"
+      ]
+    },
+    {
+      "name": "满意",
+      "mentions": 105,
+      "firstChapter": 25,
+      "lastChapter": 1241,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "融入",
+      "mentions": 100,
+      "firstChapter": 3,
+      "lastChapter": 1324,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(100)"
+      ]
+    },
+    {
+      "name": "许青离",
+      "mentions": 100,
+      "firstChapter": 9,
+      "lastChapter": 1327,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(100)"
+      ]
+    },
+    {
+      "name": "严重",
+      "mentions": 100,
+      "firstChapter": 16,
+      "lastChapter": 1319,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(100)"
+      ]
+    },
+    {
+      "name": "宫内",
+      "mentions": 117,
+      "firstChapter": 207,
+      "lastChapter": 1337,
+      "chapterCount": 88,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "符文",
+      "mentions": 112,
+      "firstChapter": 40,
+      "lastChapter": 1343,
+      "chapterCount": 88,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "范围内",
+      "mentions": 101,
+      "firstChapter": 22,
+      "lastChapter": 1340,
+      "chapterCount": 88,
+      "markers": [
+        "姓名候选(101)"
+      ]
+    },
+    {
+      "name": "习惯",
+      "mentions": 95,
+      "firstChapter": 5,
+      "lastChapter": 1337,
+      "chapterCount": 87,
+      "markers": [
+        "姓名候选(95)"
+      ]
+    },
+    {
+      "name": "安静",
+      "mentions": 90,
+      "firstChapter": 14,
+      "lastChapter": 1249,
+      "chapterCount": 87,
+      "markers": [
+        "姓名候选(90)"
+      ]
+    },
+    {
+      "name": "许青此",
+      "mentions": 89,
+      "firstChapter": 3,
+      "lastChapter": 1317,
+      "chapterCount": 87,
+      "markers": [
+        "姓名候选(89)"
+      ]
+    },
+    {
+      "name": "方面",
+      "mentions": 97,
+      "firstChapter": 50,
+      "lastChapter": 1339,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(97)"
+      ]
+    },
+    {
+      "name": "许青思",
+      "mentions": 94,
+      "firstChapter": 4,
+      "lastChapter": 1296,
+      "chapterCount": 86,
+      "markers": [
+        "姓名候选(94)"
+      ]
+    },
+    {
+      "name": "危机关",
+      "mentions": 90,
+      "firstChapter": 35,
+      "lastChapter": 1299,
+      "chapterCount": 84,
+      "markers": [
+        "姓名候选(90)"
+      ]
+    },
+    {
+      "name": "雷霆",
+      "mentions": 103,
+      "firstChapter": 8,
+      "lastChapter": 1339,
+      "chapterCount": 83,
+      "markers": [
+        "姓名候选(102)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "许青话",
+      "mentions": 92,
+      "firstChapter": 31,
+      "lastChapter": 1325,
+      "chapterCount": 83,
+      "markers": [
+        "姓名候选(92)"
+      ]
+    },
+    {
+      "name": "冷哼一",
+      "mentions": 88,
+      "firstChapter": 15,
+      "lastChapter": 1331,
+      "chapterCount": 83,
+      "markers": [
+        "姓名候选(88)"
+      ]
+    },
+    {
+      "name": "陈二牛",
+      "mentions": 140,
+      "firstChapter": 190,
+      "lastChapter": 1077,
+      "chapterCount": 82,
+      "markers": [
+        "姓名候选(140)"
+      ]
+    },
+    {
+      "name": "丁一三",
+      "mentions": 287,
+      "firstChapter": 400,
+      "lastChapter": 1336,
+      "chapterCount": 81,
+      "markers": [
+        "姓名候选(286)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "时间慢",
+      "mentions": 81,
+      "firstChapter": 2,
+      "lastChapter": 1326,
+      "chapterCount": 81,
+      "markers": [
+        "姓名候选(81)"
+      ]
+    },
+    {
+      "name": "周正立",
+      "mentions": 319,
+      "firstChapter": 1092,
+      "lastChapter": 1334,
+      "chapterCount": 80,
+      "markers": [
+        "姓名候选(318)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "柏大师",
+      "mentions": 313,
+      "firstChapter": 9,
+      "lastChapter": 1344,
+      "chapterCount": 80,
+      "markers": [
+        "姓名候选(313)"
+      ]
+    },
+    {
+      "name": "宗老祖",
+      "mentions": 100,
+      "firstChapter": 39,
+      "lastChapter": 1329,
+      "chapterCount": 80,
+      "markers": [
+        "姓名候选(100)"
+      ]
+    },
+    {
+      "name": "山峰",
+      "mentions": 95,
+      "firstChapter": 7,
+      "lastChapter": 1330,
+      "chapterCount": 78,
+      "markers": [
+        "姓名候选(95)"
+      ]
+    },
+    {
+      "name": "时许青",
+      "mentions": 86,
+      "firstChapter": 11,
+      "lastChapter": 1337,
+      "chapterCount": 77,
+      "markers": [
+        "姓名候选(86)"
+      ]
+    },
+    {
+      "name": "许青明",
+      "mentions": 84,
+      "firstChapter": 14,
+      "lastChapter": 1319,
+      "chapterCount": 77,
+      "markers": [
+        "姓名候选(84)"
+      ]
+    },
+    {
+      "name": "古往今",
+      "mentions": 82,
+      "firstChapter": 29,
+      "lastChapter": 1344,
+      "chapterCount": 77,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "任何人",
+      "mentions": 75,
+      "firstChapter": 5,
+      "lastChapter": 1338,
+      "chapterCount": 75,
+      "markers": [
+        "姓名候选(75)"
+      ]
+    },
+    {
+      "name": "李梦土",
+      "mentions": 299,
+      "firstChapter": 1092,
+      "lastChapter": 1331,
+      "chapterCount": 74,
+      "markers": [
+        "姓名候选(299)"
+      ]
+    },
+    {
+      "name": "许青只",
+      "mentions": 78,
+      "firstChapter": 34,
+      "lastChapter": 1343,
+      "chapterCount": 74,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "全力",
+      "mentions": 76,
+      "firstChapter": 43,
+      "lastChapter": 1342,
+      "chapterCount": 74,
+      "markers": [
+        "姓名候选(76)"
+      ]
+    },
+    {
+      "name": "许青闭",
+      "mentions": 80,
+      "firstChapter": 2,
+      "lastChapter": 1328,
+      "chapterCount": 73,
+      "markers": [
+        "姓名候选(80)"
+      ]
+    },
+    {
+      "name": "孔收缩",
+      "mentions": 76,
+      "firstChapter": 4,
+      "lastChapter": 1316,
+      "chapterCount": 73,
+      "markers": [
+        "姓名候选(76)"
+      ]
+    },
+    {
+      "name": "时光",
+      "mentions": 96,
+      "firstChapter": 76,
+      "lastChapter": 1344,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(96)"
+      ]
+    },
+    {
+      "name": "时间去",
+      "mentions": 77,
+      "firstChapter": 5,
+      "lastChapter": 1279,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(77)"
+      ]
+    },
+    {
+      "name": "许青虽",
+      "mentions": 74,
+      "firstChapter": 34,
+      "lastChapter": 1312,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(74)"
+      ]
+    },
+    {
+      "name": "许青手",
+      "mentions": 78,
+      "firstChapter": 26,
+      "lastChapter": 1305,
+      "chapterCount": 71,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "相助",
+      "mentions": 75,
+      "firstChapter": 15,
+      "lastChapter": 1316,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(75)"
+      ]
+    },
+    {
+      "name": "张开大",
+      "mentions": 75,
+      "firstChapter": 28,
+      "lastChapter": 1343,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(75)"
+      ]
+    },
+    {
+      "name": "孔祥龙",
+      "mentions": 401,
+      "firstChapter": 394,
+      "lastChapter": 1328,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(399)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "第五人祖",
-      "mentions": 2,
-      "firstChapter": 1101,
-      "lastChapter": 1101,
-      "chapterCount": 1,
+      "name": "许青眨",
+      "mentions": 76,
+      "firstChapter": 65,
+      "lastChapter": 1282,
+      "chapterCount": 69,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(76)"
+      ]
+    },
+    {
+      "name": "张开口",
+      "mentions": 75,
+      "firstChapter": 19,
+      "lastChapter": 1304,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(75)"
+      ]
+    },
+    {
+      "name": "凌厉",
+      "mentions": 70,
+      "firstChapter": 15,
+      "lastChapter": 1253,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(70)"
+      ]
+    },
+    {
+      "name": "毛一扬",
+      "mentions": 70,
+      "firstChapter": 108,
+      "lastChapter": 1322,
+      "chapterCount": 68,
+      "markers": [
+        "姓名候选(70)"
+      ]
+    },
+    {
+      "name": "水晶",
+      "mentions": 110,
+      "firstChapter": 2,
+      "lastChapter": 1344,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(110)"
+      ]
+    },
+    {
+      "name": "许青出",
+      "mentions": 69,
+      "firstChapter": 18,
+      "lastChapter": 1331,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(69)"
+      ]
+    },
+    {
+      "name": "许青接",
+      "mentions": 70,
+      "firstChapter": 9,
+      "lastChapter": 1159,
+      "chapterCount": 66,
+      "markers": [
+        "姓名候选(70)"
+      ]
+    },
+    {
+      "name": "许青前",
+      "mentions": 68,
+      "firstChapter": 16,
+      "lastChapter": 1336,
+      "chapterCount": 66,
+      "markers": [
+        "姓名候选(68)"
+      ]
+    },
+    {
+      "name": "许青曾",
+      "mentions": 67,
+      "firstChapter": 25,
+      "lastChapter": 1335,
+      "chapterCount": 66,
+      "markers": [
+        "姓名候选(67)"
+      ]
+    },
+    {
+      "name": "许青迟",
+      "mentions": 69,
+      "firstChapter": 19,
+      "lastChapter": 1164,
+      "chapterCount": 65,
+      "markers": [
+        "姓名候选(69)"
+      ]
+    },
+    {
+      "name": "任何变",
+      "mentions": 67,
+      "firstChapter": 29,
+      "lastChapter": 1167,
+      "chapterCount": 65,
+      "markers": [
+        "姓名候选(67)"
+      ]
+    },
+    {
+      "name": "许青可",
+      "mentions": 67,
+      "firstChapter": 55,
+      "lastChapter": 1343,
+      "chapterCount": 65,
+      "markers": [
+        "姓名候选(67)"
+      ]
+    },
+    {
+      "name": "许青盘",
+      "mentions": 66,
+      "firstChapter": 32,
+      "lastChapter": 1344,
+      "chapterCount": 65,
+      "markers": [
+        "姓名候选(66)"
+      ]
+    },
+    {
+      "name": "万物众",
+      "mentions": 79,
+      "firstChapter": 1,
+      "lastChapter": 1344,
+      "chapterCount": 64,
+      "markers": [
+        "姓名候选(79)"
       ]
     }
   ],
   "relations": [
     {
       "source": "许青",
-      "target": "队长",
-      "mentions": 2768,
-      "firstChapter": 15,
-      "lastChapter": 1261,
-      "markers": [
-        "队长(2768)",
-        "弟子(34)",
-        "师尊(18)",
-        "追杀(6)",
-        "兄弟(5)",
-        "儿子(5)",
-        "敌人(4)",
-        "姐妹(3)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "许青",
-      "mentions": 1884,
-      "firstChapter": 4,
+      "target": "许青身",
+      "mentions": 1087,
+      "firstChapter": 3,
       "lastChapter": 1344,
       "markers": [
-        "同章共现(1614)",
-        "队长(225)",
-        "弟子(27)",
-        "师尊(14)",
-        "保护(3)",
-        "兄弟(2)",
-        "追杀(2)",
-        "对手(2)"
+        "同章共现(998)",
+        "队长(75)",
+        "弟子(10)",
+        "朋友(2)",
+        "师尊(2)",
+        "同伴(1)"
       ]
     },
     {
-      "source": "二牛",
-      "target": "许青",
-      "mentions": 684,
-      "firstChapter": 191,
-      "lastChapter": 1344,
+      "source": "许青",
+      "target": "许青心",
+      "mentions": 1047,
+      "firstChapter": 2,
+      "lastChapter": 1337,
       "markers": [
-        "同章共现(669)",
-        "队长(4)",
-        "弟子(4)",
-        "合作(2)",
-        "儿子(1)",
-        "朋友(1)",
-        "追杀(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "队长",
-      "mentions": 480,
-      "firstChapter": 15,
-      "lastChapter": 983,
-      "markers": [
-        "队长(480)",
-        "师尊(9)",
-        "弟子(8)",
-        "追杀(1)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "许青",
-      "mentions": 385,
-      "firstChapter": 555,
-      "lastChapter": 1314,
-      "markers": [
-        "同章共现(339)",
-        "队长(38)",
-        "师尊(6)",
+        "同章共现(972)",
+        "队长(60)",
+        "弟子(5)",
+        "师尊(4)",
+        "交易(3)",
         "保护(2)",
-        "兄弟(2)",
-        "姐妹(2)",
-        "儿子(1)",
-        "弟子(1)"
+        "朋友(1)",
+        "追杀(1)"
       ]
     },
     {
-      "source": "七爷",
-      "target": "许青",
-      "mentions": 356,
-      "firstChapter": 10,
+      "source": "许青",
+      "target": "许青一",
+      "mentions": 1024,
+      "firstChapter": 3,
       "lastChapter": 1344,
       "markers": [
-        "同章共现(303)",
-        "队长(33)",
-        "弟子(13)",
+        "同章共现(888)",
+        "队长(115)",
+        "弟子(9)",
+        "师尊(6)",
+        "对手(2)",
+        "保护(2)",
+        "兄弟(1)",
+        "上司(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青目",
+      "mentions": 963,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(910)",
+        "队长(43)",
+        "弟子(6)",
+        "师尊(2)",
+        "兄弟(1)",
+        "交易(1)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青没",
+      "mentions": 818,
+      "firstChapter": 1,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(718)",
+        "队长(86)",
+        "弟子(5)",
+        "保护(4)",
+        "师尊(2)",
+        "对手(1)",
+        "追杀(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青看",
+      "mentions": 642,
+      "firstChapter": 3,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(520)",
+        "队长(104)",
+        "弟子(12)",
+        "师尊(3)",
+        "同伴(2)",
+        "保护(2)",
+        "交易(2)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "许青",
+      "mentions": 563,
+      "firstChapter": 3,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(530)",
+        "队长(27)",
+        "弟子(2)",
+        "对手(2)",
+        "合作(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青沉",
+      "mentions": 532,
+      "firstChapter": 2,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(474)",
+        "队长(48)",
         "师尊(7)",
+        "弟子(3)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青在",
+      "mentions": 529,
+      "firstChapter": 4,
+      "lastChapter": 1342,
+      "markers": [
+        "同章共现(483)",
+        "队长(24)",
+        "弟子(6)",
+        "兄弟(4)",
+        "保护(3)",
+        "姐妹(3)",
+        "师尊(3)",
+        "同伴(2)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青神",
+      "mentions": 472,
+      "firstChapter": 3,
+      "lastChapter": 1334,
+      "markers": [
+        "同章共现(424)",
+        "队长(40)",
+        "弟子(3)",
+        "师尊(2)",
+        "交易(2)",
+        "保护(1)",
+        "母亲(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青眼",
+      "mentions": 456,
+      "firstChapter": 2,
+      "lastChapter": 1268,
+      "markers": [
+        "同章共现(412)",
+        "队长(36)",
+        "弟子(4)",
+        "师尊(3)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青面",
+      "mentions": 450,
+      "firstChapter": 4,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(412)",
+        "队长(33)",
+        "弟子(3)",
+        "师尊(2)",
+        "同伴(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青抬",
+      "mentions": 424,
+      "firstChapter": 2,
+      "lastChapter": 1342,
+      "markers": [
+        "同章共现(399)",
+        "队长(20)",
+        "弟子(2)",
+        "师尊(1)",
+        "母亲(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "许青",
+      "mentions": 417,
+      "firstChapter": 9,
+      "lastChapter": 1335,
+      "markers": [
+        "同章共现(392)",
+        "队长(15)",
+        "弟子(8)",
+        "老师(1)",
+        "师尊(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "金刚宗",
+      "mentions": 415,
+      "firstChapter": 40,
+      "lastChapter": 1329,
+      "markers": [
+        "同章共现(384)",
+        "弟子(13)",
+        "队长(8)",
+        "师尊(4)",
+        "追杀(3)",
+        "敌人(1)",
+        "同伴(1)",
         "保护(1)"
       ]
     },
     {
-      "source": "张三",
+      "source": "师兄",
       "target": "许青",
-      "mentions": 284,
-      "firstChapter": 55,
-      "lastChapter": 1327,
+      "mentions": 343,
+      "firstChapter": 67,
+      "lastChapter": 1344,
       "markers": [
-        "同章共现(198)",
-        "队长(74)",
-        "弟子(14)",
-        "敌人(3)",
-        "朋友(1)",
-        "姐妹(1)"
+        "同章共现(278)",
+        "队长(47)",
+        "弟子(8)",
+        "师尊(7)",
+        "保护(3)",
+        "兄弟(2)",
+        "敌人(1)",
+        "对手(1)"
       ]
     },
     {
-      "source": "灵儿",
-      "target": "许青",
-      "mentions": 282,
-      "firstChapter": 126,
-      "lastChapter": 1329,
+      "source": "许青",
+      "target": "许青所",
+      "mentions": 304,
+      "firstChapter": 2,
+      "lastChapter": 1344,
       "markers": [
-        "同章共现(257)",
-        "队长(19)",
+        "同章共现(291)",
+        "队长(9)",
+        "弟子(3)",
+        "师尊(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "宁炎",
+      "target": "许青",
+      "mentions": 298,
+      "firstChapter": 387,
+      "lastChapter": 1327,
+      "markers": [
+        "同章共现(217)",
+        "队长(75)",
+        "母亲(5)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "程度",
+      "target": "许青",
+      "mentions": 291,
+      "firstChapter": 10,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(261)",
+        "队长(22)",
+        "弟子(3)",
         "兄弟(3)",
         "姐妹(3)",
         "保护(2)",
-        "师尊(2)",
-        "弟子(1)"
+        "师尊(1)"
       ]
     },
     {
-      "source": "女子",
+      "source": "明显",
       "target": "许青",
-      "mentions": 275,
-      "firstChapter": 47,
-      "lastChapter": 1334,
+      "mentions": 288,
+      "firstChapter": 3,
+      "lastChapter": 1257,
       "markers": [
-        "同章共现(257)",
-        "队长(13)",
-        "追杀(2)",
-        "弟子(2)",
-        "母亲(1)"
+        "同章共现(258)",
+        "队长(19)",
+        "弟子(9)",
+        "对手(2)",
+        "保护(1)",
+        "敌人(1)"
       ]
     },
     {
-      "source": "老者",
-      "target": "许青",
-      "mentions": 273,
-      "firstChapter": 4,
-      "lastChapter": 1306,
+      "source": "许青",
+      "target": "许青深",
+      "mentions": 286,
+      "firstChapter": 3,
+      "lastChapter": 1344,
       "markers": [
-        "同章共现(250)",
-        "队长(16)",
-        "弟子(5)",
-        "同伴(1)",
-        "命令(1)",
+        "同章共现(264)",
+        "队长(18)",
+        "弟子(3)",
         "师尊(1)"
       ]
     },
     {
       "source": "许青",
-      "target": "雷队",
-      "mentions": 251,
-      "firstChapter": 4,
-      "lastChapter": 1277,
+      "target": "许青之",
+      "mentions": 269,
+      "firstChapter": 5,
+      "lastChapter": 1312,
       "markers": [
-        "同章共现(243)",
-        "队长(6)",
+        "同章共现(247)",
+        "队长(18)",
+        "弟子(2)",
+        "对手(2)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青有",
+      "mentions": 259,
+      "firstChapter": 4,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(231)",
+        "队长(20)",
+        "弟子(2)",
+        "交易(2)",
+        "师尊(1)",
+        "保护(1)",
         "对手(1)",
-        "敌人(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青点",
+      "mentions": 255,
+      "firstChapter": 7,
+      "lastChapter": 1326,
+      "markers": [
+        "同章共现(218)",
+        "队长(35)",
+        "交易(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青觉",
+      "mentions": 253,
+      "firstChapter": 8,
+      "lastChapter": 1281,
+      "markers": [
+        "同章共现(219)",
+        "队长(30)",
+        "弟子(3)",
+        "追杀(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "毕竟",
+      "target": "许青",
+      "mentions": 251,
+      "firstChapter": 48,
+      "lastChapter": 1342,
+      "markers": [
+        "同章共现(220)",
+        "队长(20)",
+        "弟子(8)",
+        "儿子(2)",
+        "对手(1)",
+        "交易(1)",
+        "姐妹(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青想",
+      "mentions": 248,
+      "firstChapter": 6,
+      "lastChapter": 1337,
+      "markers": [
+        "同章共现(217)",
+        "队长(22)",
+        "弟子(4)",
+        "师尊(4)",
+        "兄弟(1)",
+        "父亲(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "范围",
+      "target": "许青",
+      "mentions": 239,
+      "firstChapter": 7,
+      "lastChapter": 1332,
+      "markers": [
+        "同章共现(224)",
+        "队长(9)",
+        "弟子(5)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青体",
+      "mentions": 237,
+      "firstChapter": 8,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(229)",
+        "队长(5)",
+        "弟子(3)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "危机",
+      "target": "许青",
+      "mentions": 230,
+      "firstChapter": 4,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(208)",
+        "队长(8)",
+        "弟子(5)",
+        "师尊(3)",
+        "保护(3)",
+        "追杀(1)",
         "老师(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青闻",
+      "mentions": 220,
+      "firstChapter": 11,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(197)",
+        "队长(23)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青而",
+      "mentions": 211,
+      "firstChapter": 2,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(205)",
+        "朋友(1)",
+        "弟子(1)",
+        "追杀(1)",
+        "交易(1)",
+        "保护(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "关注",
+      "target": "许青",
+      "mentions": 203,
+      "firstChapter": 4,
+      "lastChapter": 1332,
+      "markers": [
+        "同章共现(182)",
+        "队长(15)",
+        "弟子(4)",
+        "师尊(2)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "封海郡",
+      "target": "许青",
+      "mentions": 199,
+      "firstChapter": 348,
+      "lastChapter": 1329,
+      "markers": [
+        "同章共现(188)",
+        "队长(5)",
+        "师尊(2)",
+        "保护(2)",
+        "交易(1)",
         "弟子(1)"
       ]
     },
     {
-      "source": "缓缓",
+      "source": "时辰",
+      "target": "时辰后",
+      "mentions": 198,
+      "firstChapter": 12,
+      "lastChapter": 1322,
+      "markers": [
+        "同章共现(188)",
+        "队长(10)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青望",
+      "mentions": 196,
+      "firstChapter": 12,
+      "lastChapter": 1342,
+      "markers": [
+        "同章共现(171)",
+        "队长(22)",
+        "弟子(1)",
+        "师尊(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "吴剑巫",
+      "target": "宁炎",
+      "mentions": 190,
+      "firstChapter": 387,
+      "lastChapter": 800,
+      "markers": [
+        "同章共现(118)",
+        "队长(70)",
+        "儿子(1)",
+        "弟子(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "许久",
       "target": "许青",
-      "mentions": 232,
+      "mentions": 185,
       "firstChapter": 3,
-      "lastChapter": 1344,
+      "lastChapter": 1342,
       "markers": [
-        "同章共现(225)",
-        "队长(7)"
+        "同章共现(180)",
+        "队长(3)",
+        "师尊(2)"
       ]
     },
     {
-      "source": "老头",
-      "target": "许青",
-      "mentions": 221,
+      "source": "许青",
+      "target": "许青若",
+      "mentions": 184,
       "firstChapter": 11,
-      "lastChapter": 1074,
+      "lastChapter": 1330,
       "markers": [
-        "同章共现(200)",
-        "队长(14)",
-        "保护(2)",
-        "同伴(2)",
-        "追杀(2)",
-        "弟子(1)",
-        "兄弟(1)",
-        "姐妹(1)"
+        "同章共现(166)",
+        "队长(15)",
+        "弟子(2)",
+        "师尊(2)"
       ]
     },
     {
-      "source": "天宫",
-      "target": "许青",
-      "mentions": 203,
-      "firstChapter": 237,
-      "lastChapter": 891,
-      "markers": [
-        "同章共现(193)",
-        "队长(5)",
-        "保护(3)",
-        "敌人(1)",
-        "弟子(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "许青",
-      "mentions": 195,
-      "firstChapter": 394,
-      "lastChapter": 919,
-      "markers": [
-        "同章共现(176)",
-        "队长(17)",
-        "兄弟(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "缓缓",
+      "source": "许青",
+      "target": "许青已",
       "mentions": 183,
-      "firstChapter": 5,
-      "lastChapter": 1344,
+      "firstChapter": 3,
+      "lastChapter": 1342,
       "markers": [
-        "同章共现(176)",
-        "队长(7)"
+        "同章共现(169)",
+        "队长(12)",
+        "敌人(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青走",
+      "mentions": 182,
+      "firstChapter": 4,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(166)",
+        "队长(10)",
+        "弟子(5)",
+        "师尊(1)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青喃",
+      "mentions": 177,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(173)",
+        "队长(2)",
+        "老师(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "宗门",
+      "target": "许青",
+      "mentions": 177,
+      "firstChapter": 41,
+      "lastChapter": 1299,
+      "markers": [
+        "同章共现(134)",
+        "队长(22)",
+        "弟子(19)",
+        "师尊(3)",
+        "对手(1)",
+        "姐妹(1)",
+        "保护(1)",
+        "交易(1)"
       ]
     },
     {
@@ -965,86 +2508,356 @@
       ]
     },
     {
-      "source": "吴剑巫",
-      "target": "队长",
-      "mentions": 164,
-      "firstChapter": 195,
-      "lastChapter": 800,
+      "source": "许青",
+      "target": "许青听",
+      "mentions": 171,
+      "firstChapter": 1,
+      "lastChapter": 1344,
       "markers": [
-        "队长(164)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "泥狐狸",
-      "target": "许青",
-      "mentions": 160,
-      "firstChapter": 575,
-      "lastChapter": 1263,
-      "markers": [
-        "同章共现(152)",
-        "队长(8)"
+        "同章共现(142)",
+        "队长(24)",
+        "弟子(2)",
+        "师尊(2)",
+        "朋友(1)"
       ]
     },
     {
       "source": "许青",
-      "target": "黄岩",
-      "mentions": 151,
-      "firstChapter": 69,
-      "lastChapter": 1000,
+      "target": "许青眯",
+      "mentions": 171,
+      "firstChapter": 4,
+      "lastChapter": 1343,
       "markers": [
-        "同章共现(126)",
+        "同章共现(161)",
         "队长(9)",
-        "兄弟(8)",
-        "朋友(5)",
-        "弟子(4)",
-        "对手(1)",
-        "姐妹(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青站",
+      "mentions": 168,
+      "firstChapter": 3,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(165)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "许青",
+      "mentions": 156,
+      "firstChapter": 20,
+      "lastChapter": 1279,
+      "markers": [
+        "同章共现(138)",
+        "队长(9)",
+        "弟子(9)"
+      ]
+    },
+    {
+      "source": "封印",
+      "target": "许青",
+      "mentions": 155,
+      "firstChapter": 104,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(139)",
+        "队长(12)",
+        "师尊(2)",
+        "兄弟(2)",
+        "姐妹(2)",
+        "弟子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "段时间",
+      "target": "许青",
+      "mentions": 154,
+      "firstChapter": 6,
+      "lastChapter": 1281,
+      "markers": [
+        "同章共现(122)",
+        "队长(15)",
+        "弟子(7)",
+        "朋友(3)",
+        "师尊(3)",
+        "保护(2)",
+        "敌人(1)",
         "父亲(1)"
       ]
     },
     {
-      "source": "丁雪",
+      "source": "时辰",
       "target": "许青",
-      "mentions": 141,
-      "firstChapter": 83,
-      "lastChapter": 998,
+      "mentions": 153,
+      "firstChapter": 2,
+      "lastChapter": 1322,
       "markers": [
-        "同章共现(123)",
-        "弟子(9)",
-        "队长(5)",
-        "保护(4)",
-        "师尊(2)",
-        "姐妹(1)",
-        "朋友(1)",
-        "盟友(1)"
+        "同章共现(140)",
+        "队长(12)",
+        "弟子(2)",
+        "师尊(1)",
+        "老师(1)"
       ]
     },
     {
       "source": "许青",
-      "target": "青秋",
-      "mentions": 135,
-      "firstChapter": 355,
+      "target": "许青收",
+      "mentions": 151,
+      "firstChapter": 6,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(142)",
+        "队长(8)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青如",
+      "mentions": 151,
+      "firstChapter": 14,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(137)",
+        "队长(11)",
+        "弟子(1)",
+        "朋友(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青低",
+      "mentions": 149,
+      "firstChapter": 2,
+      "lastChapter": 1321,
+      "markers": [
+        "同章共现(140)",
+        "队长(7)",
+        "师尊(2)",
+        "敌人(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青全",
+      "mentions": 149,
+      "firstChapter": 12,
+      "lastChapter": 1312,
+      "markers": [
+        "同章共现(145)",
+        "队长(3)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青脑",
+      "mentions": 147,
+      "firstChapter": 7,
+      "lastChapter": 1337,
+      "markers": [
+        "同章共现(142)",
+        "队长(4)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "危险",
+      "target": "许青",
+      "mentions": 145,
+      "firstChapter": 14,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(128)",
+        "队长(11)",
+        "弟子(4)",
+        "朋友(1)",
+        "追杀(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "师尊",
+      "target": "许青",
+      "mentions": 144,
+      "firstChapter": 142,
       "lastChapter": 1327,
       "markers": [
-        "同章共现(102)",
-        "队长(32)",
+        "师尊(144)",
+        "队长(18)",
+        "弟子(4)",
+        "保护(2)",
+        "追杀(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "权柄",
+      "target": "许青",
+      "mentions": 144,
+      "firstChapter": 545,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(142)",
+        "队长(2)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青默",
+      "mentions": 143,
+      "firstChapter": 4,
+      "lastChapter": 1296,
+      "markers": [
+        "同章共现(130)",
+        "队长(9)",
+        "弟子(1)",
+        "朋友(1)",
+        "保护(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青来",
+      "mentions": 140,
+      "firstChapter": 1,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(134)",
+        "队长(5)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青双",
+      "mentions": 140,
+      "firstChapter": 2,
+      "lastChapter": 1315,
+      "markers": [
+        "同章共现(135)",
+        "队长(5)"
+      ]
+    },
+    {
+      "source": "融合",
+      "target": "许青",
+      "mentions": 136,
+      "firstChapter": 60,
+      "lastChapter": 1333,
+      "markers": [
+        "同章共现(128)",
+        "队长(5)",
+        "师尊(2)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青将",
+      "mentions": 135,
+      "firstChapter": 3,
+      "lastChapter": 1337,
+      "markers": [
+        "同章共现(124)",
+        "队长(10)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "许青全",
+      "mentions": 127,
+      "firstChapter": 12,
+      "lastChapter": 1312,
+      "markers": [
+        "同章共现(125)",
+        "队长(2)"
+      ]
+    },
+    {
+      "source": "成功",
+      "target": "许青",
+      "mentions": 124,
+      "firstChapter": 5,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(111)",
+        "队长(10)",
+        "盟友(1)",
+        "对手(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "方法",
+      "target": "许青",
+      "mentions": 124,
+      "firstChapter": 31,
+      "lastChapter": 1317,
+      "markers": [
+        "同章共现(106)",
+        "队长(14)",
+        "弟子(2)",
+        "追杀(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青右",
+      "mentions": 124,
+      "firstChapter": 32,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(121)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青脚",
+      "mentions": 119,
+      "firstChapter": 2,
+      "lastChapter": 1319,
+      "markers": [
+        "同章共现(112)",
+        "队长(5)",
         "弟子(2)"
       ]
     },
     {
-      "source": "少女",
+      "source": "步一顿",
       "target": "许青",
-      "mentions": 124,
-      "firstChapter": 19,
-      "lastChapter": 1090,
+      "mentions": 117,
+      "firstChapter": 4,
+      "lastChapter": 1319,
+      "markers": [
+        "同章共现(103)",
+        "队长(9)",
+        "弟子(4)",
+        "母亲(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青平",
+      "mentions": 116,
+      "firstChapter": 4,
+      "lastChapter": 1343,
       "markers": [
         "同章共现(108)",
-        "队长(8)",
-        "弟子(4)",
-        "盟友(2)",
-        "朋友(1)",
-        "交易(1)"
+        "队长(4)",
+        "弟子(2)",
+        "保护(1)",
+        "对手(1)"
       ]
     },
     {
@@ -1061,2151 +2874,1699 @@
       ]
     },
     {
-      "source": "张三",
-      "target": "队长",
-      "mentions": 108,
-      "firstChapter": 55,
-      "lastChapter": 999,
+      "source": "许青",
+      "target": "许青呼",
+      "mentions": 114,
+      "firstChapter": 1,
+      "lastChapter": 1266,
       "markers": [
-        "队长(108)",
-        "弟子(4)",
-        "敌人(2)",
-        "朋友(1)",
-        "姐妹(1)"
+        "同章共现(108)",
+        "队长(6)"
       ]
     },
     {
       "source": "许青",
-      "target": "许青平静",
-      "mentions": 107,
-      "firstChapter": 4,
-      "lastChapter": 1343,
+      "target": "许青说",
+      "mentions": 114,
+      "firstChapter": 9,
+      "lastChapter": 1342,
       "markers": [
         "同章共现(99)",
-        "队长(4)",
+        "队长(10)",
         "弟子(2)",
         "保护(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "红衣女子",
-      "mentions": 106,
-      "firstChapter": 334,
-      "lastChapter": 554,
-      "markers": [
-        "同章共现(100)",
-        "队长(5)",
-        "同伴(1)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "开口",
-      "mentions": 106,
-      "firstChapter": 556,
-      "lastChapter": 1078,
-      "markers": [
-        "同章共现(92)",
-        "队长(13)",
-        "师尊(2)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "开口",
-      "mentions": 103,
-      "firstChapter": 193,
-      "lastChapter": 1344,
-      "markers": [
-        "同章共现(99)",
-        "队长(2)",
-        "兄弟(1)",
-        "姐妹(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "老者",
-      "mentions": 100,
-      "firstChapter": 4,
-      "lastChapter": 1231,
-      "markers": [
-        "同章共现(95)",
-        "弟子(2)",
-        "队长(2)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "队长",
-      "mentions": 100,
-      "firstChapter": 580,
-      "lastChapter": 829,
-      "markers": [
-        "队长(100)",
-        "兄弟(2)",
-        "姐妹(2)",
+        "老师(1)",
         "师尊(1)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "开口",
-      "mentions": 84,
-      "firstChapter": 9,
-      "lastChapter": 1326,
-      "markers": [
-        "同章共现(78)",
-        "队长(4)",
-        "盟友(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "炎玄子",
-      "target": "许青",
-      "mentions": 84,
-      "firstChapter": 844,
-      "lastChapter": 1100,
-      "markers": [
-        "同章共现(71)",
-        "队长(12)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "开口",
-      "mentions": 75,
-      "firstChapter": 11,
-      "lastChapter": 1334,
-      "markers": [
-        "同章共现(71)",
-        "下属(2)",
-        "队长(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "许青平静",
-      "mentions": 69,
-      "firstChapter": 31,
-      "lastChapter": 1343,
-      "markers": [
-        "同章共现(65)",
-        "队长(2)",
-        "弟子(1)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "队长",
-      "target": "青秋",
-      "mentions": 67,
-      "firstChapter": 357,
-      "lastChapter": 518,
-      "markers": [
-        "队长(67)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "老头",
-      "mentions": 63,
-      "firstChapter": 11,
-      "lastChapter": 992,
-      "markers": [
-        "同章共现(58)",
-        "队长(4)",
         "父亲(1)"
       ]
     },
     {
       "source": "许青",
-      "target": "队苌",
-      "mentions": 59,
-      "firstChapter": 651,
-      "lastChapter": 702,
-      "markers": [
-        "同章共现(55)",
-        "队长(4)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "队长",
-      "mentions": 56,
-      "firstChapter": 205,
-      "lastChapter": 898,
-      "markers": [
-        "队长(56)",
-        "师尊(2)",
-        "弟子(1)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "海山诀",
-      "target": "许青",
-      "mentions": 53,
-      "firstChapter": 3,
-      "lastChapter": 600,
-      "markers": [
-        "同章共现(53)"
-      ]
-    },
-    {
-      "source": "周青鹏",
-      "target": "许青",
-      "mentions": 53,
+      "target": "许青四",
+      "mentions": 112,
       "firstChapter": 51,
-      "lastChapter": 276,
+      "lastChapter": 1336,
       "markers": [
-        "同章共现(50)",
-        "朋友(1)",
-        "兄弟(1)",
-        "弟子(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "雷队",
-      "mentions": 50,
-      "firstChapter": 4,
-      "lastChapter": 262,
-      "markers": [
-        "同章共现(47)",
-        "队长(3)"
+        "同章共现(105)",
+        "队长(5)",
+        "保护(1)",
+        "弟子(1)"
       ]
     },
     {
       "source": "许青",
-      "target": "金乌炼万灵",
-      "mentions": 49,
-      "firstChapter": 175,
-      "lastChapter": 545,
+      "target": "许青后",
+      "mentions": 111,
+      "firstChapter": 6,
+      "lastChapter": 1342,
       "markers": [
-        "同章共现(48)",
-        "队长(1)"
+        "同章共现(96)",
+        "队长(7)",
+        "弟子(6)",
+        "命令(1)",
+        "追杀(1)"
       ]
     },
     {
-      "source": "开口",
-      "target": "灵儿",
-      "mentions": 44,
-      "firstChapter": 126,
-      "lastChapter": 1001,
+      "source": "明悟",
+      "target": "许青",
+      "mentions": 109,
+      "firstChapter": 14,
+      "lastChapter": 1326,
       "markers": [
-        "同章共现(38)",
-        "队长(6)"
+        "同章共现(101)",
+        "队长(7)",
+        "师尊(1)",
+        "对手(1)"
       ]
     },
     {
-      "source": "吴剑巫",
-      "target": "开口",
-      "mentions": 42,
-      "firstChapter": 195,
-      "lastChapter": 1304,
+      "source": "后退",
+      "target": "许青",
+      "mentions": 108,
+      "firstChapter": 13,
+      "lastChapter": 1316,
       "markers": [
-        "同章共现(30)",
+        "同章共现(102)",
+        "队长(5)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "任何迟",
+      "target": "许青",
+      "mentions": 108,
+      "firstChapter": 96,
+      "lastChapter": 1285,
+      "markers": [
+        "同章共现(97)",
+        "队长(8)",
+        "弟子(1)",
+        "师尊(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青转",
+      "mentions": 105,
+      "firstChapter": 9,
+      "lastChapter": 1330,
+      "markers": [
+        "同章共现(89)",
         "队长(11)",
+        "师尊(3)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青皱",
+      "mentions": 105,
+      "firstChapter": 34,
+      "lastChapter": 1262,
+      "markers": [
+        "同章共现(98)",
+        "队长(7)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青眉",
+      "mentions": 104,
+      "firstChapter": 9,
+      "lastChapter": 1334,
+      "markers": [
+        "同章共现(97)",
+        "队长(4)",
+        "弟子(1)",
+        "师尊(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青无",
+      "mentions": 104,
+      "firstChapter": 16,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(92)",
+        "队长(9)",
+        "弟子(1)",
+        "对手(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青自",
+      "mentions": 104,
+      "firstChapter": 63,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(98)",
+        "队长(4)",
+        "命令(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青立",
+      "mentions": 101,
+      "firstChapter": 19,
+      "lastChapter": 1267,
+      "markers": [
+        "同章共现(91)",
+        "队长(5)",
+        "师尊(3)",
+        "弟子(1)",
+        "导师(1)"
+      ]
+    },
+    {
+      "source": "山脉",
+      "target": "许青",
+      "mentions": 100,
+      "firstChapter": 93,
+      "lastChapter": 1330,
+      "markers": [
+        "同章共现(87)",
+        "队长(12)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "古怪",
+      "target": "许青",
+      "mentions": 99,
+      "firstChapter": 20,
+      "lastChapter": 1321,
+      "markers": [
+        "同章共现(72)",
+        "队长(25)",
+        "师尊(1)",
+        "女儿(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青凝",
+      "mentions": 99,
+      "firstChapter": 33,
+      "lastChapter": 1337,
+      "markers": [
+        "同章共现(88)",
+        "队长(9)",
+        "师尊(1)",
+        "保护(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青知",
+      "mentions": 98,
+      "firstChapter": 6,
+      "lastChapter": 1342,
+      "markers": [
+        "同章共现(83)",
+        "队长(6)",
+        "弟子(4)",
+        "对手(2)",
+        "敌人(2)",
+        "师尊(2)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青睁",
+      "mentions": 96,
+      "firstChapter": 3,
+      "lastChapter": 1326,
+      "markers": [
+        "同章共现(93)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "方位",
+      "target": "许青",
+      "mentions": 96,
+      "firstChapter": 9,
+      "lastChapter": 1282,
+      "markers": [
+        "同章共现(85)",
+        "队长(9)",
+        "追杀(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青忽",
+      "mentions": 94,
+      "firstChapter": 7,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(82)",
+        "队长(10)",
+        "师尊(1)",
         "兄弟(1)",
         "姐妹(1)"
       ]
     },
     {
-      "source": "红衣女子",
+      "source": "时辰后",
       "target": "许青",
-      "mentions": 40,
-      "firstChapter": 334,
-      "lastChapter": 554,
+      "mentions": 92,
+      "firstChapter": 13,
+      "lastChapter": 1322,
       "markers": [
-        "同章共现(35)",
+        "同章共现(86)",
+        "队长(6)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "边缘",
+      "mentions": 91,
+      "firstChapter": 5,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(86)",
         "队长(5)"
       ]
     },
     {
-      "source": "孔祥龙",
-      "target": "开口",
-      "mentions": 39,
-      "firstChapter": 394,
+      "source": "宗联盟",
+      "target": "许青",
+      "mentions": 87,
+      "firstChapter": 165,
+      "lastChapter": 1329,
+      "markers": [
+        "同章共现(63)",
+        "弟子(16)",
+        "队长(7)",
+        "师尊(2)",
+        "保护(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "时间流",
+      "target": "许青",
+      "mentions": 85,
+      "firstChapter": 4,
+      "lastChapter": 1322,
+      "markers": [
+        "同章共现(79)",
+        "队长(5)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "方式",
+      "target": "许青",
+      "mentions": 85,
+      "firstChapter": 70,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(79)",
+        "队长(4)",
+        "弟子(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "步走去",
+      "target": "许青",
+      "mentions": 83,
+      "firstChapter": 11,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(78)",
+        "队长(4)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "许青摇",
+      "mentions": 75,
+      "firstChapter": 43,
+      "lastChapter": 1317,
+      "markers": [
+        "同章共现(61)",
+        "队长(14)"
+      ]
+    },
+    {
+      "source": "冷漠",
+      "target": "许青",
+      "mentions": 73,
+      "firstChapter": 4,
+      "lastChapter": 1333,
+      "markers": [
+        "同章共现(71)",
+        "弟子(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "步走出",
+      "target": "许青",
+      "mentions": 73,
+      "firstChapter": 9,
+      "lastChapter": 1285,
+      "markers": [
+        "同章共现(68)",
+        "队长(4)",
+        "同伴(1)"
+      ]
+    },
+    {
+      "source": "苏醒",
+      "target": "许青",
+      "mentions": 73,
+      "firstChapter": 17,
+      "lastChapter": 1342,
+      "markers": [
+        "同章共现(69)",
+        "队长(4)"
+      ]
+    },
+    {
+      "source": "师弟",
+      "target": "许青",
+      "mentions": 71,
+      "firstChapter": 53,
       "lastChapter": 919,
+      "markers": [
+        "同章共现(47)",
+        "队长(20)",
+        "弟子(2)",
+        "上司(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "相似",
+      "target": "许青",
+      "mentions": 70,
+      "firstChapter": 30,
+      "lastChapter": 1344,
+      "markers": [
+        "同章共现(60)",
+        "队长(6)",
+        "弟子(2)",
+        "师尊(2)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "步一顿",
+      "target": "许青脚",
+      "mentions": 67,
+      "firstChapter": 5,
+      "lastChapter": 1319,
+      "markers": [
+        "同章共现(63)",
+        "弟子(2)",
+        "队长(2)"
+      ]
+    },
+    {
+      "source": "师兄",
+      "target": "师弟",
+      "mentions": 67,
+      "firstChapter": 95,
+      "lastChapter": 1153,
+      "markers": [
+        "同章共现(56)",
+        "队长(5)",
+        "兄弟(3)",
+        "弟子(2)",
+        "上司(1)"
+      ]
+    },
+    {
+      "source": "万丈",
+      "target": "许青",
+      "mentions": 62,
+      "firstChapter": 23,
+      "lastChapter": 1189,
+      "markers": [
+        "同章共现(58)",
+        "队长(4)"
+      ]
+    },
+    {
+      "source": "时之间",
+      "target": "许青",
+      "mentions": 58,
+      "firstChapter": 18,
+      "lastChapter": 1216,
+      "markers": [
+        "同章共现(46)",
+        "队长(8)",
+        "弟子(3)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "古大陆",
+      "target": "许青",
+      "mentions": 57,
+      "firstChapter": 14,
+      "lastChapter": 1335,
+      "markers": [
+        "同章共现(51)",
+        "队长(5)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "游走",
+      "target": "许青",
+      "mentions": 53,
+      "firstChapter": 15,
+      "lastChapter": 1297,
+      "markers": [
+        "同章共现(50)",
+        "弟子(2)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "融化",
+      "target": "许青",
+      "mentions": 51,
+      "firstChapter": 9,
+      "lastChapter": 1332,
+      "markers": [
+        "同章共现(49)",
+        "队长(1)",
+        "父亲(1)"
+      ]
+    },
+    {
+      "source": "任何一",
+      "target": "许青",
+      "mentions": 47,
+      "firstChapter": 48,
+      "lastChapter": 1238,
+      "markers": [
+        "同章共现(45)",
+        "队长(1)",
+        "敌人(1)"
+      ]
+    },
+    {
+      "source": "全力以",
+      "target": "许青",
+      "mentions": 46,
+      "firstChapter": 69,
+      "lastChapter": 1202,
+      "markers": [
+        "同章共现(43)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "越发强",
+      "mentions": 45,
+      "firstChapter": 17,
+      "lastChapter": 1289,
+      "markers": [
+        "同章共现(39)",
+        "队长(4)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "关键时",
+      "target": "许青",
+      "mentions": 42,
+      "firstChapter": 48,
+      "lastChapter": 1336,
+      "markers": [
+        "同章共现(41)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "相关",
+      "target": "许青",
+      "mentions": 41,
+      "firstChapter": 11,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(36)",
+        "队长(3)",
+        "交易(2)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "古怪",
+      "target": "许青神",
+      "mentions": 40,
+      "firstChapter": 20,
+      "lastChapter": 1297,
+      "markers": [
+        "同章共现(28)",
+        "队长(11)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "万物",
+      "target": "许青",
+      "mentions": 39,
+      "firstChapter": 22,
+      "lastChapter": 1295,
+      "markers": [
+        "同章共现(39)"
+      ]
+    },
+    {
+      "source": "全面爆",
+      "target": "许青",
+      "mentions": 39,
+      "firstChapter": 37,
+      "lastChapter": 1231,
+      "markers": [
+        "同章共现(35)",
+        "队长(4)"
+      ]
+    },
+    {
+      "source": "任何迟",
+      "target": "许青没",
+      "mentions": 39,
+      "firstChapter": 145,
+      "lastChapter": 1285,
       "markers": [
         "同章共现(37)",
         "队长(2)"
       ]
     },
     {
-      "source": "老头",
-      "target": "队长",
-      "mentions": 37,
-      "firstChapter": 61,
-      "lastChapter": 992,
+      "source": "师兄",
+      "target": "师尊",
+      "mentions": 39,
+      "firstChapter": 163,
+      "lastChapter": 1325,
       "markers": [
-        "队长(37)",
+        "师尊(39)",
+        "队长(1)",
+        "兄弟(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "时辰",
+      "target": "时间流",
+      "mentions": 36,
+      "firstChapter": 10,
+      "lastChapter": 1322,
+      "markers": [
+        "同章共现(32)",
         "弟子(3)",
-        "女儿(1)",
-        "兄弟(1)",
-        "姐妹(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "张三",
-      "mentions": 35,
-      "firstChapter": 56,
-      "lastChapter": 1000,
-      "markers": [
-        "同章共现(21)",
-        "队长(12)",
-        "弟子(2)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "二牛",
-      "mentions": 35,
-      "firstChapter": 507,
-      "lastChapter": 1327,
-      "markers": [
-        "同章共现(31)",
-        "弟子(3)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "煌天",
-      "target": "许青",
-      "mentions": 34,
-      "firstChapter": 695,
-      "lastChapter": 1344,
-      "markers": [
-        "同章共现(33)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "队长",
-      "mentions": 33,
-      "firstChapter": 11,
-      "lastChapter": 641,
-      "markers": [
-        "队长(33)",
-        "弟子(2)"
-      ]
-    },
-    {
-      "source": "灵儿",
-      "target": "老头",
-      "mentions": 33,
-      "firstChapter": 197,
-      "lastChapter": 707,
-      "markers": [
-        "同章共现(29)",
-        "队长(3)",
-        "保护(1)",
-        "女儿(1)",
-        "兄弟(1)",
-        "姐妹(1)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "队长",
-      "mentions": 33,
-      "firstChapter": 395,
-      "lastChapter": 743,
-      "markers": [
-        "队长(33)",
-        "师尊(2)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "灵儿",
-      "mentions": 32,
-      "firstChapter": 584,
-      "lastChapter": 1328,
-      "markers": [
-        "同章共现(29)",
-        "队长(3)",
-        "兄弟(1)",
-        "姐妹(1)"
-      ]
-    },
-    {
-      "source": "玄幽宗",
-      "target": "许青",
-      "mentions": 30,
-      "firstChapter": 231,
-      "lastChapter": 388,
-      "markers": [
-        "同章共现(20)",
-        "队长(9)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "开口",
-      "mentions": 29,
-      "firstChapter": 21,
-      "lastChapter": 1090,
-      "markers": [
-        "同章共现(27)",
-        "弟子(1)",
-        "盟友(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "黄岩",
-      "mentions": 28,
-      "firstChapter": 70,
-      "lastChapter": 1299,
-      "markers": [
-        "同章共现(25)",
-        "兄弟(2)",
         "队长(1)"
       ]
     },
     {
-      "source": "开口",
-      "target": "泥狐狸",
-      "mentions": 28,
-      "firstChapter": 576,
-      "lastChapter": 1253,
-      "markers": [
-        "同章共现(25)",
-        "队长(3)"
-      ]
-    },
-    {
-      "source": "灵儿",
-      "target": "队长",
-      "mentions": 27,
-      "firstChapter": 126,
-      "lastChapter": 712,
-      "markers": [
-        "队长(27)",
-        "师尊(1)",
-        "女儿(1)",
-        "兄弟(1)",
-        "姐妹(1)"
-      ]
-    },
-    {
-      "source": "炎玄子",
-      "target": "队长",
-      "mentions": 25,
-      "firstChapter": 860,
-      "lastChapter": 894,
-      "markers": [
-        "队长(25)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "开口",
-      "mentions": 23,
-      "firstChapter": 107,
-      "lastChapter": 528,
-      "markers": [
-        "同章共现(19)",
-        "弟子(1)",
-        "朋友(1)",
-        "盟友(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "队长",
-      "mentions": 23,
-      "firstChapter": 191,
-      "lastChapter": 906,
-      "markers": [
-        "队长(23)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "七爷",
-      "mentions": 23,
-      "firstChapter": 273,
-      "lastChapter": 377,
-      "markers": [
-        "同章共现(23)"
-      ]
-    },
-    {
-      "source": "仙术殿",
+      "source": "时间一",
       "target": "许青",
-      "mentions": 22,
-      "firstChapter": 507,
-      "lastChapter": 1061,
+      "mentions": 35,
+      "firstChapter": 33,
+      "lastChapter": 1246,
       "markers": [
-        "同章共现(19)",
-        "队长(1)",
-        "弟子(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "吴剑巫",
-      "mentions": 21,
-      "firstChapter": 582,
-      "lastChapter": 705,
-      "markers": [
-        "同章共现(17)",
+        "同章共现(31)",
         "队长(4)"
       ]
     },
     {
-      "source": "队长",
-      "target": "雷队",
-      "mentions": 20,
-      "firstChapter": 12,
-      "lastChapter": 122,
+      "source": "全部",
+      "target": "范围",
+      "mentions": 34,
+      "firstChapter": 119,
+      "lastChapter": 1332,
       "markers": [
-        "队长(20)",
-        "敌人(1)"
+        "同章共现(32)",
+        "弟子(1)",
+        "追杀(1)"
       ]
     },
     {
-      "source": "灵渊",
+      "source": "厉之音",
+      "target": "许青",
+      "mentions": 33,
+      "firstChapter": 13,
+      "lastChapter": 1260,
+      "markers": [
+        "同章共现(30)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "许青身",
+      "mentions": 32,
+      "firstChapter": 13,
+      "lastChapter": 1335,
+      "markers": [
+        "同章共现(31)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "山倒海",
+      "target": "许青",
+      "mentions": 32,
+      "firstChapter": 50,
+      "lastChapter": 1326,
+      "markers": [
+        "同章共现(30)",
+        "队长(2)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "全部",
+      "mentions": 30,
+      "firstChapter": 115,
+      "lastChapter": 1311,
+      "markers": [
+        "同章共现(27)",
+        "弟子(2)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "危机",
+      "mentions": 29,
+      "firstChapter": 33,
+      "lastChapter": 1218,
+      "markers": [
+        "同章共现(25)",
+        "队长(3)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "毕竟",
+      "target": "程度",
+      "mentions": 29,
+      "firstChapter": 74,
+      "lastChapter": 1230,
+      "markers": [
+        "同章共现(24)",
+        "弟子(3)",
+        "队长(2)"
+      ]
+    },
+    {
+      "source": "宗门",
+      "target": "毕竟",
+      "mentions": 25,
+      "firstChapter": 38,
+      "lastChapter": 1093,
+      "markers": [
+        "同章共现(16)",
+        "弟子(6)",
+        "对手(1)",
+        "姐妹(1)",
+        "队长(1)",
+        "女儿(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "危险",
+      "target": "程度",
+      "mentions": 24,
+      "firstChapter": 22,
+      "lastChapter": 1283,
+      "markers": [
+        "同章共现(22)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "明显",
+      "target": "金刚宗",
+      "mentions": 24,
+      "firstChapter": 41,
+      "lastChapter": 797,
+      "markers": [
+        "同章共现(24)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "宗门",
+      "mentions": 23,
+      "firstChapter": 41,
+      "lastChapter": 985,
+      "markers": [
+        "同章共现(13)",
+        "弟子(9)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "许青没",
+      "mentions": 22,
+      "firstChapter": 67,
+      "lastChapter": 1135,
+      "markers": [
+        "同章共现(21)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "宗联盟",
+      "target": "宗门",
+      "mentions": 22,
+      "firstChapter": 104,
+      "lastChapter": 532,
+      "markers": [
+        "同章共现(17)",
+        "弟子(4)",
+        "保护(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "师尊",
+      "target": "师弟",
+      "mentions": 22,
+      "firstChapter": 501,
+      "lastChapter": 1305,
+      "markers": [
+        "师尊(22)",
+        "弟子(2)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "关注",
+      "target": "许青没",
+      "mentions": 21,
+      "firstChapter": 9,
+      "lastChapter": 1016,
+      "markers": [
+        "同章共现(20)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "许青身",
+      "mentions": 21,
+      "firstChapter": 16,
+      "lastChapter": 1251,
+      "markers": [
+        "同章共现(21)"
+      ]
+    },
+    {
+      "source": "山脉",
+      "target": "范围",
+      "mentions": 21,
+      "firstChapter": 47,
+      "lastChapter": 1330,
+      "markers": [
+        "同章共现(21)"
+      ]
+    },
+    {
+      "source": "云涌",
       "target": "许青",
       "mentions": 20,
-      "firstChapter": 460,
-      "lastChapter": 1316,
+      "firstChapter": 279,
+      "lastChapter": 1326,
       "markers": [
-        "同章共现(20)"
+        "同章共现(19)",
+        "队长(1)"
       ]
     },
     {
-      "source": "二牛",
-      "target": "黄岩",
+      "source": "全部",
+      "target": "封海郡",
       "mentions": 20,
-      "firstChapter": 974,
-      "lastChapter": 1290,
+      "firstChapter": 370,
+      "lastChapter": 1298,
       "markers": [
-        "同章共现(20)"
+        "同章共现(18)",
+        "交易(1)",
+        "队长(1)"
       ]
     },
     {
-      "source": "紫青上国",
-      "target": "许青",
+      "source": "全身",
+      "target": "融化",
       "mentions": 19,
-      "firstChapter": 209,
-      "lastChapter": 1342,
+      "firstChapter": 9,
+      "lastChapter": 968,
       "markers": [
         "同章共现(19)"
       ]
     },
     {
-      "source": "开口",
-      "target": "青秋",
-      "mentions": 19,
-      "firstChapter": 369,
-      "lastChapter": 1001,
-      "markers": [
-        "同章共现(13)",
-        "队长(6)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "雷队",
+      "source": "时辰后",
+      "target": "时间流",
       "mentions": 18,
-      "firstChapter": 4,
-      "lastChapter": 38,
+      "firstChapter": 13,
+      "lastChapter": 1322,
       "markers": [
         "同章共现(18)"
       ]
     },
     {
-      "source": "女子",
-      "target": "队长",
-      "mentions": 17,
-      "firstChapter": 16,
-      "lastChapter": 897,
+      "source": "明显",
+      "target": "程度",
+      "mentions": 18,
+      "firstChapter": 22,
+      "lastChapter": 1108,
       "markers": [
-        "队长(17)",
-        "儿子(1)"
-      ]
-    },
-    {
-      "source": "玄幽宗",
-      "target": "队长",
-      "mentions": 17,
-      "firstChapter": 235,
-      "lastChapter": 388,
-      "markers": [
-        "队长(17)"
-      ]
-    },
-    {
-      "source": "缓缓",
-      "target": "队长",
-      "mentions": 16,
-      "firstChapter": 12,
-      "lastChapter": 922,
-      "markers": [
-        "队长(16)"
-      ]
-    },
-    {
-      "source": "队长",
-      "target": "队长正",
-      "mentions": 16,
-      "firstChapter": 77,
-      "lastChapter": 900,
-      "markers": [
-        "队长(16)"
-      ]
-    },
-    {
-      "source": "队长",
-      "target": "黄岩",
-      "mentions": 16,
-      "firstChapter": 96,
-      "lastChapter": 1000,
-      "markers": [
-        "队长(16)",
-        "朋友(1)",
+        "同章共现(16)",
         "弟子(1)",
-        "姐妹(1)",
-        "师尊(1)"
+        "队长(1)"
       ]
     },
     {
-      "source": "七爷",
-      "target": "缓缓",
+      "source": "万物",
+      "target": "全部",
+      "mentions": 17,
+      "firstChapter": 2,
+      "lastChapter": 1343,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "程度",
+      "mentions": 17,
+      "firstChapter": 18,
+      "lastChapter": 1215,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "成功",
+      "target": "方法",
+      "mentions": 17,
+      "firstChapter": 30,
+      "lastChapter": 1337,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "金刚宗",
+      "mentions": 17,
+      "firstChapter": 42,
+      "lastChapter": 1329,
+      "markers": [
+        "同章共现(14)",
+        "弟子(3)"
+      ]
+    },
+    {
+      "source": "危机",
+      "target": "金刚宗",
+      "mentions": 17,
+      "firstChapter": 44,
+      "lastChapter": 475,
+      "markers": [
+        "同章共现(16)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "程度",
+      "target": "范围",
+      "mentions": 17,
+      "firstChapter": 102,
+      "lastChapter": 1267,
+      "markers": [
+        "同章共现(15)",
+        "弟子(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "关注",
+      "target": "毕竟",
+      "mentions": 17,
+      "firstChapter": 159,
+      "lastChapter": 1257,
+      "markers": [
+        "同章共现(14)",
+        "弟子(1)",
+        "队长(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "宗联盟",
+      "target": "毕竟",
+      "mentions": 17,
+      "firstChapter": 224,
+      "lastChapter": 467,
+      "markers": [
+        "同章共现(15)",
+        "弟子(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "封海郡",
+      "target": "毕竟",
+      "mentions": 17,
+      "firstChapter": 371,
+      "lastChapter": 1005,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "封海郡",
+      "target": "程度",
+      "mentions": 17,
+      "firstChapter": 413,
+      "lastChapter": 743,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "许久",
+      "target": "许青沉",
+      "mentions": 16,
+      "firstChapter": 22,
+      "lastChapter": 1244,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "许青没",
+      "target": "金刚宗",
+      "mentions": 16,
+      "firstChapter": 40,
+      "lastChapter": 860,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "许青看",
+      "target": "金刚宗",
+      "mentions": 16,
+      "firstChapter": 44,
+      "lastChapter": 544,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "宗门",
+      "mentions": 16,
+      "firstChapter": 147,
+      "lastChapter": 1128,
+      "markers": [
+        "同章共现(14)",
+        "追杀(2)"
+      ]
+    },
+    {
+      "source": "师兄",
+      "target": "许青看",
+      "mentions": 16,
+      "firstChapter": 165,
+      "lastChapter": 1325,
+      "markers": [
+        "同章共现(9)",
+        "队长(6)",
+        "弟子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "许青",
+      "target": "边无际",
+      "mentions": 16,
+      "firstChapter": 246,
+      "lastChapter": 1326,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "危险",
       "mentions": 15,
-      "firstChapter": 98,
-      "lastChapter": 1330,
+      "firstChapter": 30,
+      "lastChapter": 885,
       "markers": [
         "同章共现(15)"
       ]
     },
     {
-      "source": "二牛",
-      "target": "吴剑巫",
+      "source": "全身",
+      "target": "许青心",
       "mentions": 15,
-      "firstChapter": 287,
-      "lastChapter": 1007,
+      "firstChapter": 87,
+      "lastChapter": 996,
       "markers": [
-        "同章共现(13)",
-        "兄弟(1)",
-        "姐妹(1)",
-        "队长(1)"
+        "同章共现(15)"
       ]
     },
     {
-      "source": "世子",
-      "target": "二牛",
+      "source": "危机",
+      "target": "许青心",
       "mentions": 15,
-      "firstChapter": 582,
-      "lastChapter": 677,
+      "firstChapter": 141,
+      "lastChapter": 1254,
       "markers": [
         "同章共现(14)",
-        "儿子(1)"
+        "弟子(1)"
       ]
     },
     {
-      "source": "吴剑巫",
-      "target": "灵儿",
-      "mentions": 14,
-      "firstChapter": 195,
-      "lastChapter": 706,
+      "source": "明悟",
+      "target": "许青心",
+      "mentions": 15,
+      "firstChapter": 372,
+      "lastChapter": 1312,
+      "markers": [
+        "同章共现(13)",
+        "队长(2)"
+      ]
+    },
+    {
+      "source": "宁炎",
+      "target": "封海郡",
+      "mentions": 15,
+      "firstChapter": 485,
+      "lastChapter": 805,
       "markers": [
         "同章共现(12)",
-        "队长(2)",
-        "女儿(1)"
+        "队长(3)"
       ]
     },
     {
-      "source": "烛照",
-      "target": "许青",
+      "source": "宗门",
+      "target": "金刚宗",
       "mentions": 14,
-      "firstChapter": 217,
-      "lastChapter": 958,
-      "markers": [
-        "同章共现(9)",
-        "队长(3)",
-        "父亲(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "青秋",
-      "mentions": 14,
-      "firstChapter": 394,
-      "lastChapter": 518,
-      "markers": [
-        "同章共现(7)",
-        "队长(6)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "煌天",
-      "mentions": 14,
-      "firstChapter": 620,
-      "lastChapter": 1344,
+      "firstChapter": 37,
+      "lastChapter": 375,
       "markers": [
         "同章共现(14)"
       ]
     },
     {
-      "source": "张三",
-      "target": "黄岩",
-      "mentions": 13,
-      "firstChapter": 71,
-      "lastChapter": 999,
+      "source": "全身",
+      "target": "许青没",
+      "mentions": 14,
+      "firstChapter": 92,
+      "lastChapter": 1012,
       "markers": [
-        "队长(6)",
-        "同章共现(6)",
-        "弟子(2)",
-        "朋友(1)",
-        "姐妹(1)"
+        "同章共现(14)"
       ]
     },
     {
-      "source": "七爷",
-      "target": "煌天",
+      "source": "全身",
+      "target": "游走",
+      "mentions": 14,
+      "firstChapter": 109,
+      "lastChapter": 1251,
+      "markers": [
+        "同章共现(13)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "危机",
+      "mentions": 14,
+      "firstChapter": 186,
+      "lastChapter": 1334,
+      "markers": [
+        "同章共现(11)",
+        "队长(2)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "关注",
+      "target": "宗联盟",
+      "mentions": 14,
+      "firstChapter": 219,
+      "lastChapter": 381,
+      "markers": [
+        "同章共现(9)",
+        "弟子(3)",
+        "盟友(1)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "封海郡",
+      "target": "范围",
+      "mentions": 14,
+      "firstChapter": 225,
+      "lastChapter": 981,
+      "markers": [
+        "同章共现(13)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "万丈",
+      "target": "封海郡",
+      "mentions": 14,
+      "firstChapter": 370,
+      "lastChapter": 524,
+      "markers": [
+        "同章共现(14)"
+      ]
+    },
+    {
+      "source": "师尊",
+      "target": "毕竟",
+      "mentions": 14,
+      "firstChapter": 374,
+      "lastChapter": 1184,
+      "markers": [
+        "师尊(14)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "明显",
       "mentions": 13,
-      "firstChapter": 957,
-      "lastChapter": 1328,
+      "firstChapter": 14,
+      "lastChapter": 1149,
       "markers": [
         "同章共现(13)"
       ]
     },
     {
-      "source": "缓缓",
-      "target": "老者",
-      "mentions": 12,
-      "firstChapter": 5,
-      "lastChapter": 1196,
+      "source": "范围",
+      "target": "金刚宗",
+      "mentions": 13,
+      "firstChapter": 26,
+      "lastChapter": 347,
       "markers": [
-        "同章共现(11)",
+        "同章共现(13)"
+      ]
+    },
+    {
+      "source": "相似",
+      "target": "程度",
+      "mentions": 13,
+      "firstChapter": 42,
+      "lastChapter": 1210,
+      "markers": [
+        "同章共现(12)",
         "队长(1)"
       ]
     },
     {
-      "source": "笑眯眯",
-      "target": "队长",
-      "mentions": 12,
-      "firstChapter": 63,
-      "lastChapter": 240,
+      "source": "许青身",
+      "target": "金刚宗",
+      "mentions": 13,
+      "firstChapter": 43,
+      "lastChapter": 741,
       "markers": [
-        "队长(12)",
+        "同章共现(12)",
         "弟子(1)"
       ]
     },
     {
-      "source": "许青",
-      "target": "诡幽夺道功",
-      "mentions": 12,
-      "firstChapter": 304,
-      "lastChapter": 461,
+      "source": "许青心",
+      "target": "金刚宗",
+      "mentions": 13,
+      "firstChapter": 52,
+      "lastChapter": 730,
       "markers": [
-        "同章共现(11)",
-        "敌人(1)"
+        "同章共现(13)"
       ]
     },
     {
-      "source": "泥狐狸",
-      "target": "队长",
-      "mentions": 12,
-      "firstChapter": 652,
-      "lastChapter": 812,
+      "source": "宗门",
+      "target": "程度",
+      "mentions": 13,
+      "firstChapter": 55,
+      "lastChapter": 1100,
       "markers": [
-        "队长(12)"
+        "同章共现(12)",
+        "弟子(1)"
       ]
     },
     {
-      "source": "二牛",
-      "target": "炎玄子",
+      "source": "许青目",
+      "target": "金刚宗",
+      "mentions": 13,
+      "firstChapter": 76,
+      "lastChapter": 730,
+      "markers": [
+        "同章共现(13)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "关注",
+      "mentions": 13,
+      "firstChapter": 92,
+      "lastChapter": 1301,
+      "markers": [
+        "同章共现(13)"
+      ]
+    },
+    {
+      "source": "古大陆",
+      "target": "宗联盟",
+      "mentions": 13,
+      "firstChapter": 104,
+      "lastChapter": 267,
+      "markers": [
+        "同章共现(12)",
+        "弟子(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "封印",
+      "mentions": 13,
+      "firstChapter": 122,
+      "lastChapter": 1145,
+      "markers": [
+        "同章共现(12)",
+        "队长(1)"
+      ]
+    },
+    {
+      "source": "宗门",
+      "target": "封海郡",
+      "mentions": 13,
+      "firstChapter": 386,
+      "lastChapter": 758,
+      "markers": [
+        "同章共现(13)"
+      ]
+    },
+    {
+      "source": "宁炎",
+      "target": "许青一",
+      "mentions": 13,
+      "firstChapter": 444,
+      "lastChapter": 756,
+      "markers": [
+        "同章共现(9)",
+        "队长(4)"
+      ]
+    },
+    {
+      "source": "危机",
+      "target": "封海郡",
+      "mentions": 13,
+      "firstChapter": 459,
+      "lastChapter": 978,
+      "markers": [
+        "同章共现(13)"
+      ]
+    },
+    {
+      "source": "明显",
+      "target": "许青一",
       "mentions": 12,
-      "firstChapter": 854,
-      "lastChapter": 886,
+      "firstChapter": 7,
+      "lastChapter": 1229,
       "markers": [
         "同章共现(11)",
         "队长(1)"
       ]
     },
     {
-      "source": "缓缓",
-      "target": "雷队",
+      "source": "许青眼",
+      "target": "金刚宗",
+      "mentions": 12,
+      "firstChapter": 44,
+      "lastChapter": 187,
+      "markers": [
+        "同章共现(11)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "金刚宗",
+      "mentions": 12,
+      "firstChapter": 44,
+      "lastChapter": 474,
+      "markers": [
+        "同章共现(10)",
+        "弟子(2)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "许青一",
+      "mentions": 12,
+      "firstChapter": 46,
+      "lastChapter": 1202,
+      "markers": [
+        "同章共现(11)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "危险",
+      "mentions": 12,
+      "firstChapter": 55,
+      "lastChapter": 1236,
+      "markers": [
+        "同章共现(8)",
+        "弟子(4)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "时辰",
+      "mentions": 12,
+      "firstChapter": 59,
+      "lastChapter": 1194,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "毕竟",
+      "target": "金刚宗",
+      "mentions": 12,
+      "firstChapter": 61,
+      "lastChapter": 862,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "毕竟",
+      "mentions": 12,
+      "firstChapter": 68,
+      "lastChapter": 899,
+      "markers": [
+        "同章共现(11)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "古大陆",
+      "target": "宗门",
+      "mentions": 12,
+      "firstChapter": 104,
+      "lastChapter": 1091,
+      "markers": [
+        "同章共现(9)",
+        "弟子(3)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "范围",
+      "mentions": 12,
+      "firstChapter": 129,
+      "lastChapter": 1042,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "成功",
+      "target": "毕竟",
+      "mentions": 12,
+      "firstChapter": 161,
+      "lastChapter": 1297,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "宁炎",
+      "target": "师兄",
+      "mentions": 12,
+      "firstChapter": 387,
+      "lastChapter": 1327,
+      "markers": [
+        "同章共现(9)",
+        "队长(1)",
+        "师尊(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "宁炎",
+      "target": "许青看",
+      "mentions": 12,
+      "firstChapter": 485,
+      "lastChapter": 756,
+      "markers": [
+        "同章共现(9)",
+        "队长(3)"
+      ]
+    },
+    {
+      "source": "权柄",
+      "target": "程度",
+      "mentions": 12,
+      "firstChapter": 609,
+      "lastChapter": 1140,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "权柄",
+      "target": "融合",
+      "mentions": 12,
+      "firstChapter": 685,
+      "lastChapter": 1100,
+      "markers": [
+        "同章共现(12)"
+      ]
+    },
+    {
+      "source": "全部",
+      "target": "许青全",
       "mentions": 11,
-      "firstChapter": 5,
-      "lastChapter": 23,
+      "firstChapter": 21,
+      "lastChapter": 1251,
+      "markers": [
+        "同章共现(10)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "许久",
+      "target": "许青收",
+      "mentions": 11,
+      "firstChapter": 33,
+      "lastChapter": 1250,
+      "markers": [
+        "同章共现(11)"
+      ]
+    },
+    {
+      "source": "危机",
+      "target": "危险",
+      "mentions": 11,
+      "firstChapter": 43,
+      "lastChapter": 1028,
+      "markers": [
+        "同章共现(9)",
+        "弟子(1)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "程度",
+      "target": "许青心",
+      "mentions": 11,
+      "firstChapter": 53,
+      "lastChapter": 1115,
+      "markers": [
+        "同章共现(10)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "全身",
+      "target": "许青体",
+      "mentions": 11,
+      "firstChapter": 87,
+      "lastChapter": 1336,
       "markers": [
         "同章共现(10)",
         "队长(1)"
       ]
     },
     {
-      "source": "开口",
-      "target": "笑眯眯",
+      "source": "全身",
+      "target": "许青一",
       "mentions": 11,
-      "firstChapter": 51,
-      "lastChapter": 1302,
-      "markers": [
-        "同章共现(6)",
-        "队长(3)",
-        "弟子(2)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "队长",
-      "mentions": 11,
-      "firstChapter": 126,
-      "lastChapter": 393,
-      "markers": [
-        "队长(11)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "红衣女子",
-      "mentions": 11,
-      "firstChapter": 336,
-      "lastChapter": 554,
+      "firstChapter": 90,
+      "lastChapter": 1002,
       "markers": [
         "同章共现(11)"
       ]
     },
     {
-      "source": "周青鹏",
-      "target": "开口",
-      "mentions": 10,
-      "firstChapter": 51,
-      "lastChapter": 194,
+      "source": "毕竟",
+      "target": "范围",
+      "mentions": 11,
+      "firstChapter": 99,
+      "lastChapter": 1275,
       "markers": [
-        "同章共现(10)"
+        "同章共现(10)",
+        "弟子(1)"
       ]
     },
     {
-      "source": "许青",
-      "target": "队长正",
-      "mentions": 10,
-      "firstChapter": 118,
-      "lastChapter": 900,
+      "source": "许青面",
+      "target": "金刚宗",
+      "mentions": 11,
+      "firstChapter": 103,
+      "lastChapter": 589,
       "markers": [
-        "队长(10)"
+        "同章共现(11)"
       ]
     },
     {
-      "source": "二牛",
-      "target": "老头",
-      "mentions": 10,
-      "firstChapter": 195,
-      "lastChapter": 1305,
+      "source": "毕竟",
+      "target": "许青觉",
+      "mentions": 11,
+      "firstChapter": 136,
+      "lastChapter": 1056,
       "markers": [
-        "同章共现(8)",
-        "队长(1)",
-        "师尊(1)"
+        "同章共现(10)",
+        "弟子(1)"
       ]
     },
     {
-      "source": "天宫",
-      "target": "队长",
-      "mentions": 10,
-      "firstChapter": 327,
-      "lastChapter": 513,
+      "source": "任务",
+      "target": "许青看",
+      "mentions": 11,
+      "firstChapter": 151,
+      "lastChapter": 1025,
       "markers": [
-        "队长(10)",
-        "师尊(1)"
+        "同章共现(11)"
       ]
     },
     {
-      "source": "世子",
-      "target": "老头",
-      "mentions": 10,
-      "firstChapter": 586,
-      "lastChapter": 712,
-      "markers": [
-        "同章共现(9)",
-        "兄弟(1)",
-        "姐妹(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "二牛正",
-      "mentions": 10,
-      "firstChapter": 692,
-      "lastChapter": 1282,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
-      "source": "笑眯眯",
-      "target": "许青",
-      "mentions": 9,
-      "firstChapter": 65,
-      "lastChapter": 1319,
-      "markers": [
-        "同章共现(6)",
-        "队长(3)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "老者",
-      "mentions": 9,
-      "firstChapter": 77,
-      "lastChapter": 1065,
-      "markers": [
-        "同章共现(9)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "开口",
-      "mentions": 9,
-      "firstChapter": 409,
-      "lastChapter": 716,
-      "markers": [
-        "同章共现(5)",
-        "保护(3)",
-        "师尊(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "灵儿",
-      "target": "灵渊",
-      "mentions": 9,
-      "firstChapter": 460,
-      "lastChapter": 538,
-      "markers": [
-        "同章共现(9)"
-      ]
-    },
-    {
-      "source": "吴剑巫",
-      "target": "孔祥龙",
-      "mentions": 9,
-      "firstChapter": 733,
-      "lastChapter": 1298,
-      "markers": [
-        "同章共现(8)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "许青回",
-      "target": "队长",
-      "mentions": 8,
-      "firstChapter": 220,
-      "lastChapter": 868,
-      "markers": [
-        "队长(8)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "病鬼",
-      "mentions": 8,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "markers": [
-        "同章共现(6)",
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "病鬼",
-      "target": "队长",
-      "mentions": 8,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "markers": [
-        "队长(8)"
-      ]
-    },
-    {
-      "source": "病鬼",
-      "target": "许青",
-      "mentions": 8,
-      "firstChapter": 395,
-      "lastChapter": 957,
-      "markers": [
-        "同章共现(8)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "炎玄子",
-      "mentions": 8,
-      "firstChapter": 860,
-      "lastChapter": 1100,
-      "markers": [
-        "同章共现(6)",
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "张三",
-      "mentions": 8,
-      "firstChapter": 999,
+      "source": "师兄",
+      "target": "段时间",
+      "mentions": 11,
+      "firstChapter": 165,
       "lastChapter": 1327,
       "markers": [
-        "同章共现(8)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "老者",
-      "mentions": 7,
-      "firstChapter": 27,
-      "lastChapter": 1067,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "队长",
-      "mentions": 7,
-      "firstChapter": 118,
-      "lastChapter": 341,
-      "markers": [
-        "队长(7)",
-        "弟子(2)",
-        "姐妹(1)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "张三",
-      "mentions": 7,
-      "firstChapter": 118,
-      "lastChapter": 1304,
-      "markers": [
-        "同章共现(4)",
-        "队长(3)",
+        "同章共现(8)",
+        "师尊(2)",
         "弟子(1)",
-        "姐妹(1)"
+        "保护(1)"
       ]
     },
     {
-      "source": "天宫",
-      "target": "老者",
-      "mentions": 7,
-      "firstChapter": 230,
-      "lastChapter": 303,
+      "source": "全部",
+      "target": "许青目",
+      "mentions": 11,
+      "firstChapter": 186,
+      "lastChapter": 1172,
       "markers": [
-        "同章共现(7)"
+        "同章共现(11)"
       ]
     },
     {
-      "source": "小三灵",
-      "target": "许青",
-      "mentions": 7,
-      "firstChapter": 280,
-      "lastChapter": 351,
+      "source": "师兄",
+      "target": "许青心",
+      "mentions": 11,
+      "firstChapter": 198,
+      "lastChapter": 1319,
       "markers": [
-        "队长(6)",
-        "弟子(4)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "许青",
-      "target": "许青的人",
-      "mentions": 7,
-      "firstChapter": 368,
-      "lastChapter": 1290,
-      "markers": [
-        "同章共现(6)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "木道子",
-      "mentions": 7,
-      "firstChapter": 586,
-      "lastChapter": 588,
-      "markers": [
-        "同章共现(5)",
-        "师尊(1)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "木道子",
-      "target": "许青",
-      "mentions": 7,
-      "firstChapter": 587,
-      "lastChapter": 588,
-      "markers": [
-        "同章共现(6)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "队苌",
-      "mentions": 7,
-      "firstChapter": 660,
-      "lastChapter": 701,
-      "markers": [
-        "同章共现(6)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "队苌",
-      "mentions": 7,
-      "firstChapter": 676,
-      "lastChapter": 701,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "灵儿",
-      "mentions": 6,
-      "firstChapter": 126,
-      "lastChapter": 999,
-      "markers": [
-        "同章共现(5)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "少女",
-      "mentions": 6,
-      "firstChapter": 165,
-      "lastChapter": 922,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "缓缓",
-      "mentions": 6,
-      "firstChapter": 193,
-      "lastChapter": 1323,
-      "markers": [
-        "同章共现(5)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "吴剑巫",
-      "target": "老头",
-      "mentions": 6,
-      "firstChapter": 195,
-      "lastChapter": 706,
-      "markers": [
-        "同章共现(4)",
-        "队长(2)",
-        "女儿(1)"
-      ]
-    },
-    {
-      "source": "小三灵",
-      "target": "队长",
-      "mentions": 6,
-      "firstChapter": 280,
-      "lastChapter": 351,
-      "markers": [
-        "队长(6)",
-        "弟子(4)"
-      ]
-    },
-    {
-      "source": "玄灵永意门",
-      "target": "许青",
-      "mentions": 6,
-      "firstChapter": 292,
-      "lastChapter": 376,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "老头",
-      "mentions": 6,
-      "firstChapter": 339,
-      "lastChapter": 460,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "孔祥龙",
-      "mentions": 6,
-      "firstChapter": 408,
-      "lastChapter": 408,
-      "markers": [
-        "同章共现(5)",
-        "兄弟(1)"
-      ]
-    },
-    {
-      "source": "慈悲",
-      "target": "许青",
-      "mentions": 6,
-      "firstChapter": 507,
-      "lastChapter": 1061,
-      "markers": [
-        "同章共现(3)",
-        "朋友(2)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "仙术殿",
-      "target": "开口",
-      "mentions": 6,
-      "firstChapter": 1037,
-      "lastChapter": 1052,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "女子",
-      "mentions": 5,
-      "firstChapter": 165,
-      "lastChapter": 528,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "黄岩",
-      "mentions": 5,
-      "firstChapter": 199,
-      "lastChapter": 275,
-      "markers": [
-        "同章共现(4)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "天宫",
-      "mentions": 5,
-      "firstChapter": 274,
-      "lastChapter": 505,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "红衣女子",
-      "target": "队长",
-      "mentions": 5,
-      "firstChapter": 334,
-      "lastChapter": 336,
-      "markers": [
-        "队长(5)"
-      ]
-    },
-    {
-      "source": "灵渊",
-      "target": "老头",
-      "mentions": 5,
-      "firstChapter": 460,
-      "lastChapter": 521,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "木道子",
-      "target": "老者",
-      "mentions": 5,
-      "firstChapter": 586,
-      "lastChapter": 587,
-      "markers": [
-        "同章共现(3)",
-        "师尊(2)"
-      ]
-    },
-    {
-      "source": "泥狐狸",
-      "target": "队苌",
-      "mentions": 5,
-      "firstChapter": 651,
-      "lastChapter": 674,
-      "markers": [
-        "同章共现(4)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "队苌",
-      "target": "队长",
-      "mentions": 5,
-      "firstChapter": 651,
-      "lastChapter": 702,
-      "markers": [
-        "队长(5)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "仙术殿",
-      "mentions": 5,
-      "firstChapter": 693,
-      "lastChapter": 1052,
-      "markers": [
-        "同章共现(4)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "雷队",
-      "target": "雷队的老者",
-      "mentions": 4,
-      "firstChapter": 4,
-      "lastChapter": 5,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "雷队的老者",
-      "mentions": 4,
-      "firstChapter": 4,
-      "lastChapter": 5,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "缓缓",
-      "mentions": 4,
-      "firstChapter": 42,
-      "lastChapter": 553,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "张三",
-      "mentions": 4,
-      "firstChapter": 95,
-      "lastChapter": 126,
-      "markers": [
-        "同章共现(2)",
+        "同章共现(9)",
         "队长(2)"
       ]
     },
     {
-      "source": "许青平静",
-      "target": "队长",
-      "mentions": 4,
-      "firstChapter": 117,
-      "lastChapter": 903,
+      "source": "吴剑巫",
+      "target": "许青没",
+      "mentions": 11,
+      "firstChapter": 226,
+      "lastChapter": 919,
       "markers": [
+        "同章共现(7)",
         "队长(4)"
       ]
     },
     {
-      "source": "烛照",
-      "target": "队长",
-      "mentions": 4,
-      "firstChapter": 217,
-      "lastChapter": 515,
+      "source": "全部",
+      "target": "古大陆",
+      "mentions": 11,
+      "firstChapter": 265,
+      "lastChapter": 1331,
       "markers": [
-        "队长(4)",
-        "师尊(1)"
+        "同章共现(11)"
       ]
     },
     {
-      "source": "玄幽宗",
-      "target": "老者",
-      "mentions": 4,
-      "firstChapter": 284,
-      "lastChapter": 285,
-      "markers": [
-        "队长(2)",
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "诡幽夺道功",
-      "mentions": 4,
-      "firstChapter": 304,
-      "lastChapter": 412,
-      "markers": [
-        "敌人(2)",
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "老头",
-      "mentions": 4,
-      "firstChapter": 306,
-      "lastChapter": 926,
-      "markers": [
-        "同章共现(3)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "决阳灵尊",
-      "target": "许青",
-      "mentions": 4,
-      "firstChapter": 490,
-      "lastChapter": 491,
-      "markers": [
-        "同章共现(3)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "吴剑巫",
-      "target": "女子",
-      "mentions": 4,
-      "firstChapter": 560,
-      "lastChapter": 561,
-      "markers": [
-        "同章共现(3)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "灵儿",
-      "target": "许青回",
-      "mentions": 4,
-      "firstChapter": 567,
-      "lastChapter": 707,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "缓缓",
-      "mentions": 4,
-      "firstChapter": 589,
-      "lastChapter": 635,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "泥狐狸",
-      "mentions": 4,
-      "firstChapter": 655,
-      "lastChapter": 701,
-      "markers": [
-        "同章共现(3)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "泥狐狸",
-      "target": "灵儿",
-      "mentions": 4,
-      "firstChapter": 656,
-      "lastChapter": 1328,
-      "markers": [
-        "同章共现(3)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "二牛正",
-      "target": "许青",
-      "mentions": 4,
-      "firstChapter": 692,
-      "lastChapter": 1282,
-      "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "雷队",
-      "mentions": 3,
-      "firstChapter": 16,
-      "lastChapter": 379,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "缓缓",
-      "mentions": 3,
-      "firstChapter": 21,
-      "lastChapter": 126,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "周青鹏",
-      "target": "少女",
-      "mentions": 3,
-      "firstChapter": 51,
-      "lastChapter": 51,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "许青回",
-      "target": "黄岩",
-      "mentions": 3,
-      "firstChapter": 70,
-      "lastChapter": 138,
-      "markers": [
-        "同章共现(2)",
-        "弟子(1)"
-      ]
-    },
-    {
-      "source": "张三",
-      "target": "笑眯眯",
-      "mentions": 3,
-      "firstChapter": 78,
-      "lastChapter": 202,
-      "markers": [
-        "队长(2)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "许青回",
-      "mentions": 3,
-      "firstChapter": 123,
-      "lastChapter": 1082,
-      "markers": [
-        "同章共现(2)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "雷队",
-      "mentions": 3,
-      "firstChapter": 262,
-      "lastChapter": 1290,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "玄幽宗",
-      "mentions": 3,
+      "source": "师兄",
+      "target": "毕竟",
+      "mentions": 11,
       "firstChapter": 277,
-      "lastChapter": 290,
+      "lastChapter": 1285,
       "markers": [
-        "同章共现(2)",
+        "同章共现(10)",
         "队长(1)"
       ]
     },
     {
-      "source": "吴剑巫",
-      "target": "玄幽宗",
-      "mentions": 3,
-      "firstChapter": 286,
-      "lastChapter": 288,
+      "source": "封印",
+      "target": "毕竟",
+      "mentions": 11,
+      "firstChapter": 478,
+      "lastChapter": 1263,
       "markers": [
-        "同章共现(2)",
-        "队长(1)"
+        "同章共现(10)",
+        "合作(1)"
       ]
     },
     {
-      "source": "许青",
-      "target": "许青的人族",
-      "mentions": 3,
-      "firstChapter": 368,
-      "lastChapter": 977,
+      "source": "万物",
+      "target": "山脉",
+      "mentions": 11,
+      "firstChapter": 562,
+      "lastChapter": 663,
       "markers": [
-        "同章共现(2)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "许青的人",
-      "target": "许青的人族",
-      "mentions": 3,
-      "firstChapter": 368,
-      "lastChapter": 977,
-      "markers": [
-        "同章共现(2)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "孔祥龙",
-      "mentions": 3,
-      "firstChapter": 397,
-      "lastChapter": 433,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "金乌炼万灵",
-      "mentions": 3,
-      "firstChapter": 408,
-      "lastChapter": 476,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "青秋",
-      "mentions": 3,
-      "firstChapter": 426,
-      "lastChapter": 1001,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "青秋",
-      "mentions": 3,
-      "firstChapter": 445,
-      "lastChapter": 449,
-      "markers": [
-        "同章共现(2)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "老头",
-      "target": "老者",
-      "mentions": 3,
-      "firstChapter": 489,
-      "lastChapter": 1029,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "仙术殿",
-      "mentions": 3,
-      "firstChapter": 507,
-      "lastChapter": 1017,
-      "markers": [
-        "队长(1)",
-        "弟子(1)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "卢米安",
-      "target": "笑眯眯",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "卢米安",
-      "target": "卢米安的黑发年轻人用",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "卢米安的黑发年轻人用",
-      "target": "笑眯眯",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "卢米安",
-      "target": "卢米安好奇",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "卢米安",
-      "target": "笑嘻嘻",
-      "mentions": 3,
-      "firstChapter": 536,
-      "lastChapter": 543,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "泥狐狸",
-      "mentions": 3,
-      "firstChapter": 575,
-      "lastChapter": 1190,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "灵儿",
-      "mentions": 3,
-      "firstChapter": 605,
-      "lastChapter": 1001,
-      "markers": [
-        "同章共现(2)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "张三",
-      "mentions": 3,
-      "firstChapter": 722,
-      "lastChapter": 1298,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "煌天",
-      "mentions": 3,
-      "firstChapter": 1325,
-      "lastChapter": 1344,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "许青",
-      "target": "雷队的老者",
-      "mentions": 2,
-      "firstChapter": 4,
-      "lastChapter": 4,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "灿烂",
-      "mentions": 2,
-      "firstChapter": 19,
-      "lastChapter": 584,
-      "markers": [
-        "同章共现(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "周青鹏",
-      "target": "老者",
-      "mentions": 2,
-      "firstChapter": 51,
-      "lastChapter": 51,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "许青平静",
-      "mentions": 2,
-      "firstChapter": 55,
-      "lastChapter": 795,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "周青鹏",
-      "target": "张三",
-      "mentions": 2,
-      "firstChapter": 79,
-      "lastChapter": 147,
-      "markers": [
-        "同章共现(1)",
-        "弟子(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "张三",
-      "target": "许青回",
-      "mentions": 2,
-      "firstChapter": 79,
-      "lastChapter": 275,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "张三",
-      "mentions": 2,
-      "firstChapter": 95,
-      "lastChapter": 95,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "张三",
-      "target": "灵儿",
-      "mentions": 2,
-      "firstChapter": 126,
-      "lastChapter": 126,
-      "markers": [
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "黄岩",
-      "mentions": 2,
-      "firstChapter": 147,
-      "lastChapter": 150,
-      "markers": [
-        "队长(2)",
-        "弟子(1)",
-        "姐妹(1)"
-      ]
-    },
-    {
-      "source": "海山诀",
-      "target": "金乌炼万灵",
-      "mentions": 2,
-      "firstChapter": 176,
-      "lastChapter": 176,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "丁雪",
-      "target": "少女",
-      "mentions": 2,
-      "firstChapter": 198,
-      "lastChapter": 198,
-      "markers": [
-        "盟友(1)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "老者",
-      "target": "金乌炼万灵",
-      "mentions": 2,
-      "firstChapter": 207,
-      "lastChapter": 207,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "开口",
-      "target": "金乌炼万灵",
-      "mentions": 2,
-      "firstChapter": 233,
-      "lastChapter": 239,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "吴剑巫",
-      "target": "老者",
-      "mentions": 2,
-      "firstChapter": 286,
-      "lastChapter": 651,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "诡幽夺道功",
-      "mentions": 2,
-      "firstChapter": 304,
-      "lastChapter": 305,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "许青回",
-      "mentions": 2,
-      "firstChapter": 308,
-      "lastChapter": 506,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "烛照",
-      "mentions": 2,
-      "firstChapter": 320,
-      "lastChapter": 322,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "天宫",
-      "target": "缓缓",
-      "mentions": 2,
-      "firstChapter": 358,
-      "lastChapter": 359,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "青秋",
-      "mentions": 2,
-      "firstChapter": 368,
-      "lastChapter": 450,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "二牛",
-      "target": "笑嘻嘻",
-      "mentions": 2,
-      "firstChapter": 373,
-      "lastChapter": 680,
-      "markers": [
-        "同章共现(1)",
-        "队长(1)"
-      ]
-    },
-    {
-      "source": "七爷",
-      "target": "黄岩",
-      "mentions": 2,
-      "firstChapter": 379,
-      "lastChapter": 957,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "少女",
-      "target": "青秋",
-      "mentions": 2,
-      "firstChapter": 393,
-      "lastChapter": 393,
-      "markers": [
-        "队长(1)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "病鬼",
-      "target": "缓缓",
-      "mentions": 2,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "病鬼",
-      "target": "青秋",
-      "mentions": 2,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "markers": [
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "病鬼",
-      "mentions": 2,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "病鬼",
-      "target": "老者",
-      "mentions": 2,
-      "firstChapter": 395,
-      "lastChapter": 396,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "老者",
-      "mentions": 2,
-      "firstChapter": 405,
-      "lastChapter": 420,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "孔祥龙",
-      "target": "缓缓",
-      "mentions": 2,
-      "firstChapter": 420,
-      "lastChapter": 421,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "慈悲",
-      "target": "队长",
-      "mentions": 2,
-      "firstChapter": 507,
-      "lastChapter": 507,
-      "markers": [
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "烛照",
-      "target": "紫青上国",
-      "mentions": 2,
-      "firstChapter": 524,
-      "lastChapter": 956,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "灵儿",
-      "target": "雷队",
-      "mentions": 2,
-      "firstChapter": 529,
-      "lastChapter": 958,
-      "markers": [
-        "同章共现(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "灵儿",
-      "mentions": 2,
-      "firstChapter": 576,
-      "lastChapter": 576,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "灿烂",
-      "target": "队长",
-      "mentions": 2,
-      "firstChapter": 584,
-      "lastChapter": 601,
-      "markers": [
-        "队长(2)"
-      ]
-    },
-    {
-      "source": "世子",
-      "target": "女子",
-      "mentions": 2,
-      "firstChapter": 608,
-      "lastChapter": 616,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "女子",
-      "target": "慈悲",
-      "mentions": 2,
-      "firstChapter": 659,
-      "lastChapter": 714,
-      "markers": [
-        "同章共现(2)"
-      ]
-    },
-    {
-      "source": "泥狐狸",
-      "target": "缓缓",
-      "mentions": 2,
-      "firstChapter": 707,
-      "lastChapter": 745,
-      "markers": [
-        "队长(1)",
-        "同章共现(1)"
-      ]
-    },
-    {
-      "source": "灵儿",
-      "target": "青秋",
-      "mentions": 2,
-      "firstChapter": 712,
-      "lastChapter": 1290,
-      "markers": [
-        "同章共现(2)"
+        "同章共现(11)"
       ]
     }
   ],
@@ -7015,15 +8376,42 @@
       ]
     }
   ],
+  "events": [],
   "chunkSummaries": [
     {
       "chunk": 1,
       "range": "第 1-20 章",
       "characters": [
-        "海山诀",
-        "雷队的老者",
         "许青",
-        "雷队"
+        "全身",
+        "许久",
+        "万物枯",
+        "厉之音",
+        "古皇主",
+        "许青没",
+        "东北区",
+        "水渗出",
+        "危险",
+        "水晶",
+        "方位",
+        "池内",
+        "乌黑色",
+        "许青呼",
+        "方所在",
+        "许青目",
+        "许青抬",
+        "山诀",
+        "安息",
+        "许青喃",
+        "许青眼",
+        "海山诀",
+        "云层",
+        "全愈合",
+        "方法",
+        "许青沉",
+        "许青心",
+        "许青双",
+        "池内除"
       ],
       "organizations": [
         "拾荒者的营",
@@ -7043,15 +8431,43 @@
       "systems": [
         "体内异质",
         "体内的异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 2,
       "range": "第 21-40 章",
       "characters": [
-        "雷队",
         "许青",
-        "海山诀"
+        "雷队",
+        "许青一",
+        "许青眼",
+        "许青没",
+        "白丹",
+        "柏大师",
+        "许青心",
+        "全身",
+        "许青在",
+        "时间流",
+        "许青默",
+        "雷队说",
+        "许青觉",
+        "许青喃",
+        "许青深",
+        "许青走",
+        "时间慢",
+        "融化",
+        "方位",
+        "程度",
+        "冷漠",
+        "许青低",
+        "习惯",
+        "明显",
+        "许青全",
+        "许青转",
+        "车队",
+        "许青等",
+        "苏醒"
       ],
       "organizations": [
         "都不会",
@@ -7083,15 +8499,43 @@
         "体内异质",
         "与白丹",
         "全身气血"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 3,
       "range": "第 41-60 章",
       "characters": [
         "许青",
-        "雷队",
-        "海山诀"
+        "许青没",
+        "许青身",
+        "许青眼",
+        "金刚宗",
+        "许青看",
+        "危险",
+        "段时间",
+        "许青目",
+        "全身",
+        "许青沉",
+        "许青深",
+        "许青有",
+        "许青抬",
+        "许青面",
+        "后退",
+        "方位",
+        "范围",
+        "明显",
+        "许青眉",
+        "危机",
+        "方法",
+        "安全",
+        "许青所",
+        "许青转",
+        "许青全",
+        "符宝",
+        "许青眯",
+        "许青内",
+        "任务"
       ],
       "organizations": [
         "金刚宗",
@@ -7146,15 +8590,43 @@
         "唯有筑基",
         "全身气血",
         "炼制出的白丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 4,
       "range": "第 61-80 章",
       "characters": [
         "许青",
-        "海山诀",
-        "张三"
+        "金刚宗",
+        "柏大师",
+        "许青眼",
+        "许青没",
+        "许青看",
+        "许青心",
+        "白丹",
+        "许青沉",
+        "许久",
+        "许青目",
+        "许青神",
+        "全身",
+        "许青有",
+        "周青鹏",
+        "许青低",
+        "许青抬",
+        "许青想",
+        "习惯",
+        "许青点",
+        "许青眉",
+        "许青回",
+        "任务",
+        "查一番",
+        "许青扫",
+        "巴掌大",
+        "权利",
+        "时间一",
+        "宗老祖",
+        "查看后"
       ],
       "organizations": [
         "金刚宗",
@@ -7204,16 +8676,43 @@
         "一百灵石",
         "浓郁的异质",
         "目中露出期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 5,
       "range": "第 81-100 章",
       "characters": [
         "许青",
-        "海山诀",
-        "张三",
-        "周青鹏"
+        "许青眼",
+        "许青没",
+        "许青看",
+        "许青身",
+        "鱼少年",
+        "许青沉",
+        "许青目",
+        "许青喃",
+        "许青有",
+        "许青神",
+        "危险",
+        "许青在",
+        "程度",
+        "许青面",
+        "许青想",
+        "范围",
+        "许青站",
+        "许青回",
+        "方法",
+        "明显",
+        "师姐",
+        "宗门",
+        "许青之",
+        "许青后",
+        "龙鲸",
+        "安全",
+        "师弟",
+        "许青右",
+        "融化"
       ],
       "organizations": [
         "没去理会",
@@ -7270,19 +8769,43 @@
         "在那符",
         "浓郁的异质",
         "一枚白丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 6,
       "range": "第 101-120 章",
       "characters": [
         "许青",
-        "海山诀",
-        "张三",
-        "队长",
-        "黄岩",
-        "雷队",
-        "弥厄之甲"
+        "金刚宗",
+        "许青眼",
+        "段时间",
+        "白丹",
+        "许青抬",
+        "全身",
+        "许青已",
+        "宗门",
+        "任务",
+        "许青平",
+        "方位",
+        "许青之",
+        "关注",
+        "毕竟",
+        "黄昏",
+        "宗主",
+        "山门",
+        "许青盘",
+        "山顶",
+        "凌厉",
+        "时间一",
+        "越走越",
+        "成两半",
+        "利刃",
+        "宗老祖",
+        "金刚之",
+        "红原",
+        "融入",
+        "武器"
       ],
       "organizations": [
         "金刚宗",
@@ -7339,18 +8862,43 @@
         "浓郁的异质",
         "好似神灵",
         "如同神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 7,
       "range": "第 121-140 章",
       "characters": [
-        "队长",
         "许青",
+        "许青眼",
+        "许青心",
+        "许青沉",
+        "许青听",
+        "全身",
         "张三",
-        "雷队",
-        "海山诀",
-        "黄岩"
+        "许青点",
+        "鱼族",
+        "任何一",
+        "古大陆",
+        "许青内",
+        "融化",
+        "巴掌大",
+        "鱼族老",
+        "许青开",
+        "后者",
+        "祖面色",
+        "许青摇",
+        "队长",
+        "张三眼",
+        "颜色",
+        "许青话",
+        "白天",
+        "鱼族岛",
+        "后他抬",
+        "周出现",
+        "全部",
+        "纪元",
+        "周边"
       ],
       "organizations": [
         "没去理会",
@@ -7409,19 +8957,43 @@
         "身为筑基",
         "许青目中露出期",
         "目中露出期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 8,
       "range": "第 141-160 章",
       "characters": [
         "许青",
-        "队长",
-        "雷队",
-        "海山诀",
-        "张三",
-        "周青鹏",
-        "黄岩"
+        "金刚宗",
+        "许青眼",
+        "许青没",
+        "许青身",
+        "许青心",
+        "程度",
+        "危机",
+        "全身",
+        "许青听",
+        "范围",
+        "许青已",
+        "明显",
+        "许青所",
+        "许青体",
+        "毕竟",
+        "许青右",
+        "宗老祖",
+        "许青脚",
+        "关注",
+        "许青忽",
+        "许青去",
+        "越多",
+        "游走",
+        "成命火",
+        "厉之音",
+        "时间后",
+        "张开口",
+        "时四周",
+        "许青只"
       ],
       "organizations": [
         "金刚宗",
@@ -7475,18 +9047,43 @@
         "一身筑基",
         "毕竟法器",
         "寻常筑基"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 9,
       "range": "第 161-180 章",
       "characters": [
         "许青",
-        "队长",
-        "丁雪",
-        "雷队",
-        "海山诀",
-        "张三"
+        "金刚宗",
+        "许青没",
+        "许青身",
+        "许青目",
+        "程度",
+        "危机",
+        "许青抬",
+        "任务",
+        "全身",
+        "宗门",
+        "许青已",
+        "许青收",
+        "明显",
+        "顾沐清",
+        "许青而",
+        "时辰",
+        "许青全",
+        "毕竟",
+        "宗老祖",
+        "相互之",
+        "成功",
+        "安静",
+        "许青凝",
+        "危机关",
+        "师兄",
+        "冷哼一",
+        "时而",
+        "常筑基",
+        "明显比"
       ],
       "organizations": [
         "金刚宗",
@@ -7541,18 +9138,43 @@
         "目中露出期",
         "好似神灵",
         "十万灵石"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 10,
       "range": "第 181-200 章",
       "characters": [
-        "队长",
         "许青",
-        "丁雪",
-        "张三",
-        "黄岩",
-        "周青鹏"
+        "金刚宗",
+        "许青眼",
+        "许青没",
+        "许青身",
+        "许青看",
+        "许青心",
+        "程度",
+        "危险",
+        "段时间",
+        "许青深",
+        "许青面",
+        "许青想",
+        "许青听",
+        "全身",
+        "任何一",
+        "许青体",
+        "许青眉",
+        "金乌炼",
+        "宗老祖",
+        "许青回",
+        "许青右",
+        "师弟",
+        "游走",
+        "成功",
+        "时之间",
+        "许青你",
+        "师兄",
+        "符文",
+        "万灵"
       ],
       "organizations": [
         "金刚宗",
@@ -7612,18 +9234,43 @@
         "被金丹",
         "十万灵石",
         "陈二牛序列"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 11,
       "range": "第 201-220 章",
       "characters": [
         "许青",
+        "许青没",
+        "许青身",
+        "许青看",
+        "许青一",
+        "许青目",
+        "许青沉",
+        "许青在",
+        "程度",
+        "许青神",
+        "危机",
+        "许青面",
+        "许青抬",
+        "宗门",
+        "全身",
+        "许青点",
+        "许青低",
+        "许青已",
+        "明显",
         "黄岩",
-        "队长",
-        "张三",
-        "丁雪",
-        "雷队"
+        "许青师",
+        "师姐",
+        "安全",
+        "许青平",
+        "许青回",
+        "许青站",
+        "宗门内",
+        "张云士",
+        "师弟",
+        "安静"
       ],
       "organizations": [
         "捕凶司",
@@ -7682,18 +9329,43 @@
         "好似神灵",
         "居然以神灵",
         "白戾魂丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 12,
       "range": "第 221-240 章",
       "characters": [
-        "队长",
         "许青",
+        "金刚宗",
+        "许青眼",
+        "许青没",
+        "柏大师",
+        "许青心",
+        "许青目",
         "雷队",
-        "丁雪",
-        "张三",
-        "金乌炼万灵"
+        "段时间",
+        "许青深",
+        "时间流",
+        "许青抬",
+        "许青想",
+        "万灵石",
+        "宗门",
+        "许久",
+        "许青已",
+        "范围",
+        "许青点",
+        "许青默",
+        "许青所",
+        "明显",
+        "许青望",
+        "宗老祖",
+        "祖神像",
+        "许青回",
+        "时辰",
+        "许青来",
+        "许青将",
+        "许青站"
       ],
       "organizations": [
         "金刚宗",
@@ -7751,17 +9423,43 @@
         "目中露出期",
         "与金丹",
         "全身气血"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 13,
       "range": "第 241-260 章",
       "characters": [
         "许青",
-        "队长",
-        "丁雪",
-        "金乌炼万灵",
-        "吴剑巫"
+        "许青没",
+        "许青一",
+        "许青心",
+        "许青看",
+        "程度",
+        "许青在",
+        "宗联盟",
+        "段时间",
+        "许青有",
+        "黄一坤",
+        "任务",
+        "许青喃",
+        "宗门",
+        "古大陆",
+        "许青已",
+        "范围",
+        "明显",
+        "宗老祖",
+        "时之间",
+        "关注",
+        "师兄",
+        "步走出",
+        "时许青",
+        "方面",
+        "许青忽",
+        "司马陵",
+        "马陵",
+        "许青淡",
+        "司马茹"
       ],
       "organizations": [
         "捕凶司",
@@ -7819,21 +9517,43 @@
         "寻常筑基",
         "在寻常筑基",
         "浓郁的异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 14,
       "range": "第 261-280 章",
       "characters": [
-        "队长",
         "许青",
-        "雷队",
-        "张三",
-        "决阳灵尊",
-        "黄岩",
-        "丁雪",
-        "七爷",
-        "周青鹏"
+        "许青没",
+        "许青一",
+        "许青心",
+        "柏大师",
+        "许青看",
+        "许青目",
+        "许青沉",
+        "程度",
+        "许青有",
+        "许青深",
+        "时间流",
+        "许青想",
+        "古大陆",
+        "许青走",
+        "范围",
+        "许青听",
+        "许青点",
+        "全身",
+        "许青低",
+        "许青全",
+        "明显",
+        "鱼族",
+        "凌云剑",
+        "许青知",
+        "林内",
+        "许青接",
+        "许青认",
+        "满意",
+        "全力以"
       ],
       "organizations": [
         "拾荒者营",
@@ -7891,19 +9611,43 @@
         "天宫金丹",
         "无序传送符",
         "河水还能洗刷异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 15,
       "range": "第 281-300 章",
       "characters": [
         "许青",
-        "队长",
-        "七爷",
-        "吴剑巫",
-        "玄灵永意门",
-        "雷队",
-        "许青回"
+        "金刚宗",
+        "许青眼",
+        "许青没",
+        "许青身",
+        "许青一",
+        "许青心",
+        "许青看",
+        "许青在",
+        "许青神",
+        "许青想",
+        "时间流",
+        "许青点",
+        "许青收",
+        "宗老祖",
+        "许青眉",
+        "明显",
+        "水晶",
+        "毕竟",
+        "许青站",
+        "许青转",
+        "时许青",
+        "许青知",
+        "林内",
+        "许青无",
+        "厉惨叫",
+        "索后",
+        "相互之",
+        "山顶",
+        "许青盘"
       ],
       "organizations": [
         "金刚宗",
@@ -7967,23 +9711,43 @@
         "直至片刻后顺着台阶",
         "好似踏入仙境",
         "宛如一朵正怒放盛开的牡丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 16,
       "range": "第 301-320 章",
       "characters": [
         "许青",
-        "七爷",
-        "丁雪",
-        "队长",
-        "诡幽夺道功",
-        "张三",
-        "许青回",
-        "吴剑巫",
-        "雷队",
-        "玄灵永意门",
-        "金乌炼万灵"
+        "金刚宗",
+        "许青身",
+        "许青一",
+        "许青心",
+        "宗联盟",
+        "许青看",
+        "许青沉",
+        "程度",
+        "许青在",
+        "段时间",
+        "许青觉",
+        "许青神",
+        "许青有",
+        "任务",
+        "宗门",
+        "许青走",
+        "许青想",
+        "时间流",
+        "危险",
+        "范围",
+        "许久",
+        "全身",
+        "宗老祖",
+        "许青站",
+        "许青哥",
+        "许青睁",
+        "许青而",
+        "方位",
+        "毕竟"
       ],
       "organizations": [
         "金刚宗",
@@ -8050,20 +9814,43 @@
         "好似神灵",
         "体内异质",
         "全身异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 17,
       "range": "第 321-340 章",
       "characters": [
         "许青",
-        "七爷",
-        "金乌炼万灵",
-        "玄灵永意门",
-        "队长",
-        "吴剑巫",
-        "诡幽夺道功",
-        "张三"
+        "金刚宗",
+        "许青眼",
+        "许青一",
+        "程度",
+        "段时间",
+        "金乌炼",
+        "全身",
+        "许青之",
+        "宗老祖",
+        "金丹",
+        "万灵",
+        "厉之音",
+        "金乌",
+        "山峰",
+        "成员",
+        "凌厉",
+        "全身一",
+        "师尊",
+        "方式",
+        "全身狂",
+        "左手",
+        "连接",
+        "融入",
+        "周轰隆",
+        "全部",
+        "曾经",
+        "任何",
+        "万丈",
+        "时一道"
       ],
       "organizations": [
         "金刚宗",
@@ -8130,21 +9917,43 @@
         "战力境",
         "在这期",
         "但我回那恨金丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 18,
       "range": "第 341-360 章",
       "characters": [
-        "队长",
         "许青",
+        "金刚宗",
+        "许青身",
+        "许青眼",
+        "许青一",
+        "许青在",
+        "许青抬",
+        "宗门",
+        "许青喃",
+        "许青体",
+        "范围",
+        "师兄",
+        "宗老祖",
+        "顾沐清",
+        "金丹",
+        "许青所",
+        "宫金丹",
+        "许青站",
+        "师弟",
+        "时间慢",
         "丁雪",
-        "队长正",
-        "七爷",
-        "迟若国",
-        "小三灵",
-        "诡幽夺道功",
-        "金乌炼万灵"
+        "安全",
+        "水母",
+        "万古河",
+        "水晶",
+        "融化",
+        "林内",
+        "范围内",
+        "石头",
+        "许青速"
       ],
       "organizations": [
         "金刚宗",
@@ -8211,24 +10020,43 @@
         "在凝气同境",
         "基本上除非是遇到金丹",
         "在这期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 19,
       "range": "第 361-380 章",
       "characters": [
-        "队长",
         "许青",
-        "金乌炼万灵",
-        "雷队",
-        "玄灵永意门",
-        "许青回",
-        "七爷",
-        "黄岩",
-        "吴剑巫",
-        "丁雪",
-        "诡幽夺道功",
-        "张三"
+        "金刚宗",
+        "许青没",
+        "许青眼",
+        "许青心",
+        "许青看",
+        "许青沉",
+        "程度",
+        "古大陆",
+        "许青有",
+        "危机",
+        "许青想",
+        "金乌炼",
+        "危险",
+        "许青喃",
+        "全身",
+        "师兄",
+        "许久",
+        "时之间",
+        "宗老祖",
+        "宫金丹",
+        "金丹",
+        "许青收",
+        "许青默",
+        "李子梁",
+        "成功",
+        "万灵",
+        "许青将",
+        "满意",
+        "水晶"
       ],
       "organizations": [
         "金刚宗",
@@ -8295,23 +10123,43 @@
         "但他身为筑基",
         "哪怕并非大宗功法",
         "但筑基就是筑基"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 20,
       "range": "第 381-400 章",
       "characters": [
-        "队长",
         "许青",
-        "七爷",
-        "许青回",
+        "宗联盟",
+        "许青身",
+        "许青没",
+        "许青一",
+        "许青目",
+        "程度",
         "吴剑巫",
-        "金乌炼万灵",
-        "玄幽宗",
-        "黄岩",
-        "队长正",
-        "少女",
-        "病鬼"
+        "许青觉",
+        "许青有",
+        "黄一坤",
+        "宗门",
+        "时之间",
+        "范围",
+        "宗老祖",
+        "明显",
+        "宫金丹",
+        "金丹",
+        "毕竟",
+        "许青站",
+        "许青回",
+        "关注",
+        "宗弟子",
+        "许青扫",
+        "许青脑",
+        "封海郡",
+        "师尊",
+        "封印",
+        "边缘",
+        "司马茹"
       ],
       "organizations": [
         "八宗联盟",
@@ -8378,21 +10226,43 @@
         "取出大量解毒丹",
         "你快点去找个丹",
         "急速离开寻找执剑宫的丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 21,
       "range": "第 401-420 章",
       "characters": [
         "许青",
-        "金乌炼万灵",
-        "许青回",
-        "少女",
-        "七爷",
-        "队长",
-        "诡幽夺道功",
-        "玄幽宗",
-        "吴剑巫"
+        "金刚宗",
+        "许青没",
+        "许青眼",
+        "许青心",
+        "许青看",
+        "许青目",
+        "许青觉",
+        "许青在",
+        "许青面",
+        "许青抬",
+        "许青点",
+        "许青走",
+        "全身",
+        "许久",
+        "宗老祖",
+        "明显",
+        "许青收",
+        "金丹",
+        "厉之音",
+        "时辰后",
+        "许青站",
+        "毕竟",
+        "成功",
+        "关注",
+        "许青后",
+        "时间慢",
+        "时辰",
+        "时许青",
+        "越发强"
       ],
       "organizations": [
         "金刚宗",
@@ -8455,21 +10325,43 @@
         "走在刑狱司的台阶",
         "目中露出期",
         "但长期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 22,
       "range": "第 421-440 章",
       "characters": [
         "许青",
-        "病鬼",
-        "许青回",
-        "老者",
-        "金乌炼万灵",
-        "队长",
-        "诡幽夺道功",
-        "队长正",
-        "缓缓"
+        "许青身",
+        "许青一",
+        "许青看",
+        "孔祥龙",
+        "许青觉",
+        "任务",
+        "时间流",
+        "许青走",
+        "丁一三",
+        "许久",
+        "封海郡",
+        "许青默",
+        "许青低",
+        "山河子",
+        "毕竟",
+        "许青平",
+        "许青你",
+        "满意",
+        "许青立",
+        "安静",
+        "黄昏",
+        "时间一",
+        "宫主",
+        "许青说",
+        "冷哼一",
+        "许青等",
+        "司马执事",
+        "马执事",
+        "越大"
       ],
       "organizations": [
         "没去理会",
@@ -8535,24 +10427,43 @@
         "不期",
         "体内的异质",
         "目中露出强烈的期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 23,
       "range": "第 441-460 章",
       "characters": [
-        "队长",
         "许青",
-        "张三",
-        "许青回",
-        "吴剑巫",
-        "诡幽夺道功",
-        "老者",
-        "缓缓",
-        "金乌炼万灵",
-        "七爷",
-        "雷队",
-        "少女"
+        "许青一",
+        "许青身",
+        "许青心",
+        "许青眼",
+        "许青目",
+        "孔祥龙",
+        "许青沉",
+        "许青在",
+        "许青神",
+        "许青点",
+        "封海郡",
+        "许久",
+        "许青喃",
+        "师兄",
+        "方法",
+        "金丹",
+        "时辰后",
+        "毕竟",
+        "关注",
+        "宫战力",
+        "时辰",
+        "许青忽",
+        "冷漠",
+        "苏醒",
+        "许青等",
+        "队长",
+        "时四周",
+        "华盖",
+        "许青抱"
       ],
       "organizations": [
         "执剑宫",
@@ -8613,20 +10524,43 @@
         "是一处密道台阶",
         "在那台阶",
         "七周只没台阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 24,
       "range": "第 461-480 章",
       "characters": [
         "许青",
-        "少女",
-        "诡幽夺道功",
-        "缓缓",
-        "队长",
-        "老者",
-        "金乌炼万灵",
-        "七爷"
+        "金刚宗",
+        "许青身",
+        "许青没",
+        "许青心",
+        "许青目",
+        "许青沉",
+        "许青神",
+        "许青在",
+        "许青面",
+        "许青抬",
+        "危险",
+        "任何一",
+        "许青走",
+        "全身",
+        "许久",
+        "许青听",
+        "许青之",
+        "宗老祖",
+        "明显",
+        "许青望",
+        "厉之音",
+        "许青来",
+        "许青而",
+        "封印",
+        "安全",
+        "融合在",
+        "方式",
+        "冷漠",
+        "金乌"
       ],
       "organizations": [
         "金刚宗",
@@ -8693,23 +10627,43 @@
         "还是神灵",
         "其过程与之前丹",
         "同时也是丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 25,
       "range": "第 481-500 章",
       "characters": [
         "许青",
-        "队长",
-        "缓缓",
-        "老者",
-        "决阳灵尊",
-        "七爷",
-        "玄幽宗",
-        "黄岩",
-        "许青回",
-        "少女",
-        "孔祥龙"
+        "金刚宗",
+        "许青没",
+        "许青目",
+        "许青面",
+        "封海郡",
+        "危机",
+        "宗门",
+        "全身",
+        "许青之",
+        "范围",
+        "时之间",
+        "宗老祖",
+        "金丹",
+        "许青而",
+        "宫主",
+        "许青扫",
+        "金乌",
+        "游走",
+        "金丹修",
+        "全力以",
+        "融化",
+        "凌厉",
+        "全面爆",
+        "宫宫主",
+        "严重",
+        "时间去",
+        "焦急",
+        "山体",
+        "全部"
       ],
       "organizations": [
         "金刚宗",
@@ -8776,26 +10730,43 @@
         "战争法器",
         "好似神灵",
         "体内异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 26,
       "range": "第 501-520 章",
       "characters": [
-        "队长",
         "许青",
         "孔祥龙",
-        "七爷",
-        "队长正",
-        "许青回",
-        "缓缓",
-        "金乌炼万灵",
-        "雷队",
-        "张三",
-        "黄岩",
-        "丁雪",
-        "紫青上国",
-        "老者"
+        "封海郡",
+        "程度",
+        "段时间",
+        "张司运",
+        "时间流",
+        "危险",
+        "许青走",
+        "许青喃",
+        "师兄",
+        "师弟",
+        "成功",
+        "明显",
+        "宫主",
+        "毕竟",
+        "封印",
+        "满意",
+        "苏醒",
+        "关注",
+        "安全",
+        "步一顿",
+        "许青脚",
+        "高度",
+        "师尊",
+        "索后",
+        "明悟",
+        "队长",
+        "相关",
+        "权限"
       ],
       "organizations": [
         "刑狱司",
@@ -8862,30 +10833,43 @@
         "尤其是战争期",
         "战争时期",
         "目有期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 27,
       "range": "第 521-540 章",
       "characters": [
-        "队长",
         "许青",
-        "七爷",
-        "紫青上国",
-        "缓缓",
-        "许青回",
-        "孔祥龙",
-        "雷队",
-        "少女",
-        "张三",
-        "丁雪",
-        "玄幽宗",
-        "无尽之海",
-        "老者",
-        "黄岩",
-        "特尺的小国",
-        "卢米安",
-        "吴剑巫"
+        "许青心",
+        "许青一",
+        "许青身",
+        "许青没",
+        "封海郡",
+        "许青沉",
+        "程度",
+        "古大陆",
+        "张司运",
+        "许青抬",
+        "许青有",
+        "许青点",
+        "丁一三",
+        "师兄",
+        "危机",
+        "任何一",
+        "师弟",
+        "全身",
+        "危险",
+        "路老头",
+        "许青走",
+        "许青之",
+        "范围",
+        "许青默",
+        "许青体",
+        "明显",
+        "许青望",
+        "师尊",
+        "毕竟"
       ],
       "organizations": [
         "刑狱司",
@@ -8952,30 +10936,43 @@
         "因剑皇之血为画符",
         "除非你招惹了归虚四阶",
         "此血符"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 28,
       "range": "第 541-560 章",
       "characters": [
+        "明显",
+        "毕竟",
+        "费阅读",
+        "冷漠",
         "卢米安",
-        "笑眯眯",
-        "灿烂",
-        "卢米安好奇",
-        "莉雅敏锐",
-        "笑嘻嘻",
-        "卢米安的黑发年轻人用",
-        "莉雅的女性展露出了挺",
-        "弗兰克",
-        "皮埃尔的中年男子得意",
-        "许青",
-        "老者",
-        "缓缓",
-        "金乌炼万灵",
-        "许青回",
-        "队长",
-        "吴剑巫",
-        "红衣女子"
+        "颜色",
+        "全部",
+        "明显有",
+        "怀疑",
+        "白天",
+        "房间内",
+        "相信",
+        "白色",
+        "费用",
+        "水果",
+        "相信我",
+        "房内",
+        "周围",
+        "后呢",
+        "毕竟没",
+        "后会有",
+        "蓝色",
+        "蓝色眼",
+        "明天我",
+        "明天",
+        "王者",
+        "东西来",
+        "广告免",
+        "牧民们",
+        "艾酒"
       ],
       "organizations": [
         "我的脑袋偶尔也会",
@@ -9042,20 +11039,43 @@
         "向着神灵",
         "使得神灵",
         "直奔神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 29,
       "range": "第 561-580 章",
       "characters": [
-        "队长",
         "许青",
+        "许青心",
+        "许青一",
+        "许青没",
+        "许青看",
+        "许青目",
         "吴剑巫",
-        "许青回",
-        "老者",
-        "缓缓",
-        "女子",
-        "队长正"
+        "许青沉",
+        "程度",
+        "许青在",
+        "许青有",
+        "师兄",
+        "任务",
+        "丁一三",
+        "宗门",
+        "许青默",
+        "师尊",
+        "许青低",
+        "许青望",
+        "方法",
+        "明显",
+        "成功",
+        "步一顿",
+        "许青呼",
+        "关注",
+        "方位",
+        "许青皱",
+        "宁炎",
+        "许青摇",
+        "时辰"
       ],
       "organizations": [
         "但也不会",
@@ -9117,25 +11137,43 @@
         "好似神灵",
         "一身元婴",
         "刻着数不清的古老符"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 30,
       "range": "第 581-600 章",
       "characters": [
-        "队长",
         "许青",
+        "许青心",
+        "许青身",
+        "许青看",
         "吴剑巫",
-        "老者",
-        "缓缓",
-        "灿烂",
-        "木道子",
-        "世子",
-        "女子",
-        "笑眯眯",
-        "许青回",
-        "七爷",
-        "海山诀"
+        "许青面",
+        "段时间",
+        "时间流",
+        "危机",
+        "全身",
+        "危险",
+        "范围",
+        "时辰后",
+        "许青望",
+        "李有匪",
+        "师尊",
+        "陈二牛",
+        "宁炎",
+        "许青后",
+        "后退",
+        "时辰",
+        "安全",
+        "山脉",
+        "融化",
+        "范围内",
+        "步步走",
+        "颜色",
+        "许青迟",
+        "相互看",
+        "队长"
       ],
       "organizations": [
         "必定会",
@@ -9199,21 +11237,43 @@
         "拿着丹",
         "还是神灵",
         "许青目中露出期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 31,
       "range": "第 601-620 章",
       "characters": [
-        "队长",
         "许青",
-        "灿烂",
+        "许青心",
+        "许青一",
+        "许青身",
+        "许青没",
         "吴剑巫",
-        "世子",
-        "缓缓",
-        "老者",
-        "雷队",
-        "女子"
+        "许青目",
+        "许青眼",
+        "许青沉",
+        "许青在",
+        "程度",
+        "段时间",
+        "许青觉",
+        "许青有",
+        "许青抬",
+        "许青点",
+        "师兄",
+        "许青深",
+        "李有匪",
+        "许青想",
+        "许青哥",
+        "全身",
+        "许青喃",
+        "许青之",
+        "方法",
+        "师尊",
+        "许青已",
+        "许青低",
+        "明显",
+        "许青所"
       ],
       "organizations": [
         "应该不会",
@@ -9276,22 +11336,43 @@
         "一来二去三丹",
         "以及你化作牢笼的元婴",
         "古皇时期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 32,
       "range": "第 621-640 章",
       "characters": [
-        "队长",
         "许青",
-        "世子",
+        "许青心",
+        "许青一",
+        "许青身",
+        "许青没",
         "吴剑巫",
-        "青丝如血",
-        "女子",
-        "玄幽宗",
-        "缓缓",
-        "队长正",
-        "老者"
+        "许青目",
+        "程度",
+        "段时间",
+        "许青抬",
+        "许青点",
+        "李有匪",
+        "许青深",
+        "师弟",
+        "全身",
+        "明梅公",
+        "许青闻",
+        "方法",
+        "许青之",
+        "师尊",
+        "明显",
+        "解难丹",
+        "毕竟",
+        "宁炎",
+        "山脉",
+        "关注",
+        "许青摇",
+        "许青呼",
+        "满意",
+        "许青右"
       ],
       "organizations": [
         "大地将会",
@@ -9353,22 +11434,43 @@
         "居然曾经成过神灵",
         "金乌元婴",
         "体内异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 33,
       "range": "第 641-660 章",
       "characters": [
-        "队长",
         "许青",
-        "老者",
-        "缓缓",
-        "世子",
-        "吴剑巫",
-        "七爷",
-        "许青回",
-        "女子",
-        "少女"
+        "许青心",
+        "许青一",
+        "许青身",
+        "许青没",
+        "许青目",
+        "许青看",
+        "许青在",
+        "许青面",
+        "程度",
+        "段时间",
+        "柏大师",
+        "许青觉",
+        "许青有",
+        "古大陆",
+        "许青抬",
+        "师兄",
+        "时间流",
+        "许青深",
+        "许久",
+        "全身",
+        "许青喃",
+        "许青体",
+        "时辰后",
+        "明显",
+        "成功",
+        "许青低",
+        "许青收",
+        "毕竟",
+        "封印"
       ],
       "organizations": [
         "会不会",
@@ -9435,21 +11537,43 @@
         "毒禁之丹",
         "都是低阶",
         "大师的丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 34,
       "range": "第 661-680 章",
       "characters": [
-        "队长",
         "许青",
+        "许青没",
         "吴剑巫",
-        "女子",
-        "缓缓",
-        "世子",
-        "灵儿",
-        "老者",
-        "笑嘻嘻"
+        "许青看",
+        "程度",
+        "许青神",
+        "李有匪",
+        "师兄",
+        "时间流",
+        "许青深",
+        "许青哥",
+        "危机",
+        "全身",
+        "范围",
+        "许青低",
+        "山脉",
+        "宁炎",
+        "许青所",
+        "任何迟",
+        "许青全",
+        "时辰",
+        "边缘",
+        "山峰",
+        "全力以",
+        "万丈",
+        "张开大",
+        "融入",
+        "严重",
+        "任何人",
+        "队长"
       ],
       "organizations": [
         "你来帮",
@@ -9503,23 +11627,43 @@
         "成为神灵",
         "皇级功法",
         "踏入元婴"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 35,
       "range": "第 681-700 章",
       "characters": [
-        "队长",
         "许青",
-        "世子",
+        "许青身",
+        "许青一",
+        "许青没",
         "吴剑巫",
-        "缓缓",
-        "灵渊",
-        "老者",
-        "七爷",
-        "慈悲",
-        "女子",
-        "紫青上国"
+        "许青看",
+        "许青沉",
+        "许青神",
+        "明梅公",
+        "许青抬",
+        "许青点",
+        "古大陆",
+        "师兄",
+        "师弟",
+        "许青想",
+        "时之间",
+        "师尊",
+        "山脉",
+        "许青若",
+        "陈二牛",
+        "封印",
+        "宁炎",
+        "任何迟",
+        "许青而",
+        "厉之音",
+        "苏醒",
+        "许青将",
+        "习惯",
+        "关键时",
+        "许青说"
       ],
       "organizations": [
         "会不会",
@@ -9586,30 +11730,43 @@
         "属于神灵",
         "但对神灵",
         "直至神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 36,
       "range": "第 701-720 章",
       "characters": [
-        "队长",
         "许青",
-        "世子",
-        "队苌",
-        "缓缓",
-        "吴剑巫",
-        "灵儿",
-        "笑眯眯",
-        "许青回",
-        "女子",
-        "七爷",
-        "老者",
-        "紫青上国",
-        "孔祥龙",
-        "丁雪",
-        "许青的人",
-        "慈悲",
-        "张三"
+        "许青身",
+        "许青面",
+        "张司运",
+        "许青神",
+        "明梅公",
+        "古大陆",
+        "师兄",
+        "师弟",
+        "许青想",
+        "古灵皇",
+        "山脉",
+        "成功",
+        "封印",
+        "解难丹",
+        "李自化",
+        "方式",
+        "满意",
+        "许青立",
+        "明悟",
+        "队长",
+        "万物",
+        "红色",
+        "权柄",
+        "严肃",
+        "许青去",
+        "许青正",
+        "后取出",
+        "任何",
+        "满足"
       ],
       "organizations": [
         "会不会",
@@ -9667,28 +11824,43 @@
         "遗忘意境",
         "其内神灵",
         "浓郁的异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 37,
       "range": "第 721-740 章",
       "characters": [
         "许青",
-        "队长",
-        "张三",
-        "七爷",
-        "世子",
-        "紫青上国",
-        "孔祥龙",
-        "缓缓",
-        "老者",
-        "雷队",
-        "黄岩",
-        "吴剑巫",
-        "少女",
-        "许青回",
-        "女子",
-        "灵儿"
+        "封海郡",
+        "许青心",
+        "许青没",
+        "许青神",
+        "程度",
+        "许青抬",
+        "许青觉",
+        "全身",
+        "方法",
+        "封印",
+        "成功",
+        "任何迟",
+        "厉之音",
+        "许青平",
+        "后退",
+        "金乌",
+        "古怪",
+        "许青你",
+        "许青迟",
+        "严重",
+        "云涌",
+        "许青话",
+        "安排",
+        "全部",
+        "时间去",
+        "步走去",
+        "许青正",
+        "山倒海",
+        "任何"
       ],
       "organizations": [
         "没去理会",
@@ -9748,24 +11920,43 @@
         "随着符",
         "升起期",
         "在镜云人皇时期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 38,
       "range": "第 741-760 章",
       "characters": [
         "许青",
-        "缓缓",
-        "队长",
-        "孔祥龙",
-        "七爷",
-        "许青回",
-        "吴剑巫",
-        "女子",
-        "世子",
-        "老者",
-        "紫青上国",
-        "黄岩"
+        "金刚宗",
+        "封海郡",
+        "许青心",
+        "许青身",
+        "许青没",
+        "许青抬",
+        "许久",
+        "许青深",
+        "时之间",
+        "范围",
+        "许青之",
+        "时辰后",
+        "宫主",
+        "毕竟",
+        "步一顿",
+        "宗老祖",
+        "苏醒",
+        "宫宫主",
+        "许青后",
+        "时辰",
+        "方位",
+        "许青脚",
+        "安海公",
+        "万丈",
+        "后面精",
+        "许青凝",
+        "安静",
+        "许青只",
+        "全部"
       ],
       "organizations": [
         "金刚宗",
@@ -9820,21 +12011,43 @@
         "古皇时期",
         "随着丹",
         "灵藏境"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 39,
       "range": "第 761-780 章",
       "characters": [
-        "队长",
         "许青",
+        "封海郡",
+        "许青身",
+        "许青看",
+        "许青眼",
+        "许青沉",
+        "段时间",
+        "许青抬",
+        "师兄",
+        "全身",
+        "宁炎",
+        "范围",
+        "许青望",
+        "许青所",
+        "毕竟",
+        "步一顿",
         "许青回",
-        "缓缓",
-        "女子",
-        "老者",
-        "吴剑巫",
-        "孔祥龙",
-        "灵儿"
+        "许青后",
+        "许青脑",
+        "相似",
+        "许青脚",
+        "安海公",
+        "许青知",
+        "融合在",
+        "融合",
+        "严重",
+        "许青思",
+        "安排",
+        "许青闭",
+        "雷霆"
       ],
       "organizations": [
         "捕凶司",
@@ -9891,26 +12104,43 @@
         "皇级功法",
         "随着异质",
         "许青的神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 40,
       "range": "第 781-800 章",
       "characters": [
         "许青",
-        "缓缓",
-        "老者",
-        "玄雷子的弟子",
-        "紫青上国",
-        "女子",
-        "烛照",
-        "队长",
-        "七爷",
-        "世子",
-        "金乌炼万灵",
-        "许青回",
-        "吴剑巫",
-        "孔祥龙"
+        "许青心",
+        "许青一",
+        "程度",
+        "段时间",
+        "古大陆",
+        "许青抬",
+        "时间流",
+        "许久",
+        "宁炎",
+        "许青闻",
+        "明显",
+        "封印",
+        "许青所",
+        "关注",
+        "许青而",
+        "许青眯",
+        "融神流",
+        "许青睁",
+        "许青转",
+        "时间一",
+        "越发强",
+        "安静",
+        "融入",
+        "融化",
+        "许青此",
+        "许青话",
+        "许青闭",
+        "许青内",
+        "黄昏"
       ],
       "organizations": [
         "异仙流派",
@@ -9966,19 +12196,43 @@
         "好似神灵",
         "结合神灵",
         "许青体内的神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 41,
       "range": "第 801-820 章",
       "characters": [
-        "队长",
         "许青",
-        "老者",
+        "许青身",
+        "许青看",
+        "许青眼",
+        "许青沉",
+        "许青面",
+        "段时间",
+        "古大陆",
+        "许青抬",
+        "师兄",
+        "时间流",
+        "师弟",
+        "时之间",
+        "许青之",
+        "封印",
+        "融神流",
+        "关注",
+        "许青平",
+        "方式",
         "许青回",
-        "缓缓",
-        "世子",
-        "七爷"
+        "后面精",
+        "方势力",
+        "许青睁",
+        "许青说",
+        "冷漠",
+        "许青问",
+        "全部",
+        "古往今",
+        "队长",
+        "严肃"
       ],
       "organizations": [
         "星帝分宗",
@@ -10042,21 +12296,43 @@
         "唯有神灵",
         "来自神灵",
         "遗忘意境"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 42,
       "range": "第 821-840 章",
       "characters": [
-        "队长",
         "许青",
-        "世子",
-        "缓缓",
-        "老者",
-        "许青的人",
-        "笑眯眯",
-        "许青回",
-        "队长正"
+        "许青心",
+        "许青没",
+        "许青目",
+        "许青看",
+        "许青神",
+        "丁一三",
+        "许青深",
+        "任何一",
+        "成功",
+        "封印",
+        "许青所",
+        "许青低",
+        "方式",
+        "厉之音",
+        "后面精",
+        "冷漠",
+        "全部",
+        "许青接",
+        "许青双",
+        "石狮子",
+        "相互之",
+        "队长",
+        "许青以",
+        "许青头",
+        "时他",
+        "连接",
+        "白泽族",
+        "任何",
+        "宫殿"
       ],
       "organizations": [
         "会不会",
@@ -10115,16 +12391,43 @@
         "三尊神灵",
         "全身气血",
         "一身归虚四阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 43,
       "range": "第 841-860 章",
       "characters": [
         "许青",
-        "队长",
-        "许青回",
-        "缓缓"
+        "许青心",
+        "许青身",
+        "许青没",
+        "许青看",
+        "程度",
+        "丁一三",
+        "许青有",
+        "许青深",
+        "时之间",
+        "危机",
+        "全身",
+        "许青之",
+        "明显",
+        "成功",
+        "许青望",
+        "许青所",
+        "任何迟",
+        "许青收",
+        "许青如",
+        "相似",
+        "满意",
+        "习惯",
+        "许青内",
+        "步步走",
+        "雷霆",
+        "相互之",
+        "步走去",
+        "许青以",
+        "白泽族"
       ],
       "organizations": [
         "此人是月炎上神所属司",
@@ -10188,18 +12491,43 @@
         "归虚二阶",
         "许青的第四神灵",
         "第四层神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 44,
       "range": "第 861-880 章",
       "characters": [
         "许青",
-        "缓缓",
-        "老者",
-        "队长",
-        "许青回",
-        "女子"
+        "许青心",
+        "许青身",
+        "许青一",
+        "许青没",
+        "许青神",
+        "许青抬",
+        "时之间",
+        "危机",
+        "全身",
+        "范围",
+        "成功",
+        "许青若",
+        "许青所",
+        "许青收",
+        "方式",
+        "后退",
+        "方位",
+        "步走出",
+        "许青呼",
+        "习惯",
+        "融合在",
+        "融合",
+        "融入",
+        "全部",
+        "云涌",
+        "严重",
+        "时许青",
+        "许青可",
+        "山海大"
       ],
       "organizations": [
         "等待机会",
@@ -10265,19 +12593,43 @@
         "倒也符",
         "归虚三阶",
         "归虚二阶"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 45,
       "range": "第 881-900 章",
       "characters": [
-        "队长",
         "许青",
-        "缓缓",
-        "队长正",
-        "七爷",
-        "女子",
-        "老者"
+        "许青心",
+        "许青一",
+        "许青没",
+        "许青看",
+        "许青在",
+        "程度",
+        "师弟",
+        "全身",
+        "方法",
+        "封印",
+        "成功",
+        "许青体",
+        "后面精",
+        "许青来",
+        "越发强",
+        "水晶",
+        "融入",
+        "全部",
+        "许青说",
+        "许青凝",
+        "关键时",
+        "全面爆",
+        "方面",
+        "步走去",
+        "许青认",
+        "许青出",
+        "队长",
+        "焦急",
+        "边无际"
       ],
       "organizations": [
         "同样也会",
@@ -10332,22 +12684,43 @@
         "祂的境",
         "古皇时期",
         "其内异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 46,
       "range": "第 901-920 章",
       "characters": [
-        "队长",
         "许青",
-        "七爷",
-        "吴剑巫",
-        "女子",
-        "孔祥龙",
-        "缓缓",
-        "兰瑶之女",
-        "老者",
-        "雷队"
+        "许青心",
+        "许青没",
+        "许青目",
+        "许青在",
+        "许青神",
+        "程度",
+        "师弟",
+        "时之间",
+        "危机",
+        "明显",
+        "古灵皇",
+        "李自化",
+        "毕竟",
+        "方式",
+        "许青眯",
+        "方位",
+        "关键时",
+        "相关",
+        "符文",
+        "步步走",
+        "万魂丝",
+        "危机关",
+        "雷霆",
+        "万物",
+        "古往今",
+        "队长",
+        "万灵",
+        "许青曾",
+        "曾经"
       ],
       "organizations": [
         "三位司",
@@ -10403,21 +12776,43 @@
         "目中露出一抹期",
         "四周异质",
         "蕴含神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 47,
       "range": "第 921-940 章",
       "characters": [
-        "队长",
         "许青",
-        "七爷",
-        "缓缓",
-        "许青回",
-        "少女",
-        "吴剑巫",
-        "女子",
-        "世子"
+        "许青心",
+        "许青身",
+        "许青没",
+        "许青目",
+        "许青沉",
+        "许青神",
+        "程度",
+        "许青面",
+        "许青抬",
+        "师兄",
+        "许青点",
+        "时间流",
+        "许久",
+        "许青想",
+        "全身",
+        "宁炎",
+        "许青喃",
+        "明显",
+        "时辰后",
+        "师尊",
+        "毕竟",
+        "许青所",
+        "后面精",
+        "许青全",
+        "时辰",
+        "山海大",
+        "许青内",
+        "习惯",
+        "全部"
       ],
       "organizations": [
         "会不会",
@@ -10471,27 +12866,43 @@
         "还是神灵",
         "蜘蛛神灵",
         "或许神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 48,
       "range": "第 941-960 章",
       "characters": [
-        "许青",
-        "女子",
-        "烛照",
-        "缓缓",
-        "紫青上国",
-        "七爷",
-        "队长",
-        "黄岩",
-        "病鬼",
-        "开口",
-        "雷队",
-        "老者",
-        "灵儿",
-        "无尽之海",
-        "许青回"
+        "程度",
+        "时之间",
+        "古皇星",
+        "毕竟",
+        "古皇",
+        "雷霆",
+        "安排",
+        "高高在",
+        "相助",
+        "时光",
+        "雷霆轰",
+        "成神",
+        "曾经",
+        "沙哑",
+        "关键",
+        "云人皇",
+        "万古",
+        "利之芒",
+        "尤其",
+        "时崩溃",
+        "东胜人",
+        "辛万",
+        "王公大",
+        "古之",
+        "毕竟圣",
+        "全族",
+        "关键所",
+        "后背",
+        "全族之",
+        "古人族"
       ],
       "organizations": [
         "在皇宫",
@@ -10558,26 +12969,43 @@
         "其内的异质",
         "在这神灵",
         "升起期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 49,
       "range": "第 961-980 章",
       "characters": [
         "许青",
+        "封海郡",
+        "许青心",
+        "许青身",
+        "许青一",
+        "程度",
+        "段时间",
+        "时间流",
+        "全身",
+        "许青深",
+        "许青想",
+        "危机",
+        "许青喃",
+        "范围",
+        "许青若",
+        "许青所",
+        "后面精",
+        "许青而",
+        "许青摇",
+        "越发强",
+        "全部",
+        "融入",
+        "安静",
+        "许青说",
+        "颜色",
+        "符文",
+        "步步走",
+        "明悟",
         "黄岩",
-        "开口",
-        "七爷",
-        "女子",
-        "老者",
-        "少女",
-        "缓缓",
-        "世子",
-        "灵儿",
-        "许青的人",
-        "许青的人族",
-        "慈悲",
-        "队长"
+        "山倒海"
       ],
       "organizations": [
         "夏仙宫",
@@ -10635,30 +13063,43 @@
         "唯有高阶",
         "四周的异质",
         "面对神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 50,
       "range": "第 981-1000 章",
       "characters": [
-        "队长",
         "许青",
-        "世子",
-        "灵儿",
-        "开口",
-        "黄岩",
-        "七爷",
-        "金乌炼万灵",
-        "缓缓",
-        "老者",
-        "老头",
-        "吴剑巫",
-        "炎玄子",
-        "女子",
-        "张三",
-        "丁雪",
-        "少女",
-        "青秋"
+        "封海郡",
+        "许青目",
+        "古大陆",
+        "许青在",
+        "段时间",
+        "师兄",
+        "时之间",
+        "全身",
+        "许青之",
+        "封印",
+        "范围",
+        "许青所",
+        "师尊",
+        "后面精",
+        "许青收",
+        "万丈",
+        "全部",
+        "许青内",
+        "方势力",
+        "融化",
+        "融入",
+        "步步走",
+        "万物",
+        "成神",
+        "张开口",
+        "师姐",
+        "队长",
+        "边无际",
+        "温暖"
       ],
       "organizations": [
         "七血瞳",
@@ -10716,29 +13157,43 @@
         "配合异质",
         "同时异质",
         "一枚白丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 51,
       "range": "第 1001-1020 章",
       "characters": [
         "许青",
+        "封海郡",
+        "许青心",
+        "许青一",
+        "许青目",
+        "许青看",
+        "宗联盟",
+        "程度",
+        "许青神",
+        "许青面",
+        "师兄",
+        "许青点",
+        "全身",
+        "任何一",
+        "任务",
+        "封印",
+        "成功",
+        "许青所",
+        "许青走",
+        "毕竟",
+        "许青望",
+        "后面精",
+        "许青已",
+        "许青低",
+        "山脉",
+        "苏醒",
+        "许青平",
+        "相似",
         "许青回",
-        "女子",
-        "青秋",
-        "灵儿",
-        "开口",
-        "世子",
-        "缓缓",
-        "灵渊",
-        "老者",
-        "笑眯眯",
-        "吴剑巫",
-        "队长",
-        "少女",
-        "二牛",
-        "老头",
-        "七爷"
+        "游走"
       ],
       "organizations": [
         "执剑宫",
@@ -10796,24 +13251,43 @@
         "为神灵",
         "归虚一阶",
         "玄天妖月丹"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 52,
       "range": "第 1021-1040 章",
       "characters": [
         "许青",
+        "许青目",
+        "许青没",
+        "许青沉",
+        "程度",
+        "许青神",
+        "许青抬",
+        "师兄",
+        "时间流",
+        "全身",
+        "危险",
+        "毕竟",
+        "许青体",
+        "后面精",
+        "许青若",
         "许青回",
-        "女子",
-        "灵儿",
-        "开口",
-        "二牛",
-        "缓缓",
-        "仙术殿",
-        "七爷",
-        "老头",
-        "老者",
-        "紫青上国"
+        "许青右",
+        "权柄",
+        "全力以",
+        "许青睁",
+        "万物",
+        "融入",
+        "许青出",
+        "许青拿",
+        "许青盘",
+        "全力",
+        "许青当",
+        "许青头",
+        "越大",
+        "云雾"
       ],
       "organizations": [
         "应该会",
@@ -10872,23 +13346,43 @@
         "属于神灵",
         "为神灵",
         "是战争时期"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 53,
       "range": "第 1041-1060 章",
       "characters": [
         "许青",
-        "开口",
-        "缓缓",
-        "七爷",
-        "二牛",
-        "仙术殿",
-        "老者",
-        "老头",
-        "队长",
-        "吴剑巫",
-        "女子"
+        "许青身",
+        "许青心",
+        "许青一",
+        "许青目",
+        "许青没",
+        "程度",
+        "许青神",
+        "许青抬",
+        "危机",
+        "封印",
+        "成功",
+        "范围",
+        "危险",
+        "许青所",
+        "毕竟",
+        "任何迟",
+        "许青而",
+        "关注",
+        "吕凌子",
+        "厉之音",
+        "后退",
+        "方位",
+        "许青眯",
+        "许青摇",
+        "权柄",
+        "游走",
+        "全部",
+        "许青眉",
+        "许青四"
       ],
       "organizations": [
         "为何会",
@@ -10942,27 +13436,43 @@
         "目中露出期",
         "二牛目中露出期",
         "若是不符"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 54,
       "range": "第 1061-1080 章",
       "characters": [
         "许青",
-        "老头",
-        "二牛",
-        "老者",
-        "女子",
-        "缓缓",
-        "仙术殿",
-        "慈悲",
-        "开口",
-        "队长",
-        "七爷",
-        "许青回",
-        "世子",
-        "灵儿",
-        "泥狐狸"
+        "许青身",
+        "许青目",
+        "许青没",
+        "许青看",
+        "程度",
+        "师兄",
+        "许青之",
+        "明显",
+        "后面精",
+        "关注",
+        "方式",
+        "权柄",
+        "方位",
+        "全部",
+        "许青将",
+        "宫内",
+        "许青他",
+        "安排",
+        "冷笑",
+        "冷哼",
+        "左手抬",
+        "左手",
+        "时已在",
+        "相连",
+        "石门",
+        "蓝色蠕",
+        "石间发",
+        "冷开口",
+        "方主宰"
       ],
       "organizations": [
         "趁此机会",
@@ -11016,30 +13526,43 @@
         "成就神灵",
         "对于神灵",
         "都是神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 55,
       "range": "第 1081-1100 章",
       "characters": [
         "许青",
+        "许青心",
+        "许青一",
+        "许青目",
+        "许青没",
+        "许青沉",
+        "许青在",
+        "许青神",
+        "时间流",
+        "危机",
+        "许久",
+        "许青想",
+        "方法",
+        "范围",
+        "许青喃",
+        "许青所",
+        "明显",
+        "许青若",
+        "步走出",
+        "融合",
+        "许青如",
+        "宫主",
+        "许青脑",
+        "全部",
+        "许青皱",
+        "宫宫主",
+        "夏仙宫",
+        "许青睁",
         "张三",
-        "缓缓",
-        "泥狐狸",
-        "许青回",
-        "金乌炼万灵",
-        "开口",
-        "炎玄子",
-        "仙术殿",
-        "七爷",
-        "世子",
-        "海山的青年",
-        "女子",
-        "老者",
-        "少女",
-        "雷队",
-        "灵儿",
-        "二牛"
+        "许青双"
       ],
       "organizations": [
         "夏仙宫",
@@ -11095,22 +13618,43 @@
         "属于神灵",
         "无论是神灵",
         "其内神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 56,
       "range": "第 1101-1120 章",
       "characters": [
         "许青",
-        "老者",
-        "缓缓",
-        "泥狐狸",
-        "开口",
-        "第五人祖",
-        "炎玄子",
-        "女子",
-        "许青回",
-        "世子"
+        "许青一",
+        "许青目",
+        "许青沉",
+        "古大陆",
+        "程度",
+        "许青在",
+        "许青深",
+        "许青想",
+        "范围",
+        "许青喃",
+        "成功",
+        "危险",
+        "时辰后",
+        "师尊",
+        "许青若",
+        "权柄",
+        "许青已",
+        "宗门",
+        "许青默",
+        "许青低",
+        "许青脑",
+        "全部",
+        "相似",
+        "时辰",
+        "许青呼",
+        "时间一",
+        "许青无",
+        "许青转",
+        "符文"
       ],
       "organizations": [
         "整个宗门",
@@ -11169,21 +13713,43 @@
         "修为主宰初期",
         "一股神灵",
         "在那神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 57,
       "range": "第 1121-1140 章",
       "characters": [
         "许青",
-        "老者",
+        "许青心",
+        "许青目",
+        "许青沉",
+        "程度",
+        "全身",
+        "许久",
+        "后面精",
+        "许青体",
+        "方式",
+        "苏醒",
+        "全部",
         "许青回",
-        "缓缓",
-        "开口",
-        "女子",
-        "仿佛在诉",
-        "泥狐狸",
-        "少女"
+        "水晶",
+        "许青睁",
+        "万物",
+        "融入",
+        "明悟",
+        "许青明",
+        "山倒海",
+        "许青本",
+        "万物众",
+        "周环绕",
+        "沙漠",
+        "时而",
+        "时出现",
+        "祝福",
+        "时空",
+        "许青浑",
+        "全知"
       ],
       "organizations": [
         "道仙宗",
@@ -11237,20 +13803,43 @@
         "满是期",
         "满脸期",
         "每一道符"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 58,
       "range": "第 1141-1160 章",
       "characters": [
         "许青",
-        "开口",
-        "许青回",
-        "女子",
-        "泥狐狸",
-        "缓缓",
-        "老头",
-        "老者"
+        "许青心",
+        "许青身",
+        "古大陆",
+        "程度",
+        "许青神",
+        "时之间",
+        "危机",
+        "许久",
+        "范围",
+        "明显",
+        "后退",
+        "全部",
+        "云涌",
+        "许青右",
+        "万丈",
+        "万物",
+        "步走去",
+        "危机关",
+        "许青自",
+        "山倒海",
+        "金光",
+        "越大",
+        "万物众",
+        "时代",
+        "曾经",
+        "越多",
+        "范围之",
+        "容颜",
+        "方轰隆"
       ],
       "organizations": [
         "有机会",
@@ -11301,20 +13890,43 @@
         "来自神灵",
         "斩杀神灵",
         "向着神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 59,
       "range": "第 1161-1180 章",
       "characters": [
         "许青",
-        "缓缓",
-        "开口",
-        "女子",
-        "少女",
-        "雷队",
-        "二牛",
-        "老者"
+        "许青心",
+        "许青身",
+        "程度",
+        "时之间",
+        "封印",
+        "关键时",
+        "许青双",
+        "许青右",
+        "万丈",
+        "宫内",
+        "万物",
+        "许青四",
+        "雷霆",
+        "融入",
+        "凌厉",
+        "全力",
+        "相助",
+        "时空",
+        "时刻",
+        "时机",
+        "关键",
+        "方轰鸣",
+        "边界",
+        "许青浑",
+        "凌厉之",
+        "安宁",
+        "谢谢你",
+        "时空之",
+        "谢谢"
       ],
       "organizations": [
         "有机会",
@@ -11369,22 +13981,43 @@
         "许青的神灵",
         "主宰境",
         "其内异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 60,
       "range": "第 1181-1200 章",
       "characters": [
         "许青",
-        "泥狐狸",
-        "开口",
-        "二牛",
-        "老者",
-        "缓缓",
-        "许青回",
-        "女子",
-        "七爷",
-        "队长"
+        "许青心",
+        "许青一",
+        "许青目",
+        "许青没",
+        "许青沉",
+        "程度",
+        "许青在",
+        "许青面",
+        "段时间",
+        "许青抬",
+        "时之间",
+        "李梦土",
+        "许青之",
+        "许青喃",
+        "权柄",
+        "许青而",
+        "宗门",
+        "关注",
+        "步走出",
+        "全部",
+        "许青如",
+        "许青摇",
+        "许青双",
+        "许青将",
+        "云涌",
+        "颜色",
+        "相关",
+        "山峰",
+        "许青离"
       ],
       "organizations": [
         "仙宫",
@@ -11448,23 +14081,43 @@
         "每一尊神灵",
         "四周的异质",
         "浓浓的异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 61,
       "range": "第 1201-1220 章",
       "characters": [
         "许青",
-        "二牛",
-        "缓缓",
-        "泥狐狸",
-        "开口",
-        "女子",
-        "老者",
-        "黄岩",
-        "少女",
-        "灵儿",
-        "雷队"
+        "许青身",
+        "许青目",
+        "许青没",
+        "许青沉",
+        "程度",
+        "许青在",
+        "时间流",
+        "危机",
+        "全身",
+        "封印",
+        "范围",
+        "许青所",
+        "毕竟",
+        "许青若",
+        "许青眯",
+        "许青全",
+        "全部",
+        "方位",
+        "许青双",
+        "许青如",
+        "边缘",
+        "越发强",
+        "全力以",
+        "符文",
+        "时空",
+        "许青说",
+        "许青四",
+        "许青内",
+        "许青立"
       ],
       "organizations": [
         "自然也不会",
@@ -11531,19 +14184,43 @@
         "对于神灵",
         "即便是神灵",
         "无穷异质"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 62,
       "range": "第 1221-1240 章",
       "characters": [
         "许青",
-        "缓缓",
-        "开口",
-        "泥狐狸",
-        "老者",
-        "队长",
-        "许青回"
+        "许青心",
+        "许青一",
+        "程度",
+        "危机",
+        "李梦土",
+        "全身",
+        "方法",
+        "范围",
+        "许青所",
+        "任务",
+        "周正立",
+        "关注",
+        "许青眯",
+        "许青平",
+        "时空",
+        "许青等",
+        "融入",
+        "安全",
+        "山倒海",
+        "时空宪",
+        "安排",
+        "许青他",
+        "全力",
+        "孔收缩",
+        "成长",
+        "时刻",
+        "许青缓",
+        "左手抬",
+        "时他"
       ],
       "organizations": [
         "难免会",
@@ -11610,21 +14287,43 @@
         "如同神灵",
         "先天神灵",
         "无数神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 63,
       "range": "第 1241-1260 章",
       "characters": [
         "许青",
+        "许青心",
+        "许青身",
+        "许青一",
+        "许青没",
+        "程度",
+        "段时间",
+        "全身",
+        "封印",
+        "周正立",
+        "任务",
+        "毕竟",
+        "明显",
+        "许青而",
+        "关注",
+        "全部",
+        "融合",
+        "水晶",
+        "古怪",
+        "满意",
+        "全面爆",
+        "方面",
+        "高度",
+        "全力",
+        "万众瞩",
+        "封印之",
+        "越大",
         "队长",
-        "泥狐狸",
-        "许青回",
-        "开口",
-        "缓缓",
-        "老者",
-        "女子",
-        "二牛"
+        "左翼战",
+        "边前行"
       ],
       "organizations": [
         "极光仙宫",
@@ -11691,25 +14390,43 @@
         "可对神灵",
         "已有神灵",
         "每一尊神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 64,
       "range": "第 1261-1280 章",
       "characters": [
         "许青",
-        "队长",
-        "泥狐狸",
-        "许青回",
-        "许青平静",
-        "缓缓",
-        "开口",
-        "二牛",
-        "雷队",
-        "老者",
-        "慈悲",
-        "女子",
-        "笑眯眯"
+        "许青心",
+        "许青身",
+        "许青目",
+        "许青没",
+        "许青沉",
+        "许青神",
+        "许青面",
+        "许青抬",
+        "时间流",
+        "危机",
+        "许青有",
+        "封印",
+        "许青闻",
+        "任何一",
+        "许青所",
+        "后面精",
+        "危险",
+        "许青若",
+        "方式",
+        "许青体",
+        "许青眯",
+        "任何迟",
+        "许青听",
+        "许青平",
+        "许青脑",
+        "许青如",
+        "相似",
+        "冷漠",
+        "许青回"
       ],
       "organizations": [
         "在大门",
@@ -11772,31 +14489,43 @@
         "毕竟神灵",
         "一尊尊神灵",
         "斩杀两位真神"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 65,
       "range": "第 1281-1300 章",
       "characters": [
         "许青",
-        "二牛",
-        "许青平静",
-        "开口",
-        "黄岩",
-        "二牛正",
-        "老者",
-        "张三",
-        "雷队",
-        "七爷",
-        "世子",
-        "丁雪",
-        "吴剑巫",
-        "孔祥龙",
-        "青秋",
-        "灵儿",
-        "许青的人",
-        "缓缓",
-        "女子"
+        "许青心",
+        "许青目",
+        "许青一",
+        "许青神",
+        "段时间",
+        "许青抬",
+        "师兄",
+        "许青点",
+        "李梦土",
+        "许青深",
+        "周正立",
+        "许青觉",
+        "毕竟",
+        "许青平",
+        "全部",
+        "许青等",
+        "许青脑",
+        "许青如",
+        "许青后",
+        "步走去",
+        "古怪",
+        "许青转",
+        "许青无",
+        "相关",
+        "许青忽",
+        "明悟",
+        "许青自",
+        "时许青",
+        "相助"
       ],
       "organizations": [
         "极光仙宫",
@@ -11860,36 +14589,43 @@
         "都是神灵",
         "以及神灵",
         "除了神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 66,
       "range": "第 1301-1320 章",
       "characters": [
-        "世子",
-        "女子",
-        "开口",
-        "许青",
-        "笑眯眯",
-        "七爷",
-        "二牛",
-        "老者",
-        "缓缓",
-        "队长",
-        "张三",
-        "丁雪",
-        "吴剑巫",
-        "孔祥龙",
-        "灵儿",
-        "老头",
-        "许青回",
-        "许青平静",
-        "天宫",
-        "紫青上国",
-        "灵渊",
-        "雷队",
-        "泥狐狸",
-        "煌天"
+        "封海郡",
+        "古大陆",
+        "李梦土",
+        "周正立",
+        "任何一",
+        "后面精",
+        "宁炎",
+        "关注",
+        "全部",
+        "冷漠",
+        "万物",
+        "雷霆",
+        "山倒海",
+        "山峰",
+        "后几步",
+        "姚侯",
+        "夏仙",
+        "白色",
+        "花瓣",
+        "云雾",
+        "山素",
+        "相貌",
+        "任何",
+        "盛开",
+        "全部心",
+        "孔一缩",
+        "万族",
+        "蓝色",
+        "山峦",
+        "雷滚滚"
       ],
       "organizations": [
         "仿佛随时会",
@@ -11956,32 +14692,43 @@
         "其内的神灵",
         "其内神灵",
         "但环境"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 67,
       "range": "第 1321-1340 章",
       "characters": [
         "许青",
-        "七爷",
-        "老头",
-        "二牛",
-        "煌天",
-        "开口",
-        "许青回",
-        "缓缓",
-        "许青平静",
-        "张三",
-        "世子",
-        "丁雪",
-        "女子",
-        "青秋",
-        "灵儿",
-        "泥狐狸",
-        "紫青上国",
-        "吴剑巫",
-        "孔祥龙",
-        "玄幽宗"
+        "许青看",
+        "许青沉",
+        "许青神",
+        "师兄",
+        "许青点",
+        "周正立",
+        "师尊",
+        "许青若",
+        "李自化",
+        "许青低",
+        "步一顿",
+        "全部",
+        "山脉",
+        "时空",
+        "步走去",
+        "古怪",
+        "云涌",
+        "金乌",
+        "许青转",
+        "雷霆",
+        "边无际",
+        "融入",
+        "全力",
+        "凌厉",
+        "夏仙",
+        "许青第",
+        "相连",
+        "曾经",
+        "师兄我"
       ],
       "organizations": [
         "夏仙宫",
@@ -12041,22 +14788,43 @@
         "神台境",
         "一股神灵",
         "故而对神灵"
-      ]
+      ],
+      "events": []
     },
     {
       "chunk": 68,
       "range": "第 1341-1344 章",
       "characters": [
-        "老者",
-        "紫青上国",
-        "煌天",
-        "许青",
-        "许青平静",
-        "缓缓",
-        "开口",
-        "七爷",
-        "二牛",
-        "女子"
+        "全部",
+        "时空",
+        "时辰",
+        "白萧卓",
+        "融化",
+        "边无际",
+        "时光",
+        "越大",
+        "曾经",
+        "池内",
+        "白色",
+        "温柔",
+        "张开",
+        "任何",
+        "张脸",
+        "万族",
+        "何时",
+        "越高",
+        "厉哀嚎",
+        "云人皇",
+        "时也有",
+        "步一步",
+        "包裹",
+        "融化成",
+        "成片",
+        "时光流",
+        "融化在",
+        "红袍",
+        "水汽",
+        "任何言"
       ],
       "organizations": [
         "拾荒者营",
@@ -12096,7 +14864,8 @@
         "神灵",
         "真神",
         "至于神灵"
-      ]
+      ],
+      "events": []
     }
   ]
 }
