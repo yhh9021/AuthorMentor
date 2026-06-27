@@ -23,7 +23,7 @@ export async function applyDeconstructionRun(runDir: string): Promise<void> {
   await ensureDir(targetDir);
   const materialFile = path.join(targetDir, "拆书模式.md");
   const existing = await readOptionalText(materialFile);
-  const nextContent = appendMaterialItems(existing, updates.items, path.relative(workspace.root, reportPath));
+  const nextContent = appendMaterialItems(removeExistingMaterialItems(existing, updates.items), updates.items, path.relative(workspace.root, reportPath));
   await writeText(materialFile, nextContent);
   await writeText(
     path.join(runDir, "APPLIED.md"),
@@ -65,4 +65,27 @@ ${item.summary}
 `;
   });
   return `${existing.trim()}\n${sections.join("\n")}\n`;
+}
+
+function removeExistingMaterialItems(
+  existing: string,
+  items: Array<{ source?: string }>
+): string {
+  const sources = new Set(items.map((item) => item.source).filter((source): source is string => Boolean(source)));
+  if (sources.size === 0) {
+    return existing;
+  }
+  const sections = existing.split(/\n(?=## )/);
+  const kept = sections.filter((section, index) => {
+    if (index === 0) {
+      return true;
+    }
+    for (const source of sources) {
+      if (section.includes(`- 来源：${source}`)) {
+        return false;
+      }
+    }
+    return true;
+  });
+  return kept.join("\n").trimEnd();
 }
