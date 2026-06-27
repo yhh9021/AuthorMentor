@@ -55,6 +55,9 @@ export async function runFullDeconstruction(rawOptions: PrepareOptions): Promise
   const segmentSize = meta.segmentSize ?? 20;
   const text = await readSourceText(meta.bookSourceFile);
   const chapters = parseChapters(text);
+  if (chapters.length === 0) {
+    throw new Error(`未解析到章节标题：${meta.bookSourceFile}`);
+  }
   const segments = buildSegments(chapters, segmentSize);
 
   await cleanGeneratedOutputs(meta.bookDir);
