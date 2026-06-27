@@ -5,6 +5,7 @@ export type Workspace = {
   root: string;
   runsDir: string;
   globalMaterialsDir: string;
+  globalDeconstructionsDir: string;
   projectsDir: string;
 };
 
@@ -13,6 +14,7 @@ export function getWorkspace(root = process.cwd()): Workspace {
     root,
     runsDir: path.join(root, "runs"),
     globalMaterialsDir: path.join(root, "global", "materials"),
+    globalDeconstructionsDir: path.join(root, "global", "deconstructions"),
     projectsDir: path.join(root, "projects")
   };
 }

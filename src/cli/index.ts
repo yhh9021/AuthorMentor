@@ -18,6 +18,8 @@ deconstruct
   .argument("<source>", "原始小说文本或二手拆书来源文件")
   .option("--source-kind <kind>", "来源类型：原始小说文本 / 二手拆书来源", "原始小说文本")
   .option("--target-library <library>", "目标素材库：全局素材库 / 单书专属素材库", "全局素材库")
+  .option("--mode <mode>", "拆书模式：总览拆书 / 长程分段拆书", "长程分段拆书")
+  .option("--segment-size <number>", "长程分段拆书的默认章节数", "20")
   .option("--project <name>", "单书项目名")
   .option("--title <title>", "本次拆书标题")
   .action(async (source, options) => {
@@ -25,6 +27,8 @@ deconstruct
       sourcePath: source,
       sourceKind: options.sourceKind,
       targetLibrary: options.targetLibrary,
+      mode: options.mode,
+      segmentSize: options.segmentSize,
       project: options.project,
       title: options.title
     });

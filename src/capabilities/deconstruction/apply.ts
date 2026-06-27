@@ -9,9 +9,11 @@ export async function applyDeconstructionRun(runDir: string): Promise<void> {
   const reportPath = path.join(runDir, "output", "deconstruction-report.md");
   const updatesPath = path.join(runDir, "output", "material-updates.json");
   const changeRecordPath = path.join(runDir, "output", "change-record.md");
+  const metaPath = path.join(runDir, "meta.json");
 
-  await Promise.all([stat(reportPath), stat(updatesPath), stat(changeRecordPath)]);
+  await Promise.all([stat(reportPath), stat(updatesPath), stat(changeRecordPath), stat(metaPath)]);
 
+  const meta = JSON.parse(await readText(metaPath)) as { bookDir?: string };
   const updates = materialUpdateSchema.parse(JSON.parse(await readText(updatesPath)));
   const targetDir =
     updates.targetLibrary === "全局素材库"
@@ -23,9 +25,12 @@ export async function applyDeconstructionRun(runDir: string): Promise<void> {
   const existing = await readOptionalText(materialFile);
   const nextContent = appendMaterialItems(existing, updates.items, path.relative(workspace.root, reportPath));
   await writeText(materialFile, nextContent);
-  await writeText(path.join(runDir, "APPLIED.md"), `# 已应用\n\n- 目标文件：${path.relative(workspace.root, materialFile)}\n`);
+  await writeText(
+    path.join(runDir, "APPLIED.md"),
+    `# 已应用\n\n- 目标文件：${path.relative(workspace.root, materialFile)}\n- 持久拆书目录：${meta.bookDir ? path.relative(workspace.root, meta.bookDir) : "无"}\n`
+  );
 
-  await commitPaths([runDir, materialFile], `应用拆书能力产物`);
+  await commitPaths([runDir, materialFile, ...(meta.bookDir ? [meta.bookDir] : [])], `应用拆书能力产物`);
 }
 
 function requireProject(project: string | undefined): string {

@@ -28,7 +28,18 @@ runs/<run-id>/
   output/
 ```
 
-`input/` 保存本地输入材料，不进入 Git，避免把原始小说正文提交到远程仓库。
+`input/` 保存本地输入材料，不进入 Git，避免把原始小说正文提交到远程仓库。CLI 还会为每本书创建持久拆书目录：
+
+```text
+global/deconstructions/<书名>/
+  SOURCE.md
+  manifest.json
+  source/              # 原始正文副本，本地保留，不进入 Git
+  book-map/
+  segments/
+  material-cards/
+  synthesis/
+```
 
 把 `runs/<run-id>/TASK.md` 交给 Codex、Claude Code 或其他智能体执行。智能体填完 `output/` 后，应用拆书结果：
 

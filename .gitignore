@@ -1,5 +1,6 @@
 node_modules/
 dist/
 runs/*/input/
+global/deconstructions/*/source/
 .DS_Store
 .env
