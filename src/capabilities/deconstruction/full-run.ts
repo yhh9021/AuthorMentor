@@ -1044,13 +1044,18 @@ function renderStoryBibleCategory(
   profile: BookProfile
 ): string {
   const normalizedSeeds = unique(seeds).slice(0, 8);
+  const keywords = storyBibleKeywords(category, profile);
   return `# 设定集-${category}：《${title}》
 
 ## 文件用途
 
 本文件沉淀《${title}》的“${category}”。后续写作时，它应作为事实源使用：先确认规则，再写剧情；先确认代价，再兑现爽点。
 
-${normalizedSeeds.map((seed, index) => renderStoryBibleEntry(seed, index, category, chapters, segments, profile)).join("\n")}
+## 核心名词候选
+
+${keywords.length > 0 ? keywords.map((keyword) => `- ${keyword}`).join("\n") : "- 暂无稳定名词候选，需要二次精读正文补充。"}
+
+${normalizedSeeds.map((seed, index) => renderStoryBibleEntry(seed, index, category, chapters, segments, profile, keywords)).join("\n")}
 `;
 }
 
@@ -1060,15 +1065,22 @@ function renderStoryBibleEntry(
   category: string,
   chapters: Chapter[],
   segments: Segment[],
-  profile: BookProfile
+  profile: BookProfile,
+  keywords: string[]
 ): string {
   const matched = findRepresentativeSegments(seed, segments, profile, 3, index);
+  const localKeywords = unique([
+    ...keywords.filter((keyword) => seed.includes(keyword) || keyword.includes(seed.slice(0, 2))),
+    ...matched.flatMap((segment) => segment.keywords)
+  ]).slice(0, 12);
   const chapterSignals = matched
     .map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”（${segment.chapters.slice(0, 3).map((chapter) => chapter.title).join("、")}）`)
     .join("；");
   return `## ${index + 1}. ${seed}
 
 **设定定义**：在“${category}”中，${seed}承担的是规则层功能。它不是孤立名词，而是决定角色能做什么、不能做什么、通过什么成本换取收益的设定模块。
+
+**已知名词线索**：${localKeywords.length > 0 ? localKeywords.join("、") : "当前自动索引未提取到稳定名词，需要人工二次精读补充。"}
 
 **运行规则**：该设定应至少包含入口条件、升级方式、评价标准和失败后果。写作时不能只写“存在这个设定”，而要写清它如何影响选择：谁能进入，谁能解释，谁能垄断，主角怎样利用信息差或能力差获得阶段收益。
 
@@ -1170,6 +1182,26 @@ function seedBy(profile: BookProfile, pattern: RegExp): string[] {
     ...profile.onlineSignals.map((signal) => signal.label)
   ].filter((item) => pattern.test(item));
   return matched.length > 0 ? matched : profile.settingDimensions;
+}
+
+function storyBibleKeywords(category: string, profile: BookProfile): string[] {
+  const patterns: Record<string, RegExp> = {
+    修炼与能力体系: /修炼|魔法|奥术|非凡|序列|魔药|途径|武道|气血|功法|境界|筑基|结丹|金丹|元婴|法器|妖术|技能|天赋|星脉/,
+    地图与空间层级: /城|国|州|郡|县|海|山|界|星界|神域|禁区|秘境|战场|宗门|学院|议会|教会|大乾|东荒|水府|宇宙/,
+    势力与组织: /宗门|学院|教会|议会|学派|塔罗|值夜者|朝廷|军|联盟|武殿|七血瞳|执剑|士族|家族|太后|公司/,
+    资源体系: /钱|灵石|材料|知识|论文|实验|权限|声望|名望|气血|源力|训练|资源|贡献|善功|交易|信息差|音乐/,
+    人物关系与身份体系: /主角|导师|同伴|对手|反派|愚者|队长|师尊|名士|士族|太后|姑娘|老师|学生|伙伴|身份/,
+    世界规则与禁忌: /规则|禁忌|污染|失控|神灵|旧日|外神|源堡|信仰|异端|审判|历史|汉室|文明|红月|真相|代价/
+  };
+  const pattern = patterns[category] ?? /./;
+  return unique([
+    ...profile.settingDimensions,
+    ...profile.highlightDimensions,
+    ...profile.rules.flatMap((rule) => [rule.focus, rule.category, ...rule.keywords]),
+    ...profile.onlineSignals.flatMap((signal) => [signal.label, ...signal.keywords])
+  ])
+    .filter((item) => pattern.test(item))
+    .slice(0, 36);
 }
 
 async function writeQualityAudit(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
