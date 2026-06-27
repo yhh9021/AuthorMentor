@@ -23,7 +23,7 @@
     {
       "name": "语义关系数量",
       "status": "通过",
-      "detail": "实际 49，最低要求 16。"
+      "detail": "实际 48，最低要求 16。"
     },
     {
       "name": "势力组织数量",
@@ -86,6 +86,17 @@
       ]
     },
     {
+      "name": "南宫烨",
+      "mentions": 101,
+      "firstChapter": 99,
+      "lastChapter": 649,
+      "chapterCount": 72,
+      "markers": [
+        "姓名候选(97)",
+        "人物行为/发言(4)"
+      ]
+    },
+    {
       "name": "林婉仪",
       "mentions": 107,
       "firstChapter": 5,
@@ -108,14 +119,13 @@
       ]
     },
     {
-      "name": "陆无真",
-      "mentions": 82,
-      "firstChapter": 81,
-      "lastChapter": 648,
-      "chapterCount": 47,
+      "name": "宫烨",
+      "mentions": 63,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "chapterCount": 48,
       "markers": [
-        "姓名候选(81)",
-        "人物行为/发言(1)"
+        "姓名候选(63)"
       ]
     },
     {
@@ -138,37 +148,6 @@
       "markers": [
         "姓名候选(81)",
         "人物行为/发言(1)"
-      ]
-    },
-    {
-      "name": "南宫烨",
-      "mentions": 48,
-      "firstChapter": 99,
-      "lastChapter": 646,
-      "chapterCount": 40,
-      "markers": [
-        "姓名候选(44)",
-        "人物行为/发言(4)"
-      ]
-    },
-    {
-      "name": "南宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "chapterCount": 39,
-      "markers": [
-        "姓名候选(49)"
-      ]
-    },
-    {
-      "name": "宫烨知",
-      "mentions": 48,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "chapterCount": 38,
-      "markers": [
-        "姓名候选(48)"
       ]
     },
     {
@@ -245,11 +224,32 @@
       ]
     },
     {
+      "name": "吕炎",
+      "mentions": 36,
+      "firstChapter": 221,
+      "lastChapter": 467,
+      "chapterCount": 21,
+      "markers": [
+        "姓名候选(35)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
       "name": "左右查",
       "mentions": 22,
       "firstChapter": 2,
       "lastChapter": 633,
       "chapterCount": 21,
+      "markers": [
+        "姓名候选(22)"
+      ]
+    },
+    {
+      "name": "叶圣",
+      "mentions": 22,
+      "firstChapter": 83,
+      "lastChapter": 648,
+      "chapterCount": 20,
       "markers": [
         "姓名候选(22)"
       ]
@@ -265,16 +265,6 @@
       ]
     },
     {
-      "name": "叶圣",
-      "mentions": 21,
-      "firstChapter": 83,
-      "lastChapter": 648,
-      "chapterCount": 19,
-      "markers": [
-        "姓名候选(21)"
-      ]
-    },
-    {
       "name": "郭小美",
       "mentions": 21,
       "firstChapter": 476,
@@ -285,13 +275,13 @@
       ]
     },
     {
-      "name": "吕炎",
-      "mentions": 22,
-      "firstChapter": 221,
-      "lastChapter": 467,
+      "name": "姜仙",
+      "mentions": 21,
+      "firstChapter": 238,
+      "lastChapter": 647,
       "chapterCount": 18,
       "markers": [
-        "姓名候选(21)",
+        "姓名候选(20)",
         "人物行为/发言(1)"
       ]
     },
@@ -356,6 +346,16 @@
       ]
     },
     {
+      "name": "红殇",
+      "mentions": 15,
+      "firstChapter": 36,
+      "lastChapter": 641,
+      "chapterCount": 15,
+      "markers": [
+        "姓名候选(15)"
+      ]
+    },
+    {
       "name": "林大夫",
       "mentions": 18,
       "firstChapter": 32,
@@ -406,6 +406,17 @@
       ]
     },
     {
+      "name": "赵翎",
+      "mentions": 14,
+      "firstChapter": 252,
+      "lastChapter": 582,
+      "chapterCount": 13,
+      "markers": [
+        "姓名候选(12)",
+        "人物行为/发言(2)"
+      ]
+    },
+    {
       "name": "关切",
       "mentions": 13,
       "firstChapter": 12,
@@ -427,12 +438,12 @@
     },
     {
       "name": "何参",
-      "mentions": 17,
+      "mentions": 19,
       "firstChapter": 129,
       "lastChapter": 638,
       "chapterCount": 12,
       "markers": [
-        "姓名候选(14)",
+        "姓名候选(16)",
         "人物行为/发言(3)"
       ]
     },
@@ -451,17 +462,6 @@
       "mentions": 14,
       "firstChapter": 237,
       "lastChapter": 346,
-      "chapterCount": 12,
-      "markers": [
-        "姓名候选(13)",
-        "人物行为/发言(1)"
-      ]
-    },
-    {
-      "name": "姜仙",
-      "mentions": 14,
-      "firstChapter": 238,
-      "lastChapter": 573,
       "chapterCount": 12,
       "markers": [
         "姓名候选(13)",
@@ -493,16 +493,6 @@
       "mentions": 12,
       "firstChapter": 192,
       "lastChapter": 635,
-      "chapterCount": 12,
-      "markers": [
-        "姓名候选(12)"
-      ]
-    },
-    {
-      "name": "宫烨",
-      "mentions": 12,
-      "firstChapter": 209,
-      "lastChapter": 646,
       "chapterCount": 12,
       "markers": [
         "姓名候选(12)"
@@ -546,16 +536,6 @@
       "chapterCount": 11,
       "markers": [
         "姓名候选(12)"
-      ]
-    },
-    {
-      "name": "何如此",
-      "mentions": 11,
-      "firstChapter": 9,
-      "lastChapter": 638,
-      "chapterCount": 11,
-      "markers": [
-        "姓名候选(11)"
       ]
     },
     {
@@ -640,16 +620,6 @@
       ]
     },
     {
-      "name": "万万",
-      "mentions": 10,
-      "firstChapter": 15,
-      "lastChapter": 594,
-      "chapterCount": 10,
-      "markers": [
-        "姓名候选(10)"
-      ]
-    },
-    {
       "name": "山巅老",
       "mentions": 10,
       "firstChapter": 163,
@@ -690,6 +660,26 @@
       ]
     },
     {
+      "name": "师祖",
+      "mentions": 10,
+      "firstChapter": 206,
+      "lastChapter": 593,
+      "chapterCount": 9,
+      "markers": [
+        "姓名候选(10)"
+      ]
+    },
+    {
+      "name": "相公",
+      "mentions": 10,
+      "firstChapter": 286,
+      "lastChapter": 649,
+      "chapterCount": 9,
+      "markers": [
+        "姓名候选(10)"
+      ]
+    },
+    {
       "name": "文成街",
       "mentions": 9,
       "firstChapter": 5,
@@ -720,30 +710,10 @@
       ]
     },
     {
-      "name": "师祖",
-      "mentions": 9,
-      "firstChapter": 206,
-      "lastChapter": 593,
-      "chapterCount": 9,
-      "markers": [
-        "姓名候选(9)"
-      ]
-    },
-    {
       "name": "曹佛儿",
       "mentions": 12,
       "firstChapter": 93,
       "lastChapter": 322,
-      "chapterCount": 8,
-      "markers": [
-        "姓名候选(12)"
-      ]
-    },
-    {
-      "name": "吕炎知",
-      "mentions": 12,
-      "firstChapter": 324,
-      "lastChapter": 467,
       "chapterCount": 8,
       "markers": [
         "姓名候选(12)"
@@ -770,6 +740,16 @@
       ]
     },
     {
+      "name": "师长",
+      "mentions": 9,
+      "firstChapter": 101,
+      "lastChapter": 647,
+      "chapterCount": 8,
+      "markers": [
+        "姓名候选(9)"
+      ]
+    },
+    {
       "name": "华林李",
       "mentions": 9,
       "firstChapter": 102,
@@ -784,16 +764,6 @@
       "mentions": 9,
       "firstChapter": 266,
       "lastChapter": 506,
-      "chapterCount": 8,
-      "markers": [
-        "姓名候选(9)"
-      ]
-    },
-    {
-      "name": "相公",
-      "mentions": 9,
-      "firstChapter": 286,
-      "lastChapter": 649,
       "chapterCount": 8,
       "markers": [
         "姓名候选(9)"
@@ -830,30 +800,20 @@
       ]
     },
     {
-      "name": "师长",
-      "mentions": 8,
-      "firstChapter": 101,
-      "lastChapter": 647,
-      "chapterCount": 8,
-      "markers": [
-        "姓名候选(8)"
-      ]
-    },
-    {
-      "name": "红殇知",
-      "mentions": 8,
-      "firstChapter": 147,
-      "lastChapter": 625,
-      "chapterCount": 8,
-      "markers": [
-        "姓名候选(8)"
-      ]
-    },
-    {
       "name": "冷冰冰",
       "mentions": 8,
       "firstChapter": 179,
       "lastChapter": 644,
+      "chapterCount": 8,
+      "markers": [
+        "姓名候选(8)"
+      ]
+    },
+    {
+      "name": "连璧",
+      "mentions": 8,
+      "firstChapter": 276,
+      "lastChapter": 633,
       "chapterCount": 8,
       "markers": [
         "姓名候选(8)"
@@ -915,6 +875,16 @@
       "mentions": 9,
       "firstChapter": 133,
       "lastChapter": 623,
+      "chapterCount": 7,
+      "markers": [
+        "姓名候选(9)"
+      ]
+    },
+    {
+      "name": "叶祠",
+      "mentions": 9,
+      "firstChapter": 199,
+      "lastChapter": 625,
       "chapterCount": 7,
       "markers": [
         "姓名候选(9)"
@@ -991,26 +961,6 @@
       ]
     },
     {
-      "name": "连忙",
-      "mentions": 7,
-      "firstChapter": 33,
-      "lastChapter": 635,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)"
-      ]
-    },
-    {
-      "name": "红殇",
-      "mentions": 7,
-      "firstChapter": 36,
-      "lastChapter": 641,
-      "chapterCount": 7,
-      "markers": [
-        "姓名候选(7)"
-      ]
-    },
-    {
       "name": "武道七",
       "mentions": 7,
       "firstChapter": 192,
@@ -1031,14 +981,23 @@
       ]
     },
     {
-      "name": "赵翎",
+      "name": "师尊",
       "mentions": 7,
-      "firstChapter": 263,
-      "lastChapter": 582,
+      "firstChapter": 203,
+      "lastChapter": 645,
       "chapterCount": 7,
       "markers": [
-        "姓名候选(5)",
-        "人物行为/发言(2)"
+        "姓名候选(7)"
+      ]
+    },
+    {
+      "name": "魏寅",
+      "mentions": 12,
+      "firstChapter": 204,
+      "lastChapter": 314,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(12)"
       ]
     },
     {
@@ -1102,6 +1061,16 @@
       ]
     },
     {
+      "name": "郭氏",
+      "mentions": 7,
+      "firstChapter": 267,
+      "lastChapter": 279,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(7)"
+      ]
+    },
+    {
       "name": "白石步",
       "mentions": 6,
       "firstChapter": 7,
@@ -1132,16 +1101,6 @@
       ]
     },
     {
-      "name": "叶祠",
-      "mentions": 6,
-      "firstChapter": 199,
-      "lastChapter": 625,
-      "chapterCount": 6,
-      "markers": [
-        "姓名候选(6)"
-      ]
-    },
-    {
       "name": "花如月",
       "mentions": 6,
       "firstChapter": 219,
@@ -1162,20 +1121,20 @@
       ]
     },
     {
-      "name": "赵翎知",
+      "name": "安东王",
       "mentions": 6,
-      "firstChapter": 252,
-      "lastChapter": 422,
+      "firstChapter": 258,
+      "lastChapter": 442,
       "chapterCount": 6,
       "markers": [
         "姓名候选(6)"
       ]
     },
     {
-      "name": "安东王",
+      "name": "武祖",
       "mentions": 6,
-      "firstChapter": 258,
-      "lastChapter": 442,
+      "firstChapter": 274,
+      "lastChapter": 596,
       "chapterCount": 6,
       "markers": [
         "姓名候选(6)"
@@ -1196,6 +1155,16 @@
       "mentions": 6,
       "firstChapter": 367,
       "lastChapter": 571,
+      "chapterCount": 6,
+      "markers": [
+        "姓名候选(6)"
+      ]
+    },
+    {
+      "name": "谢郎",
+      "mentions": 6,
+      "firstChapter": 419,
+      "lastChapter": 591,
       "chapterCount": 6,
       "markers": [
         "姓名候选(6)"
@@ -1232,17 +1201,6 @@
       ]
     },
     {
-      "name": "太叔丹",
-      "mentions": 7,
-      "firstChapter": 36,
-      "lastChapter": 234,
-      "chapterCount": 5,
-      "markers": [
-        "姓名候选(6)",
-        "人物行为/发言(1)"
-      ]
-    },
-    {
       "name": "王爷",
       "mentions": 7,
       "firstChapter": 41,
@@ -1273,6 +1231,16 @@
       ]
     },
     {
+      "name": "范黎",
+      "mentions": 6,
+      "firstChapter": 111,
+      "lastChapter": 320,
+      "chapterCount": 5,
+      "markers": [
+        "姓名候选(6)"
+      ]
+    },
+    {
       "name": "曾经",
       "mentions": 6,
       "firstChapter": 168,
@@ -1293,10 +1261,10 @@
       ]
     },
     {
-      "name": "魏寅",
+      "name": "明真",
       "mentions": 6,
-      "firstChapter": 213,
-      "lastChapter": 314,
+      "firstChapter": 384,
+      "lastChapter": 459,
       "chapterCount": 5,
       "markers": [
         "姓名候选(6)"
@@ -1343,16 +1311,6 @@
       ]
     },
     {
-      "name": "明显能",
-      "mentions": 5,
-      "firstChapter": 45,
-      "lastChapter": 600,
-      "chapterCount": 5,
-      "markers": [
-        "姓名候选(5)"
-      ]
-    },
-    {
       "name": "相当霸",
       "mentions": 5,
       "firstChapter": 49,
@@ -1383,6 +1341,36 @@
       ]
     },
     {
+      "name": "张褚",
+      "mentions": 5,
+      "firstChapter": 91,
+      "lastChapter": 523,
+      "chapterCount": 5,
+      "markers": [
+        "姓名候选(5)"
+      ]
+    },
+    {
+      "name": "后人",
+      "mentions": 5,
+      "firstChapter": 177,
+      "lastChapter": 467,
+      "chapterCount": 5,
+      "markers": [
+        "姓名候选(5)"
+      ]
+    },
+    {
+      "name": "红颜",
+      "mentions": 5,
+      "firstChapter": 180,
+      "lastChapter": 584,
+      "chapterCount": 5,
+      "markers": [
+        "姓名候选(5)"
+      ]
+    },
+    {
       "name": "还是",
       "mentions": 5,
       "firstChapter": 190,
@@ -1403,16 +1391,6 @@
       ]
     },
     {
-      "name": "武祖",
-      "mentions": 5,
-      "firstChapter": 274,
-      "lastChapter": 596,
-      "chapterCount": 5,
-      "markers": [
-        "姓名候选(5)"
-      ]
-    },
-    {
       "name": "利禄",
       "mentions": 5,
       "firstChapter": 306,
@@ -1423,40 +1401,10 @@
       ]
     },
     {
-      "name": "师父知",
-      "mentions": 5,
-      "firstChapter": 349,
-      "lastChapter": 604,
-      "chapterCount": 5,
-      "markers": [
-        "姓名候选(5)"
-      ]
-    },
-    {
-      "name": "谢郎",
-      "mentions": 5,
-      "firstChapter": 421,
-      "lastChapter": 591,
-      "chapterCount": 5,
-      "markers": [
-        "姓名候选(5)"
-      ]
-    },
-    {
       "name": "黄麟老",
       "mentions": 5,
       "firstChapter": 431,
       "lastChapter": 643,
-      "chapterCount": 5,
-      "markers": [
-        "姓名候选(5)"
-      ]
-    },
-    {
-      "name": "师尊",
-      "mentions": 5,
-      "firstChapter": 439,
-      "lastChapter": 645,
       "chapterCount": 5,
       "markers": [
         "姓名候选(5)"
@@ -1534,10 +1482,10 @@
       ]
     },
     {
-      "name": "姜仙知",
+      "name": "沙哑",
       "mentions": 5,
-      "firstChapter": 273,
-      "lastChapter": 647,
+      "firstChapter": 118,
+      "lastChapter": 510,
       "chapterCount": 4,
       "markers": [
         "姓名候选(5)"
@@ -1568,6 +1516,16 @@
       "mentions": 4,
       "firstChapter": 7,
       "lastChapter": 234,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "常人",
+      "mentions": 4,
+      "firstChapter": 9,
+      "lastChapter": 406,
       "chapterCount": 4,
       "markers": [
         "姓名候选(4)"
@@ -1614,20 +1572,20 @@
       ]
     },
     {
-      "name": "方如此",
+      "name": "鲍肥",
       "mentions": 4,
       "firstChapter": 33,
-      "lastChapter": 446,
+      "lastChapter": 615,
       "chapterCount": 4,
       "markers": [
         "姓名候选(4)"
       ]
     },
     {
-      "name": "鲍肥",
+      "name": "武卒",
       "mentions": 4,
-      "firstChapter": 33,
-      "lastChapter": 615,
+      "firstChapter": 34,
+      "lastChapter": 133,
       "chapterCount": 4,
       "markers": [
         "姓名候选(4)"
@@ -1658,6 +1616,16 @@
       "mentions": 4,
       "firstChapter": 71,
       "lastChapter": 202,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "查案",
+      "mentions": 4,
+      "firstChapter": 72,
+      "lastChapter": 252,
       "chapterCount": 4,
       "markers": [
         "姓名候选(4)"
@@ -1704,26 +1672,6 @@
       ]
     },
     {
-      "name": "范黎",
-      "mentions": 4,
-      "firstChapter": 111,
-      "lastChapter": 320,
-      "chapterCount": 4,
-      "markers": [
-        "姓名候选(4)"
-      ]
-    },
-    {
-      "name": "沙哑",
-      "mentions": 4,
-      "firstChapter": 118,
-      "lastChapter": 510,
-      "chapterCount": 4,
-      "markers": [
-        "姓名候选(4)"
-      ]
-    },
-    {
       "name": "何妖",
       "mentions": 4,
       "firstChapter": 148,
@@ -1758,16 +1706,6 @@
       "mentions": 4,
       "firstChapter": 167,
       "lastChapter": 649,
-      "chapterCount": 4,
-      "markers": [
-        "姓名候选(4)"
-      ]
-    },
-    {
-      "name": "后人",
-      "mentions": 4,
-      "firstChapter": 177,
-      "lastChapter": 467,
       "chapterCount": 4,
       "markers": [
         "姓名候选(4)"
@@ -1854,6 +1792,16 @@
       ]
     },
     {
+      "name": "何人",
+      "mentions": 4,
+      "firstChapter": 238,
+      "lastChapter": 404,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
       "name": "巫祖祝",
       "mentions": 4,
       "firstChapter": 257,
@@ -1872,13 +1820,63 @@
       "markers": [
         "姓名候选(4)"
       ]
+    },
+    {
+      "name": "冷若冰",
+      "mentions": 4,
+      "firstChapter": 288,
+      "lastChapter": 547,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "陆师兄",
+      "mentions": 4,
+      "firstChapter": 332,
+      "lastChapter": 646,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "南宫妹子",
+      "mentions": 4,
+      "firstChapter": 336,
+      "lastChapter": 612,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "叶庄主",
+      "mentions": 4,
+      "firstChapter": 384,
+      "lastChapter": 560,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
+    },
+    {
+      "name": "关门弟",
+      "mentions": 4,
+      "firstChapter": 439,
+      "lastChapter": 576,
+      "chapterCount": 4,
+      "markers": [
+        "姓名候选(4)"
+      ]
     }
   ],
   "characterRoles": [
     {
       "name": "谢尽欢",
       "role": "主角候选",
-      "reason": "全书出现和覆盖最高，覆盖第 1-649 章。",
+      "reason": "综合主角得分最高，覆盖第 1-649 章。",
       "firstChapter": 1,
       "lastChapter": 649,
       "confidence": "中"
@@ -1900,6 +1898,14 @@
       "confidence": "中"
     },
     {
+      "name": "南宫烨",
+      "role": "导师/上位者/下属候选",
+      "reason": "谢尽欢：师尊，覆盖第 5-647 章，证据：同章共现(389)、师尊(16)、掌门(7)、救(3)、师父(3)、威胁(2)、同行(1)、对手(1)",
+      "firstChapter": 99,
+      "lastChapter": 649,
+      "confidence": "中"
+    },
+    {
       "name": "林婉仪",
       "role": "核心同伴/盟友候选",
       "reason": "谢尽欢：救，覆盖第 11-647 章，证据：同章共现(340)、救(10)、师父(5)、妹妹(2)、仇(1)、喜欢(1)、保护(1)、支援(1)",
@@ -1916,12 +1922,12 @@
       "confidence": "低"
     },
     {
-      "name": "陆无真",
-      "role": "重要配角候选",
-      "reason": "谢尽欢：掌门，覆盖第 24-644 章，证据：同章共现(62)、掌门(1)、交易(1)",
-      "firstChapter": 81,
-      "lastChapter": 648,
-      "confidence": "低"
+      "name": "宫烨",
+      "role": "导师/上位者/下属候选",
+      "reason": "谢尽欢：师尊，覆盖第 5-647 章，证据：同章共现(389)、师尊(16)、掌门(7)、救(3)、师父(3)、威胁(2)、同行(1)、对手(1)",
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "confidence": "中"
     },
     {
       "name": "叶云迟",
@@ -1938,30 +1944,6 @@
       "firstChapter": 73,
       "lastChapter": 632,
       "confidence": "中"
-    },
-    {
-      "name": "南宫烨",
-      "role": "导师/上位者/下属候选",
-      "reason": "谢尽欢：师尊，覆盖第 5-647 章，证据：同章共现(389)、师尊(16)、掌门(7)、救(3)、师父(3)、威胁(2)、同行(1)、对手(1)",
-      "firstChapter": 99,
-      "lastChapter": 646,
-      "confidence": "中"
-    },
-    {
-      "name": "南宫烨知",
-      "role": "重要配角候选",
-      "reason": "谢尽欢：救，覆盖第 125-646 章，证据：同章共现(15)、救(1)、师尊(1)",
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "confidence": "低"
-    },
-    {
-      "name": "宫烨知",
-      "role": "重要配角候选",
-      "reason": "谢尽欢：救，覆盖第 125-646 章，证据：同章共现(15)、救(1)、师尊(1)",
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "confidence": "低"
     },
     {
       "name": "胡说八",
@@ -2020,19 +2002,19 @@
       "confidence": "低"
     },
     {
+      "name": "吕炎",
+      "role": "主要对手/反派候选",
+      "reason": "谢尽欢：冲突，覆盖第 224-647 章，证据：同章共现(186)、掌门(5)、冲突(3)、追杀(2)、利用(2)、仇(2)、围攻(1)、师父(1)",
+      "firstChapter": 221,
+      "lastChapter": 467,
+      "confidence": "中"
+    },
+    {
       "name": "左右查",
       "role": "重要配角候选",
       "reason": "谢尽欢：普通共现，覆盖第 2-595 章，证据：同章共现(8)",
       "firstChapter": 2,
       "lastChapter": 633,
-      "confidence": "低"
-    },
-    {
-      "name": "司空老祖",
-      "role": "重要配角候选",
-      "reason": "谢尽欢：冲突，覆盖第 117-508 章，证据：同章共现(13)、师父(1)、冲突(1)",
-      "firstChapter": 97,
-      "lastChapter": 508,
       "confidence": "低"
     },
     {
@@ -2044,6 +2026,14 @@
       "confidence": "低"
     },
     {
+      "name": "司空老祖",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：冲突，覆盖第 117-508 章，证据：同章共现(13)、师父(1)、冲突(1)",
+      "firstChapter": 97,
+      "lastChapter": 508,
+      "confidence": "低"
+    },
+    {
       "name": "郭小美",
       "role": "重要配角候选",
       "reason": "谢尽欢：仇，覆盖第 504-638 章，证据：同章共现(10)、试探(1)、仇(1)",
@@ -2052,11 +2042,11 @@
       "confidence": "低"
     },
     {
-      "name": "吕炎",
-      "role": "主要对手/反派候选",
-      "reason": "谢尽欢：冲突，覆盖第 224-647 章，证据：同章共现(186)、掌门(5)、冲突(3)、追杀(2)、利用(2)、仇(2)、围攻(1)、师父(1)",
-      "firstChapter": 221,
-      "lastChapter": 467,
+      "name": "姜仙",
+      "role": "核心同伴/盟友候选",
+      "reason": "谢尽欢：保护，覆盖第 246-631 章，证据：同章共现(134)、保护(1)、兄弟(1)、朋友(1)、上司(1)、掌门(1)、命令(1)",
+      "firstChapter": 238,
+      "lastChapter": 647,
       "confidence": "中"
     },
     {
@@ -2108,6 +2098,14 @@
       "confidence": "低"
     },
     {
+      "name": "红殇",
+      "role": "主要对手/反派候选",
+      "reason": "谢尽欢：仇，覆盖第 6-649 章，证据：同章共现(178)、仇(2)、妹妹(2)、冲突(1)、对手(1)、上司(1)、试探(1)、师尊(1)",
+      "firstChapter": 36,
+      "lastChapter": 641,
+      "confidence": "中"
+    },
+    {
       "name": "林大夫",
       "role": "重要配角候选",
       "reason": "谢尽欢：救，覆盖第 16-606 章，证据：同章共现(16)、救(1)",
@@ -2134,7 +2132,7 @@
     {
       "name": "师尊大",
       "role": "导师/上位者/下属候选",
-      "reason": "令狐青墨：师尊，覆盖第 407-646 章，证据：师尊(9)、师父(1)",
+      "reason": "师尊：师尊，覆盖第 181-646 章，证据：师尊(38)、师父(1)、妹妹(1)、喜欢(1)",
       "firstChapter": 181,
       "lastChapter": 646,
       "confidence": "中"
@@ -2145,6 +2143,14 @@
       "reason": "谢尽欢：普通共现，覆盖第 366-452 章，证据：同章共现(20)",
       "firstChapter": 365,
       "lastChapter": 647,
+      "confidence": "低"
+    },
+    {
+      "name": "赵翎",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：仇，覆盖第 250-640 章，证据：同章共现(139)、保护(1)、师父(1)、仇(1)",
+      "firstChapter": 252,
+      "lastChapter": 582,
       "confidence": "低"
     },
     {
@@ -2188,14 +2194,6 @@
       "confidence": "低"
     },
     {
-      "name": "姜仙",
-      "role": "核心同伴/盟友候选",
-      "reason": "谢尽欢：保护，覆盖第 246-631 章，证据：同章共现(134)、保护(1)、兄弟(1)、朋友(1)、上司(1)、掌门(1)、命令(1)",
-      "firstChapter": 238,
-      "lastChapter": 573,
-      "confidence": "中"
-    },
-    {
       "name": "白昼",
       "role": "重要配角候选",
       "reason": "高频出场人物，覆盖第 114-551 章，需子 Agent 精读确认人物功能。",
@@ -2218,14 +2216,6 @@
       "firstChapter": 192,
       "lastChapter": 635,
       "confidence": "低"
-    },
-    {
-      "name": "宫烨",
-      "role": "导师/上位者/下属候选",
-      "reason": "谢尽欢：师尊，覆盖第 5-647 章，证据：同章共现(389)、师尊(16)、掌门(7)、救(3)、师父(3)、威胁(2)、同行(1)、对手(1)",
-      "firstChapter": 209,
-      "lastChapter": 646,
-      "confidence": "中"
     },
     {
       "name": "何天齐",
@@ -2257,14 +2247,6 @@
       "reason": "魏无异：救，覆盖第 192-339 章，证据：同章共现(8)、救(1)",
       "firstChapter": 305,
       "lastChapter": 629,
-      "confidence": "低"
-    },
-    {
-      "name": "何如此",
-      "role": "重要配角候选",
-      "reason": "高频出场人物，覆盖第 9-638 章，需子 Agent 精读确认人物功能。",
-      "firstChapter": 9,
-      "lastChapter": 638,
       "confidence": "低"
     },
     {
@@ -2332,14 +2314,6 @@
       "confidence": "低"
     },
     {
-      "name": "万万",
-      "role": "重要配角候选",
-      "reason": "谢尽欢：普通共现，覆盖第 55-459 章，证据：同章共现(10)",
-      "firstChapter": 15,
-      "lastChapter": 594,
-      "confidence": "低"
-    },
-    {
       "name": "山巅老",
       "role": "重要配角候选",
       "reason": "谢尽欢：掌门，覆盖第 56-631 章，证据：同章共现(9)、掌门(1)",
@@ -2357,11 +2331,11 @@
     },
     {
       "name": "李敕墨",
-      "role": "导师/上位者/下属候选",
-      "reason": "陆无真：掌门，覆盖第 161-617 章，证据：同章共现(7)、掌门(4)、儿子(1)",
+      "role": "重要配角候选",
+      "reason": "吕炎：兄弟，覆盖第 223-648 章，证据：同章共现(9)、兄弟(1)",
       "firstChapter": 140,
       "lastChapter": 647,
-      "confidence": "中"
+      "confidence": "低"
     },
     {
       "name": "穆云令",
@@ -2370,6 +2344,22 @@
       "firstChapter": 41,
       "lastChapter": 388,
       "confidence": "低"
+    },
+    {
+      "name": "师祖",
+      "role": "导师/上位者/下属候选",
+      "reason": "谢尽欢：师父，覆盖第 83-632 章，证据：同章共现(10)、师父(3)",
+      "firstChapter": 206,
+      "lastChapter": 593,
+      "confidence": "中"
+    },
+    {
+      "name": "相公",
+      "role": "导师/上位者/下属候选",
+      "reason": "南宫烨：师尊，覆盖第 387-645 章，证据：同章共现(4)、师尊(2)、儿子(1)、掌门(1)",
+      "firstChapter": 286,
+      "lastChapter": 649,
+      "confidence": "中"
     },
     {
       "name": "文成街",
@@ -2396,27 +2386,11 @@
       "confidence": "低"
     },
     {
-      "name": "师祖",
-      "role": "导师/上位者/下属候选",
-      "reason": "谢尽欢：师父，覆盖第 83-632 章，证据：同章共现(10)、师父(3)",
-      "firstChapter": 206,
-      "lastChapter": 593,
-      "confidence": "中"
-    },
-    {
       "name": "曹佛儿",
       "role": "重要配角候选",
-      "reason": "陆无真：掌门，覆盖第 13-320 章，证据：同章共现(5)、掌门(1)、命令(1)",
+      "reason": "范黎：救，覆盖第 178-338 章，证据：同章共现(7)、救(1)",
       "firstChapter": 93,
       "lastChapter": 322,
-      "confidence": "低"
-    },
-    {
-      "name": "吕炎知",
-      "role": "重要配角候选",
-      "reason": "吕炎：仇，覆盖第 324-467 章，证据：同章共现(11)、仇(1)",
-      "firstChapter": 324,
-      "lastChapter": 467,
       "confidence": "低"
     },
     {
@@ -2436,6 +2410,14 @@
       "confidence": "低"
     },
     {
+      "name": "师长",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：师父，覆盖第 101-646 章，证据：同章共现(18)、师父(1)",
+      "firstChapter": 101,
+      "lastChapter": 647,
+      "confidence": "低"
+    },
+    {
       "name": "华林李",
       "role": "重要配角候选",
       "reason": "李延儒：普通共现，覆盖第 187-604 章，证据：同章共现(8)",
@@ -2450,14 +2432,6 @@
       "firstChapter": 266,
       "lastChapter": 506,
       "confidence": "低"
-    },
-    {
-      "name": "相公",
-      "role": "导师/上位者/下属候选",
-      "reason": "南宫烨：师尊，覆盖第 387-645 章，证据：同章共现(4)、师尊(2)、儿子(1)、掌门(1)",
-      "firstChapter": 286,
-      "lastChapter": 649,
-      "confidence": "中"
     },
     {
       "name": "时插话",
@@ -2484,27 +2458,19 @@
       "confidence": "低"
     },
     {
-      "name": "师长",
-      "role": "重要配角候选",
-      "reason": "谢尽欢：师父，覆盖第 101-646 章，证据：同章共现(18)、师父(1)",
-      "firstChapter": 101,
-      "lastChapter": 647,
-      "confidence": "低"
-    },
-    {
-      "name": "红殇知",
-      "role": "重要配角候选",
-      "reason": "红殇：普通共现，覆盖第 147-625 章，证据：同章共现(8)",
-      "firstChapter": 147,
-      "lastChapter": 625,
-      "confidence": "低"
-    },
-    {
       "name": "冷冰冰",
       "role": "重要配角候选",
       "reason": "谢尽欢：盟友，覆盖第 107-631 章，证据：同章共现(11)、师父(1)、盟友(1)",
       "firstChapter": 179,
       "lastChapter": 644,
+      "confidence": "低"
+    },
+    {
+      "name": "连璧",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：试探，覆盖第 249-609 章，证据：同章共现(29)、试探(1)",
+      "firstChapter": 276,
+      "lastChapter": 633,
       "confidence": "低"
     },
     {
@@ -2514,17 +2480,49 @@
       "firstChapter": 306,
       "lastChapter": 558,
       "confidence": "低"
+    },
+    {
+      "name": "叶世荣",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：普通共现，覆盖第 116-312 章，证据：同章共现(35)",
+      "firstChapter": 117,
+      "lastChapter": 129,
+      "confidence": "低"
+    },
+    {
+      "name": "龙泊渊",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：普通共现，覆盖第 302-389 章，证据：同章共现(16)",
+      "firstChapter": 229,
+      "lastChapter": 375,
+      "confidence": "低"
+    },
+    {
+      "name": "水晶球",
+      "role": "重要配角候选",
+      "reason": "谢尽欢：普通共现，覆盖第 94-634 章，证据：同章共现(30)",
+      "firstChapter": 138,
+      "lastChapter": 581,
+      "confidence": "低"
+    },
+    {
+      "name": "谢大人",
+      "role": "重要配角候选",
+      "reason": "高频出场人物，覆盖第 25-649 章，需子 Agent 精读确认人物功能。",
+      "firstChapter": 25,
+      "lastChapter": 649,
+      "confidence": "低"
     }
   ],
   "relations": [
     {
       "source": "南宫烨",
       "target": "宫烨",
-      "mentions": 2426,
+      "mentions": 2427,
       "firstChapter": 5,
       "lastChapter": 649,
       "markers": [
-        "同章共现(2203)",
+        "同章共现(2204)",
         "师尊(93)",
         "掌门(56)",
         "师父(20)",
@@ -2583,23 +2581,6 @@
         "威胁(2)",
         "同行(1)",
         "对手(1)"
-      ]
-    },
-    {
-      "source": "谢尽欢",
-      "target": "连忙",
-      "mentions": 373,
-      "firstChapter": 1,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(359)",
-        "救(4)",
-        "师尊(3)",
-        "师父(2)",
-        "兄弟(1)",
-        "仇(1)",
-        "保护(1)",
-        "追杀(1)"
       ]
     },
     {
@@ -2717,20 +2698,6 @@
       ]
     },
     {
-      "source": "令狐青墨",
-      "target": "连忙",
-      "mentions": 122,
-      "firstChapter": 20,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(111)",
-        "朋友(5)",
-        "师尊(4)",
-        "掌门(1)",
-        "师父(1)"
-      ]
-    },
-    {
       "source": "林紫苏",
       "target": "谢尽欢",
       "mentions": 119,
@@ -2743,47 +2710,58 @@
       ]
     },
     {
-      "source": "林婉仪",
-      "target": "连忙",
-      "mentions": 112,
-      "firstChapter": 5,
-      "lastChapter": 641,
-      "markers": [
-        "同章共现(107)",
-        "救(2)",
-        "师父(1)",
-        "掌门(1)",
-        "师尊(1)"
-      ]
-    },
-    {
       "source": "南宫烨",
-      "target": "连忙",
-      "mentions": 96,
-      "firstChapter": 144,
-      "lastChapter": 647,
+      "target": "师尊",
+      "mentions": 91,
+      "firstChapter": 182,
+      "lastChapter": 645,
       "markers": [
-        "同章共现(78)",
-        "师尊(12)",
-        "掌门(4)",
-        "师父(1)",
-        "儿子(1)",
-        "姐妹(1)"
+        "师尊(91)",
+        "掌门(3)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)"
       ]
     },
     {
       "source": "宫烨",
-      "target": "连忙",
-      "mentions": 96,
-      "firstChapter": 144,
+      "target": "师尊",
+      "mentions": 91,
+      "firstChapter": 182,
+      "lastChapter": 645,
+      "markers": [
+        "师尊(91)",
+        "掌门(3)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "师尊",
+      "mentions": 76,
+      "firstChapter": 127,
       "lastChapter": 647,
       "markers": [
-        "同章共现(78)",
-        "师尊(12)",
-        "掌门(4)",
-        "师父(1)",
-        "儿子(1)",
-        "姐妹(1)"
+        "师尊(76)",
+        "师父(7)",
+        "交换(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "魏寅",
+      "mentions": 73,
+      "firstChapter": 199,
+      "lastChapter": 316,
+      "markers": [
+        "同章共现(67)",
+        "救(3)",
+        "弟子(1)",
+        "掌门(1)",
+        "对手(1)",
+        "师父(1)"
       ]
     },
     {
@@ -2816,18 +2794,6 @@
         "支援(1)",
         "师尊(1)",
         "女儿(1)"
-      ]
-    },
-    {
-      "source": "谢尽欢",
-      "target": "陆无真",
-      "mentions": 64,
-      "firstChapter": 24,
-      "lastChapter": 644,
-      "markers": [
-        "同章共现(62)",
-        "掌门(1)",
-        "交易(1)"
       ]
     },
     {
@@ -2864,90 +2830,25 @@
       ]
     },
     {
+      "source": "明真",
+      "target": "谢尽欢",
+      "mentions": 55,
+      "firstChapter": 357,
+      "lastChapter": 561,
+      "markers": [
+        "同章共现(53)",
+        "掌门(1)",
+        "对手(1)"
+      ]
+    },
+    {
       "source": "林紫苏",
-      "target": "连忙",
-      "mentions": 53,
-      "firstChapter": 5,
-      "lastChapter": 641,
+      "target": "谢郎",
+      "mentions": 54,
+      "firstChapter": 218,
+      "lastChapter": 637,
       "markers": [
-        "同章共现(52)",
-        "救(1)"
-      ]
-    },
-    {
-      "source": "陆无真",
-      "target": "魏无异",
-      "mentions": 53,
-      "firstChapter": 39,
-      "lastChapter": 621,
-      "markers": [
-        "同章共现(49)",
-        "掌门(1)",
-        "儿子(1)",
-        "对手(1)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "姜仙",
-      "target": "连忙",
-      "mentions": 53,
-      "firstChapter": 262,
-      "lastChapter": 643,
-      "markers": [
-        "同章共现(52)",
-        "救(1)"
-      ]
-    },
-    {
-      "source": "南宫烨",
-      "target": "南宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(41)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "南宫烨",
-      "target": "宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(41)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "南宫烨知",
-      "target": "宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(41)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
+        "同章共现(54)"
       ]
     },
     {
@@ -2974,6 +2875,17 @@
     },
     {
       "source": "南宫烨本",
+      "target": "宫烨",
+      "mentions": 49,
+      "firstChapter": 132,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(46)",
+        "师尊(3)"
+      ]
+    },
+    {
+      "source": "宫烨",
       "target": "宫烨本",
       "mentions": 49,
       "firstChapter": 132,
@@ -2985,17 +2897,6 @@
     },
     {
       "source": "南宫烨本",
-      "target": "宫烨",
-      "mentions": 49,
-      "firstChapter": 132,
-      "lastChapter": 646,
-      "markers": [
-        "同章共现(46)",
-        "师尊(3)"
-      ]
-    },
-    {
-      "source": "宫烨",
       "target": "宫烨本",
       "mentions": 49,
       "firstChapter": 132,
@@ -3003,40 +2904,6 @@
       "markers": [
         "同章共现(46)",
         "师尊(3)"
-      ]
-    },
-    {
-      "source": "南宫烨知",
-      "target": "宫烨",
-      "mentions": 48,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(40)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ]
-    },
-    {
-      "source": "宫烨",
-      "target": "宫烨知",
-      "mentions": 48,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(40)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
       ]
     },
     {
@@ -3079,6 +2946,18 @@
       ]
     },
     {
+      "source": "师尊",
+      "target": "谢尽欢",
+      "mentions": 45,
+      "firstChapter": 157,
+      "lastChapter": 647,
+      "markers": [
+        "师尊(45)",
+        "弟子(1)",
+        "保护(1)"
+      ]
+    },
+    {
       "source": "令狐青墨",
       "target": "赵翎",
       "mentions": 45,
@@ -3092,15 +2971,30 @@
       ]
     },
     {
-      "source": "叶云迟",
-      "target": "连忙",
-      "mentions": 42,
-      "firstChapter": 367,
-      "lastChapter": 647,
+      "source": "郭太后",
+      "target": "郭氏",
+      "mentions": 39,
+      "firstChapter": 251,
+      "lastChapter": 279,
       "markers": [
-        "同章共现(40)",
-        "掌门(1)",
-        "学生(1)"
+        "同章共现(35)",
+        "冲突(1)",
+        "兄长(1)",
+        "利用(1)",
+        "救(1)"
+      ]
+    },
+    {
+      "source": "师尊",
+      "target": "师尊大",
+      "mentions": 38,
+      "firstChapter": 181,
+      "lastChapter": 646,
+      "markers": [
+        "师尊(38)",
+        "师父(1)",
+        "妹妹(1)",
+        "喜欢(1)"
       ]
     },
     {
@@ -3133,6 +3027,23 @@
       "markers": [
         "同章共现(31)",
         "掌门(2)"
+      ]
+    },
+    {
+      "source": "魏寅",
+      "target": "魏无异",
+      "mentions": 32,
+      "firstChapter": 199,
+      "lastChapter": 339,
+      "markers": [
+        "同章共现(23)",
+        "救(3)",
+        "弟子(2)",
+        "掌门(2)",
+        "对手(1)",
+        "儿子(1)",
+        "兄弟(1)",
+        "师父(1)"
       ]
     },
     {
@@ -3171,6 +3082,17 @@
       ]
     },
     {
+      "source": "谢尽欢",
+      "target": "连璧",
+      "mentions": 30,
+      "firstChapter": 249,
+      "lastChapter": 609,
+      "markers": [
+        "同章共现(29)",
+        "试探(1)"
+      ]
+    },
+    {
       "source": "南宫烨",
       "target": "叶云迟",
       "mentions": 30,
@@ -3194,18 +3116,6 @@
         "掌门(3)",
         "老师(1)",
         "喜欢(1)"
-      ]
-    },
-    {
-      "source": "太叔丹",
-      "target": "谢尽欢",
-      "mentions": 29,
-      "firstChapter": 58,
-      "lastChapter": 315,
-      "markers": [
-        "同章共现(27)",
-        "对手(1)",
-        "雇佣(1)"
       ]
     },
     {
@@ -3393,19 +3303,6 @@
       ]
     },
     {
-      "source": "杨大彪",
-      "target": "连忙",
-      "mentions": 22,
-      "firstChapter": 2,
-      "lastChapter": 523,
-      "markers": [
-        "同章共现(17)",
-        "兄弟(3)",
-        "救(1)",
-        "朋友(1)"
-      ]
-    },
-    {
       "source": "严肃",
       "target": "令狐青墨",
       "mentions": 22,
@@ -3431,6 +3328,18 @@
         "师父(1)",
         "朋友(1)",
         "命令(1)"
+      ]
+    },
+    {
+      "source": "谢郎",
+      "target": "郭太后",
+      "mentions": 21,
+      "firstChapter": 158,
+      "lastChapter": 546,
+      "markers": [
+        "同章共现(20)",
+        "救(1)",
+        "暧昧(1)"
       ]
     },
     {
@@ -3483,16 +3392,6 @@
       ]
     },
     {
-      "source": "赵翎",
-      "target": "连忙",
-      "mentions": 20,
-      "firstChapter": 257,
-      "lastChapter": 547,
-      "markers": [
-        "同章共现(20)"
-      ]
-    },
-    {
       "source": "杨化仙",
       "target": "黄麟真",
       "mentions": 20,
@@ -3518,25 +3417,17 @@
       ]
     },
     {
-      "source": "南宫烨",
-      "target": "陆无真",
+      "source": "曾经",
+      "target": "谢尽欢",
       "mentions": 19,
-      "firstChapter": 99,
-      "lastChapter": 626,
+      "firstChapter": 8,
+      "lastChapter": 625,
       "markers": [
-        "同章共现(18)",
-        "掌门(1)"
-      ]
-    },
-    {
-      "source": "宫烨",
-      "target": "陆无真",
-      "mentions": 19,
-      "firstChapter": 99,
-      "lastChapter": 626,
-      "markers": [
-        "同章共现(18)",
-        "掌门(1)"
+        "同章共现(17)",
+        "弟子(2)",
+        "掌门(1)",
+        "父亲(1)",
+        "救(1)"
       ]
     },
     {
@@ -3564,6 +3455,18 @@
       ]
     },
     {
+      "source": "师尊",
+      "target": "白毛师",
+      "mentions": 19,
+      "firstChapter": 438,
+      "lastChapter": 645,
+      "markers": [
+        "师尊(19)",
+        "弟子(1)",
+        "掌门(1)"
+      ]
+    },
+    {
       "source": "姜仙",
       "target": "林紫苏",
       "mentions": 19,
@@ -3586,6 +3489,20 @@
         "师父(1)",
         "对手(1)",
         "女儿(1)"
+      ]
+    },
+    {
+      "source": "范黎",
+      "target": "谢尽欢",
+      "mentions": 18,
+      "firstChapter": 83,
+      "lastChapter": 388,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)",
+        "喜欢(1)",
+        "老师(1)",
+        "追杀(1)"
       ]
     },
     {
@@ -3643,27 +3560,15 @@
       ]
     },
     {
-      "source": "南宫烨知",
-      "target": "谢尽欢",
+      "source": "杨化仙",
+      "target": "连璧",
       "mentions": 17,
-      "firstChapter": 125,
-      "lastChapter": 646,
+      "firstChapter": 258,
+      "lastChapter": 598,
       "markers": [
         "同章共现(15)",
         "救(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "宫烨知",
-      "target": "谢尽欢",
-      "mentions": 17,
-      "firstChapter": 125,
-      "lastChapter": 646,
-      "markers": [
-        "同章共现(15)",
-        "救(1)",
-        "师尊(1)"
+        "冲突(1)"
       ]
     },
     {
@@ -3708,19 +3613,6 @@
       "markers": [
         "同章共现(15)",
         "试探(1)"
-      ]
-    },
-    {
-      "source": "叶圣",
-      "target": "陆无真",
-      "mentions": 16,
-      "firstChapter": 202,
-      "lastChapter": 648,
-      "markers": [
-        "同章共现(14)",
-        "师父(1)",
-        "掌门(1)",
-        "学生(1)"
       ]
     },
     {
@@ -3795,16 +3687,6 @@
       ]
     },
     {
-      "source": "连忙",
-      "target": "郭太后",
-      "mentions": 15,
-      "firstChapter": 461,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(15)"
-      ]
-    },
-    {
       "source": "林婉仪",
       "target": "林紫苏",
       "mentions": 14,
@@ -3850,17 +3732,6 @@
       ]
     },
     {
-      "source": "陆无真",
-      "target": "黄麟真",
-      "mentions": 14,
-      "firstChapter": 454,
-      "lastChapter": 632,
-      "markers": [
-        "同章共现(13)",
-        "同行(1)"
-      ]
-    },
-    {
       "source": "师祖",
       "target": "谢尽欢",
       "mentions": 13,
@@ -3869,17 +3740,6 @@
       "markers": [
         "同章共现(10)",
         "师父(3)"
-      ]
-    },
-    {
-      "source": "司空天渊",
-      "target": "陆无真",
-      "mentions": 13,
-      "firstChapter": 83,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(12)",
-        "救(1)"
       ]
     },
     {
@@ -3999,6 +3859,17 @@
       ]
     },
     {
+      "source": "叶圣",
+      "target": "连璧",
+      "mentions": 12,
+      "firstChapter": 223,
+      "lastChapter": 587,
+      "markers": [
+        "同章共现(11)",
+        "师尊(1)"
+      ]
+    },
+    {
       "source": "吕炎",
       "target": "郭太后",
       "mentions": 12,
@@ -4033,6 +3904,17 @@
       ]
     },
     {
+      "source": "谢尽欢",
+      "target": "郭氏",
+      "mentions": 12,
+      "firstChapter": 253,
+      "lastChapter": 283,
+      "markers": [
+        "同章共现(11)",
+        "冲突(1)"
+      ]
+    },
+    {
       "source": "何天齐",
       "target": "谢尽欢",
       "mentions": 12,
@@ -4041,17 +3923,6 @@
       "markers": [
         "同章共现(11)",
         "追杀(1)"
-      ]
-    },
-    {
-      "source": "吕炎",
-      "target": "吕炎知",
-      "mentions": 12,
-      "firstChapter": 324,
-      "lastChapter": 467,
-      "markers": [
-        "同章共现(11)",
-        "仇(1)"
       ]
     },
     {
@@ -4101,17 +3972,13 @@
       ]
     },
     {
-      "source": "穆云令",
-      "target": "陆无真",
-      "mentions": 11,
-      "firstChapter": 11,
-      "lastChapter": 622,
+      "source": "李延儒",
+      "target": "连璧",
+      "mentions": 12,
+      "firstChapter": 585,
+      "lastChapter": 606,
       "markers": [
-        "同章共现(7)",
-        "镇压(2)",
-        "掌门(1)",
-        "儿子(1)",
-        "兄弟(1)"
+        "同章共现(12)"
       ]
     },
     {
@@ -4148,15 +4015,15 @@
       ]
     },
     {
-      "source": "李敕墨",
-      "target": "陆无真",
+      "source": "叶圣",
+      "target": "范黎",
       "mentions": 11,
-      "firstChapter": 161,
-      "lastChapter": 617,
+      "firstChapter": 200,
+      "lastChapter": 587,
       "markers": [
-        "同章共现(7)",
-        "掌门(4)",
-        "儿子(1)"
+        "同章共现(8)",
+        "弟子(2)",
+        "学生(1)"
       ]
     },
     {
@@ -4212,16 +4079,6 @@
       ]
     },
     {
-      "source": "万万",
-      "target": "谢尽欢",
-      "mentions": 10,
-      "firstChapter": 55,
-      "lastChapter": 459,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
       "source": "山巅老",
       "target": "谢尽欢",
       "mentions": 10,
@@ -4230,6 +4087,17 @@
       "markers": [
         "同章共现(9)",
         "掌门(1)"
+      ]
+    },
+    {
+      "source": "叶圣",
+      "target": "曾经",
+      "mentions": 10,
+      "firstChapter": 114,
+      "lastChapter": 622,
+      "markers": [
+        "同章共现(8)",
+        "学生(2)"
       ]
     },
     {
@@ -4257,6 +4125,18 @@
       ]
     },
     {
+      "source": "徐观复",
+      "target": "谢尽欢",
+      "mentions": 10,
+      "firstChapter": 197,
+      "lastChapter": 288,
+      "markers": [
+        "同章共现(8)",
+        "合作(1)",
+        "仇(1)"
+      ]
+    },
+    {
       "source": "吕炎",
       "target": "李敕墨",
       "mentions": 10,
@@ -4276,6 +4156,17 @@
       "markers": [
         "同章共现(9)",
         "同行(1)"
+      ]
+    },
+    {
+      "source": "郭子淮",
+      "target": "郭氏",
+      "mentions": 10,
+      "firstChapter": 267,
+      "lastChapter": 278,
+      "markers": [
+        "同章共现(9)",
+        "兄长(1)"
       ]
     },
     {
@@ -4389,16 +4280,6 @@
       ]
     },
     {
-      "source": "何参",
-      "target": "连忙",
-      "mentions": 9,
-      "firstChapter": 54,
-      "lastChapter": 522,
-      "markers": [
-        "同章共现(9)"
-      ]
-    },
-    {
       "source": "南宫烨本",
       "target": "谢尽欢",
       "mentions": 9,
@@ -4415,6 +4296,17 @@
       "mentions": 9,
       "firstChapter": 159,
       "lastChapter": 616,
+      "markers": [
+        "同章共现(8)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "连璧",
+      "target": "黄麟真",
+      "mentions": 9,
+      "firstChapter": 191,
+      "lastChapter": 513,
       "markers": [
         "同章共现(8)",
         "师尊(1)"
@@ -4527,14 +4419,13 @@
       ]
     },
     {
-      "source": "叶云迟",
-      "target": "陆无真",
+      "source": "姜仙",
+      "target": "宫烨",
       "mentions": 9,
-      "firstChapter": 367,
-      "lastChapter": 622,
+      "firstChapter": 333,
+      "lastChapter": 573,
       "markers": [
-        "同章共现(8)",
-        "学生(1)"
+        "同章共现(9)"
       ]
     },
     {
@@ -4621,6 +4512,19 @@
       ]
     },
     {
+      "source": "穆云令",
+      "target": "范黎",
+      "mentions": 8,
+      "firstChapter": 83,
+      "lastChapter": 327,
+      "markers": [
+        "同章共现(4)",
+        "学生(2)",
+        "师父(1)",
+        "兄弟(1)"
+      ]
+    },
+    {
       "source": "步寒英",
       "target": "谢尽欢",
       "mentions": 8,
@@ -4633,13 +4537,14 @@
       ]
     },
     {
-      "source": "红殇",
-      "target": "红殇知",
+      "source": "曹佛儿",
+      "target": "范黎",
       "mentions": 8,
-      "firstChapter": 147,
-      "lastChapter": 625,
+      "firstChapter": 178,
+      "lastChapter": 338,
       "markers": [
-        "同章共现(8)"
+        "同章共现(7)",
+        "救(1)"
       ]
     },
     {
@@ -4660,6 +4565,16 @@
       "mentions": 8,
       "firstChapter": 187,
       "lastChapter": 604,
+      "markers": [
+        "同章共现(8)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "谢郎",
+      "mentions": 8,
+      "firstChapter": 188,
+      "lastChapter": 620,
       "markers": [
         "同章共现(8)"
       ]
@@ -4691,6 +4606,37 @@
       "mentions": 8,
       "firstChapter": 191,
       "lastChapter": 261,
+      "markers": [
+        "同章共现(8)"
+      ]
+    },
+    {
+      "source": "武祖",
+      "target": "谢尽欢",
+      "mentions": 8,
+      "firstChapter": 193,
+      "lastChapter": 624,
+      "markers": [
+        "同章共现(8)"
+      ]
+    },
+    {
+      "source": "叶圣",
+      "target": "武祖",
+      "mentions": 8,
+      "firstChapter": 215,
+      "lastChapter": 624,
+      "markers": [
+        "同章共现(7)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "吕炎",
+      "target": "连璧",
+      "mentions": 8,
+      "firstChapter": 222,
+      "lastChapter": 571,
       "markers": [
         "同章共现(8)"
       ]
@@ -4740,16 +4686,6 @@
       ]
     },
     {
-      "source": "姜仙",
-      "target": "宫烨",
-      "mentions": 8,
-      "firstChapter": 333,
-      "lastChapter": 573,
-      "markers": [
-        "同章共现(8)"
-      ]
-    },
-    {
       "source": "白毛师",
       "target": "谢尽欢",
       "mentions": 8,
@@ -4783,18 +4719,6 @@
       ]
     },
     {
-      "source": "曹佛儿",
-      "target": "陆无真",
-      "mentions": 7,
-      "firstChapter": 13,
-      "lastChapter": 320,
-      "markers": [
-        "同章共现(5)",
-        "掌门(1)",
-        "命令(1)"
-      ]
-    },
-    {
       "source": "林婉仪",
       "target": "红殇",
       "mentions": 7,
@@ -4822,6 +4746,20 @@
       "lastChapter": 539,
       "markers": [
         "同章共现(7)"
+      ]
+    },
+    {
+      "source": "叶祠",
+      "target": "范黎",
+      "mentions": 7,
+      "firstChapter": 83,
+      "lastChapter": 110,
+      "markers": [
+        "同章共现(3)",
+        "师父(1)",
+        "老师(1)",
+        "兄弟(1)",
+        "弟子(1)"
       ]
     },
     {
@@ -4857,16 +4795,6 @@
       ]
     },
     {
-      "source": "何天齐",
-      "target": "陆无真",
-      "mentions": 7,
-      "firstChapter": 202,
-      "lastChapter": 402,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
       "source": "魏无异",
       "target": "魏继礼",
       "mentions": 7,
@@ -4895,6 +4823,16 @@
       "mentions": 7,
       "firstChapter": 244,
       "lastChapter": 377,
+      "markers": [
+        "同章共现(7)"
+      ]
+    },
+    {
+      "source": "连璧",
+      "target": "郭太后",
+      "mentions": 7,
+      "firstChapter": 249,
+      "lastChapter": 561,
       "markers": [
         "同章共现(7)"
       ]
@@ -4934,6 +4872,28 @@
       "markers": [
         "同章共现(6)",
         "师父(1)"
+      ]
+    },
+    {
+      "source": "明真",
+      "target": "连璧",
+      "mentions": 7,
+      "firstChapter": 360,
+      "lastChapter": 561,
+      "markers": [
+        "同章共现(7)"
+      ]
+    },
+    {
+      "source": "吕炎",
+      "target": "明真",
+      "mentions": 7,
+      "firstChapter": 362,
+      "lastChapter": 429,
+      "markers": [
+        "同章共现(5)",
+        "师父(1)",
+        "兄弟(1)"
       ]
     },
     {
@@ -5014,38 +4974,16 @@
       ]
     },
     {
-      "source": "何参",
-      "target": "太叔丹",
+      "source": "张怀瑜",
+      "target": "范黎",
       "mentions": 6,
-      "firstChapter": 36,
-      "lastChapter": 619,
-      "markers": [
-        "师父(3)",
-        "同章共现(3)",
-        "仇(1)"
-      ]
-    },
-    {
-      "source": "叶祠",
-      "target": "陆无真",
-      "mentions": 6,
-      "firstChapter": 38,
-      "lastChapter": 632,
+      "firstChapter": 75,
+      "lastChapter": 310,
       "markers": [
         "同章共现(3)",
-        "儿子(1)",
-        "兄弟(1)",
-        "同行(1)"
-      ]
-    },
-    {
-      "source": "步寒英",
-      "target": "连忙",
-      "mentions": 6,
-      "firstChapter": 77,
-      "lastChapter": 639,
-      "markers": [
-        "同章共现(6)"
+        "师父(1)",
+        "老师(1)",
+        "弟子(1)"
       ]
     },
     {
@@ -5109,17 +5047,50 @@
       "markers": [
         "同章共现(6)"
       ]
+    },
+    {
+      "source": "华林李",
+      "target": "叶圣",
+      "mentions": 6,
+      "firstChapter": 188,
+      "lastChapter": 587,
+      "markers": [
+        "同章共现(5)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "徐观复",
+      "target": "武道七",
+      "mentions": 6,
+      "firstChapter": 200,
+      "lastChapter": 288,
+      "markers": [
+        "同章共现(4)",
+        "掌门(1)",
+        "仇(1)"
+      ]
+    },
+    {
+      "source": "叶圣",
+      "target": "叶祠",
+      "mentions": 6,
+      "firstChapter": 213,
+      "lastChapter": 632,
+      "markers": [
+        "同章共现(6)"
+      ]
     }
   ],
   "semanticRelations": [
     {
       "source": "南宫烨",
       "target": "宫烨",
-      "mentions": 2426,
+      "mentions": 2427,
       "firstChapter": 5,
       "lastChapter": 649,
       "markers": [
-        "同章共现(2203)",
+        "同章共现(2204)",
         "师尊(93)",
         "掌门(56)",
         "师父(20)",
@@ -5190,26 +5161,6 @@
       ],
       "group": "师徒/上下级",
       "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "谢尽欢",
-      "target": "连忙",
-      "mentions": 373,
-      "firstChapter": 1,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(359)",
-        "救(4)",
-        "师尊(3)",
-        "师父(2)",
-        "兄弟(1)",
-        "仇(1)",
-        "保护(1)",
-        "追杀(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
       "confidence": "中"
     },
     {
@@ -5348,23 +5299,6 @@
       "confidence": "中"
     },
     {
-      "source": "令狐青墨",
-      "target": "连忙",
-      "mentions": 122,
-      "firstChapter": 20,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(111)",
-        "朋友(5)",
-        "师尊(4)",
-        "掌门(1)",
-        "师父(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
       "source": "林紫苏",
       "target": "谢尽欢",
       "mentions": 119,
@@ -5380,35 +5314,17 @@
       "confidence": "低"
     },
     {
-      "source": "林婉仪",
-      "target": "连忙",
-      "mentions": 112,
-      "firstChapter": 5,
-      "lastChapter": 641,
-      "markers": [
-        "同章共现(107)",
-        "救(2)",
-        "师父(1)",
-        "掌门(1)",
-        "师尊(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师父",
-      "confidence": "中"
-    },
-    {
       "source": "南宫烨",
-      "target": "连忙",
-      "mentions": 96,
-      "firstChapter": 144,
-      "lastChapter": 647,
+      "target": "师尊",
+      "mentions": 91,
+      "firstChapter": 182,
+      "lastChapter": 645,
       "markers": [
-        "同章共现(78)",
-        "师尊(12)",
-        "掌门(4)",
-        "师父(1)",
-        "儿子(1)",
-        "姐妹(1)"
+        "师尊(91)",
+        "掌门(3)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)"
       ],
       "group": "师徒/上下级",
       "relationType": "师尊",
@@ -5416,20 +5332,52 @@
     },
     {
       "source": "宫烨",
-      "target": "连忙",
-      "mentions": 96,
-      "firstChapter": 144,
-      "lastChapter": 647,
+      "target": "师尊",
+      "mentions": 91,
+      "firstChapter": 182,
+      "lastChapter": 645,
       "markers": [
-        "同章共现(78)",
-        "师尊(12)",
-        "掌门(4)",
-        "师父(1)",
-        "儿子(1)",
-        "姐妹(1)"
+        "师尊(91)",
+        "掌门(3)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)"
       ],
       "group": "师徒/上下级",
       "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
+      "source": "令狐青墨",
+      "target": "师尊",
+      "mentions": 76,
+      "firstChapter": 127,
+      "lastChapter": 647,
+      "markers": [
+        "师尊(76)",
+        "师父(7)",
+        "交换(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
+      "source": "谢尽欢",
+      "target": "魏寅",
+      "mentions": 73,
+      "firstChapter": 199,
+      "lastChapter": 316,
+      "markers": [
+        "同章共现(67)",
+        "救(3)",
+        "弟子(1)",
+        "掌门(1)",
+        "对手(1)",
+        "师父(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "救",
       "confidence": "中"
     },
     {
@@ -5468,21 +5416,6 @@
       ],
       "group": "同盟/合作",
       "relationType": "救",
-      "confidence": "低"
-    },
-    {
-      "source": "谢尽欢",
-      "target": "陆无真",
-      "mentions": 64,
-      "firstChapter": 24,
-      "lastChapter": 644,
-      "markers": [
-        "同章共现(62)",
-        "掌门(1)",
-        "交易(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "掌门",
       "confidence": "低"
     },
     {
@@ -5528,109 +5461,32 @@
       "confidence": "低"
     },
     {
-      "source": "林紫苏",
-      "target": "连忙",
-      "mentions": 53,
-      "firstChapter": 5,
-      "lastChapter": 641,
+      "source": "明真",
+      "target": "谢尽欢",
+      "mentions": 55,
+      "firstChapter": 357,
+      "lastChapter": 561,
       "markers": [
-        "同章共现(52)",
-        "救(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
-      "confidence": "低"
-    },
-    {
-      "source": "陆无真",
-      "target": "魏无异",
-      "mentions": 53,
-      "firstChapter": 39,
-      "lastChapter": 621,
-      "markers": [
-        "同章共现(49)",
+        "同章共现(53)",
         "掌门(1)",
-        "儿子(1)",
-        "对手(1)",
-        "交易(1)"
+        "对手(1)"
       ],
       "group": "敌对/矛盾",
       "relationType": "对手",
       "confidence": "低"
     },
     {
-      "source": "姜仙",
-      "target": "连忙",
-      "mentions": 53,
-      "firstChapter": 262,
-      "lastChapter": 643,
+      "source": "林紫苏",
+      "target": "谢郎",
+      "mentions": 54,
+      "firstChapter": 218,
+      "lastChapter": 637,
       "markers": [
-        "同章共现(52)",
-        "救(1)"
+        "同章共现(54)"
       ],
-      "group": "同盟/合作",
-      "relationType": "救",
+      "group": "普通共现",
+      "relationType": "普通共现",
       "confidence": "低"
-    },
-    {
-      "source": "南宫烨",
-      "target": "南宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(41)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "南宫烨",
-      "target": "宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(41)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "南宫烨知",
-      "target": "宫烨知",
-      "mentions": 49,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(41)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
     },
     {
       "source": "南宫烨",
@@ -5662,6 +5518,20 @@
     },
     {
       "source": "南宫烨本",
+      "target": "宫烨",
+      "mentions": 49,
+      "firstChapter": 132,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(46)",
+        "师尊(3)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
+      "source": "宫烨",
       "target": "宫烨本",
       "mentions": 49,
       "firstChapter": 132,
@@ -5676,20 +5546,6 @@
     },
     {
       "source": "南宫烨本",
-      "target": "宫烨",
-      "mentions": 49,
-      "firstChapter": 132,
-      "lastChapter": 646,
-      "markers": [
-        "同章共现(46)",
-        "师尊(3)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "宫烨",
       "target": "宫烨本",
       "mentions": 49,
       "firstChapter": 132,
@@ -5697,46 +5553,6 @@
       "markers": [
         "同章共现(46)",
         "师尊(3)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "南宫烨知",
-      "target": "宫烨",
-      "mentions": 48,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(40)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师尊",
-      "confidence": "中"
-    },
-    {
-      "source": "宫烨",
-      "target": "宫烨知",
-      "mentions": 48,
-      "firstChapter": 107,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(40)",
-        "师尊(4)",
-        "师父(2)",
-        "救(1)",
-        "姐妹(1)",
-        "对手(1)",
-        "掌门(1)",
-        "命令(1)"
       ],
       "group": "师徒/上下级",
       "relationType": "师尊",
@@ -5791,6 +5607,21 @@
       "confidence": "低"
     },
     {
+      "source": "师尊",
+      "target": "谢尽欢",
+      "mentions": 45,
+      "firstChapter": 157,
+      "lastChapter": 647,
+      "markers": [
+        "师尊(45)",
+        "弟子(1)",
+        "保护(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
       "source": "令狐青墨",
       "target": "赵翎",
       "mentions": 45,
@@ -5807,19 +5638,37 @@
       "confidence": "中"
     },
     {
-      "source": "叶云迟",
-      "target": "连忙",
-      "mentions": 42,
-      "firstChapter": 367,
-      "lastChapter": 647,
+      "source": "郭太后",
+      "target": "郭氏",
+      "mentions": 39,
+      "firstChapter": 251,
+      "lastChapter": 279,
       "markers": [
-        "同章共现(40)",
-        "掌门(1)",
-        "学生(1)"
+        "同章共现(35)",
+        "冲突(1)",
+        "兄长(1)",
+        "利用(1)",
+        "救(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "冲突",
+      "confidence": "低"
+    },
+    {
+      "source": "师尊",
+      "target": "师尊大",
+      "mentions": 38,
+      "firstChapter": 181,
+      "lastChapter": 646,
+      "markers": [
+        "师尊(38)",
+        "师父(1)",
+        "妹妹(1)",
+        "喜欢(1)"
       ],
       "group": "师徒/上下级",
-      "relationType": "掌门",
-      "confidence": "低"
+      "relationType": "师尊",
+      "confidence": "中"
     },
     {
       "source": "叶世荣",
@@ -5861,6 +5710,26 @@
       "group": "师徒/上下级",
       "relationType": "掌门",
       "confidence": "低"
+    },
+    {
+      "source": "魏寅",
+      "target": "魏无异",
+      "mentions": 32,
+      "firstChapter": 199,
+      "lastChapter": 339,
+      "markers": [
+        "同章共现(23)",
+        "救(3)",
+        "弟子(2)",
+        "掌门(2)",
+        "对手(1)",
+        "儿子(1)",
+        "兄弟(1)",
+        "师父(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "弟子",
+      "confidence": "中"
     },
     {
       "source": "侯管家",
@@ -5907,6 +5776,20 @@
       "confidence": "低"
     },
     {
+      "source": "谢尽欢",
+      "target": "连璧",
+      "mentions": 30,
+      "firstChapter": 249,
+      "lastChapter": 609,
+      "markers": [
+        "同章共现(29)",
+        "试探(1)"
+      ],
+      "group": "交易/利用",
+      "relationType": "试探",
+      "confidence": "低"
+    },
+    {
       "source": "南宫烨",
       "target": "叶云迟",
       "mentions": 30,
@@ -5937,21 +5820,6 @@
       "group": "师徒/上下级",
       "relationType": "掌门",
       "confidence": "中"
-    },
-    {
-      "source": "太叔丹",
-      "target": "谢尽欢",
-      "mentions": 29,
-      "firstChapter": 58,
-      "lastChapter": 315,
-      "markers": [
-        "同章共现(27)",
-        "对手(1)",
-        "雇佣(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "对手",
-      "confidence": "低"
     },
     {
       "source": "沈金玉",
@@ -6186,22 +6054,6 @@
       "confidence": "低"
     },
     {
-      "source": "杨大彪",
-      "target": "连忙",
-      "mentions": 22,
-      "firstChapter": 2,
-      "lastChapter": 523,
-      "markers": [
-        "同章共现(17)",
-        "兄弟(3)",
-        "救(1)",
-        "朋友(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "兄弟",
-      "confidence": "中"
-    },
-    {
       "source": "严肃",
       "target": "令狐青墨",
       "mentions": 22,
@@ -6233,6 +6085,21 @@
       ],
       "group": "师徒/上下级",
       "relationType": "师父",
+      "confidence": "低"
+    },
+    {
+      "source": "谢郎",
+      "target": "郭太后",
+      "mentions": 21,
+      "firstChapter": 158,
+      "lastChapter": 546,
+      "markers": [
+        "同章共现(20)",
+        "救(1)",
+        "暧昧(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "救",
       "confidence": "低"
     },
     {
@@ -6297,19 +6164,6 @@
       "confidence": "低"
     },
     {
-      "source": "赵翎",
-      "target": "连忙",
-      "mentions": 20,
-      "firstChapter": 257,
-      "lastChapter": 547,
-      "markers": [
-        "同章共现(20)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "杨化仙",
       "target": "黄麟真",
       "mentions": 20,
@@ -6341,32 +6195,21 @@
       "confidence": "低"
     },
     {
-      "source": "南宫烨",
-      "target": "陆无真",
+      "source": "曾经",
+      "target": "谢尽欢",
       "mentions": 19,
-      "firstChapter": 99,
-      "lastChapter": 626,
+      "firstChapter": 8,
+      "lastChapter": 625,
       "markers": [
-        "同章共现(18)",
-        "掌门(1)"
+        "同章共现(17)",
+        "弟子(2)",
+        "掌门(1)",
+        "父亲(1)",
+        "救(1)"
       ],
       "group": "师徒/上下级",
-      "relationType": "掌门",
-      "confidence": "低"
-    },
-    {
-      "source": "宫烨",
-      "target": "陆无真",
-      "mentions": 19,
-      "firstChapter": 99,
-      "lastChapter": 626,
-      "markers": [
-        "同章共现(18)",
-        "掌门(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "掌门",
-      "confidence": "低"
+      "relationType": "弟子",
+      "confidence": "中"
     },
     {
       "source": "师长",
@@ -6399,6 +6242,21 @@
       "confidence": "低"
     },
     {
+      "source": "师尊",
+      "target": "白毛师",
+      "mentions": 19,
+      "firstChapter": 438,
+      "lastChapter": 645,
+      "markers": [
+        "师尊(19)",
+        "弟子(1)",
+        "掌门(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "中"
+    },
+    {
       "source": "姜仙",
       "target": "林紫苏",
       "mentions": 19,
@@ -6427,6 +6285,23 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "对手",
+      "confidence": "低"
+    },
+    {
+      "source": "范黎",
+      "target": "谢尽欢",
+      "mentions": 18,
+      "firstChapter": 83,
+      "lastChapter": 388,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)",
+        "喜欢(1)",
+        "老师(1)",
+        "追杀(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师父",
       "confidence": "低"
     },
     {
@@ -6499,33 +6374,18 @@
       "confidence": "低"
     },
     {
-      "source": "南宫烨知",
-      "target": "谢尽欢",
+      "source": "杨化仙",
+      "target": "连璧",
       "mentions": 17,
-      "firstChapter": 125,
-      "lastChapter": 646,
+      "firstChapter": 258,
+      "lastChapter": 598,
       "markers": [
         "同章共现(15)",
         "救(1)",
-        "师尊(1)"
+        "冲突(1)"
       ],
-      "group": "同盟/合作",
-      "relationType": "救",
-      "confidence": "低"
-    },
-    {
-      "source": "宫烨知",
-      "target": "谢尽欢",
-      "mentions": 17,
-      "firstChapter": 125,
-      "lastChapter": 646,
-      "markers": [
-        "同章共现(15)",
-        "救(1)",
-        "师尊(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
+      "group": "敌对/矛盾",
+      "relationType": "冲突",
       "confidence": "低"
     },
     {
@@ -6583,22 +6443,6 @@
       "group": "交易/利用",
       "relationType": "试探",
       "confidence": "低"
-    },
-    {
-      "source": "叶圣",
-      "target": "陆无真",
-      "mentions": 16,
-      "firstChapter": 202,
-      "lastChapter": 648,
-      "markers": [
-        "同章共现(14)",
-        "师父(1)",
-        "掌门(1)",
-        "学生(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "师父",
-      "confidence": "中"
     },
     {
       "source": "谢尽欢",
@@ -6690,19 +6534,6 @@
       "confidence": "中"
     },
     {
-      "source": "连忙",
-      "target": "郭太后",
-      "mentions": 15,
-      "firstChapter": 461,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(15)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "林婉仪",
       "target": "林紫苏",
       "mentions": 14,
@@ -6760,20 +6591,6 @@
       "confidence": "低"
     },
     {
-      "source": "陆无真",
-      "target": "黄麟真",
-      "mentions": 14,
-      "firstChapter": 454,
-      "lastChapter": 632,
-      "markers": [
-        "同章共现(13)",
-        "同行(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "同行",
-      "confidence": "低"
-    },
-    {
       "source": "师祖",
       "target": "谢尽欢",
       "mentions": 13,
@@ -6786,20 +6603,6 @@
       "group": "师徒/上下级",
       "relationType": "师父",
       "confidence": "中"
-    },
-    {
-      "source": "司空天渊",
-      "target": "陆无真",
-      "mentions": 13,
-      "firstChapter": 83,
-      "lastChapter": 519,
-      "markers": [
-        "同章共现(12)",
-        "救(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "救",
-      "confidence": "低"
     },
     {
       "source": "南宫烨",
@@ -6948,6 +6751,20 @@
       "confidence": "低"
     },
     {
+      "source": "叶圣",
+      "target": "连璧",
+      "mentions": 12,
+      "firstChapter": 223,
+      "lastChapter": 587,
+      "markers": [
+        "同章共现(11)",
+        "师尊(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "低"
+    },
+    {
       "source": "吕炎",
       "target": "郭太后",
       "mentions": 12,
@@ -6991,6 +6808,20 @@
       "confidence": "低"
     },
     {
+      "source": "谢尽欢",
+      "target": "郭氏",
+      "mentions": 12,
+      "firstChapter": 253,
+      "lastChapter": 283,
+      "markers": [
+        "同章共现(11)",
+        "冲突(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "冲突",
+      "confidence": "低"
+    },
+    {
       "source": "何天齐",
       "target": "谢尽欢",
       "mentions": 12,
@@ -7002,20 +6833,6 @@
       ],
       "group": "敌对/矛盾",
       "relationType": "追杀",
-      "confidence": "低"
-    },
-    {
-      "source": "吕炎",
-      "target": "吕炎知",
-      "mentions": 12,
-      "firstChapter": 324,
-      "lastChapter": 467,
-      "markers": [
-        "同章共现(11)",
-        "仇(1)"
-      ],
-      "group": "敌对/矛盾",
-      "relationType": "仇",
       "confidence": "低"
     },
     {
@@ -7077,20 +6894,16 @@
       "confidence": "低"
     },
     {
-      "source": "穆云令",
-      "target": "陆无真",
-      "mentions": 11,
-      "firstChapter": 11,
-      "lastChapter": 622,
+      "source": "李延儒",
+      "target": "连璧",
+      "mentions": 12,
+      "firstChapter": 585,
+      "lastChapter": 606,
       "markers": [
-        "同章共现(7)",
-        "镇压(2)",
-        "掌门(1)",
-        "儿子(1)",
-        "兄弟(1)"
+        "同章共现(12)"
       ],
-      "group": "敌对/矛盾",
-      "relationType": "镇压",
+      "group": "普通共现",
+      "relationType": "普通共现",
       "confidence": "低"
     },
     {
@@ -7136,18 +6949,18 @@
       "confidence": "低"
     },
     {
-      "source": "李敕墨",
-      "target": "陆无真",
+      "source": "叶圣",
+      "target": "范黎",
       "mentions": 11,
-      "firstChapter": 161,
-      "lastChapter": 617,
+      "firstChapter": 200,
+      "lastChapter": 587,
       "markers": [
-        "同章共现(7)",
-        "掌门(4)",
-        "儿子(1)"
+        "同章共现(8)",
+        "弟子(2)",
+        "学生(1)"
       ],
       "group": "师徒/上下级",
-      "relationType": "掌门",
+      "relationType": "弟子",
       "confidence": "中"
     },
     {
@@ -7218,19 +7031,6 @@
       "confidence": "低"
     },
     {
-      "source": "万万",
-      "target": "谢尽欢",
-      "mentions": 10,
-      "firstChapter": 55,
-      "lastChapter": 459,
-      "markers": [
-        "同章共现(10)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "山巅老",
       "target": "谢尽欢",
       "mentions": 10,
@@ -7242,6 +7042,20 @@
       ],
       "group": "师徒/上下级",
       "relationType": "掌门",
+      "confidence": "低"
+    },
+    {
+      "source": "叶圣",
+      "target": "曾经",
+      "mentions": 10,
+      "firstChapter": 114,
+      "lastChapter": 622,
+      "markers": [
+        "同章共现(8)",
+        "学生(2)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "学生",
       "confidence": "低"
     },
     {
@@ -7275,6 +7089,21 @@
       "confidence": "低"
     },
     {
+      "source": "徐观复",
+      "target": "谢尽欢",
+      "mentions": 10,
+      "firstChapter": 197,
+      "lastChapter": 288,
+      "markers": [
+        "同章共现(8)",
+        "合作(1)",
+        "仇(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "仇",
+      "confidence": "低"
+    },
+    {
       "source": "吕炎",
       "target": "李敕墨",
       "mentions": 10,
@@ -7300,6 +7129,20 @@
       ],
       "group": "同盟/合作",
       "relationType": "同行",
+      "confidence": "低"
+    },
+    {
+      "source": "郭子淮",
+      "target": "郭氏",
+      "mentions": 10,
+      "firstChapter": 267,
+      "lastChapter": 278,
+      "markers": [
+        "同章共现(9)",
+        "兄长(1)"
+      ],
+      "group": "亲属/情感",
+      "relationType": "兄长",
       "confidence": "低"
     },
     {
@@ -7443,19 +7286,6 @@
       "confidence": "低"
     },
     {
-      "source": "何参",
-      "target": "连忙",
-      "mentions": 9,
-      "firstChapter": 54,
-      "lastChapter": 522,
-      "markers": [
-        "同章共现(9)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "南宫烨本",
       "target": "谢尽欢",
       "mentions": 9,
@@ -7475,6 +7305,20 @@
       "mentions": 9,
       "firstChapter": 159,
       "lastChapter": 616,
+      "markers": [
+        "同章共现(8)",
+        "师尊(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师尊",
+      "confidence": "低"
+    },
+    {
+      "source": "连璧",
+      "target": "黄麟真",
+      "mentions": 9,
+      "firstChapter": 191,
+      "lastChapter": 513,
       "markers": [
         "同章共现(8)",
         "师尊(1)"
@@ -7620,17 +7464,16 @@
       "confidence": "低"
     },
     {
-      "source": "叶云迟",
-      "target": "陆无真",
+      "source": "姜仙",
+      "target": "宫烨",
       "mentions": 9,
-      "firstChapter": 367,
-      "lastChapter": 622,
+      "firstChapter": 333,
+      "lastChapter": 573,
       "markers": [
-        "同章共现(8)",
-        "学生(1)"
+        "同章共现(9)"
       ],
-      "group": "师徒/上下级",
-      "relationType": "学生",
+      "group": "普通共现",
+      "relationType": "普通共现",
       "confidence": "低"
     },
     {
@@ -7741,6 +7584,22 @@
       "confidence": "低"
     },
     {
+      "source": "穆云令",
+      "target": "范黎",
+      "mentions": 8,
+      "firstChapter": 83,
+      "lastChapter": 327,
+      "markers": [
+        "同章共现(4)",
+        "学生(2)",
+        "师父(1)",
+        "兄弟(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "学生",
+      "confidence": "中"
+    },
+    {
       "source": "步寒英",
       "target": "谢尽欢",
       "mentions": 8,
@@ -7756,16 +7615,17 @@
       "confidence": "低"
     },
     {
-      "source": "红殇",
-      "target": "红殇知",
+      "source": "曹佛儿",
+      "target": "范黎",
       "mentions": 8,
-      "firstChapter": 147,
-      "lastChapter": 625,
+      "firstChapter": 178,
+      "lastChapter": 338,
       "markers": [
-        "同章共现(8)"
+        "同章共现(7)",
+        "救(1)"
       ],
-      "group": "普通共现",
-      "relationType": "普通共现",
+      "group": "同盟/合作",
+      "relationType": "救",
       "confidence": "低"
     },
     {
@@ -7789,6 +7649,19 @@
       "mentions": 8,
       "firstChapter": 187,
       "lastChapter": 604,
+      "markers": [
+        "同章共现(8)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "谢尽欢",
+      "target": "谢郎",
+      "mentions": 8,
+      "firstChapter": 188,
+      "lastChapter": 620,
       "markers": [
         "同章共现(8)"
       ],
@@ -7829,6 +7702,46 @@
       "mentions": 8,
       "firstChapter": 191,
       "lastChapter": 261,
+      "markers": [
+        "同章共现(8)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "武祖",
+      "target": "谢尽欢",
+      "mentions": 8,
+      "firstChapter": 193,
+      "lastChapter": 624,
+      "markers": [
+        "同章共现(8)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "叶圣",
+      "target": "武祖",
+      "mentions": 8,
+      "firstChapter": 215,
+      "lastChapter": 624,
+      "markers": [
+        "同章共现(7)",
+        "师父(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师父",
+      "confidence": "低"
+    },
+    {
+      "source": "吕炎",
+      "target": "连璧",
+      "mentions": 8,
+      "firstChapter": 222,
+      "lastChapter": 571,
       "markers": [
         "同章共现(8)"
       ],
@@ -7893,19 +7806,6 @@
       "confidence": "低"
     },
     {
-      "source": "姜仙",
-      "target": "宫烨",
-      "mentions": 8,
-      "firstChapter": 333,
-      "lastChapter": 573,
-      "markers": [
-        "同章共现(8)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "白毛师",
       "target": "谢尽欢",
       "mentions": 8,
@@ -7948,21 +7848,6 @@
       "confidence": "低"
     },
     {
-      "source": "曹佛儿",
-      "target": "陆无真",
-      "mentions": 7,
-      "firstChapter": 13,
-      "lastChapter": 320,
-      "markers": [
-        "同章共现(5)",
-        "掌门(1)",
-        "命令(1)"
-      ],
-      "group": "师徒/上下级",
-      "relationType": "掌门",
-      "confidence": "低"
-    },
-    {
       "source": "林婉仪",
       "target": "红殇",
       "mentions": 7,
@@ -8000,6 +7885,23 @@
       "group": "普通共现",
       "relationType": "普通共现",
       "confidence": "低"
+    },
+    {
+      "source": "叶祠",
+      "target": "范黎",
+      "mentions": 7,
+      "firstChapter": 83,
+      "lastChapter": 110,
+      "markers": [
+        "同章共现(3)",
+        "师父(1)",
+        "老师(1)",
+        "兄弟(1)",
+        "弟子(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "师父",
+      "confidence": "中"
     },
     {
       "source": "曹佛儿",
@@ -8043,19 +7945,6 @@
       "confidence": "低"
     },
     {
-      "source": "何天齐",
-      "target": "陆无真",
-      "mentions": 7,
-      "firstChapter": 202,
-      "lastChapter": 402,
-      "markers": [
-        "同章共现(7)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
-    },
-    {
       "source": "魏无异",
       "target": "魏继礼",
       "mentions": 7,
@@ -8090,6 +7979,19 @@
       "mentions": 7,
       "firstChapter": 244,
       "lastChapter": 377,
+      "markers": [
+        "同章共现(7)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "连璧",
+      "target": "郭太后",
+      "mentions": 7,
+      "firstChapter": 249,
+      "lastChapter": 561,
       "markers": [
         "同章共现(7)"
       ],
@@ -8141,6 +8043,34 @@
       ],
       "group": "师徒/上下级",
       "relationType": "师父",
+      "confidence": "低"
+    },
+    {
+      "source": "明真",
+      "target": "连璧",
+      "mentions": 7,
+      "firstChapter": 360,
+      "lastChapter": 561,
+      "markers": [
+        "同章共现(7)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "吕炎",
+      "target": "明真",
+      "mentions": 7,
+      "firstChapter": 362,
+      "lastChapter": 429,
+      "markers": [
+        "同章共现(5)",
+        "师父(1)",
+        "兄弟(1)"
+      ],
+      "group": "同盟/合作",
+      "relationType": "兄弟",
       "confidence": "低"
     },
     {
@@ -8242,48 +8172,20 @@
       "confidence": "低"
     },
     {
-      "source": "何参",
-      "target": "太叔丹",
+      "source": "张怀瑜",
+      "target": "范黎",
       "mentions": 6,
-      "firstChapter": 36,
-      "lastChapter": 619,
+      "firstChapter": 75,
+      "lastChapter": 310,
       "markers": [
-        "师父(3)",
         "同章共现(3)",
-        "仇(1)"
+        "师父(1)",
+        "老师(1)",
+        "弟子(1)"
       ],
       "group": "师徒/上下级",
       "relationType": "师父",
       "confidence": "中"
-    },
-    {
-      "source": "叶祠",
-      "target": "陆无真",
-      "mentions": 6,
-      "firstChapter": 38,
-      "lastChapter": 632,
-      "markers": [
-        "同章共现(3)",
-        "儿子(1)",
-        "兄弟(1)",
-        "同行(1)"
-      ],
-      "group": "同盟/合作",
-      "relationType": "兄弟",
-      "confidence": "低"
-    },
-    {
-      "source": "步寒英",
-      "target": "连忙",
-      "mentions": 6,
-      "firstChapter": 77,
-      "lastChapter": 639,
-      "markers": [
-        "同章共现(6)"
-      ],
-      "group": "普通共现",
-      "relationType": "普通共现",
-      "confidence": "低"
     },
     {
       "source": "林婉仪",
@@ -8358,6 +8260,48 @@
       "mentions": 6,
       "firstChapter": 182,
       "lastChapter": 384,
+      "markers": [
+        "同章共现(6)"
+      ],
+      "group": "普通共现",
+      "relationType": "普通共现",
+      "confidence": "低"
+    },
+    {
+      "source": "华林李",
+      "target": "叶圣",
+      "mentions": 6,
+      "firstChapter": 188,
+      "lastChapter": 587,
+      "markers": [
+        "同章共现(5)",
+        "老师(1)"
+      ],
+      "group": "师徒/上下级",
+      "relationType": "老师",
+      "confidence": "低"
+    },
+    {
+      "source": "徐观复",
+      "target": "武道七",
+      "mentions": 6,
+      "firstChapter": 200,
+      "lastChapter": 288,
+      "markers": [
+        "同章共现(4)",
+        "掌门(1)",
+        "仇(1)"
+      ],
+      "group": "敌对/矛盾",
+      "relationType": "仇",
+      "confidence": "低"
+    },
+    {
+      "source": "叶圣",
+      "target": "叶祠",
+      "mentions": 6,
+      "firstChapter": 213,
+      "lastChapter": 632,
       "markers": [
         "同章共现(6)"
       ],
@@ -11866,7 +11810,6 @@
         "谢大人",
         "林姑娘",
         "时已晚",
-        "万万",
         "王府亲",
         "胡说八",
         "林大夫",
@@ -11877,7 +11820,8 @@
         "白石步",
         "吴诤",
         "江湖人",
-        "何三"
+        "何三",
+        "黄门郎"
       ],
       "organizations": [
         "丹阳学宫",
@@ -11951,9 +11895,9 @@
         "时已晚",
         "胡说八",
         "南宫仙子",
+        "常人",
         "周贺",
-        "谢温背",
-        "红袍瘟"
+        "谢温背"
       ],
       "organizations": [
         "丹王阁",
@@ -12028,12 +11972,12 @@
         "杨大彪",
         "林大美",
         "龙血丹",
-        "万万",
         "时辰",
         "文成街",
         "李家挖",
         "李家",
         "王府",
+        "周贺",
         "万安县",
         "谢大人"
       ],
@@ -12098,13 +12042,12 @@
         "杨大彪",
         "令狐姑娘",
         "李公浦",
+        "周贺",
         "韩靖川",
         "太叔丹",
         "穆云令",
         "吴县令",
         "吴元化",
-        "万万",
-        "周贺",
         "时辰",
         "王府",
         "陆谦",
@@ -12122,7 +12065,8 @@
         "侯管家",
         "林姑娘",
         "关切",
-        "黄麟印"
+        "黄麟印",
+        "全速追"
       ],
       "organizations": [
         "我待会",
@@ -12259,20 +12203,20 @@
         "谢尽欢",
         "叶世荣",
         "高人",
-        "周边",
         "南宫烨",
+        "周边",
         "连吃带",
         "林婉仪",
         "令狐青墨",
         "李公浦",
         "林大夫",
+        "王府",
         "万安县",
         "关切",
         "时插话",
-        "王府",
         "巫教",
-        "南宫烨知",
-        "宫烨知",
+        "宫烨",
+        "常人",
         "江湖",
         "胡说八",
         "林紫苏",
@@ -12355,22 +12299,22 @@
         "李家",
         "文武百",
         "长宁郡主",
+        "范黎",
         "李公",
         "林婉仪",
+        "王府",
         "江湖人",
         "巫教",
         "林老爷",
+        "常人",
         "江湖",
-        "王府",
-        "太叔丹",
         "南宫烨",
+        "太叔丹",
+        "宫烨",
         "穆云令",
         "李老头",
         "周边",
-        "南宫掌门",
-        "关切",
-        "沙哑",
-        "何参"
+        "南宫掌门"
       ],
       "organizations": [
         "会不会",
@@ -12433,18 +12377,20 @@
       "characters": [
         "谢尽欢",
         "杨大彪",
+        "南宫烨",
         "令狐姑娘",
         "林大夫",
         "叶世荣",
+        "宫烨",
         "陆无真",
         "太叔丹",
         "吴诤",
-        "南宫烨",
+        "王府",
         "万安县",
         "巫教",
+        "常人",
         "郑重",
-        "连忙",
-        "王府",
+        "红殇",
         "魏无异",
         "苏姑娘",
         "长宁郡主",
@@ -12456,11 +12402,9 @@
         "祖师爷",
         "时已晚",
         "南宫仙子",
-        "红殇",
         "江湖",
         "王爷",
-        "郭太后",
-        "令狐青墨"
+        "郭太后"
       ],
       "organizations": [
         "但南宫",
@@ -12529,34 +12473,34 @@
       "characters": [
         "谢尽欢",
         "林婉仪",
+        "南宫烨",
+        "宫烨",
         "叶世荣",
         "步寒英",
         "南宫掌门",
         "太叔丹",
         "魏无异",
-        "南宫烨",
         "高人",
         "江湖人",
         "巫教",
         "何参",
         "周边",
-        "连忙",
         "江湖",
+        "张褚",
         "金丝",
         "何氏嫡",
         "步师叔",
+        "何瞒",
         "文成街",
         "时辰",
         "司空老祖",
         "凤羽草",
         "红殇",
         "王府",
+        "常人",
         "师长",
         "全盛",
-        "令狐青墨",
-        "李公浦",
-        "祝文鸳",
-        "王爷"
+        "令狐青墨"
       ],
       "organizations": [
         "蛊毒派",
@@ -12623,16 +12567,20 @@
       "characters": [
         "谢尽欢",
         "高人",
-        "何参",
         "红殇",
+        "何参",
         "巫教",
         "叶圣",
         "周边",
         "祖师爷",
+        "张褚",
         "师长",
         "何方",
+        "何瞒",
+        "南宫烨",
         "陆无真",
         "魏无异",
+        "宫烨",
         "叶世荣",
         "步寒英",
         "周明安",
@@ -12644,13 +12592,9 @@
         "赵景桓",
         "穆云令",
         "时辰",
-        "南宫烨",
-        "万万",
         "李世忠",
         "吴诤",
-        "司空世棠",
-        "张观",
-        "万安县"
+        "司空世棠"
       ],
       "organizations": [
         "禅定派",
@@ -12720,30 +12664,30 @@
         "花师姐",
         "太叔丹",
         "何天齐",
+        "王府",
         "巫教",
         "徐观复",
         "封住",
         "周边",
-        "王府",
         "吕炎",
         "南宫烨",
+        "宫烨",
         "时辰",
         "红殇",
         "南宫妹妹",
         "师长",
         "周遭化",
-        "宫烨",
         "高人",
         "叶圣",
-        "江湖",
         "常人",
-        "连忙",
+        "江湖",
         "李敕墨",
         "凤羽草",
         "何方",
         "巫女",
         "方只要",
-        "郭太后"
+        "郭太后",
+        "胡说八"
       ],
       "organizations": [
         "蛊毒派",
@@ -12814,6 +12758,7 @@
         "李怀川",
         "吕炎",
         "何参",
+        "张褚",
         "全盛",
         "全盛之",
         "黎山剑",
@@ -12834,10 +12779,9 @@
         "巫女",
         "巫教",
         "江湖",
-        "连忙",
-        "闻风而",
-        "应该去",
-        "吕炎引"
+        "沈苍",
+        "闻风",
+        "应该去"
       ],
       "organizations": [
         "蛊毒派",
@@ -12898,18 +12842,18 @@
         "江州徐",
         "时待命",
         "华林李",
+        "红颜",
         "方道行",
         "祝祭派",
         "吕炎",
+        "红殇",
         "黄麟真",
         "姜仙",
-        "红殇",
+        "常人",
         "水晶球",
         "周边",
-        "常人",
-        "连忙",
         "巫教祝",
-        "赵翎知",
+        "赵翎",
         "黄凇甲",
         "杨大彪",
         "林大夫",
@@ -12917,10 +12861,10 @@
         "丰腴",
         "后甚至",
         "南宫烨",
+        "宫烨",
         "司空老祖",
-        "万万",
         "何参",
-        "宫烨"
+        "时插话"
       ],
       "organizations": [
         "蛊毒派",
@@ -12983,33 +12927,33 @@
         "谢尽欢",
         "郭太后",
         "南宫烨",
+        "宫烨",
         "高人",
         "黄麟真",
         "匡扶正",
         "巫教",
-        "宫烨",
         "龙皇锏",
-        "连忙",
         "江湖",
         "师长",
         "安东王",
         "谢小子",
         "黄毛",
         "曾经",
+        "红颜",
         "白毛",
+        "师尊",
         "凤凰陵",
         "张砚舟",
         "姜河海",
         "杨化仙",
-        "南宫烨知",
-        "宫烨知",
         "花师姐",
         "何方",
-        "万万",
-        "冷冰冰",
         "红殇",
+        "冷冰冰",
         "武道功",
-        "丰腴"
+        "丰腴",
+        "方竟然",
+        "时已晚"
       ],
       "organizations": [
         "怎么会",
@@ -13079,14 +13023,15 @@
         "谢尽欢",
         "令狐青墨",
         "南宫烨",
+        "宫烨",
         "高人",
-        "连忙",
+        "红殇",
+        "赵翎",
         "江湖",
         "巫教",
-        "宫烨",
-        "红殇",
         "焦急",
-        "赵翎",
+        "师尊",
+        "雷光",
         "雷光消",
         "魏无异",
         "林大夫",
@@ -13102,10 +13047,9 @@
         "丹王",
         "冷若冰",
         "林婉仪",
-        "南宫烨知",
-        "宫烨知",
         "胡说八",
-        "文成街"
+        "文成街",
+        "林紫苏"
       ],
       "organizations": [
         "怎么会",
@@ -13172,28 +13116,28 @@
         "魏继礼",
         "穆云令",
         "叶圣",
+        "范黎",
         "徐观复",
         "江州徐",
         "范先生",
-        "连忙",
+        "王府",
         "巫教",
         "谢兄",
         "赵德",
-        "范黎",
         "李敕墨",
         "徐先生",
         "武道第",
-        "王府",
         "丹王",
         "何家",
         "对此",
         "叶圣大",
         "司空老祖",
         "高人",
+        "赵翎",
+        "后人",
         "步青崖",
         "陆掌教",
-        "黄麟印",
-        "松开"
+        "黄麟印"
       ],
       "organizations": [
         "我不会",
@@ -13260,34 +13204,34 @@
       "characters": [
         "谢尽欢",
         "令狐青墨",
-        "南宫烨知",
-        "宫烨知",
         "南宫烨",
+        "宫烨",
         "林大夫",
         "南宫掌门",
         "步青崖",
         "冷冰冰",
-        "宫烨",
-        "连忙",
         "巫教",
         "师长",
         "师徒",
+        "常人",
         "焦黑",
         "严肃",
-        "南宫烨想",
-        "常人",
         "林家",
         "丰腴",
         "还是",
+        "师尊",
         "南宫前辈",
-        "宫烨想",
         "南宫女侠",
         "林婉仪",
         "郭太后",
         "陆无真",
         "林紫苏",
+        "姜仙",
         "南宫仙子",
-        "姜仙"
+        "步前辈",
+        "红殇",
+        "陆掌教",
+        "张观"
       ],
       "organizations": [
         "怎么会",
@@ -13354,31 +13298,31 @@
         "郭太后",
         "陆无真",
         "祝祭派",
-        "叶圣",
         "吕炎",
+        "叶圣",
         "凤羽草",
         "步青崖",
+        "红殇",
         "叶云迟",
         "江湖",
         "巫女",
-        "何如此",
-        "红殇",
         "还是",
         "凤凰陵",
         "吕炎老",
         "白毛",
         "武祖",
-        "师父知",
+        "连璧",
         "祖师爷",
         "龙血丹",
         "高人",
         "陈忆山",
-        "连忙",
         "巫教",
         "巫师",
         "严格来",
         "龙泊渊",
-        "黄麟观"
+        "黄麟观",
+        "谢小儿",
+        "李敕墨"
       ],
       "organizations": [
         "蛊毒派",
@@ -13438,27 +13382,27 @@
       "characters": [
         "谢尽欢",
         "陆无真",
+        "吕炎",
         "南宫掌门",
         "叶云迟",
-        "吕炎",
         "左右查",
         "何参",
         "鲍啸林",
         "叶前辈",
         "林姑娘",
-        "谢老魔",
-        "连忙",
-        "江湖",
         "红殇",
-        "还是",
+        "谢老魔",
+        "江湖",
         "张褚",
+        "还是",
         "白毛",
+        "雷光",
         "相公",
         "林婉仪",
         "郭太后",
         "南宫烨",
-        "叶圣",
         "宫烨",
+        "叶圣",
         "魏昆",
         "巫教",
         "师徒",
@@ -13529,11 +13473,11 @@
       "range": "第 401-420 章",
       "characters": [
         "谢尽欢",
-        "叶云迟",
         "南宫烨",
+        "宫烨",
+        "叶云迟",
         "陈忆山",
         "叶圣",
-        "宫烨",
         "郑重",
         "巫女",
         "巫教",
@@ -13543,8 +13487,10 @@
         "龙脊岭",
         "封住",
         "叶圣出",
+        "连璧",
         "雷火飞",
         "商明真",
+        "明真",
         "郭太后",
         "魏无异",
         "陆无真",
@@ -13552,12 +13498,10 @@
         "司空老祖",
         "何天齐",
         "韩夫人",
-        "吕炎知",
         "白相间",
         "步青崖",
-        "司空世棠",
-        "司空天渊",
-        "高人"
+        "赵翎",
+        "司空世棠"
       ],
       "organizations": [
         "会不会",
@@ -13624,30 +13568,30 @@
         "令狐青墨",
         "林婉仪",
         "郭太后",
-        "叶云迟",
         "南宫烨",
+        "宫烨",
+        "叶云迟",
         "南宫掌门",
         "林紫苏",
         "南宫仙子",
         "时辰",
+        "赵翎",
         "南宫烨本",
         "宫烨本",
-        "宫烨",
-        "连忙",
-        "巫教",
+        "红殇",
         "师祖",
+        "巫教",
         "师徒",
         "师姐",
-        "红殇",
         "满意",
         "还是",
         "时回头",
-        "赵翎",
         "华丽",
         "满屋子",
         "高跟鞋",
         "全方位",
         "南宫阿姨",
+        "谢郎",
         "胡说八",
         "韩夫人"
       ],
@@ -13712,19 +13656,18 @@
       "characters": [
         "谢尽欢",
         "郭太后",
-        "叶云迟",
-        "南宫烨知",
-        "宫烨知",
         "南宫烨",
+        "宫烨",
+        "叶云迟",
         "吕炎",
         "南宫仙子",
         "吕炎老",
+        "赵翎",
         "王爷",
-        "宫烨",
         "红颜",
         "还是",
         "白毛",
-        "赵翎",
+        "师尊",
         "姜小彪",
         "叶女侠",
         "祝祭派",
@@ -13733,13 +13676,14 @@
         "高人",
         "安东王",
         "吕道长",
+        "常人",
         "江湖",
         "赵德",
         "柳当归",
-        "常人",
         "庄主",
         "鱼肉",
-        "谢小友"
+        "谢小友",
+        "连璧"
       ],
       "organizations": [
         "占验派",
@@ -13801,33 +13745,33 @@
         "谢尽欢",
         "郭太后",
         "南宫烨",
+        "宫烨",
         "黄麟真",
         "杨化仙",
         "叶圣",
-        "宫烨",
-        "连忙",
-        "江湖",
         "赵翎",
-        "常人",
         "红殇",
+        "明真",
+        "常人",
+        "江湖",
         "红颜",
+        "师尊",
         "还是",
         "白毛",
-        "明真",
         "周边",
+        "连璧",
         "商明真",
-        "师尊",
         "雷池",
         "全盛",
         "方圆数",
+        "雷光",
         "对此",
         "全力出",
         "左右查",
         "姜仙",
         "叶师姐",
         "满意",
-        "师姐",
-        "高跟鞋"
+        "师姐"
       ],
       "organizations": [
         "隐仙派",
@@ -13890,33 +13834,33 @@
         "谢尽欢",
         "郭太后",
         "林婉仪",
-        "叶云迟",
         "南宫烨",
+        "宫烨",
+        "叶云迟",
         "林紫苏",
         "姜仙",
-        "宫烨",
-        "相公",
-        "连忙",
-        "姜姑娘",
         "红殇",
+        "相公",
+        "姜姑娘",
         "还是",
         "左一右",
         "红发碧",
         "相夫教",
+        "谢郎",
         "黄毛",
         "水雾",
         "时蹙眉",
-        "谢郎",
-        "南宫烨知",
-        "宫烨知",
         "侯管家",
+        "赵翎",
         "时辰",
         "刘庆之",
         "白毛师",
         "苏姑娘",
         "谢小子",
-        "赵翎",
-        "师徒"
+        "师尊",
+        "师徒",
+        "侯大管",
+        "管家"
       ],
       "organizations": [
         "会不会",
@@ -13984,30 +13928,30 @@
         "司空老祖",
         "山巅老",
         "巫祖元",
+        "常人",
         "郑重",
         "江湖",
         "巫教",
         "凤凰陵",
-        "常人",
         "焦黑",
         "曾经",
         "还是",
         "封住",
         "林家",
+        "连璧",
         "对此",
         "红色头",
         "高老魔",
         "令狐青墨",
         "林婉仪",
-        "叶云迟",
         "南宫烨",
+        "宫烨",
+        "叶云迟",
         "林紫苏",
         "姜仙",
+        "赵翎",
         "南宫烨本",
-        "宫烨本",
-        "南宫阿姨",
-        "宫烨",
-        "刘庆之"
+        "宫烨本"
       ],
       "organizations": [
         "怎么会",
@@ -14068,34 +14012,34 @@
       "characters": [
         "谢尽欢",
         "时已晚",
-        "何如此",
-        "万万",
+        "武祖",
         "江湖",
         "巫教",
         "曾经",
         "龙皇锏",
-        "武祖",
         "还是",
         "武道第",
-        "闻风而",
+        "闻风",
         "叶祠",
+        "山间",
         "对此",
         "叶云迟",
         "司空老祖",
         "杨化仙",
         "何参",
-        "陆掌教",
-        "连忙",
-        "严肃",
         "红殇",
-        "满意",
-        "时回应",
+        "陆掌教",
+        "严肃",
         "张褚",
+        "满意",
+        "连璧",
+        "时回应",
         "解毒之",
         "满意足",
         "左顾右",
         "令狐青墨",
-        "郭太后"
+        "郭太后",
+        "南宫烨"
       ],
       "organizations": [
         "丹阳学宫",
@@ -14163,18 +14107,20 @@
       "range": "第 541-560 章",
       "characters": [
         "谢尽欢",
-        "林紫苏",
         "吕炎",
+        "林紫苏",
         "何参",
         "谢老魔",
         "沙屠老",
         "高人",
         "冷冰冰",
         "江湖",
+        "常人",
         "巫教",
         "谢大侠",
-        "常人",
         "还是",
+        "连璧",
+        "沙屠",
         "周边",
         "何来历",
         "方应该",
@@ -14188,10 +14134,8 @@
         "封住",
         "白色",
         "金色",
-        "郁郁而",
-        "关门打",
-        "令狐青墨",
-        "郭太后"
+        "郁郁",
+        "关门打"
       ],
       "organizations": [
         "会不会",
@@ -14252,34 +14196,34 @@
       "characters": [
         "谢尽欢",
         "郭太后",
+        "吕炎",
         "杨化仙",
         "胡说八",
-        "吕炎",
         "吕炎老",
         "何参",
         "祝祭派",
-        "李敕墨",
-        "吕炎等",
         "红殇",
+        "李敕墨",
+        "明真",
+        "吕炎等",
         "巫教",
         "还是",
         "叶祠",
+        "连璧",
         "全盛",
         "焦急",
         "金色",
         "白毛",
         "方圆数",
-        "明真",
         "此刻",
         "水雾",
         "红伞",
         "白色",
         "全盛之",
-        "连璧知",
+        "雷光",
         "商明真",
         "左顾右",
-        "全速冲",
-        "雷火交"
+        "全速冲"
       ],
       "organizations": [
         "蛊毒派",
@@ -14345,25 +14289,22 @@
       "range": "第 581-600 章",
       "characters": [
         "谢尽欢",
-        "林紫苏",
         "南宫烨",
+        "宫烨",
+        "林紫苏",
         "胡说八",
         "姜仙",
-        "水晶球",
-        "宫烨",
-        "相公",
-        "连忙",
         "红殇",
+        "水晶球",
+        "相公",
+        "师尊",
+        "谢郎",
         "满意",
         "还是",
-        "南宫烨想",
         "叶庄主",
-        "谢郎",
         "高跟鞋",
         "庄主",
-        "宫烨想",
         "凤美眸",
-        "师尊",
         "师伯",
         "此刻",
         "明艳",
@@ -14372,8 +14313,11 @@
         "司空天渊",
         "南宫掌门",
         "步寒英",
+        "赵翎",
         "步青崖",
-        "赵翎"
+        "师徒",
+        "江湖",
+        "巫女"
       ],
       "organizations": [
         "怎么会",
@@ -14431,31 +14375,31 @@
         "谢尽欢",
         "林婉仪",
         "林紫苏",
-        "冷冰冰",
-        "连忙",
-        "还是",
-        "武祖",
         "红殇",
-        "巫教",
+        "冷冰冰",
+        "武祖",
         "后人",
+        "还是",
         "叶祠",
+        "连璧",
+        "巫教",
         "白毛",
         "周边",
         "为此",
         "方能",
-        "连璧",
         "令狐青墨",
         "姜仙",
+        "赵翎",
         "郭小美",
         "严肃",
-        "赵翎",
         "沙哑",
         "焦急",
+        "何人",
+        "封住",
         "红伞",
         "姜仙干",
-        "封住",
         "此刻",
-        "何人",
+        "雷光",
         "龙鳞虚",
         "太叔丹"
       ],
@@ -14524,29 +14468,29 @@
         "叶圣",
         "何参",
         "谢老魔",
+        "连璧",
+        "师长",
         "曾经",
         "武道七",
         "司空老儿",
-        "师长",
-        "还是",
         "武祖",
+        "张褚",
+        "还是",
+        "常人",
         "巫教",
         "金色",
-        "常人",
         "巫教出",
         "魏鹭",
         "林家",
         "武道造",
         "此刻",
         "为此",
-        "张褚",
         "越境击",
-        "连璧",
         "令狐青墨",
         "郭太后",
+        "南宫烨",
         "叶云迟",
-        "司空天渊",
-        "南宫烨"
+        "宫烨"
       ],
       "organizations": [
         "丹阳学宫",
@@ -14614,10 +14558,9 @@
         "林婉仪",
         "林紫苏",
         "时辰",
+        "红殇",
         "水晶球",
         "相公",
-        "连忙",
-        "红殇",
         "金丝",
         "还是",
         "满意",
@@ -14630,16 +14573,17 @@
         "此刻",
         "为此",
         "丰腴",
-        "连忙取",
         "令狐青墨",
-        "叶云迟",
         "南宫烨",
+        "叶云迟",
+        "宫烨",
+        "赵翎",
         "陆掌教",
         "白毛师",
-        "宫烨",
         "时插话",
         "严肃",
-        "赵翎"
+        "师尊",
+        "江湖"
       ],
       "organizations": [
         "尽欢阁",
