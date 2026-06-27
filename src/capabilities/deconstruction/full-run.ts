@@ -65,7 +65,7 @@ export async function runFullDeconstruction(rawOptions: PrepareOptions): Promise
   await writeSegments(meta.bookDir, segments);
   await writeMaterialCards(meta.bookDir, segments);
   await writeSynthesis(meta.bookDir, meta.title ?? path.basename(meta.bookSourceFile), chapters, segments);
-  await writeRunOutputs(runDir, meta.bookDir, chapters, segments);
+  await writeRunOutputs(runDir, meta.bookDir, meta.title ?? path.basename(meta.bookSourceFile), chapters, segments);
 
   await applyDeconstructionRun(runDir);
   return runDir;
@@ -361,7 +361,7 @@ function countBy(items: string[]): Record<string, number> {
   }, {});
 }
 
-async function writeRunOutputs(runDir: string, bookDir: string, chapters: Chapter[], segments: Segment[]): Promise<void> {
+async function writeRunOutputs(runDir: string, bookDir: string, title: string, chapters: Chapter[], segments: Segment[]): Promise<void> {
   await writeText(
     path.join(runDir, "output", "deconstruction-report.md"),
     `# 全量长程拆书运行报告
@@ -395,7 +395,7 @@ ${segments.map((segment) => `- ${segment.focus}：第 ${segment.start}-${segment
           title: `${segment.focus}（第${segment.start}-${segment.end}章）`,
           summary: `本素材来自全量长程拆书第 ${segment.start}-${segment.end} 章，适合作为“${segment.focus}”阶段功能参考。复用时应抽象阶段目标、资源门槛、冲突推进和下一段钩子。`,
           tags: [segment.category, ...segment.keywords],
-          source: `《我有一个修仙世界》第${segment.start}-${segment.end}章全量长程拆书`,
+          source: `《${title}》第${segment.start}-${segment.end}章全量长程拆书`,
           reuseBoundary: "只复用阶段功能、结构和节奏，不复用原书连续事件链、人物名、势力名和专有设定组合。"
         }))
       },
