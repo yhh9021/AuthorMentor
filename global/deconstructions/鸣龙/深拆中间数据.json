@@ -5,13 +5,13 @@
   "audit": [
     {
       "name": "人物数量",
-      "status": "需返工",
-      "detail": "实际 17，最低要求 32。"
+      "status": "通过",
+      "detail": "实际 180，最低要求 32。"
     },
     {
       "name": "关系边数量",
       "status": "通过",
-      "detail": "实际 66，最低要求 32。"
+      "detail": "实际 220，最低要求 32。"
     },
     {
       "name": "势力组织数量",
@@ -36,214 +36,1843 @@
     {
       "name": "人物噪声率",
       "status": "通过",
-      "detail": "疑似动作/语气噪声 0/17，噪声率 0.0%。"
+      "detail": "疑似动作/语气噪声 0/180，噪声率 0.0%。"
     }
   ],
   "characters": [
     {
       "name": "谢尽欢",
-      "mentions": 33,
-      "firstChapter": 12,
-      "lastChapter": 648,
-      "chapterCount": 30,
+      "mentions": 14354,
+      "firstChapter": 1,
+      "lastChapter": 649,
+      "chapterCount": 644,
       "markers": [
+        "姓名候选(14321)",
         "人物行为/发言(33)"
       ]
     },
     {
-      "name": "还是",
-      "mentions": 5,
-      "firstChapter": 190,
-      "lastChapter": 584,
-      "chapterCount": 5,
+      "name": "东西",
+      "mentions": 553,
+      "firstChapter": 2,
+      "lastChapter": 647,
+      "chapterCount": 320,
       "markers": [
-        "人物行为/发言(5)"
-      ]
-    },
-    {
-      "name": "南宫烨",
-      "mentions": 4,
-      "firstChapter": 228,
-      "lastChapter": 644,
-      "chapterCount": 4,
-      "markers": [
-        "人物行为/发言(4)"
+        "姓名候选(553)"
       ]
     },
     {
       "name": "令狐青墨",
-      "mentions": 3,
+      "mentions": 1949,
       "firstChapter": 2,
-      "lastChapter": 17,
-      "chapterCount": 3,
+      "lastChapter": 649,
+      "chapterCount": 258,
       "markers": [
+        "姓名候选(1946)",
         "人物行为/发言(3)"
       ]
     },
     {
-      "name": "何参",
-      "mentions": 3,
-      "firstChapter": 368,
-      "lastChapter": 417,
-      "chapterCount": 2,
+      "name": "时间",
+      "mentions": 302,
+      "firstChapter": 1,
+      "lastChapter": 649,
+      "chapterCount": 225,
       "markers": [
-        "人物行为/发言(3)"
+        "姓名候选(302)"
       ]
     },
     {
-      "name": "林婉仪",
-      "mentions": 2,
+      "name": "谢公子",
+      "mentions": 561,
       "firstChapter": 5,
-      "lastChapter": 514,
-      "chapterCount": 2,
+      "lastChapter": 649,
+      "chapterCount": 221,
       "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "为此",
-      "mentions": 2,
-      "firstChapter": 68,
-      "lastChapter": 578,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "李公浦",
-      "mentions": 2,
-      "firstChapter": 93,
-      "lastChapter": 140,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "丹王",
-      "mentions": 2,
-      "firstChapter": 100,
-      "lastChapter": 183,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "长宁郡主",
-      "mentions": 2,
-      "firstChapter": 108,
-      "lastChapter": 127,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
-      ]
-    },
-    {
-      "name": "魏昆",
-      "mentions": 2,
-      "firstChapter": 128,
-      "lastChapter": 288,
-      "chapterCount": 2,
-      "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(561)"
       ]
     },
     {
       "name": "郭太后",
-      "mentions": 2,
-      "firstChapter": 272,
-      "lastChapter": 456,
-      "chapterCount": 2,
+      "mentions": 1117,
+      "firstChapter": 112,
+      "lastChapter": 649,
+      "chapterCount": 209,
       "markers": [
+        "姓名候选(1115)",
         "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "林婉仪",
+      "mentions": 1429,
+      "firstChapter": 5,
+      "lastChapter": 649,
+      "chapterCount": 186,
+      "markers": [
+        "姓名候选(1427)",
+        "人物行为/发言(2)"
+      ]
+    },
+    {
+      "name": "武夫",
+      "mentions": 243,
+      "firstChapter": 4,
+      "lastChapter": 643,
+      "chapterCount": 169,
+      "markers": [
+        "姓名候选(243)"
+      ]
+    },
+    {
+      "name": "南宫烨",
+      "mentions": 280,
+      "firstChapter": 5,
+      "lastChapter": 646,
+      "chapterCount": 164,
+      "markers": [
+        "姓名候选(276)",
+        "人物行为/发言(4)"
+      ]
+    },
+    {
+      "name": "宫烨",
+      "mentions": 267,
+      "firstChapter": 5,
+      "lastChapter": 646,
+      "chapterCount": 161,
+      "markers": [
+        "姓名候选(267)"
+      ]
+    },
+    {
+      "name": "应道",
+      "mentions": 210,
+      "firstChapter": 12,
+      "lastChapter": 647,
+      "chapterCount": 158,
+      "markers": [
+        "姓名候选(210)"
+      ]
+    },
+    {
+      "name": "陆无真",
+      "mentions": 531,
+      "firstChapter": 11,
+      "lastChapter": 648,
+      "chapterCount": 154,
+      "markers": [
+        "姓名候选(530)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "关系",
+      "mentions": 193,
+      "firstChapter": 4,
+      "lastChapter": 647,
+      "chapterCount": 151,
+      "markers": [
+        "姓名候选(193)"
+      ]
+    },
+    {
+      "name": "林紫苏",
+      "mentions": 798,
+      "firstChapter": 5,
+      "lastChapter": 647,
+      "chapterCount": 150,
+      "markers": [
+        "姓名候选(797)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "查看",
+      "mentions": 175,
+      "firstChapter": 2,
+      "lastChapter": 644,
+      "chapterCount": 141,
+      "markers": [
+        "姓名候选(175)"
+      ]
+    },
+    {
+      "name": "叶云迟",
+      "mentions": 1033,
+      "firstChapter": 355,
+      "lastChapter": 649,
+      "chapterCount": 139,
+      "markers": [
+        "姓名候选(1032)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "解释",
+      "mentions": 175,
+      "firstChapter": 3,
+      "lastChapter": 643,
+      "chapterCount": 133,
+      "markers": [
+        "姓名候选(175)"
+      ]
+    },
+    {
+      "name": "莫名其",
+      "mentions": 145,
+      "firstChapter": 1,
+      "lastChapter": 645,
+      "chapterCount": 132,
+      "markers": [
+        "姓名候选(145)"
+      ]
+    },
+    {
+      "name": "红殇",
+      "mentions": 189,
+      "firstChapter": 6,
+      "lastChapter": 649,
+      "chapterCount": 125,
+      "markers": [
+        "姓名候选(189)"
+      ]
+    },
+    {
+      "name": "郭姐姐",
+      "mentions": 393,
+      "firstChapter": 170,
+      "lastChapter": 649,
+      "chapterCount": 124,
+      "markers": [
+        "姓名候选(393)"
+      ]
+    },
+    {
+      "name": "厉害",
+      "mentions": 137,
+      "firstChapter": 8,
+      "lastChapter": 649,
+      "chapterCount": 119,
+      "markers": [
+        "姓名候选(137)"
+      ]
+    },
+    {
+      "name": "白毛仙",
+      "mentions": 269,
+      "firstChapter": 203,
+      "lastChapter": 645,
+      "chapterCount": 112,
+      "markers": [
+        "姓名候选(269)"
+      ]
+    },
+    {
+      "name": "明白",
+      "mentions": 122,
+      "firstChapter": 25,
+      "lastChapter": 648,
+      "chapterCount": 110,
+      "markers": [
+        "姓名候选(122)"
+      ]
+    },
+    {
+      "name": "巫教之",
+      "mentions": 160,
+      "firstChapter": 4,
+      "lastChapter": 623,
+      "chapterCount": 108,
+      "markers": [
+        "姓名候选(160)"
+      ]
+    },
+    {
+      "name": "龙骨滩",
+      "mentions": 211,
+      "firstChapter": 34,
+      "lastChapter": 647,
+      "chapterCount": 104,
+      "markers": [
+        "姓名候选(211)"
+      ]
+    },
+    {
+      "name": "魏无异",
+      "mentions": 396,
+      "firstChapter": 39,
+      "lastChapter": 632,
+      "chapterCount": 100,
+      "markers": [
+        "姓名候选(395)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "后娘娘",
+      "mentions": 247,
+      "firstChapter": 73,
+      "lastChapter": 649,
+      "chapterCount": 99,
+      "markers": [
+        "姓名候选(247)"
+      ]
+    },
+    {
+      "name": "师父",
+      "mentions": 168,
+      "firstChapter": 36,
+      "lastChapter": 648,
+      "chapterCount": 98,
+      "markers": [
+        "姓名候选(168)"
+      ]
+    },
+    {
+      "name": "房间",
+      "mentions": 109,
+      "firstChapter": 11,
+      "lastChapter": 649,
+      "chapterCount": 94,
+      "markers": [
+        "姓名候选(109)"
+      ]
+    },
+    {
+      "name": "左右打",
+      "mentions": 105,
+      "firstChapter": 2,
+      "lastChapter": 649,
+      "chapterCount": 93,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "房东太",
+      "mentions": 192,
+      "firstChapter": 7,
+      "lastChapter": 649,
+      "chapterCount": 92,
+      "markers": [
+        "姓名候选(192)"
+      ]
+    },
+    {
+      "name": "越来越",
+      "mentions": 117,
+      "firstChapter": 49,
+      "lastChapter": 649,
+      "chapterCount": 90,
+      "markers": [
+        "姓名候选(117)"
+      ]
+    },
+    {
+      "name": "杨化仙",
+      "mentions": 355,
+      "firstChapter": 278,
+      "lastChapter": 622,
+      "chapterCount": 87,
+      "markers": [
+        "姓名候选(354)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "步姐姐",
+      "mentions": 193,
+      "firstChapter": 231,
+      "lastChapter": 649,
+      "chapterCount": 82,
+      "markers": [
+        "姓名候选(193)"
+      ]
+    },
+    {
+      "name": "杨大彪",
+      "mentions": 279,
+      "firstChapter": 2,
+      "lastChapter": 648,
+      "chapterCount": 81,
+      "markers": [
+        "姓名候选(278)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "房间内",
+      "mentions": 95,
+      "firstChapter": 7,
+      "lastChapter": 647,
+      "chapterCount": 79,
+      "markers": [
+        "姓名候选(95)"
+      ]
+    },
+    {
+      "name": "简单",
+      "mentions": 84,
+      "firstChapter": 13,
+      "lastChapter": 649,
+      "chapterCount": 73,
+      "markers": [
+        "姓名候选(84)"
+      ]
+    },
+    {
+      "name": "巫教妖",
+      "mentions": 85,
+      "firstChapter": 5,
+      "lastChapter": 639,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "后面",
+      "mentions": 80,
+      "firstChapter": 7,
+      "lastChapter": 648,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(80)"
+      ]
+    },
+    {
+      "name": "古怪",
+      "mentions": 72,
+      "firstChapter": 22,
+      "lastChapter": 647,
+      "chapterCount": 70,
+      "markers": [
+        "姓名候选(72)"
+      ]
+    },
+    {
+      "name": "南宫掌门",
+      "mentions": 116,
+      "firstChapter": 9,
+      "lastChapter": 643,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(116)"
+      ]
+    },
+    {
+      "name": "姜仙",
+      "mentions": 113,
+      "firstChapter": 238,
+      "lastChapter": 638,
+      "chapterCount": 69,
+      "markers": [
+        "姓名候选(112)",
+        "人物行为/发言(1)"
       ]
     },
     {
       "name": "赵翎",
-      "mentions": 2,
-      "firstChapter": 345,
-      "lastChapter": 532,
-      "chapterCount": 2,
+      "mentions": 106,
+      "firstChapter": 247,
+      "lastChapter": 640,
+      "chapterCount": 67,
       "markers": [
+        "姓名候选(104)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "吴诤",
-      "mentions": 2,
+      "name": "宫掌门",
+      "mentions": 105,
+      "firstChapter": 9,
+      "lastChapter": 643,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(105)"
+      ]
+    },
+    {
+      "name": "武神",
+      "mentions": 104,
+      "firstChapter": 226,
+      "lastChapter": 647,
+      "chapterCount": 67,
+      "markers": [
+        "姓名候选(104)"
+      ]
+    },
+    {
+      "name": "苏大仙",
+      "mentions": 85,
+      "firstChapter": 126,
+      "lastChapter": 649,
+      "chapterCount": 65,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "毕竟他",
+      "mentions": 78,
+      "firstChapter": 29,
+      "lastChapter": 648,
+      "chapterCount": 64,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "宁郡主",
+      "mentions": 319,
+      "firstChapter": 7,
+      "lastChapter": 310,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(319)"
+      ]
+    },
+    {
+      "name": "段时间",
+      "mentions": 77,
+      "firstChapter": 4,
+      "lastChapter": 648,
+      "chapterCount": 63,
+      "markers": [
+        "姓名候选(77)"
+      ]
+    },
+    {
+      "name": "司空天渊",
+      "mentions": 280,
+      "firstChapter": 77,
+      "lastChapter": 648,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(280)"
+      ]
+    },
+    {
+      "name": "南宫烨见",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(79)"
+      ]
+    },
+    {
+      "name": "宫烨见",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "chapterCount": 61,
+      "markers": [
+        "姓名候选(79)"
+      ]
+    },
+    {
+      "name": "吕炎",
+      "mentions": 115,
+      "firstChapter": 221,
+      "lastChapter": 647,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(114)",
+        "人物行为/发言(1)"
+      ]
+    },
+    {
+      "name": "左右",
+      "mentions": 65,
+      "firstChapter": 7,
+      "lastChapter": 639,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(65)"
+      ]
+    },
+    {
+      "name": "连忙抬",
+      "mentions": 62,
+      "firstChapter": 13,
+      "lastChapter": 646,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "应该",
+      "mentions": 62,
+      "firstChapter": 21,
+      "lastChapter": 642,
+      "chapterCount": 60,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "司空老祖",
+      "mentions": 111,
       "firstChapter": 38,
-      "lastChapter": 38,
-      "chapterCount": 1,
+      "lastChapter": 522,
+      "chapterCount": 59,
       "markers": [
+        "姓名候选(111)"
+      ]
+    },
+    {
+      "name": "令狐姑娘",
+      "mentions": 83,
+      "firstChapter": 9,
+      "lastChapter": 612,
+      "chapterCount": 59,
+      "markers": [
+        "姓名候选(83)"
+      ]
+    },
+    {
+      "name": "胡思乱",
+      "mentions": 63,
+      "firstChapter": 26,
+      "lastChapter": 643,
+      "chapterCount": 59,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "凤美眸",
+      "mentions": 64,
+      "firstChapter": 121,
+      "lastChapter": 646,
+      "chapterCount": 58,
+      "markers": [
+        "姓名候选(64)"
+      ]
+    },
+    {
+      "name": "林大夫",
+      "mentions": 98,
+      "firstChapter": 11,
+      "lastChapter": 606,
+      "chapterCount": 57,
+      "markers": [
+        "姓名候选(98)"
+      ]
+    },
+    {
+      "name": "毕竟她",
+      "mentions": 62,
+      "firstChapter": 10,
+      "lastChapter": 649,
+      "chapterCount": 56,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "容易",
+      "mentions": 61,
+      "firstChapter": 20,
+      "lastChapter": 626,
+      "chapterCount": 56,
+      "markers": [
+        "姓名候选(61)"
+      ]
+    },
+    {
+      "name": "时辰",
+      "mentions": 62,
+      "firstChapter": 24,
+      "lastChapter": 644,
+      "chapterCount": 53,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "连璧",
+      "mentions": 78,
+      "firstChapter": 38,
+      "lastChapter": 633,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(78)"
+      ]
+    },
+    {
+      "name": "房门",
+      "mentions": 63,
+      "firstChapter": 11,
+      "lastChapter": 649,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "满意足",
+      "mentions": 52,
+      "firstChapter": 86,
+      "lastChapter": 641,
+      "chapterCount": 52,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "李公浦",
+      "mentions": 319,
+      "firstChapter": 17,
+      "lastChapter": 622,
+      "chapterCount": 51,
+      "markers": [
+        "姓名候选(317)",
         "人物行为/发言(2)"
       ]
     },
     {
-      "name": "步寒英",
-      "mentions": 2,
-      "firstChapter": 99,
-      "lastChapter": 99,
-      "chapterCount": 1,
+      "name": "山掌门",
+      "mentions": 59,
+      "firstChapter": 8,
+      "lastChapter": 644,
+      "chapterCount": 50,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(59)"
       ]
     },
     {
-      "name": "对此",
-      "mentions": 2,
-      "firstChapter": 307,
-      "lastChapter": 307,
-      "chapterCount": 1,
+      "name": "黄麟真",
+      "mentions": 151,
+      "firstChapter": 191,
+      "lastChapter": 632,
+      "chapterCount": 49,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(151)"
       ]
     },
     {
-      "name": "商明真",
-      "mentions": 2,
-      "firstChapter": 384,
-      "lastChapter": 384,
-      "chapterCount": 1,
+      "name": "左右看",
+      "mentions": 53,
+      "firstChapter": 4,
+      "lastChapter": 644,
+      "chapterCount": 49,
       "markers": [
-        "人物行为/发言(2)"
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "许多",
+      "mentions": 53,
+      "firstChapter": 43,
+      "lastChapter": 647,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "南宫烨眼",
+      "mentions": 52,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "chapterCount": 49,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "叶姐姐",
+      "mentions": 120,
+      "firstChapter": 367,
+      "lastChapter": 647,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(120)"
+      ]
+    },
+    {
+      "name": "南宫仙子",
+      "mentions": 88,
+      "firstChapter": 5,
+      "lastChapter": 637,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(88)"
+      ]
+    },
+    {
+      "name": "宫仙子",
+      "mentions": 82,
+      "firstChapter": 5,
+      "lastChapter": 637,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(82)"
+      ]
+    },
+    {
+      "name": "明说",
+      "mentions": 53,
+      "firstChapter": 32,
+      "lastChapter": 649,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "宫烨眼",
+      "mentions": 51,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "chapterCount": 48,
+      "markers": [
+        "姓名候选(51)"
+      ]
+    },
+    {
+      "name": "何参",
+      "mentions": 81,
+      "firstChapter": 29,
+      "lastChapter": 638,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(78)",
+        "人物行为/发言(3)"
+      ]
+    },
+    {
+      "name": "安排",
+      "mentions": 58,
+      "firstChapter": 70,
+      "lastChapter": 642,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(58)"
+      ]
+    },
+    {
+      "name": "红耳赤",
+      "mentions": 55,
+      "firstChapter": 15,
+      "lastChapter": 640,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "高人",
+      "mentions": 52,
+      "firstChapter": 4,
+      "lastChapter": 562,
+      "chapterCount": 47,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "水晶球",
+      "mentions": 80,
+      "firstChapter": 94,
+      "lastChapter": 641,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(80)"
+      ]
+    },
+    {
+      "name": "高手",
+      "mentions": 62,
+      "firstChapter": 3,
+      "lastChapter": 649,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "马车",
+      "mentions": 61,
+      "firstChapter": 5,
+      "lastChapter": 647,
+      "chapterCount": 46,
+      "markers": [
+        "姓名候选(61)"
+      ]
+    },
+    {
+      "name": "陆掌教",
+      "mentions": 71,
+      "firstChapter": 138,
+      "lastChapter": 645,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(71)"
+      ]
+    },
+    {
+      "name": "叶圣",
+      "mentions": 67,
+      "firstChapter": 195,
+      "lastChapter": 648,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(67)"
+      ]
+    },
+    {
+      "name": "谢郎",
+      "mentions": 62,
+      "firstChapter": 158,
+      "lastChapter": 637,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "师尊",
+      "mentions": 56,
+      "firstChapter": 109,
+      "lastChapter": 647,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "方式",
+      "mentions": 50,
+      "firstChapter": 3,
+      "lastChapter": 649,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "沙沙沙",
+      "mentions": 50,
+      "firstChapter": 7,
+      "lastChapter": 627,
+      "chapterCount": 45,
+      "markers": [
+        "姓名候选(50)"
+      ]
+    },
+    {
+      "name": "祖师爷",
+      "mentions": 73,
+      "firstChapter": 38,
+      "lastChapter": 644,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(73)"
+      ]
+    },
+    {
+      "name": "安慰",
+      "mentions": 48,
+      "firstChapter": 15,
+      "lastChapter": 628,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "边缘",
+      "mentions": 48,
+      "firstChapter": 18,
+      "lastChapter": 630,
+      "chapterCount": 44,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "谢大哥",
+      "mentions": 93,
+      "firstChapter": 67,
+      "lastChapter": 618,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(93)"
+      ]
+    },
+    {
+      "name": "刘庆之",
+      "mentions": 88,
+      "firstChapter": 2,
+      "lastChapter": 648,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(88)"
+      ]
+    },
+    {
+      "name": "南宫烨觉",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "宫烨觉",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "连忙道",
+      "mentions": 44,
+      "firstChapter": 5,
+      "lastChapter": 647,
+      "chapterCount": 43,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "金丝眼",
+      "mentions": 55,
+      "firstChapter": 5,
+      "lastChapter": 644,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "王府",
+      "mentions": 54,
+      "firstChapter": 10,
+      "lastChapter": 511,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(54)"
+      ]
+    },
+    {
+      "name": "江湖",
+      "mentions": 51,
+      "firstChapter": 3,
+      "lastChapter": 638,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(51)"
+      ]
+    },
+    {
+      "name": "高兴",
+      "mentions": 51,
+      "firstChapter": 16,
+      "lastChapter": 646,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(51)"
+      ]
+    },
+    {
+      "name": "侯府",
+      "mentions": 47,
+      "firstChapter": 187,
+      "lastChapter": 639,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(47)"
+      ]
+    },
+    {
+      "name": "红唇",
+      "mentions": 45,
+      "firstChapter": 126,
+      "lastChapter": 639,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(45)"
+      ]
+    },
+    {
+      "name": "任何人",
+      "mentions": 43,
+      "firstChapter": 4,
+      "lastChapter": 649,
+      "chapterCount": 42,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "房内",
+      "mentions": 46,
+      "firstChapter": 64,
+      "lastChapter": 640,
+      "chapterCount": 41,
+      "markers": [
+        "姓名候选(46)"
+      ]
+    },
+    {
+      "name": "红颜知",
+      "mentions": 47,
+      "firstChapter": 50,
+      "lastChapter": 647,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(47)"
+      ]
+    },
+    {
+      "name": "毕竟谢",
+      "mentions": 44,
+      "firstChapter": 16,
+      "lastChapter": 647,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "山巅老",
+      "mentions": 43,
+      "firstChapter": 9,
+      "lastChapter": 647,
+      "chapterCount": 40,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "南宫烨知",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "宫烨知",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "南宫烨本",
+      "mentions": 49,
+      "firstChapter": 132,
+      "lastChapter": 646,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "舒服",
+      "mentions": 46,
+      "firstChapter": 7,
+      "lastChapter": 618,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(46)"
+      ]
+    },
+    {
+      "name": "马迹",
+      "mentions": 44,
+      "firstChapter": 17,
+      "lastChapter": 604,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "南宫烨身",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "宫烨身",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "白道袍",
+      "mentions": 43,
+      "firstChapter": 136,
+      "lastChapter": 646,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "任务",
+      "mentions": 42,
+      "firstChapter": 103,
+      "lastChapter": 638,
+      "chapterCount": 39,
+      "markers": [
+        "姓名候选(42)"
+      ]
+    },
+    {
+      "name": "郭小美",
+      "mentions": 74,
+      "firstChapter": 449,
+      "lastChapter": 643,
+      "chapterCount": 38,
+      "markers": [
+        "姓名候选(74)"
+      ]
+    },
+    {
+      "name": "方通明",
+      "mentions": 60,
+      "firstChapter": 15,
+      "lastChapter": 647,
+      "chapterCount": 38,
+      "markers": [
+        "姓名候选(60)"
+      ]
+    },
+    {
+      "name": "宫烨本",
+      "mentions": 48,
+      "firstChapter": 132,
+      "lastChapter": 646,
+      "chapterCount": 38,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "左手",
+      "mentions": 43,
+      "firstChapter": 9,
+      "lastChapter": 623,
+      "chapterCount": 38,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "全身",
+      "mentions": 41,
+      "firstChapter": 60,
+      "lastChapter": 623,
+      "chapterCount": 38,
+      "markers": [
+        "姓名候选(41)"
+      ]
+    },
+    {
+      "name": "侯管家",
+      "mentions": 106,
+      "firstChapter": 7,
+      "lastChapter": 572,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(106)"
+      ]
+    },
+    {
+      "name": "祝祭派",
+      "mentions": 67,
+      "firstChapter": 77,
+      "lastChapter": 647,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(67)"
+      ]
+    },
+    {
+      "name": "李敕墨",
+      "mentions": 64,
+      "firstChapter": 126,
+      "lastChapter": 648,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(64)"
+      ]
+    },
+    {
+      "name": "吕炎老",
+      "mentions": 53,
+      "firstChapter": 226,
+      "lastChapter": 635,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(53)"
+      ]
+    },
+    {
+      "name": "叶祠",
+      "mentions": 52,
+      "firstChapter": 38,
+      "lastChapter": 634,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(52)"
+      ]
+    },
+    {
+      "name": "南宫烨听",
+      "mentions": 41,
+      "firstChapter": 100,
+      "lastChapter": 646,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(41)"
+      ]
+    },
+    {
+      "name": "宫烨听",
+      "mentions": 41,
+      "firstChapter": 100,
+      "lastChapter": 646,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(41)"
+      ]
+    },
+    {
+      "name": "后脑勺",
+      "mentions": 40,
+      "firstChapter": 53,
+      "lastChapter": 647,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(40)"
+      ]
+    },
+    {
+      "name": "房间外",
+      "mentions": 40,
+      "firstChapter": 76,
+      "lastChapter": 618,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(40)"
+      ]
+    },
+    {
+      "name": "明显有",
+      "mentions": 39,
+      "firstChapter": 53,
+      "lastChapter": 646,
+      "chapterCount": 37,
+      "markers": [
+        "姓名候选(39)"
+      ]
+    },
+    {
+      "name": "步青崖",
+      "mentions": 141,
+      "firstChapter": 237,
+      "lastChapter": 648,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(141)"
+      ]
+    },
+    {
+      "name": "师姐",
+      "mentions": 47,
+      "firstChapter": 43,
+      "lastChapter": 647,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(47)"
+      ]
+    },
+    {
+      "name": "师祖",
+      "mentions": 44,
+      "firstChapter": 38,
+      "lastChapter": 622,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(44)"
+      ]
+    },
+    {
+      "name": "解开",
+      "mentions": 43,
+      "firstChapter": 6,
+      "lastChapter": 613,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "怀疑",
+      "mentions": 42,
+      "firstChapter": 9,
+      "lastChapter": 537,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(42)"
+      ]
+    },
+    {
+      "name": "相合",
+      "mentions": 39,
+      "firstChapter": 59,
+      "lastChapter": 645,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(39)"
+      ]
+    },
+    {
+      "name": "解释道",
+      "mentions": 38,
+      "firstChapter": 25,
+      "lastChapter": 616,
+      "chapterCount": 36,
+      "markers": [
+        "姓名候选(38)"
+      ]
+    },
+    {
+      "name": "司空世棠",
+      "mentions": 85,
+      "firstChapter": 38,
+      "lastChapter": 623,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(85)"
+      ]
+    },
+    {
+      "name": "山野间",
+      "mentions": 49,
+      "firstChapter": 1,
+      "lastChapter": 619,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "龙撞柱",
+      "mentions": 49,
+      "firstChapter": 3,
+      "lastChapter": 624,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(49)"
+      ]
+    },
+    {
+      "name": "山野",
+      "mentions": 40,
+      "firstChapter": 27,
+      "lastChapter": 561,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(40)"
+      ]
+    },
+    {
+      "name": "路数",
+      "mentions": 38,
+      "firstChapter": 23,
+      "lastChapter": 649,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(38)"
+      ]
+    },
+    {
+      "name": "严重",
+      "mentions": 37,
+      "firstChapter": 4,
+      "lastChapter": 625,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(37)"
+      ]
+    },
+    {
+      "name": "边还有",
+      "mentions": 36,
+      "firstChapter": 24,
+      "lastChapter": 647,
+      "chapterCount": 35,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "高老魔",
+      "mentions": 56,
+      "firstChapter": 224,
+      "lastChapter": 570,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(56)"
+      ]
+    },
+    {
+      "name": "谢老魔",
+      "mentions": 55,
+      "firstChapter": 239,
+      "lastChapter": 647,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(55)"
+      ]
+    },
+    {
+      "name": "凤仪河",
+      "mentions": 48,
+      "firstChapter": 107,
+      "lastChapter": 611,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "连忙起",
+      "mentions": 38,
+      "firstChapter": 12,
+      "lastChapter": 649,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(38)"
+      ]
+    },
+    {
+      "name": "南宫烨一",
+      "mentions": 37,
+      "firstChapter": 121,
+      "lastChapter": 646,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(37)"
+      ]
+    },
+    {
+      "name": "应该没",
+      "mentions": 36,
+      "firstChapter": 4,
+      "lastChapter": 626,
+      "chapterCount": 34,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "叶前辈",
+      "mentions": 112,
+      "firstChapter": 359,
+      "lastChapter": 574,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(112)"
+      ]
+    },
+    {
+      "name": "南宫前辈",
+      "mentions": 64,
+      "firstChapter": 37,
+      "lastChapter": 569,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(64)"
+      ]
+    },
+    {
+      "name": "穆云令",
+      "mentions": 63,
+      "firstChapter": 11,
+      "lastChapter": 648,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(63)"
+      ]
+    },
+    {
+      "name": "宫前辈",
+      "mentions": 62,
+      "firstChapter": 37,
+      "lastChapter": 569,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(62)"
+      ]
+    },
+    {
+      "name": "解毒",
+      "mentions": 45,
+      "firstChapter": 15,
+      "lastChapter": 595,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(45)"
+      ]
+    },
+    {
+      "name": "方神赐",
+      "mentions": 43,
+      "firstChapter": 204,
+      "lastChapter": 620,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "赵翎见",
+      "mentions": 43,
+      "firstChapter": 253,
+      "lastChapter": 640,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(43)"
+      ]
+    },
+    {
+      "name": "胡说八",
+      "mentions": 36,
+      "firstChapter": 29,
+      "lastChapter": 639,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "南宫烨在",
+      "mentions": 36,
+      "firstChapter": 100,
+      "lastChapter": 644,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "常情况",
+      "mentions": 35,
+      "firstChapter": 9,
+      "lastChapter": 645,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "白袍",
+      "mentions": 35,
+      "firstChapter": 32,
+      "lastChapter": 637,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "明显",
+      "mentions": 34,
+      "firstChapter": 10,
+      "lastChapter": 629,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "雷击",
+      "mentions": 34,
+      "firstChapter": 20,
+      "lastChapter": 587,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "严肃",
+      "mentions": 34,
+      "firstChapter": 106,
+      "lastChapter": 631,
+      "chapterCount": 33,
+      "markers": [
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "苏姑娘",
+      "mentions": 48,
+      "firstChapter": 21,
+      "lastChapter": 647,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(48)"
+      ]
+    },
+    {
+      "name": "解决",
+      "mentions": 36,
+      "firstChapter": 8,
+      "lastChapter": 622,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(36)"
+      ]
+    },
+    {
+      "name": "武艺",
+      "mentions": 35,
+      "firstChapter": 4,
+      "lastChapter": 647,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "宫烨在",
+      "mentions": 35,
+      "firstChapter": 100,
+      "lastChapter": 644,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "宫烨一",
+      "mentions": 35,
+      "firstChapter": 121,
+      "lastChapter": 646,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "解围",
+      "mentions": 33,
+      "firstChapter": 5,
+      "lastChapter": 609,
+      "chapterCount": 32,
+      "markers": [
+        "姓名候选(33)"
+      ]
+    },
+    {
+      "name": "林姑娘",
+      "mentions": 66,
+      "firstChapter": 12,
+      "lastChapter": 537,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(66)"
+      ]
+    },
+    {
+      "name": "南宫烨瞧",
+      "mentions": 40,
+      "firstChapter": 116,
+      "lastChapter": 646,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(40)"
+      ]
+    },
+    {
+      "name": "宫烨瞧",
+      "mentions": 40,
+      "firstChapter": 116,
+      "lastChapter": 646,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(40)"
+      ]
+    },
+    {
+      "name": "周遭",
+      "mentions": 35,
+      "firstChapter": 130,
+      "lastChapter": 645,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(35)"
+      ]
+    },
+    {
+      "name": "时发现",
+      "mentions": 34,
+      "firstChapter": 9,
+      "lastChapter": 638,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(34)"
+      ]
+    },
+    {
+      "name": "周边",
+      "mentions": 34,
+      "firstChapter": 18,
+      "lastChapter": 632,
+      "chapterCount": 31,
+      "markers": [
+        "姓名候选(34)"
       ]
     }
   ],
   "relations": [
     {
-      "source": "谢尽欢",
-      "target": "还是",
-      "mentions": 606,
-      "firstChapter": 1,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(575)",
-        "师父(7)",
-        "朋友(4)",
-        "对手(3)",
-        "交易(3)",
-        "女儿(3)",
-        "师尊(3)",
-        "弟子(2)"
-      ]
-    },
-    {
-      "source": "为此",
-      "target": "谢尽欢",
-      "mentions": 458,
+      "source": "南宫烨",
+      "target": "宫烨",
+      "mentions": 2427,
       "firstChapter": 5,
       "lastChapter": 649,
       "markers": [
-        "同章共现(439)",
-        "师父(6)",
-        "保护(2)",
-        "命令(2)",
-        "朋友(2)",
-        "弟子(2)",
-        "交易(1)",
-        "女儿(1)"
+        "同章共现(2282)",
+        "师尊(93)",
+        "师父(20)",
+        "姐妹(10)",
+        "对手(8)",
+        "弟子(6)",
+        "朋友(4)",
+        "追杀(2)"
       ]
     },
     {
@@ -278,6 +1907,22 @@
       ]
     },
     {
+      "source": "宫烨",
+      "target": "谢尽欢",
+      "mentions": 424,
+      "firstChapter": 5,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(402)",
+        "师尊(16)",
+        "师父(3)",
+        "对手(1)",
+        "弟子(1)",
+        "保护(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
       "source": "林婉仪",
       "target": "谢尽欢",
       "mentions": 363,
@@ -289,6 +1934,22 @@
         "保护(1)",
         "弟子(1)",
         "师尊(1)"
+      ]
+    },
+    {
+      "source": "应该",
+      "target": "谢尽欢",
+      "mentions": 231,
+      "firstChapter": 4,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(223)",
+        "师父(2)",
+        "朋友(2)",
+        "交易(1)",
+        "对手(1)",
+        "姐妹(1)",
+        "同伴(1)"
       ]
     },
     {
@@ -308,34 +1969,126 @@
       ]
     },
     {
-      "source": "为此",
-      "target": "还是",
-      "mentions": 194,
-      "firstChapter": 5,
-      "lastChapter": 647,
+      "source": "时间",
+      "target": "谢尽欢",
+      "mentions": 218,
+      "firstChapter": 2,
+      "lastChapter": 648,
       "markers": [
-        "同章共现(178)",
-        "师父(5)",
-        "命令(3)",
+        "同章共现(207)",
+        "师父(4)",
+        "姐妹(2)",
         "对手(2)",
-        "交易(1)",
-        "儿子(1)",
-        "女儿(1)",
+        "师尊(2)",
+        "女儿(1)"
+      ]
+    },
+    {
+      "source": "叶云迟",
+      "target": "谢尽欢",
+      "mentions": 215,
+      "firstChapter": 359,
+      "lastChapter": 640,
+      "markers": [
+        "同章共现(209)",
+        "学生(2)",
+        "妻子(1)",
+        "对手(1)",
+        "朋友(1)",
+        "保护(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "郭姐姐",
+      "mentions": 207,
+      "firstChapter": 272,
+      "lastChapter": 643,
+      "markers": [
+        "同章共现(206)",
         "姐妹(1)"
       ]
     },
     {
-      "source": "南宫烨",
-      "target": "还是",
-      "mentions": 148,
-      "firstChapter": 97,
+      "source": "吕炎",
+      "target": "谢尽欢",
+      "mentions": 205,
+      "firstChapter": 224,
       "lastChapter": 647,
       "markers": [
-        "同章共现(143)",
-        "师尊(2)",
+        "同章共现(199)",
+        "追杀(2)",
         "师父(1)",
+        "交易(1)",
+        "保护(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "明白",
+      "target": "谢尽欢",
+      "mentions": 195,
+      "firstChapter": 10,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(189)",
+        "对手(2)",
+        "女儿(2)",
         "姐妹(1)",
-        "老师(1)"
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "红殇",
+      "target": "谢尽欢",
+      "mentions": 189,
+      "firstChapter": 6,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(184)",
+        "对手(1)",
+        "上司(1)",
+        "师尊(1)",
+        "保护(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "左右",
+      "target": "谢尽欢",
+      "mentions": 182,
+      "firstChapter": 1,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(180)",
+        "追杀(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "白毛仙",
+      "target": "谢尽欢",
+      "mentions": 167,
+      "firstChapter": 203,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(165)",
+        "姐妹(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "东西",
+      "target": "谢尽欢",
+      "mentions": 156,
+      "firstChapter": 2,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(153)",
+        "对手(1)",
+        "朋友(1)",
+        "师尊(1)"
       ]
     },
     {
@@ -351,61 +2104,329 @@
       ]
     },
     {
-      "source": "令狐青墨",
-      "target": "还是",
-      "mentions": 107,
-      "firstChapter": 3,
-      "lastChapter": 649,
-      "markers": [
-        "同章共现(77)",
-        "师父(15)",
-        "师尊(11)",
-        "朋友(7)"
-      ]
-    },
-    {
-      "source": "对此",
+      "source": "姜仙",
       "target": "谢尽欢",
-      "mentions": 91,
-      "firstChapter": 6,
-      "lastChapter": 625,
+      "mentions": 140,
+      "firstChapter": 246,
+      "lastChapter": 631,
       "markers": [
-        "同章共现(87)",
-        "学生(1)",
-        "交易(1)",
+        "同章共现(135)",
+        "保护(1)",
+        "兄弟(1)",
         "朋友(1)",
-        "弟子(1)"
+        "上司(1)",
+        "命令(1)"
       ]
     },
     {
-      "source": "为此",
-      "target": "南宫烨",
-      "mentions": 91,
-      "firstChapter": 116,
-      "lastChapter": 646,
+      "source": "解释",
+      "target": "谢尽欢",
+      "mentions": 137,
+      "firstChapter": 3,
+      "lastChapter": 640,
       "markers": [
-        "同章共现(84)",
-        "师尊(4)",
-        "对手(1)",
-        "师父(1)",
-        "老师(1)",
-        "弟子(1)"
+        "同章共现(133)",
+        "师父(2)",
+        "姐妹(1)",
+        "师尊(1)"
       ]
     },
     {
-      "source": "还是",
-      "target": "郭太后",
-      "mentions": 75,
-      "firstChapter": 225,
+      "source": "房东太",
+      "target": "谢尽欢",
+      "mentions": 130,
+      "firstChapter": 7,
+      "lastChapter": 536,
+      "markers": [
+        "同章共现(128)",
+        "保护(1)",
+        "上司(1)"
+      ]
+    },
+    {
+      "source": "房间",
+      "target": "谢尽欢",
+      "mentions": 128,
+      "firstChapter": 11,
       "lastChapter": 649,
       "markers": [
-        "同章共现(74)",
+        "同章共现(122)",
+        "师父(3)",
+        "追杀(1)",
+        "对手(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "武夫",
+      "target": "谢尽欢",
+      "mentions": 123,
+      "firstChapter": 3,
+      "lastChapter": 623,
+      "markers": [
+        "同章共现(115)",
+        "对手(4)",
+        "保护(1)",
+        "弟子(1)",
+        "交易(1)",
+        "师父(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "步姐姐",
+      "target": "谢尽欢",
+      "mentions": 122,
+      "firstChapter": 231,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(121)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "查看",
+      "target": "谢尽欢",
+      "mentions": 119,
+      "firstChapter": 1,
+      "lastChapter": 644,
+      "markers": [
+        "同章共现(118)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "林紫苏",
+      "target": "谢尽欢",
+      "mentions": 119,
+      "firstChapter": 5,
+      "lastChapter": 626,
+      "markers": [
+        "同章共现(117)",
+        "朋友(1)",
         "对手(1)"
       ]
     },
     {
-      "source": "谢尽欢",
-      "target": "长宁郡主",
+      "source": "左右",
+      "target": "左右打",
+      "mentions": 115,
+      "firstChapter": 2,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(111)",
+        "弟子(2)",
+        "师父(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "南宫掌门",
+      "target": "宫掌门",
+      "mentions": 111,
+      "firstChapter": 9,
+      "lastChapter": 643,
+      "markers": [
+        "同章共现(109)",
+        "对手(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "师尊",
+      "mentions": 92,
+      "firstChapter": 182,
+      "lastChapter": 645,
+      "markers": [
+        "师尊(92)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "师尊",
+      "mentions": 92,
+      "firstChapter": 182,
+      "lastChapter": 645,
+      "markers": [
+        "师尊(92)",
+        "命令(1)",
+        "保护(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "师父",
+      "target": "谢尽欢",
+      "mentions": 89,
+      "firstChapter": 36,
+      "lastChapter": 647,
+      "markers": [
+        "师父(89)",
+        "朋友(2)",
+        "交易(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "师父",
+      "mentions": 88,
+      "firstChapter": 9,
+      "lastChapter": 647,
+      "markers": [
+        "师父(88)",
+        "师尊(7)",
+        "朋友(6)"
+      ]
+    },
+    {
+      "source": "房间",
+      "target": "房间内",
+      "mentions": 87,
+      "firstChapter": 7,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(85)",
+        "女儿(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "南宫仙子",
+      "target": "宫仙子",
+      "mentions": 83,
+      "firstChapter": 5,
+      "lastChapter": 637,
+      "markers": [
+        "同章共现(75)",
+        "师父(6)",
+        "弟子(1)",
+        "朋友(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "江湖",
+      "target": "谢尽欢",
+      "mentions": 81,
+      "firstChapter": 9,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(76)",
+        "对手(1)",
+        "弟子(1)",
+        "师尊(1)",
+        "朋友(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "南宫烨见",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(70)",
+        "师尊(6)",
+        "师父(3)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "宫烨见",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(70)",
+        "师尊(6)",
+        "师父(3)"
+      ]
+    },
+    {
+      "source": "南宫烨见",
+      "target": "宫烨",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(70)",
+        "师尊(6)",
+        "师父(3)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "宫烨见",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(70)",
+        "师尊(6)",
+        "师父(3)"
+      ]
+    },
+    {
+      "source": "南宫烨见",
+      "target": "宫烨见",
+      "mentions": 79,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(70)",
+        "师尊(6)",
+        "师父(3)"
+      ]
+    },
+    {
+      "source": "武神",
+      "target": "谢尽欢",
+      "mentions": 79,
+      "firstChapter": 250,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(75)",
+        "师尊(1)",
+        "保护(1)",
+        "对手(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "时间",
+      "target": "段时间",
+      "mentions": 78,
+      "firstChapter": 4,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(71)",
+        "师尊(2)",
+        "对手(2)",
+        "师父(2)",
+        "兄弟(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "师尊",
+      "mentions": 76,
+      "firstChapter": 127,
+      "lastChapter": 647,
+      "markers": [
+        "师尊(76)",
+        "师父(7)"
+      ]
+    },
+    {
+      "source": "宁郡主",
+      "target": "谢尽欢",
       "mentions": 72,
       "firstChapter": 7,
       "lastChapter": 220,
@@ -414,25 +2435,46 @@
       ]
     },
     {
-      "source": "丹王",
+      "source": "安慰",
       "target": "谢尽欢",
       "mentions": 71,
-      "firstChapter": 7,
-      "lastChapter": 338,
+      "firstChapter": 15,
+      "lastChapter": 649,
       "markers": [
-        "同章共现(70)",
+        "同章共现(68)",
+        "对手(1)",
+        "交易(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "魏无异",
+      "mentions": 70,
+      "firstChapter": 91,
+      "lastChapter": 562,
+      "markers": [
+        "同章共现(65)",
+        "弟子(1)",
+        "对手(1)",
+        "朋友(1)",
+        "父亲(1)",
         "交易(1)"
       ]
     },
     {
-      "source": "林婉仪",
-      "target": "还是",
-      "mentions": 70,
-      "firstChapter": 12,
-      "lastChapter": 641,
+      "source": "关系",
+      "target": "谢尽欢",
+      "mentions": 69,
+      "firstChapter": 4,
+      "lastChapter": 647,
       "markers": [
-        "同章共现(67)",
-        "师父(3)"
+        "同章共现(63)",
+        "女儿(2)",
+        "师尊(2)",
+        "合作(1)",
+        "师父(1)",
+        "弟子(1)"
       ]
     },
     {
@@ -448,6 +2490,72 @@
       ]
     },
     {
+      "source": "后面",
+      "target": "谢尽欢",
+      "mentions": 66,
+      "firstChapter": 12,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(64)",
+        "儿子(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "房门",
+      "target": "谢尽欢",
+      "mentions": 64,
+      "firstChapter": 11,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(64)"
+      ]
+    },
+    {
+      "source": "应道",
+      "target": "谢尽欢",
+      "mentions": 64,
+      "firstChapter": 17,
+      "lastChapter": 619,
+      "markers": [
+        "同章共现(63)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "陆无真",
+      "mentions": 64,
+      "firstChapter": 24,
+      "lastChapter": 644,
+      "markers": [
+        "同章共现(63)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "叶圣",
+      "target": "谢尽欢",
+      "mentions": 62,
+      "firstChapter": 197,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(62)"
+      ]
+    },
+    {
+      "source": "容易",
+      "target": "谢尽欢",
+      "mentions": 61,
+      "firstChapter": 4,
+      "lastChapter": 620,
+      "markers": [
+        "同章共现(59)",
+        "盟友(1)",
+        "师父(1)"
+      ]
+    },
+    {
       "source": "李公浦",
       "target": "谢尽欢",
       "mentions": 60,
@@ -459,38 +2567,381 @@
       ]
     },
     {
-      "source": "为此",
-      "target": "郭太后",
+      "source": "左右",
+      "target": "左右看",
       "mentions": 55,
-      "firstChapter": 235,
-      "lastChapter": 647,
+      "firstChapter": 4,
+      "lastChapter": 644,
       "markers": [
         "同章共现(54)",
-        "合作(1)"
+        "朋友(1)"
       ]
     },
     {
-      "source": "商明真",
+      "source": "王府",
       "target": "谢尽欢",
       "mentions": 55,
-      "firstChapter": 357,
-      "lastChapter": 561,
+      "firstChapter": 5,
+      "lastChapter": 322,
       "markers": [
-        "同章共现(54)",
-        "对手(1)"
+        "同章共现(53)",
+        "师父(1)",
+        "朋友(1)"
       ]
     },
     {
-      "source": "为此",
-      "target": "令狐青墨",
-      "mentions": 45,
-      "firstChapter": 20,
+      "source": "厉害",
+      "target": "谢尽欢",
+      "mentions": 54,
+      "firstChapter": 11,
+      "lastChapter": 641,
+      "markers": [
+        "同章共现(50)",
+        "师父(2)",
+        "对手(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "林紫苏",
+      "target": "谢郎",
+      "mentions": 54,
+      "firstChapter": 218,
+      "lastChapter": 637,
+      "markers": [
+        "同章共现(54)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "马车",
+      "mentions": 53,
+      "firstChapter": 16,
+      "lastChapter": 634,
+      "markers": [
+        "同章共现(52)",
+        "上司(1)"
+      ]
+    },
+    {
+      "source": "陆无真",
+      "target": "魏无异",
+      "mentions": 53,
+      "firstChapter": 39,
+      "lastChapter": 621,
+      "markers": [
+        "同章共现(50)",
+        "儿子(1)",
+        "对手(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "凤美眸",
+      "target": "南宫烨",
+      "mentions": 53,
+      "firstChapter": 124,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(52)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "凤美眸",
+      "target": "宫烨",
+      "mentions": 53,
+      "firstChapter": 124,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(52)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "左右打",
+      "target": "谢尽欢",
+      "mentions": 50,
+      "firstChapter": 7,
+      "lastChapter": 635,
+      "markers": [
+        "同章共现(50)"
+      ]
+    },
+    {
+      "source": "师父",
+      "target": "林婉仪",
+      "mentions": 50,
+      "firstChapter": 71,
+      "lastChapter": 593,
+      "markers": [
+        "师父(50)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "南宫烨眼",
+      "mentions": 50,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(50)"
+      ]
+    },
+    {
+      "source": "南宫烨眼",
+      "target": "宫烨",
+      "mentions": 50,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(50)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "宫烨眼",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(49)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "宫烨眼",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(49)"
+      ]
+    },
+    {
+      "source": "南宫烨眼",
+      "target": "宫烨眼",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(49)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "南宫烨知",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(43)",
+        "师尊(4)",
+        "师父(2)",
+        "姐妹(1)",
+        "对手(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "宫烨知",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(43)",
+        "师尊(4)",
+        "师父(2)",
+        "姐妹(1)",
+        "对手(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "南宫烨知",
+      "target": "宫烨",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(43)",
+        "师尊(4)",
+        "师父(2)",
+        "姐妹(1)",
+        "对手(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "宫烨知",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(43)",
+        "师尊(4)",
+        "师父(2)",
+        "姐妹(1)",
+        "对手(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "南宫烨知",
+      "target": "宫烨知",
+      "mentions": 49,
+      "firstChapter": 107,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(43)",
+        "师尊(4)",
+        "师父(2)",
+        "姐妹(1)",
+        "对手(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "南宫烨本",
+      "mentions": 49,
+      "firstChapter": 132,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(46)",
+        "师尊(3)"
+      ]
+    },
+    {
+      "source": "南宫烨本",
+      "target": "宫烨",
+      "mentions": 49,
+      "firstChapter": 132,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(46)",
+        "师尊(3)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "南宫烨觉",
+      "mentions": 48,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(39)",
+        "师尊(6)",
+        "对手(1)",
+        "师父(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "宫烨觉",
+      "mentions": 48,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(39)",
+        "师尊(6)",
+        "对手(1)",
+        "师父(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "南宫烨觉",
+      "target": "宫烨",
+      "mentions": 48,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(39)",
+        "师尊(6)",
+        "对手(1)",
+        "师父(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "宫烨觉",
+      "mentions": 48,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(39)",
+        "师尊(6)",
+        "对手(1)",
+        "师父(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "南宫烨觉",
+      "target": "宫烨觉",
+      "mentions": 48,
+      "firstChapter": 107,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(39)",
+        "师尊(6)",
+        "对手(1)",
+        "师父(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "司空天渊",
+      "target": "谢尽欢",
+      "mentions": 47,
+      "firstChapter": 237,
+      "lastChapter": 582,
+      "markers": [
+        "同章共现(45)",
+        "师父(2)"
+      ]
+    },
+    {
+      "source": "杨化仙",
+      "target": "谢尽欢",
+      "mentions": 47,
+      "firstChapter": 289,
+      "lastChapter": 620,
+      "markers": [
+        "同章共现(44)",
+        "追杀(1)",
+        "对手(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "师尊",
+      "target": "谢尽欢",
+      "mentions": 46,
+      "firstChapter": 157,
       "lastChapter": 647,
       "markers": [
-        "同章共现(33)",
-        "师父(6)",
-        "朋友(4)",
-        "师尊(3)"
+        "师尊(46)",
+        "弟子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "杨大彪",
+      "target": "谢尽欢",
+      "mentions": 45,
+      "firstChapter": 2,
+      "lastChapter": 347,
+      "markers": [
+        "同章共现(43)",
+        "朋友(1)",
+        "兄弟(1)"
       ]
     },
     {
@@ -506,24 +2957,319 @@
       ]
     },
     {
-      "source": "赵翎",
-      "target": "还是",
+      "source": "南宫烨",
+      "target": "南宫烨身",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(43)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "宫烨身",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(43)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "南宫烨身",
+      "target": "宫烨",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(43)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "宫烨身",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(43)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "南宫烨身",
+      "target": "宫烨身",
+      "mentions": 44,
+      "firstChapter": 100,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(43)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "莫名其",
+      "target": "谢尽欢",
+      "mentions": 41,
+      "firstChapter": 6,
+      "lastChapter": 626,
+      "markers": [
+        "同章共现(41)"
+      ]
+    },
+    {
+      "source": "毕竟谢",
+      "target": "谢尽欢",
+      "mentions": 41,
+      "firstChapter": 16,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(39)",
+        "保护(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "边缘",
+      "mentions": 41,
+      "firstChapter": 27,
+      "lastChapter": 631,
+      "markers": [
+        "同章共现(41)"
+      ]
+    },
+    {
+      "source": "武神",
+      "target": "郭太后",
+      "mentions": 41,
+      "firstChapter": 250,
+      "lastChapter": 643,
+      "markers": [
+        "同章共现(41)"
+      ]
+    },
+    {
+      "source": "苏大仙",
+      "target": "谢尽欢",
+      "mentions": 40,
+      "firstChapter": 126,
+      "lastChapter": 615,
+      "markers": [
+        "同章共现(39)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "时间",
+      "mentions": 39,
+      "firstChapter": 125,
+      "lastChapter": 635,
+      "markers": [
+        "同章共现(38)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "时间",
+      "mentions": 39,
+      "firstChapter": 125,
+      "lastChapter": 635,
+      "markers": [
+        "同章共现(38)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "龙骨滩",
+      "mentions": 39,
+      "firstChapter": 166,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(38)",
+        "追杀(1)"
+      ]
+    },
+    {
+      "source": "安排",
+      "target": "谢尽欢",
+      "mentions": 38,
+      "firstChapter": 74,
+      "lastChapter": 644,
+      "markers": [
+        "同章共现(33)",
+        "师父(2)",
+        "师尊(1)",
+        "弟子(1)",
+        "儿子(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "连忙抬",
       "mentions": 37,
-      "firstChapter": 257,
-      "lastChapter": 649,
+      "firstChapter": 13,
+      "lastChapter": 641,
       "markers": [
         "同章共现(37)"
       ]
     },
     {
-      "source": "为此",
-      "target": "赵翎",
+      "source": "江湖",
+      "target": "魏无异",
+      "mentions": 37,
+      "firstChapter": 83,
+      "lastChapter": 444,
+      "markers": [
+        "同章共现(34)",
+        "朋友(1)",
+        "对手(1)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "房间",
+      "mentions": 37,
+      "firstChapter": 120,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(34)",
+        "师尊(2)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "房间",
+      "mentions": 37,
+      "firstChapter": 120,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(34)",
+        "师尊(2)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "应该",
+      "target": "时间",
+      "mentions": 36,
+      "firstChapter": 17,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(34)",
+        "兄弟(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "东西",
+      "target": "应该",
+      "mentions": 35,
+      "firstChapter": 17,
+      "lastChapter": 613,
+      "markers": [
+        "同章共现(33)",
+        "对手(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "连璧",
+      "target": "龙骨滩",
+      "mentions": 34,
+      "firstChapter": 46,
+      "lastChapter": 623,
+      "markers": [
+        "同章共现(33)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "左右",
+      "target": "查看",
+      "mentions": 33,
+      "firstChapter": 2,
+      "lastChapter": 633,
+      "markers": [
+        "同章共现(31)",
+        "弟子(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "林婉仪",
+      "target": "金丝眼",
+      "mentions": 33,
+      "firstChapter": 14,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(32)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "高人",
+      "mentions": 33,
+      "firstChapter": 29,
+      "lastChapter": 620,
+      "markers": [
+        "同章共现(32)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "高手",
+      "mentions": 33,
+      "firstChapter": 29,
+      "lastChapter": 547,
+      "markers": [
+        "同章共现(33)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "谢公子",
+      "mentions": 33,
+      "firstChapter": 246,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(32)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "杨化仙",
+      "target": "武神",
+      "mentions": 32,
+      "firstChapter": 278,
+      "lastChapter": 556,
+      "markers": [
+        "同章共现(29)",
+        "学生(1)",
+        "儿子(1)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "叶姐姐",
+      "target": "谢尽欢",
       "mentions": 31,
-      "firstChapter": 247,
+      "firstChapter": 481,
       "lastChapter": 647,
       "markers": [
         "同章共现(30)",
-        "保护(1)"
+        "学生(1)"
       ]
     },
     {
@@ -535,6 +3281,103 @@
       "markers": [
         "同章共现(29)",
         "对手(1)"
+      ]
+    },
+    {
+      "source": "水晶球",
+      "target": "谢尽欢",
+      "mentions": 30,
+      "firstChapter": 94,
+      "lastChapter": 634,
+      "markers": [
+        "同章共现(30)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "连璧",
+      "mentions": 30,
+      "firstChapter": 249,
+      "lastChapter": 609,
+      "markers": [
+        "同章共现(30)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "叶云迟",
+      "mentions": 30,
+      "firstChapter": 384,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(29)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "叶云迟",
+      "target": "宫烨",
+      "mentions": 30,
+      "firstChapter": 384,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(29)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "古怪",
+      "target": "谢尽欢",
+      "mentions": 29,
+      "firstChapter": 22,
+      "lastChapter": 603,
+      "markers": [
+        "同章共现(28)",
+        "师父(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "越来越",
+      "mentions": 29,
+      "firstChapter": 49,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(29)"
+      ]
+    },
+    {
+      "source": "后娘娘",
+      "target": "谢尽欢",
+      "mentions": 29,
+      "firstChapter": 106,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(28)",
+        "上司(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "杨大彪",
+      "mentions": 28,
+      "firstChapter": 3,
+      "lastChapter": 267,
+      "markers": [
+        "同章共现(27)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "红唇",
+      "target": "谢尽欢",
+      "mentions": 28,
+      "firstChapter": 144,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(27)",
+        "师尊(1)"
       ]
     },
     {
@@ -551,22 +3394,733 @@
       ]
     },
     {
-      "source": "为此",
-      "target": "林婉仪",
-      "mentions": 24,
-      "firstChapter": 104,
-      "lastChapter": 641,
+      "source": "令狐青墨",
+      "target": "宫烨",
+      "mentions": 28,
+      "firstChapter": 204,
+      "lastChapter": 646,
       "markers": [
-        "同章共现(22)",
-        "师父(2)"
+        "同章共现(17)",
+        "师尊(6)",
+        "师父(4)",
+        "老师(1)"
       ]
     },
     {
-      "source": "丹王",
-      "target": "还是",
+      "source": "明说",
+      "target": "谢尽欢",
+      "mentions": 27,
+      "firstChapter": 37,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(27)"
+      ]
+    },
+    {
+      "source": "简单",
+      "target": "谢尽欢",
+      "mentions": 27,
+      "firstChapter": 70,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(25)",
+        "弟子(1)",
+        "老师(1)"
+      ]
+    },
+    {
+      "source": "满意足",
+      "target": "谢尽欢",
+      "mentions": 27,
+      "firstChapter": 122,
+      "lastChapter": 641,
+      "markers": [
+        "同章共现(27)"
+      ]
+    },
+    {
+      "source": "武神",
+      "target": "黄麟真",
+      "mentions": 27,
+      "firstChapter": 191,
+      "lastChapter": 624,
+      "markers": [
+        "同章共现(27)"
+      ]
+    },
+    {
+      "source": "左右",
+      "target": "林婉仪",
+      "mentions": 26,
+      "firstChapter": 21,
+      "lastChapter": 631,
+      "markers": [
+        "同章共现(25)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "明白",
+      "mentions": 26,
+      "firstChapter": 100,
+      "lastChapter": 630,
+      "markers": [
+        "同章共现(26)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "明白",
+      "mentions": 26,
+      "firstChapter": 100,
+      "lastChapter": 630,
+      "markers": [
+        "同章共现(26)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "查看",
+      "mentions": 26,
+      "firstChapter": 107,
+      "lastChapter": 638,
+      "markers": [
+        "同章共现(25)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "查看",
+      "mentions": 26,
+      "firstChapter": 107,
+      "lastChapter": 638,
+      "markers": [
+        "同章共现(25)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "高兴",
+      "mentions": 26,
+      "firstChapter": 115,
+      "lastChapter": 616,
+      "markers": [
+        "同章共现(25)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "后娘娘",
+      "target": "姜仙",
+      "mentions": 26,
+      "firstChapter": 232,
+      "lastChapter": 643,
+      "markers": [
+        "同章共现(24)",
+        "上司(1)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "刘庆之",
+      "target": "杨大彪",
+      "mentions": 25,
+      "firstChapter": 18,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(23)",
+        "兄弟(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "白毛仙",
+      "target": "郭姐姐",
+      "mentions": 25,
+      "firstChapter": 342,
+      "lastChapter": 639,
+      "markers": [
+        "同章共现(24)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "叶云迟",
+      "target": "赵翎",
+      "mentions": 25,
+      "firstChapter": 411,
+      "lastChapter": 640,
+      "markers": [
+        "同章共现(25)"
+      ]
+    },
+    {
+      "source": "左右看",
+      "target": "谢尽欢",
+      "mentions": 24,
+      "firstChapter": 13,
+      "lastChapter": 644,
+      "markers": [
+        "同章共现(24)"
+      ]
+    },
+    {
+      "source": "水晶球",
+      "target": "红殇",
+      "mentions": 23,
+      "firstChapter": 125,
+      "lastChapter": 641,
+      "markers": [
+        "同章共现(23)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "郭太后",
+      "mentions": 23,
+      "firstChapter": 238,
+      "lastChapter": 615,
+      "markers": [
+        "同章共现(23)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "左右",
+      "mentions": 23,
+      "firstChapter": 246,
+      "lastChapter": 636,
+      "markers": [
+        "同章共现(23)"
+      ]
+    },
+    {
+      "source": "方式",
+      "target": "谢尽欢",
+      "mentions": 22,
+      "firstChapter": 3,
+      "lastChapter": 649,
+      "markers": [
+        "同章共现(22)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "左右",
+      "mentions": 22,
+      "firstChapter": 9,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(19)",
+        "朋友(2)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "莫名其",
+      "mentions": 22,
+      "firstChapter": 9,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(22)"
+      ]
+    },
+    {
+      "source": "后娘娘",
+      "target": "谢公子",
+      "mentions": 22,
+      "firstChapter": 248,
+      "lastChapter": 643,
+      "markers": [
+        "同章共现(21)",
+        "命令(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "查看",
+      "mentions": 21,
+      "firstChapter": 2,
+      "lastChapter": 630,
+      "markers": [
+        "同章共现(19)",
+        "朋友(1)",
+        "弟子(1)"
+      ]
+    },
+    {
+      "source": "明白",
+      "target": "林婉仪",
+      "mentions": 21,
+      "firstChapter": 5,
+      "lastChapter": 636,
+      "markers": [
+        "同章共现(21)"
+      ]
+    },
+    {
+      "source": "谢尽欢",
+      "target": "连忙道",
+      "mentions": 21,
+      "firstChapter": 31,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(19)",
+        "师尊(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "任务",
+      "target": "谢尽欢",
+      "mentions": 21,
+      "firstChapter": 69,
+      "lastChapter": 635,
+      "markers": [
+        "同章共现(20)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "师父",
+      "target": "应该",
+      "mentions": 21,
+      "firstChapter": 71,
+      "lastChapter": 519,
+      "markers": [
+        "师父(21)"
+      ]
+    },
+    {
+      "source": "谢郎",
+      "target": "郭太后",
+      "mentions": 21,
+      "firstChapter": 158,
+      "lastChapter": 546,
+      "markers": [
+        "同章共现(21)"
+      ]
+    },
+    {
+      "source": "吕炎",
+      "target": "应该",
+      "mentions": 21,
+      "firstChapter": 223,
+      "lastChapter": 468,
+      "markers": [
+        "同章共现(20)",
+        "保护(1)"
+      ]
+    },
+    {
+      "source": "吕炎",
+      "target": "黄麟真",
+      "mentions": 21,
+      "firstChapter": 244,
+      "lastChapter": 626,
+      "markers": [
+        "同章共现(20)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "东西",
+      "target": "令狐青墨",
+      "mentions": 20,
+      "firstChapter": 19,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(17)",
+        "师父(1)",
+        "朋友(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "毕竟他",
+      "target": "谢尽欢",
+      "mentions": 20,
+      "firstChapter": 51,
+      "lastChapter": 614,
+      "markers": [
+        "同章共现(18)",
+        "对手(2)"
+      ]
+    },
+    {
+      "source": "明白",
+      "target": "郭太后",
+      "mentions": 20,
+      "firstChapter": 128,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(20)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "师父",
+      "mentions": 20,
+      "firstChapter": 203,
+      "lastChapter": 648,
+      "markers": [
+        "师父(20)",
+        "姐妹(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "师父",
+      "mentions": 20,
+      "firstChapter": 203,
+      "lastChapter": 648,
+      "markers": [
+        "师父(20)",
+        "姐妹(1)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "杨化仙",
+      "target": "黄麟真",
+      "mentions": 20,
+      "firstChapter": 279,
+      "lastChapter": 557,
+      "markers": [
+        "同章共现(18)",
+        "对手(1)",
+        "盟友(1)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "房间",
+      "mentions": 20,
+      "firstChapter": 334,
+      "lastChapter": 628,
+      "markers": [
+        "同章共现(20)"
+      ]
+    },
+    {
+      "source": "刘庆之",
+      "target": "谢尽欢",
+      "mentions": 19,
+      "firstChapter": 17,
+      "lastChapter": 629,
+      "markers": [
+        "同章共现(18)",
+        "兄弟(1)"
+      ]
+    },
+    {
+      "source": "武夫",
+      "target": "江湖",
+      "mentions": 19,
+      "firstChapter": 60,
+      "lastChapter": 630,
+      "markers": [
+        "同章共现(18)",
+        "交易(1)"
+      ]
+    },
+    {
+      "source": "段时间",
+      "target": "谢尽欢",
+      "mentions": 19,
+      "firstChapter": 71,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(16)",
+        "师父(1)",
+        "对手(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "陆无真",
+      "mentions": 19,
+      "firstChapter": 99,
+      "lastChapter": 626,
+      "markers": [
+        "同章共现(19)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "陆无真",
+      "mentions": 19,
+      "firstChapter": 99,
+      "lastChapter": 626,
+      "markers": [
+        "同章共现(19)"
+      ]
+    },
+    {
+      "source": "叶圣",
+      "target": "魏无异",
+      "mentions": 19,
+      "firstChapter": 212,
+      "lastChapter": 632,
+      "markers": [
+        "同章共现(17)",
+        "弟子(1)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "林紫苏",
+      "mentions": 19,
+      "firstChapter": 502,
+      "lastChapter": 637,
+      "markers": [
+        "同章共现(18)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "王府",
+      "mentions": 18,
+      "firstChapter": 2,
+      "lastChapter": 315,
+      "markers": [
+        "同章共现(16)",
+        "姐妹(1)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "时间",
+      "target": "林婉仪",
+      "mentions": 18,
+      "firstChapter": 16,
+      "lastChapter": 571,
+      "markers": [
+        "同章共现(17)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "红殇",
+      "target": "解释",
+      "mentions": 18,
+      "firstChapter": 57,
+      "lastChapter": 640,
+      "markers": [
+        "同章共现(17)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "明白",
+      "mentions": 18,
+      "firstChapter": 59,
+      "lastChapter": 645,
+      "markers": [
+        "同章共现(15)",
+        "姐妹(2)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "胡思乱",
+      "target": "谢尽欢",
+      "mentions": 18,
+      "firstChapter": 96,
+      "lastChapter": 612,
+      "markers": [
+        "同章共现(17)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "东西",
+      "target": "南宫烨",
+      "mentions": 18,
+      "firstChapter": 188,
+      "lastChapter": 630,
+      "markers": [
+        "同章共现(16)",
+        "师父(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "东西",
+      "target": "宫烨",
+      "mentions": 18,
+      "firstChapter": 188,
+      "lastChapter": 630,
+      "markers": [
+        "同章共现(16)",
+        "师父(1)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "武神",
+      "target": "连璧",
+      "mentions": 18,
+      "firstChapter": 191,
+      "lastChapter": 562,
+      "markers": [
+        "同章共现(18)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "明白",
+      "mentions": 18,
+      "firstChapter": 432,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(18)"
+      ]
+    },
+    {
+      "source": "林大夫",
+      "target": "谢尽欢",
       "mentions": 17,
-      "firstChapter": 23,
-      "lastChapter": 328,
+      "firstChapter": 16,
+      "lastChapter": 606,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "许多",
+      "target": "谢尽欢",
+      "mentions": 17,
+      "firstChapter": 43,
+      "lastChapter": 614,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "山掌门",
+      "mentions": 17,
+      "firstChapter": 97,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)",
+        "弟子(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "山掌门",
+      "mentions": 17,
+      "firstChapter": 97,
+      "lastChapter": 642,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)",
+        "弟子(1)",
+        "姐妹(1)"
+      ]
+    },
+    {
+      "source": "应该",
+      "target": "陆无真",
+      "mentions": 17,
+      "firstChapter": 115,
+      "lastChapter": 622,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "左右",
+      "mentions": 17,
+      "firstChapter": 120,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "左右",
+      "mentions": 17,
+      "firstChapter": 120,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "南宫烨知",
+      "target": "谢尽欢",
+      "mentions": 17,
+      "firstChapter": 125,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(16)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "宫烨知",
+      "target": "谢尽欢",
+      "mentions": 17,
+      "firstChapter": 125,
+      "lastChapter": 646,
+      "markers": [
+        "同章共现(16)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "红耳赤",
+      "mentions": 17,
+      "firstChapter": 139,
+      "lastChapter": 632,
+      "markers": [
+        "同章共现(16)",
+        "师尊(1)"
+      ]
+    },
+    {
+      "source": "应该",
+      "target": "郭太后",
+      "mentions": 17,
+      "firstChapter": 253,
+      "lastChapter": 640,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "姜仙",
+      "target": "查看",
+      "mentions": 17,
+      "firstChapter": 253,
+      "lastChapter": 610,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "杨化仙",
+      "target": "连璧",
+      "mentions": 17,
+      "firstChapter": 258,
+      "lastChapter": 598,
       "markers": [
         "同章共现(17)"
       ]
@@ -583,8 +4137,50 @@
       ]
     },
     {
+      "source": "宫烨",
+      "target": "赵翎",
+      "mentions": 17,
+      "firstChapter": 276,
+      "lastChapter": 623,
+      "markers": [
+        "同章共现(16)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "房间",
+      "target": "林紫苏",
+      "mentions": 17,
+      "firstChapter": 284,
+      "lastChapter": 618,
+      "markers": [
+        "同章共现(16)",
+        "朋友(1)"
+      ]
+    },
+    {
+      "source": "叶云迟",
+      "target": "明白",
+      "mentions": 17,
+      "firstChapter": 359,
+      "lastChapter": 623,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
+      "source": "武神",
+      "target": "陆无真",
+      "mentions": 17,
+      "firstChapter": 364,
+      "lastChapter": 626,
+      "markers": [
+        "同章共现(17)"
+      ]
+    },
+    {
       "source": "令狐青墨",
-      "target": "长宁郡主",
+      "target": "宁郡主",
       "mentions": 16,
       "firstChapter": 2,
       "lastChapter": 310,
@@ -594,374 +4190,236 @@
       ]
     },
     {
-      "source": "何参",
-      "target": "还是",
-      "mentions": 15,
-      "firstChapter": 41,
-      "lastChapter": 638,
+      "source": "巫教妖",
+      "target": "谢尽欢",
+      "mentions": 16,
+      "firstChapter": 6,
+      "lastChapter": 342,
       "markers": [
-        "同章共现(14)",
-        "对手(1)"
+        "同章共现(16)"
       ]
     },
     {
-      "source": "还是",
-      "target": "长宁郡主",
-      "mentions": 13,
-      "firstChapter": 23,
-      "lastChapter": 310,
-      "markers": [
-        "同章共现(13)"
-      ]
-    },
-    {
-      "source": "南宫烨",
-      "target": "林婉仪",
-      "mentions": 13,
-      "firstChapter": 99,
-      "lastChapter": 605,
-      "markers": [
-        "同章共现(13)"
-      ]
-    },
-    {
-      "source": "对此",
-      "target": "郭太后",
-      "mentions": 12,
-      "firstChapter": 261,
-      "lastChapter": 632,
-      "markers": [
-        "同章共现(12)"
-      ]
-    },
-    {
-      "source": "为此",
-      "target": "何参",
-      "mentions": 11,
-      "firstChapter": 118,
-      "lastChapter": 638,
-      "markers": [
-        "同章共现(10)",
-        "对手(1)"
-      ]
-    },
-    {
-      "source": "李公浦",
-      "target": "还是",
-      "mentions": 10,
-      "firstChapter": 75,
-      "lastChapter": 183,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
-      "source": "谢尽欢",
-      "target": "魏昆",
-      "mentions": 10,
-      "firstChapter": 116,
-      "lastChapter": 372,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
-      "source": "南宫烨",
-      "target": "郭太后",
-      "mentions": 10,
-      "firstChapter": 416,
-      "lastChapter": 632,
-      "markers": [
-        "同章共现(10)"
-      ]
-    },
-    {
-      "source": "丹王",
-      "target": "长宁郡主",
-      "mentions": 9,
+      "source": "时辰",
+      "target": "谢尽欢",
+      "mentions": 16,
       "firstChapter": 7,
-      "lastChapter": 220,
+      "lastChapter": 646,
       "markers": [
-        "同章共现(8)",
-        "女儿(1)"
+        "同章共现(16)"
       ]
     },
     {
-      "source": "南宫烨",
-      "target": "对此",
-      "mentions": 9,
-      "firstChapter": 100,
+      "source": "南宫掌门",
+      "target": "谢尽欢",
+      "mentions": 16,
+      "firstChapter": 9,
+      "lastChapter": 611,
+      "markers": [
+        "同章共现(15)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "宫掌门",
+      "target": "谢尽欢",
+      "mentions": 16,
+      "firstChapter": 9,
+      "lastChapter": 611,
+      "markers": [
+        "同章共现(15)",
+        "对手(1)"
+      ]
+    },
+    {
+      "source": "令狐青墨",
+      "target": "时间",
+      "mentions": 16,
+      "firstChapter": 10,
       "lastChapter": 622,
       "markers": [
-        "同章共现(8)",
+        "同章共现(12)",
+        "师父(3)",
+        "师尊(2)"
+      ]
+    },
+    {
+      "source": "应道",
+      "target": "红殇",
+      "mentions": 16,
+      "firstChapter": 12,
+      "lastChapter": 625,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "南宫烨",
+      "target": "白道袍",
+      "mentions": 16,
+      "firstChapter": 174,
+      "lastChapter": 644,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "宫烨",
+      "target": "白道袍",
+      "mentions": 16,
+      "firstChapter": 174,
+      "lastChapter": 644,
+      "markers": [
+        "同章共现(16)"
+      ]
+    },
+    {
+      "source": "叶圣",
+      "target": "陆无真",
+      "mentions": 16,
+      "firstChapter": 202,
+      "lastChapter": 648,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)",
+        "学生(1)"
+      ]
+    },
+    {
+      "source": "侯府",
+      "target": "谢尽欢",
+      "mentions": 16,
+      "firstChapter": 217,
+      "lastChapter": 647,
+      "markers": [
+        "同章共现(15)",
         "师父(1)"
       ]
     },
     {
-      "source": "赵翎",
-      "target": "郭太后",
-      "mentions": 9,
-      "firstChapter": 247,
-      "lastChapter": 649,
+      "source": "武神",
+      "target": "郭姐姐",
+      "mentions": 16,
+      "firstChapter": 399,
+      "lastChapter": 605,
       "markers": [
-        "同章共现(9)"
-      ]
-    },
-    {
-      "source": "为此",
-      "target": "商明真",
-      "mentions": 9,
-      "firstChapter": 363,
-      "lastChapter": 488,
-      "markers": [
-        "同章共现(9)"
-      ]
-    },
-    {
-      "source": "对此",
-      "target": "还是",
-      "mentions": 8,
-      "firstChapter": 70,
-      "lastChapter": 625,
-      "markers": [
-        "同章共现(6)",
-        "交易(1)",
-        "朋友(1)"
-      ]
-    },
-    {
-      "source": "步寒英",
-      "target": "谢尽欢",
-      "mentions": 8,
-      "firstChapter": 104,
-      "lastChapter": 483,
-      "markers": [
-        "同章共现(7)",
-        "交易(1)"
-      ]
-    },
-    {
-      "source": "丹王",
-      "target": "令狐青墨",
-      "mentions": 7,
-      "firstChapter": 27,
-      "lastChapter": 315,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "丹王",
-      "target": "为此",
-      "mentions": 7,
-      "firstChapter": 67,
-      "lastChapter": 338,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "商明真",
-      "target": "还是",
-      "mentions": 7,
-      "firstChapter": 384,
-      "lastChapter": 459,
-      "markers": [
-        "同章共现(7)"
-      ]
-    },
-    {
-      "source": "丹王",
-      "target": "李公浦",
-      "mentions": 6,
-      "firstChapter": 17,
-      "lastChapter": 111,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "对此",
-      "target": "林婉仪",
-      "mentions": 6,
-      "firstChapter": 26,
-      "lastChapter": 594,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "林婉仪",
-      "target": "步寒英",
-      "mentions": 6,
-      "firstChapter": 99,
-      "lastChapter": 636,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "丹王",
-      "target": "南宫烨",
-      "mentions": 6,
-      "firstChapter": 100,
-      "lastChapter": 233,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "李公浦",
-      "target": "长宁郡主",
-      "mentions": 6,
-      "firstChapter": 102,
-      "lastChapter": 141,
-      "markers": [
-        "同章共现(6)"
-      ]
-    },
-    {
-      "source": "为此",
-      "target": "对此",
-      "mentions": 6,
-      "firstChapter": 305,
-      "lastChapter": 624,
-      "markers": [
-        "同章共现(4)",
-        "弟子(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "吴诤",
-      "target": "谢尽欢",
-      "mentions": 5,
-      "firstChapter": 38,
-      "lastChapter": 388,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "为此",
-      "target": "李公浦",
-      "mentions": 5,
-      "firstChapter": 96,
-      "lastChapter": 318,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "步寒英",
-      "target": "还是",
-      "mentions": 5,
-      "firstChapter": 99,
-      "lastChapter": 284,
-      "markers": [
-        "同章共现(5)"
-      ]
-    },
-    {
-      "source": "丹王",
-      "target": "对此",
-      "mentions": 4,
-      "firstChapter": 23,
-      "lastChapter": 315,
-      "markers": [
-        "同章共现(4)"
+        "同章共现(16)"
       ]
     },
     {
       "source": "令狐青墨",
-      "target": "郭太后",
-      "mentions": 4,
-      "firstChapter": 421,
-      "lastChapter": 626,
+      "target": "林大夫",
+      "mentions": 15,
+      "firstChapter": 47,
+      "lastChapter": 496,
       "markers": [
-        "同章共现(4)"
-      ]
-    },
-    {
-      "source": "令狐青墨",
-      "target": "对此",
-      "mentions": 3,
-      "firstChapter": 56,
-      "lastChapter": 578,
-      "markers": [
-        "学生(1)",
-        "同章共现(1)",
-        "师尊(1)"
-      ]
-    },
-    {
-      "source": "李公浦",
-      "target": "步寒英",
-      "mentions": 3,
-      "firstChapter": 103,
-      "lastChapter": 284,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "对此",
-      "target": "赵翎",
-      "mentions": 3,
-      "firstChapter": 418,
-      "lastChapter": 532,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "林婉仪",
-      "target": "郭太后",
-      "mentions": 3,
-      "firstChapter": 475,
-      "lastChapter": 637,
-      "markers": [
-        "同章共现(3)"
-      ]
-    },
-    {
-      "source": "令狐青墨",
-      "target": "吴诤",
-      "mentions": 2,
-      "firstChapter": 38,
-      "lastChapter": 38,
-      "markers": [
-        "同章共现(2)"
+        "同章共现(15)"
       ]
     },
     {
       "source": "南宫烨",
-      "target": "步寒英",
-      "mentions": 2,
-      "firstChapter": 99,
-      "lastChapter": 99,
+      "target": "应该",
+      "mentions": 15,
+      "firstChapter": 116,
+      "lastChapter": 562,
       "markers": [
-        "同章共现(2)"
+        "同章共现(14)",
+        "师尊(1)"
       ]
     },
     {
-      "source": "郭太后",
-      "target": "长宁郡主",
-      "mentions": 2,
-      "firstChapter": 220,
-      "lastChapter": 273,
+      "source": "宫烨",
+      "target": "应该",
+      "mentions": 15,
+      "firstChapter": 116,
+      "lastChapter": 562,
       "markers": [
-        "同章共现(2)"
+        "同章共现(14)",
+        "师尊(1)"
       ]
     },
     {
-      "source": "何参",
-      "target": "对此",
-      "mentions": 2,
-      "firstChapter": 376,
-      "lastChapter": 525,
+      "source": "司空老祖",
+      "target": "谢尽欢",
+      "mentions": 15,
+      "firstChapter": 117,
+      "lastChapter": 508,
       "markers": [
-        "同章共现(2)"
+        "同章共现(14)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "房间内",
+      "target": "谢尽欢",
+      "mentions": 15,
+      "firstChapter": 118,
+      "lastChapter": 609,
+      "markers": [
+        "同章共现(15)"
+      ]
+    },
+    {
+      "source": "南宫烨见",
+      "target": "谢尽欢",
+      "mentions": 15,
+      "firstChapter": 152,
+      "lastChapter": 535,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "宫烨见",
+      "target": "谢尽欢",
+      "mentions": 15,
+      "firstChapter": 152,
+      "lastChapter": 535,
+      "markers": [
+        "同章共现(14)",
+        "师父(1)"
+      ]
+    },
+    {
+      "source": "应该",
+      "target": "郭姐姐",
+      "mentions": 15,
+      "firstChapter": 249,
+      "lastChapter": 588,
+      "markers": [
+        "同章共现(15)"
+      ]
+    },
+    {
+      "source": "林婉仪",
+      "target": "林紫苏",
+      "mentions": 14,
+      "firstChapter": 5,
+      "lastChapter": 602,
+      "markers": [
+        "同章共现(12)",
+        "学生(2)"
+      ]
+    },
+    {
+      "source": "东西",
+      "target": "林婉仪",
+      "mentions": 14,
+      "firstChapter": 15,
+      "lastChapter": 637,
+      "markers": [
+        "同章共现(14)"
+      ]
+    },
+    {
+      "source": "厉害",
+      "target": "谢公子",
+      "mentions": 14,
+      "firstChapter": 56,
+      "lastChapter": 613,
+      "markers": [
+        "同章共现(14)"
       ]
     }
   ],
@@ -4396,7 +7854,36 @@
       "chunk": 1,
       "range": "第 1-20 章",
       "characters": [
-        "令狐青墨"
+        "谢尽欢",
+        "红衣女",
+        "山老陵",
+        "任岭南",
+        "相貌并",
+        "令狐青墨",
+        "杨大彪",
+        "东仓坊",
+        "万安县",
+        "时间",
+        "宁八年",
+        "令狐大人",
+        "杨大人",
+        "车马行",
+        "杨霆",
+        "查看",
+        "东仓街",
+        "东西",
+        "毛骨悚",
+        "杨捕头",
+        "游方道",
+        "陈元",
+        "钱袋",
+        "习武心",
+        "白袍公",
+        "时已晚",
+        "陈元刚",
+        "龙扫尾",
+        "龙撞柱",
+        "龙八式"
       ],
       "organizations": [
         "丹阳学宫",
@@ -4429,8 +7916,35 @@
       "range": "第 21-40 章",
       "characters": [
         "谢尽欢",
-        "令狐青墨",
-        "吴诤"
+        "林婉仪",
+        "杨大彪",
+        "傅冬平",
+        "东西",
+        "巫教妖",
+        "谢公子",
+        "林紫苏",
+        "林姑娘",
+        "时间",
+        "查看",
+        "马车",
+        "莫名其",
+        "解释",
+        "红殇",
+        "左右",
+        "贾正",
+        "白袍公",
+        "房门",
+        "左右查",
+        "红殇摇",
+        "红殇说",
+        "卫贾正",
+        "解毒",
+        "红殇靠",
+        "高耸",
+        "巫教",
+        "马车停",
+        "师爷",
+        "白毛巾"
       ],
       "organizations": [
         "丹阳学宫",
@@ -4476,8 +7990,36 @@
       "chunk": 3,
       "range": "第 41-60 章",
       "characters": [
+        "谢尽欢",
         "令狐青墨",
-        "谢尽欢"
+        "杨大彪",
+        "李子先",
+        "时间",
+        "山妖气",
+        "解释",
+        "令狐姑娘",
+        "李家",
+        "祝文鸳",
+        "后面",
+        "关系",
+        "应道",
+        "杨霆",
+        "王爷",
+        "高人",
+        "周贺",
+        "姬世清",
+        "何参",
+        "房间内",
+        "王府",
+        "穆云令",
+        "卫百户",
+        "太叔丹",
+        "山羊胡",
+        "任何",
+        "王阁",
+        "相貌",
+        "房间",
+        "管事"
       ],
       "organizations": [
         "丹王阁",
@@ -4529,8 +8071,36 @@
       "chunk": 4,
       "range": "第 61-80 章",
       "characters": [
+        "谢尽欢",
+        "林婉仪",
         "令狐青墨",
-        "谢尽欢"
+        "宁郡主",
+        "东西",
+        "刘庆之",
+        "谢公子",
+        "侯管家",
+        "时间",
+        "武夫",
+        "杜青衣",
+        "明白",
+        "武卒",
+        "高手",
+        "高人",
+        "时之间",
+        "雷之势",
+        "游龙盘",
+        "施展",
+        "太叔丹",
+        "江水",
+        "龙撞柱",
+        "龙横岗",
+        "管家",
+        "左手",
+        "步入三",
+        "巫师",
+        "红雾",
+        "王八蛋",
+        "云散"
       ],
       "organizations": [
         "蛊毒派",
@@ -4589,7 +8159,34 @@
       "characters": [
         "谢尽欢",
         "令狐青墨",
-        "步寒英"
+        "杨大彪",
+        "东西",
+        "谢公子",
+        "时间",
+        "令狐姑娘",
+        "查看",
+        "韩靖川",
+        "莫名其",
+        "李公浦",
+        "高手",
+        "吴县令",
+        "周贺",
+        "吴元化",
+        "厉害",
+        "王府",
+        "后面",
+        "太叔丹",
+        "陈府尹",
+        "陆无真",
+        "怀疑",
+        "查案",
+        "时辰",
+        "简单",
+        "卫百户",
+        "何参",
+        "师父",
+        "王世子",
+        "吴肃"
       ],
       "organizations": [
         "我待会",
@@ -4641,8 +8238,35 @@
       "range": "第 101-120 章",
       "characters": [
         "谢尽欢",
-        "步寒英",
-        "令狐青墨"
+        "东西",
+        "韩靖川",
+        "谢公子",
+        "李公浦",
+        "周明安",
+        "房东太",
+        "武夫",
+        "解释",
+        "周大人",
+        "关系",
+        "红殇",
+        "黄麟印",
+        "宫闹鬼",
+        "解围",
+        "查案",
+        "江湖",
+        "房间",
+        "武艺",
+        "周边",
+        "施展",
+        "武艺高",
+        "任何",
+        "黄门郎",
+        "连忙摇",
+        "边低语",
+        "时瞧见",
+        "叶祠",
+        "李公",
+        "金楼"
       ],
       "organizations": [
         "会不会",
@@ -4695,10 +8319,35 @@
       "range": "第 121-140 章",
       "characters": [
         "谢尽欢",
-        "令狐青墨",
-        "长宁郡主",
-        "步寒英",
-        "李公浦"
+        "东西",
+        "叶世荣",
+        "解释",
+        "红殇",
+        "高手",
+        "高人",
+        "南宫烨",
+        "宫烨",
+        "山掌门",
+        "毕竟他",
+        "云流水",
+        "周边",
+        "方式",
+        "房舍",
+        "任何",
+        "雷之势",
+        "云红",
+        "任何异",
+        "左手",
+        "安慰道",
+        "红伞",
+        "解毒",
+        "白雷光",
+        "边传来",
+        "红殇扛",
+        "解毒之",
+        "步入一",
+        "明身份",
+        "山巅"
       ],
       "organizations": [
         "怎么会",
@@ -4756,8 +8405,33 @@
         "谢尽欢",
         "令狐青墨",
         "李公浦",
-        "长宁郡主",
-        "步寒英"
+        "宁郡主",
+        "杨大彪",
+        "谢公子",
+        "韩靖川",
+        "周明安",
+        "时间",
+        "林大夫",
+        "查看",
+        "曹佛儿",
+        "明白",
+        "厉害",
+        "马车",
+        "后面",
+        "李家",
+        "曹怀安",
+        "越来越",
+        "高人",
+        "李公公",
+        "李公",
+        "时辰",
+        "侯继业",
+        "房舍",
+        "李侍郎",
+        "卫百户",
+        "红袍瘟",
+        "谢温",
+        "李府"
       ],
       "organizations": [
         "会不会",
@@ -4818,10 +8492,35 @@
       "range": "第 161-180 章",
       "characters": [
         "谢尽欢",
-        "吴诤",
-        "长宁郡主",
-        "令狐青墨",
-        "步寒英"
+        "宁郡主",
+        "杨大彪",
+        "东西",
+        "谢公子",
+        "叶世荣",
+        "林大夫",
+        "陆无真",
+        "令狐姑娘",
+        "红殇",
+        "王府",
+        "巫教妖",
+        "南宫烨",
+        "宫烨",
+        "明白",
+        "厉害",
+        "王世子",
+        "龙活虎",
+        "房间",
+        "万安县",
+        "山掌门",
+        "苏姑娘",
+        "红衣阿",
+        "红颜知",
+        "魏无异",
+        "太叔丹",
+        "容易",
+        "苏大仙",
+        "简单",
+        "李镜"
       ],
       "organizations": [
         "但南宫",
@@ -4888,12 +8587,35 @@
       "range": "第 181-200 章",
       "characters": [
         "谢尽欢",
+        "林婉仪",
+        "叶世荣",
         "步寒英",
-        "令狐青墨",
-        "李公浦",
-        "丹王",
-        "吴诤",
-        "长宁郡主"
+        "时间",
+        "南宫烨",
+        "宫烨",
+        "解释",
+        "巫教妖",
+        "厉害",
+        "魏无异",
+        "金丝眼",
+        "南宫掌门",
+        "高人",
+        "宫掌门",
+        "房间",
+        "何参",
+        "师父",
+        "太叔丹",
+        "松鹤湾",
+        "容易",
+        "解法",
+        "江湖",
+        "解开",
+        "房门",
+        "明说",
+        "解药",
+        "周边",
+        "林府",
+        "何瞒"
       ],
       "organizations": [
         "蛊毒派",
@@ -4958,11 +8680,35 @@
       "range": "第 201-220 章",
       "characters": [
         "谢尽欢",
-        "吴诤",
-        "步寒英",
-        "丹王",
-        "令狐青墨",
-        "长宁郡主"
+        "东西",
+        "谢公子",
+        "红殇",
+        "明白",
+        "巫教之",
+        "何参",
+        "高人",
+        "江口",
+        "金刚杵",
+        "周边",
+        "左手",
+        "何瞒",
+        "红伞",
+        "祖师爷",
+        "叶祠",
+        "山巅老",
+        "步入超",
+        "祖陵",
+        "万一",
+        "山巅",
+        "祖宗",
+        "明白谢",
+        "方位",
+        "应奇快",
+        "山野",
+        "冷声道",
+        "张褚",
+        "金刚",
+        "巫教"
       ],
       "organizations": [
         "禅定派",
@@ -5026,12 +8772,35 @@
       "range": "第 221-240 章",
       "characters": [
         "谢尽欢",
-        "令狐青墨",
-        "李公浦",
-        "丹王",
-        "长宁郡主",
-        "吴诤",
-        "步寒英"
+        "陆无真",
+        "时间",
+        "房东太",
+        "莫名其",
+        "王府",
+        "应道",
+        "关系",
+        "巫教之",
+        "左右",
+        "山掌门",
+        "师父",
+        "花师姐",
+        "徐观复",
+        "司空老祖",
+        "太叔丹",
+        "容易",
+        "何天齐",
+        "周边",
+        "房舍",
+        "凤凰陵",
+        "山庄",
+        "明显",
+        "范围",
+        "姜祈子",
+        "安全",
+        "巫师",
+        "孙子",
+        "解决",
+        "山坳间"
       ],
       "organizations": [
         "蛊毒派",
@@ -5096,8 +8865,35 @@
       "range": "第 241-260 章",
       "characters": [
         "谢尽欢",
-        "令狐青墨",
-        "长宁郡主"
+        "东西",
+        "时间",
+        "武夫",
+        "李怀川",
+        "郭太后",
+        "应道",
+        "关系",
+        "厉害",
+        "明白",
+        "山掌门",
+        "左右",
+        "左右打",
+        "何参",
+        "龙撞柱",
+        "容易",
+        "吕炎",
+        "后之人",
+        "步入超",
+        "明显",
+        "边还有",
+        "凤谷",
+        "解决",
+        "山野",
+        "施展",
+        "黎山剑",
+        "后腰",
+        "周身",
+        "师妹",
+        "白桦县"
       ],
       "organizations": [
         "蛊毒派",
@@ -5151,9 +8947,35 @@
       "range": "第 261-280 章",
       "characters": [
         "谢尽欢",
-        "令狐青墨",
-        "丹王",
-        "长宁郡主"
+        "谢公子",
+        "郭太后",
+        "时间",
+        "房东太",
+        "解释",
+        "应道",
+        "查看",
+        "厉害",
+        "明白",
+        "后娘娘",
+        "后面",
+        "马车",
+        "高手",
+        "左右",
+        "马迹",
+        "红颜知",
+        "江口",
+        "巫教",
+        "巫师",
+        "任何人",
+        "怀疑",
+        "房舍",
+        "应该",
+        "解释道",
+        "花如月",
+        "明显",
+        "安危",
+        "相信",
+        "周朝廷"
       ],
       "organizations": [
         "蛊毒派",
@@ -5213,11 +9035,35 @@
       "range": "第 281-300 章",
       "characters": [
         "谢尽欢",
-        "令狐青墨",
-        "李公浦",
-        "步寒英",
-        "丹王",
-        "魏昆"
+        "郭太后",
+        "东西",
+        "时间",
+        "武夫",
+        "南宫烨",
+        "宫烨",
+        "巫教之",
+        "巫教妖",
+        "厉害",
+        "越来越",
+        "左右",
+        "房间",
+        "师父",
+        "凤凰陵",
+        "张砚舟",
+        "龙撞柱",
+        "安东王",
+        "江湖",
+        "高人",
+        "解开",
+        "容易",
+        "步姐姐",
+        "红颜知",
+        "南宫烨身",
+        "宫烨身",
+        "黄麟真",
+        "龙骨滩",
+        "高老魔",
+        "白毛仙"
       ],
       "organizations": [
         "怎么会",
@@ -5285,13 +9131,34 @@
       "characters": [
         "谢尽欢",
         "令狐青墨",
-        "丹王",
-        "对此",
-        "魏昆",
-        "吴诤",
-        "李公浦",
-        "长宁郡主",
-        "步寒英"
+        "东西",
+        "时间",
+        "南宫烨",
+        "宫烨",
+        "红殇",
+        "厉害",
+        "巫教妖",
+        "师父",
+        "步姐姐",
+        "左右",
+        "左右打",
+        "凤美眸",
+        "江湖",
+        "高人",
+        "左手",
+        "应该",
+        "全身",
+        "赵翎",
+        "巫教",
+        "红唇",
+        "安全",
+        "安慰",
+        "雷击",
+        "舒服",
+        "雷光",
+        "解决",
+        "周遭",
+        "南宫烨则"
       ],
       "organizations": [
         "怎么会",
@@ -5350,11 +9217,35 @@
       "range": "第 321-340 章",
       "characters": [
         "谢尽欢",
-        "丹王",
-        "对此",
-        "令狐青墨",
-        "还是",
-        "南宫烨"
+        "东西",
+        "魏无异",
+        "陆无真",
+        "时间",
+        "巫教之",
+        "曹佛儿",
+        "魏继礼",
+        "徐观复",
+        "王府",
+        "穆云令",
+        "马迹",
+        "武艺",
+        "左手",
+        "应该",
+        "怀疑",
+        "李敕墨",
+        "金刚杵",
+        "毛骨悚",
+        "严重",
+        "巫教",
+        "安危",
+        "胡说八",
+        "赵德",
+        "祖陵",
+        "叶圣",
+        "武道",
+        "安全",
+        "江州徐",
+        "任何"
       ],
       "organizations": [
         "我不会",
@@ -5420,12 +9311,34 @@
       "characters": [
         "谢尽欢",
         "令狐青墨",
-        "还是",
+        "东西",
+        "时间",
         "南宫烨",
-        "步寒英",
-        "魏昆",
-        "对此",
-        "李公浦"
+        "宫烨",
+        "林大夫",
+        "师父",
+        "解释",
+        "明白",
+        "巫教妖",
+        "步姐姐",
+        "步青崖",
+        "房间",
+        "南宫掌门",
+        "宫掌门",
+        "南宫烨知",
+        "宫烨知",
+        "房间内",
+        "左手",
+        "包裹",
+        "任何",
+        "巫教",
+        "师长",
+        "安慰",
+        "施展",
+        "冷声道",
+        "南宫烨则",
+        "宫烨则",
+        "南宫前辈"
       ],
       "organizations": [
         "怎么会",
@@ -5487,11 +9400,35 @@
       "range": "第 361-380 章",
       "characters": [
         "谢尽欢",
-        "还是",
-        "魏昆",
-        "南宫烨",
-        "何参",
-        "对此"
+        "魏无异",
+        "陆无真",
+        "郭太后",
+        "东西",
+        "谢公子",
+        "时间",
+        "武夫",
+        "应道",
+        "查看",
+        "师父",
+        "步姐姐",
+        "解释",
+        "龙骨滩",
+        "红殇",
+        "步青崖",
+        "吕炎",
+        "祝祭派",
+        "白毛仙",
+        "凤羽草",
+        "凤凰陵",
+        "江湖",
+        "叶圣",
+        "步入超",
+        "叶云迟",
+        "应该",
+        "郭姐姐",
+        "方神赐",
+        "明说",
+        "雷法"
       ],
       "organizations": [
         "蛊毒派",
@@ -5549,15 +9486,35 @@
       "range": "第 381-400 章",
       "characters": [
         "谢尽欢",
-        "还是",
+        "陆无真",
+        "东西",
+        "叶云迟",
+        "龙骨滩",
+        "应道",
+        "关系",
+        "查看",
+        "莫名其",
+        "师父",
+        "吕炎",
+        "红殇",
+        "厉害",
+        "南宫掌门",
+        "白毛仙",
+        "左右",
+        "宫掌门",
         "何参",
-        "魏昆",
-        "南宫烨",
-        "令狐青墨",
-        "商明真",
-        "对此",
-        "步寒英",
-        "吴诤"
+        "叶前辈",
+        "鲍啸林",
+        "林姑娘",
+        "江湖",
+        "容易",
+        "应该",
+        "郭姐姐",
+        "曲子",
+        "师姐",
+        "舒服",
+        "龙皇窟",
+        "雷光"
       ],
       "organizations": [
         "南宫掌门",
@@ -5620,13 +9577,35 @@
       "range": "第 401-420 章",
       "characters": [
         "谢尽欢",
+        "叶云迟",
+        "东西",
         "南宫烨",
-        "商明真",
-        "还是",
-        "何参",
-        "令狐青墨",
-        "步寒英",
-        "对此"
+        "宫烨",
+        "龙骨滩",
+        "师父",
+        "陈忆山",
+        "厉害",
+        "越来越",
+        "明白",
+        "郭姐姐",
+        "左右",
+        "边缘",
+        "龙脊岭",
+        "方清玄",
+        "叶圣",
+        "解开",
+        "左手",
+        "连璧",
+        "方式",
+        "雷法",
+        "山野",
+        "任何",
+        "红唇",
+        "范围",
+        "周身",
+        "毛骨悚",
+        "武神",
+        "巫教"
       ],
       "organizations": [
         "会不会",
@@ -5690,10 +9669,34 @@
       "characters": [
         "谢尽欢",
         "令狐青墨",
-        "还是",
+        "林婉仪",
+        "叶云迟",
+        "郭太后",
+        "东西",
+        "林紫苏",
         "南宫烨",
-        "对此",
-        "商明真"
+        "时间",
+        "宫烨",
+        "房东太",
+        "龙骨滩",
+        "师父",
+        "解释",
+        "厉害",
+        "红殇",
+        "南宫掌门",
+        "巫教妖",
+        "宫掌门",
+        "赵翎",
+        "高手",
+        "南宫仙子",
+        "宫仙子",
+        "应该",
+        "时辰",
+        "师姐",
+        "谢郎",
+        "南宫烨本",
+        "左手",
+        "宫烨本"
       ],
       "organizations": [
         "南宫掌门",
@@ -5754,13 +9757,35 @@
       "range": "第 441-460 章",
       "characters": [
         "谢尽欢",
-        "还是",
+        "叶云迟",
+        "郭太后",
         "南宫烨",
-        "令狐青墨",
-        "何参",
-        "商明真",
-        "对此",
-        "郭太后"
+        "宫烨",
+        "龙骨滩",
+        "关系",
+        "师父",
+        "查看",
+        "步姐姐",
+        "吕炎",
+        "郭姐姐",
+        "明白",
+        "白毛仙",
+        "赵翎",
+        "简单",
+        "左右打",
+        "左右",
+        "容易",
+        "南宫仙子",
+        "应该",
+        "南宫烨见",
+        "宫烨见",
+        "宫仙子",
+        "南宫烨知",
+        "宫烨知",
+        "解开",
+        "叶女侠",
+        "吕炎老",
+        "安排"
       ],
       "organizations": [
         "占验派",
@@ -5819,14 +9844,35 @@
       "range": "第 461-480 章",
       "characters": [
         "谢尽欢",
-        "还是",
-        "南宫烨",
         "郭太后",
-        "商明真",
-        "对此",
-        "何参",
-        "魏昆",
-        "令狐青墨"
+        "南宫烨",
+        "时间",
+        "宫烨",
+        "应道",
+        "郭姐姐",
+        "杨化仙",
+        "厉害",
+        "红殇",
+        "黄麟真",
+        "明白",
+        "赵翎",
+        "左右",
+        "容易",
+        "南宫烨见",
+        "宫烨见",
+        "应该",
+        "武神",
+        "江湖",
+        "叶圣",
+        "舒服",
+        "红颜知",
+        "方神赐",
+        "朱雀陵",
+        "范围",
+        "连璧",
+        "周边",
+        "明真",
+        "武神赐"
       ],
       "organizations": [
         "隐仙派",
@@ -5886,14 +9932,35 @@
       "range": "第 481-500 章",
       "characters": [
         "谢尽欢",
-        "还是",
-        "南宫烨",
+        "林婉仪",
+        "叶云迟",
         "郭太后",
-        "令狐青墨",
-        "步寒英",
-        "对此",
-        "商明真",
-        "何参"
+        "谢公子",
+        "林紫苏",
+        "南宫烨",
+        "宫烨",
+        "应道",
+        "郭姐姐",
+        "红殇",
+        "厉害",
+        "后娘娘",
+        "房间",
+        "后面",
+        "苏大仙",
+        "古怪",
+        "应该",
+        "胡思乱",
+        "谢郎",
+        "姜仙",
+        "姜姑娘",
+        "安排",
+        "任何",
+        "叶姐姐",
+        "白袍",
+        "连忙摇",
+        "毕竟",
+        "相夫教",
+        "黄毛"
       ],
       "organizations": [
         "会不会",
@@ -5955,14 +10022,35 @@
       "range": "第 501-520 章",
       "characters": [
         "谢尽欢",
-        "还是",
         "郭太后",
-        "对此",
-        "令狐青墨",
-        "南宫烨",
-        "何参",
-        "林婉仪",
-        "李公浦"
+        "东西",
+        "时间",
+        "郭姐姐",
+        "司空天渊",
+        "司空老祖",
+        "明白",
+        "越来越",
+        "武神",
+        "左右",
+        "容易",
+        "高老魔",
+        "胡思乱",
+        "凤凰陵",
+        "江湖",
+        "怀疑",
+        "毕竟她",
+        "明说",
+        "方式",
+        "山巅老",
+        "解开",
+        "连璧",
+        "任何",
+        "叶祠",
+        "周遭",
+        "毛病",
+        "明显",
+        "巫教",
+        "相合"
       ],
       "organizations": [
         "怎么会",
@@ -6021,14 +10109,35 @@
       "range": "第 521-540 章",
       "characters": [
         "谢尽欢",
-        "还是",
-        "对此",
-        "何参",
-        "令狐青墨",
-        "南宫烨",
-        "郭太后",
-        "林婉仪",
-        "赵翎"
+        "时间",
+        "武夫",
+        "巫教之",
+        "莫名其",
+        "明白",
+        "后面",
+        "应该",
+        "江湖",
+        "怀疑",
+        "叶祠",
+        "安危",
+        "武道",
+        "边还有",
+        "时已晚",
+        "巫教",
+        "龙皇锏",
+        "后续",
+        "毕竟",
+        "王八蛋",
+        "游侠",
+        "关联",
+        "相识",
+        "武道第",
+        "武祖",
+        "曾经",
+        "何如此",
+        "方设法",
+        "武祖之",
+        "山露水"
       ],
       "organizations": [
         "丹阳学宫",
@@ -6095,14 +10204,35 @@
       "range": "第 541-560 章",
       "characters": [
         "谢尽欢",
-        "还是",
+        "东西",
+        "林紫苏",
+        "时间",
+        "巫教之",
+        "厉害",
+        "吕炎",
+        "沙屠老",
         "何参",
-        "令狐青墨",
-        "郭太后",
-        "林婉仪",
-        "对此",
-        "南宫烨",
-        "赵翎"
+        "应该",
+        "马车",
+        "高人",
+        "江湖",
+        "谢老魔",
+        "连璧",
+        "方式",
+        "谢大侠",
+        "周边",
+        "安全",
+        "冷冰冰",
+        "巫教",
+        "时而",
+        "戈壁滩",
+        "毕竟",
+        "车厢内",
+        "常人",
+        "寿数",
+        "后手",
+        "齐齐",
+        "方传来"
       ],
       "organizations": [
         "会不会",
@@ -6161,16 +10291,35 @@
       "range": "第 561-580 章",
       "characters": [
         "谢尽欢",
-        "还是",
-        "何参",
         "郭太后",
-        "商明真",
-        "令狐青墨",
-        "南宫烨",
-        "对此",
-        "林婉仪",
-        "赵翎",
-        "为此"
+        "谢公子",
+        "杨化仙",
+        "时间",
+        "郭姐姐",
+        "龙骨滩",
+        "应道",
+        "巫教之",
+        "查看",
+        "红殇",
+        "白毛仙",
+        "吕炎",
+        "越来越",
+        "明白",
+        "武神",
+        "何参",
+        "简单",
+        "祝祭派",
+        "毕竟他",
+        "宫仙子",
+        "容易",
+        "连璧",
+        "李敕墨",
+        "吕炎老",
+        "方式",
+        "沙沙沙",
+        "许多",
+        "龙撞柱",
+        "山野"
       ],
       "organizations": [
         "蛊毒派",
@@ -6235,17 +10384,35 @@
       "range": "第 581-600 章",
       "characters": [
         "谢尽欢",
-        "还是",
+        "林紫苏",
+        "东西",
+        "谢公子",
         "南宫烨",
-        "为此",
-        "对此",
-        "步寒英",
-        "赵翎",
-        "林婉仪",
-        "郭太后",
-        "令狐青墨",
-        "何参",
-        "丹王"
+        "宫烨",
+        "应道",
+        "解释",
+        "查看",
+        "红殇",
+        "厉害",
+        "房间",
+        "姜仙",
+        "房间内",
+        "水晶球",
+        "南宫烨见",
+        "宫烨见",
+        "谢郎",
+        "凤美眸",
+        "连忙抬",
+        "许多",
+        "南宫烨眼",
+        "宫烨眼",
+        "谢大哥",
+        "师尊",
+        "连忙道",
+        "胡说八",
+        "任何",
+        "后脑勺",
+        "白袍"
       ],
       "organizations": [
         "怎么会",
@@ -6300,16 +10467,35 @@
       "range": "第 601-620 章",
       "characters": [
         "谢尽欢",
-        "还是",
         "林婉仪",
-        "为此",
-        "令狐青墨",
-        "赵翎",
-        "南宫烨",
-        "郭太后",
-        "对此",
-        "何参",
-        "步寒英"
+        "林紫苏",
+        "东西",
+        "时间",
+        "武夫",
+        "白毛仙",
+        "红殇",
+        "巫教之",
+        "谢大哥",
+        "连璧",
+        "应该",
+        "容易",
+        "方式",
+        "左手",
+        "叶祠",
+        "任务",
+        "周边",
+        "周遭",
+        "金甲",
+        "任何",
+        "冷冰冰",
+        "巫教",
+        "毕竟",
+        "全力",
+        "程度",
+        "全力爆",
+        "龙扫尾",
+        "全力以",
+        "武祖"
       ],
       "organizations": [
         "的机会",
@@ -6369,17 +10555,35 @@
       "range": "第 621-640 章",
       "characters": [
         "谢尽欢",
-        "还是",
+        "东西",
+        "陆无真",
+        "魏无异",
+        "杨化仙",
+        "时间",
+        "武夫",
+        "龙骨滩",
+        "巫教之",
+        "师父",
+        "厉害",
+        "武神",
         "何参",
-        "为此",
-        "令狐青墨",
-        "南宫烨",
-        "李公浦",
-        "步寒英",
-        "郭太后",
-        "对此",
-        "赵翎",
-        "林婉仪"
+        "后面",
+        "连璧",
+        "应该",
+        "叶圣",
+        "安排",
+        "武道七",
+        "许多",
+        "谢老魔",
+        "左手",
+        "任务",
+        "路数",
+        "解决",
+        "白道袍",
+        "明显有",
+        "周遭",
+        "任何",
+        "明显"
       ],
       "organizations": [
         "丹阳学宫",
@@ -6443,16 +10647,35 @@
       "range": "第 641-649 章",
       "characters": [
         "谢尽欢",
-        "还是",
         "林婉仪",
-        "为此",
-        "令狐青墨",
-        "南宫烨",
-        "赵翎",
-        "郭太后",
-        "对此",
-        "丹王",
-        "步寒英"
+        "林紫苏",
+        "东西",
+        "时间",
+        "红殇",
+        "厉害",
+        "房间",
+        "水晶球",
+        "后面",
+        "古怪",
+        "左右",
+        "房门",
+        "连忙抬",
+        "时辰",
+        "安排",
+        "武道神",
+        "满意足",
+        "金丝眼",
+        "高兴",
+        "房内",
+        "连忙起",
+        "明显",
+        "武道",
+        "乌漆嘛",
+        "相公",
+        "满意",
+        "后续",
+        "红殇摇",
+        "柳眉倒"
       ],
       "organizations": [
         "尽欢阁",
