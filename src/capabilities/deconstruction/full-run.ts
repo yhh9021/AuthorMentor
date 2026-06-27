@@ -111,7 +111,7 @@ const BOOK_PROFILES: BookProfile[] = [
     reusableMechanisms: ["现代知识异界转译", "文化技能低成本破局", "学术成果变成战力和身份", "压迫性宗教组织制造高压环境"],
     onlineSignals: [
       { label: "知识就是力量", keywords: ["知识", "魔法学徒", "奥术", "论文", "实验", "真理"], source: "https://www.zhihu.com/question/19715636", note: "长期讨论中常把本书概括为用科学知识解释和改造魔法体系。" },
-      { label: "音乐破局", keywords: ["音乐", "钢琴", "悲怆", "交响", "音乐会", "阿尔托"], source: "https://www.qidian.com/book/2053971/", note: "开局以音乐身份进入上层社会，是低武力开局的代表桥段。" },
+      { label: "音乐破局", keywords: ["音乐", "钢琴", "悲怆", "交响", "音乐会", "阿尔托"], source: "https://www.qidian.com/book/2643379/", note: "开局以音乐身份进入上层社会，是低武力开局的代表桥段。" },
       { label: "奥术论文震动学界", keywords: ["论文", "元素", "自然", "实验", "皇冠", "评价"], source: "https://www.novelcrafter.com/features/codex", note: "按 Codex 思路应把论文、学派、评价制度拆成可复用设定条目。" }
     ]
   },
@@ -157,7 +157,7 @@ const BOOK_PROFILES: BookProfile[] = [
     reusableMechanisms: ["史实预期差", "政治合法性升级", "人脉即资源", "治理成果转化为军事能力"],
     onlineSignals: [
       { label: "汉末政治合法性", keywords: ["汉", "朝廷", "天子", "州", "郡", "士"], source: "https://www.zhihu.com/question/26458344", note: "历史小说讨论常围绕史实、人物选择和政治合法性展开。" },
-      { label: "边塞立身与军政经营", keywords: ["卢龙塞", "边", "军", "骑", "太守", "州郡"], source: "https://www.qidian.com/book/1010868264/", note: "拆解时重点看主角如何把边地资源转成名望、兵权和政治筹码。" }
+      { label: "边塞立身与军政经营", keywords: ["卢龙塞", "边", "军", "骑", "太守", "州郡"], source: "https://www.qidian.com/book/1011526746/", note: "拆解时重点看主角如何把边地资源转成名望、兵权和政治筹码。" }
     ]
   },
   {
@@ -178,8 +178,8 @@ const BOOK_PROFILES: BookProfile[] = [
     highlightDimensions: ["第一次战力验证", "训练突破", "公开排名", "星界初见", "跨文明战场", "位格跃迁"],
     reusableMechanisms: ["数值化成长反馈", "校园竞赛过渡到世界战争", "组织培养和个人天赋结合", "大地图带动战力上限"],
     onlineSignals: [
-      { label: "现代高武训练反馈", keywords: ["李源", "身体素质", "训练", "高考", "排名", "枪法"], source: "https://www.qidian.com/book/1038352067/", note: "读者期待集中在数值化训练、考试排名和战力验证。" },
-      { label: "星界与文明战争", keywords: ["星界", "异族", "文明", "神域", "始祖", "真神"], source: "https://www.qq.com/", note: "中后期看点在个人成长如何接入更高层级战场和文明危机。" }
+      { label: "现代高武训练反馈", keywords: ["李源", "身体素质", "训练", "高考", "排名", "枪法"], source: "https://www.qidian.com/book/1039141715/", note: "读者期待集中在数值化训练、考试排名和战力验证。" },
+      { label: "星界与文明战争", keywords: ["星界", "异族", "文明", "神域", "始祖", "真神"], source: "https://www.qidian.com/book/1039141715/catalog/", note: "中后期看点在个人成长如何接入更高层级战场和文明危机。" }
     ]
   },
   {
@@ -200,9 +200,9 @@ const BOOK_PROFILES: BookProfile[] = [
     highlightDimensions: ["底层求生", "第一次加入组织", "禁区探索", "残酷反杀", "同伴羁绊", "神灵压迫"],
     reusableMechanisms: ["残酷环境压强", "生存目标驱动", "归属感作为长期奖励", "污染规则制造恐惧和升级代价"],
     onlineSignals: [
-      { label: "底层生存质感", keywords: ["活着", "拾荒", "异质", "贫民", "营地", "禁区"], source: "https://www.qidian.com/book/1036370336/", note: "高讨论价值来自开局的残酷生存压力和环境质感。" },
+      { label: "底层生存质感", keywords: ["活着", "拾荒", "异质", "贫民", "营地", "禁区"], source: "https://www.qidian.com/book/1031777108/", note: "高讨论价值来自开局的残酷生存压力和环境质感。" },
       { label: "队长与同伴关系", keywords: ["队长", "七血瞳", "执剑", "师尊", "朋友", "归属"], source: "https://www.zhihu.com/question/584520186", note: "读者讨论常集中在残酷底色中出现的同伴羁绊和归属感。" },
-      { label: "神灵污染和红月压迫", keywords: ["神灵", "红月", "污染", "异质", "主宰", "古皇"], source: "https://www.qidian.com/book/1036370336/", note: "世界观亮点在于污染规则和神灵位格对日常生存的压迫。" }
+      { label: "神灵污染和红月压迫", keywords: ["神灵", "红月", "污染", "异质", "主宰", "古皇"], source: "https://www.qidian.com/book/1031777108/", note: "世界观亮点在于污染规则和神灵位格对日常生存的压迫。" }
     ]
   },
   {
@@ -223,8 +223,8 @@ const BOOK_PROFILES: BookProfile[] = [
     highlightDimensions: ["误会反转", "鬼怪案件", "轻喜剧吐槽", "人物暧昧拉扯", "江湖势力登场", "旧案回收"],
     reusableMechanisms: ["喜剧误会承载悬疑", "单元案件串长线阴谋", "吐槽标题增强追读", "人物关系制造章节间黏性"],
     onlineSignals: [
-      { label: "妖鬼误会轻喜剧", keywords: ["妖寇", "鬼", "阿飘", "误会", "不对劲", "小机灵"], source: "https://www.qidian.com/", note: "标题和桥段显示本书用误会、吐槽和妖鬼案件制造轻喜剧追读。" },
-      { label: "案件线索和江湖庙堂牵连", keywords: ["线索", "调查", "大乾", "刺驾", "太后", "回京"], source: "https://www.qidian.com/", note: "适合拆成单元案件如何逐步牵出长线阴谋。" }
+      { label: "妖鬼误会轻喜剧", keywords: ["妖寇", "鬼", "阿飘", "误会", "不对劲", "小机灵"], source: "https://www.qidian.com/book/1039457453/", note: "标题和桥段显示本书用误会、吐槽和妖鬼案件制造轻喜剧追读。" },
+      { label: "案件线索和江湖庙堂牵连", keywords: ["线索", "调查", "大乾", "刺驾", "太后", "回京"], source: "https://www.qidian.com/book/1039457453/catalog/", note: "适合拆成单元案件如何逐步牵出长线阴谋。" }
     ]
   }
 ];
