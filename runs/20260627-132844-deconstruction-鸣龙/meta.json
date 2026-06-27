@@ -1,0 +1,14 @@
+{
+  "runId": "20260627-132844-deconstruction-鸣龙",
+  "capability": "拆书能力",
+  "bookSlug": "鸣龙",
+  "bookDir": "/Users/bytedance/Desktop/agent_projects/写小说/global/deconstructions/鸣龙",
+  "sourcePath": "/Users/bytedance/Documents/小说原本/鸣龙.txt",
+  "sourceKind": "原始小说文本",
+  "targetLibrary": "全局素材库",
+  "mode": "长程分段拆书",
+  "segmentSize": 20,
+  "title": "鸣龙",
+  "inputFile": "/Users/bytedance/Desktop/agent_projects/写小说/runs/20260627-132844-deconstruction-鸣龙/input/鸣龙.txt",
+  "bookSourceFile": "/Users/bytedance/Desktop/agent_projects/写小说/global/deconstructions/鸣龙/source/鸣龙.txt"
+}
