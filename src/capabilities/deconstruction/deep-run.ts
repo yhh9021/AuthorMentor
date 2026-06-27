@@ -1,4 +1,5 @@
-import { readFile, rm } from "node:fs/promises";
+import { spawn } from "node:child_process";
+import { readdir, readFile, rm, stat } from "node:fs/promises";
 import path from "node:path";
 import { TextDecoder } from "node:util";
 import { applyDeconstructionRun } from "./apply.js";
@@ -75,6 +76,22 @@ type AuditItem = {
   name: string;
   status: "通过" | "需返工";
   detail: string;
+};
+
+type DeepRunOptions = PrepareOptions & {
+  agentCommand?: string;
+  agentMode?: "fallback" | "required";
+};
+
+type AgentChunk = {
+  chunk: number;
+  range: string;
+  characters: Array<{ name: string; role?: string; evidence: string; relationHints?: string[] }>;
+  relations: Array<{ source: string; target: string; relation: string; evidence: string }>;
+  organizations: Array<{ name: string; description?: string; evidence: string }>;
+  locations: Array<{ name: string; description?: string; evidence: string }>;
+  systems: Array<{ name: string; category?: string; rule?: string; evidence: string }>;
+  events: Array<{ name: string; evidence: string; impact?: string }>;
 };
 
 const CHAPTER_TITLE_PATTERN =
@@ -257,7 +274,7 @@ const TRAILING_ENTITY_NOISE = [
   "说着"
 ];
 
-export async function runDeepDeconstruction(rawOptions: PrepareOptions): Promise<string> {
+export async function runDeepDeconstruction(rawOptions: DeepRunOptions): Promise<string> {
   const chunkSize = Number.parseInt(String(rawOptions.segmentSize ?? 20), 10);
   const runDir = await prepareDeconstructionRun({
     ...rawOptions,
@@ -280,7 +297,15 @@ export async function runDeepDeconstruction(rawOptions: PrepareOptions): Promise
 
   const title = meta.title ?? path.basename(meta.bookSourceFile);
   const chunks = buildChunks(chapters, chunkSize);
-  const book = extractDeepBook(title, chapters, chunks);
+  await writeAgentChunkTasks(runDir, title, chunks);
+  if (rawOptions.agentCommand) {
+    await runAgentCommand(rawOptions.agentCommand, path.join(runDir, "input", "agent-chunks"), path.join(runDir, "output", "agent-chunks"));
+  }
+  const agentChunks = await readAgentChunks(path.join(runDir, "output", "agent-chunks"));
+  if ((rawOptions.agentMode ?? "fallback") === "required" && agentChunks.length < chunks.length) {
+    throw new Error(`子 Agent 精读结果不足：${agentChunks.length}/${chunks.length}`);
+  }
+  const book = extractDeepBook(title, chapters, chunks, agentChunks);
   const audit = auditDeepBook(book);
 
   await cleanDeepOutputs(meta.bookDir);
@@ -336,13 +361,14 @@ function buildChunks(chapters: Chapter[], chunkSize: number): Chunk[] {
   return chunks;
 }
 
-function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[]): DeepBook {
+function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], agentChunks: AgentChunk[]): DeepBook {
   const characters = new Map<string, EntityRecord>();
   const organizations = new Map<string, EntityRecord>();
   const locations = new Map<string, EntityRecord>();
   const systems = new Map<string, EntityRecord>();
   const relations = new Map<string, RelationRecord>();
   const chunkSummaries: DeepBook["chunkSummaries"] = [];
+  const agentChunkMap = new Map(agentChunks.map((chunk) => [chunk.chunk, chunk]));
 
   for (const chunk of chunks) {
     const chunkCharacters = new Set<string>();
@@ -371,6 +397,23 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[]): D
       }
     }
 
+    const agentChunk = agentChunkMap.get(chunk.index);
+    if (agentChunk) {
+      mergeAgentChunk(agentChunk, characters, relations, organizations, locations, systems, chunk.start, chunk.end);
+      for (const item of agentChunk.characters) {
+        chunkCharacters.add(item.name);
+      }
+      for (const item of agentChunk.organizations) {
+        chunkOrganizations.add(item.name);
+      }
+      for (const item of agentChunk.locations) {
+        chunkLocations.add(item.name);
+      }
+      for (const item of agentChunk.systems) {
+        chunkSystems.add(item.name);
+      }
+    }
+
     chunkSummaries.push({
       chunk: chunk.index,
       range: `第 ${chunk.start}-${chunk.end} 章`,
@@ -395,6 +438,169 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[]): D
     systems: summarizeEntities(systems, 140),
     chunkSummaries
   };
+}
+
+async function writeAgentChunkTasks(runDir: string, title: string, chunks: Chunk[]): Promise<void> {
+  const taskDir = path.join(runDir, "input", "agent-chunks");
+  await rm(taskDir, { force: true, recursive: true });
+  await Promise.all(
+    chunks.map((chunk) => {
+      const task = renderAgentChunkTask(title, chunk);
+      return writeText(path.join(taskDir, `${String(chunk.index).padStart(4, "0")}.md`), task);
+    })
+  );
+  await writeText(
+    path.join(runDir, "output", "agent-chunks", "README.md"),
+    `# 子 Agent 精读输出目录
+
+每个子 Agent 读取 \`runs/<run-id>/input/agent-chunks/NNNN.md\`，并把同名 JSON 写入本目录，例如 \`0001.json\`。
+
+如果使用 \`--agent-command\`，命令会收到两个环境变量：
+
+- \`AUTHOR_MENTOR_AGENT_INPUT_DIR\`
+- \`AUTHOR_MENTOR_AGENT_OUTPUT_DIR\`
+`
+  );
+}
+
+function renderAgentChunkTask(title: string, chunk: Chunk): string {
+  return `# 子 Agent 精读任务：《${title}》第 ${chunk.start}-${chunk.end} 章
+
+你是长篇网文拆书子 Agent。请完整阅读下面正文片段，输出严格 JSON，不要输出 Markdown，不要复述原文长段。
+
+## 输出 JSON schema
+
+\`\`\`json
+{
+  "chunk": ${chunk.index},
+  "range": "第 ${chunk.start}-${chunk.end} 章",
+  "characters": [
+    {"name": "人物名", "role": "身份/功能", "evidence": "章节证据摘要", "relationHints": ["关系线索"]}
+  ],
+  "relations": [
+    {"source": "人物A", "target": "人物B", "relation": "关系类型", "evidence": "章节证据摘要"}
+  ],
+  "organizations": [
+    {"name": "势力/组织名", "description": "组织功能", "evidence": "章节证据摘要"}
+  ],
+  "locations": [
+    {"name": "地点/地图名", "description": "空间层级/功能", "evidence": "章节证据摘要"}
+  ],
+  "systems": [
+    {"name": "能力/资源/规则名", "category": "能力/资源/规则/禁忌", "rule": "运行规则", "evidence": "章节证据摘要"}
+  ],
+  "events": [
+    {"name": "关键事件", "evidence": "章节证据摘要", "impact": "后续影响"}
+  ]
+}
+\`\`\`
+
+## 质量要求
+
+- 每个条目必须来自本 chunk 正文，不能凭全书常识补。
+- 人物要列主要出场人物、身份变化、关系变化，不要把动作、副词、职业泛称当人物。
+- 关系边必须写清关系类型，例如师徒、同伴、敌对、交易、上下级、亲属、暧昧、组织同盟。
+- 设定条目要记录运行规则、代价或限制，不要只写名词。
+- evidence 是摘要，不要复制超过 20 个连续原文字。
+
+## 正文
+
+${chunk.chapters.map((chapter) => `\n### ${chapter.index}. ${chapter.title}\n\n${chapter.text}`).join("\n")}
+`;
+}
+
+async function runAgentCommand(command: string, inputDir: string, outputDir: string): Promise<void> {
+  await writeText(path.join(outputDir, ".gitkeep"), "");
+  await new Promise<void>((resolve, reject) => {
+    const child = spawn(command, {
+      cwd: process.cwd(),
+      env: {
+        ...process.env,
+        AUTHOR_MENTOR_AGENT_INPUT_DIR: inputDir,
+        AUTHOR_MENTOR_AGENT_OUTPUT_DIR: outputDir
+      },
+      shell: true,
+      stdio: "inherit"
+    });
+    child.on("error", reject);
+    child.on("close", (code) => {
+      if (code === 0) {
+        resolve();
+        return;
+      }
+      reject(new Error(`子 Agent 命令退出码：${code}`));
+    });
+  });
+}
+
+async function readAgentChunks(dir: string): Promise<AgentChunk[]> {
+  try {
+    await stat(dir);
+  } catch {
+    return [];
+  }
+  const entries = await readdir(dir, { withFileTypes: true });
+  const chunks: AgentChunk[] = [];
+  for (const entry of entries) {
+    if (!entry.isFile() || !entry.name.endsWith(".json")) {
+      continue;
+    }
+    try {
+      const parsed = JSON.parse(await readText(path.join(dir, entry.name))) as AgentChunk;
+      if (Number.isInteger(parsed.chunk)) {
+        chunks.push(normalizeAgentChunk(parsed));
+      }
+    } catch {
+      // Invalid chunk outputs are ignored and surfaced by audit coverage.
+    }
+  }
+  return chunks.sort((a, b) => a.chunk - b.chunk);
+}
+
+function normalizeAgentChunk(chunk: AgentChunk): AgentChunk {
+  return {
+    chunk: chunk.chunk,
+    range: chunk.range ?? `第 ${chunk.chunk} 个 chunk`,
+    characters: Array.isArray(chunk.characters) ? chunk.characters.filter((item) => isUsefulEntityName(item.name)) : [],
+    relations: Array.isArray(chunk.relations) ? chunk.relations.filter((item) => isUsefulEntityName(item.source) && isUsefulEntityName(item.target)) : [],
+    organizations: Array.isArray(chunk.organizations) ? chunk.organizations.filter((item) => isUsefulEntityName(item.name)) : [],
+    locations: Array.isArray(chunk.locations) ? chunk.locations.filter((item) => isUsefulEntityName(item.name)) : [],
+    systems: Array.isArray(chunk.systems) ? chunk.systems.filter((item) => isUsefulEntityName(item.name)) : [],
+    events: Array.isArray(chunk.events) ? chunk.events : []
+  };
+}
+
+function mergeAgentChunk(
+  chunk: AgentChunk,
+  characters: Map<string, EntityRecord>,
+  relations: Map<string, RelationRecord>,
+  organizations: Map<string, EntityRecord>,
+  locations: Map<string, EntityRecord>,
+  systems: Map<string, EntityRecord>,
+  startChapter: number,
+  endChapter: number
+): void {
+  const chapter = startChapter;
+  for (const item of chunk.characters) {
+    addEntity(characters, item.name, chapter, markerFromEvidence("子Agent人物", item.role, item.evidence));
+  }
+  for (const item of chunk.organizations) {
+    addEntity(organizations, item.name, chapter, markerFromEvidence("子Agent组织", item.description, item.evidence));
+  }
+  for (const item of chunk.locations) {
+    addEntity(locations, item.name, chapter, markerFromEvidence("子Agent地图", item.description, item.evidence));
+  }
+  for (const item of chunk.systems) {
+    addEntity(systems, item.name, chapter, markerFromEvidence("子Agent体系", item.category, item.rule ?? item.evidence));
+  }
+  for (const item of chunk.relations) {
+    addRelation(relations, item.source, item.target, chapter, [markerFromEvidence(item.relation, `第 ${startChapter}-${endChapter} 章`, item.evidence)]);
+  }
+}
+
+function markerFromEvidence(prefix: string, detail: string | undefined, evidence: string | undefined): string {
+  const parts = [prefix, detail, evidence].filter((item): item is string => Boolean(item && item.trim().length > 0));
+  return parts.join("：").slice(0, 80);
 }
 
 function collectPatternEntities(

@@ -75,6 +75,8 @@ deconstruct
   .option("--source-kind <kind>", "来源类型：原始小说文本 / 二手拆书来源", "原始小说文本")
   .option("--target-library <library>", "目标素材库：全局素材库 / 单书专属素材库", "全局素材库")
   .option("--segment-size <number>", "深拆 chunk 的默认章节数", "20")
+  .option("--agent-command <command>", "可选：执行子 Agent 精读的 shell 命令")
+  .option("--agent-mode <mode>", "子 Agent 模式：fallback / required", "fallback")
   .option("--project <name>", "单书项目名")
   .option("--title <title>", "本次拆书标题")
   .action(async (source, options) => {
@@ -85,7 +87,9 @@ deconstruct
       mode: "长程分段拆书",
       segmentSize: options.segmentSize,
       project: options.project,
-      title: options.title
+      title: options.title,
+      agentCommand: options.agentCommand,
+      agentMode: options.agentMode
     });
     console.log(`全本结构化深拆已完成并提交 Git：${runDir}`);
   });
