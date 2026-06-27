@@ -53,6 +53,23 @@ type RelationSummary = {
   markers: string[];
 };
 
+type RelationGroup = "敌对/矛盾" | "同盟/合作" | "师徒/上下级" | "亲属/情感" | "交易/利用" | "普通共现";
+
+type SemanticRelationSummary = RelationSummary & {
+  group: RelationGroup;
+  relationType: string;
+  confidence: "高" | "中" | "低";
+};
+
+type CharacterRoleSummary = {
+  name: string;
+  role: string;
+  reason: string;
+  firstChapter: number;
+  lastChapter: number;
+  confidence: "高" | "中" | "低";
+};
+
 type EventSummary = {
   name: string;
   chunk: number;
@@ -66,8 +83,11 @@ type DeepBook = {
   chapterCount: number;
   chunkCount: number;
   agentChunkCount: number;
+  protagonist?: string;
   characters: EntitySummary[];
+  characterRoles: CharacterRoleSummary[];
   relations: RelationSummary[];
+  semanticRelations: SemanticRelationSummary[];
   organizations: EntitySummary[];
   locations: EntitySummary[];
   systems: EntitySummary[];
@@ -216,7 +236,17 @@ const STOP_ENTITY_PARTS = [
   "所有",
   "第一",
   "第二",
-  "第三"
+  "第三",
+  "转而",
+  "开口",
+  "主动",
+  "连忙",
+  "明显",
+  "万万",
+  "何意",
+  "方如此",
+  "何如此",
+  "斟酌着"
 ];
 
 const PERSON_PATTERNS = [
@@ -277,10 +307,89 @@ const NAME_CANDIDATE_NOISE = new Set([
   "左右",
   "马上",
   "房间",
+  "房间内",
+  "房门",
+  "边缘",
   "门口",
   "后面",
+  "后者",
   "简单",
   "应该",
+  "时间流",
+  "时间内",
+  "时间之",
+  "段时间",
+  "危险",
+  "程度",
+  "成功",
+  "成果",
+  "方法",
+  "相信",
+  "怀疑",
+  "安静",
+  "冷静",
+  "周围",
+  "方面",
+  "任何一",
+  "水准",
+  "成员",
+  "毕竟",
+  "相比起",
+  "后面精",
+  "高阶魔",
+  "古代魔",
+  "高阶",
+  "古代",
+  "左手",
+  "施展",
+  "红衣主",
+  "方教会",
+  "高评议",
+  "古怪",
+  "周一求",
+  "时可能",
+  "时准备",
+  "古代传",
+  "解地问",
+  "齐声回",
+  "全大陆",
+  "封印",
+  "丰收公",
+  "应该知",
+  "东张西",
+  "范围型",
+  "白蜜糖",
+  "高塔几",
+  "左看右",
+  "高阶以",
+  "明明知",
+  "习惯性",
+  "相对论",
+  "广义相",
+  "施法材",
+  "冷汗",
+  "习魔法",
+  "转而",
+  "开口",
+  "主动",
+  "连忙",
+  "明显",
+  "万万",
+  "何意",
+  "方如此",
+  "何如此",
+  "安利号",
+  "尚书台",
+  "斟酌着",
+  "陈莫白开口",
+  "许青所",
+  "许青凝",
+  "许青知",
+  "许青而",
+  "许青有",
+  "许青想",
+  "李源笑",
+  "李源连",
   "毕竟他",
   "越来越",
   "莫名其",
@@ -355,18 +464,68 @@ const RELATION_MARKERS = [
   "队长",
   "敌人",
   "对手",
+  "矛盾",
+  "冲突",
+  "仇",
   "盟友",
   "交易",
+  "交换",
+  "雇佣",
+  "委托",
+  "利用",
+  "试探",
   "背叛",
   "追杀",
+  "围攻",
+  "镇压",
+  "威胁",
+  "争夺",
   "合作",
   "保护",
-  "命令"
+  "救",
+  "帮助",
+  "支援",
+  "同行",
+  "命令",
+  "宗主",
+  "掌门",
+  "长老",
+  "亲人",
+  "兄长",
+  "妹妹",
+  "喜欢",
+  "暧昧"
 ];
 
 const TRAILING_ENTITY_NOISE = [
   "微微",
   "轻轻",
+  "心",
+  "目",
+  "身",
+  "眼",
+  "暗",
+  "抬",
+  "看",
+  "沉",
+  "在",
+  "神",
+  "没",
+  "已",
+  "道",
+  "笑",
+  "开口",
+  "所",
+  "凝",
+  "知",
+  "而",
+  "有",
+  "想",
+  "连",
+  "一",
+  "却",
+  "忽",
+  "当",
   "呵呵",
   "嘿嘿",
   "点了",
@@ -409,6 +568,51 @@ const TRAILING_ENTITY_NOISE = [
   "于是",
   "说着"
 ];
+
+const NON_PERSON_CANDIDATE_PARTS = [
+  "时间",
+  "危险",
+  "程度",
+  "成功",
+  "成果",
+  "方法",
+  "相信",
+  "怀疑",
+  "安静",
+  "冷静",
+  "周围",
+  "方面",
+  "任何",
+  "水准",
+  "成员",
+  "相比",
+  "后面",
+  "后者",
+  "毕竟",
+  "房间",
+  "房门",
+  "边缘",
+  "左手",
+  "右手",
+  "声音",
+  "目光",
+  "身体",
+  "问题",
+  "情况",
+  "东西",
+  "感觉",
+  "名字",
+  "地方"
+];
+
+const RELATION_GROUP_MARKERS: Record<RelationGroup, string[]> = {
+  "敌对/矛盾": ["敌人", "对手", "追杀", "背叛", "矛盾", "冲突", "仇", "杀", "围攻", "镇压", "威胁", "争夺"],
+  "同盟/合作": ["同伴", "朋友", "兄弟", "姐妹", "盟友", "合作", "保护", "救", "帮助", "支援", "同行"],
+  "师徒/上下级": ["师父", "师尊", "老师", "导师", "学生", "弟子", "上司", "下属", "队长", "命令", "宗主", "掌门", "长老"],
+  "亲属/情感": ["父亲", "母亲", "儿子", "女儿", "妻子", "丈夫", "亲人", "兄长", "妹妹", "喜欢", "暧昧"],
+  "交易/利用": ["交易", "交换", "雇佣", "委托", "利用", "试探"],
+  "普通共现": ["同章共现"]
+};
 
 export async function runDeepDeconstruction(rawOptions: DeepRunOptions): Promise<string> {
   const chunkSize = Number.parseInt(String(rawOptions.segmentSize ?? 20), 10);
@@ -577,16 +781,24 @@ function extractDeepBook(title: string, chapters: Chapter[], chunks: Chunk[], ag
     });
   }
 
+  pruneCharacterEntities(characters, organizations, locations, systems);
   const topCharacters = summarizeEntities(characters, 180);
   buildRelations(chapters, topCharacters.slice(0, 120).map((item) => item.name), relations);
+  const summarizedRelations = summarizeRelations(relations, 220);
+  const protagonist = inferProtagonist(topCharacters);
+  const semanticRelations = buildSemanticRelations(summarizedRelations);
+  const characterRoles = buildCharacterRoles(topCharacters, semanticRelations, protagonist);
 
   return {
     title,
     chapterCount: chapters.length,
     chunkCount: chunks.length,
     agentChunkCount: agentChunks.length,
+    protagonist,
     characters: topCharacters,
-    relations: summarizeRelations(relations, 220),
+    characterRoles,
+    relations: summarizedRelations,
+    semanticRelations,
     organizations: summarizeEntities(organizations, 120),
     locations: summarizeEntities(locations, 120),
     systems: summarizeEntities(systems, 140),
@@ -783,7 +995,7 @@ function collectChineseNameCandidates(text: string, target: Map<string, EntityRe
     const pattern = new RegExp(`${surname}[\\p{Script=Han}]{1,2}`, "gu");
     for (const match of text.matchAll(pattern)) {
       const name = normalizeEntityName(match[0]);
-      if (isUsefulNameCandidate(name)) {
+      if (isUsefulNameCandidate(name) && hasNameContext(text, match.index ?? 0, match[0].length)) {
         addEntity(target, name, chapter, "姓名候选");
       }
     }
@@ -792,7 +1004,7 @@ function collectChineseNameCandidates(text: string, target: Map<string, EntityRe
   const singlePattern = new RegExp(`[${SINGLE_SURNAMES}][\\p{Script=Han}]{1,2}`, "gu");
   for (const match of text.matchAll(singlePattern)) {
     const name = normalizeEntityName(match[0]);
-    if (isUsefulNameCandidate(name)) {
+    if (isUsefulNameCandidate(name) && hasNameContext(text, match.index ?? 0, match[0].length)) {
       addEntity(target, name, chapter, "姓名候选");
     }
   }
@@ -808,7 +1020,19 @@ function isUsefulNameCandidate(name: string): boolean {
   if (/[的是了不着过里上中下这那和都很又再才就把被给从到向为与于]/.test(name)) {
     return false;
   }
+  if (NON_PERSON_CANDIDATE_PARTS.some((part) => name.includes(part))) {
+    return false;
+  }
   return true;
+}
+
+function hasNameContext(text: string, index: number, length: number): boolean {
+  const before = text.slice(Math.max(0, index - 12), index);
+  const after = text.slice(index + length, index + length + 12);
+  if (/^(?:说|问|笑|道|看|望|想|点头|摇头|皱眉|开口|低声|沉声|喊|叫|答|叹|走|站|坐|出手|杀|救|拜|跪|拿|伸|推|扶|转身|离开|进入)/.test(after)) {
+    return true;
+  }
+  return /(?:叫|名|称|为|是|和|与|向|对|让|被|把|给|见|问|看见|望向|跟|随|拜见)$/.test(before);
 }
 
 function entitiesInChapter(text: string, source: Map<string, EntityRecord>, limit: number): string[] {
@@ -899,6 +1123,192 @@ function summarizeRelations(source: Map<string, RelationRecord>, limit: number):
     .slice(0, limit);
 }
 
+function pruneCharacterEntities(
+  characters: Map<string, EntityRecord>,
+  organizations: Map<string, EntityRecord>,
+  locations: Map<string, EntityRecord>,
+  systems: Map<string, EntityRecord>
+): void {
+  for (const [name, record] of characters.entries()) {
+    if (hasStrongPersonEvidence(record)) {
+      continue;
+    }
+    if (looksNonPersonCandidate(name) || organizations.has(name) || locations.has(name) || systems.has(name)) {
+      characters.delete(name);
+    }
+  }
+}
+
+function hasStrongPersonEvidence(record: EntityRecord): boolean {
+  return markerCountFromMap(record.markers, "子Agent人物") > 0 || markerCountFromMap(record.markers, "人物行为/发言") >= 2;
+}
+
+function looksNonPersonCandidate(name: string): boolean {
+  if (NAME_CANDIDATE_NOISE.has(name)) {
+    return true;
+  }
+  if (NON_PERSON_CANDIDATE_PARTS.some((part) => name.includes(part))) {
+    return true;
+  }
+  return /(?:之|内|中|上|下|前|后|里|外|起|来)$/.test(name);
+}
+
+function inferProtagonist(characters: EntitySummary[]): string | undefined {
+  const explicit = characters.find((item) => item.markers.some((marker) => /主角|男主|主人公/.test(marker)));
+  if (explicit) {
+    return explicit.name;
+  }
+  return [...characters]
+    .sort((a, b) => protagonistScore(b) - protagonistScore(a))
+    [0]?.name;
+}
+
+function protagonistScore(character: EntitySummary): number {
+  const agentScore = markerCountFromList(character.markers, "子Agent人物") * 1000;
+  const behaviorScore = markerCountFromList(character.markers, "人物行为/发言") * 20;
+  const earlyBonus = Math.max(0, 120 - character.firstChapter);
+  const nameCandidatePenalty =
+    markerCountFromList(character.markers, "姓名候选") > 0 && markerCountFromList(character.markers, "人物行为/发言") === 0 ? 120 : 0;
+  return agentScore + behaviorScore + character.chapterCount + character.mentions / 10 + earlyBonus - nameCandidatePenalty;
+}
+
+function buildSemanticRelations(relations: RelationSummary[]): SemanticRelationSummary[] {
+  return relations.map((relation) => {
+    const group = classifyRelationGroup(relation.markers);
+    return {
+      ...relation,
+      group,
+      relationType: inferRelationType(group, relation.markers),
+      confidence: inferRelationConfidence(group, relation.markers)
+    };
+  });
+}
+
+function classifyRelationGroup(markers: string[]): RelationGroup {
+  const scores = relationGroupScores(markers);
+  const ranked = ([...scores.entries()] as Array<[RelationGroup, number]>)
+    .filter(([group]) => group !== "普通共现")
+    .sort((a, b) => b[1] - a[1]);
+  if ((ranked[0]?.[1] ?? 0) > 0) {
+    return ranked[0][0];
+  }
+  return "普通共现";
+}
+
+function relationGroupScores(markers: string[]): Map<RelationGroup, number> {
+  const scores = new Map<RelationGroup, number>();
+  for (const group of Object.keys(RELATION_GROUP_MARKERS) as RelationGroup[]) {
+    scores.set(group, 0);
+  }
+  for (const group of ["敌对/矛盾", "同盟/合作", "师徒/上下级", "亲属/情感", "交易/利用"] as RelationGroup[]) {
+    for (const marker of markers) {
+      const markerName = marker.replace(/\(\d+\)$/, "");
+      if (RELATION_GROUP_MARKERS[group].some((expected) => markerName.includes(expected))) {
+        scores.set(group, (scores.get(group) ?? 0) + markerWeight(marker));
+      }
+    }
+  }
+  return scores;
+}
+
+function inferRelationType(group: RelationGroup, markers: string[]): string {
+  const matched = markers
+    .map((marker) => ({ marker: marker.replace(/\(\d+\)$/, ""), weight: markerWeight(marker) }))
+    .filter((item) => RELATION_GROUP_MARKERS[group].some((expected) => item.marker.includes(expected)))
+    .sort((a, b) => b.weight - a.weight)[0]?.marker;
+  if (matched && matched !== "同章共现") {
+    return matched;
+  }
+  return group;
+}
+
+function inferRelationConfidence(group: RelationGroup, markers: string[]): "高" | "中" | "低" {
+  if (markers.some((marker) => marker.includes("子Agent"))) {
+    return "高";
+  }
+  if ((relationGroupScores(markers).get(group) ?? 0) >= 3) {
+    return "中";
+  }
+  return "低";
+}
+
+function markerWeight(marker: string): number {
+  const matched = marker.match(/\((\d+)\)$/);
+  return matched ? Number.parseInt(matched[1], 10) : 1;
+}
+
+function markerCountFromMap(markers: Map<string, number>, key: string): number {
+  return [...markers.entries()]
+    .filter(([marker]) => marker.includes(key))
+    .reduce((sum, [, count]) => sum + count, 0);
+}
+
+function markerCountFromList(markers: string[], key: string): number {
+  return markers.filter((marker) => marker.includes(key)).reduce((sum, marker) => sum + markerWeight(marker), 0);
+}
+
+function buildCharacterRoles(
+  characters: EntitySummary[],
+  relations: SemanticRelationSummary[],
+  protagonist: string | undefined
+): CharacterRoleSummary[] {
+  return characters.slice(0, 80).map((character) => {
+    if (character.name === protagonist) {
+      return {
+        name: character.name,
+        role: "主角候选",
+        reason: `综合主角得分最高，覆盖第 ${character.firstChapter}-${character.lastChapter} 章。`,
+        firstChapter: character.firstChapter,
+        lastChapter: character.lastChapter,
+        confidence: character.markers.some((marker) => /主角|男主|主人公|子Agent/.test(marker)) ? "高" : "中"
+      };
+    }
+
+    const linked = relations.filter((relation) => relation.source === character.name || relation.target === character.name);
+    const protagonistLink = protagonist
+      ? linked.find((relation) => relation.source === protagonist || relation.target === protagonist)
+      : undefined;
+    const roleRelation = protagonistLink ?? linked.find((relation) => relation.confidence !== "低") ?? linked[0];
+    const role = roleFromRelation(roleRelation);
+    return {
+      name: character.name,
+      role,
+      reason: roleRelation
+        ? `${relationCounterpart(character.name, roleRelation)}：${roleRelation.relationType}，覆盖第 ${roleRelation.firstChapter}-${roleRelation.lastChapter} 章，证据：${roleRelation.markers.join("、")}`
+        : `高频出场人物，覆盖第 ${character.firstChapter}-${character.lastChapter} 章，需子 Agent 精读确认人物功能。`,
+      firstChapter: character.firstChapter,
+      lastChapter: character.lastChapter,
+      confidence: roleRelation?.confidence ?? "低"
+    };
+  });
+}
+
+function roleFromRelation(relation: SemanticRelationSummary | undefined): string {
+  if (!relation || relation.confidence === "低") {
+    return "重要配角候选";
+  }
+  if (relation.group === "敌对/矛盾") {
+    return "主要对手/反派候选";
+  }
+  if (relation.group === "同盟/合作") {
+    return "核心同伴/盟友候选";
+  }
+  if (relation.group === "师徒/上下级") {
+    return "导师/上位者/下属候选";
+  }
+  if (relation.group === "亲属/情感") {
+    return "亲属/情感关系候选";
+  }
+  if (relation.group === "交易/利用") {
+    return "交易/利用关系候选";
+  }
+  return "重要配角候选";
+}
+
+function relationCounterpart(name: string, relation: RelationSummary): string {
+  return relation.source === name ? relation.target : relation.source;
+}
+
 function topMarkers(markers: Map<string, number>, limit: number): string[] {
   return [...markers.entries()]
     .sort((a, b) => b[1] - a[1])
@@ -927,6 +1337,7 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
     },
     auditCount("人物数量", book.characters.length, minCharacters),
     auditCount("关系边数量", book.relations.length, Math.max(20, minCharacters)),
+    auditCount("语义关系数量", book.semanticRelations.filter((relation) => relation.confidence !== "低").length, Math.max(10, Math.floor(minCharacters / 2))),
     auditCount("势力组织数量", book.organizations.length, minOrganizations),
     auditCount("地图地点数量", book.locations.length, minLocations),
     auditCount("能力/资源/规则数量", book.systems.length, minSystems),
@@ -987,8 +1398,10 @@ function renderDeepReport(book: DeepBook, audit: AuditItem[]): string {
 - 章节数：${book.chapterCount}
 - 分块数：${book.chunkCount}
 - 子 Agent 精读 JSON：${book.agentChunkCount}/${book.chunkCount}
+- 主角候选：${book.protagonist ?? "需精读确认"}
 - 人物候选：${book.characters.length}
 - 关系边候选：${book.relations.length}
+- 语义关系候选：${book.semanticRelations.length}
 - 势力组织候选：${book.organizations.length}
 - 地图地点候选：${book.locations.length}
 - 能力/资源/规则候选：${book.systems.length}
@@ -1015,11 +1428,63 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 
 function renderCharacterGraph(book: DeepBook): string {
   const topCharacters = book.characters.slice(0, 100);
-  const topRelations = book.relations.slice(0, 160);
-  const graphRelations = book.relations.slice(0, 35);
+  const protagonist = book.protagonist ?? "需精读确认";
+  const protagonistRelations = book.protagonist
+    ? book.semanticRelations
+        .filter((item) => item.confidence !== "低" && (item.source === book.protagonist || item.target === book.protagonist))
+        .slice(0, 40)
+    : [];
+  const conflictRelations = book.semanticRelations.filter((item) => item.confidence !== "低" && item.group === "敌对/矛盾").slice(0, 40);
+  const cooperationRelations = book.semanticRelations.filter((item) => item.confidence !== "低" && item.group === "同盟/合作").slice(0, 40);
+  const hierarchyRelations = book.semanticRelations
+    .filter((item) => item.confidence !== "低" && (item.group === "师徒/上下级" || item.group === "亲属/情感" || item.group === "交易/利用"))
+    .slice(0, 40);
+  const uncertainRelations = book.semanticRelations.filter((item) => item.confidence === "低").slice(0, 40);
+  const graphRelations = [
+    ...protagonistRelations.filter((item) => item.confidence !== "低"),
+    ...conflictRelations,
+    ...cooperationRelations,
+    ...hierarchyRelations
+  ].slice(0, 35);
   return `# 人物与关系图：《${book.title}》
 
-## 人物表
+## 关系图解读
+
+- 主角候选：${protagonist}
+- 识别方式：优先采用子 Agent 标注；缺失时按全书出场覆盖、关系网络中心度和关系词线索推断。
+- 使用边界：没有子 Agent JSON 的书，敌对/同盟等语义来自正文关键词和共现段落推断，应作为精读索引，不应直接当最终定论。
+
+## 人物功能分层
+
+${renderRoleGroup("主角候选", book.characterRoles)}
+${renderRoleGroup("主要对手/反派候选", book.characterRoles)}
+${renderRoleGroup("核心同伴/盟友候选", book.characterRoles)}
+${renderRoleGroup("导师/上位者/下属候选", book.characterRoles)}
+${renderRoleGroup("亲属/情感关系候选", book.characterRoles)}
+${renderRoleGroup("交易/利用关系候选", book.characterRoles)}
+${renderRoleGroup("重要配角候选", book.characterRoles)}
+
+## 主角关系网
+
+${renderSemanticRelationList(protagonistRelations, "未识别到主角相关关系；需要子 Agent 精读补充。")}
+
+## 主要矛盾和敌对关系
+
+${renderSemanticRelationList(conflictRelations, "未识别到明确敌对关系；当前可能只有普通共现证据。")}
+
+## 合作、同盟和支援关系
+
+${renderSemanticRelationList(cooperationRelations, "未识别到明确合作/同盟关系；需要子 Agent 精读补充。")}
+
+## 师徒、上下级、亲属和交易关系
+
+${renderSemanticRelationList(hierarchyRelations, "未识别到明确身份型关系；需要子 Agent 精读补充。")}
+
+## 待精读确认的高频共现
+
+${renderSemanticRelationList(uncertainRelations, "没有低置信共现关系。")}
+
+## 人物表（证据索引）
 
 ${topCharacters
   .map(
@@ -1034,22 +1499,40 @@ ${topCharacters
   )
   .join("\n")}
 
-## 关系边
-
-${topRelations
-  .map(
-    (item) =>
-      `- ${item.source} <-> ${item.target}：共现 ${item.mentions} 次，覆盖第 ${item.firstChapter}-${item.lastChapter} 章，关系线索：${item.markers.join("、") || "同章共现"}`
-  )
-  .join("\n")}
-
 ## Mermaid 关系草图
 
 \`\`\`mermaid
 graph TD
-${graphRelations.map((item) => `  ${safeMermaidId(item.source)}["${item.source}"] --> ${safeMermaidId(item.target)}["${item.target}"]`).join("\n")}
+${graphRelations.map((item) => `  ${safeMermaidId(item.source)}["${item.source}"] -->|${item.relationType}| ${safeMermaidId(item.target)}["${item.target}"]`).join("\n")}
 \`\`\`
 `;
+}
+
+function renderRoleGroup(role: string, roles: CharacterRoleSummary[]): string {
+  const items = roles
+    .filter((item) => item.role === role && (role !== "重要配角候选" || item.confidence !== "低"))
+    .slice(0, role === "重要配角候选" ? 20 : 12);
+  if (items.length === 0) {
+    return `### ${role}\n\n- 暂无明确候选。\n`;
+  }
+  return `### ${role}\n\n${items
+    .map(
+      (item) =>
+        `- ${item.name}：${item.reason} 置信度：${item.confidence}。出场范围：第 ${item.firstChapter}-${item.lastChapter} 章。`
+    )
+    .join("\n")}\n`;
+}
+
+function renderSemanticRelationList(relations: SemanticRelationSummary[], emptyText: string): string {
+  if (relations.length === 0) {
+    return `- ${emptyText}`;
+  }
+  return relations
+    .map(
+      (item) =>
+        `- ${item.source} <-> ${item.target}：${item.relationType}（${item.group}，置信度：${item.confidence}）。覆盖第 ${item.firstChapter}-${item.lastChapter} 章；共现 ${item.mentions} 次；证据：${item.markers.join("、") || "需二次精读补充"}`
+    )
+    .join("\n");
 }
 
 function renderEventFile(title: string, events: EventSummary[]): string {
@@ -1128,8 +1611,10 @@ async function writeDeepRunOutputs(
 - 章节数：${book.chapterCount}
 - 分块数：${book.chunkCount}
 - 子 Agent 精读 JSON：${book.agentChunkCount}/${book.chunkCount}
+- 主角候选：${book.protagonist ?? "需精读确认"}
 - 人物候选：${book.characters.length}
 - 关系边候选：${book.relations.length}
+- 语义关系候选：${book.semanticRelations.length}
 - 势力组织候选：${book.organizations.length}
 - 地图地点候选：${book.locations.length}
 - 能力/资源/规则候选：${book.systems.length}
@@ -1192,9 +1677,12 @@ function toJsonBook(book: DeepBook, audit: AuditItem[]): Record<string, unknown>
     chapterCount: book.chapterCount,
     chunkCount: book.chunkCount,
     agentChunkCount: book.agentChunkCount,
+    protagonist: book.protagonist,
     audit,
     characters: book.characters,
+    characterRoles: book.characterRoles,
     relations: book.relations,
+    semanticRelations: book.semanticRelations,
     organizations: book.organizations,
     locations: book.locations,
     systems: book.systems,
