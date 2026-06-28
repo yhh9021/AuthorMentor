@@ -1602,16 +1602,22 @@ async function cleanDeepOutputs(bookDir: string): Promise<void> {
   await Promise.all(
     [
       "深拆总报告.md",
-      "人物与关系图.md",
       "势力与组织图谱.md",
       "地图与世界结构.md",
+      "深度优点机制.md",
+      "深拆质量审计.md",
+      "质量审计.md",
+      "高光片段与亮点.md",
+      "设定沉淀.md",
+      "分段拆书报告.md",
+      "素材卡.md",
+      "返工记录.md",
+      "人物与关系图.md",
       "修炼能力与资源体系.md",
       "关键事件链.md",
       "深度高光片段.md",
       "深度设定沉淀.md",
-      "深度优点机制.md",
       "优点与可复用机制.md",
-      "深拆质量审计.md",
       "深拆中间数据.json"
     ].map((file) => rm(path.join(bookDir, file), { force: true }))
   );
@@ -1619,23 +1625,19 @@ async function cleanDeepOutputs(bookDir: string): Promise<void> {
 
 async function writeDeepBookOutputs(bookDir: string, book: DeepBook, audit: AuditItem[]): Promise<void> {
   await Promise.all([
-    writeText(path.join(bookDir, "深拆总报告.md"), renderDeepReport(book, audit)),
+    writeText(path.join(bookDir, "全书拆书总报告.md"), renderDeepReport(book, audit)),
     writeText(path.join(bookDir, "人物与关系图.md"), renderCharacterGraph(book)),
-    writeText(path.join(bookDir, "势力与组织图谱.md"), renderEntityFile(book.title, "势力与组织图谱", book.organizations, "势力/组织")),
-    writeText(path.join(bookDir, "地图与世界结构.md"), renderEntityFile(book.title, "地图与世界结构", book.locations, "地点/地图层级")),
     writeText(path.join(bookDir, "修炼能力与资源体系.md"), renderCapabilityResourceFile(book)),
     writeText(path.join(bookDir, "关键事件链.md"), renderEventFile(book.title, book.events)),
     writeText(path.join(bookDir, "深度高光片段.md"), renderDeepHighlights(book)),
     writeText(path.join(bookDir, "深度设定沉淀.md"), renderDeepSettingInsights(book)),
-    writeText(path.join(bookDir, "深度优点机制.md"), renderDeepMechanisms(book, "深度优点机制")),
     writeText(path.join(bookDir, "优点与可复用机制.md"), renderDeepMechanisms(book, "优点与可复用机制")),
-    writeText(path.join(bookDir, "深拆质量审计.md"), renderAudit(book, audit)),
     writeText(path.join(bookDir, "深拆中间数据.json"), JSON.stringify(toJsonBook(book, audit), null, 2))
   ]);
 }
 
 function renderDeepReport(book: DeepBook, audit: AuditItem[]): string {
-  return `# 深拆总报告：《${book.title}》
+  return `# 全书拆书总报告：《${book.title}》
 
 ## 执行范围
 
@@ -1656,7 +1658,7 @@ function renderDeepReport(book: DeepBook, audit: AuditItem[]): string {
 
 ## 方法说明
 
-本次深拆不再只读取章节标题或章节开头，而是先把全本正文切成 chunk 精读任务包，再合并子 Agent JSON 与脚本兜底抽取结果。若子 Agent JSON 覆盖率不足，报告会保留兜底结果，但质量审计会标记需补齐精读。
+本次深拆不再只读取章节标题或章节开头，而是先把全本正文切成 chunk 精读任务包，再合并子 Agent JSON 与脚本兜底抽取结果。若子 Agent JSON 覆盖率不足，报告会保留兜底结果，但产物有效性审计会标记需补齐精读。
 
 ## 审计结果
 
@@ -1665,13 +1667,11 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 ## 主要入口文件
 
 - \`人物与关系图.md\`
-- \`势力与组织图谱.md\`
-- \`地图与世界结构.md\`
 - \`修炼能力与资源体系.md\`
 - \`关键事件链.md\`
 - \`深度高光片段.md\`
 - \`深度设定沉淀.md\`
-- \`深度优点机制.md\`
+- \`优点与可复用机制.md\`
 - \`深拆中间数据.json\`
 `;
 }
@@ -1976,22 +1976,6 @@ ${insights.length === 0
   return renderEntityFile(book.title, "修炼能力与资源体系", filteredSystemEntities(book), "能力/资源/规则");
 }
 
-function renderAudit(book: DeepBook, audit: AuditItem[]): string {
-  return `# 深拆质量审计：《${book.title}》
-
-## 自动审计
-
-${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("\n")}
-
-## 仍需返工的方向
-
-- 当前脚本已全本扫描，但人物识别仍是启发式，下一步应接入 chunk 子 Agent 精读，按章节证据补全别名、身份和关系类型。
-- 子 Agent 精读覆盖率低于 85% 时，当前产物只能作为兜底索引，不能视为最终精读结论。
-- 如果某本书人物表缺少明显主角或核心配角，应在 \`深拆中间数据.json\` 中检查对应章节 chunk，再做人工或 Agent 返工。
-- 最终报告禁止只保留模板句，必须能追溯到首次出现章节、活跃章节范围和关系证据。
-`;
-}
-
 function relevantSystemCount(book: DeepBook): number {
   return isHistoricalResourceBook(book) ? historicalResourceInsights(book).length : filteredSystemEntities(book).length;
 }
@@ -2170,7 +2154,7 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 
 ## 改动摘要
 
-本次生成全本扫描后的深拆总报告、人物与关系图、势力与组织图谱、地图与世界结构、修炼能力与资源体系、关键事件链、深度高光片段、深度设定沉淀、深度优点机制、深拆中间数据和质量审计。
+本次生成全本扫描后的全书拆书总报告、人物与关系图、修炼能力与资源体系、关键事件链、深度高光片段、深度设定沉淀、优点与可复用机制、设定集、深拆中间数据和产物有效性审计。旧版势力/地图图谱、深拆总报告、深度优点机制和质量审计文件只作为历史清理对象，不再保留。
 `
   );
 }

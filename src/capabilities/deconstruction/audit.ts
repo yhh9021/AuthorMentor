@@ -34,16 +34,10 @@ type AuditOptions = {
 const REQUIRED_FILES = [
   "章节索引.md",
   "剧情阶段总览.md",
-  "分段拆书报告.md",
-  "素材卡.md",
   "全书拆书总报告.md",
-  "设定沉淀.md",
   "优点与可复用机制.md",
-  "高光片段与亮点.md",
   "深度设定沉淀.md",
-  "深度优点机制.md",
   "深度高光片段.md",
-  "质量审计.md",
   "设定集-总览.md",
   "设定集-修炼与能力体系.md",
   "设定集-地图与空间层级.md",
@@ -54,11 +48,8 @@ const REQUIRED_FILES = [
   "设定集-设定时间线.md",
   "设定集-写作复用边界.md",
   "人物与关系图.md",
-  "势力与组织图谱.md",
-  "地图与世界结构.md",
   "修炼能力与资源体系.md",
   "关键事件链.md",
-  "深拆质量审计.md",
   "深拆中间数据.json"
 ];
 
@@ -110,7 +101,6 @@ export async function auditBookDir(bookDir: string, options: AuditOptions = {}):
   auditHighlights(files.get("深度高光片段.md") ?? "", chapterCount, issues);
   auditDeepSettings(files.get("深度设定沉淀.md") ?? "", issues);
   auditMechanisms(files.get("优点与可复用机制.md") ?? "", "优点与可复用机制.md", false, issues);
-  auditMechanisms(files.get("深度优点机制.md") ?? "", "深度优点机制.md", true, issues);
   auditStoryBible(files, issues);
   auditCharacterGraph(files.get("人物与关系图.md") ?? "", issues);
   auditDeepJson(files.get("深拆中间数据.json") ?? "", issues);

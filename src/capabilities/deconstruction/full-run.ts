@@ -253,17 +253,11 @@ export async function runFullDeconstruction(rawOptions: PrepareOptions): Promise
 
   await cleanGeneratedOutputs(meta.bookDir);
   await writeBookMap(meta.bookDir, chapters, segments);
-  await writeSegments(meta.bookDir, segments, profile);
-  await writeMaterialCards(meta.bookDir, segments, profile);
   await writeSynthesis(meta.bookDir, title, chapters, segments, profile);
-  await writeSettingArchive(meta.bookDir, title, chapters, segments, profile);
   await writeStrengthArchive(meta.bookDir, title, segments, profile);
-  await writeHighlightArchive(meta.bookDir, title, segments, profile);
   await writeDeepSettingArchive(meta.bookDir, title, chapters, segments, profile);
-  await writeDeepStrengthArchive(meta.bookDir, title, chapters, segments, profile);
   await writeDeepHighlightArchive(meta.bookDir, title, chapters, segments, profile);
   await writeStoryBibleArchive(meta.bookDir, title, chapters, segments, profile);
-  await writeQualityAudit(meta.bookDir, title, segments, profile);
   await writeRunOutputs(runDir, meta.bookDir, title, chapters, segments, profile);
 
   await applyDeconstructionRun(runDir);
@@ -370,6 +364,14 @@ async function cleanGeneratedOutputs(bookDir: string): Promise<void> {
       "深度设定沉淀.md",
       "深度优点机制.md",
       "深度高光片段.md",
+      "人物与关系图.md",
+      "修炼能力与资源体系.md",
+      "关键事件链.md",
+      "深拆总报告.md",
+      "势力与组织图谱.md",
+      "地图与世界结构.md",
+      "深拆质量审计.md",
+      "深拆中间数据.json",
       "设定集-总览.md",
       "设定集-修炼与能力体系.md",
       "设定集-地图与空间层级.md",
@@ -379,7 +381,9 @@ async function cleanGeneratedOutputs(bookDir: string): Promise<void> {
       "设定集-世界规则与禁忌.md",
       "设定集-设定时间线.md",
       "设定集-写作复用边界.md",
-      "质量审计.md"
+      "质量审计.md",
+      "返工记录.md",
+      "产物有效性审计.md"
     ].map((file) => rm(path.join(bookDir, file), { force: true }))
   );
 }
@@ -400,152 +404,6 @@ function renderSegmentIndexLine(segment: Segment): string {
   return `- ${segment.index}. 第 ${segment.start}-${segment.end} 章：${segment.focus}。章节标题：${segment.chapters
     .map((chapter) => chapter.title)
     .join("、")}`;
-}
-
-async function writeSegments(bookDir: string, segments: Segment[], profile: BookProfile): Promise<void> {
-  await writeText(path.join(bookDir, "分段拆书报告.md"), segments.map((segment) => renderSegmentReport(segment, profile)).join("\n---\n\n"));
-}
-
-function renderSegmentReport(segment: Segment, profile: BookProfile): string {
-  const titles = segment.chapters.map((chapter) => `- ${chapter.index}. ${chapter.title}`).join("\n");
-  const signals = inferSegmentSignals(segment, profile);
-  return `# 分段拆书报告：第 ${segment.start}-${segment.end} 章 ${segment.focus}
-
-## 章节范围
-
-${titles}
-
-## 阶段目标
-
-本段主要承担“${segment.focus}”功能，归属于《${profile.name}》的“${profile.genre}”拆书画像。它把前一阶段的目标继续推进，并为后续阶段提供新的资源、身份、冲突、设定接口或情绪期待。
-
-## 主要事件链
-
-${signals.eventChain.map((item) => `- ${item}`).join("\n")}
-
-## 新增设定
-
-${signals.settings.map((item) => `- ${item}`).join("\n")}
-
-## 人物关系变化
-
-${signals.relationships.map((item) => `- ${item}`).join("\n")}
-
-## 冲突设计
-
-${signals.conflicts.map((item) => `- ${item}`).join("\n")}
-
-## 爽点设计
-
-${signals.payoffs.map((item) => `- ${item}`).join("\n")}
-
-## 钩子与回收
-
-${signals.hooks.map((item) => `- ${item}`).join("\n")}
-
-## 节奏变化
-
-本段以 ${segment.chapters.length} 章为一个局部单元，通常先通过目标或问题开场，再用资源、战斗、交易、身份或秘密推进，最后留下新的能力期待或地图期待。
-
-## 可复用桥段
-
-${signals.reusable.map((item) => `- ${item}`).join("\n")}
-
-## 不可复用风险
-
-- 不复用原书人物名、势力名、法宝名和连续事件链。
-- 只抽象结构、节奏、功能和桥段用途。
-- 如果未来用于新小说，需要替换目标、资源、场景和关系组合。
-`;
-}
-
-function inferSegmentSignals(segment: Segment, profile: BookProfile): {
-  eventChain: string[];
-  settings: string[];
-  relationships: string[];
-  conflicts: string[];
-  payoffs: string[];
-  hooks: string[];
-  reusable: string[];
-} {
-  const titleText = segment.chapters.map((chapter) => chapter.title).join("、");
-  const has = (keyword: string) => titleText.includes(keyword);
-  const eventChain = [
-    `围绕“${segment.focus}”建立阶段问题，并通过多个小事件连续推进。`,
-    `章节标题显示本段关键词集中在：${segment.chapters.slice(0, 8).map((chapter) => chapter.title.replace(/^第.+?章/, "")).join("、")}。`,
-    `本段结尾通常把当前收益转成下一阶段的新问题，形成连续追读。`
-  ];
-  const settings = [
-    `强化“${segment.focus}”所需的制度、资源、能力或地图设定。`,
-    `本书画像要求持续追踪：${profile.settingDimensions.slice(0, 4).join("、")}。`
-  ];
-  const relationships = [`围绕“${profile.genre}”的核心关系网，记录同伴、导师、组织、对手、交易方或上位力量的变化。`];
-  const conflicts = ["冲突不只来自敌人，也来自制度门槛、资源成本、知识差、身份差和环境风险。"];
-  const payoffs = ["爽点多以小目标兑现呈现：获得资源、学到方法、赢下对抗、打开地图、升级身份或解锁秘密。"];
-  const hooks = ["通过新资源、新能力、新人物、新地图或未解秘密把读者引到下一段。"];
-  const reusable = [
-    `可复用“${segment.focus}”作为一个阶段功能模块，而不是复用具体剧情。`,
-    `本书可优先抽象的机制包括：${profile.reusableMechanisms.slice(0, 3).join("、")}。`
-  ];
-
-  if (has("斗法") || has("决赛") || has("胜利") || has("战术") || has("战") || has("杀")) {
-    conflicts.push("斗法段适合写规则理解、赛前准备、对手情报、临场误导和底牌兑现。");
-    payoffs.push("战斗爽点来自准备和组合技，而不是单纯境界压制。");
-    reusable.push("比赛/擂台/考核可以作为低成本高密度爽点容器。");
-  }
-  if (has("坊市") || has("交易") || has("灵石") || has("进货") || has("摆摊") || has("钱") || has("资源")) {
-    settings.push("交易场景用于把抽象资源转成价格、渠道、风险和利润。");
-    reusable.push("资源变现段要写清楚来源、渠道、认证、价格和风险。");
-  }
-  if (has("筑基") || has("结丹") || has("金丹") || has("元婴") || has("晋升") || has("突破") || has("升级")) {
-    hooks.push("等级/境界/序列/身份词本身就是强钩子，适合搭配资源筹备和失败风险。");
-    payoffs.push("能力推进最好和身份、资源、组织地位一起结算。");
-  }
-  if (has("魔主") || has("寂灭") || has("元始") || has("合道") || has("神") || has("真相") || has("终")) {
-    settings.push("终局段把早期道具、规则、身份或世界秘密提升到更高位格。");
-    reusable.push("终局回收应把早期小钩子解释为高位格体系的一部分。");
-  }
-
-  return { eventChain, settings, relationships, conflicts, payoffs, hooks, reusable };
-}
-
-async function writeMaterialCards(bookDir: string, segments: Segment[], profile: BookProfile): Promise<void> {
-  await writeText(path.join(bookDir, "素材卡.md"), segments.map((segment) => renderMaterialCard(segment, profile)).join("\n---\n\n"));
-}
-
-function renderMaterialCard(segment: Segment, profile: BookProfile): string {
-  return `# 素材卡：${segment.focus}
-
-## 分类
-
-${segment.category}
-
-## 来源章节范围
-
-第 ${segment.start}-${segment.end} 章
-
-## 原始功能
-
-本段在《${profile.name}》中承担“${segment.focus}”功能，连接阶段目标、资源获取、冲突推进、情绪兑现和后续钩子。
-
-## 抽象复用方式
-
-把这个段落当作一个可复用阶段模块：先明确阶段目标，再设置资源或制度门槛，通过若干小事件推进，最后用新能力、新地图、新身份或新秘密作为下一段钩子。
-
-## 可变体方向
-
-- 本书画像：${profile.genre}
-- 可迁移机制：${profile.reusableMechanisms.join("、")}
-- 适配方式：保留阶段功能，替换世界规则、人物关系、资源形态和冲突场景。
-
-## 复用边界
-
-只复用阶段功能和节奏，不复用原书连续事件链、人物名、势力名和专有设定组合。
-
-## 标签
-
-${segment.keywords.join("、")}
-`;
 }
 
 async function writeSynthesis(bookDir: string, title: string, chapters: Chapter[], segments: Segment[], profile: BookProfile): Promise<void> {
@@ -583,48 +441,6 @@ ${profile.strengths.map((item) => `- ${item}`).join("\n")}
   );
 }
 
-async function writeSettingArchive(
-  bookDir: string,
-  title: string,
-  chapters: Chapter[],
-  segments: Segment[],
-  profile: BookProfile
-): Promise<void> {
-  const firstTitles = chapters.slice(0, 12).map((chapter) => chapter.title).join("、");
-  const lastTitles = chapters.slice(-12).map((chapter) => chapter.title).join("、");
-  await writeText(
-    path.join(bookDir, "设定沉淀.md"),
-    `# 设定沉淀：《${title}》
-
-## 类型画像
-
-${profile.genre}
-
-## 设定维度
-
-${profile.settingDimensions.map((item) => `- ${item}`).join("\n")}
-
-## 开局设定信号
-
-${firstTitles}
-
-## 终局设定信号
-
-${lastTitles}
-
-## 分段设定索引
-
-${segments.map((segment) => `- 第 ${segment.start}-${segment.end} 章：${segment.focus}，主要承载 ${segment.category}。`).join("\n")}
-
-## 后续二次精拆要求
-
-- 从正文中抽取设定名词、规则、代价、资源来源、组织结构和地图层级。
-- 标记首次出现章节、后续升级章节、回收章节。
-- 区分可复用规则和不可迁移专有名词。
-`
-  );
-}
-
 async function writeStrengthArchive(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
   const mechanisms = buildMechanisms(profile);
   await writeText(
@@ -654,43 +470,6 @@ ${mechanisms
 - 复用时必须替换题材包装、资源形态、组织结构和阶段事件链。
 `
   );
-}
-
-async function writeHighlightArchive(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
-  const highlights = selectHighlightSegments(segments, profile);
-  await writeText(
-    path.join(bookDir, "高光片段与亮点.md"),
-    `# 高光片段与亮点：《${title}》
-
-## 高光维度
-
-${profile.highlightDimensions.map((item) => `- ${item}`).join("\n")}
-
-## 候选高光片段
-
-${highlights
-  .map(
-    (segment) => `## 第 ${segment.start}-${segment.end} 章：${segment.focus}
-
-- 章节标题信号：${segment.chapters.slice(0, 8).map((chapter) => chapter.title).join("、")}
-- 亮点判断：本段命中“${segment.focus}”，适合二次精拆其冲突铺垫、爽点兑现、设定增量和结尾钩子。
-- 可复用方向：${buildMechanisms(profile).slice(0, 3).join("、")}。
-`
-  )
-  .join("\n")}
-`
-  );
-}
-
-function selectHighlightSegments(segments: Segment[], profile: BookProfile): Segment[] {
-  const picked: Segment[] = [];
-  for (const dimension of profile.highlightDimensions) {
-    const segment = segments.find((item) => item.focus.includes(dimension.slice(0, 2))) ?? segments.find((item) => item.category !== "开局结构");
-    if (segment && !picked.includes(segment)) {
-      picked.push(segment);
-    }
-  }
-  return picked.slice(0, 10);
 }
 
 async function writeDeepSettingArchive(
@@ -748,54 +527,6 @@ function renderDeepSettingEntry(
 **为什么值得借鉴**：它把抽象世界观变成可写的剧情机器。读者不是因为知道名词而兴奋，而是因为设定持续改变主角的选择空间：能去哪里、能学什么、能换到什么、会被谁盯上、下一步要付出什么。对后续自动写作系统来说，这类设定应该进入单书设定集，而不是只留在摘要里。
 
 **复用边界**：可以复用“规则分层、成本递增、人物接口、阶段升级”的结构；不能复用本书具体专有名词、人物关系组合、连续事件链和标志性表达。${signal ? `外部讨论信号“${signal.label}”提示：${signal.note}` : ""}
-`;
-}
-
-async function writeDeepStrengthArchive(
-  bookDir: string,
-  title: string,
-  chapters: Chapter[],
-  segments: Segment[],
-  profile: BookProfile
-): Promise<void> {
-  await writeText(
-    path.join(bookDir, "深度优点机制.md"),
-    `# 深度优点机制：《${title}》
-
-## 总体判断
-
-${profile.coreStructure}
-
-这本书的可借鉴价值不在单个桥段，而在若干机制反复工作：它们让设定能继续升级，让爽点有兑现方式，让中长篇不只靠打怪和换地图维持。
-
-## 机制拆解
-
-${buildMechanisms(profile).map((mechanism, index) => renderDeepMechanismEntry(mechanism, index, chapters, segments, profile)).join("\n")}
-`
-  );
-}
-
-function renderDeepMechanismEntry(
-  mechanism: string,
-  index: number,
-  chapters: Chapter[],
-  segments: Segment[],
-  profile: BookProfile
-): string {
-  const matched = findRepresentativeSegments(mechanism, segments, profile, 3, index);
-  return `### ${index + 1}. ${mechanism}
-
-**机制原理**：这个机制把“${profile.genre}”的题材承诺转成稳定剧情收益。它不是单次爽点，而是一套可重复使用的因果链：先让主角遇到规则或压力，再让主角找到局部解法，随后用新收益引出更高层问题。
-
-**本书中的工作方式**：代表段落包括 ${matched.map((segment) => `第 ${segment.start}-${segment.end} 章“${segment.focus}”`).join("、")}。这些段落通常不是孤立事件，而是把能力、身份、资源、关系和地图连接起来，让读者看到主角的选择空间扩大。
-
-**为什么好看**：它同时满足三个期待。第一，读者能看懂主角为什么赢，不是纯靠作者说他强。第二，胜利会改变后续局面，带来新身份、新敌人或新地图。第三，机制本身有成本或限制，所以不会把悬念提前耗尽。
-
-**适用题材**：男频玄幻、仙侠、都市重生、科幻、高武、历史和西幻都可以迁移，但必须换掉题材包装。比如把“资源”替换成金钱、权限、论文成果、军政声望、科技组件或非凡材料，把“组织”替换成宗门、学院、公司、军队、教会或秘密结社。
-
-**改写方法**：新书使用时先确定低阶版本，再设计中阶升级和高阶回收。每次使用都要写清楚：主角付出什么、利用什么认知差、获得什么可见收益、留下什么新问题。
-
-**失败风险**：如果只借用表面名词，不复制因果链，这个机制会变成空设定。如果没有代价，它会变成无脑外挂。如果没有组织或人物接口，它会失去长篇扩展能力。全书 ${chapters.length} 章的体量说明该机制需要多次变形，不能一次用完。
 `;
 }
 
@@ -1204,31 +935,6 @@ function storyBibleKeywords(category: string, profile: BookProfile): string[] {
     .slice(0, 36);
 }
 
-async function writeQualityAudit(bookDir: string, title: string, segments: Segment[], profile: BookProfile): Promise<void> {
-  const xianxiaOnlyTerms = ["现代仙门", "水府", "龟壳", "坊市", "制符", "道院", "筑基", "结丹", "元婴", "魔主"];
-  const isXianxiaProfile = profile.name === "我有一个修仙世界" || profile.genre.includes("修仙");
-  const suspicious = isXianxiaProfile
-    ? []
-    : segments.filter((segment) => xianxiaOnlyTerms.some((term) => segment.focus.includes(term)));
-  await writeText(
-    path.join(bookDir, "质量审计.md"),
-    `# 质量审计：《${title}》
-
-## 自动检查
-
-- 类型画像：${profile.genre}
-- 分段数：${segments.length}
-- 疑似跨书标签：${suspicious.length === 0 ? "无" : suspicious.map((segment) => `第 ${segment.start}-${segment.end} 章 ${segment.focus}`).join("；")}
-
-## 仍需人工复核
-
-- 自动初拆只读取章节标题和局部正文片段，不能替代逐段精读。
-- 高光片段只是候选，需要二次精拆确认具体桥段、设定增量、人物关系变化和爽点兑现。
-- 如果出现与本书类型画像不一致的标签，应优先修正画像规则，再重跑。
-`
-  );
-}
-
 function countBy(items: string[]): Record<string, number> {
   return items.reduce<Record<string, number>>((result, item) => {
     result[item] = (result[item] ?? 0) + 1;
@@ -1258,17 +964,13 @@ async function writeRunOutputs(
 
 - 全书章节索引
 - 剧情阶段总览
-- 合并版分段拆书报告（覆盖 ${segments.length} 个分段）
-- 合并版素材卡（覆盖 ${segments.length} 个分段）
 - 全书拆书总报告
-- 设定沉淀
 - 设定集总览、能力、地图、势力、资源、人物关系、世界规则、时间线和复用边界
 - 优点与可复用机制
-- 高光片段与亮点
 - 深度设定沉淀
-- 深度优点机制
 - 深度高光片段
-- 质量审计
+
+说明：full-run 只生成初拆入口和高信号文件，不再生成分段拆书报告、素材卡、设定沉淀、高光片段与亮点、深度优点机制或旧质量审计。需要全本精读时继续执行 deep-run 或 refine-apply。
 
 ## 本次写入素材库的分段条目
 
@@ -1310,7 +1012,7 @@ ${profile.genre}
 
 ## 改动摘要
 
-本次生成单层中文文件版拆书产物，包括章节索引、剧情阶段总览、合并版分段拆书报告、合并版素材卡、全书拆书总报告、完整设定集、深度设定沉淀、深度优点机制和深度高光片段，并将 ${segments.length} 个分段条目写入全局素材库。
+本次生成单层中文文件版初拆产物，包括章节索引、剧情阶段总览、全书拆书总报告、完整设定集、优点与可复用机制、深度设定沉淀和深度高光片段，并将 ${segments.length} 个阶段条目写入全局素材库。低信号旧产物不再生成；如需全本精读产物，继续执行 deep-run 或 refine-apply。
 `
   );
 }

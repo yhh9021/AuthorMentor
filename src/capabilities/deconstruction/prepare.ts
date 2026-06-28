@@ -70,7 +70,7 @@ async function ensureBookDeconstructionDir(bookDir: string, options: PrepareOpti
     path.join(bookDir, "README.md"),
     `# ${options.title ?? path.basename(options.sourcePath)}
 
-这是一本小说的持久拆书目录，用于沉淀全书结构、设定集、分段拆书、细粒度素材卡和最终汇总。
+这是一本小说的持久拆书目录，用于沉淀全书结构、设定集、关键事件链、高光机制和最终汇总。
 
 ## 文件组织
 
@@ -105,7 +105,7 @@ async function ensureBookDeconstructionDir(bookDir: string, options: PrepareOpti
         mode: options.mode,
         segmentSize: options.segmentSize,
         sourceCopy: bookSourceFile,
-        stages: ["章节索引", "剧情阶段", "分段精拆", "设定集", "素材卡", "全书汇总", "素材库更新"]
+        stages: ["章节索引", "剧情阶段", "关键事件链", "设定集", "高光机制", "全书汇总", "素材库更新"]
       },
       null,
       2
@@ -141,10 +141,12 @@ function renderTask(runId: string, options: PrepareOptions, inputFile: string, b
 
 - \`章节索引.md\`
 - \`剧情阶段总览.md\`
-- \`分段拆书报告.md\`
-- \`素材卡.md\`
 - \`设定集-*.md\`
 - \`全书拆书总报告.md\`
+- \`关键事件链.md\`
+- \`深度高光片段.md\`
+- \`深度设定沉淀.md\`
+- \`优点与可复用机制.md\`
 
 完成后不要直接提交 Git。由 CLI 的 \`deconstruct apply\` 命令校验、落库并提交。
 `;

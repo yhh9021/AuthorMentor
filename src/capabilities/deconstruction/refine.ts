@@ -143,9 +143,11 @@ export async function applyRefineRun(runDir: string): Promise<void> {
   }
 
   await Promise.all([
+    writeText(path.join(meta.bookDir, "全书拆书总报告.md"), renderBookOverview(output)),
+    writeText(path.join(meta.bookDir, "剧情阶段总览.md"), renderStageOverview(output)),
+    writeText(path.join(meta.bookDir, "关键事件链.md"), renderEventChain(output)),
     writeText(path.join(meta.bookDir, "深度高光片段.md"), renderHighlights(output)),
     writeText(path.join(meta.bookDir, "深度设定沉淀.md"), renderSettings(output)),
-    writeText(path.join(meta.bookDir, "深度优点机制.md"), renderMechanisms(output, "深度优点机制")),
     writeText(path.join(meta.bookDir, "优点与可复用机制.md"), renderMechanisms(output, "优点与可复用机制")),
     writeText(path.join(meta.bookDir, "人物与关系图.md"), renderCharacterNetwork(output)),
     writeText(path.join(meta.bookDir, "设定集-总览.md"), renderStoryBibleOverview(output)),
@@ -158,8 +160,7 @@ export async function applyRefineRun(runDir: string): Promise<void> {
     writeText(path.join(meta.bookDir, "设定集-世界规则与禁忌.md"), renderStoryBibleFile(output, "世界规则与禁忌", (item) => matchesAny(item, ["世界", "规则", "禁忌", "代价", "制度", "污染", "旧日", "星空", "神权", "宗教", "历史", "终局", "政治规则"]))),
     writeText(path.join(meta.bookDir, "设定集-设定时间线.md"), renderTimelineStoryBible(output)),
     writeText(path.join(meta.bookDir, "设定集-写作复用边界.md"), renderReuseBoundary(output)),
-    writeText(path.join(meta.bookDir, "深拆中间数据.json"), renderRefinedDeepData(output)),
-    writeText(path.join(meta.bookDir, "返工记录.md"), renderRefineRecord(output, runDir))
+    writeText(path.join(meta.bookDir, "深拆中间数据.json"), renderRefinedDeepData(output))
   ]);
 
   await commitPaths([runDir, meta.bookDir], `应用拆书返工产物`);
@@ -517,6 +518,90 @@ ${output.mechanisms.map((item, index) => `### ${index + 1}. ${item.name}
 `;
 }
 
+function renderBookOverview(output: RefineOutput): string {
+  return `# 全书拆书总报告：《${output.title}》
+
+## 结论
+
+本报告来自子 Agent 精读返工结果，只保留对后续自动写作有检索和复用价值的结论。旧的标题级分段报告、正则实体表和占位审计不再作为事实源。
+
+## 创作资产概览
+
+- 高光片段：${output.highlights.length} 条，见 \`深度高光片段.md\`。
+- 设定条目：${output.settingInsights.length} 条，见 \`深度设定沉淀.md\` 和 \`设定集-*.md\`。
+- 可复用机制：${output.mechanisms.length} 条，见 \`优点与可复用机制.md\`。
+- 主要人物：${output.characterNetwork.profiles.length} 个，语义关系边：${output.characterNetwork.relations.length} 条，见 \`人物与关系图.md\`。
+
+## 全书最值得复用的机制
+
+${output.mechanisms.slice(0, 10).map((item, index) => `### ${index + 1}. ${item.name}
+
+- **为什么好看**：${item.appeal}
+- **本书实现**：${item.implementation}
+- **改写方法**：${item.rewriteMethod}
+- **失败风险**：${item.failureRisk}
+`).join("\n")}
+
+## 优先检索入口
+
+- 查剧情高光：\`深度高光片段.md\`
+- 查设定事实：\`设定集-总览.md\` 与各 \`设定集-*.md\`
+- 查人物关系：\`人物与关系图.md\`
+- 查事件因果：\`关键事件链.md\`
+- 查机器可读数据：\`深拆中间数据.json\`
+`;
+}
+
+function renderStageOverview(output: RefineOutput): string {
+  return `# 剧情阶段总览：《${output.title}》
+
+## 生成口径
+
+本文件只保留精读后确认有复用价值的关键阶段，不再逐 20 章罗列标题。完整章节检索见 \`章节索引.md\`，具体事件因果见 \`关键事件链.md\`。
+
+## 关键阶段
+
+${output.highlights.map((item, index) => `### ${index + 1}. ${item.range}：${item.title}
+
+**阶段事件**：${item.plot}
+
+**阶段矛盾**：${item.conflict}
+
+**阶段兑现**：${item.payoff}
+
+**后续影响**：${item.impact}
+
+**可复用写法**：${item.reusableMechanism}
+`).join("\n")}
+`;
+}
+
+function renderEventChain(output: RefineOutput): string {
+  return `# 关键事件链：《${output.title}》
+
+## 生成口径
+
+本文件来自子 Agent 精读确认的高光事件，用于替代旧的空事件占位。每条事件都必须能回答：前因是什么、冲突如何升级、兑现了什么、后续改变了哪里。
+
+## 事件链
+
+${output.highlights.map((item, index) => `### ${index + 1}. ${item.range}：${item.title}
+
+**前因**：${item.setup}
+
+**冲突升级**：${item.conflict}
+
+**事件过程**：${item.plot}
+
+**当场结果**：${item.payoff}
+
+**后续影响**：${item.impact}
+
+**证据摘要**：${item.evidence}
+`).join("\n")}
+`;
+}
+
 function renderCharacterNetwork(output: RefineOutput): string {
   return `# 人物与关系图：《${output.title}》
 
@@ -811,20 +896,6 @@ function isHistoricalResourceBook(output: RefineOutput): boolean {
 
 function occurrences(text: string, keyword: string): number {
   return text.split(keyword).length - 1;
-}
-
-function renderRefineRecord(output: RefineOutput, runDir: string): string {
-  return `# 拆书返工记录：《${output.title}》
-
-- 返工任务包：${runDir}
-- 高光条目：${output.highlights.length}
-- 设定条目：${output.settingInsights.length}
-- 机制条目：${output.mechanisms.length}
-- 人物画像：${output.characterNetwork.profiles.length}
-- 语义关系边：${output.characterNetwork.relations.length}
-
-本次返工目标是替换模板化产物，后续仍需运行 \`pnpm dev deconstruct audit <本书目录>\` 验证是否通过。
-`;
 }
 
 function createRunId(title: string): string {
