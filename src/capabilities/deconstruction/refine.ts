@@ -130,6 +130,8 @@ export async function prepareRefineRun(bookDir: string): Promise<string> {
 export async function applyRefineRun(runDir: string): Promise<void> {
   const meta = JSON.parse(await readText(path.join(runDir, "meta.json"))) as { title: string; bookDir: string };
   const output = parseRefineOutput(await readText(path.join(runDir, "output", "refine-insights.json")));
+  const capabilityTitle = capabilityStoryBibleTitle(output);
+  const capabilityPredicate = capabilityStoryBiblePredicate(output);
   if (
     output.highlights.length === 0 ||
     output.settingInsights.length === 0 ||
@@ -147,10 +149,11 @@ export async function applyRefineRun(runDir: string): Promise<void> {
     writeText(path.join(meta.bookDir, "优点与可复用机制.md"), renderMechanisms(output, "优点与可复用机制")),
     writeText(path.join(meta.bookDir, "人物与关系图.md"), renderCharacterNetwork(output)),
     writeText(path.join(meta.bookDir, "设定集-总览.md"), renderStoryBibleOverview(output)),
-    writeText(path.join(meta.bookDir, "设定集-修炼与能力体系.md"), renderStoryBibleFile(output, "修炼与能力体系", (item) => matchesAny(item, ["能力", "修炼", "魔法", "奥术", "序列", "途径", "武道", "训练", "功法", "科技", "高维", "仪式"]))),
+    writeText(path.join(meta.bookDir, "设定集-修炼与能力体系.md"), renderStoryBibleFile(output, capabilityTitle, capabilityPredicate)),
     writeText(path.join(meta.bookDir, "设定集-地图与空间层级.md"), renderStoryBibleFile(output, "地图与空间层级", (item) => matchesAny(item, ["地图", "空间", "星界", "世界", "两界", "大陆", "城市", "国家", "神域", "禁区", "宇宙", "政治格局"]))),
     writeText(path.join(meta.bookDir, "设定集-势力与组织.md"), renderStoryBibleFile(output, "势力与组织", (item) => matchesAny(item, ["组织", "势力", "教会", "议会", "宗门", "学院", "朝廷", "军队", "家族", "士族", "官僚", "公司", "政治"]))),
     writeText(path.join(meta.bookDir, "设定集-资源体系.md"), renderStoryBibleFile(output, "资源体系", (item) => matchesAny(item, ["资源", "经济", "材料", "灵石", "钱", "积分", "权限", "养料", "源种", "传承", "物资"]))),
+    writeText(path.join(meta.bookDir, "修炼能力与资源体系.md"), renderCapabilityResourceFile(output)),
     writeText(path.join(meta.bookDir, "设定集-人物关系与身份体系.md"), renderIdentityStoryBible(output)),
     writeText(path.join(meta.bookDir, "设定集-世界规则与禁忌.md"), renderStoryBibleFile(output, "世界规则与禁忌", (item) => matchesAny(item, ["世界", "规则", "禁忌", "代价", "制度", "污染", "旧日", "星空", "神权", "宗教", "历史", "终局", "政治规则"]))),
     writeText(path.join(meta.bookDir, "设定集-设定时间线.md"), renderTimelineStoryBible(output)),
@@ -595,6 +598,45 @@ ${selected.map((item, index) => renderSettingStoryBibleEntry(index + 1, item)).j
 `;
 }
 
+function renderCapabilityResourceFile(output: RefineOutput): string {
+  const historical = isHistoricalResourceBook(output);
+  const selected = output.settingInsights.filter(capabilityStoryBiblePredicate(output));
+  const settings = selected.length > 0 ? selected : output.settingInsights.slice(0, Math.min(12, output.settingInsights.length));
+  const title = historical ? "能力与资源体系（历史军政适配）" : "修炼能力与资源体系";
+  const note = historical
+    ? "本书属于历史/军政题材，不存在境界、功法、魔药、序列这类超凡修炼体系。本文件只拆主角和势力可调度的现实能力与资源：官职制度、军队兵粮、地缘、名望、人脉、门生故吏、商业财政、正统叙事和信息差。"
+    : "本文件沉淀本书的修炼、能力、资源和规则接口。写章节前先确认入口条件、升级方式、代价限制和人物/势力接口。";
+  return `# ${title}：《${output.title}》
+
+## 题材适配说明
+
+${note}
+
+## 能力/资源/规则条目
+
+${settings.map((item, index) => `### ${index + 1}. ${item.name}
+
+**类型**：${item.category}
+
+**定义**：${item.definition}
+
+**运行规则**：${item.rule}
+
+**资源或代价**：${item.cost}
+
+**人物/势力接口**：${item.interfaces}
+
+**阶段变化**：${item.evolution}
+
+**剧情落点**：${item.range}。证据摘要：${item.evidence}
+
+**可复用价值**：${item.reuseValue}
+
+**复用边界**：${item.reuseBoundary}
+`).join("\n")}
+`;
+}
+
 function renderIdentityStoryBible(output: RefineOutput): string {
   const identitySettings = output.settingInsights.filter((item) => matchesAny(item, ["身份", "人物", "关系"]));
   const settingEntries = identitySettings.length > 0 ? identitySettings.map((item, index) => renderSettingStoryBibleEntry(index + 1, item)).join("\n") : "";
@@ -720,6 +762,55 @@ function renderRefinedDeepData(output: RefineOutput): string {
 function matchesAny(item: SettingInsight, keywords: string[]): boolean {
   const haystack = `${item.name} ${item.category} ${item.definition} ${item.rule}`;
   return keywords.some((keyword) => haystack.includes(keyword));
+}
+
+function capabilityStoryBibleTitle(output: RefineOutput): string {
+  return isHistoricalResourceBook(output) ? "能力与资源体系（历史军政适配）" : "修炼与能力体系";
+}
+
+function capabilityStoryBiblePredicate(output: RefineOutput): (item: SettingInsight) => boolean {
+  if (isHistoricalResourceBook(output)) {
+    return (item) =>
+      matchesAny(item, [
+        "军政",
+        "政治",
+        "朝廷",
+        "官僚",
+        "官署",
+        "士族",
+        "家族",
+        "州郡",
+        "军队",
+        "兵粮",
+        "财政",
+        "商业",
+        "屯田",
+        "地缘",
+        "边疆",
+        "名望",
+        "人脉",
+        "门生",
+        "故吏",
+        "正统",
+        "资源",
+        "制度",
+        "身份"
+      ]);
+  }
+  return (item) => matchesAny(item, ["能力", "修炼", "魔法", "奥术", "序列", "途径", "武道", "训练", "功法", "科技", "高维", "仪式"]);
+}
+
+function isHistoricalResourceBook(output: RefineOutput): boolean {
+  const text = output.settingInsights
+    .map((item) => `${item.name} ${item.category} ${item.definition} ${item.rule} ${item.interfaces}`)
+    .join("\n");
+  const historicalScore = occurrences(text, "汉末") + occurrences(text, "朝廷") + occurrences(text, "士族") + occurrences(text, "州郡") + occurrences(text, "军政") + occurrences(text, "官僚") + occurrences(text, "边疆") + occurrences(text, "正统");
+  const cultivationScore = occurrences(text, "修炼") + occurrences(text, "境界") + occurrences(text, "功法") + occurrences(text, "魔法") + occurrences(text, "奥术") + occurrences(text, "序列") + occurrences(text, "魔药") + occurrences(text, "筑基") + occurrences(text, "武道");
+  return historicalScore >= 3 && historicalScore > cultivationScore;
+}
+
+function occurrences(text: string, keyword: string): number {
+  return text.split(keyword).length - 1;
 }
 
 function renderRefineRecord(output: RefineOutput, runDir: string): string {

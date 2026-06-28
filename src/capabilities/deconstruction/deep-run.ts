@@ -1560,7 +1560,7 @@ function auditDeepBook(book: DeepBook): AuditItem[] {
     auditCount("语义关系数量", book.semanticRelations.filter((relation) => relation.confidence !== "低").length, Math.max(10, Math.floor(minCharacters / 2))),
     auditCount("势力组织数量", book.organizations.length, minOrganizations),
     auditCount("地图地点数量", book.locations.length, minLocations),
-    auditCount("能力/资源/规则数量", book.systems.length, minSystems),
+    auditCount("能力/资源/规则数量", relevantSystemCount(book), minSystems),
     auditCount("高光洞察数量", book.highlights.length, determineHighlightTarget(book.chapterCount)),
     auditCount("设定洞察数量", book.settingInsights.length, Math.max(12, Math.floor(book.chapterCount / 80))),
     auditCount("机制洞察数量", book.mechanisms.length, Math.max(8, Math.floor(book.chapterCount / 120))),
@@ -1623,7 +1623,7 @@ async function writeDeepBookOutputs(bookDir: string, book: DeepBook, audit: Audi
     writeText(path.join(bookDir, "人物与关系图.md"), renderCharacterGraph(book)),
     writeText(path.join(bookDir, "势力与组织图谱.md"), renderEntityFile(book.title, "势力与组织图谱", book.organizations, "势力/组织")),
     writeText(path.join(bookDir, "地图与世界结构.md"), renderEntityFile(book.title, "地图与世界结构", book.locations, "地点/地图层级")),
-    writeText(path.join(bookDir, "修炼能力与资源体系.md"), renderEntityFile(book.title, "修炼能力与资源体系", book.systems, "能力/资源/规则")),
+    writeText(path.join(bookDir, "修炼能力与资源体系.md"), renderCapabilityResourceFile(book)),
     writeText(path.join(bookDir, "关键事件链.md"), renderEventFile(book.title, book.events)),
     writeText(path.join(bookDir, "深度高光片段.md"), renderDeepHighlights(book)),
     writeText(path.join(bookDir, "深度设定沉淀.md"), renderDeepSettingInsights(book)),
@@ -1938,6 +1938,44 @@ ${entities
 `;
 }
 
+function renderCapabilityResourceFile(book: DeepBook): string {
+  if (isHistoricalResourceBook(book)) {
+    const insights = historicalResourceInsights(book);
+    return `# 能力与资源体系（历史军政适配）：《${book.title}》
+
+## 题材适配说明
+
+本书属于历史/军政题材，不存在境界、功法、魔药、序列这类超凡修炼体系。本文件不使用正则抽取出的“期/级/首级”等噪声词，而沉淀主角和势力可调度的现实能力与资源：官职制度、军队兵粮、地缘、名望、人脉、门生故吏、商业财政、正统叙事和信息差。
+
+## 能力/资源/规则条目
+
+${insights.length === 0
+  ? "- 当前没有收到足够的历史军政设定洞察；需要补跑子 Agent 精读，而不是用修炼体系模板硬填。"
+  : insights.map((item, index) => `### ${index + 1}. ${item.name}
+
+**类型**：${item.category}
+
+**定义**：${item.definition}
+
+**运行规则**：${item.rule}
+
+**资源或代价**：${item.cost}
+
+**人物/势力接口**：${item.interfaces}
+
+**阶段变化**：${item.evolution}
+
+**剧情落点**：${item.range}。证据摘要：${item.evidence}
+
+**可复用价值**：${item.reuseValue}
+
+**复用边界**：${item.reuseBoundary}
+`).join("\n")}
+`;
+  }
+  return renderEntityFile(book.title, "修炼能力与资源体系", filteredSystemEntities(book), "能力/资源/规则");
+}
+
 function renderAudit(book: DeepBook, audit: AuditItem[]): string {
   return `# 深拆质量审计：《${book.title}》
 
@@ -1952,6 +1990,94 @@ ${audit.map((item) => `- ${item.name}：${item.status}。${item.detail}`).join("
 - 如果某本书人物表缺少明显主角或核心配角，应在 \`深拆中间数据.json\` 中检查对应章节 chunk，再做人工或 Agent 返工。
 - 最终报告禁止只保留模板句，必须能追溯到首次出现章节、活跃章节范围和关系证据。
 `;
+}
+
+function relevantSystemCount(book: DeepBook): number {
+  return isHistoricalResourceBook(book) ? historicalResourceInsights(book).length : filteredSystemEntities(book).length;
+}
+
+function filteredSystemEntities(book: DeepBook): EntitySummary[] {
+  return book.systems.filter((item) => isMeaningfulSystemName(item.name));
+}
+
+function historicalResourceInsights(book: DeepBook): SettingInsightSummary[] {
+  return book.settingInsights.filter((item) =>
+    matchesAnyText(`${item.name} ${item.category} ${item.definition} ${item.rule} ${item.interfaces}`, [
+      "军政",
+      "政治",
+      "朝廷",
+      "官僚",
+      "官署",
+      "士族",
+      "家族",
+      "州郡",
+      "军队",
+      "兵粮",
+      "财政",
+      "商业",
+      "屯田",
+      "地缘",
+      "边疆",
+      "名望",
+      "人脉",
+      "门生",
+      "故吏",
+      "正统",
+      "资源",
+      "制度",
+      "身份"
+    ])
+  );
+}
+
+function isHistoricalResourceBook(book: DeepBook): boolean {
+  const text = book.settingInsights.map((item) => `${item.name} ${item.category} ${item.definition} ${item.rule} ${item.interfaces}`).join("\n");
+  const historicalScore = countKeywords(text, ["汉末", "朝廷", "士族", "州郡", "军政", "官僚", "边疆", "正统"]);
+  const cultivationScore = countKeywords(text, ["修炼", "境界", "功法", "魔法", "奥术", "序列", "魔药", "筑基", "武道"]);
+  return historicalScore >= 3 && historicalScore > cultivationScore;
+}
+
+function isMeaningfulSystemName(name: string): boolean {
+  if (/(新书期|时期|情境|一脸|台阶|首级|大军压境|无人之境)$/.test(name) || /(首级|台阶)/.test(name)) {
+    return false;
+  }
+  return matchesAnyText(name, [
+    "境",
+    "序列",
+    "魔药",
+    "途径",
+    "功法",
+    "法术",
+    "魔法",
+    "奥术",
+    "神术",
+    "源力",
+    "气血",
+    "星脉",
+    "灵石",
+    "善功",
+    "贡献",
+    "丹",
+    "符",
+    "法器",
+    "污染",
+    "失控",
+    "旧日",
+    "神灵",
+    "筑基",
+    "结丹",
+    "金丹",
+    "元婴",
+    "化神"
+  ]);
+}
+
+function matchesAnyText(text: string, keywords: string[]): boolean {
+  return keywords.some((keyword) => text.includes(keyword));
+}
+
+function countKeywords(text: string, keywords: string[]): number {
+  return keywords.reduce((sum, keyword) => sum + text.split(keyword).length - 1, 0);
 }
 
 async function writeDeepRunOutputs(
