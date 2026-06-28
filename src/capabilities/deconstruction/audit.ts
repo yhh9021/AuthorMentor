@@ -103,12 +103,14 @@ export async function auditBookDir(bookDir: string, options: AuditOptions = {}):
   auditDeepSettings(files.get("深度设定沉淀.md") ?? "", issues);
   auditMechanisms(files.get("优点与可复用机制.md") ?? "", "优点与可复用机制.md", false, issues);
   auditStoryBible(files, issues);
+  auditFactionStoryBible(files.get("设定集-势力与组织.md") ?? "", issues);
   auditTimelineStoryBible(files.get("设定集-设定时间线.md") ?? "", issues);
   auditIdentityStoryBible(files.get("设定集-人物关系与身份体系.md") ?? "", issues);
   auditMapStoryBible(files.get("设定集-地图与空间层级.md") ?? "", issues);
   auditCharacterGraph(files.get("人物与关系图.md") ?? "", issues);
   auditDeepJson(files.get("深拆中间数据.json") ?? "", issues);
   await auditCharacterRecall(bookDir, files, issues);
+  auditCrossFileDuplication(files, issues);
 
   const summaries = summarizeFiles(issues);
   const result: ProductAuditResult = {
@@ -186,6 +188,9 @@ function auditHighlights(content: string, chapterCount: number, issues: AuditIss
 
 function auditDeepSettings(content: string, issues: AuditIssue[]): void {
   const sections = splitNumberedSections(content);
+  const topicIndexMode = content.includes("## 设定专题索引");
+  const requiredFields = topicIndexMode ? ["设定类型", "核心含义", "写作功能", "使用边界", "主要接口", "证据定位"] : DEEP_SETTING_FIELDS;
+  const minLength = topicIndexMode ? 220 : 280;
   if (sections.length < 6) {
     issues.push({
       file: "深度设定沉淀.md",
@@ -196,8 +201,8 @@ function auditDeepSettings(content: string, issues: AuditIssue[]): void {
     });
   }
   for (const section of sections) {
-    requireFields("深度设定沉淀.md", section.title, section.body, DEEP_SETTING_FIELDS, issues);
-    requireLength("深度设定沉淀.md", section.title, section.body, 280, issues);
+    requireFields("深度设定沉淀.md", section.title, section.body, requiredFields, issues);
+    requireLength("深度设定沉淀.md", section.title, section.body, minLength, issues);
     requireEvidence("深度设定沉淀.md", section.title, section.body, issues);
   }
   auditTemplateDuplication("深度设定沉淀.md", sections.map((section) => section.body), 0.22, issues);
@@ -233,7 +238,7 @@ function auditMechanisms(content: string, file: string, deep: boolean, issues: A
 }
 
 function auditStoryBible(files: Map<string, string>, issues: AuditIssue[]): void {
-  const dedicatedFiles = new Set(["设定集-总览.md", "设定集-写作复用边界.md", "设定集-设定时间线.md", "设定集-人物关系与身份体系.md", "设定集-地图与空间层级.md"]);
+  const dedicatedFiles = new Set(["设定集-总览.md", "设定集-写作复用边界.md", "设定集-设定时间线.md", "设定集-人物关系与身份体系.md", "设定集-地图与空间层级.md", "设定集-势力与组织.md"]);
   const storyFiles = [...files.entries()].filter(([file]) => file.startsWith("设定集-") && !dedicatedFiles.has(file));
   for (const [file, content] of storyFiles) {
     const sections = splitNumberedSections(content, /^## \d+\./m);
@@ -253,6 +258,36 @@ function auditStoryBible(files: Map<string, string>, issues: AuditIssue[]): void
     }
     auditTemplateDuplication(file, sections.map((section) => section.body), 0.3, issues);
   }
+}
+
+function auditFactionStoryBible(content: string, issues: AuditIssue[]): void {
+  const file = "设定集-势力与组织.md";
+  const sections = splitNumberedSections(content);
+  if (sections.length < 6) {
+    issues.push({
+      file,
+      severity: "高",
+      message: "势力组织条目不足",
+      evidence: `实际 ${sections.length} 条。`,
+      suggestion: "势力与组织应按阵营/集团/政权/家族/军政组织拆解，覆盖主角势力、主要敌对势力、盟友和阶段性大势力。"
+    });
+  }
+  const requiredFields = ["类型", "核心人物", "势力范围", "控制区域", "组织结构", "资源与兵力", "盟友/附庸", "敌对/竞争势力", "阶段变化", "关键事件", "与主角关系", "章节范围与证据"];
+  const noise = ["经学", "学历", "军功", "征辟", "秩级", "婚姻", "继承", "水利", "互市", "舆论", "权力链条", "郎署", "制度", "规则", "接口"];
+  for (const section of sections) {
+    requireFields(file, section.title, section.body, requiredFields, issues);
+    requireLength(file, section.title, section.body, 260, issues);
+    if (noise.some((term) => section.title.includes(term))) {
+      issues.push({
+        file,
+        severity: "高",
+        message: "势力组织混入制度或规则条目",
+        evidence: section.title,
+        suggestion: "制度、规则、资源和官职体系应进入设定/资源文件；势力与组织只写有成员、地盘、资源、敌我关系和阶段变化的阵营集团。"
+      });
+    }
+  }
+  auditTemplateDuplication(file, sections.map((section) => section.body), 0.22, issues);
 }
 
 function auditTimelineStoryBible(content: string, issues: AuditIssue[]): void {
@@ -502,6 +537,53 @@ function auditDeepJson(content: string, issues: AuditIssue[]): void {
   }
 }
 
+function auditCrossFileDuplication(files: Map<string, string>, issues: AuditIssue[]): void {
+  const targetFiles = [
+    "剧情阶段总览.md",
+    "关键事件链.md",
+    "深度高光片段.md",
+    "深度设定沉淀.md",
+    "优点与可复用机制.md",
+    "人物与关系图.md",
+    "设定集-修炼与能力体系.md",
+    "设定集-地图与空间层级.md",
+    "设定集-势力与组织.md",
+    "设定集-资源体系.md",
+    "设定集-人物关系与身份体系.md",
+    "设定集-世界规则与禁忌.md",
+    "修炼能力与资源体系.md"
+  ];
+  const lineOwners = new Map<string, Set<string>>();
+  for (const file of targetFiles) {
+    const content = files.get(file);
+    if (!content) {
+      continue;
+    }
+    for (const line of content.split("\n")) {
+      const normalized = normalizeCrossFileLine(line);
+      if (!normalized) {
+        continue;
+      }
+      const owners = lineOwners.get(normalized) ?? new Set<string>();
+      owners.add(file);
+      lineOwners.set(normalized, owners);
+    }
+  }
+  const duplicates = [...lineOwners.entries()]
+    .filter(([line, owners]) => owners.size >= 3 && line.length >= 32)
+    .slice(0, 8);
+  if (duplicates.length === 0) {
+    return;
+  }
+  issues.push({
+    file: "跨文件",
+    severity: "高",
+    message: "不同产物之间存在重复内容",
+    evidence: duplicates.map(([line, owners]) => `${[...owners].join(" / ")}：${line.slice(0, 80)}`).join("\n"),
+    suggestion: "不同产物应由独立专题子 Agent 生成并保持职责边界；不要把同一条设定、规则或人物描述复制到多个专业文件。"
+  });
+}
+
 function requireFields(file: string, title: string, body: string, fields: string[], issues: AuditIssue[]): void {
   const missing = fields.filter((field) => !body.includes(`**${field}**`) && !body.includes(`## ${field}`) && !body.includes(`### ${field}`));
   if (missing.length > 0) {
@@ -623,6 +705,22 @@ function normalizeSentence(sentence: string): string {
     .replace(/“[^”]{1,20}”/g, "“条目”")
     .replace(/第\s*[一二三四五六七八九十百千万零〇两0-9]+(?:[-—~至]\s*[一二三四五六七八九十百千万零〇两0-9]+)?\s*章/g, "第X章")
     .replace(/\d+/g, "N")
+    .replace(/\s/g, "");
+}
+
+function normalizeCrossFileLine(line: string): string | undefined {
+  const trimmed = line.trim();
+  if (trimmed.length < 28 || trimmed.startsWith("#") || /^[-*]\s*$/.test(trimmed)) {
+    return undefined;
+  }
+  if (/^(## 文件用途|## 生成口径|## 设定条目|## 地点与势力分布)$/.test(trimmed)) {
+    return undefined;
+  }
+  if (trimmed.startsWith("本文件由") || trimmed.includes("专题子 Agent 独立生成") || trimmed.includes("写章节前用它校验")) {
+    return undefined;
+  }
+  return trimmed
+    .replace(/第\s*[一二三四五六七八九十百千万零〇两0-9]+(?:[-—~至]\s*[一二三四五六七八九十百千万零〇两0-9]+)?\s*章/g, "第X章")
     .replace(/\s/g, "");
 }
 

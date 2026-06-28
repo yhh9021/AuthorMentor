@@ -3,6 +3,23 @@ import path from "node:path";
 import { commitPaths } from "../../core/git.js";
 import { ensureDir, getWorkspace, readText, writeText } from "../../core/workspace.js";
 import { buildCharacterRecallFromSourceFile, findBookSourceFile, normalizeCharacterRecallReport, parseCharacterRecallReport, type CharacterRecallReport } from "./character-recall.js";
+import {
+  hasAnyTopicOutput,
+  readTopicOutputs,
+  renderTopicCapabilityResource,
+  renderTopicCharacterNetwork,
+  renderTopicDeepData,
+  renderTopicDeepSettings,
+  renderTopicEventChain,
+  renderTopicFactions,
+  renderTopicHighlights,
+  renderTopicIdentityStoryBible,
+  renderTopicMap,
+  renderTopicMechanisms,
+  renderTopicSettingFile,
+  renderTopicStageOverview,
+  writeTopicRefineScaffold
+} from "./topic-refine.js";
 
 type RefineInsight = {
   title: string;
@@ -161,6 +178,7 @@ export async function prepareRefineRun(bookDir: string): Promise<string> {
   if (characterRecall) {
     await writeText(path.join(inputDir, "角色召回候选.json"), JSON.stringify(characterRecall, null, 2));
   }
+  await writeTopicRefineScaffold({ runDir, title, bookDir: absoluteBookDir, sourceCopy, characterRecall });
   await writeText(path.join(outputDir, "refine-insights.json"), renderRefineOutputTemplate(title));
   await writeText(
     path.join(runDir, "meta.json"),
@@ -177,6 +195,8 @@ export async function applyRefineRun(runDir: string): Promise<void> {
     ...parsedOutput,
     characterRecall: parsedOutput.characterRecall ?? (await readOptionalRecall(path.join(runDir, "input", "角色召回候选.json")))
   };
+  const topics = await readTopicOutputs(runDir);
+  const topicData = hasAnyTopicOutput(topics) ? renderTopicDeepData(topics) : undefined;
   const capabilityTitle = capabilityStoryBibleTitle(output);
   const capabilityPredicate = capabilityStoryBiblePredicate(output);
   if (
@@ -191,23 +211,23 @@ export async function applyRefineRun(runDir: string): Promise<void> {
 
   await Promise.all([
     writeText(path.join(meta.bookDir, "全书拆书总报告.md"), renderBookOverview(output)),
-    writeText(path.join(meta.bookDir, "剧情阶段总览.md"), renderStageOverview(output)),
-    writeText(path.join(meta.bookDir, "关键事件链.md"), renderEventChain(output)),
-    writeText(path.join(meta.bookDir, "深度高光片段.md"), renderHighlights(output)),
-    writeText(path.join(meta.bookDir, "深度设定沉淀.md"), renderSettings(output)),
-    writeText(path.join(meta.bookDir, "优点与可复用机制.md"), renderMechanisms(output, "优点与可复用机制")),
-    writeText(path.join(meta.bookDir, "人物与关系图.md"), renderCharacterNetwork(output)),
+    writeText(path.join(meta.bookDir, "剧情阶段总览.md"), topics.plot ? renderTopicStageOverview(output.title, topics.plot) : renderStageOverview(output)),
+    writeText(path.join(meta.bookDir, "关键事件链.md"), topics.plot ? renderTopicEventChain(output.title, topics.plot) : renderEventChain(output)),
+    writeText(path.join(meta.bookDir, "深度高光片段.md"), topics.highlights ? renderTopicHighlights(output.title, topics.highlights) : renderHighlights(output)),
+    writeText(path.join(meta.bookDir, "深度设定沉淀.md"), topics.settings ? renderTopicDeepSettings(output.title, topics.settings) : renderSettings(output)),
+    writeText(path.join(meta.bookDir, "优点与可复用机制.md"), topics.highlights ? renderTopicMechanisms(output.title, topics.highlights) : renderMechanisms(output, "优点与可复用机制")),
+    writeText(path.join(meta.bookDir, "人物与关系图.md"), topics.characters ? renderTopicCharacterNetwork(output.title, topics.characters, output.characterRecall) : renderCharacterNetwork(output)),
     writeText(path.join(meta.bookDir, "设定集-总览.md"), renderStoryBibleOverview(output)),
-    writeText(path.join(meta.bookDir, "设定集-修炼与能力体系.md"), renderStoryBibleFile(output, capabilityTitle, capabilityPredicate)),
-    writeText(path.join(meta.bookDir, "设定集-地图与空间层级.md"), renderMapStoryBible(output)),
-    writeText(path.join(meta.bookDir, "设定集-势力与组织.md"), renderStoryBibleFile(output, "势力与组织", (item) => matchesAny(item, ["组织", "势力", "教会", "议会", "宗门", "学院", "朝廷", "军队", "家族", "士族", "官僚", "公司", "政治"]))),
-    writeText(path.join(meta.bookDir, "设定集-资源体系.md"), renderStoryBibleFile(output, "资源体系", (item) => matchesAny(item, ["资源", "经济", "材料", "灵石", "钱", "积分", "权限", "养料", "源种", "传承", "物资"]))),
-    writeText(path.join(meta.bookDir, "修炼能力与资源体系.md"), renderCapabilityResourceFile(output)),
-    writeText(path.join(meta.bookDir, "设定集-人物关系与身份体系.md"), renderIdentityStoryBible(output)),
-    writeText(path.join(meta.bookDir, "设定集-世界规则与禁忌.md"), renderStoryBibleFile(output, "世界规则与禁忌", (item) => matchesAny(item, ["世界", "规则", "禁忌", "代价", "制度", "污染", "旧日", "星空", "神权", "宗教", "历史", "终局", "政治规则"]))),
+    writeText(path.join(meta.bookDir, "设定集-修炼与能力体系.md"), topics.settings ? renderTopicSettingFile(output.title, capabilityTitle, topics.settings.capabilitySystem) : renderStoryBibleFile(output, capabilityTitle, capabilityPredicate)),
+    writeText(path.join(meta.bookDir, "设定集-地图与空间层级.md"), topics.map ? renderTopicMap(output.title, topics.map) : renderMapStoryBible(output)),
+    writeText(path.join(meta.bookDir, "设定集-势力与组织.md"), topics.factions ? renderTopicFactions(output.title, topics.factions) : renderStoryBibleFile(output, "势力与组织", (item) => matchesAny(item, ["组织", "势力", "教会", "议会", "宗门", "学院", "朝廷", "军队", "家族", "士族", "官僚", "公司", "政治"]))),
+    writeText(path.join(meta.bookDir, "设定集-资源体系.md"), topics.settings ? renderTopicSettingFile(output.title, "资源体系", topics.settings.resourceSystem) : renderStoryBibleFile(output, "资源体系", (item) => matchesAny(item, ["资源", "经济", "材料", "灵石", "钱", "积分", "权限", "养料", "源种", "传承", "物资"]))),
+    writeText(path.join(meta.bookDir, "修炼能力与资源体系.md"), topics.settings ? renderTopicCapabilityResource(output.title, topics.settings) : renderCapabilityResourceFile(output)),
+    writeText(path.join(meta.bookDir, "设定集-人物关系与身份体系.md"), topics.characters ? renderTopicIdentityStoryBible(output.title, topics.characters) : renderIdentityStoryBible(output)),
+    writeText(path.join(meta.bookDir, "设定集-世界规则与禁忌.md"), topics.settings ? renderTopicSettingFile(output.title, "世界规则与禁忌", topics.settings.worldRules) : renderStoryBibleFile(output, "世界规则与禁忌", (item) => matchesAny(item, ["世界", "规则", "禁忌", "代价", "制度", "污染", "旧日", "星空", "神权", "宗教", "历史", "终局", "政治规则"]))),
     writeText(path.join(meta.bookDir, "设定集-设定时间线.md"), renderTimelineStoryBible(output)),
     writeText(path.join(meta.bookDir, "设定集-写作复用边界.md"), renderReuseBoundary(output)),
-    writeText(path.join(meta.bookDir, "深拆中间数据.json"), renderRefinedDeepData(output))
+    writeText(path.join(meta.bookDir, "深拆中间数据.json"), renderRefinedDeepData(output, topicData))
   ]);
 
   await commitPaths([runDir, meta.bookDir], `应用拆书返工产物`);
@@ -1257,7 +1277,7 @@ function renderSettingStoryBibleEntry(index: number, item: SettingInsight): stri
 `;
 }
 
-function renderRefinedDeepData(output: RefineOutput): string {
+function renderRefinedDeepData(output: RefineOutput, topicData?: Record<string, unknown>): string {
   return JSON.stringify(
     {
       refineAgentRun: true,
@@ -1279,7 +1299,8 @@ function renderRefinedDeepData(output: RefineOutput): string {
       settingInsights: output.settingInsights,
       mechanisms: output.mechanisms,
       characterNetwork: output.characterNetwork,
-      characterRecall: output.characterRecall
+      characterRecall: output.characterRecall,
+      topicData
     },
     null,
     2
