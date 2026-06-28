@@ -8875,7 +8875,7 @@
           "platform": "多平台检索",
           "sourceType": "external-search-summary",
           "title": "其他社交检索回收",
-          "url": "未填写",
+          "url": "",
           "summary": "召回记录显示多平台检索噪声较高，未提供可核验的高热讨论数值。",
           "engagement": "未提供，不能用于高权重评分",
           "credibility": "低；只说明外部检索噪声和限制，不作为高光排序依据。",
