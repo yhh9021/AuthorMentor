@@ -102,6 +102,9 @@ export async function auditBookDir(bookDir: string, options: AuditOptions = {}):
   auditDeepSettings(files.get("深度设定沉淀.md") ?? "", issues);
   auditMechanisms(files.get("优点与可复用机制.md") ?? "", "优点与可复用机制.md", false, issues);
   auditStoryBible(files, issues);
+  auditTimelineStoryBible(files.get("设定集-设定时间线.md") ?? "", issues);
+  auditIdentityStoryBible(files.get("设定集-人物关系与身份体系.md") ?? "", issues);
+  auditMapStoryBible(files.get("设定集-地图与空间层级.md") ?? "", issues);
   auditCharacterGraph(files.get("人物与关系图.md") ?? "", issues);
   auditDeepJson(files.get("深拆中间数据.json") ?? "", issues);
 
@@ -228,7 +231,8 @@ function auditMechanisms(content: string, file: string, deep: boolean, issues: A
 }
 
 function auditStoryBible(files: Map<string, string>, issues: AuditIssue[]): void {
-  const storyFiles = [...files.entries()].filter(([file]) => file.startsWith("设定集-") && file !== "设定集-总览.md" && file !== "设定集-写作复用边界.md");
+  const dedicatedFiles = new Set(["设定集-总览.md", "设定集-写作复用边界.md", "设定集-设定时间线.md", "设定集-人物关系与身份体系.md", "设定集-地图与空间层级.md"]);
+  const storyFiles = [...files.entries()].filter(([file]) => file.startsWith("设定集-") && !dedicatedFiles.has(file));
   for (const [file, content] of storyFiles) {
     const sections = splitNumberedSections(content, /^## \d+\./m);
     if (sections.length === 0) {
@@ -246,6 +250,79 @@ function auditStoryBible(files: Map<string, string>, issues: AuditIssue[]): void
       requireLength(file, section.title, section.body, 240, issues);
     }
     auditTemplateDuplication(file, sections.map((section) => section.body), 0.3, issues);
+  }
+}
+
+function auditTimelineStoryBible(content: string, issues: AuditIssue[]): void {
+  const file = "设定集-设定时间线.md";
+  const sections = splitNumberedSections(content, /^## \d+\./m);
+  if (sections.length < 6) {
+    issues.push({
+      file,
+      severity: "中",
+      message: "小说内时间线条目过少",
+      evidence: `实际 ${sections.length} 条。`,
+      suggestion: "时间线应按小说内年份/纪元整理关键历史阶段，而不是只列章节段。"
+    });
+  }
+  for (const section of sections) {
+    requireFields(file, section.title, section.body, ["小说内时间", "世界局势", "事件内容", "涉及人物/势力", "后续影响", "章节定位", "证据摘要"], issues);
+    const firstLine = `${section.title}\n${section.body.split("\n").slice(0, 4).join("\n")}`;
+    if (/小说内时间\*\*：\s*第.+章/.test(firstLine) || /^第.+章/.test(section.title)) {
+      issues.push({
+        file,
+        severity: "高",
+        message: "时间线把章节号当成小说内时间",
+        evidence: section.title,
+        suggestion: "请补充原文年号、纪元、朝代年份或卷内年份；章节号只能放在章节定位字段。"
+      });
+    }
+  }
+}
+
+function auditIdentityStoryBible(content: string, issues: AuditIssue[]): void {
+  const file = "设定集-人物关系与身份体系.md";
+  const sections = splitNumberedSections(content, /^### \d+\./m);
+  const noise = ["规则", "体系", "网络", "制度", "资源", "政治", "贸易", "空间", "地图", "时间线", "节点", "义舍", "天命", "谶纬", "婚姻", "旗号"];
+  if (sections.length < 12) {
+    issues.push({
+      file,
+      severity: "中",
+      message: "人物身份条目过少",
+      evidence: `实际 ${sections.length} 条。`,
+      suggestion: "人物身份体系应覆盖主角、核心同伴、主要对手、导师上位者、亲属情感和重要配角。"
+    });
+  }
+  for (const section of sections) {
+    if (noise.some((term) => section.title.includes(term))) {
+      issues.push({
+        file,
+        severity: "高",
+        message: "人物身份体系混入非人物条目",
+        evidence: section.title,
+        suggestion: "规则、组织、地点和抽象设定应进入对应设定集，不应进入人物身份体系。"
+      });
+    }
+    if (section.body.includes("重要度") && section.body.includes("主角/核心人物")) {
+      requireLength(file, section.title, section.body, 260, issues);
+    }
+  }
+}
+
+function auditMapStoryBible(content: string, issues: AuditIssue[]): void {
+  const file = "设定集-地图与空间层级.md";
+  const sections = splitNumberedSections(content, /^### \d+\./m);
+  if (sections.length < 8) {
+    issues.push({
+      file,
+      severity: "中",
+      message: "地图空间条目覆盖不足",
+      evidence: `实际 ${sections.length} 条。`,
+      suggestion: "地图空间层级应覆盖全书主要地图、上级区域、通道、边界和势力分布。历史题材需结合朝代地理补全。"
+    });
+  }
+  for (const section of sections) {
+    requireFields(file, section.title, section.body, ["类型/层级", "所属区域", "控制者/主要势力", "剧情功能", "连接关系", "势力分布", "章节范围与证据"], issues);
   }
 }
 

@@ -19,6 +19,39 @@ type HighlightInsight = RefineInsight & {
   reuseBoundary: string;
 };
 
+type StoryEvent = RefineInsight & {
+  timeLabel?: string;
+  summary: string;
+  setup: string;
+  conflict: string;
+  turn: string;
+  result: string;
+  impact: string;
+  involved: string;
+};
+
+type TimelineEntry = {
+  timeLabel: string;
+  range: string;
+  event: string;
+  involved: string;
+  politicalContext: string;
+  consequence: string;
+  evidence: string;
+};
+
+type LocationInsight = {
+  name: string;
+  category: string;
+  region: string;
+  range: string;
+  controller: string;
+  function: string;
+  connectedLocations: string;
+  powerDistribution: string;
+  evidence: string;
+};
+
 type SettingInsight = {
   name: string;
   category: string;
@@ -51,6 +84,7 @@ type CharacterProfile = {
   identityArc: string;
   relationshipFunction: string;
   evidence: string;
+  importance?: string;
   arc?: string;
   function?: string;
 };
@@ -84,6 +118,9 @@ type CharacterMisread = {
 type RefineOutput = {
   title: string;
   highlights: HighlightInsight[];
+  events: StoryEvent[];
+  timeline: TimelineEntry[];
+  locations: LocationInsight[];
   settingInsights: SettingInsight[];
   mechanisms: MechanismInsight[];
   characterNetwork: CharacterNetwork;
@@ -152,7 +189,7 @@ export async function applyRefineRun(runDir: string): Promise<void> {
     writeText(path.join(meta.bookDir, "人物与关系图.md"), renderCharacterNetwork(output)),
     writeText(path.join(meta.bookDir, "设定集-总览.md"), renderStoryBibleOverview(output)),
     writeText(path.join(meta.bookDir, "设定集-修炼与能力体系.md"), renderStoryBibleFile(output, capabilityTitle, capabilityPredicate)),
-    writeText(path.join(meta.bookDir, "设定集-地图与空间层级.md"), renderStoryBibleFile(output, "地图与空间层级", (item) => matchesAny(item, ["地图", "空间", "星界", "世界", "两界", "大陆", "城市", "国家", "神域", "禁区", "宇宙", "政治格局"]))),
+    writeText(path.join(meta.bookDir, "设定集-地图与空间层级.md"), renderMapStoryBible(output)),
     writeText(path.join(meta.bookDir, "设定集-势力与组织.md"), renderStoryBibleFile(output, "势力与组织", (item) => matchesAny(item, ["组织", "势力", "教会", "议会", "宗门", "学院", "朝廷", "军队", "家族", "士族", "官僚", "公司", "政治"]))),
     writeText(path.join(meta.bookDir, "设定集-资源体系.md"), renderStoryBibleFile(output, "资源体系", (item) => matchesAny(item, ["资源", "经济", "材料", "灵石", "钱", "积分", "权限", "养料", "源种", "传承", "物资"]))),
     writeText(path.join(meta.bookDir, "修炼能力与资源体系.md"), renderCapabilityResourceFile(output)),
@@ -220,9 +257,12 @@ ${audit ? audit.slice(0, 12000) : "未找到审计报告；请先运行 deconstr
 请只编辑 \`output/refine-insights.json\`，必须符合其中模板。要求：
 
 - highlights 至少 10 条；长篇超过 1200 章至少 16 条。
+- events 至少 24 条；按故事真实进展切分，优先 5-12 章一个事件，不能只复用 highlights。
+- timeline 必须使用小说内时间，如“熹平六年”“光和七年/岁在甲子”“中平元年”，不能把章节号当时间。
+- locations 至少 12 条；历史题材要覆盖朝代地理、州郡、边塞、主要势力分布，架空题材要覆盖全书主要地图层级。
 - settingInsights 至少 12 条，覆盖世界规则、能力体系、资源体系、组织势力、地图层级、人物身份、禁忌代价、时间线。
 - mechanisms 至少 8 条，必须能说明“为什么好看”和“如何改写到新书”。
-- characterNetwork.profiles 至少 30 个主要/高频功能人物；短篇或文本确实不足时必须在 misreads 说明。
+- characterNetwork.profiles 至少 30 个主要/高频功能人物；每个 profile 要写 importance（主角/核心人物/重要人物/次要人物），非人物的规则、组织、地点不得混入 profiles。
 - characterNetwork.relations 至少 40 条语义关系边，必须写清敌对/合作/师徒/上下级/亲属情感/交易利用/组织身份等关系，不允许只写“有关联”。
 - 每条都必须有章节范围和证据摘要。
 - 禁止使用“通常、可能、需要二次精读、候选”等占位话。
@@ -245,6 +285,45 @@ function renderRefineOutputTemplate(title: string): string {
           impact: "后续影响",
           reusableMechanism: "可复用写法",
           reuseBoundary: "复用边界",
+          evidence: "章节证据摘要"
+        }
+      ],
+      events: [
+        {
+          title: "事件名",
+          timeLabel: "小说内时间；如 熹平六年/光和七年/中平元年；架空作品写纪元或卷内年份",
+          range: "第 1-10 章",
+          summary: "事件过程摘要",
+          setup: "前因",
+          conflict: "冲突升级",
+          turn: "关键转折",
+          result: "当场结果",
+          impact: "后续影响",
+          involved: "涉及人物/势力",
+          evidence: "章节证据摘要"
+        }
+      ],
+      timeline: [
+        {
+          timeLabel: "小说内时间；不能写章节号",
+          range: "第 1-10 章",
+          event: "这一年/这一时段发生的关键事",
+          involved: "涉及人物/势力",
+          politicalContext: "当时世界局势/朝代背景/地图势力状态",
+          consequence: "后续影响",
+          evidence: "章节证据摘要"
+        }
+      ],
+      locations: [
+        {
+          name: "地点或区域名",
+          category: "州郡/边塞/都城/宗门/秘境/星域/城市/国家",
+          region: "上级区域或地图层级",
+          range: "出现章节范围",
+          controller: "控制者或主要势力",
+          function: "剧情功能",
+          connectedLocations: "与哪些地点相连，路线/边界/通道是什么",
+          powerDistribution: "该空间内的势力分布",
           evidence: "章节证据摘要"
         }
       ],
@@ -281,6 +360,7 @@ function renderRefineOutputTemplate(title: string): string {
           {
             name: "人物名",
             role: "主角/核心同伴/主要对手/导师上位者/亲属情感/交易对象/重要配角",
+            importance: "主角/核心人物/重要人物/次要人物",
             range: "第 1-20 章",
             identityArc: "身份变化或阶段功能",
             relationshipFunction: "此人在主角关系网或主要矛盾中的功能",
@@ -313,6 +393,9 @@ function parseRefineOutput(content: string): RefineOutput {
   return {
     title: requireText(parsed.title, "title"),
     highlights: ensureArray(parsed.highlights).map(normalizeHighlight),
+    events: ensureArray(parsed.events).map(normalizeStoryEvent),
+    timeline: ensureArray(parsed.timeline).map(normalizeTimelineEntry),
+    locations: ensureArray(parsed.locations).map(normalizeLocationInsight),
     settingInsights: ensureArray(parsed.settingInsights).map(normalizeSetting),
     mechanisms: ensureArray(parsed.mechanisms).map(normalizeMechanism),
     characterNetwork: normalizeCharacterNetwork(parsed.characterNetwork)
@@ -331,6 +414,48 @@ function normalizeHighlight(item: HighlightInsight): HighlightInsight {
     reusableMechanism: requireText(item.reusableMechanism, "highlight.reusableMechanism"),
     reuseBoundary: requireText(item.reuseBoundary, "highlight.reuseBoundary"),
     evidence: requireText(item.evidence, "highlight.evidence")
+  };
+}
+
+function normalizeStoryEvent(item: StoryEvent): StoryEvent {
+  return {
+    title: requireText(item.title, "event.title"),
+    timeLabel: item.timeLabel?.trim(),
+    range: requireText(item.range, "event.range"),
+    summary: requireText(item.summary, "event.summary"),
+    setup: requireText(item.setup, "event.setup"),
+    conflict: requireText(item.conflict, "event.conflict"),
+    turn: requireText(item.turn, "event.turn"),
+    result: requireText(item.result, "event.result"),
+    impact: requireText(item.impact, "event.impact"),
+    involved: requireText(item.involved, "event.involved"),
+    evidence: requireText(item.evidence, "event.evidence")
+  };
+}
+
+function normalizeTimelineEntry(item: TimelineEntry): TimelineEntry {
+  return {
+    timeLabel: requireText(item.timeLabel, "timeline.timeLabel"),
+    range: requireText(item.range, "timeline.range"),
+    event: requireText(item.event, "timeline.event"),
+    involved: requireText(item.involved, "timeline.involved"),
+    politicalContext: requireText(item.politicalContext, "timeline.politicalContext"),
+    consequence: requireText(item.consequence, "timeline.consequence"),
+    evidence: requireText(item.evidence, "timeline.evidence")
+  };
+}
+
+function normalizeLocationInsight(item: LocationInsight): LocationInsight {
+  return {
+    name: requireText(item.name, "location.name"),
+    category: requireText(item.category, "location.category"),
+    region: requireText(item.region, "location.region"),
+    range: requireText(item.range, "location.range"),
+    controller: requireText(item.controller, "location.controller"),
+    function: requireText(item.function, "location.function"),
+    connectedLocations: requireText(item.connectedLocations, "location.connectedLocations"),
+    powerDistribution: requireText(item.powerDistribution, "location.powerDistribution"),
+    evidence: requireText(item.evidence, "location.evidence")
   };
 }
 
@@ -393,7 +518,8 @@ function normalizeCharacterProfile(item: CharacterProfile): CharacterProfile {
     range: requireText(item.range ?? "全书多阶段", "character.profile.range"),
     identityArc: requireText(identityArc, "character.profile.identityArc"),
     relationshipFunction: requireText(relationshipFunction, "character.profile.relationshipFunction"),
-    evidence: requireText(item.evidence ?? `${item.name} 在人物关系网中承担“${relationshipFunction ?? item.role}”功能。`, "character.profile.evidence")
+    evidence: requireText(item.evidence ?? `${item.name} 在人物关系网中承担“${relationshipFunction ?? item.role}”功能。`, "character.profile.evidence"),
+    importance: item.importance?.trim()
   };
 }
 
@@ -553,49 +679,55 @@ ${output.mechanisms.slice(0, 10).map((item, index) => `### ${index + 1}. ${item.
 }
 
 function renderStageOverview(output: RefineOutput): string {
+  const stages = buildOverviewStages(output);
   return `# 剧情阶段总览：《${output.title}》
 
 ## 生成口径
 
-本文件只保留精读后确认有复用价值的关键阶段，不再逐 20 章罗列标题。完整章节检索见 \`章节索引.md\`，具体事件因果见 \`关键事件链.md\`。
+本文件只保留全书粗粒度剧情阶段，目标是帮助写作系统快速理解主线推进。细颗粒事件因果见 \`关键事件链.md\`，设定年份顺序见 \`设定集-设定时间线.md\`。
 
-## 关键阶段
+## 全书阶段
 
-${output.highlights.map((item, index) => `### ${index + 1}. ${item.range}：${item.title}
+${stages.map((stage, index) => `### ${index + 1}. ${stage.range}：${stage.title}
 
-**阶段事件**：${item.plot}
+**阶段主线**：${stage.summary}
 
-**阶段矛盾**：${item.conflict}
+**核心矛盾**：${stage.conflict}
 
-**阶段兑现**：${item.payoff}
+**阶段兑现**：${stage.payoff}
 
-**后续影响**：${item.impact}
+**后续影响**：${stage.impact}
 
-**可复用写法**：${item.reusableMechanism}
+**关键事件入口**：${stage.events.join("；")}
 `).join("\n")}
 `;
 }
 
 function renderEventChain(output: RefineOutput): string {
+  const events = storyEvents(output);
   return `# 关键事件链：《${output.title}》
 
 ## 生成口径
 
-本文件来自子 Agent 精读确认的高光事件，用于替代旧的空事件占位。每条事件都必须能回答：前因是什么、冲突如何升级、兑现了什么、后续改变了哪里。
+本文件记录比剧情总览更细的事件因果链。事件切分优先按故事进展，而不是机械章节段；每条都必须能回答：前因是什么、冲突如何升级、关键转折在哪里、当场结果和后续影响是什么。
 
 ## 事件链
 
-${output.highlights.map((item, index) => `### ${index + 1}. ${item.range}：${item.title}
+${events.map((item, index) => `### ${index + 1}. ${item.timeLabel ? `${item.timeLabel}，` : ""}${item.range}：${item.title}
 
 **前因**：${item.setup}
 
 **冲突升级**：${item.conflict}
 
-**事件过程**：${item.plot}
+**事件过程**：${item.summary}
 
-**当场结果**：${item.payoff}
+**关键转折**：${item.turn}
+
+**当场结果**：${item.result}
 
 **后续影响**：${item.impact}
+
+**涉及人物/势力**：${item.involved}
 
 **证据摘要**：${item.evidence}
 `).join("\n")}
@@ -723,63 +855,330 @@ ${settings.map((item, index) => `### ${index + 1}. ${item.name}
 }
 
 function renderIdentityStoryBible(output: RefineOutput): string {
-  const identitySettings = output.settingInsights.filter((item) => matchesAny(item, ["身份", "人物", "关系"]));
-  const settingEntries = identitySettings.length > 0 ? identitySettings.map((item, index) => renderSettingStoryBibleEntry(index + 1, item)).join("\n") : "";
-  const profileEntries = output.characterNetwork.profiles.slice(0, 24).map((item, index) => `## ${identitySettings.length + index + 1}. ${item.name}
-
-**设定定义**：${item.name} 的身份功能是“${item.role}”，主要承担 ${item.relationshipFunction}
-
-**运行规则**：调用 ${item.name} 时，先确认其在 ${item.range} 的身份阶段，再围绕其关系功能安排行动、信息、压力或兑现。
-
-**剧情落点**：${item.range}。证据摘要：${item.evidence}
-
-**代价与限制**：复用 ${item.name} 的功能位时，必须改写姓名、阵营、利益和互动场景；若只保留标签而不保留“${item.relationshipFunction}”，人物会失去剧情作用。
-
-**人物和势力接口**：${item.relationshipFunction}
-
-**阶段变化**：${item.identityArc}
-
-**复用边界**：可借鉴 ${item.role} 的结构作用，不能迁移 ${item.name} 的专名、原书标志性互动和原有人物绑定关系。
-`).join("\n");
+  const people = output.characterNetwork.profiles.filter(isLikelyCharacterProfile);
+  const tiers = tierCharacters(people, output);
   return `# 设定集-人物关系与身份体系：《${output.title}》
 
 ## 文件用途
 
-本文件来自子 Agent 精读返工结果。它用于约束人物身份、关系变化和章节生成时的人物调用。
+本文件只收人物，不收规则、组织、地点或抽象设定。它用于区分主角、核心人物、重要人物和次要人物，并约束章节生成时的人物调用。
 
-## 设定条目
+## 主角与核心人物
 
-${settingEntries}
-${profileEntries}
+${tiers.core.map((item, index) => renderCoreCharacterEntry(item, output, index + 1)).join("\n")}
+
+## 重要人物
+
+${tiers.important.map((item, index) => renderImportantCharacterEntry(item, output, index + 1)).join("\n")}
+
+## 次要功能人物
+
+${tiers.minor.length > 0 ? tiers.minor.map((item) => `- **${item.name}**（${item.role}）：${item.relationshipFunction} 章节范围：${item.range}。证据：${item.evidence}`).join("\n") : "- 暂无。"}
 `;
 }
 
 function renderTimelineStoryBible(output: RefineOutput): string {
+  const timeline = timelineEntries(output);
   return `# 设定集-设定时间线：《${output.title}》
 
 ## 文件用途
 
-本文件把高光节点转成可检索的设定时间线。写后续章节时，用它检查伏笔、升级、兑现和后续影响。
+本文件记录小说世界内部的时间线，优先使用原文年号、纪元、朝代年份或卷内年份；章节号只作为证据定位，不能替代时间。
 
 ## 时间线条目
 
-${output.highlights.map((item, index) => `## ${index + 1}. ${item.range}：${item.title}
+${timeline.map((item, index) => `## ${index + 1}. ${item.timeLabel}：${item.event}
 
-**设定定义**：这是全书时间线上的关键剧情节点，核心事件是：${item.plot}
+**小说内时间**：${item.timeLabel}
 
-**运行规则**：该节点通过“${item.reusableMechanism}”运转。写同类章节时，要先搭建前置铺垫，再制造限制和冲突，最后兑现明确收益或真相。
+**世界局势**：${item.politicalContext}
 
-**剧情落点**：${item.range}。证据摘要：${item.evidence}
+**事件内容**：${item.event}
 
-**代价与限制**：${item.conflict} 复用时还要遵守：${item.reuseBoundary}
+**涉及人物/势力**：${item.involved}
 
-**人物和势力接口**：前置铺垫为“${item.setup}”；冲突接口为“${item.conflict}”。
+**后续影响**：${item.consequence}
 
-**阶段变化**：${item.impact}
+**章节定位**：${item.range}
 
-**复用边界**：${item.reuseBoundary}
+**证据摘要**：${item.evidence}
 `).join("\n")}
 `;
+}
+
+function renderMapStoryBible(output: RefineOutput): string {
+  const locations = output.locations.filter(isUsefulLocation);
+  const entries = locations.length > 0 ? locations : fallbackLocations(output);
+  return `# 设定集-地图与空间层级：《${output.title}》
+
+## 文件用途
+
+本文件按全书地图、空间层级和势力分布整理地点。历史题材要兼顾真实朝代地理和本书改写后的势力控制；架空题材要依赖正文总结主要地图层级、通道和势力边界。
+
+## 地图总览
+
+${renderMapOverview(output, entries)}
+
+## 地点与势力分布
+
+${entries.map((item, index) => renderLocationEntry(item, index + 1)).join("\n")}
+`;
+}
+
+function buildOverviewStages(output: RefineOutput): Array<{ range: string; title: string; summary: string; conflict: string; payoff: string; impact: string; events: string[] }> {
+  const source = output.highlights;
+  if (source.length <= 7) {
+    return source.map((item) => ({
+      range: item.range,
+      title: item.title,
+      summary: item.plot,
+      conflict: item.conflict,
+      payoff: item.payoff,
+      impact: item.impact,
+      events: [item.title]
+    }));
+  }
+  const targetCount = Math.min(7, Math.max(4, Math.ceil(source.length / 3)));
+  const groupSize = Math.ceil(source.length / targetCount);
+  const stages: Array<{ range: string; title: string; summary: string; conflict: string; payoff: string; impact: string; events: string[] }> = [];
+  for (let start = 0; start < source.length; start += groupSize) {
+    const group = source.slice(start, start + groupSize);
+    const first = group[0];
+    const last = group[group.length - 1];
+    stages.push({
+      range: mergeRanges(first.range, last.range),
+      title: first === last ? first.title : `${first.title} -> ${last.title}`,
+      summary: `${first.plot} ${last !== first ? last.plot : ""}`.trim(),
+      conflict: group.map((item) => item.conflict).join(" / "),
+      payoff: group.map((item) => item.payoff).join(" / "),
+      impact: last.impact,
+      events: group.map((item) => `${item.range} ${item.title}`)
+    });
+  }
+  return stages;
+}
+
+function storyEvents(output: RefineOutput): StoryEvent[] {
+  if (output.events.length > 0) {
+    return output.events;
+  }
+  return output.highlights.map((item) => ({
+    title: item.title,
+    range: item.range,
+    timeLabel: extractInStoryTime(`${item.title} ${item.setup} ${item.plot} ${item.evidence}`),
+    summary: item.plot,
+    setup: item.setup,
+    conflict: item.conflict,
+    turn: item.payoff,
+    result: item.payoff,
+    impact: item.impact,
+    involved: inferInvolvedFromText(`${item.setup} ${item.conflict} ${item.impact}`),
+    evidence: item.evidence
+  }));
+}
+
+function timelineEntries(output: RefineOutput): TimelineEntry[] {
+  if (output.timeline.length > 0) {
+    return output.timeline;
+  }
+  return storyEvents(output).map((item) => ({
+    timeLabel: item.timeLabel && !looksLikeChapterRange(item.timeLabel) ? item.timeLabel : "小说内时间未标明",
+    range: item.range,
+    event: item.title,
+    involved: item.involved,
+    politicalContext: item.setup,
+    consequence: item.impact,
+    evidence: item.evidence
+  }));
+}
+
+function renderCoreCharacterEntry(item: CharacterProfile, output: RefineOutput, index: number): string {
+  const relations = relationsFor(item.name, output).slice(0, 6);
+  return `### ${index}. ${item.name}
+
+**重要度**：${characterTierLabel(item, output)}
+
+**功能定位**：${item.role}
+
+**身份弧线**：${item.identityArc}
+
+**关系网功能**：${item.relationshipFunction}
+
+**关键关系**：
+${relations.length > 0 ? relations.map((relation) => `- ${relation.source} -> ${relation.target}（${relation.type}）：${relation.relationship}；变化：${relation.change}`).join("\n") : "- 暂无结构化关系边。"}
+
+**章节范围与证据**：${item.range}。${item.evidence}
+
+**调用注意**：写到 ${item.name} 时，必须同时检查其身份阶段、利益牵引、与主角关系的变化，以及其是否会改变当前事件的权力结构。
+`;
+}
+
+function renderImportantCharacterEntry(item: CharacterProfile, output: RefineOutput, index: number): string {
+  const relations = relationsFor(item.name, output).slice(0, 3);
+  return `### ${index}. ${item.name}
+
+- **重要度**：${characterTierLabel(item, output)}
+- **功能定位**：${item.role}
+- **身份变化**：${item.identityArc}
+- **关系功能**：${item.relationshipFunction}
+- **关键关系**：${relations.length > 0 ? relations.map((relation) => `${relation.source}->${relation.target}（${relation.type}）`).join("；") : "暂无结构化关系边"}
+- **章节范围与证据**：${item.range}。${item.evidence}
+`;
+}
+
+function tierCharacters(people: CharacterProfile[], output: RefineOutput): { core: CharacterProfile[]; important: CharacterProfile[]; minor: CharacterProfile[] } {
+  const sorted = [...people].sort((a, b) => characterScore(b, output) - characterScore(a, output));
+  const core = sorted.filter((item, index) => characterScore(item, output) >= 80 || index < 10).slice(0, 14);
+  const coreNames = new Set(core.map((item) => item.name));
+  const important = sorted.filter((item) => !coreNames.has(item.name) && characterScore(item, output) >= 35).slice(0, 24);
+  const importantNames = new Set(important.map((item) => item.name));
+  const minor = sorted.filter((item) => !coreNames.has(item.name) && !importantNames.has(item.name));
+  return { core, important, minor };
+}
+
+function characterScore(item: CharacterProfile, output: RefineOutput): number {
+  const relationCount = relationsFor(item.name, output).length;
+  const roleText = `${item.name} ${item.role} ${item.importance ?? ""}`;
+  let score = relationCount * 4;
+  if (item.name === output.characterNetwork.protagonist || item.importance === "主角" || item.role.includes("主角")) score += 1000;
+  if (roleText.includes("核心")) score += 70;
+  if (roleText.includes("主要对手") || roleText.includes("反派")) score += 60;
+  if (roleText.includes("导师") || roleText.includes("上位者") || roleText.includes("亲属")) score += 45;
+  if (roleText.includes("重要")) score += 35;
+  if (roleText.includes("次要")) score -= 20;
+  return score;
+}
+
+function characterTierLabel(item: CharacterProfile, output: RefineOutput): string {
+  const score = characterScore(item, output);
+  if (item.name === output.characterNetwork.protagonist || item.importance === "主角" || item.role.includes("主角")) return "主角";
+  if (score >= 80) return "核心人物";
+  if (score >= 35) return "重要人物";
+  return "次要人物";
+}
+
+function relationsFor(name: string, output: RefineOutput): CharacterRelation[] {
+  return output.characterNetwork.relations.filter((item) => item.source === name || item.target === name);
+}
+
+function isLikelyCharacterProfile(item: CharacterProfile): boolean {
+  const name = item.name.trim();
+  const noise = ["规则", "体系", "网络", "制度", "资源", "政治", "贸易", "空间", "地图", "时间线", "节点", "义舍", "天命", "谶纬", "婚姻", "旗号", "组织结构"];
+  return name.length >= 2 && name.length <= 12 && !noise.some((term) => name.includes(term));
+}
+
+function isUsefulLocation(item: LocationInsight): boolean {
+  const name = item.name.trim();
+  return name.length >= 2 && name.length <= 20 && !["规则", "体系", "机制"].some((term) => name.includes(term));
+}
+
+function fallbackLocations(output: RefineOutput): LocationInsight[] {
+  const settingLocations = output.settingInsights
+    .filter((item) => matchesAny(item, ["地图", "空间", "州", "郡", "县", "都城", "边塞", "宗门", "秘境", "星域", "城市", "国家", "战场", "政治格局"]))
+    .map<LocationInsight>((item) => ({
+      name: item.name,
+      category: item.category,
+      region: "从设定条目推断",
+      range: item.range,
+      controller: item.interfaces,
+      function: item.reuseValue,
+      connectedLocations: item.rule,
+      powerDistribution: item.interfaces,
+      evidence: item.evidence
+    }));
+  if (isHanThreeKingdomsBook(output)) {
+    return [...settingLocations, ...hanThreeKingdomsFallbackLocations(output)].slice(0, 24);
+  }
+  return settingLocations.length > 0 ? settingLocations : output.settingInsights.slice(0, 8).map((item) => ({
+    name: item.name,
+    category: item.category,
+    region: "待子 Agent 补充地图层级",
+    range: item.range,
+    controller: item.interfaces,
+    function: item.reuseValue,
+    connectedLocations: item.rule,
+    powerDistribution: item.interfaces,
+    evidence: item.evidence
+  }));
+}
+
+function hanThreeKingdomsFallbackLocations(output: RefineOutput): LocationInsight[] {
+  const evidence = "汉末/三国历史题材地理补全；后续子 Agent 应回到正文补具体章节证据。";
+  return [
+    ["洛阳与司隶", "都城/中枢", "东汉司隶", "皇帝、宦官、士人、尚书台", "朝廷权力、党锢、征辟和诏令的中心"],
+    ["幽州", "州域/北方边镇", "河北东北与辽西辽东", "公孙氏、边郡汉军、乌桓鲜卑接口", "主角早期立身、边军资源和北防根基"],
+    ["辽西、右北平、卢龙塞", "边塞/门户", "幽州北部", "公孙氏、辽西太守、右北平军政系统", "连接塞外胡部与河北平原的军事门户"],
+    ["冀州与赵国", "州郡/治理试验场", "河北腹地", "地方官、豪强、太平道、袁绍势力接口", "治理、黄巾、河北争霸的核心地带"],
+    ["并州、雁门与塞外", "边州/北疆", "黄河以北与草原南缘", "汉军、鲜卑、乌桓、边将", "骑战、胡汉贸易和边疆威望来源"],
+    ["关中与凉州", "西北军政区", "长安、三辅、凉州军", "董卓、西凉兵、朝廷军权", "董卓线和西北军权问题的空间根源"],
+    ["兖州、豫州、徐州", "中原州域", "黄河以南、淮北一带", "曹操、刘备、地方州牧", "旧友转敌、中原对抗和后期统一战线"],
+    ["青州、扬州、荆州", "东南与南方外延", "黄河下游至江汉江东", "地方豪强、州牧、士族集团", "天下格局外延和潜在未取之地"],
+    ["鲜卑草原与弹汗山", "塞外权力中心", "长城以北", "檀石槐体系、鲜卑诸部", "北方威胁、火烧弹汗和白马威名的来源"]
+  ].map(([name, category, region, controller, fn]) => ({
+    name,
+    category,
+    region,
+    range: "全书多阶段",
+    controller,
+    function: fn,
+    connectedLocations: "通过边塞、州郡道路、河道、商路或军事行军线与中原相连。",
+    powerDistribution: controller,
+    evidence
+  }));
+}
+
+function renderMapOverview(output: RefineOutput, entries: LocationInsight[]): string {
+  if (isHanThreeKingdomsBook(output)) {
+    return "本书属于汉末/三国历史改写题材，地图应先按东汉州郡和北方边塞理解，再叠加本书改写后的公孙珣势力扩张、黄巾动乱、董卓入洛、关东群雄、河北袁绍和中原曹操等势力变化。";
+  }
+  return `本书地图共整理 ${entries.length} 个主要空间节点。阅读时先看上级区域和控制者，再看地点之间的通道、边界和势力分布。`;
+}
+
+function renderLocationEntry(item: LocationInsight, index: number): string {
+  return `### ${index}. ${item.name}
+
+**类型/层级**：${item.category}
+
+**所属区域**：${item.region}
+
+**控制者/主要势力**：${item.controller}
+
+**剧情功能**：${item.function}
+
+**连接关系**：${item.connectedLocations}
+
+**势力分布**：${item.powerDistribution}
+
+**章节范围与证据**：${item.range}。${item.evidence}
+`;
+}
+
+function mergeRanges(first: string, last: string): string {
+  return first === last ? first : `${first} 至 ${last}`;
+}
+
+function extractInStoryTime(text: string): string | undefined {
+  const match = text.match(/(?:熹平|光和|中平|初平|建安|兴平|永汉|章武|黄初|太康)[一二三四五六七八九十0-9元]+年|岁在[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]|公元\s*\d+\s*年|[一二三四五六七八九十0-9元]+年/);
+  return match?.[0];
+}
+
+function looksLikeChapterRange(value: string): boolean {
+  return /第\s*\d+|章/.test(value);
+}
+
+function inferInvolvedFromText(text: string): string {
+  const names = [...new Set(text.match(/[\p{Script=Han}A-Za-z·]{2,6}/gu) ?? [])].filter((item) => !["前置铺垫", "冲突接口", "后续影响", "复用边界", "章节证据"].includes(item));
+  return names.slice(0, 8).join("、") || "需子 Agent 补充涉及人物/势力";
+}
+
+function isHanThreeKingdomsBook(output: RefineOutput): boolean {
+  const text = [
+    output.title,
+    ...output.highlights.map((item) => `${item.title} ${item.plot}`),
+    ...output.settingInsights.map((item) => `${item.name} ${item.definition} ${item.interfaces}`)
+  ].join("\n");
+  const score = ["汉末", "三国", "黄巾", "董卓", "曹操", "袁绍", "刘备", "洛阳", "幽州", "冀州", "鲜卑", "公孙"].reduce((sum, keyword) => sum + occurrences(text, keyword), 0);
+  return score >= 5;
 }
 
 function renderReuseBoundary(output: RefineOutput): string {
@@ -827,14 +1226,18 @@ function renderRefinedDeepData(output: RefineOutput): string {
       title: output.title,
       agentChunkCount: 1,
       chunkCount: 1,
-      events: output.highlights.map((item) => ({
+      events: storyEvents(output).map((item) => ({
         name: item.title,
         range: item.range,
-        summary: item.plot,
+        timeLabel: item.timeLabel,
+        summary: item.summary,
         impact: item.impact,
         evidence: item.evidence
       })),
       highlights: output.highlights,
+      storyEvents: storyEvents(output),
+      timeline: timelineEntries(output),
+      locations: output.locations,
       settingInsights: output.settingInsights,
       mechanisms: output.mechanisms,
       characterNetwork: output.characterNetwork
