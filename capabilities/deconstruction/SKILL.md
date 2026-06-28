@@ -69,6 +69,14 @@ pnpm dev deconstruct audit <单书目录>
 
 `refine-apply` 会更新单书目录中的 `全书拆书总报告.md`、`剧情阶段总览.md`、`关键事件链.md`、`深度高光片段.md`、`深度设定沉淀.md`、`优点与可复用机制.md`、`人物与关系图.md`、`修炼能力与资源体系.md`、`设定集-*.md` 和 `深拆中间数据.json`，并提交 Git 记录。
 
+返工人物关系时必须执行角色召回校验：
+
+- `refine-prepare` 会从原文生成 `input/角色召回候选.json`。
+- 子 Agent 必须先读这个文件，再写 `characterNetwork.profiles` 和 `characterNetwork.relations`。
+- `mustReview=true` 的候选表示原文高频命中的高价值角色，必须进入人物画像和关系边；如果判断不是剧情人物，必须在 `characterNetwork.misreads` 写清排除理由。
+- 历史/三国类作品要额外核对姓名、字、别名和同姓不同人，例如 `赵云/赵子龙/子龙` 不能因为人物数量已达标而漏掉。
+- 审计会检查高价值角色召回缺失；数量达标但关键人物缺失，仍视为需返工。
+
 ## 输入
 
 - 原始小说文本：用户提供的小说正文文件。

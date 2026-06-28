@@ -1,6 +1,7 @@
 import { readdir, stat } from "node:fs/promises";
 import path from "node:path";
 import { readText, writeText } from "../../core/workspace.js";
+import { buildCharacterRecallForBookDir, characterRecallCandidateTerms, parseCharacterRecallReport } from "./character-recall.js";
 
 type Severity = "高" | "中" | "低";
 
@@ -107,6 +108,7 @@ export async function auditBookDir(bookDir: string, options: AuditOptions = {}):
   auditMapStoryBible(files.get("设定集-地图与空间层级.md") ?? "", issues);
   auditCharacterGraph(files.get("人物与关系图.md") ?? "", issues);
   auditDeepJson(files.get("深拆中间数据.json") ?? "", issues);
+  await auditCharacterRecall(bookDir, files, issues);
 
   const summaries = summarizeFiles(issues);
   const result: ProductAuditResult = {
@@ -303,10 +305,48 @@ function auditIdentityStoryBible(content: string, issues: AuditIssue[]): void {
         suggestion: "规则、组织、地点和抽象设定应进入对应设定集，不应进入人物身份体系。"
       });
     }
-    if (section.body.includes("重要度") && section.body.includes("主角/核心人物")) {
+    if (section.body.includes("重要度") && /主角|核心人物/.test(section.body)) {
       requireLength(file, section.title, section.body, 260, issues);
     }
   }
+}
+
+async function auditCharacterRecall(bookDir: string, files: Map<string, string>, issues: AuditIssue[]): Promise<void> {
+  const recall = parseCharacterRecallReport(files.get("深拆中间数据.json") ?? "") ?? (await buildCharacterRecallForBookDir(bookDir, path.basename(bookDir)));
+  if (!recall || recall.candidates.length === 0) {
+    return;
+  }
+  const haystack = characterEntryNameHaystack(files.get("人物与关系图.md") ?? "", files.get("设定集-人物关系与身份体系.md") ?? "");
+  const missing = recall.candidates
+    .filter((candidate) => candidate.mustReview && candidate.mentions >= 8)
+    .filter((candidate) => !characterRecallCandidateTerms(candidate).some((term) => haystack.includes(term)));
+  if (missing.length === 0) {
+    return;
+  }
+  issues.push({
+    file: "人物与关系图.md",
+    severity: "高",
+    message: "高价值角色召回缺失",
+    evidence: missing
+      .slice(0, 10)
+      .map((item) => {
+        const aliases = Object.entries(item.aliasMentions)
+          .filter(([, count]) => count > 0)
+          .map(([term, count]) => `${term} ${count} 次`)
+          .join("，");
+        return `${item.name}（${aliases || `总命中 ${item.mentions} 次`}）`;
+      })
+      .join("；"),
+    suggestion: "返工人物关系图时必须先读取角色召回候选，原文高频命中的高辨识度人物要进入人物画像和语义关系边；若判断不是剧情人物，需在误判区说明排除原因。"
+  });
+}
+
+function characterEntryNameHaystack(characterGraph: string, identityStoryBible: string): string {
+  const profileSection = sectionBetween(characterGraph, "## 主要人物画像", "## 语义关系边");
+  const graphTitles = splitNumberedSections(profileSection).map((section) => section.title);
+  const identityTitles = splitNumberedSections(identityStoryBible).map((section) => section.title);
+  const minorNames = [...identityStoryBible.matchAll(/- \*\*([^*]+)\*\*/g)].map((match) => match[1]);
+  return [...graphTitles, ...identityTitles, ...minorNames].join("\n");
 }
 
 function auditMapStoryBible(content: string, issues: AuditIssue[]): void {

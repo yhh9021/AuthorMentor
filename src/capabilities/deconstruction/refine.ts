@@ -1,7 +1,8 @@
-import { copyFile, readdir, stat } from "node:fs/promises";
+import { copyFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { commitPaths } from "../../core/git.js";
 import { ensureDir, getWorkspace, readText, writeText } from "../../core/workspace.js";
+import { buildCharacterRecallFromSourceFile, findBookSourceFile, normalizeCharacterRecallReport, parseCharacterRecallReport, type CharacterRecallReport } from "./character-recall.js";
 
 type RefineInsight = {
   title: string;
@@ -124,6 +125,7 @@ type RefineOutput = {
   settingInsights: SettingInsight[];
   mechanisms: MechanismInsight[];
   characterNetwork: CharacterNetwork;
+  characterRecall?: CharacterRecallReport;
 };
 
 export async function prepareRefineRun(bookDir: string): Promise<string> {
@@ -139,22 +141,26 @@ export async function prepareRefineRun(bookDir: string): Promise<string> {
   await ensureDir(inputDir);
   await ensureDir(outputDir);
 
-  const sourceFile = await findSourceFile(absoluteBookDir);
+  const sourceFile = await findBookSourceFile(absoluteBookDir);
   const sourceCopy = sourceFile ? path.join(inputDir, path.basename(sourceFile)) : undefined;
   if (sourceFile && sourceCopy) {
     await copyFile(sourceFile, sourceCopy);
   }
+  const characterRecall = sourceFile ? await buildCharacterRecallFromSourceFile(sourceFile, title) : undefined;
 
   const audit = await readOptional(path.join(absoluteBookDir, "产物有效性审计.md"));
   const characterGraph = await readOptional(path.join(absoluteBookDir, "人物与关系图.md"));
   const chapterIndex = await readOptional(path.join(absoluteBookDir, "章节索引.md"));
   const deepData = await readOptional(path.join(absoluteBookDir, "深拆中间数据.json"));
 
-  await writeText(path.join(runDir, "TASK.md"), renderRefineTask(title, absoluteBookDir, sourceCopy, audit));
+  await writeText(path.join(runDir, "TASK.md"), renderRefineTask(title, absoluteBookDir, sourceCopy, audit, characterRecall));
   await writeText(path.join(inputDir, "章节索引.md"), trimForInput(chapterIndex, 20000));
   await writeText(path.join(inputDir, "人物与关系图.md"), trimForInput(characterGraph, 50000));
   await writeText(path.join(inputDir, "产物有效性审计.md"), trimForInput(audit, 50000));
   await writeText(path.join(inputDir, "深拆中间数据.json"), trimForInput(deepData, 80000));
+  if (characterRecall) {
+    await writeText(path.join(inputDir, "角色召回候选.json"), JSON.stringify(characterRecall, null, 2));
+  }
   await writeText(path.join(outputDir, "refine-insights.json"), renderRefineOutputTemplate(title));
   await writeText(
     path.join(runDir, "meta.json"),
@@ -166,7 +172,11 @@ export async function prepareRefineRun(bookDir: string): Promise<string> {
 
 export async function applyRefineRun(runDir: string): Promise<void> {
   const meta = JSON.parse(await readText(path.join(runDir, "meta.json"))) as { title: string; bookDir: string };
-  const output = parseRefineOutput(await readText(path.join(runDir, "output", "refine-insights.json")));
+  const parsedOutput = parseRefineOutput(await readText(path.join(runDir, "output", "refine-insights.json")));
+  const output: RefineOutput = {
+    ...parsedOutput,
+    characterRecall: parsedOutput.characterRecall ?? (await readOptionalRecall(path.join(runDir, "input", "角色召回候选.json")))
+  };
   const capabilityTitle = capabilityStoryBibleTitle(output);
   const capabilityPredicate = capabilityStoryBiblePredicate(output);
   if (
@@ -212,21 +222,19 @@ async function inferTitle(bookDir: string): Promise<string> {
   }
 }
 
-async function findSourceFile(bookDir: string): Promise<string | undefined> {
-  const sourceDir = path.join(bookDir, "source");
-  try {
-    const entries = await readdir(sourceDir, { withFileTypes: true });
-    return entries.find((entry) => entry.isFile()) ? path.join(sourceDir, entries.find((entry) => entry.isFile())?.name ?? "") : undefined;
-  } catch {
-    return undefined;
-  }
-}
-
 async function readOptional(file: string): Promise<string> {
   try {
     return await readText(file);
   } catch {
     return "";
+  }
+}
+
+async function readOptionalRecall(file: string): Promise<CharacterRecallReport | undefined> {
+  try {
+    return parseCharacterRecallReport(await readText(file));
+  } catch {
+    return undefined;
   }
 }
 
@@ -237,7 +245,7 @@ function trimForInput(content: string, maxLength: number): string {
   return `${content.slice(0, Math.floor(maxLength * 0.65))}\n\n...[中间内容省略，返工时请读取原文件继续核对]...\n\n${content.slice(-Math.floor(maxLength * 0.35))}`;
 }
 
-function renderRefineTask(title: string, bookDir: string, sourceFile: string | undefined, audit: string): string {
+function renderRefineTask(title: string, bookDir: string, sourceFile: string | undefined, audit: string, characterRecall?: CharacterRecallReport): string {
   return `# 拆书返工任务：《${title}》
 
 请基于原文和现有拆书产物，重写高光、设定、机制三类资产。目标不是润色旧 Markdown，而是补出后续自动写作可用的深度内容。
@@ -247,6 +255,7 @@ function renderRefineTask(title: string, bookDir: string, sourceFile: string | u
 - 持久拆书目录：${bookDir}
 - 本任务输入目录：\`input/\`
 - 原文副本：${sourceFile ?? "未找到，请使用持久拆书目录 source/ 下的原文"}
+- 角色召回候选：${characterRecall ? "`input/角色召回候选.json`" : "未生成"}
 
 ## 当前审计摘要
 
@@ -264,6 +273,8 @@ ${audit ? audit.slice(0, 12000) : "未找到审计报告；请先运行 deconstr
 - mechanisms 至少 8 条，必须能说明“为什么好看”和“如何改写到新书”。
 - characterNetwork.profiles 至少 30 个主要/高频功能人物；每个 profile 要写 importance（主角/核心人物/重要人物/次要人物），非人物的规则、组织、地点不得混入 profiles。
 - characterNetwork.relations 至少 40 条语义关系边，必须写清敌对/合作/师徒/上下级/亲属情感/交易利用/组织身份等关系，不允许只写“有关联”。
+- 必须先读取 \`input/角色召回候选.json\`。其中 mustReview=true 且原文高频命中的人物，必须进入 characterNetwork.profiles 和必要关系边；如果判断不是剧情人物，必须在 characterNetwork.misreads 写清排除理由。
+- 历史/三国类作品尤其要核对别名、字、误写和同姓不同人，不允许因为已有 30 个以上人物就跳过赵云、张飞、周瑜这类高辨识度角色。
 - 每条都必须有章节范围和证据摘要。
 - 禁止使用“通常、可能、需要二次精读、候选”等占位话。
 - 禁止多个条目复用同一套模板句。
@@ -398,7 +409,8 @@ function parseRefineOutput(content: string): RefineOutput {
     locations: ensureArray(parsed.locations).map(normalizeLocationInsight),
     settingInsights: ensureArray(parsed.settingInsights).map(normalizeSetting),
     mechanisms: ensureArray(parsed.mechanisms).map(normalizeMechanism),
-    characterNetwork: normalizeCharacterNetwork(parsed.characterNetwork)
+    characterNetwork: normalizeCharacterNetwork(parsed.characterNetwork),
+    characterRecall: normalizeCharacterRecallReport((parsed as { characterRecall?: unknown }).characterRecall)
   };
 }
 
@@ -769,10 +781,36 @@ ${output.characterNetwork.relations.map((item, index) => `### ${index + 1}. ${it
 - **证据摘要**：${item.evidence}
 `).join("\n")}
 
+${renderCharacterRecallSection(output)}
+
 ## 当前自动图明显误判或需删除项
 
 ${output.characterNetwork.misreads.length > 0 ? output.characterNetwork.misreads.map((item) => `- ${item}`).join("\n") : "- 暂无明确误判。"}
 `;
+}
+
+function renderCharacterRecallSection(output: RefineOutput): string {
+  const recall = output.characterRecall;
+  if (!recall || recall.candidates.length === 0) {
+    return "";
+  }
+  const profileText = output.characterNetwork.profiles.map((item) => item.name).join("\n");
+  const required = recall.candidates.filter((item) => item.mustReview).slice(0, 60);
+  if (required.length === 0) {
+    return `## 角色召回校验
+
+- 未发现必须核对的高频高价值角色。`;
+  }
+  return `## 角色召回校验
+
+${required.map((item) => {
+    const included = [item.name, ...item.aliases.filter((alias) => alias.length >= 3)].some((term) => profileText.includes(term));
+    const aliasSummary = Object.entries(item.aliasMentions)
+      .filter(([, count]) => count > 0)
+      .map(([term, count]) => `${term} ${count} 次`)
+      .join("，");
+    return `- **${item.name}**：${included ? "已纳入人物画像" : "未纳入人物画像，需返工核对"}。${aliasSummary || `总命中 ${item.mentions} 次`}。召回原因：${item.reason}`;
+  }).join("\n")}`;
 }
 
 function renderStoryBibleOverview(output: RefineOutput): string {
@@ -1240,7 +1278,8 @@ function renderRefinedDeepData(output: RefineOutput): string {
       locations: output.locations,
       settingInsights: output.settingInsights,
       mechanisms: output.mechanisms,
-      characterNetwork: output.characterNetwork
+      characterNetwork: output.characterNetwork,
+      characterRecall: output.characterRecall
     },
     null,
     2
