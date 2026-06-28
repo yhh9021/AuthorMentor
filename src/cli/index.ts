@@ -5,6 +5,7 @@ import { auditDeconstructionTarget } from "../capabilities/deconstruction/audit.
 import { runDeepDeconstruction } from "../capabilities/deconstruction/deep-run.js";
 import { runFullDeconstruction } from "../capabilities/deconstruction/full-run.js";
 import { prepareDeconstructionRun } from "../capabilities/deconstruction/prepare.js";
+import { applyRefineRun, prepareRefineRun } from "../capabilities/deconstruction/refine.js";
 
 const program = new Command();
 
@@ -111,6 +112,24 @@ deconstruct
     if (options.failOnIssues && failed.length > 0) {
       throw new Error(`拆书产物审计未通过：${failed.length}/${results.length} 本需返工。`);
     }
+  });
+
+deconstruct
+  .command("refine-prepare")
+  .description("根据审计报告生成拆书返工任务包")
+  .argument("<bookDir>", "单本持久拆书目录")
+  .action(async (bookDir) => {
+    const runDir = await prepareRefineRun(bookDir);
+    console.log(`已生成拆书返工任务包：${runDir}`);
+  });
+
+deconstruct
+  .command("refine-apply")
+  .description("应用拆书返工任务包输出")
+  .argument("<runDir>", "runs 下的返工任务包目录")
+  .action(async (runDir) => {
+    await applyRefineRun(runDir);
+    console.log("拆书返工产物已应用并提交 Git。");
   });
 
 program.parseAsync().catch((error: unknown) => {

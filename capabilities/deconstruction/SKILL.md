@@ -52,6 +52,23 @@ pnpm dev deconstruct audit <目录> --fail-on-issues
 
 `full-run` 只能作为初拆索引；当审计指出“模板句重复、机制只有标题级列表、设定缺少运行规则或人物接口”时，必须升级为 `deep-run` 或子 Agent 精读返工。
 
+审计失败后的子 Agent 返工流程：
+
+```bash
+pnpm dev deconstruct refine-prepare <单书目录>
+```
+
+然后启动子 Agent 读取任务包 `TASK.md`、`input/` 和原文，填写 `output/refine-insights.json`。子 Agent 必须产出高光、设定、机制、人物画像和语义关系边，不允许只润色旧报告。
+
+子 Agent 填写完成后应用返工产物：
+
+```bash
+pnpm dev deconstruct refine-apply <runs下的返工任务包目录>
+pnpm dev deconstruct audit <单书目录>
+```
+
+`refine-apply` 会更新单书目录中的 `深度高光片段.md`、`深度设定沉淀.md`、`深度优点机制.md`、`优点与可复用机制.md`、`人物与关系图.md` 和 `返工记录.md`，并提交 Git 记录。
+
 ## 输入
 
 - 原始小说文本：用户提供的小说正文文件。

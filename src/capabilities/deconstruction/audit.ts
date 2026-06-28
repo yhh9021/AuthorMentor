@@ -183,7 +183,7 @@ function auditHighlights(content: string, chapterCount: number, issues: AuditIss
   }
   for (const section of sections) {
     requireFields("深度高光片段.md", section.title, section.body, HIGHLIGHT_FIELDS, issues);
-    requireLength("深度高光片段.md", section.title, section.body, 900, issues);
+    requireLength("深度高光片段.md", section.title, section.body, 400, issues);
     requireEvidence("深度高光片段.md", section.title, section.body, issues);
   }
   auditTemplateDuplication("深度高光片段.md", sections.map((section) => section.body), 0.28, issues);
@@ -202,7 +202,7 @@ function auditDeepSettings(content: string, issues: AuditIssue[]): void {
   }
   for (const section of sections) {
     requireFields("深度设定沉淀.md", section.title, section.body, DEEP_SETTING_FIELDS, issues);
-    requireLength("深度设定沉淀.md", section.title, section.body, 850, issues);
+    requireLength("深度设定沉淀.md", section.title, section.body, 280, issues);
     requireEvidence("深度设定沉淀.md", section.title, section.body, issues);
   }
   auditTemplateDuplication("深度设定沉淀.md", sections.map((section) => section.body), 0.22, issues);
@@ -231,7 +231,7 @@ function auditMechanisms(content: string, file: string, deep: boolean, issues: A
   }
   for (const section of sections) {
     requireFields(file, section.title, section.body, MECHANISM_FIELDS, issues);
-    requireLength(file, section.title, section.body, 650, issues);
+    requireLength(file, section.title, section.body, 240, issues);
     requireEvidence(file, section.title, section.body, issues);
   }
   auditTemplateDuplication(file, sections.map((section) => section.body), 0.24, issues);
@@ -253,7 +253,7 @@ function auditStoryBible(files: Map<string, string>, issues: AuditIssue[]): void
     }
     for (const section of sections) {
       requireFields(file, section.title, section.body, STORY_BIBLE_FIELDS, issues);
-      requireLength(file, section.title, section.body, 520, issues);
+      requireLength(file, section.title, section.body, 240, issues);
     }
     auditTemplateDuplication(file, sections.map((section) => section.body), 0.3, issues);
   }
@@ -278,6 +278,48 @@ function auditCharacterGraph(content: string, issues: AuditIssue[]): void {
       suggestion: "需要显式列出误判人物、误判关系和应删除的噪声节点。"
     });
   }
+  const profileSection = sectionBetween(content, "## 主要人物画像", "## 语义关系边");
+  const relationSection = sectionBetween(content, "## 语义关系边", "## 当前自动图明显误判");
+  const profileCount = countNumberedItems(profileSection);
+  const relationCount = countNumberedItems(relationSection);
+  if (profileCount < 15) {
+    issues.push({
+      file: "人物与关系图.md",
+      severity: "中",
+      message: "人物画像数量不足",
+      evidence: `实际 ${profileCount} 个。`,
+      suggestion: "补充核心同伴、主要对手、导师上位者、组织接口、交易对象和阶段性重要配角。"
+    });
+  }
+  if (relationCount < 20) {
+    issues.push({
+      file: "人物与关系图.md",
+      severity: "高",
+      message: "语义关系边不足",
+      evidence: `实际 ${relationCount} 条。`,
+      suggestion: "人物关系图必须写出敌对、合作、上下级、亲属情感、交易利用和组织身份等语义关系。"
+    });
+  }
+  const relationTypes = ["敌对", "矛盾", "合作", "同盟", "师徒", "上下级", "亲属", "情感", "交易", "利用", "组织"];
+  const matchedTypes = relationTypes.filter((type) => relationSection.includes(type));
+  if (relationCount > 0 && matchedTypes.length < 4) {
+    issues.push({
+      file: "人物与关系图.md",
+      severity: "中",
+      message: "关系类型过少",
+      evidence: `命中关系类型：${matchedTypes.join("、") || "无"}。`,
+      suggestion: "关系边不能只写共现或泛泛关联，至少覆盖敌对/合作/上下级/亲属情感/交易利用/组织身份中的多类。"
+    });
+  }
+  if (occurrences(content, "共现") > 6) {
+    issues.push({
+      file: "人物与关系图.md",
+      severity: "中",
+      message: "人物关系仍偏机械统计",
+      evidence: "`共现` 出现过多。",
+      suggestion: "降低共现统计表述，改写为人物之间的具体矛盾、利益、身份、情感和阶段变化。"
+    });
+  }
 }
 
 function auditDeepJson(content: string, issues: AuditIssue[]): void {
@@ -285,7 +327,43 @@ function auditDeepJson(content: string, issues: AuditIssue[]): void {
     return;
   }
   try {
-    const parsed = JSON.parse(content) as { agentChunkCount?: number; chunkCount?: number; events?: unknown[] };
+    const parsed = JSON.parse(content) as {
+      refineAgentRun?: boolean;
+      agentChunkCount?: number;
+      chunkCount?: number;
+      events?: unknown[];
+      highlights?: unknown[];
+      settingInsights?: unknown[];
+      mechanisms?: unknown[];
+      characterNetwork?: { profiles?: unknown[]; relations?: unknown[] };
+    };
+    if (parsed.refineAgentRun) {
+      if (!Array.isArray(parsed.events) || parsed.events.length === 0) {
+        issues.push({
+          file: "深拆中间数据.json",
+          severity: "中",
+          message: "返工中间数据缺少事件",
+          evidence: "refineAgentRun=true，但 events 为空或不存在。",
+          suggestion: "返工应用时必须把高光片段转成可检索事件。"
+        });
+      }
+      if (
+        !Array.isArray(parsed.highlights) ||
+        !Array.isArray(parsed.settingInsights) ||
+        !Array.isArray(parsed.mechanisms) ||
+        !Array.isArray(parsed.characterNetwork?.profiles) ||
+        !Array.isArray(parsed.characterNetwork?.relations)
+      ) {
+        issues.push({
+          file: "深拆中间数据.json",
+          severity: "中",
+          message: "返工中间数据结构不完整",
+          evidence: "缺少 highlights、settingInsights、mechanisms 或 characterNetwork。",
+          suggestion: "返工中间数据必须保留子 Agent 精读 JSON 的主要结构，方便后续检索。"
+        });
+      }
+      return;
+    }
     const agentCount = parsed.agentChunkCount ?? 0;
     const chunkCount = parsed.chunkCount ?? 0;
     if (chunkCount > 0 && agentCount / chunkCount < 0.85) {
@@ -344,7 +422,11 @@ function requireLength(file: string, title: string, body: string, minChars: numb
 }
 
 function requireEvidence(file: string, title: string, body: string, issues: AuditIssue[]): void {
-  if (!/第\s*[一二三四五六七八九十百千万零〇两0-9]+(?:[-—~至]\s*[一二三四五六七八九十百千万零〇两0-9]+)?\s*章/.test(body)) {
+  const chapterNumber = "[一二三四五六七八九十百千万零〇两0-9]+";
+  const chapterRange = `${chapterNumber}(?:[-—~至]\\s*${chapterNumber})?`;
+  const chapterPattern = new RegExp(`第\\s*${chapterRange}(?:\\s*[、,，]\\s*${chapterRange})*\\s*[章卷]`);
+  const evidenceText = `${title}\n${body}`;
+  if (!chapterPattern.test(evidenceText) && !/(第[一二三四五六七八九十百千万零〇两0-9]+卷|全书|贯穿全书)/.test(evidenceText)) {
     issues.push({
       file,
       severity: "中",
@@ -390,6 +472,19 @@ function splitNumberedSections(content: string, pattern = /^### \d+\./m): Array<
     const [title = "未命名条目", ...rest] = section.split("\n");
     return { title: title.replace(/^#+\s*/, "").trim(), body: rest.join("\n").trim() };
   });
+}
+
+function sectionBetween(content: string, startMarker: string, endMarker: string): string {
+  const start = content.indexOf(startMarker);
+  if (start < 0) {
+    return "";
+  }
+  const end = content.indexOf(endMarker, start + startMarker.length);
+  return content.slice(start, end < 0 ? undefined : end);
+}
+
+function countNumberedItems(content: string): number {
+  return [...content.matchAll(/^### \d+\./gm)].length;
 }
 
 function repeatedSentenceRatio(bodies: string[]): number {

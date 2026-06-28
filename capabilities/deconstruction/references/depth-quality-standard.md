@@ -106,4 +106,6 @@ pnpm dev deconstruct audit <目录> --fail-on-issues
 1. 先读 `产物有效性审计.md` 或 `产物有效性总审计.md`。
 2. 判断问题来自 Prompt、Skill、runner、子 Agent JSON 覆盖率，还是当前产物未重跑。
 3. 优先修 Prompt/Skill/runner，再补跑产物。
-4. 重新审计，直到没有中高严重问题，或明确剩余问题必须依赖新的原文精读输入。
+4. 如果问题是“模板化、标题级、人物关系机械统计、没有全本证据”，必须运行 `pnpm dev deconstruct refine-prepare <单书目录>` 生成返工任务包，并让子 Agent 读取原文填写 `output/refine-insights.json`。
+5. 子 Agent 返工输出必须同时覆盖高光、设定、机制、人物画像和语义关系边；完成后运行 `pnpm dev deconstruct refine-apply <返工任务包目录>`。
+6. 重新审计，直到没有中高严重问题，或明确剩余问题必须依赖新的原文精读输入。
