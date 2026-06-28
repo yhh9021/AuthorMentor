@@ -100,6 +100,7 @@ export async function auditBookDir(bookDir: string, options: AuditOptions = {}):
 
   const chapterCount = countChapters(files.get("章节索引.md") ?? "");
   auditHighlights(files.get("深度高光片段.md") ?? "", chapterCount, issues);
+  auditHighlightDiscovery(files, issues);
   auditDeepSettings(files.get("深度设定沉淀.md") ?? "", issues);
   auditMechanisms(files.get("优点与可复用机制.md") ?? "", "优点与可复用机制.md", false, issues);
   auditStoryBible(files, issues);
@@ -178,12 +179,63 @@ function auditHighlights(content: string, chapterCount: number, issues: AuditIss
       suggestion: "按全书体量和讨论度重新选取高光，不要机械固定数量。"
     });
   }
+  if (!content.includes("候选覆盖") || !content.includes("形式亮点")) {
+    issues.push({
+      file: "深度高光片段.md",
+      severity: "中",
+      message: "高光拆解缺少候选覆盖或形式亮点区",
+      evidence: "未同时发现 `候选覆盖` 与 `形式亮点`。",
+      suggestion: "高光专题必须读取亮点候选发现结果，覆盖精彩战役、外部讨论信号、叙事装置和文本梗。"
+    });
+  }
   for (const section of sections) {
     requireFields("深度高光片段.md", section.title, section.body, HIGHLIGHT_FIELDS, issues);
     requireLength("深度高光片段.md", section.title, section.body, 400, issues);
     requireEvidence("深度高光片段.md", section.title, section.body, issues);
   }
   auditTemplateDuplication("深度高光片段.md", sections.map((section) => section.body), 0.28, issues);
+}
+
+function auditHighlightDiscovery(files: Map<string, string>, issues: AuditIssue[]): void {
+  const deepData = parseDeepData(files.get("深拆中间数据.json") ?? "");
+  if (!deepData?.refineAgentRun || !deepData.topicData?.topicAgentRun) {
+    return;
+  }
+  const topicData = deepData.topicData;
+  const highlightCandidates = topicData.highlightCandidates;
+  const highlights = topicData.highlights;
+  if (!highlightCandidates) {
+    issues.push({
+      file: "深拆中间数据.json",
+      severity: "中",
+      message: "缺少亮点候选发现专题输出",
+      evidence: "topicData.highlightCandidates 为空。",
+      suggestion: "返工流程应先运行亮点候选发现子 Agent，再让高光机制子 Agent 基于候选池选用、合并或排除。"
+    });
+    return;
+  }
+  const candidateCount = countArray(highlightCandidates.eventHighlights) + countArray(highlightCandidates.battleCandidates) + countArray(highlightCandidates.narrativeDevices) + countArray(highlightCandidates.recurringJokes) + countArray(highlightCandidates.memoryAnchors);
+  const coverageCount = countArray(highlights?.candidateCoverage);
+  if (candidateCount > 0 && coverageCount === 0) {
+    issues.push({
+      file: "深度高光片段.md",
+      severity: "高",
+      message: "高光候选没有处理记录",
+      evidence: `候选 ${candidateCount} 条，但 candidateCoverage 为空。`,
+      suggestion: "高光机制专题必须说明候选被选用、合并或排除的原因，避免高置信战役、梗和叙事装置无声漏掉。"
+    });
+  }
+  const narrativeCount = countArray(highlightCandidates.narrativeDevices) + countArray(highlightCandidates.recurringJokes);
+  const renderedText = `${files.get("深度高光片段.md") ?? ""}\n${files.get("优点与可复用机制.md") ?? ""}`;
+  if (narrativeCount > 0 && !/(叙事装置|文本梗|形式亮点|章末|后世|史评|伪史)/.test(renderedText)) {
+    issues.push({
+      file: "优点与可复用机制.md",
+      severity: "高",
+      message: "叙事装置或文本梗候选未进入最终机制",
+      evidence: `候选发现中有叙事装置/梗 ${narrativeCount} 条，但最终产物未出现形式亮点机制。`,
+      suggestion: "把反复出现的章末伪史评、论坛体、系统公告、读者梗等拆成独立机制，不能只写大事件高光。"
+    });
+  }
 }
 
 function auditDeepSettings(content: string, issues: AuditIssue[]): void {
@@ -807,4 +859,33 @@ function renderIssue(issue: AuditIssue): string {
 
 function occurrences(text: string, keyword: string): number {
   return text.split(keyword).length - 1;
+}
+
+function parseDeepData(content: string): {
+  refineAgentRun?: boolean;
+  topicData?: {
+    topicAgentRun?: boolean;
+    highlightCandidates?: Record<string, unknown>;
+    highlights?: Record<string, unknown>;
+  };
+} | undefined {
+  if (!content.trim()) {
+    return undefined;
+  }
+  try {
+    return JSON.parse(content) as {
+      refineAgentRun?: boolean;
+      topicData?: {
+        topicAgentRun?: boolean;
+        highlightCandidates?: Record<string, unknown>;
+        highlights?: Record<string, unknown>;
+      };
+    };
+  } catch {
+    return undefined;
+  }
+}
+
+function countArray(value: unknown): number {
+  return Array.isArray(value) ? value.length : 0;
 }

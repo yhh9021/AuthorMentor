@@ -1,6 +1,7 @@
 import path from "node:path";
 import { readText, writeText } from "../../core/workspace.js";
 import type { CharacterRecallReport } from "./character-recall.js";
+import { buildHighlightCandidateRecall, renderHighlightCandidateRecall } from "./highlight-candidates.js";
 
 export type TopicOutputs = {
   plot?: PlotTopicOutput;
@@ -8,6 +9,7 @@ export type TopicOutputs = {
   factions?: FactionTopicOutput;
   map?: MapTopicOutput;
   settings?: SettingTopicOutput;
+  highlightCandidates?: HighlightCandidateTopicOutput;
   highlights?: HighlightTopicOutput;
 };
 
@@ -118,6 +120,7 @@ type SettingTopicOutput = {
 type HighlightTopicOutput = {
   highlights: Array<{
     title: string;
+    category?: string;
     range: string;
     plot: string;
     setup: string;
@@ -138,6 +141,75 @@ type HighlightTopicOutput = {
     failureRisk: string;
     evidence: string;
   }>;
+  narrativeDevices: Array<{
+    name: string;
+    type: string;
+    range: string;
+    form: string;
+    function: string;
+    whyInteresting: string;
+    reusableMethod: string;
+    boundary: string;
+    evidence: string;
+  }>;
+  recurringJokes: Array<{
+    name: string;
+    range: string;
+    pattern: string;
+    comedicFunction: string;
+    readerPayoff: string;
+    reusableMethod: string;
+    boundary: string;
+    evidence: string;
+  }>;
+  candidateCoverage: Array<{
+    candidate: string;
+    type: string;
+    range: string;
+    decision: string;
+    reason: string;
+    finalLocation: string;
+  }>;
+  externalSignalsUsed: Array<ExternalDiscussionSignal>;
+};
+
+type CandidateItem = {
+  name: string;
+  type: string;
+  range: string;
+  reason: string;
+  evidence: string;
+  sourceSignals: string;
+  confidence: string;
+};
+
+type ExternalDiscussionSignal = {
+  platform: string;
+  sourceType: string;
+  title: string;
+  url: string;
+  summary: string;
+  engagement: string;
+  credibility: string;
+  relevance: string;
+  candidateHint: string;
+};
+
+type HighlightCandidateTopicOutput = {
+  sourceAttempts: Array<{
+    source: string;
+    query: string;
+    resultSummary: string;
+    usable: string;
+    limitation: string;
+  }>;
+  eventHighlights: CandidateItem[];
+  battleCandidates: CandidateItem[];
+  narrativeDevices: CandidateItem[];
+  recurringJokes: CandidateItem[];
+  memoryAnchors: CandidateItem[];
+  externalSignals: ExternalDiscussionSignal[];
+  mustReviewMissedCandidates: CandidateItem[];
 };
 
 type TopicDefinition = {
@@ -158,11 +230,16 @@ export async function writeTopicRefineScaffold(params: {
   const taskDir = path.join(params.runDir, "input", "topic-tasks");
   const outputDir = path.join(params.runDir, "output", "topics");
   const definitions = topicDefinitions(params);
+  const highlightRecall = await buildHighlightCandidateRecall({ title: params.title, sourceFile: params.sourceCopy });
   await Promise.all(
-    definitions.flatMap((definition) => [
-      writeText(path.join(taskDir, definition.file), renderTopicTask(params, definition)),
-      writeText(path.join(outputDir, definition.output), JSON.stringify(definition.template, null, 2))
-    ])
+    [
+      ...definitions.flatMap((definition) => [
+        writeText(path.join(taskDir, definition.file), renderTopicTask(params, definition)),
+        writeText(path.join(outputDir, definition.output), JSON.stringify(definition.template, null, 2))
+      ]),
+      writeText(path.join(params.runDir, "input", "亮点候选召回.json"), JSON.stringify(highlightRecall, null, 2)),
+      writeText(path.join(params.runDir, "input", "亮点候选召回.md"), renderHighlightCandidateRecall(highlightRecall))
+    ]
   );
   await writeText(
     path.join(outputDir, "README.md"),
@@ -183,12 +260,13 @@ export async function readTopicOutputs(runDir: string): Promise<TopicOutputs> {
     factions: normalizeFactionTopic(await readOptionalJson(path.join(outputDir, "factions.json"))),
     map: normalizeMapTopic(await readOptionalJson(path.join(outputDir, "map.json"))),
     settings: normalizeSettingTopic(await readOptionalJson(path.join(outputDir, "settings.json"))),
+    highlightCandidates: normalizeHighlightCandidateTopic(await readOptionalJson(path.join(outputDir, "highlight-candidates.json"))),
     highlights: normalizeHighlightTopic(await readOptionalJson(path.join(outputDir, "highlights.json")))
   };
 }
 
 export function hasAnyTopicOutput(topics: TopicOutputs): boolean {
-  return Boolean(topics.plot || topics.characters || topics.factions || topics.map || topics.settings || topics.highlights);
+  return Boolean(topics.plot || topics.characters || topics.factions || topics.map || topics.settings || topics.highlightCandidates || topics.highlights);
 }
 
 export function renderTopicStageOverview(title: string, output: PlotTopicOutput): string {
@@ -447,16 +525,22 @@ ${entries.map((item, index) => `### ${index + 1}. ${item.name}
 `;
 }
 
-export function renderTopicHighlights(title: string, output: HighlightTopicOutput): string {
+export function renderTopicHighlights(title: string, output: HighlightTopicOutput, candidates?: HighlightCandidateTopicOutput): string {
   return `# 深度高光片段：《${title}》
 
 ## 生成口径
 
-本文件由高光机制专题子 Agent 独立生成，只拆高光片段的铺垫、冲突、兑现、后续影响和可复用写法，不承担全书剧情总览或设定百科功能。
+本文件由高光机制专题子 Agent 独立生成，只拆高光片段的铺垫、冲突、兑现、后续影响和可复用写法，不承担全书剧情总览或设定百科功能。高光选择必须先读取亮点候选发现结果，覆盖大事件、精彩战役、叙事装置和读者记忆梗。
+
+## 候选覆盖与外部讨论信号
+
+${renderCandidateCoverage(output, candidates)}
 
 ## 高光片段详拆
 
 ${output.highlights.map((item, index) => `### ${index + 1}. ${item.range}：${item.title}
+
+**高光类型**：${item.category ?? "剧情高光"}
 
 **剧情概述**：${item.plot}
 
@@ -480,19 +564,48 @@ ${output.highlights.map((item, index) => `### ${index + 1}. ${item.range}：${it
 
 **不可复用元素**：${item.reuseBoundary}
 `).join("\n")}
+
+## 形式亮点与梗
+
+${renderNarrativeDevices(output)}
 `;
 }
 
-export function renderTopicMechanisms(title: string, output: HighlightTopicOutput): string {
+export function renderTopicMechanisms(title: string, output: HighlightTopicOutput, candidates?: HighlightCandidateTopicOutput): string {
+  const narrativeMechanisms = output.narrativeDevices.map((item) => ({
+    name: item.name,
+    range: item.range,
+    principle: `${item.type}通过固定文本形式制造第二声部。`,
+    implementation: `${item.form} 功能：${item.function}`,
+    appeal: item.whyInteresting,
+    rewriteMethod: item.reusableMethod,
+    failureRisk: item.boundary,
+    evidence: item.evidence
+  }));
+  const jokeMechanisms = output.recurringJokes.map((item) => ({
+    name: item.name,
+    range: item.range,
+    principle: "反复出现的文本梗通过重复、变形和读者预期制造记忆点。",
+    implementation: `${item.pattern} 功能：${item.comedicFunction}`,
+    appeal: item.readerPayoff,
+    rewriteMethod: item.reusableMethod,
+    failureRisk: item.boundary,
+    evidence: item.evidence
+  }));
+  const mechanisms = [...output.mechanisms, ...narrativeMechanisms, ...jokeMechanisms];
   return `# 优点与可复用机制：《${title}》
 
 ## 生成口径
 
-本文件由高光机制专题子 Agent 独立生成，只总结读者爽点、结构性优点和可改写方法，不复述设定条目或人物百科。
+本文件由高光机制专题子 Agent 独立生成，只总结读者爽点、结构性优点和可改写方法，不复述设定条目或人物百科。外部讨论和候选发现只提供召回信号，最终机制必须回到原文验证。
+
+## 候选覆盖摘要
+
+${renderCandidateCoverage(output, candidates)}
 
 ## 机制拆解
 
-${output.mechanisms.map((item, index) => `### ${index + 1}. ${item.name}
+${mechanisms.map((item, index) => `### ${index + 1}. ${item.name}
 
 **机制原理**：${item.principle}
 
@@ -518,6 +631,7 @@ export function renderTopicDeepData(topics: TopicOutputs): Record<string, unknow
       factions: Boolean(topics.factions),
       map: Boolean(topics.map),
       settings: Boolean(topics.settings),
+      highlightCandidates: Boolean(topics.highlightCandidates),
       highlights: Boolean(topics.highlights)
     },
     plot: topics.plot,
@@ -525,8 +639,36 @@ export function renderTopicDeepData(topics: TopicOutputs): Record<string, unknow
     factions: topics.factions,
     map: topics.map,
     settings: topics.settings,
+    highlightCandidates: topics.highlightCandidates,
     highlights: topics.highlights
   };
+}
+
+function renderCandidateCoverage(output: HighlightTopicOutput, candidates?: HighlightCandidateTopicOutput): string {
+  const candidateCounts = candidates
+    ? `候选发现：大事件 ${candidates.eventHighlights.length} 条，战役 ${candidates.battleCandidates.length} 条，叙事装置 ${candidates.narrativeDevices.length} 条，梗 ${candidates.recurringJokes.length} 条，记忆锚点 ${candidates.memoryAnchors.length} 条。`
+    : "未读取到亮点候选发现 JSON；本次只能依靠高光机制专题自身判断。";
+  const attempts = candidates?.sourceAttempts ?? [];
+  const signals = [...(candidates?.externalSignals ?? []), ...output.externalSignalsUsed];
+  const coverage = output.candidateCoverage;
+  return `${candidateCounts}
+
+**外部检索尝试**：
+${attempts.length > 0 ? attempts.map((item) => `- ${item.source} / ${item.query}：${item.resultSummary}；可用：${item.usable}；限制：${item.limitation}`).join("\n") : "- 未记录外部检索尝试。"}
+
+**可用外部讨论信号**：
+${signals.length > 0 ? signals.slice(0, 12).map((item) => `- ${item.platform} / ${item.title}：${item.summary}；可信度：${item.credibility}；相关性：${item.relevance}；候选提示：${item.candidateHint}${item.url && item.url !== "未填写" ? `；链接：${item.url}` : ""}`).join("\n") : "- 未找到足够可靠的外部讨论信号，按原文候选召回和精读判断。"}
+
+**候选处理记录**：
+${coverage.length > 0 ? coverage.map((item) => `- ${item.candidate}（${item.type}，${item.range}）：${item.decision}；${item.reason}；落点：${item.finalLocation}`).join("\n") : "- 未记录候选处理结果，需返工补齐选用、合并或排除理由。"}
+`;
+}
+
+function renderNarrativeDevices(output: HighlightTopicOutput): string {
+  const devices = output.narrativeDevices.map((item) => `- **${item.name}**（${item.type}，${item.range}）：形式：${item.form}；功能：${item.function}；为什么有趣：${item.whyInteresting}；复用：${item.reusableMethod}；边界：${item.boundary}；证据：${item.evidence}`);
+  const jokes = output.recurringJokes.map((item) => `- **${item.name}**（${item.range}）：重复模式：${item.pattern}；喜剧/调侃功能：${item.comedicFunction}；读者回报：${item.readerPayoff}；复用：${item.reusableMethod}；边界：${item.boundary}；证据：${item.evidence}`);
+  const items = [...devices, ...jokes];
+  return items.length > 0 ? items.join("\n") : "- 未发现可独立沉淀的叙事装置或文本梗。";
 }
 
 function topicDefinitions(params: { title: string; bookDir: string; sourceCopy?: string; characterRecall?: CharacterRecallReport }): TopicDefinition[] {
@@ -584,16 +726,62 @@ function topicDefinitions(params: { title: string; bookDir: string; sourceCopy?:
       }
     },
     {
+      file: "亮点候选发现.md",
+      title: "亮点候选发现专题",
+      output: "highlight-candidates.json",
+      task: "先于高光机制专题执行。只负责召回可能被漏掉的高光、精彩战役、叙事装置、文本梗和读者记忆锚点；必须结合 input/亮点候选召回.md、本地原文、现有章节索引，以及可用的外部讨论搜索。不要直接写最终高光分析。",
+      template: {
+        sourceAttempts: [{ source: "Sensight 社媒搜索/搜索热点事件/通用网络搜索/本地正文", query: "搜索词", resultSummary: "结果摘要", usable: "是/否", limitation: "时间限制、噪声或缺少互动数据" }],
+        eventHighlights: [candidateTemplate("大事件高光")],
+        battleCandidates: [candidateTemplate("战役高光")],
+        narrativeDevices: [candidateTemplate("叙事装置")],
+        recurringJokes: [candidateTemplate("梗/趣味点")],
+        memoryAnchors: [candidateTemplate("记忆锚点")],
+        externalSignals: [externalSignalTemplate()],
+        mustReviewMissedCandidates: [candidateTemplate("必须复核")]
+      }
+    },
+    {
       file: "高光机制.md",
       title: "高光机制专题",
       output: "highlights.json",
-      task: "只分析高光片段和为什么好看的机制。不要复述全书阶段、设定百科、势力图谱或人物百科。",
+      task: "只分析高光片段和为什么好看的机制。必须先读取 input/亮点候选召回.md 和 output/topics/highlight-candidates.json，覆盖大事件高光、精彩战役、叙事装置、文本梗和外部讨论中出现的高置信候选。不要复述全书阶段、设定百科、势力图谱或人物百科。",
       template: {
-        highlights: [{ title: "高光片段名", range: "章节范围", plot: "具体剧情过程", setup: "前置铺垫", conflict: "冲突设计", payoff: "当场兑现", impact: "后续影响", reusableMechanism: "可复用写法", reuseBoundary: "复用边界", evidence: "章节证据摘要" }],
-        mechanisms: [{ name: "机制名", range: "章节范围", principle: "机制原理", implementation: "本书实现方式", appeal: "为什么好看", rewriteMethod: "改写方法", failureRisk: "失败风险", evidence: "章节证据摘要" }]
+        highlights: [{ title: "高光片段名", category: "大事件高光/战役高光/政治高光/形式亮点", range: "章节范围", plot: "具体剧情过程", setup: "前置铺垫", conflict: "冲突设计", payoff: "当场兑现", impact: "后续影响", reusableMechanism: "可复用写法", reuseBoundary: "复用边界", evidence: "章节证据摘要" }],
+        mechanisms: [{ name: "机制名", range: "章节范围", principle: "机制原理", implementation: "本书实现方式", appeal: "为什么好看", rewriteMethod: "改写方法", failureRisk: "失败风险", evidence: "章节证据摘要" }],
+        narrativeDevices: [{ name: "叙事装置名", type: "章末伪史评/后世评价/系统公告/论坛体/新闻体", range: "章节范围", form: "文本形式", function: "剧情或情绪功能", whyInteresting: "为什么有趣", reusableMethod: "如何复用", boundary: "复用边界", evidence: "章节证据摘要" }],
+        recurringJokes: [{ name: "梗名", range: "章节范围", pattern: "重复模式", comedicFunction: "喜剧或调侃功能", readerPayoff: "读者回报", reusableMethod: "如何复用", boundary: "复用边界", evidence: "章节证据摘要" }],
+        candidateCoverage: [{ candidate: "候选名", type: "战役/叙事装置/梗/外部讨论", range: "章节范围", decision: "选用/合并/排除", reason: "理由", finalLocation: "深度高光片段.md/优点与可复用机制.md/排除" }],
+        externalSignalsUsed: [externalSignalTemplate()]
       }
     }
   ];
+}
+
+function candidateTemplate(type: string): CandidateItem {
+  return {
+    name: "候选名",
+    type,
+    range: "章节范围",
+    reason: "为什么需要复核",
+    evidence: "原文证据或章节定位",
+    sourceSignals: "本地召回/外部讨论/用户点名",
+    confidence: "高/中/低"
+  };
+}
+
+function externalSignalTemplate(): ExternalDiscussionSignal {
+  return {
+    platform: "微博/小红书/公众号/知乎/抖音/其它",
+    sourceType: "社媒搜索/热点事件/书评/拆书视频/用户提供链接",
+    title: "来源标题",
+    url: "链接，可为空",
+    summary: "讨论内容摘要",
+    engagement: "点赞/收藏/评论/热度，没有则写未提供",
+    credibility: "高/中/低，并说明依据",
+    relevance: "与候选高光或梗的关系",
+    candidateHint: "提示应复核的章节、战役、梗或叙事装置"
+  };
 }
 
 function renderTopicTask(params: { title: string; bookDir: string; sourceCopy?: string; characterRecall?: CharacterRecallReport }, definition: TopicDefinition): string {
@@ -765,6 +953,30 @@ function normalizeSettingTopic(value: unknown): SettingTopicOutput | undefined {
   return Object.values(output).some((items) => items.length > 0) ? output : undefined;
 }
 
+function normalizeHighlightCandidateTopic(value: unknown): HighlightCandidateTopicOutput | undefined {
+  if (!isObject(value)) return undefined;
+  const output = {
+    sourceAttempts: ensureArray((value as { sourceAttempts?: unknown[] }).sourceAttempts).map((item) => {
+      const object = normalizeObject(item);
+      return {
+        source: text(object.source),
+        query: text(object.query),
+        resultSummary: text(object.resultSummary),
+        usable: text(object.usable),
+        limitation: text(object.limitation)
+      };
+    }),
+    eventHighlights: normalizeCandidateItems((value as { eventHighlights?: unknown[] }).eventHighlights),
+    battleCandidates: normalizeCandidateItems((value as { battleCandidates?: unknown[] }).battleCandidates),
+    narrativeDevices: normalizeCandidateItems((value as { narrativeDevices?: unknown[] }).narrativeDevices),
+    recurringJokes: normalizeCandidateItems((value as { recurringJokes?: unknown[] }).recurringJokes),
+    memoryAnchors: normalizeCandidateItems((value as { memoryAnchors?: unknown[] }).memoryAnchors),
+    externalSignals: normalizeExternalSignals((value as { externalSignals?: unknown[] }).externalSignals),
+    mustReviewMissedCandidates: normalizeCandidateItems((value as { mustReviewMissedCandidates?: unknown[] }).mustReviewMissedCandidates)
+  };
+  return Object.values(output).some((items) => Array.isArray(items) && items.length > 0) ? output : undefined;
+}
+
 function normalizeHighlightTopic(value: unknown): HighlightTopicOutput | undefined {
   if (!isObject(value)) return undefined;
   const highlights = ensureArray((value as { highlights?: unknown[] }).highlights).map((item) => normalizeObject(item));
@@ -773,6 +985,7 @@ function normalizeHighlightTopic(value: unknown): HighlightTopicOutput | undefin
   return {
     highlights: highlights.map((item) => ({
       title: text(item.title),
+      category: optionalText(item.category),
       range: text(item.range),
       plot: text(item.plot),
       setup: text(item.setup),
@@ -792,7 +1005,46 @@ function normalizeHighlightTopic(value: unknown): HighlightTopicOutput | undefin
       rewriteMethod: text(item.rewriteMethod),
       failureRisk: text(item.failureRisk),
       evidence: text(item.evidence)
-    }))
+    })),
+    narrativeDevices: ensureArray((value as { narrativeDevices?: unknown[] }).narrativeDevices).map((item) => {
+      const object = normalizeObject(item);
+      return {
+        name: text(object.name),
+        type: text(object.type),
+        range: text(object.range),
+        form: text(object.form),
+        function: text(object.function),
+        whyInteresting: text(object.whyInteresting),
+        reusableMethod: text(object.reusableMethod ?? object.reuseMethod),
+        boundary: text(object.boundary),
+        evidence: text(object.evidence)
+      };
+    }),
+    recurringJokes: ensureArray((value as { recurringJokes?: unknown[] }).recurringJokes).map((item) => {
+      const object = normalizeObject(item);
+      return {
+        name: text(object.name ?? object.memory),
+        range: text(object.range),
+        pattern: text(object.pattern),
+        comedicFunction: text(object.comedicFunction ?? object.function),
+        readerPayoff: text(object.readerPayoff ?? object.payoff),
+        reusableMethod: text(object.reusableMethod ?? object.reuseMethod),
+        boundary: text(object.boundary ?? object.reuseBoundary),
+        evidence: text(object.evidence)
+      };
+    }),
+    candidateCoverage: ensureArray((value as { candidateCoverage?: unknown[] }).candidateCoverage).map((item) => {
+      const object = normalizeObject(item);
+      return {
+        candidate: text(object.candidate ?? object.item),
+        type: text(object.type),
+        range: text(object.range),
+        decision: text(object.decision ?? object.status),
+        reason: text(object.reason),
+        finalLocation: text(object.finalLocation ?? object.placement)
+      };
+    }),
+    externalSignalsUsed: normalizeExternalSignals((value as { externalSignalsUsed?: unknown[] }).externalSignalsUsed)
   };
 }
 
@@ -809,6 +1061,32 @@ function normalizeSettingEntries(value: unknown): SettingTopicEntry[] {
     reuseBoundary: text(item.reuseBoundary),
     range: text(item.range),
     evidence: text(item.evidence)
+  }));
+}
+
+function normalizeCandidateItems(value: unknown): CandidateItem[] {
+  return ensureArray(value).map((item) => normalizeObject(item)).map((item) => ({
+    name: text(item.name),
+    type: text(item.type),
+    range: text(item.range),
+    reason: text(item.reason),
+    evidence: text(item.evidence),
+    sourceSignals: text(item.sourceSignals),
+    confidence: text(item.confidence)
+  }));
+}
+
+function normalizeExternalSignals(value: unknown): ExternalDiscussionSignal[] {
+  return ensureArray(value).map((item) => normalizeObject(item)).map((item) => ({
+    platform: text(item.platform),
+    sourceType: text(item.sourceType),
+    title: text(item.title),
+    url: optionalText(item.url) ?? "",
+    summary: text(item.summary),
+    engagement: text(item.engagement),
+    credibility: text(item.credibility),
+    relevance: text(item.relevance),
+    candidateHint: text(item.candidateHint)
   }));
 }
 
